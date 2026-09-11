@@ -1,0 +1,969 @@
+{
+  "manual": "base_ii_clearing_interchange_formats_tc_01_to_tc_49",
+  "edition_a": "20221015",
+  "edition_b": "20230415",
+  "summary": {
+    "section_added": 4,
+    "section_removed": 1,
+    "duplicate_position_warning": 8,
+    "field_became_defined": 12,
+    "row_content_changed": 1,
+    "card_content_changed": 30,
+    "section_renamed": 1
+  },
+  "changes": [
+    {
+      "change_type": "section_added",
+      "title": "TC 33.A - CP 07 TCR A Poland - MC Specific - Commercial Cards",
+      "num_rows": 8,
+      "num_cards": 8
+    },
+    {
+      "change_type": "section_added",
+      "title": "TC 33.A - CP 12 TCR 2 Merchant Data",
+      "num_rows": 11,
+      "num_cards": 11
+    },
+    {
+      "change_type": "section_added",
+      "title": "TC 33.A - CP 12 TCR 3 Gateway Data, continuation",
+      "num_rows": 4,
+      "num_cards": 4
+    },
+    {
+      "change_type": "section_added",
+      "title": "TC 33.A - CP 12 TCR 4 Gateway Data, continuation",
+      "num_rows": 8,
+      "num_cards": 8
+    },
+    {
+      "change_type": "section_removed",
+      "title": "TC 33.A - CP 12 TCR 2 Gateway Data",
+      "num_rows": 5,
+      "num_cards": 5
+    },
+    {
+      "change_type": "duplicate_position_warning",
+      "title": "TC 05 - TCR 0",
+      "kind": "card",
+      "duplicate_positions_a": [
+        "58-61"
+      ],
+      "duplicate_positions_b": [
+        "58-61"
+      ]
+    },
+    {
+      "change_type": "field_became_defined",
+      "kind": "row",
+      "subtype": "split",
+      "title": "TC 05 - TCR 2 Argentina",
+      "removed_position": "140-168",
+      "removed_cells": [
+        "140–168",
+        "29",
+        "AN",
+        "Reserved"
+      ],
+      "new_fields": [
+        {
+          "position": "140-143",
+          "cells": [
+            "140–143",
+            "4",
+            "UN",
+            "VAT Rate"
+          ]
+        }
+      ],
+      "remaining_reserved": [
+        {
+          "position": "144-168",
+          "cells": [
+            "144–168",
+            "25",
+            "AN",
+            "Reserved"
+          ]
+        }
+      ]
+    },
+    {
+      "change_type": "field_became_defined",
+      "kind": "card",
+      "subtype": "split",
+      "title": "TC 05 - TCR 2 Argentina",
+      "removed_position": "140-168",
+      "removed_card": {
+        "type": "field_card",
+        "page": 82,
+        "name": "Reserved",
+        "positions": "140–168",
+        "length": "29",
+        "format": "alphanumeric",
+        "description": "This field will be space-filled.",
+        "note": "",
+        "values": "",
+        "mapping": ""
+      },
+      "new_fields": [
+        {
+          "position": "140-143",
+          "card": {
+            "type": "field_card",
+            "page": 82,
+            "name": "VAT Rate",
+            "positions": "140–143",
+            "length": "4",
+            "format": "unpacked numeric",
+            "description": "This field will contain the IRF VAT rate provided by the Acquirer or Issuer that will be used to calculate the VAT on IRF. Two (2) decimal positions are applied.",
+            "note": "",
+            "values": "",
+            "mapping": ""
+          }
+        }
+      ],
+      "remaining_reserved": [
+        {
+          "position": "144-168",
+          "card": {
+            "type": "field_card",
+            "page": 82,
+            "name": "Reserved",
+            "positions": "144–168",
+            "length": "25",
+            "format": "alphanumeric",
+            "description": "This field will be space-filled.",
+            "note": "",
+            "values": "",
+            "mapping": ""
+          }
+        }
+      ]
+    },
+    {
+      "change_type": "row_content_changed",
+      "position": "20-21",
+      "column": "Contents",
+      "old": "Installment Payment Indicator",
+      "new": "Payment Indicator",
+      "similarity_ratio": 0.739,
+      "title": "TC 05 - TCR 2 Argentina"
+    },
+    {
+      "change_type": "card_content_changed",
+      "position": "5-16",
+      "field": "description",
+      "old": "This field will contain the total amount of the Installment Payments and must contain the total amount approved in the authorization message. If the value of the Installment Payment Indicator in positions 20–21 contains a CO or CD, this field must contain all zeros. If the value in positions 20–21 contains PA and the value of Installment Payment Number in positions 24–25 contains all zeros, this field must contain all zeros.",
+      "new": "This field will contain the total amount of the Installment Payments and must contain the total amount approved in the authorization message. If the value of the Payment Indicator in positions 20–21 contains a CO or CD, this field must contain all zeros. If the value in positions 20–21 contains PA and the value of Installment Payment Number in positions 24– 25 contains all zeros, this field must contain all zeros. For cash disbursement, Visa will default to zeros.",
+      "similarity_ratio": 0.929,
+      "title": "TC 05 - TCR 2 Argentina"
+    },
+    {
+      "change_type": "card_content_changed",
+      "position": "20-21",
+      "field": "name",
+      "old": "Installment Payment Indicator",
+      "new": "Payment Indicator",
+      "similarity_ratio": 0.739,
+      "title": "TC 05 - TCR 2 Argentina"
+    },
+    {
+      "change_type": "card_content_changed",
+      "position": "20-21",
+      "field": "description",
+      "old": "This field must contain the installment payment types. Values are: AC (Accelerated plan) l AD (Installments accelerated and deferred) l AN (Installments accelerated) l CC (Merchant installments) l CD (Sale deferred) l CO (Sale) l CR (Issuer Installments) l GB (Govern plan) l PA (Agro installments deferred) l",
+      "new": "This field must contain the installment payment types. Values are: AC (Accelerated plan) l AD (Installments accelerated and deferred) l AN (Installments accelerated) l CC (Merchant installments) l CD (Sale deferred) l CO (Sale to Sale/Cash Disbursement) l CR (Issuer Installments) l GB (Govern plan) l PA (Agro installments deferred) l",
+      "similarity_ratio": 0.96,
+      "title": "TC 05 - TCR 2 Argentina"
+    },
+    {
+      "change_type": "card_content_changed",
+      "position": "22-23",
+      "field": "description",
+      "old": "This field must contain the total number of installments payments. When the value of Installment Payment Indicator in positions 20– 21 is CC, the value in this field must be greater than 01.",
+      "new": "This field must contain the total number of installments payments. When the value of Payment Indicator in positions 20–21 is CC, the value in this field must be greater than 01. For cash disbursement, Visa will default to zeros.",
+      "similarity_ratio": 0.847,
+      "title": "TC 05 - TCR 2 Argentina"
+    },
+    {
+      "change_type": "card_content_changed",
+      "position": "24-25",
+      "field": "description",
+      "old": "This field must contain the current number of installment payments. This field must be less than or equal to the number of installment payments in positions 22–23.",
+      "new": "This field must contain the current number of installment payments. This field must be less than or equal to the number of installment payments in positions 22–23. For cash disbursement, Visa will default to zeros.",
+      "similarity_ratio": 0.865,
+      "title": "TC 05 - TCR 2 Argentina"
+    },
+    {
+      "change_type": "card_content_changed",
+      "position": "26-37",
+      "field": "description",
+      "old": "This field must contain the installment payment interest amount. This field must contain all zeros, when the value of installment payment indicator in positions 20–21 contains one of the following: CC l CO l CR l PA l",
+      "new": "This field must contain the installment payment interest amount. This field must contain all zeros, when the value of payment indicator in positions 20–21 contains one of the following: CC l CO l CR l PA l For cash disbursement, Visa will default to zeros.",
+      "similarity_ratio": 0.867,
+      "title": "TC 05 - TCR 2 Argentina"
+    },
+    {
+      "change_type": "card_content_changed",
+      "position": "38-47",
+      "field": "description",
+      "old": "This field must contain the value added tax (VAT) for the Installment Payment Interest Amount. The value must be less than or equal to Installment Payment Interest Amount in positions 26–37.",
+      "new": "This field must contain the value added tax (VAT) for the Installment Payment Interest Amount. The value must be less than or equal to Installment Payment Interest Amount in positions 26–37. For cash disbursement, Visa will default to zeros.",
+      "similarity_ratio": 0.882,
+      "title": "TC 05 - TCR 2 Argentina"
+    },
+    {
+      "change_type": "card_content_changed",
+      "position": "48-57",
+      "field": "description",
+      "old": "This field must contain the total amount of the Installment Payment Risk Fee. If Installment Payment Indicator in positions 20–21 contains CC and the Installment Payment Number in positions 24–25 contains 01, this field must be greater than zero. For all other Installment Payment Indicators in positions 20–21, the value in this field must be all zeros.",
+      "new": "This field must contain the total amount of the Installment Payment Risk Fee. If Payment Indicator in positions 20–21 contains CC and the Installment Payment Number in positions 24–25 contains 01, this field must be greater than zero. For all other Payment Indicators in positions 20– 21, the value in this field must be all zeros. For cash disbursement, Visa will default to zeros.",
+      "similarity_ratio": 0.897,
+      "title": "TC 05 - TCR 2 Argentina"
+    },
+    {
+      "change_type": "card_content_changed",
+      "position": "58-67",
+      "field": "description",
+      "old": "This field must contain the VAT for the Installment Payment Risk Fee Amount. This field must be less than or equal to Installment Payment Risk Fee Amount in positions 48–57.",
+      "new": "This field must contain the VAT for the Installment Payment Risk Fee Amount. This field must be less than or equal to Installment Payment Risk Fee Amount in positions 48–57. For cash disbursement, Visa will default to zeros.",
+      "similarity_ratio": 0.872,
+      "title": "TC 05 - TCR 2 Argentina"
+    },
+    {
+      "change_type": "card_content_changed",
+      "position": "68",
+      "field": "description",
+      "old": "This field indicates whether the Installment Payment Interest Amount in positions 26–37 must be subtracted from the transaction amount before calculating the Interchange Reimbursement Fee (IRF) and VAT on IRF. S = Subtract l D = Do Not Subtract l",
+      "new": "This field indicates whether the Installment Payment Interest Amount in positions 26–37 must be subtracted from the transaction amount before calculating the Interchange Reimbursement Fee (IRF) and VAT on IRF. S = Subtract l D = Do Not Subtract l For cash disbursement, Visa will default to value \"D\".",
+      "similarity_ratio": 0.899,
+      "title": "TC 05 - TCR 2 Argentina"
+    },
+    {
+      "change_type": "card_content_changed",
+      "position": "69",
+      "field": "description",
+      "old": "This field indicates whether the Installment Payment Interest Risk Fee Amount and the Installment Payment Interest Amount and their VAT are to be disregarded or added to the charges settled to the issuer. Values are: A = Add l D = Do Not Add l",
+      "new": "This field indicates whether the Installment Payment Interest Risk Fee Amount and the Installment Payment Interest Amount and their VAT are to be disregarded or added to the charges settled to the issuer. Values are: A = Add l D = Do Not Add l For cash disbursement, Visa will default to value \"D\".",
+      "similarity_ratio": 0.898,
+      "title": "TC 05 - TCR 2 Argentina"
+    },
+    {
+      "change_type": "card_content_changed",
+      "position": "70-75",
+      "field": "description",
+      "old": "This field will contain the deferred cardholder billing date in the yymmdd format, where: yy (Year) = 00–99 l mm (Month) = 01–12 l dd (Day) = 01–31 l This field must be present when the installment payment indicator in positions 20–21 contains one of the following values: AD l CD l PA l Additionally, this field must not be submitted earlier than the CPD plus one day. For all other values of Installment Payment Indicator in positions 20–21, this field must contain all zeros.",
+      "new": "This field will contain the deferred cardholder billing date in the yymmdd format, where: yy (Year) = 00–99 l mm (Month) = 01–12 l dd (Day) = 01–31 l This field must be present when the payment indicator in positions 20–21 contains one of the following values: AD l CD l PA l Additionally, this field must not be submitted earlier than the CPD. For all other values of Payment Indicator in positions 20–21, this field must contain all zeros.",
+      "similarity_ratio": 0.96,
+      "title": "TC 05 - TCR 2 Argentina"
+    },
+    {
+      "change_type": "card_content_changed",
+      "position": "70-75",
+      "field": "note",
+      "old": "Cardholder Billing Date can be up to 365 calendar days.",
+      "new": "Cardholder Billing Date can be up to 365 calendar days. For cash disbursement, Visa will default to zeros.",
+      "similarity_ratio": 0.683,
+      "title": "TC 05 - TCR 2 Argentina"
+    },
+    {
+      "change_type": "card_content_changed",
+      "position": "76-81",
+      "field": "description",
+      "old": "This field is mandatory and must not be submitted earlier than the CPD plus one day. This field will contain the deferred settlement date in yymmdd format, where: yy (Year) = 00–99 l mm (Month) = 01–12 l dd (Day) = 01–31 l",
+      "new": "This field is mandatory and must not be submitted earlier than the CPD. This field will contain the deferred settlement date in yymmdd format, where: yy (Year) = 00–99 l mm (Month) = 01–12 l dd (Day) = 01–31 l",
+      "similarity_ratio": 0.97,
+      "title": "TC 05 - TCR 2 Argentina"
+    },
+    {
+      "change_type": "card_content_changed",
+      "position": "76-81",
+      "field": "note",
+      "old": "Deferred Settlement Date can be up to 365 calendar days. On purchase reversals, credit voucher originals/reversal transactions, this date should be equal or greater than the Deferred Settlement Date of the Original.",
+      "new": "Deferred Settlement Date can be up to 365 calendar days. On purchase reversals, credit voucher originals/reversal transactions, this date should be equal or greater than the Deferred Settlement Date of the Original. For cash disbursement, Visa will default to zeros.",
+      "similarity_ratio": 0.894,
+      "title": "TC 05 - TCR 2 Argentina"
+    },
+    {
+      "change_type": "card_content_changed",
+      "position": "82-93",
+      "field": "description",
+      "old": "This field can contain the tip amount. If present, the value must be less than or equal to the transaction amount.",
+      "new": "This field can contain the tip amount. If present, the value must be less than or equal to the transaction amount. For cash disbursement, Visa will default to zeros.",
+      "similarity_ratio": 0.817,
+      "title": "TC 05 - TCR 2 Argentina"
+    },
+    {
+      "change_type": "card_content_changed",
+      "position": "134-139",
+      "field": "description",
+      "old": "On purchase originals, this date should be submitted with zeros, Visa will calculate the appropriate date based on the Argentina calendar in yymmdd format, where: yy (Year) = 00–99 l mm (Month) = 01–12 l dd (Day) = 01–31 l On purchase reversals, credit voucher originals/reversal transactions, this date should be retained and returned with the \"purchase original\" Deferred Settlement Date of the Original.",
+      "new": "On purchase originals, this date should be submitted with zeros, Visa will calculate the appropriate date based on the Argentina calendar in yymmdd format, where: yy (Year) = 00–99 l mm (Month) = 01–12 l dd (Day) = 01–31 l On purchase reversals, credit voucher originals/reversal transactions, this date should be retained and returned with the \"purchase original\" Deferred Settlement Date of the Original. For cash disbursement, Visa will default to zeros.",
+      "similarity_ratio": 0.941,
+      "title": "TC 05 - TCR 2 Argentina"
+    },
+    {
+      "change_type": "duplicate_position_warning",
+      "title": "TC 05 - TCR 7 Chip Card Transaction Data",
+      "kind": "card",
+      "duplicate_positions_a": [
+        "1"
+      ],
+      "duplicate_positions_b": [
+        "1"
+      ]
+    },
+    {
+      "change_type": "duplicate_position_warning",
+      "title": "TC 10 - TCR 0",
+      "kind": "card",
+      "duplicate_positions_a": [
+        "77-146"
+      ],
+      "duplicate_positions_b": [
+        "77-146"
+      ]
+    },
+    {
+      "change_type": "duplicate_position_warning",
+      "title": "TC 20 - TCR 0",
+      "kind": "card",
+      "duplicate_positions_a": [
+        "77-146"
+      ],
+      "duplicate_positions_b": [
+        "77-146"
+      ]
+    },
+    {
+      "change_type": "field_became_defined",
+      "kind": "row",
+      "subtype": "split",
+      "title": "TC 33.A - CP 01 TCR 6 Gateway Data",
+      "removed_position": "157-168",
+      "removed_cells": [
+        "157-168",
+        "12",
+        "AN",
+        "Reserved"
+      ],
+      "new_fields": [
+        {
+          "position": "157-158",
+          "cells": [
+            "157-158",
+            "2",
+            "AN",
+            "Mastercard Account Number Indicator"
+          ]
+        }
+      ],
+      "remaining_reserved": [
+        {
+          "position": "159-168",
+          "cells": [
+            "159-168",
+            "10",
+            "AN",
+            "Reserved"
+          ]
+        }
+      ]
+    },
+    {
+      "change_type": "field_became_defined",
+      "kind": "card",
+      "subtype": "split",
+      "title": "TC 33.A - CP 01 TCR 6 Gateway Data",
+      "removed_position": "157-168",
+      "removed_card": {
+        "type": "field_card",
+        "page": 375,
+        "name": "Reserved",
+        "positions": "157-168",
+        "length": "12",
+        "format": "alphanumeric",
+        "description": "This field is reserved; space-filled.",
+        "note": "",
+        "values": "",
+        "mapping": ""
+      },
+      "new_fields": [
+        {
+          "position": "157-158",
+          "card": {
+            "type": "field_card",
+            "page": 375,
+            "name": "Mastercard Account Number Indicator",
+            "positions": "157-158",
+            "length": "2",
+            "format": "alphanumeric",
+            "description": "This field will contain the Mastercard Account Number Indicator.",
+            "note": "",
+            "values": "",
+            "mapping": ""
+          }
+        }
+      ],
+      "remaining_reserved": [
+        {
+          "position": "159-168",
+          "card": {
+            "type": "field_card",
+            "page": 375,
+            "name": "Reserved",
+            "positions": "159-168",
+            "length": "10",
+            "format": "alphanumeric",
+            "description": "This field is reserved; space-filled.",
+            "note": "",
+            "values": "",
+            "mapping": ""
+          }
+        }
+      ]
+    },
+    {
+      "change_type": "field_became_defined",
+      "kind": "row",
+      "subtype": "renamed_in_place",
+      "title": "TC 33.A - CP 01 TCR 8 Supplemental Data",
+      "position": "166-168",
+      "cells_a": [
+        "166-168",
+        "3",
+        "AN",
+        "Reserved"
+      ],
+      "cells_b": [
+        "166-168",
+        "3",
+        "AN",
+        "Foreign Retailer Indicator"
+      ]
+    },
+    {
+      "change_type": "card_content_changed",
+      "position": "158-159",
+      "field": "name",
+      "old": "character Multiple Clearing Sequence Number",
+      "new": "Multiple Clearing Sequence Number",
+      "similarity_ratio": 0.868,
+      "title": "TC 33.A - CP 01 TCR 8 Supplemental Data"
+    },
+    {
+      "change_type": "card_content_changed",
+      "position": "164-165",
+      "field": "description",
+      "old": "This field will contain the Merchant Volume Indicator, submitted by US merchants. Value value: 01 (requested)",
+      "new": "This field will contain the Merchant Volume Indicator, submitted by US merchants.",
+      "similarity_ratio": 0.853,
+      "title": "TC 33.A - CP 01 TCR 8 Supplemental Data"
+    },
+    {
+      "change_type": "card_content_changed",
+      "position": "164-165",
+      "field": "values",
+      "old": "",
+      "new": "01 (requested)",
+      "similarity_ratio": 0.0,
+      "title": "TC 33.A - CP 01 TCR 8 Supplemental Data"
+    },
+    {
+      "change_type": "field_became_defined",
+      "kind": "card",
+      "subtype": "renamed_in_place",
+      "title": "TC 33.A - CP 01 TCR 8 Supplemental Data",
+      "position": "166-168",
+      "card_a": {
+        "type": "field_card",
+        "page": 383,
+        "name": "Reserved",
+        "positions": "166-168",
+        "length": "3",
+        "format": "alphanumeric",
+        "description": "This field will contain spaces.",
+        "note": "",
+        "values": "",
+        "mapping": ""
+      },
+      "card_b": {
+        "type": "field_card",
+        "page": 383,
+        "name": "Foreign Retailer Indicator",
+        "positions": "166-168",
+        "length": "3",
+        "format": "alphanumeric",
+        "description": "This field will contain the Foreign Retailer Indicator. This indicator comes from the V.I.P. Field 104 Usage 2 Dataset ID 56 Tag 04, and allows merchants to identify themselves as foreign retailer under a marketplace.",
+        "note": "",
+        "values": " F = Retailer is in a different country l All spaces = Retailer is not located in a different country l",
+        "mapping": ""
+      }
+    },
+    {
+      "change_type": "field_became_defined",
+      "kind": "row",
+      "subtype": "split",
+      "title": "TC 33.A - CP 01 TCR B Gateway Data (Cont'd)",
+      "removed_position": "151-168",
+      "removed_cells": [
+        "151-168",
+        "18",
+        "AN",
+        "Reserved"
+      ],
+      "new_fields": [
+        {
+          "position": "151-153",
+          "cells": [
+            "151-153",
+            "3",
+            "AN",
+            "American Express Function Code"
+          ]
+        }
+      ],
+      "remaining_reserved": [
+        {
+          "position": "154-168",
+          "cells": [
+            "154-168",
+            "15",
+            "AN",
+            "Reserved"
+          ]
+        }
+      ]
+    },
+    {
+      "change_type": "field_became_defined",
+      "kind": "card",
+      "subtype": "split",
+      "title": "TC 33.A - CP 01 TCR B Gateway Data (Cont'd)",
+      "removed_position": "151-168",
+      "removed_card": {
+        "type": "field_card",
+        "page": 415,
+        "name": "Reserved",
+        "positions": "151-168",
+        "length": "18",
+        "format": "alphanumeric",
+        "description": "This field is reserved; space-filled.",
+        "note": "",
+        "values": "",
+        "mapping": ""
+      },
+      "new_fields": [
+        {
+          "position": "151-153",
+          "card": {
+            "type": "field_card",
+            "page": 415,
+            "name": "American Express Function Code",
+            "positions": "151-153",
+            "length": "3",
+            "format": "alphanumeric",
+            "description": "This field will contain the American Express Function Code, used in Transit transactions. Source: F104 DS66 T10. Maps to AMEX DF 24 Function Code.",
+            "note": "",
+            "values": "",
+            "mapping": ""
+          }
+        }
+      ],
+      "remaining_reserved": [
+        {
+          "position": "154-168",
+          "card": {
+            "type": "field_card",
+            "page": 415,
+            "name": "Reserved",
+            "positions": "154-168",
+            "length": "15",
+            "format": "alphanumeric",
+            "description": "This field is reserved for future use.",
+            "note": "",
+            "values": "",
+            "mapping": ""
+          }
+        }
+      ]
+    },
+    {
+      "change_type": "card_content_changed",
+      "position": "85-124",
+      "field": "name",
+      "old": "character American Express - Charge Descriptor 3",
+      "new": "American Express - Charge Descriptor 3",
+      "similarity_ratio": 0.884,
+      "title": "TC 33.A - CP 04 TCR 1 Level II Data - American Express"
+    },
+    {
+      "change_type": "card_content_changed",
+      "position": "113-132",
+      "field": "name",
+      "old": "character Mastercard - Card Acceptor VAT Number",
+      "new": "Mastercard - Card Acceptor VAT Number",
+      "similarity_ratio": 0.881,
+      "title": "TC 33.A - CP 04 TCR 2 Level III Data - Purchasing Transaction Summary"
+    },
+    {
+      "change_type": "card_content_changed",
+      "position": "56-61",
+      "field": "name",
+      "old": "character Departure Date",
+      "new": "Departure Date",
+      "similarity_ratio": 0.737,
+      "title": "TC 33.A - CP 05 TCR 0 Passenger Itinerary Data"
+    },
+    {
+      "change_type": "card_content_changed",
+      "position": "64",
+      "field": "name",
+      "old": "Ticket Change Indicator",
+      "new": "character Ticket Change Indicator",
+      "similarity_ratio": 0.821,
+      "title": "TC 33.A - CP 05 TCR 1 Passenger Itinerary Data (Cont'd)"
+    },
+    {
+      "change_type": "card_content_changed",
+      "position": "59-83",
+      "field": "name",
+      "old": "character Conjunctions Ticket_Leg 2",
+      "new": "Conjunctions Ticket_Leg 2",
+      "similarity_ratio": 0.833,
+      "title": "TC 33.A - CP 05 TCR 3 Passenger Itinerary Data (Cont'd)"
+    },
+    {
+      "change_type": "card_content_changed",
+      "position": "59-83",
+      "field": "name",
+      "old": "Conjunctions Ticket_Leg 4",
+      "new": "character Conjunctions Ticket_Leg 4",
+      "similarity_ratio": 0.833,
+      "title": "TC 33.A - CP 05 TCR 5 Passenger Itinerary Data (Cont'd)"
+    },
+    {
+      "change_type": "duplicate_position_warning",
+      "title": "TC 33.A - CP 09 TCR 1 Push Payment - Original Credit Transactions",
+      "kind": "card",
+      "duplicate_positions_a": [
+        "59-78"
+      ],
+      "duplicate_positions_b": [
+        "59-78"
+      ]
+    },
+    {
+      "change_type": "card_content_changed",
+      "position": "37-38",
+      "field": "name",
+      "old": "character Source of Funds",
+      "new": "Source of Funds",
+      "similarity_ratio": 0.75,
+      "title": "TC 33.A - CP 09 TCR 1 Push Payment - Original Credit Transactions"
+    },
+    {
+      "change_type": "field_became_defined",
+      "kind": "row",
+      "subtype": "split",
+      "title": "TC 33.A - CP 12 TCR 0 Transaction Data",
+      "removed_position": "36-168",
+      "removed_cells": [
+        "36-168",
+        "133",
+        "AN",
+        "Reserved"
+      ],
+      "new_fields": [
+        {
+          "position": "36-105",
+          "cells": [
+            "36-105",
+            "70",
+            "ANS",
+            "Persistent FX - Exchange Provider"
+          ]
+        }
+      ],
+      "remaining_reserved": [
+        {
+          "position": "106-113",
+          "cells": [
+            "106-113",
+            "8",
+            "AN",
+            "Persistent FX - Exchange Rate"
+          ]
+        },
+        {
+          "position": "114-168",
+          "cells": [
+            "114-168",
+            "55",
+            "AN",
+            "Reserved"
+          ]
+        }
+      ]
+    },
+    {
+      "change_type": "field_became_defined",
+      "kind": "card",
+      "subtype": "split",
+      "title": "TC 33.A - CP 12 TCR 0 Transaction Data",
+      "removed_position": "36-168",
+      "removed_card": {
+        "type": "field_card",
+        "page": 543,
+        "name": "Reserved",
+        "positions": "36-168",
+        "length": "133",
+        "format": "alphanumeric",
+        "description": "This field is reserved for future use.",
+        "note": "",
+        "values": "",
+        "mapping": ""
+      },
+      "new_fields": [
+        {
+          "position": "36-105",
+          "card": {
+            "type": "field_card",
+            "page": 545,
+            "name": "Persistent FX - Exchange Provider",
+            "positions": "36-105",
+            "length": "70",
+            "format": "alphanumeric special",
+            "description": "This field will contain the Persistent FX - Exchange Provider. Source: F111 DSID 01 T80",
+            "note": "",
+            "values": "",
+            "mapping": ""
+          }
+        }
+      ],
+      "remaining_reserved": [
+        {
+          "position": "106-113",
+          "card": {
+            "type": "field_card",
+            "page": 545,
+            "name": "character Persistent FX - Exchange Rate",
+            "positions": "106-113",
+            "length": "8",
+            "format": "alphanumeric",
+            "description": "This field will contain the Persistent FX - Exchange Rate. Source: F111 DSID 01 T82",
+            "note": "",
+            "values": "",
+            "mapping": ""
+          }
+        },
+        {
+          "position": "114-168",
+          "card": {
+            "type": "field_card",
+            "page": 545,
+            "name": "Reserved",
+            "positions": "114-168",
+            "length": "55",
+            "format": "alphanumeric",
+            "description": "This field is reserved for future use.",
+            "note": "",
+            "values": "",
+            "mapping": ""
+          }
+        }
+      ]
+    },
+    {
+      "change_type": "card_content_changed",
+      "position": "1-2",
+      "field": "format",
+      "old": "unpacked numeric",
+      "new": "Unpacked Numeric",
+      "similarity_ratio": 0.875,
+      "title": "TC 33.A - CP 12 TCR 0 Transaction Data"
+    },
+    {
+      "change_type": "card_content_changed",
+      "position": "21-35",
+      "field": "description",
+      "old": "A unique message identifier that links a specific capture record among multiple capture records being submitted for a single transaction. All capture records within the same file linked to a single authorization request contain the same message identifier. The same message identifier can be assigned to other related capture records located in additional TCR groups identified by TC 33 Application codes (CP 01 through CP 50).",
+      "new": "This field contains a unique message identifier that links a specific capture record among multiple capture records being submitted for a single transaction. All capture records within the same file linked to a single authorization request contain the same message identifier. The same message identifier can be assigned to other related capture records located in additional TCR groups identified by TC 33 Application codes (CP 01 through CP 50).",
+      "similarity_ratio": 0.975,
+      "title": "TC 33.A - CP 12 TCR 0 Transaction Data"
+    },
+    {
+      "change_type": "field_became_defined",
+      "kind": "row",
+      "subtype": "split",
+      "title": "TC 33.A - CP 12 TCR 1 Merchant Data",
+      "removed_position": "125-168",
+      "removed_cells": [
+        "125-168",
+        "44",
+        "AN",
+        "Reserved"
+      ],
+      "new_fields": [
+        {
+          "position": "125-128",
+          "cells": [
+            "125-128",
+            "4",
+            "ANS",
+            "Agreement ID - Choice Program"
+          ]
+        }
+      ],
+      "remaining_reserved": [
+        {
+          "position": "129-168",
+          "cells": [
+            "129-168",
+            "40",
+            "AN",
+            "Reserved"
+          ]
+        }
+      ]
+    },
+    {
+      "change_type": "field_became_defined",
+      "kind": "card",
+      "subtype": "split",
+      "title": "TC 33.A - CP 12 TCR 1 Merchant Data",
+      "removed_position": "125-168",
+      "removed_card": {
+        "type": "field_card",
+        "page": 547,
+        "name": "Reserved",
+        "positions": "125-168",
+        "length": "44",
+        "format": "alphanumeric",
+        "description": "This field is reserved for future use.",
+        "note": "",
+        "values": "",
+        "mapping": ""
+      },
+      "new_fields": [
+        {
+          "position": "125-128",
+          "card": {
+            "type": "field_card",
+            "page": 550,
+            "name": "Agreement ID - Choice Program",
+            "positions": "125-128",
+            "length": "4",
+            "format": "alphanumeric special",
+            "description": "This field will contain the Agreement ID - Choice Program. Source: F111 DSID 02 TC0",
+            "note": "",
+            "values": "",
+            "mapping": ""
+          }
+        }
+      ],
+      "remaining_reserved": [
+        {
+          "position": "129-168",
+          "card": {
+            "type": "field_card",
+            "page": 550,
+            "name": "character Reserved",
+            "positions": "129-168",
+            "length": "40",
+            "format": "alphanumeric",
+            "description": "This field is reserved for future use.",
+            "note": "",
+            "values": "",
+            "mapping": ""
+          }
+        }
+      ]
+    },
+    {
+      "change_type": "card_content_changed",
+      "position": "1-2",
+      "field": "format",
+      "old": "unpacked numeric",
+      "new": "Unpacked Numeric",
+      "similarity_ratio": 0.875,
+      "title": "TC 33.A - CP 12 TCR 1 Merchant Data"
+    },
+    {
+      "change_type": "duplicate_position_warning",
+      "title": "TC 33.B - CP 59 TCR 1 Push Payment - Original Credit Transaction",
+      "kind": "card",
+      "duplicate_positions_a": [
+        "61-80"
+      ],
+      "duplicate_positions_b": [
+        "61-80"
+      ]
+    },
+    {
+      "change_type": "duplicate_position_warning",
+      "title": "TC 39 - TCR 4 VDAS Forms Data, Exhibit Y or Exhibit 3C",
+      "kind": "row",
+      "duplicate_positions_a": [
+        "12-19",
+        "12-68",
+        "20-27",
+        "28-39",
+        "40",
+        "41-43",
+        "44",
+        "45-56",
+        "57-68",
+        "82-93"
+      ],
+      "duplicate_positions_b": [
+        "12-19",
+        "12-68",
+        "20-27",
+        "28-39",
+        "40",
+        "41-43",
+        "44",
+        "45-56",
+        "57-68",
+        "82-93"
+      ]
+    },
+    {
+      "change_type": "duplicate_position_warning",
+      "title": "TC 39 - TCR 4 VDAS Forms Data, Exhibit Y or Exhibit 3C",
+      "kind": "card",
+      "duplicate_positions_a": [
+        "12-19",
+        "12-68",
+        "20-27",
+        "28-39",
+        "40",
+        "41-43",
+        "44",
+        "45-56",
+        "57-68",
+        "82-93"
+      ],
+      "duplicate_positions_b": [
+        "12-19",
+        "12-68",
+        "20-27",
+        "28-39",
+        "40",
+        "41-43",
+        "44",
+        "45-56",
+        "57-68",
+        "82-93"
+      ]
+    },
+    {
+      "change_type": "section_renamed",
+      "title_a": "TC 05 - TCR D India Recurring Payment",
+      "title_b": "TC 05 - TCR D Recurring Payment",
+      "fuzzy_ratio": 0.912
+    }
+  ]
+}

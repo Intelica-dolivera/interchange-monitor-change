@@ -1,0 +1,24 @@
+{
+  "manual": "base_ii_clearing_interchange_formats_tc_50_to_tc_92",
+  "edition_a": "20250412",
+  "edition_b": "20251018",
+  "summary": {
+    "duplicate_position_warning": 1
+  },
+  "changes": [
+    {
+      "change_type": "duplicate_position_warning",
+      "title": "TC 54 - TCR 0 Edit Package Release 4.0 Table Update Record Transactions",
+      "kind": "card",
+      "duplicate_positions_a": [
+        "30-169"
+      ],
+      "duplicate_positions_b": [
+        "30-169"
+      ],
+      "signature": "Record Hash Total",
+      "signature_position": "3-4"
+    }
+  ],
+  "ai_summary": {}
+}

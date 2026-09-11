@@ -1,0 +1,101 @@
+{
+  "manual": "base_ii_clearing_interchange_formats_tc_50_to_tc_92",
+  "edition_a": "20220423",
+  "edition_b": "20221015",
+  "summary": {
+    "duplicate_position_warning": 1,
+    "card_content_changed": 7
+  },
+  "changes": [
+    {
+      "change_type": "duplicate_position_warning",
+      "title": "TC 54 - TCR 0",
+      "kind": "card",
+      "duplicate_positions_a": [
+        "30-169"
+      ],
+      "duplicate_positions_b": [
+        "30-169"
+      ],
+      "signature": "Record Hash Total",
+      "signature_position": "3-4"
+    },
+    {
+      "change_type": "card_content_changed",
+      "position": "129-132",
+      "field": "description",
+      "old": "A code designating the principal trade, profession, or line of business in which a merchant is engaged, as specified in the International Operating Regulations. The field must contain a valid four-digit numeric Merchant Category Code (MCC).",
+      "new": "A code designating the principal trade, profession, or line of business in which a merchant is engaged, as specified in the Visa Core Rules and Visa Product and Service Rules. The field must contain a valid four-digit numeric Merchant Category Code (MCC).",
+      "similarity_ratio": 0.84,
+      "title": "TC 59 - TCR 0 - Non-Visa Transaction Detail",
+      "signature": "Destination Identifier",
+      "signature_position": "5-10"
+    },
+    {
+      "change_type": "card_content_changed",
+      "position": "75",
+      "field": "description",
+      "old": "Indicates capability of a merchant, acquirer, or cardholder- activated terminal to obtain an authorization and process transaction receipt data. The Visa U.S.A. Operating Regulations refers to these point-of- transaction capability types: Authorization-only capability l Data capture-only capability l Electronic Capability l Manual capability l Semi-electronic capability l The field must contain a space, 0 through 5, or 9.",
+      "new": "Indicates capability of a merchant, acquirer, or cardholder- activated terminal to obtain an authorization and process transaction receipt data. The Visa Core Rules and Visa Product and Service Rules refers to these point-of-transaction capability types: Authorization-only capability l Data capture-only capability l Electronic Capability l Manual capability l Semi-electronic capability l The field must contain a space, 0 through 5, or 9.",
+      "similarity_ratio": 0.924,
+      "title": "TC 59 - TCR 1 - Non-Visa Transaction Detail, Additional Data",
+      "signature": "Data Capture Audit Key",
+      "signature_position": "17-57"
+    },
+    {
+      "change_type": "card_content_changed",
+      "position": "75",
+      "field": "description",
+      "old": "Indicates capability of a merchant, acquirer, or cardholder- activated terminal to obtain an authorization and process transaction receipt data. The Visa U.S.A. Operating Regulations refers to these point-of- transaction capability types: Authorization-only capability l Data capture-only capability l Electronic capability l Manual capability l Semi-electronic capability l The field must contain a space, 0 through 5, or 9.",
+      "new": "Indicates capability of a merchant, acquirer, or cardholder- activated terminal to obtain an authorization and process transaction receipt data. The Visa Core Rules and Visa Product and Service Rules refers to these point-of-transaction capability types: Authorization-only capability l Data capture-only capability l Electronic capability l Manual capability l Semi-electronic capability l The field must contain a space, 0 through 5, or 9.",
+      "similarity_ratio": 0.924,
+      "title": "TC 59 - TCR 1 - American Express",
+      "signature": "Approval Code",
+      "signature_position": "5-10"
+    },
+    {
+      "change_type": "card_content_changed",
+      "position": "109-113",
+      "field": "note",
+      "old": "This field is set by Edit Package through control cards for internal Visa users and vendors. For client endpoints that send files directly to VisaNet without an Edit Package, this field is not used and must be set to spaces.",
+      "new": "This field is set by Edit Package through control cards for internal Visa users and vendors. For client endpoints that send files directly to VisaNet without an Edit Package, this field is not used and must be set to spaces. Please refer to the \"Custom Delivery and Split Routing File Types\" table in Chapter 5 of the BASE II Clearing Services manual for the values.",
+      "similarity_ratio": 0.759,
+      "title": "TC 90 - TCR 0 - Outgoing ITF",
+      "signature": "Record Hash Total",
+      "signature_position": "3-4"
+    },
+    {
+      "change_type": "card_content_changed",
+      "position": "109-113",
+      "field": "values",
+      "old": "Spaces are valid for Undifferentiated or General Deliveries CDC = Central Data Capture File ICS = Issuer Clearing House Services File ICSX = Issuer Clearing House Services expedited source file B1T33 = BASE I TC 33 report B1ADV = BASE I AdvicesC URR = Currency Rates RDMS = Report Distribution Management System NSRPT = Offline National Settlement Reports source file UBFIL = Universal Biller File TC 33s, with TCR 0 UBF ID = UBF EPUPD = Edit Package Update ASRA = Acquirer Services Reports and Advices DBRAW = Debit Raw Data DBRPT = Debit Report source file UKNEG = UK National Negative File",
+      "new": "",
+      "similarity_ratio": 0.0,
+      "title": "TC 90 - TCR 0 - Outgoing ITF",
+      "signature": "Record Hash Total",
+      "signature_position": "3-4"
+    },
+    {
+      "change_type": "card_content_changed",
+      "position": "109-113",
+      "field": "note",
+      "old": "Set by BASE II for the customized delivery file type. For Visa use. Values continued: EBFIL = Electronic Bill Payment Presentment ATMOC = ATM Originated Credit ATMOD = ATM Originated Deposit ATMOR = ATM Originated Items BAKOF = Backoffice Items ORIG = Original Drafts NONFI = Nonfinancial Items FINAN = Financial Items FRAUD = TC40 Fraud file NARS = National Application Review Service JNS = Japan National Net Reports UNDIF = Any transactions not chosen for any other delivery file type REWRP = TC33 Daily Points Balance REWRE = TC33 Daily Incremental Enrollment REWME = TC33 Monthly Enrollment Detail OPNFM = TC50 where Service ID = ‘OPNFMT' CR3RD = TC50 where Service ID = ‘COMMCL' CRLID = TC50 where Service ID = 'CORPCL' LG3RD = TC50 where Service ID = 'COMMLL' LGLID = TC50 where Service ID = ‘CORPLL' CRADE = TC50 where Service ID = ‘CORPCD' PRCHL = TC50 where Service ID = ‘PURCHL' GNLID = TC50 where Service ID = ‘COMMXL' CRAD3 = TC50 where Service ID = ‘COMMCA' LGAD3 = TC50 where Service ID ='COMMLA' LGADE = TC50 where Service ID = ‘CORPLA' GNADE = TC50 where Service ID = ‘COMMXA' PRCHA = TC50 where Service ID = ‘PURCHA' CARNT = TC50 where Service ID = ‘CORPCA' LODGE = TC50 where Service ID = ‘CORPLG' GENER = TC50 where Service ID = ‘COMMGN' FLEET = TC50 where Service ID = ‘COMFLT' PASID = TC 50s with TCR0 Service Identifier = CORPAI PASIG = TC 50s with TCR0 Service Identifier = COMMAG PASLS = TC 50s with TCR0 Service Identifier = CORPAS PASL3 = TC 50s with TCR0 Service Identifier = COMMAS ASSMT Loyalty - TC10 and TC20 Values continued: ASSMG Loyalty Generic file SWSTK Sweepstakes - TC10 and TC20 SWSTG Sweepstakes Generic File VCMSR = VCMS Responder identifiers",
+      "new": "Set by BASE II for the customized delivery file type. For Visa use. Please refer to the \"Custom Delivery and Split Routing File Types\" table in Chapter 5 of the BASE II Clearing Services manual for the values.",
+      "similarity_ratio": 0.081,
+      "title": "TC 90 - TCR 0 - Incoming ITF",
+      "signature": "Record Hash Total",
+      "signature_position": "3-4"
+    },
+    {
+      "change_type": "card_content_changed",
+      "position": "109-113",
+      "field": "values",
+      "old": "are: Spaces are valid for Undifferentiated or General Deliveries NNSS = National Net Settled transactions RTRN = BASE II Return File REHV2 = TC 04s with reason code HV2 READV = TC 04s CDC = Central Data Capture File ICS = Issuer Clearing House Services File ICSX = Issuer Clearing House Services expedited source file B1T33 = BASE I TC 33 report B1ADV = BASE I Advices CURR = Currency Rates RDMS = Report Distribution Management System CRIS = Cardholder Risk Identification Service source file SETLM = TC 46s—machine readable SETLR = Settlement Report SETLP = Printable Settlement Report NSRPT = Offline National Settlement Reports source file UBFIL = Universal Biller File EPUPD = Edit Package Update ASRA = Acquirer Services Reports and Advices DBRAW = Debit Raw Data DBRPT = Debit Reports ATMFC = ATM format conversion credit UKNEG = UK National Negative File ATMFD = ATM format conversion deposit ATMAF = ATM format conversion undifferentiated ISO = ISO formatted POSOR = POS originals (non-ATM) ATMBC = ATM Originated Backoffice Credit ATMBD = ATM Originated Backoffice Deposit ATMBO = ATM Originated Backoffice Items",
+      "new": "",
+      "similarity_ratio": 0.0,
+      "title": "TC 90 - TCR 0 - Incoming ITF",
+      "signature": "Record Hash Total",
+      "signature_position": "3-4"
+    }
+  ]
+}

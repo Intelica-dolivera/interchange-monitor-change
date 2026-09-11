@@ -1,0 +1,181 @@
+{
+  "manual": "base_ii_clearing_edit_package_messages",
+  "edition_a": "20220423",
+  "edition_b": "20221015",
+  "summary": {
+    "ficha_added": 18,
+    "ficha_removed": 2,
+    "ficha_content_changed": 5
+  },
+  "changes": [
+    {
+      "change_type": "ficha_added",
+      "code": "V0319",
+      "title": "MCC IS INVALID FOR TRANSACTION WITH THIS ACCOUNT NUMBER"
+    },
+    {
+      "change_type": "ficha_added",
+      "code": "V0320",
+      "title": "TRANSACTION NOT ALLOWED WITH THIS ACCOUNT NUMBER"
+    },
+    {
+      "change_type": "ficha_added",
+      "code": "V0321",
+      "title": "BUSINESS APPLICATION ID IS INVALID FOR TRANSACTION WITH THIS ACCOUNT NUMBER"
+    },
+    {
+      "change_type": "ficha_added",
+      "code": "V0322",
+      "title": "CASHBACK MUST BE ZERO FOR TRANSACTION WITH THIS ACCOUNT NUMBER"
+    },
+    {
+      "change_type": "ficha_added",
+      "code": "V1205",
+      "title": "DEFERRED SETTLEMENT DATE IS MISSING OR INVALID"
+    },
+    {
+      "change_type": "ficha_added",
+      "code": "V1310",
+      "title": "RECURRING PAYMENT TYPE IS INVALID"
+    },
+    {
+      "change_type": "ficha_added",
+      "code": "V1311",
+      "title": "PAYMENT AMOUNT INDICATOR PER TRANSACTION IS INVALID"
+    },
+    {
+      "change_type": "ficha_added",
+      "code": "V1312",
+      "title": "NUMBER OF RECURRING PAYMENT IS INVALID"
+    },
+    {
+      "change_type": "ficha_added",
+      "code": "V1313",
+      "title": "FREQUENCY OF RECURRING PAYMENT IS INVALID"
+    },
+    {
+      "change_type": "ficha_added",
+      "code": "V1314",
+      "title": "REGISTRATION REFERENCE NUMBER IS INVALID"
+    },
+    {
+      "change_type": "ficha_added",
+      "code": "V1315",
+      "title": "MAXIMUM RECURRING PAYMENT AMOUNT IS INVALID"
+    },
+    {
+      "change_type": "ficha_added",
+      "code": "V1316",
+      "title": "VALIDATION INDICATOR IS INVALID"
+    },
+    {
+      "change_type": "ficha_added",
+      "code": "V1317",
+      "title": "RECURRING PAYMENT TYPE IS INVALID FOR INDIA ISSUED PURCHASE ORIGINAL WITH NON-SECURED ELECTRONIC COMMERCE"
+    },
+    {
+      "change_type": "ficha_added",
+      "code": "V1318",
+      "title": "RECURRING PAYMENT TYPE IS INVALID FOR INDIA ISSUED PURCHASE ORIGINAL"
+    },
+    {
+      "change_type": "ficha_added",
+      "code": "V1319",
+      "title": "POS ENVIRONMENT MUST BE R FOR INDIA ISSUED PURCHASE ORIGINAL WITH TCR D RECURRING PAYMENT DATA"
+    },
+    {
+      "change_type": "ficha_added",
+      "code": "V1320",
+      "title": "TCR D DATA MUST BE PRESENT FOR RECURRING TRANSACTIONS WITH INDIA ISSUED PURCHASE ORIGINALS"
+    },
+    {
+      "change_type": "ficha_added",
+      "code": "VFG",
+      "title": "VFG"
+    },
+    {
+      "change_type": "ficha_added",
+      "code": "Visa File Gateway (VFG)",
+      "title": "Visa File Gateway (VFG)"
+    },
+    {
+      "change_type": "ficha_removed",
+      "code": "V0414",
+      "title": "CHARGEBACK REFERENCE NUMBER MUST BE ZERO FOR ORIGINAL SALES DRAFTS AND THEIR REVERSALS"
+    },
+    {
+      "change_type": "ficha_removed",
+      "code": "V0513",
+      "title": "CHARGEBACK REFERENCE NBR IS NOT NUMERIC"
+    },
+    {
+      "change_type": "ficha_content_changed",
+      "code": "BASE II CIB",
+      "field": "description",
+      "old": "A six-digit system number used by Visa to identify the processing centers and clients. CIBs are assigned to processing centers operated by clients, nonclient processing centers designated by clients, and the clients that operate processing centers. Note: The BASE II CIB of a given processing center does not necessarily appear in the cardholder account numbers processed by that center.",
+      "new": "A six-digit system number used by Visa to identify the processing centers and clients. Center Identification Blocks (CIBs) are assigned to processing centers operated by clients, nonclient processing centers designated by clients, and the clients that operate processing centers. Note: The BASE II CIB of a given processing center does not necessarily appear in the cardholder account numbers processed by that center.",
+      "similarity_ratio": 0.961,
+      "ai_category": "editorial_reword",
+      "ai_reason": "El texto describe lo mismo pero se añadió el término 'Center Identification Blocks (CIBs)' para clarificar el concepto sin alterar el significado o reglas de negocio.",
+      "disappeared_content": [],
+      "safety_net_override": false
+    },
+    {
+      "change_type": "ficha_content_changed",
+      "code": "V0082",
+      "field": "transaction_types",
+      "old": "Account Funding and Original Credit – Originals and Reversals",
+      "new": "Sales Draft – Originals and Reversals | Account Funding – Originals and Reversals | Credit Voucher/Account Funding CV – Originals and Reversals | Original Credit – Originals and Reversals",
+      "similarity_ratio": 0.492,
+      "ai_category": "business_rule_change",
+      "ai_reason": "La lista de Transaction Types se amplio con nuevos tipos de transacciones, lo que implica un cambio en los valores validos para la validacion.",
+      "disappeared_content": [],
+      "safety_net_override": false
+    },
+    {
+      "change_type": "ficha_content_changed",
+      "code": "V0107",
+      "field": "description",
+      "old": "The Account Number must be a 16-digit numeric. The first nine characters must be valid according to the current ARDEF Table. Use of the PAN Token is allowed for cash transactions, purchase and credit voucher original and reversal transactions, account funding and original credit transactions.",
+      "new": "The Account Number must be a 16-digit numeric. The first nine characters must be valid according to the current ARDEF Table.",
+      "similarity_ratio": 0.595,
+      "ai_category": "business_rule_change",
+      "ai_reason": "El texto nuevo elimina la mención de la utilización del PAN Token en transacciones específicas, lo que podría alterar la condición de validación para ciertos tipos de transacciones.",
+      "disappeared_content": [
+        "Use of the PAN Token is allowed for cash transactions, purchase and credit voucher original and reversal transactions, account funding and original credit transactions."
+      ],
+      "safety_net_override": false
+    },
+    {
+      "change_type": "ficha_content_changed",
+      "code": "V1209",
+      "field": "transaction_types",
+      "old": "All financial drafts excluding OCTs and AFTs | Fee Collection | Funds Disbursement",
+      "new": "All financial drafts excluding OCTs and AFTs.",
+      "similarity_ratio": 0.693,
+      "ai_category": "business_rule_change",
+      "ai_reason": "El texto solo cambió el punto final al final de la frase, manteniendo el mismo significado y contenido.",
+      "disappeared_content": [
+        "AFTs | Fee Collection | Funds Disbursement"
+      ],
+      "safety_net_override": true,
+      "ai_original_category": "editorial_reword"
+    },
+    {
+      "change_type": "ficha_content_changed",
+      "code": "V1210",
+      "field": "transaction_types",
+      "old": "All financial drafts excluding OCTs and AFTs",
+      "new": "All financial drafts excluding Purchase Originals, OCTs and AFTs.",
+      "similarity_ratio": 0.807,
+      "ai_category": "editorial_reword",
+      "ai_reason": "El texto describe lo mismo, solo se agregó 'Purchase Originals' para claridad en la lista de transacciones excluidas.",
+      "disappeared_content": [],
+      "safety_net_override": false
+    }
+  ],
+  "ai_summary": {
+    "editorial_reword": 2,
+    "business_rule_change": 3
+  }
+}

@@ -1,0 +1,291 @@
+{
+  "manual": "base_ii_clearing_edit_package_messages",
+  "edition_a": "20221015",
+  "edition_b": "20230415",
+  "summary": {
+    "ficha_added": 2,
+    "ficha_removed": 1,
+    "ficha_content_changed": 33
+  },
+  "changes": [
+    {
+      "change_type": "ficha_added",
+      "code": "V1321",
+      "title": "AR VAT RATE NOT NUMERIC"
+    },
+    {
+      "change_type": "ficha_added",
+      "code": "V1322",
+      "title": "PAYMENT INDICATOR MUST BE CO FOR CASH DISBURSEMENTS TRANSACTIONS"
+    },
+    {
+      "change_type": "ficha_removed",
+      "code": "V1082",
+      "title": "MERCHANT VOLUME INDICATOR MP IS VALID ONLY FOR US-ACQUIRED PURCHASE AND CREDIT VOUCHER ORIGINALS AND REVERSALS"
+    },
+    {
+      "change_type": "ficha_content_changed",
+      "code": "V0039",
+      "field": "description",
+      "old": "The Purchase Identifier must be left-justified and the first position cannot contain a space. If the Purchase Identifier Format field contains a value of 1 through 5, this field must not be all spaces.",
+      "new": "The Purchase Identifier must be left-justified and the first position cannot contain a space. If the Purchase Identifier Format field contains a value of 1, 3, 4, 5, or 6, Purchase Identifier must not be all spaces.",
+      "similarity_ratio": 0.88
+    },
+    {
+      "change_type": "ficha_content_changed",
+      "code": "V0313",
+      "field": "title",
+      "old": "PURCHASE IDENTIFIER FORMAT MUST BE SPACE, 0, 1, 3, 4 OR 5",
+      "new": "PURCHASE IDENTIFIER FORMAT MUST BE SPACE, 0, 1, 3, 4, 5, OR 6",
+      "similarity_ratio": 0.949
+    },
+    {
+      "change_type": "ficha_content_changed",
+      "code": "V0313",
+      "field": "description",
+      "old": "The Purchase Identifier Format field must contain a space, or 0, 1, 3, 4 or 5.",
+      "new": "The Purchase Identifier Format field must contain a space, or 0, 1, 3, 4, 5, or 6.",
+      "similarity_ratio": 0.963
+    },
+    {
+      "change_type": "ficha_content_changed",
+      "code": "V0313",
+      "field": "transaction_types",
+      "old": "Sales Draft – 2nd Presentment of Original and 2nd Presentment of Reversal | Account Funding – 2nd Presentment of Original and 2nd Presentment of Reversal | Credit Voucher/Account Funding CV – 2nd Presentment of Original and 2nd Presentment of Reversal | Original Credit – 2nd Presentment of Original and 2nd Presentment of Reversal | Cash Disbursement – 2nd Presentment of Original and 2nd Presentment of Reversal | Sales Draft – Chargebacks and Chargeback Reversals 1st and 2nd Presentments | Account Funding – Chargebacks and Chargeback Reversals 1st and 2nd Presentments | Credit Voucher/Account Funding CV – Chargebacks and Chargeback Reversals 1st and 2nd Presentments | Original Credit – Chargebacks and Chargeback Reversals 1st and 2nd Presentments | Cash Disbursement – Chargebacks and Chargeback Reversals 1st and 2nd Presentments",
+      "new": "Dispute Financials – Chargeback, representments, representment reversal, and chargeback reversals.",
+      "similarity_ratio": 0.137
+    },
+    {
+      "change_type": "ficha_content_changed",
+      "code": "V0407",
+      "field": "title",
+      "old": "REQUESTED PAYMENT SERVICE REQUIRES AUTH CHARACTERISTICS IND EQUALS B OR P. ACI IS: X",
+      "new": "REQUESTED PAYMENT SERVICE REQUIRES AUTH CHARACTERISTICS IND EQUAL TO P. ACI IS: X",
+      "similarity_ratio": 0.97
+    },
+    {
+      "change_type": "ficha_content_changed",
+      "code": "V0407",
+      "field": "description",
+      "old": "When the Requested Payment Service (RPS) field contains 3 or 5 (CPS/preferred customer), the ACI must contain a value of B (Tokenized e-commerce with mobile device) or P (card not present—preferred customer).",
+      "new": "When the Requested Payment Service (RPS) field contains 3 or 5 (CPS/preferred customer), the ACI must contain a value of P (card not present—preferred customer).",
+      "similarity_ratio": 0.873
+    },
+    {
+      "change_type": "ficha_content_changed",
+      "code": "V0779",
+      "field": "title",
+      "old": "PURCHASE ID FORMAT MUST BE SPACE, 0, 1, 3, 4, OR 5 FOR ORIGINALS AND REVERSALS",
+      "new": "PURCHASE ID FORMAT MUST BE SPACE, 0, 1, 3, 4, 5, OR 6 FOR ORIGINALS AND REVERSALS",
+      "similarity_ratio": 0.969
+    },
+    {
+      "change_type": "ficha_content_changed",
+      "code": "V0779",
+      "field": "description",
+      "old": "For TC 05, when the Usage Code is 1, the Purchase Identifier Format must contain one of the following values: Space = Free text item description or field not used 0 = Free text item description or field not used 1 = Order number 3 = Rental agreement number 4 = Hotel folio number 5 = Invoice number",
+      "new": "For TC 05, when the Usage Code is 1, the Purchase Identifier Format must contain one of the following values: Space = Free text item description or field not used 0 = Free text item description or field not used 1 = Order number 3 = Rental agreement number 4 = Hotel folio number 5 = Invoice number 6 = Pay ID for OCT transactions",
+      "similarity_ratio": 0.949
+    },
+    {
+      "change_type": "ficha_content_changed",
+      "code": "V1008",
+      "field": "title",
+      "old": "MERCHANT VOLUME MUST BE EQUAL TO SPACES, MP, 00, OR 01 TO 99 FOR US- ACQUIRED PURCHASES AND CREDIT VOUCHERS",
+      "new": "MERCHANT VOLUME INDICATOR MUST BE TWO ALPHANUMERIC CHARACTERS: SPACES, 0 TO 9 OR A TO Z.",
+      "similarity_ratio": 0.503
+    },
+    {
+      "change_type": "ficha_content_changed",
+      "code": "V1008",
+      "field": "description",
+      "old": "For purchase and credit transactions and their exception items submitted by U.S. acquirers that contain a TOR 5, the Merchant Volume Indicator must contain a valid value (that is, spaces, MP, 00, or 01 through 99).",
+      "new": "The Merchant Volume Indicator must contain a valid value (that is, SPACES, 0 to 9 or A to Z).",
+      "similarity_ratio": 0.528
+    },
+    {
+      "change_type": "ficha_content_changed",
+      "code": "V1073",
+      "field": "title",
+      "old": "REQUESTED PAYMENT SERVICE REQUIRES AUTH CHARACTERISTICS IND EQUAL B OR W. ACI IS: X",
+      "new": "REQUESTED PAYMENT SERVICE REQUIRES AUTH CHARACTERISTICS IND EQUAL TO W. ACI IS: X",
+      "similarity_ratio": 0.976
+    },
+    {
+      "change_type": "ficha_content_changed",
+      "code": "V1089",
+      "field": "description",
+      "old": "For U.S. Electronic Commerce Payment Service original sales drafts and reversals transactions, submitted combination of Mail/Telephone or Electronic Commerce Indicator and Authorization Characteristics Indicator is not valid. Only the following combinations are valid: l If ACI is B, MOTO ECI must be 5 l If ACI is U, MOTO ECI must be 5 l If ACI is S, MOTO ECI must be 6 l If ACI is W, MOTO ECI must be 7 l If MOTO ECI is 5, ACI must be B or U l If MOTO ECI is 6, ACI must be S For Bill Payment transactions (Market-Specific Authorization Data Indicator of B), submitted with MOTO/ECI of 7, the Authorization Characteristics Indicator must not be: l A (Card Present) l E (Card Present with merchant name and location data) l K (Card Present with key entry)",
+      "new": "For U.S. Electronic Commerce Payment Service original sales drafts and reversals transactions, submitted combination of Mail/Telephone or Electronic Commerce Indicator and Authorization Characteristics Indicator is not valid. Only the following combinations are valid: l If ACI is U, MOTO ECI must be 5 l If ACI is S, MOTO ECI must be 6 l If ACI is W, MOTO ECI must be 7 l If MOTO ECI is 5, ACI must be U l If MOTO ECI is 6, ACI must be S For Bill Payment transactions (Market-Specific Authorization Data Indicator of B), submitted with MOTO/ECI of 7, the Authorization Characteristics Indicator must not be: l A (Card Present) l E (Card Present with merchant name and location data) l K (Card Present with key entry)",
+      "similarity_ratio": 0.974
+    },
+    {
+      "change_type": "ficha_content_changed",
+      "code": "V1232",
+      "field": "title",
+      "old": "INSTALLMENT PAYMENT TOTAL AMOUNT MUST BE ZEROES WHEN INSTALLMENT PAYMENT INDICATOR IS CO OR CD",
+      "new": "INSTALLMENT PAYMENT TOTAL AMOUNT MUST BE ZEROS WHEN PAYMENT INDICATOR IS CO OR CD",
+      "similarity_ratio": 0.926
+    },
+    {
+      "change_type": "ficha_content_changed",
+      "code": "V1232",
+      "field": "description",
+      "old": "For Argentina NNSS, Installment Payment Total Amount must be zeroes when Installment Payment Indicator is CO or CD.",
+      "new": "For Argentina NNSS, Installment Payment Total Amount must be zeros when Payment Indicator is CO or CD.",
+      "similarity_ratio": 0.94
+    },
+    {
+      "change_type": "ficha_content_changed",
+      "code": "V1232",
+      "field": "action",
+      "old": "Enter the correct numeric value for this field or verify Installment Payment Indicator.",
+      "new": "Enter the correct numeric value for this field or verify Payment Indicator.",
+      "similarity_ratio": 0.926
+    },
+    {
+      "change_type": "ficha_content_changed",
+      "code": "V1233",
+      "field": "title",
+      "old": "INSTALLMENT PAYMENT TOTAL AMOUNT MUST BE ZEROES WHEN INSTALLMENT PAYMENT INDICATOR IS PA AND INSTALLMENT PAYMENT NUMBER IS 0",
+      "new": "INSTALLMENT PAYMENT TOTAL AMOUNT MUST BE ZEROS WHEN PAYMENT INDICATOR IS PA AND INSTALLMENT PAYMENT NUMBER IS 0",
+      "similarity_ratio": 0.945
+    },
+    {
+      "change_type": "ficha_content_changed",
+      "code": "V1233",
+      "field": "description",
+      "old": "For Argentina NNSS, Installment Payment Total Amount must be zeroes when Installment Payment Indicator is PA and Installment Payment Number is 0.",
+      "new": "For Argentina NNSS, Installment Payment Total Amount must be zeros when Payment Indicator is PA and Installment Payment Number is 0.",
+      "similarity_ratio": 0.953
+    },
+    {
+      "change_type": "ficha_content_changed",
+      "code": "V1233",
+      "field": "action",
+      "old": "Enter the correct numeric value for this field or verify Installment Payment Indicator and Installment Payment Number.",
+      "new": "Enter the correct numeric value for this field or verify Payment Indicator and Installment Payment Number.",
+      "similarity_ratio": 0.946
+    },
+    {
+      "change_type": "ficha_content_changed",
+      "code": "V1234",
+      "field": "transaction_types",
+      "old": "Sales Draft – All | Account Funding – All | Credit Voucher/Account Funding CV – All | Original Credit – All",
+      "new": "Sales Draft – All | Account Funding – All | Credit Voucher/Account Funding CV – All | Original Credit – All | Cash Disbursement – Originals and Reversals",
+      "similarity_ratio": 0.823
+    },
+    {
+      "change_type": "ficha_content_changed",
+      "code": "V1235",
+      "field": "title",
+      "old": "INSTALLMENT PAYMENT INDICATOR MUST BE AC, AD, AN, CC, CD, CO, CR, GB OR PA",
+      "new": "PAYMENT INDICATOR MUST BE AC, AD, AN, CC, CD, CO, CR, GB OR PA",
+      "similarity_ratio": 0.912
+    },
+    {
+      "change_type": "ficha_content_changed",
+      "code": "V1235",
+      "field": "description",
+      "old": "For Argentina NNSS, Installment Payment Indicator must be AC, AD, AN, CC, CD, CO, GB or PA.",
+      "new": "For Argentina NNSS, Payment Indicator must be AC, AD, AN, CC, CD, CO, GB or PA.",
+      "similarity_ratio": 0.929
+    },
+    {
+      "change_type": "ficha_content_changed",
+      "code": "V1235",
+      "field": "action",
+      "old": "Verify that the correct Installment Payment Indicator has been entered.",
+      "new": "Verify that the correct Payment Indicator has been entered.",
+      "similarity_ratio": 0.908
+    },
+    {
+      "change_type": "ficha_content_changed",
+      "code": "V1236",
+      "field": "title",
+      "old": "NUMBER OF INSTALLMENT PAYMENTS MUST BE GREATER THAN 1 WHEN INSTALLMENT PAYMENT INDICATOR IS CC",
+      "new": "NUMBER OF INSTALLMENT PAYMENTS MUST BE GREATER THAN 1 WHEN PAYMENT INDICATOR IS CC",
+      "similarity_ratio": 0.932
+    },
+    {
+      "change_type": "ficha_content_changed",
+      "code": "V1236",
+      "field": "description",
+      "old": "For Argentina NNSS, Number of Installment Payments must be greater than 1 when Installment Payment Indicator is CC.",
+      "new": "For Argentina NNSS, Number of Installment Payments must be greater than 1 when Payment Indicator is CC.",
+      "similarity_ratio": 0.945
+    },
+    {
+      "change_type": "ficha_content_changed",
+      "code": "V1238",
+      "field": "title",
+      "old": "INSTALLMENT PAYMENT INTEREST MUST BE ZEROS WHEN INSTALLMENT PAYMENT INDICATOR IS CC, CO, CR OR PA",
+      "new": "INSTALLMENT PAYMENT INTEREST MUST BE ZEROS WHEN PAYMENT INDICATOR IS CC, CO, CR OR PA",
+      "similarity_ratio": 0.934
+    },
+    {
+      "change_type": "ficha_content_changed",
+      "code": "V1238",
+      "field": "description",
+      "old": "For Argentina NNSS, Installment Payment Interest must be zeros when Installment Payment Indicator is CC, CO, CR or PA.",
+      "new": "For Argentina NNSS, Installment Payment Interest must be zeros when Payment Indicator is CC, CO, CR or PA.",
+      "similarity_ratio": 0.946
+    },
+    {
+      "change_type": "ficha_content_changed",
+      "code": "V1238",
+      "field": "action",
+      "old": "Enter the correct numeric value for this field or verify Installment Payment Indicator.",
+      "new": "Enter the correct numeric value for this field or verify Payment Indicator.",
+      "similarity_ratio": 0.926
+    },
+    {
+      "change_type": "ficha_content_changed",
+      "code": "V1240",
+      "field": "title",
+      "old": "INSTALLMENT PAYMENT RISK FEE AMOUNT IS INVALID FOR GIVEN INSTALLMENT PAYMENT INDICATOR AND INSTALLMENT PAYMENT NUMBER",
+      "new": "INSTALLMENT PAYMENT RISK FEE AMOUNT IS INVALID FOR GIVEN PAYMENT INDICATOR AND INSTALLMENT PAYMENT NUMBER",
+      "similarity_ratio": 0.946
+    },
+    {
+      "change_type": "ficha_content_changed",
+      "code": "V1240",
+      "field": "description",
+      "old": "For Argentina NNSS, Installment Payment Risk Fee Amount must be greater than zero when Installment Payment Indicator is CC and Installment Payment Number is 1. Installment Payment Risk Fee Amount must be zeroes when Installment Payment Indicator is not CC",
+      "new": "For Argentina NNSS, Installment Payment Risk Fee Amount must be greater than zero when Payment Indicator is CC and Installment Payment Number is 1. Installment Payment Risk Fee Amount must be zeros when Payment Indicator is not CC",
+      "similarity_ratio": 0.948
+    },
+    {
+      "change_type": "ficha_content_changed",
+      "code": "V1240",
+      "field": "action",
+      "old": "Enter the correct numeric value for this field or verify Installment Payment Indicator.",
+      "new": "Enter the correct numeric value for this field or verify Payment Indicator.",
+      "similarity_ratio": 0.926
+    },
+    {
+      "change_type": "ficha_content_changed",
+      "code": "V1245",
+      "field": "title",
+      "old": "DEFERRED CARDHOLDER BILLING DATE MUST BE ZEROES WHEN INSTALLMENT PAYMENT INDICATOR IS NOT AD, CD OR PA",
+      "new": "DEFERRED CARDHOLDER BILLING DATE MUST BE ZEROS WHEN PAYMENT INDICATOR IS NOT AD, CD OR PA",
+      "similarity_ratio": 0.932
+    },
+    {
+      "change_type": "ficha_content_changed",
+      "code": "V1245",
+      "field": "description",
+      "old": "For Argentina NNSS, Deferred Cardholder Billing Date must be zeroes when Installment Payment Indicator is not AD, CD or PA.",
+      "new": "For Argentina NNSS, Deferred Cardholder Billing Date must be zeros when Payment Indicator is not AD, CD or PA.",
+      "similarity_ratio": 0.944
+    },
+    {
+      "change_type": "ficha_content_changed",
+      "code": "V1245",
+      "field": "action",
+      "old": "Enter zeroes for Deferred Cardholder Billing Date or verify Installment Payment Indicator.",
+      "new": "Enter zeros for Deferred Cardholder Billing Date or verify Payment Indicator.",
+      "similarity_ratio": 0.922
+    }
+  ]
+}

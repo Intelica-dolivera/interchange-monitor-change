@@ -1,0 +1,7097 @@
+{
+  "manual": "base_ii_transactions_quick_reference",
+  "edition_a": "20231014",
+  "edition_b": "20240413",
+  "num_sections_a": 45,
+  "num_sections_b": 45,
+  "sections_matched": [
+    {
+      "title_a": "00 Short Block",
+      "title_b": "00 Short Block",
+      "match_type": "exact",
+      "fuzzy_ratio": 1.0,
+      "duplicate_row_keys_a": [],
+      "duplicate_row_keys_b": [],
+      "rows_matched": [],
+      "rows_removed": [],
+      "rows_added": []
+    },
+    {
+      "title_a": "01 Returned Credit",
+      "title_b": "01 Returned Credit",
+      "match_type": "exact",
+      "fuzzy_ratio": 1.0,
+      "duplicate_row_keys_a": [],
+      "duplicate_row_keys_b": [],
+      "rows_matched": [
+        {
+          "key": [
+            "tcr 0–8",
+            "returned item"
+          ],
+          "cells_a": [
+            "TCR 0–8",
+            "Returned Item"
+          ],
+          "cells_b": [
+            "TCR 0–8",
+            "Returned Item"
+          ]
+        },
+        {
+          "key": [
+            "tcr 9",
+            "identifying data"
+          ],
+          "cells_a": [
+            "TCR 9",
+            "Identifying Data"
+          ],
+          "cells_b": [
+            "TCR 9",
+            "Identifying Data"
+          ]
+        }
+      ],
+      "rows_removed": [],
+      "rows_added": []
+    },
+    {
+      "title_a": "02 Returned Debit",
+      "title_b": "02 Returned Debit",
+      "match_type": "exact",
+      "fuzzy_ratio": 1.0,
+      "duplicate_row_keys_a": [],
+      "duplicate_row_keys_b": [],
+      "rows_matched": [
+        {
+          "key": [
+            "tcr 0–8",
+            "returned item"
+          ],
+          "cells_a": [
+            "TCR 0–8",
+            "Returned Item"
+          ],
+          "cells_b": [
+            "TCR 0–8",
+            "Returned Item"
+          ]
+        },
+        {
+          "key": [
+            "tcr 9",
+            "identifying data"
+          ],
+          "cells_a": [
+            "TCR 9",
+            "Identifying Data"
+          ],
+          "cells_b": [
+            "TCR 9",
+            "Identifying Data"
+          ]
+        }
+      ],
+      "rows_removed": [],
+      "rows_added": []
+    },
+    {
+      "title_a": "03 Returned Nonfinancial",
+      "title_b": "03 Returned Nonfinancial",
+      "match_type": "exact",
+      "fuzzy_ratio": 1.0,
+      "duplicate_row_keys_a": [],
+      "duplicate_row_keys_b": [],
+      "rows_matched": [
+        {
+          "key": [
+            "tcr 0–8",
+            "returned item"
+          ],
+          "cells_a": [
+            "TCR 0–8",
+            "Returned Item"
+          ],
+          "cells_b": [
+            "TCR 0–8",
+            "Returned Item"
+          ]
+        },
+        {
+          "key": [
+            "tcr 9",
+            "identifying data"
+          ],
+          "cells_a": [
+            "TCR 9",
+            "Identifying Data"
+          ],
+          "cells_b": [
+            "TCR 9",
+            "Identifying Data"
+          ]
+        }
+      ],
+      "rows_removed": [],
+      "rows_added": []
+    },
+    {
+      "title_a": "04 Reclassification Advice",
+      "title_b": "04 Reclassification Advice",
+      "match_type": "exact",
+      "fuzzy_ratio": 1.0,
+      "duplicate_row_keys_a": [],
+      "duplicate_row_keys_b": [],
+      "rows_matched": [
+        {
+          "key": [
+            "tcr 0–7",
+            ""
+          ],
+          "cells_a": [
+            "TCR 0–7"
+          ],
+          "cells_b": [
+            "TCR 0–7"
+          ]
+        },
+        {
+          "key": [
+            "tcr 9",
+            ""
+          ],
+          "cells_a": [
+            "TCR 9"
+          ],
+          "cells_b": [
+            "TCR 9"
+          ]
+        }
+      ],
+      "rows_removed": [],
+      "rows_added": []
+    },
+    {
+      "title_a": "05 Sales Draft",
+      "title_b": "05 Sales Draft",
+      "match_type": "exact",
+      "fuzzy_ratio": 1.0,
+      "duplicate_row_keys_a": [],
+      "duplicate_row_keys_b": [],
+      "rows_matched": [
+        {
+          "key": [
+            "tcr 0",
+            "draft data"
+          ],
+          "cells_a": [
+            "TCR 0",
+            "Draft Data"
+          ],
+          "cells_b": [
+            "TCR 0",
+            "Draft Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr 1",
+            "additional data"
+          ],
+          "cells_a": [
+            "TCR 1",
+            "Additional Data"
+          ],
+          "cells_b": [
+            "TCR 1",
+            "Additional Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, argentina"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Argentina"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Argentina"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, bolivia"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Bolivia"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Bolivia"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, brazil"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Brazil"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Brazil"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, chile"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Chile"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Chile"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, colombia"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Colombia"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Colombia"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, japan"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Japan"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Japan"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, mexico"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Mexico"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Mexico"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, paraguay"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Paraguay"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Paraguay"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, russia"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Russia"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Russia"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, south korea"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, South Korea"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, South Korea"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, sweden"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Sweden"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Sweden"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, turkey"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Turkey"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Turkey"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, uruguay"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Uruguay"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Uruguay"
+          ]
+        },
+        {
+          "key": [
+            "tcr 3",
+            "business application data"
+          ],
+          "cells_a": [
+            "TCR 3",
+            "Business Application Data"
+          ],
+          "cells_b": [
+            "TCR 3",
+            "Business Application Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr 3",
+            "car rental"
+          ],
+          "cells_a": [
+            "TCR 3",
+            "Car Rental"
+          ],
+          "cells_b": [
+            "TCR 3",
+            "Car Rental"
+          ]
+        },
+        {
+          "key": [
+            "tcr 3",
+            "emv fleet service"
+          ],
+          "cells_a": [
+            "TCR 3",
+            "EMV Fleet Service"
+          ],
+          "cells_b": [
+            "TCR 3",
+            "EMV Fleet Service"
+          ]
+        },
+        {
+          "key": [
+            "tcr 3",
+            "fleet service"
+          ],
+          "cells_a": [
+            "TCR 3",
+            "Fleet Service"
+          ],
+          "cells_b": [
+            "TCR 3",
+            "Fleet Service"
+          ]
+        },
+        {
+          "key": [
+            "tcr 3",
+            "industry-specific data–business application data"
+          ],
+          "cells_a": [
+            "TCR 3",
+            "Industry-Specific Data–Business Application Data"
+          ],
+          "cells_b": [
+            "TCR 3",
+            "Industry-Specific Data–Business Application Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr 3",
+            "loan detail"
+          ],
+          "cells_a": [
+            "TCR 3",
+            "Loan Detail"
+          ],
+          "cells_b": [
+            "TCR 3",
+            "Loan Detail"
+          ]
+        },
+        {
+          "key": [
+            "tcr 3",
+            "lodging"
+          ],
+          "cells_a": [
+            "TCR 3",
+            "Lodging"
+          ],
+          "cells_b": [
+            "TCR 3",
+            "Lodging"
+          ]
+        },
+        {
+          "key": [
+            "tcr 3",
+            "passenger itinerary data"
+          ],
+          "cells_a": [
+            "TCR 3",
+            "Passenger Itinerary Data"
+          ],
+          "cells_b": [
+            "TCR 3",
+            "Passenger Itinerary Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr 3",
+            "passenger transport ancillary data"
+          ],
+          "cells_a": [
+            "TCR 3",
+            "Passenger Transport Ancillary Data"
+          ],
+          "cells_b": [
+            "TCR 3",
+            "Passenger Transport Ancillary Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr 4",
+            "promotion data"
+          ],
+          "cells_a": [
+            "TCR 4",
+            "Promotion Data"
+          ],
+          "cells_b": [
+            "TCR 4",
+            "Promotion Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr 4",
+            "supplemental financial and promotion data"
+          ],
+          "cells_a": [
+            "TCR 4",
+            "Supplemental Financial and Promotion Data"
+          ],
+          "cells_b": [
+            "TCR 4",
+            "Supplemental Financial and Promotion Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr 4",
+            "supplemental financial data"
+          ],
+          "cells_a": [
+            "TCR 4",
+            "Supplemental Financial Data"
+          ],
+          "cells_b": [
+            "TCR 4",
+            "Supplemental Financial Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr 4",
+            "supplemental visa claims resolution financial data record"
+          ],
+          "cells_a": [
+            "TCR 4",
+            "Supplemental Visa Claims Resolution Financial Data Record"
+          ],
+          "cells_b": [
+            "TCR 4",
+            "Supplemental Visa Claims Resolution Financial Data Record"
+          ]
+        },
+        {
+          "key": [
+            "tcr 5",
+            "payment service data"
+          ],
+          "cells_a": [
+            "TCR 5",
+            "Payment Service Data"
+          ],
+          "cells_b": [
+            "TCR 5",
+            "Payment Service Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr 6",
+            "limited-use data"
+          ],
+          "cells_a": [
+            "TCR 6",
+            "Limited-Use Data"
+          ],
+          "cells_b": [
+            "TCR 6",
+            "Limited-Use Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr 7",
+            "chip card transaction data"
+          ],
+          "cells_a": [
+            "TCR 7",
+            "Chip Card Transaction Data"
+          ],
+          "cells_b": [
+            "TCR 7",
+            "Chip Card Transaction Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr d",
+            "(fs) fleet supplementary data"
+          ],
+          "cells_a": [
+            "TCR D",
+            "(FS) Fleet Supplementary Data"
+          ],
+          "cells_b": [
+            "TCR D",
+            "(FS) Fleet Supplementary Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr d",
+            "installment payment"
+          ],
+          "cells_a": [
+            "TCR D",
+            "Installment Payment"
+          ],
+          "cells_b": [
+            "TCR D",
+            "Installment Payment"
+          ]
+        },
+        {
+          "key": [
+            "tcr d",
+            "original credit additional data"
+          ],
+          "cells_a": [
+            "TCR D",
+            "Original Credit Additional Data"
+          ],
+          "cells_b": [
+            "TCR D",
+            "Original Credit Additional Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr d",
+            "recurring payment"
+          ],
+          "cells_a": [
+            "TCR D",
+            "Recurring Payment"
+          ],
+          "cells_b": [
+            "TCR D",
+            "Recurring Payment"
+          ]
+        },
+        {
+          "key": [
+            "tcr e",
+            "supplemental payment data"
+          ],
+          "cells_a": [
+            "TCR E",
+            "Supplemental Payment Data"
+          ],
+          "cells_b": [
+            "TCR E",
+            "Supplemental Payment Data"
+          ]
+        }
+      ],
+      "rows_removed": [],
+      "rows_added": []
+    },
+    {
+      "title_a": "06 Credit Voucher",
+      "title_b": "06 Credit Voucher",
+      "match_type": "exact",
+      "fuzzy_ratio": 1.0,
+      "duplicate_row_keys_a": [],
+      "duplicate_row_keys_b": [],
+      "rows_matched": [
+        {
+          "key": [
+            "tcr 0",
+            "credit voucher"
+          ],
+          "cells_a": [
+            "TCR 0",
+            "Credit Voucher"
+          ],
+          "cells_b": [
+            "TCR 0",
+            "Credit Voucher"
+          ]
+        },
+        {
+          "key": [
+            "tcr 1",
+            "additional data"
+          ],
+          "cells_a": [
+            "TCR 1",
+            "Additional Data"
+          ],
+          "cells_b": [
+            "TCR 1",
+            "Additional Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, brazil"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Brazil"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Brazil"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, colombia"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Colombia"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Colombia"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, japan"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Japan"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Japan"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, mexico"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Mexico"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Mexico"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, paraguay"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Paraguay"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Paraguay"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, south korea"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, South Korea"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, South Korea"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, sweden"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Sweden"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Sweden"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, turkey"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Turkey"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Turkey"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, uruguay"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Uruguay"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Uruguay"
+          ]
+        },
+        {
+          "key": [
+            "tcr 3",
+            "car rental"
+          ],
+          "cells_a": [
+            "TCR 3",
+            "Car Rental"
+          ],
+          "cells_b": [
+            "TCR 3",
+            "Car Rental"
+          ]
+        },
+        {
+          "key": [
+            "tcr 3",
+            "fleet service"
+          ],
+          "cells_a": [
+            "TCR 3",
+            "Fleet Service"
+          ],
+          "cells_b": [
+            "TCR 3",
+            "Fleet Service"
+          ]
+        },
+        {
+          "key": [
+            "tcr 3",
+            "industry-specific data–business application data"
+          ],
+          "cells_a": [
+            "TCR 3",
+            "Industry-Specific Data–Business Application Data"
+          ],
+          "cells_b": [
+            "TCR 3",
+            "Industry-Specific Data–Business Application Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr 3",
+            "lodging"
+          ],
+          "cells_a": [
+            "TCR 3",
+            "Lodging"
+          ],
+          "cells_b": [
+            "TCR 3",
+            "Lodging"
+          ]
+        },
+        {
+          "key": [
+            "tcr 3",
+            "original credit"
+          ],
+          "cells_a": [
+            "TCR 3",
+            "Original Credit"
+          ],
+          "cells_b": [
+            "TCR 3",
+            "Original Credit"
+          ]
+        },
+        {
+          "key": [
+            "tcr 3",
+            "passenger itinerary data"
+          ],
+          "cells_a": [
+            "TCR 3",
+            "Passenger Itinerary Data"
+          ],
+          "cells_b": [
+            "TCR 3",
+            "Passenger Itinerary Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr 4",
+            "promotion data"
+          ],
+          "cells_a": [
+            "TCR 4",
+            "Promotion Data"
+          ],
+          "cells_b": [
+            "TCR 4",
+            "Promotion Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr 4",
+            "supplemental financial and promotion data"
+          ],
+          "cells_a": [
+            "TCR 4",
+            "Supplemental Financial and Promotion Data"
+          ],
+          "cells_b": [
+            "TCR 4",
+            "Supplemental Financial and Promotion Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr 4",
+            "supplemental financial data"
+          ],
+          "cells_a": [
+            "TCR 4",
+            "Supplemental Financial Data"
+          ],
+          "cells_b": [
+            "TCR 4",
+            "Supplemental Financial Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr 5",
+            "payment service data"
+          ],
+          "cells_a": [
+            "TCR 5",
+            "Payment Service Data"
+          ],
+          "cells_b": [
+            "TCR 5",
+            "Payment Service Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr 6",
+            "limited-use data"
+          ],
+          "cells_a": [
+            "TCR 6",
+            "Limited-Use Data"
+          ],
+          "cells_b": [
+            "TCR 6",
+            "Limited-Use Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr 7",
+            "chip card transaction data"
+          ],
+          "cells_a": [
+            "TCR 7",
+            "Chip Card Transaction Data"
+          ],
+          "cells_b": [
+            "TCR 7",
+            "Chip Card Transaction Data"
+          ]
+        }
+      ],
+      "rows_removed": [],
+      "rows_added": []
+    },
+    {
+      "title_a": "07 Cash Disbursement",
+      "title_b": "07 Cash Disbursement",
+      "match_type": "exact",
+      "fuzzy_ratio": 1.0,
+      "duplicate_row_keys_a": [],
+      "duplicate_row_keys_b": [],
+      "rows_matched": [
+        {
+          "key": [
+            "tcr 0",
+            "cash disbursement"
+          ],
+          "cells_a": [
+            "TCR 0",
+            "Cash Disbursement"
+          ],
+          "cells_b": [
+            "TCR 0",
+            "Cash Disbursement"
+          ]
+        },
+        {
+          "key": [
+            "tcr 1",
+            "additional data"
+          ],
+          "cells_a": [
+            "TCR 1",
+            "Additional Data"
+          ],
+          "cells_b": [
+            "TCR 1",
+            "Additional Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, brazil"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Brazil"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Brazil"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, colombia"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Colombia"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Colombia"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, japan"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Japan"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Japan"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, mexico"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Mexico"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Mexico"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, paraguay"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Paraguay"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Paraguay"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, south korea"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, South Korea"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, South Korea"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, sweden"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Sweden"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Sweden"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, turkey"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Turkey"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Turkey"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, uruguay"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Uruguay"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Uruguay"
+          ]
+        },
+        {
+          "key": [
+            "tcr 3",
+            "car rental"
+          ],
+          "cells_a": [
+            "TCR 3",
+            "Car Rental"
+          ],
+          "cells_b": [
+            "TCR 3",
+            "Car Rental"
+          ]
+        },
+        {
+          "key": [
+            "tcr 3",
+            "fleet service"
+          ],
+          "cells_a": [
+            "TCR 3",
+            "Fleet Service"
+          ],
+          "cells_b": [
+            "TCR 3",
+            "Fleet Service"
+          ]
+        },
+        {
+          "key": [
+            "tcr 3",
+            "industry-specific data"
+          ],
+          "cells_a": [
+            "TCR 3",
+            "Industry-Specific Data"
+          ],
+          "cells_b": [
+            "TCR 3",
+            "Industry-Specific Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr 3",
+            "lodging"
+          ],
+          "cells_a": [
+            "TCR 3",
+            "Lodging"
+          ],
+          "cells_b": [
+            "TCR 3",
+            "Lodging"
+          ]
+        },
+        {
+          "key": [
+            "tcr 3",
+            "passenger itinerary data"
+          ],
+          "cells_a": [
+            "TCR 3",
+            "Passenger Itinerary Data"
+          ],
+          "cells_b": [
+            "TCR 3",
+            "Passenger Itinerary Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr 4",
+            "promotion data"
+          ],
+          "cells_a": [
+            "TCR 4",
+            "Promotion Data"
+          ],
+          "cells_b": [
+            "TCR 4",
+            "Promotion Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr 4",
+            "supplemental financial and promotion data"
+          ],
+          "cells_a": [
+            "TCR 4",
+            "Supplemental Financial and Promotion Data"
+          ],
+          "cells_b": [
+            "TCR 4",
+            "Supplemental Financial and Promotion Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr 4",
+            "supplemental financial data"
+          ],
+          "cells_a": [
+            "TCR 4",
+            "Supplemental Financial Data"
+          ],
+          "cells_b": [
+            "TCR 4",
+            "Supplemental Financial Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr 5",
+            "payment service data"
+          ],
+          "cells_a": [
+            "TCR 5",
+            "Payment Service Data"
+          ],
+          "cells_b": [
+            "TCR 5",
+            "Payment Service Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr 6",
+            "limited-use data"
+          ],
+          "cells_a": [
+            "TCR 6",
+            "Limited-Use Data"
+          ],
+          "cells_b": [
+            "TCR 6",
+            "Limited-Use Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr 7",
+            "chip card transaction data"
+          ],
+          "cells_a": [
+            "TCR 7",
+            "Chip Card Transaction Data"
+          ],
+          "cells_b": [
+            "TCR 7",
+            "Chip Card Transaction Data"
+          ]
+        }
+      ],
+      "rows_removed": [],
+      "rows_added": []
+    },
+    {
+      "title_a": "10 Fee Collection",
+      "title_b": "10 Fee Collection",
+      "match_type": "exact",
+      "fuzzy_ratio": 1.0,
+      "duplicate_row_keys_a": [],
+      "duplicate_row_keys_b": [],
+      "rows_matched": [
+        {
+          "key": [
+            "tcr 0",
+            ""
+          ],
+          "cells_a": [
+            "TCR 0"
+          ],
+          "cells_b": [
+            "TCR 0"
+          ]
+        },
+        {
+          "key": [
+            "tcr 0",
+            "sweepstakes"
+          ],
+          "cells_a": [
+            "TCR 0",
+            "Sweepstakes"
+          ],
+          "cells_b": [
+            "TCR 0",
+            "Sweepstakes"
+          ]
+        },
+        {
+          "key": [
+            "tcr 0",
+            "visa award (loyalty)"
+          ],
+          "cells_a": [
+            "TCR 0",
+            "Visa Award (Loyalty)"
+          ],
+          "cells_b": [
+            "TCR 0",
+            "Visa Award (Loyalty)"
+          ]
+        },
+        {
+          "key": [
+            "tcr 1",
+            "additional data"
+          ],
+          "cells_a": [
+            "TCR 1",
+            "Additional Data"
+          ],
+          "cells_b": [
+            "TCR 1",
+            "Additional Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, argentina"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Argentina"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Argentina"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, brazil"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Brazil"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Brazil"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, paraguay"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Paraguay"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Paraguay"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, uruguay"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Uruguay"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Uruguay"
+          ]
+        },
+        {
+          "key": [
+            "tcr 4",
+            "promotion data"
+          ],
+          "cells_a": [
+            "TCR 4",
+            "Promotion Data"
+          ],
+          "cells_b": [
+            "TCR 4",
+            "Promotion Data"
+          ]
+        }
+      ],
+      "rows_removed": [],
+      "rows_added": []
+    },
+    {
+      "title_a": "15 Sales Draft Dispute",
+      "title_b": "15 Sales Draft Dispute",
+      "match_type": "exact",
+      "fuzzy_ratio": 1.0,
+      "duplicate_row_keys_a": [],
+      "duplicate_row_keys_b": [],
+      "rows_matched": [
+        {
+          "key": [
+            "tcr 0",
+            "dispute"
+          ],
+          "cells_a": [
+            "TCR 0",
+            "Dispute"
+          ],
+          "cells_b": [
+            "TCR 0",
+            "Dispute"
+          ]
+        },
+        {
+          "key": [
+            "tcr 1",
+            "additional data"
+          ],
+          "cells_a": [
+            "TCR 1",
+            "Additional Data"
+          ],
+          "cells_b": [
+            "TCR 1",
+            "Additional Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, brazil"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Brazil"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Brazil"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, colombia"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Colombia"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Colombia"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, japan"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Japan"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Japan"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, mexico"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Mexico"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Mexico"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, paraguay"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Paraguay"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Paraguay"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, south korea"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, South Korea"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, South Korea"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, sweden"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Sweden"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Sweden"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, turkey"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Turkey"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Turkey"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, uruguay"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Uruguay"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Uruguay"
+          ]
+        },
+        {
+          "key": [
+            "tcr 3",
+            "car rental"
+          ],
+          "cells_a": [
+            "TCR 3",
+            "Car Rental"
+          ],
+          "cells_b": [
+            "TCR 3",
+            "Car Rental"
+          ]
+        },
+        {
+          "key": [
+            "tcr 3",
+            "fleet service"
+          ],
+          "cells_a": [
+            "TCR 3",
+            "Fleet Service"
+          ],
+          "cells_b": [
+            "TCR 3",
+            "Fleet Service"
+          ]
+        },
+        {
+          "key": [
+            "tcr 3",
+            "industry-specific data–business application data"
+          ],
+          "cells_a": [
+            "TCR 3",
+            "Industry-Specific Data–Business Application Data"
+          ],
+          "cells_b": [
+            "TCR 3",
+            "Industry-Specific Data–Business Application Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr 3",
+            "lodging"
+          ],
+          "cells_a": [
+            "TCR 3",
+            "Lodging"
+          ],
+          "cells_b": [
+            "TCR 3",
+            "Lodging"
+          ]
+        },
+        {
+          "key": [
+            "tcr 3",
+            "passenger itinerary data"
+          ],
+          "cells_a": [
+            "TCR 3",
+            "Passenger Itinerary Data"
+          ],
+          "cells_b": [
+            "TCR 3",
+            "Passenger Itinerary Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr 4",
+            "promotion data"
+          ],
+          "cells_a": [
+            "TCR 4",
+            "Promotion Data"
+          ],
+          "cells_b": [
+            "TCR 4",
+            "Promotion Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr 4",
+            "single message system interface (sms and promotion data)"
+          ],
+          "cells_a": [
+            "TCR 4",
+            "Single Message System Interface (SMS and Promotion Data)"
+          ],
+          "cells_b": [
+            "TCR 4",
+            "Single Message System Interface (SMS and Promotion Data)"
+          ]
+        },
+        {
+          "key": [
+            "tcr 4",
+            "single message system interface (sms data)"
+          ],
+          "cells_a": [
+            "TCR 4",
+            "Single Message System Interface (SMS Data)"
+          ],
+          "cells_b": [
+            "TCR 4",
+            "Single Message System Interface (SMS Data)"
+          ]
+        },
+        {
+          "key": [
+            "tcr 5",
+            "payment service data"
+          ],
+          "cells_a": [
+            "TCR 5",
+            "Payment Service Data"
+          ],
+          "cells_b": [
+            "TCR 5",
+            "Payment Service Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr 6",
+            "limited-use data"
+          ],
+          "cells_a": [
+            "TCR 6",
+            "Limited-Use Data"
+          ],
+          "cells_b": [
+            "TCR 6",
+            "Limited-Use Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr 7",
+            "chip card transaction data"
+          ],
+          "cells_a": [
+            "TCR 7",
+            "Chip Card Transaction Data"
+          ],
+          "cells_b": [
+            "TCR 7",
+            "Chip Card Transaction Data"
+          ]
+        }
+      ],
+      "rows_removed": [],
+      "rows_added": []
+    },
+    {
+      "title_a": "16 Credit Voucher Dispute",
+      "title_b": "16 Credit Voucher Dispute",
+      "match_type": "exact",
+      "fuzzy_ratio": 1.0,
+      "duplicate_row_keys_a": [],
+      "duplicate_row_keys_b": [],
+      "rows_matched": [
+        {
+          "key": [
+            "tcr 0",
+            "dispute"
+          ],
+          "cells_a": [
+            "TCR 0",
+            "Dispute"
+          ],
+          "cells_b": [
+            "TCR 0",
+            "Dispute"
+          ]
+        },
+        {
+          "key": [
+            "tcr 1",
+            "additional data"
+          ],
+          "cells_a": [
+            "TCR 1",
+            "Additional Data"
+          ],
+          "cells_b": [
+            "TCR 1",
+            "Additional Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, brazil"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Brazil"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Brazil"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, colombia"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Colombia"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Colombia"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, japan"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Japan"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Japan"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, mexico"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Mexico"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Mexico"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, paraguay"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Paraguay"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Paraguay"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, south korea"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, South Korea"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, South Korea"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, sweden"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Sweden"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Sweden"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, turkey"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Turkey"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Turkey"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, uruguay"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Uruguay"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Uruguay"
+          ]
+        },
+        {
+          "key": [
+            "tcr 3",
+            "car rental"
+          ],
+          "cells_a": [
+            "TCR 3",
+            "Car Rental"
+          ],
+          "cells_b": [
+            "TCR 3",
+            "Car Rental"
+          ]
+        },
+        {
+          "key": [
+            "tcr 3",
+            "fleet service"
+          ],
+          "cells_a": [
+            "TCR 3",
+            "Fleet Service"
+          ],
+          "cells_b": [
+            "TCR 3",
+            "Fleet Service"
+          ]
+        },
+        {
+          "key": [
+            "tcr 3",
+            "industry-specific data–business application data"
+          ],
+          "cells_a": [
+            "TCR 3",
+            "Industry-Specific Data–Business Application Data"
+          ],
+          "cells_b": [
+            "TCR 3",
+            "Industry-Specific Data–Business Application Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr 3",
+            "lodging"
+          ],
+          "cells_a": [
+            "TCR 3",
+            "Lodging"
+          ],
+          "cells_b": [
+            "TCR 3",
+            "Lodging"
+          ]
+        },
+        {
+          "key": [
+            "tcr 3",
+            "original credit"
+          ],
+          "cells_a": [
+            "TCR 3",
+            "Original Credit"
+          ],
+          "cells_b": [
+            "TCR 3",
+            "Original Credit"
+          ]
+        },
+        {
+          "key": [
+            "tcr 3",
+            "passenger itinerary data"
+          ],
+          "cells_a": [
+            "TCR 3",
+            "Passenger Itinerary Data"
+          ],
+          "cells_b": [
+            "TCR 3",
+            "Passenger Itinerary Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr 4",
+            "promotion data"
+          ],
+          "cells_a": [
+            "TCR 4",
+            "Promotion Data"
+          ],
+          "cells_b": [
+            "TCR 4",
+            "Promotion Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr 4",
+            "single message system interface (sms and promotion data)"
+          ],
+          "cells_a": [
+            "TCR 4",
+            "Single Message System Interface (SMS and Promotion Data)"
+          ],
+          "cells_b": [
+            "TCR 4",
+            "Single Message System Interface (SMS and Promotion Data)"
+          ]
+        },
+        {
+          "key": [
+            "tcr 4",
+            "single message system interface (sms data)"
+          ],
+          "cells_a": [
+            "TCR 4",
+            "Single Message System Interface (SMS Data)"
+          ],
+          "cells_b": [
+            "TCR 4",
+            "Single Message System Interface (SMS Data)"
+          ]
+        },
+        {
+          "key": [
+            "tcr 5",
+            "payment service data"
+          ],
+          "cells_a": [
+            "TCR 5",
+            "Payment Service Data"
+          ],
+          "cells_b": [
+            "TCR 5",
+            "Payment Service Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr 6",
+            "limited-use data"
+          ],
+          "cells_a": [
+            "TCR 6",
+            "Limited-Use Data"
+          ],
+          "cells_b": [
+            "TCR 6",
+            "Limited-Use Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr 7",
+            "chip card transaction data"
+          ],
+          "cells_a": [
+            "TCR 7",
+            "Chip Card Transaction Data"
+          ],
+          "cells_b": [
+            "TCR 7",
+            "Chip Card Transaction Data"
+          ]
+        }
+      ],
+      "rows_removed": [],
+      "rows_added": []
+    },
+    {
+      "title_a": "17 Cash Disbursement Dispute",
+      "title_b": "17 Cash Disbursement Dispute",
+      "match_type": "exact",
+      "fuzzy_ratio": 1.0,
+      "duplicate_row_keys_a": [],
+      "duplicate_row_keys_b": [],
+      "rows_matched": [
+        {
+          "key": [
+            "tcr 0",
+            "dispute"
+          ],
+          "cells_a": [
+            "TCR 0",
+            "Dispute"
+          ],
+          "cells_b": [
+            "TCR 0",
+            "Dispute"
+          ]
+        },
+        {
+          "key": [
+            "tcr 1",
+            "additional data"
+          ],
+          "cells_a": [
+            "TCR 1",
+            "Additional Data"
+          ],
+          "cells_b": [
+            "TCR 1",
+            "Additional Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, brazil"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Brazil"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Brazil"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, colombia"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Colombia"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Colombia"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, japan"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Japan"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Japan"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, mexico"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Mexico"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Mexico"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, paraguay"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Paraguay"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Paraguay"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, south korea"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, South Korea"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, South Korea"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, sweden"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Sweden"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Sweden"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, turkey"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Turkey"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Turkey"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, uruguay"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Uruguay"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Uruguay"
+          ]
+        },
+        {
+          "key": [
+            "tcr 3",
+            "car rental"
+          ],
+          "cells_a": [
+            "TCR 3",
+            "Car Rental"
+          ],
+          "cells_b": [
+            "TCR 3",
+            "Car Rental"
+          ]
+        },
+        {
+          "key": [
+            "tcr 3",
+            "fleet service"
+          ],
+          "cells_a": [
+            "TCR 3",
+            "Fleet Service"
+          ],
+          "cells_b": [
+            "TCR 3",
+            "Fleet Service"
+          ]
+        },
+        {
+          "key": [
+            "tcr 3",
+            "industry-specific data"
+          ],
+          "cells_a": [
+            "TCR 3",
+            "Industry-Specific Data"
+          ],
+          "cells_b": [
+            "TCR 3",
+            "Industry-Specific Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr 3",
+            "lodging"
+          ],
+          "cells_a": [
+            "TCR 3",
+            "Lodging"
+          ],
+          "cells_b": [
+            "TCR 3",
+            "Lodging"
+          ]
+        },
+        {
+          "key": [
+            "tcr 3",
+            "passenger itinerary data"
+          ],
+          "cells_a": [
+            "TCR 3",
+            "Passenger Itinerary Data"
+          ],
+          "cells_b": [
+            "TCR 3",
+            "Passenger Itinerary Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr 4",
+            "promotion data"
+          ],
+          "cells_a": [
+            "TCR 4",
+            "Promotion Data"
+          ],
+          "cells_b": [
+            "TCR 4",
+            "Promotion Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr 4",
+            "single message system interface (sms and promotion data)"
+          ],
+          "cells_a": [
+            "TCR 4",
+            "Single Message System Interface (SMS and Promotion Data)"
+          ],
+          "cells_b": [
+            "TCR 4",
+            "Single Message System Interface (SMS and Promotion Data)"
+          ]
+        },
+        {
+          "key": [
+            "tcr 4",
+            "single message system interface (sms data)"
+          ],
+          "cells_a": [
+            "TCR 4",
+            "Single Message System Interface (SMS Data)"
+          ],
+          "cells_b": [
+            "TCR 4",
+            "Single Message System Interface (SMS Data)"
+          ]
+        },
+        {
+          "key": [
+            "tcr 5",
+            "payment service data"
+          ],
+          "cells_a": [
+            "TCR 5",
+            "Payment Service Data"
+          ],
+          "cells_b": [
+            "TCR 5",
+            "Payment Service Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr 6",
+            "limited-use data"
+          ],
+          "cells_a": [
+            "TCR 6",
+            "Limited-Use Data"
+          ],
+          "cells_b": [
+            "TCR 6",
+            "Limited-Use Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr 7",
+            "chip card transaction data"
+          ],
+          "cells_a": [
+            "TCR 7",
+            "Chip Card Transaction Data"
+          ],
+          "cells_b": [
+            "TCR 7",
+            "Chip Card Transaction Data"
+          ]
+        }
+      ],
+      "rows_removed": [],
+      "rows_added": []
+    },
+    {
+      "title_a": "20 Funds Disbursement",
+      "title_b": "20 Funds Disbursement",
+      "match_type": "exact",
+      "fuzzy_ratio": 1.0,
+      "duplicate_row_keys_a": [],
+      "duplicate_row_keys_b": [],
+      "rows_matched": [
+        {
+          "key": [
+            "tcr 0",
+            ""
+          ],
+          "cells_a": [
+            "TCR 0"
+          ],
+          "cells_b": [
+            "TCR 0"
+          ]
+        },
+        {
+          "key": [
+            "tcr 0",
+            "sweepstakes"
+          ],
+          "cells_a": [
+            "TCR 0",
+            "Sweepstakes"
+          ],
+          "cells_b": [
+            "TCR 0",
+            "Sweepstakes"
+          ]
+        },
+        {
+          "key": [
+            "tcr 0",
+            "visa award (loyalty)"
+          ],
+          "cells_a": [
+            "TCR 0",
+            "Visa Award (Loyalty)"
+          ],
+          "cells_b": [
+            "TCR 0",
+            "Visa Award (Loyalty)"
+          ]
+        },
+        {
+          "key": [
+            "tcr 1",
+            "additional data"
+          ],
+          "cells_a": [
+            "TCR 1",
+            "Additional Data"
+          ],
+          "cells_b": [
+            "TCR 1",
+            "Additional Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, argentina"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Argentina"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Argentina"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, brazil"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Brazil"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Brazil"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, paraguay"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Paraguay"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Paraguay"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, uruguay"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Uruguay"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Uruguay"
+          ]
+        },
+        {
+          "key": [
+            "tcr 4",
+            "promotion data"
+          ],
+          "cells_a": [
+            "TCR 4",
+            "Promotion Data"
+          ],
+          "cells_b": [
+            "TCR 4",
+            "Promotion Data"
+          ]
+        }
+      ],
+      "rows_removed": [],
+      "rows_added": []
+    },
+    {
+      "title_a": "25 Sales Draft Reversal",
+      "title_b": "25 Sales Draft Reversal",
+      "match_type": "exact",
+      "fuzzy_ratio": 1.0,
+      "duplicate_row_keys_a": [],
+      "duplicate_row_keys_b": [],
+      "rows_matched": [
+        {
+          "key": [
+            "tcr 0",
+            "reversal"
+          ],
+          "cells_a": [
+            "TCR 0",
+            "Reversal"
+          ],
+          "cells_b": [
+            "TCR 0",
+            "Reversal"
+          ]
+        },
+        {
+          "key": [
+            "tcr 1",
+            "additional data"
+          ],
+          "cells_a": [
+            "TCR 1",
+            "Additional Data"
+          ],
+          "cells_b": [
+            "TCR 1",
+            "Additional Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, brazil"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Brazil"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Brazil"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, colombia"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Colombia"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Colombia"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, japan"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Japan"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Japan"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, mexico"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Mexico"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Mexico"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, paraguay"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Paraguay"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Paraguay"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, south korea"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, South Korea"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, South Korea"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, sweden"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Sweden"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Sweden"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, turkey"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Turkey"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Turkey"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, uruguay"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Uruguay"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Uruguay"
+          ]
+        },
+        {
+          "key": [
+            "tcr 3",
+            "car rental"
+          ],
+          "cells_a": [
+            "TCR 3",
+            "Car Rental"
+          ],
+          "cells_b": [
+            "TCR 3",
+            "Car Rental"
+          ]
+        },
+        {
+          "key": [
+            "tcr 3",
+            "fleet service"
+          ],
+          "cells_a": [
+            "TCR 3",
+            "Fleet Service"
+          ],
+          "cells_b": [
+            "TCR 3",
+            "Fleet Service"
+          ]
+        },
+        {
+          "key": [
+            "tcr 3",
+            "industry-specific data–business application data"
+          ],
+          "cells_a": [
+            "TCR 3",
+            "Industry-Specific Data–Business Application Data"
+          ],
+          "cells_b": [
+            "TCR 3",
+            "Industry-Specific Data–Business Application Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr 3",
+            "lodging"
+          ],
+          "cells_a": [
+            "TCR 3",
+            "Lodging"
+          ],
+          "cells_b": [
+            "TCR 3",
+            "Lodging"
+          ]
+        },
+        {
+          "key": [
+            "tcr 3",
+            "passenger itinerary data"
+          ],
+          "cells_a": [
+            "TCR 3",
+            "Passenger Itinerary Data"
+          ],
+          "cells_b": [
+            "TCR 3",
+            "Passenger Itinerary Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr 4",
+            "promotion data"
+          ],
+          "cells_a": [
+            "TCR 4",
+            "Promotion Data"
+          ],
+          "cells_b": [
+            "TCR 4",
+            "Promotion Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr 4",
+            "single message system interface (sms and promotion data)"
+          ],
+          "cells_a": [
+            "TCR 4",
+            "Single Message System Interface (SMS and Promotion Data)"
+          ],
+          "cells_b": [
+            "TCR 4",
+            "Single Message System Interface (SMS and Promotion Data)"
+          ]
+        },
+        {
+          "key": [
+            "tcr 4",
+            "single message system interface (sms data)"
+          ],
+          "cells_a": [
+            "TCR 4",
+            "Single Message System Interface (SMS Data)"
+          ],
+          "cells_b": [
+            "TCR 4",
+            "Single Message System Interface (SMS Data)"
+          ]
+        },
+        {
+          "key": [
+            "tcr 5",
+            "payment service data"
+          ],
+          "cells_a": [
+            "TCR 5",
+            "Payment Service Data"
+          ],
+          "cells_b": [
+            "TCR 5",
+            "Payment Service Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr 6",
+            "limited-use data"
+          ],
+          "cells_a": [
+            "TCR 6",
+            "Limited-Use Data"
+          ],
+          "cells_b": [
+            "TCR 6",
+            "Limited-Use Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr 7",
+            "chip card transaction data"
+          ],
+          "cells_a": [
+            "TCR 7",
+            "Chip Card Transaction Data"
+          ],
+          "cells_b": [
+            "TCR 7",
+            "Chip Card Transaction Data"
+          ]
+        }
+      ],
+      "rows_removed": [],
+      "rows_added": []
+    },
+    {
+      "title_a": "26 Credit Voucher Reversal",
+      "title_b": "26 Credit Voucher Reversal",
+      "match_type": "exact",
+      "fuzzy_ratio": 1.0,
+      "duplicate_row_keys_a": [],
+      "duplicate_row_keys_b": [],
+      "rows_matched": [
+        {
+          "key": [
+            "tcr 0",
+            "reversal"
+          ],
+          "cells_a": [
+            "TCR 0",
+            "Reversal"
+          ],
+          "cells_b": [
+            "TCR 0",
+            "Reversal"
+          ]
+        },
+        {
+          "key": [
+            "tcr 1",
+            "additional data"
+          ],
+          "cells_a": [
+            "TCR 1",
+            "Additional Data"
+          ],
+          "cells_b": [
+            "TCR 1",
+            "Additional Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, brazil"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Brazil"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Brazil"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, colombia"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Colombia"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Colombia"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, japan"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Japan"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Japan"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, mexico"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Mexico"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Mexico"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, paraguay"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Paraguay"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Paraguay"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, south korea"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, South Korea"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, South Korea"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, sweden"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Sweden"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Sweden"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, turkey"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Turkey"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Turkey"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, uruguay"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Uruguay"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Uruguay"
+          ]
+        },
+        {
+          "key": [
+            "tcr 3",
+            "car rental"
+          ],
+          "cells_a": [
+            "TCR 3",
+            "Car Rental"
+          ],
+          "cells_b": [
+            "TCR 3",
+            "Car Rental"
+          ]
+        },
+        {
+          "key": [
+            "tcr 3",
+            "fleet service"
+          ],
+          "cells_a": [
+            "TCR 3",
+            "Fleet Service"
+          ],
+          "cells_b": [
+            "TCR 3",
+            "Fleet Service"
+          ]
+        },
+        {
+          "key": [
+            "tcr 3",
+            "industry-specific data–business application data"
+          ],
+          "cells_a": [
+            "TCR 3",
+            "Industry-Specific Data–Business Application Data"
+          ],
+          "cells_b": [
+            "TCR 3",
+            "Industry-Specific Data–Business Application Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr 3",
+            "lodging"
+          ],
+          "cells_a": [
+            "TCR 3",
+            "Lodging"
+          ],
+          "cells_b": [
+            "TCR 3",
+            "Lodging"
+          ]
+        },
+        {
+          "key": [
+            "tcr 3",
+            "original credit"
+          ],
+          "cells_a": [
+            "TCR 3",
+            "Original Credit"
+          ],
+          "cells_b": [
+            "TCR 3",
+            "Original Credit"
+          ]
+        },
+        {
+          "key": [
+            "tcr 3",
+            "passenger itinerary data"
+          ],
+          "cells_a": [
+            "TCR 3",
+            "Passenger Itinerary Data"
+          ],
+          "cells_b": [
+            "TCR 3",
+            "Passenger Itinerary Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr 4",
+            "promotion data"
+          ],
+          "cells_a": [
+            "TCR 4",
+            "Promotion Data"
+          ],
+          "cells_b": [
+            "TCR 4",
+            "Promotion Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr 4",
+            "single message system interface (sms and promotion data)"
+          ],
+          "cells_a": [
+            "TCR 4",
+            "Single Message System Interface (SMS and Promotion Data)"
+          ],
+          "cells_b": [
+            "TCR 4",
+            "Single Message System Interface (SMS and Promotion Data)"
+          ]
+        },
+        {
+          "key": [
+            "tcr 4",
+            "single message system interface (sms data)"
+          ],
+          "cells_a": [
+            "TCR 4",
+            "Single Message System Interface (SMS Data)"
+          ],
+          "cells_b": [
+            "TCR 4",
+            "Single Message System Interface (SMS Data)"
+          ]
+        },
+        {
+          "key": [
+            "tcr 5",
+            "payment service data"
+          ],
+          "cells_a": [
+            "TCR 5",
+            "Payment Service Data"
+          ],
+          "cells_b": [
+            "TCR 5",
+            "Payment Service Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr 6",
+            "limited-use data"
+          ],
+          "cells_a": [
+            "TCR 6",
+            "Limited-Use Data"
+          ],
+          "cells_b": [
+            "TCR 6",
+            "Limited-Use Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr 7",
+            "chip card transaction data"
+          ],
+          "cells_a": [
+            "TCR 7",
+            "Chip Card Transaction Data"
+          ],
+          "cells_b": [
+            "TCR 7",
+            "Chip Card Transaction Data"
+          ]
+        }
+      ],
+      "rows_removed": [],
+      "rows_added": []
+    },
+    {
+      "title_a": "27 Cash Disbursement Reversal",
+      "title_b": "27 Cash Disbursement Reversal",
+      "match_type": "exact",
+      "fuzzy_ratio": 1.0,
+      "duplicate_row_keys_a": [],
+      "duplicate_row_keys_b": [],
+      "rows_matched": [
+        {
+          "key": [
+            "tcr 0",
+            "reversal"
+          ],
+          "cells_a": [
+            "TCR 0",
+            "Reversal"
+          ],
+          "cells_b": [
+            "TCR 0",
+            "Reversal"
+          ]
+        },
+        {
+          "key": [
+            "tcr 1",
+            "additional data"
+          ],
+          "cells_a": [
+            "TCR 1",
+            "Additional Data"
+          ],
+          "cells_b": [
+            "TCR 1",
+            "Additional Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, brazil"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Brazil"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Brazil"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, colombia"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Colombia"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Colombia"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, japan"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Japan"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Japan"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, mexico"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Mexico"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Mexico"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, paraguay"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Paraguay"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Paraguay"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, south korea"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, South Korea"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, South Korea"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, sweden"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Sweden"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Sweden"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, turkey"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Turkey"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Turkey"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, uruguay"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Uruguay"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Uruguay"
+          ]
+        },
+        {
+          "key": [
+            "tcr 3",
+            "car rental"
+          ],
+          "cells_a": [
+            "TCR 3",
+            "Car Rental"
+          ],
+          "cells_b": [
+            "TCR 3",
+            "Car Rental"
+          ]
+        },
+        {
+          "key": [
+            "tcr 3",
+            "fleet service"
+          ],
+          "cells_a": [
+            "TCR 3",
+            "Fleet Service"
+          ],
+          "cells_b": [
+            "TCR 3",
+            "Fleet Service"
+          ]
+        },
+        {
+          "key": [
+            "tcr 3",
+            "industry-specific data"
+          ],
+          "cells_a": [
+            "TCR 3",
+            "Industry-Specific Data"
+          ],
+          "cells_b": [
+            "TCR 3",
+            "Industry-Specific Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr 3",
+            "lodging"
+          ],
+          "cells_a": [
+            "TCR 3",
+            "Lodging"
+          ],
+          "cells_b": [
+            "TCR 3",
+            "Lodging"
+          ]
+        },
+        {
+          "key": [
+            "tcr 3",
+            "passenger itinerary data"
+          ],
+          "cells_a": [
+            "TCR 3",
+            "Passenger Itinerary Data"
+          ],
+          "cells_b": [
+            "TCR 3",
+            "Passenger Itinerary Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr 4",
+            "promotion data"
+          ],
+          "cells_a": [
+            "TCR 4",
+            "Promotion Data"
+          ],
+          "cells_b": [
+            "TCR 4",
+            "Promotion Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr 4",
+            "single message system interface (sms and promotion data)"
+          ],
+          "cells_a": [
+            "TCR 4",
+            "Single Message System Interface (SMS and Promotion Data)"
+          ],
+          "cells_b": [
+            "TCR 4",
+            "Single Message System Interface (SMS and Promotion Data)"
+          ]
+        },
+        {
+          "key": [
+            "tcr 4",
+            "single message system interface (sms data)"
+          ],
+          "cells_a": [
+            "TCR 4",
+            "Single Message System Interface (SMS Data)"
+          ],
+          "cells_b": [
+            "TCR 4",
+            "Single Message System Interface (SMS Data)"
+          ]
+        },
+        {
+          "key": [
+            "tcr 5",
+            "payment service data"
+          ],
+          "cells_a": [
+            "TCR 5",
+            "Payment Service Data"
+          ],
+          "cells_b": [
+            "TCR 5",
+            "Payment Service Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr 6",
+            "limited-use data"
+          ],
+          "cells_a": [
+            "TCR 6",
+            "Limited-Use Data"
+          ],
+          "cells_b": [
+            "TCR 6",
+            "Limited-Use Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr 7",
+            "chip card transaction data"
+          ],
+          "cells_a": [
+            "TCR 7",
+            "Chip Card Transaction Data"
+          ],
+          "cells_b": [
+            "TCR 7",
+            "Chip Card Transaction Data"
+          ]
+        }
+      ],
+      "rows_removed": [],
+      "rows_added": []
+    },
+    {
+      "title_a": "30 ICS/NARS Input Processing",
+      "title_b": "30 ICS/NARS Input Processing",
+      "match_type": "exact",
+      "fuzzy_ratio": 1.0,
+      "duplicate_row_keys_a": [],
+      "duplicate_row_keys_b": [],
+      "rows_matched": [
+        {
+          "key": [
+            "tcr 0",
+            "ics/nars input processing"
+          ],
+          "cells_a": [
+            "TCR 0",
+            "ICS/NARS Input Processing"
+          ],
+          "cells_b": [
+            "TCR 0",
+            "ICS/NARS Input Processing"
+          ]
+        },
+        {
+          "key": [
+            "tcr 1–7",
+            "ics input processing"
+          ],
+          "cells_a": [
+            "TCR 1–7",
+            "ICS Input Processing"
+          ],
+          "cells_b": [
+            "TCR 1–7",
+            "ICS Input Processing"
+          ]
+        },
+        {
+          "key": [
+            "tcr 1–7",
+            "nars input processing"
+          ],
+          "cells_a": [
+            "TCR 1–7",
+            "NARS Input Processing"
+          ],
+          "cells_b": [
+            "TCR 1–7",
+            "NARS Input Processing"
+          ]
+        }
+      ],
+      "rows_removed": [],
+      "rows_added": []
+    },
+    {
+      "title_a": "31 ICS/NARS Response Processing",
+      "title_b": "31 ICS/NARS Response Processing",
+      "match_type": "exact",
+      "fuzzy_ratio": 1.0,
+      "duplicate_row_keys_a": [],
+      "duplicate_row_keys_b": [],
+      "rows_matched": [
+        {
+          "key": [
+            "tcr 0",
+            "ics/nars response processing"
+          ],
+          "cells_a": [
+            "TCR 0",
+            "ICS/NARS Response Processing"
+          ],
+          "cells_b": [
+            "TCR 0",
+            "ICS/NARS Response Processing"
+          ]
+        },
+        {
+          "key": [
+            "tcr 1–7",
+            "ics response processing"
+          ],
+          "cells_a": [
+            "TCR 1–7",
+            "ICS Response Processing"
+          ],
+          "cells_b": [
+            "TCR 1–7",
+            "ICS Response Processing"
+          ]
+        },
+        {
+          "key": [
+            "tcr 1–7",
+            "nars response processing"
+          ],
+          "cells_a": [
+            "TCR 1–7",
+            "NARS Response Processing"
+          ],
+          "cells_b": [
+            "TCR 1–7",
+            "NARS Response Processing"
+          ]
+        }
+      ],
+      "rows_removed": [],
+      "rows_added": []
+    },
+    {
+      "title_a": "32 Risk Management",
+      "title_b": "32 Risk Management",
+      "match_type": "exact",
+      "fuzzy_ratio": 1.0,
+      "duplicate_row_keys_a": [],
+      "duplicate_row_keys_b": [],
+      "rows_matched": [],
+      "rows_removed": [],
+      "rows_added": []
+    },
+    {
+      "title_a": "33 Multipurpose Message",
+      "title_b": "33 Multipurpose Message",
+      "match_type": "exact",
+      "fuzzy_ratio": 1.0,
+      "duplicate_row_keys_a": [],
+      "duplicate_row_keys_b": [],
+      "rows_matched": [
+        {
+          "key": [
+            "tcr 0",
+            "base ii clearing and settlement advice"
+          ],
+          "cells_a": [
+            "TCR 0",
+            "BASE II Clearing and Settlement Advice"
+          ],
+          "cells_b": [
+            "TCR 0",
+            "BASE II Clearing and Settlement Advice"
+          ]
+        },
+        {
+          "key": [
+            "tcr 0",
+            "crs issuer advice"
+          ],
+          "cells_a": [
+            "TCR 0",
+            "CRS Issuer Advice"
+          ],
+          "cells_b": [
+            "TCR 0",
+            "CRS Issuer Advice"
+          ]
+        },
+        {
+          "key": [
+            "tcr 0",
+            "dispute financial status advice"
+          ],
+          "cells_a": [
+            "TCR 0",
+            "Dispute Financial Status Advice"
+          ],
+          "cells_b": [
+            "TCR 0",
+            "Dispute Financial Status Advice"
+          ]
+        },
+        {
+          "key": [
+            "tcr 0",
+            "plus bin table detail"
+          ],
+          "cells_a": [
+            "TCR 0",
+            "Plus BIN Table Detail"
+          ],
+          "cells_b": [
+            "TCR 0",
+            "Plus BIN Table Detail"
+          ]
+        },
+        {
+          "key": [
+            "tcr 0",
+            "plus bin table header"
+          ],
+          "cells_a": [
+            "TCR 0",
+            "Plus BIN Table Header"
+          ],
+          "cells_b": [
+            "TCR 0",
+            "Plus BIN Table Header"
+          ]
+        },
+        {
+          "key": [
+            "tcr 0",
+            "plus bin table trailer"
+          ],
+          "cells_a": [
+            "TCR 0",
+            "Plus BIN Table Trailer"
+          ],
+          "cells_b": [
+            "TCR 0",
+            "Plus BIN Table Trailer"
+          ]
+        },
+        {
+          "key": [
+            "tcr 0",
+            "rdms message"
+          ],
+          "cells_a": [
+            "TCR 0",
+            "RDMS Message"
+          ],
+          "cells_b": [
+            "TCR 0",
+            "RDMS Message"
+          ]
+        },
+        {
+          "key": [
+            "tcr 0",
+            "rdms message europe non-reloadable prepaid routing file"
+          ],
+          "cells_a": [
+            "TCR 0",
+            "RDMS Message Europe Non-Reloadable Prepaid Routing File"
+          ],
+          "cells_b": [
+            "TCR 0",
+            "RDMS Message Europe Non-Reloadable Prepaid Routing File"
+          ]
+        },
+        {
+          "key": [
+            "tcr 0",
+            "universal biller file table detail, biller master data"
+          ],
+          "cells_a": [
+            "TCR 0",
+            "Universal Biller File Table Detail, Biller Master Data"
+          ],
+          "cells_b": [
+            "TCR 0",
+            "Universal Biller File Table Detail, Biller Master Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr 0",
+            "universal biller file table detail, cban mask data"
+          ],
+          "cells_a": [
+            "TCR 0",
+            "Universal Biller File Table Detail, CBAN Mask Data"
+          ],
+          "cells_b": [
+            "TCR 0",
+            "Universal Biller File Table Detail, CBAN Mask Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr 0",
+            "universal biller file table header"
+          ],
+          "cells_a": [
+            "TCR 0",
+            "Universal Biller File Table Header"
+          ],
+          "cells_b": [
+            "TCR 0",
+            "Universal Biller File Table Header"
+          ]
+        },
+        {
+          "key": [
+            "tcr 0",
+            "universal biller file table trailer"
+          ],
+          "cells_a": [
+            "TCR 0",
+            "Universal Biller File Table Trailer"
+          ],
+          "cells_b": [
+            "TCR 0",
+            "Universal Biller File Table Trailer"
+          ]
+        },
+        {
+          "key": [
+            "tcr 0",
+            "v.i.p. full service dispute financial status advice"
+          ],
+          "cells_a": [
+            "TCR 0",
+            "V.I.P. Full Service Dispute Financial Status Advice"
+          ],
+          "cells_b": [
+            "TCR 0",
+            "V.I.P. Full Service Dispute Financial Status Advice"
+          ]
+        },
+        {
+          "key": [
+            "tcr 1",
+            "base ii clearing and settlement advice"
+          ],
+          "cells_a": [
+            "TCR 1",
+            "BASE II Clearing and Settlement Advice"
+          ],
+          "cells_b": [
+            "TCR 1",
+            "BASE II Clearing and Settlement Advice"
+          ]
+        },
+        {
+          "key": [
+            "tcr 1",
+            "dispute financial status advice (cont’d)"
+          ],
+          "cells_a": [
+            "TCR 1",
+            "Dispute Financial Status Advice (Cont’d)"
+          ],
+          "cells_b": [
+            "TCR 1",
+            "Dispute Financial Status Advice (Cont’d)"
+          ]
+        },
+        {
+          "key": [
+            "tcr 1",
+            "universal biller file table detail, additional biller master data"
+          ],
+          "cells_a": [
+            "TCR 1",
+            "Universal Biller File Table Detail, Additional Biller Master Data"
+          ],
+          "cells_b": [
+            "TCR 1",
+            "Universal Biller File Table Detail, Additional Biller Master Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr 1",
+            "v.i.p. full service dispute financial status advice (cont’d)"
+          ],
+          "cells_a": [
+            "TCR 1",
+            "V.I.P. Full Service Dispute Financial Status Advice (Cont’d)"
+          ],
+          "cells_b": [
+            "TCR 1",
+            "V.I.P. Full Service Dispute Financial Status Advice (Cont’d)"
+          ]
+        }
+      ],
+      "rows_removed": [],
+      "rows_added": []
+    },
+    {
+      "title_a": "35 Sales Draft Dispute Reversal",
+      "title_b": "35 Sales Draft Dispute Reversal",
+      "match_type": "exact",
+      "fuzzy_ratio": 1.0,
+      "duplicate_row_keys_a": [],
+      "duplicate_row_keys_b": [],
+      "rows_matched": [
+        {
+          "key": [
+            "tcr 0",
+            "reversal"
+          ],
+          "cells_a": [
+            "TCR 0",
+            "Reversal"
+          ],
+          "cells_b": [
+            "TCR 0",
+            "Reversal"
+          ]
+        },
+        {
+          "key": [
+            "tcr 1",
+            "additional data"
+          ],
+          "cells_a": [
+            "TCR 1",
+            "Additional Data"
+          ],
+          "cells_b": [
+            "TCR 1",
+            "Additional Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, brazil"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Brazil"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Brazil"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, colombia"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Colombia"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Colombia"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, japan"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Japan"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Japan"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, mexico"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Mexico"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Mexico"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, paraguay"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Paraguay"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Paraguay"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, south korea"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, South Korea"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, South Korea"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, sweden"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Sweden"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Sweden"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, turkey"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Turkey"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Turkey"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, uruguay"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Uruguay"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Uruguay"
+          ]
+        },
+        {
+          "key": [
+            "tcr 3",
+            "car rental"
+          ],
+          "cells_a": [
+            "TCR 3",
+            "Car Rental"
+          ],
+          "cells_b": [
+            "TCR 3",
+            "Car Rental"
+          ]
+        },
+        {
+          "key": [
+            "tcr 3",
+            "fleet service"
+          ],
+          "cells_a": [
+            "TCR 3",
+            "Fleet Service"
+          ],
+          "cells_b": [
+            "TCR 3",
+            "Fleet Service"
+          ]
+        },
+        {
+          "key": [
+            "tcr 3",
+            "industry-specific data–business application data"
+          ],
+          "cells_a": [
+            "TCR 3",
+            "Industry-Specific Data–Business Application Data"
+          ],
+          "cells_b": [
+            "TCR 3",
+            "Industry-Specific Data–Business Application Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr 3",
+            "lodging"
+          ],
+          "cells_a": [
+            "TCR 3",
+            "Lodging"
+          ],
+          "cells_b": [
+            "TCR 3",
+            "Lodging"
+          ]
+        },
+        {
+          "key": [
+            "tcr 3",
+            "passenger itinerary data"
+          ],
+          "cells_a": [
+            "TCR 3",
+            "Passenger Itinerary Data"
+          ],
+          "cells_b": [
+            "TCR 3",
+            "Passenger Itinerary Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr 4",
+            "promotion data"
+          ],
+          "cells_a": [
+            "TCR 4",
+            "Promotion Data"
+          ],
+          "cells_b": [
+            "TCR 4",
+            "Promotion Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr 4",
+            "single message system interface (sms and promotion data)"
+          ],
+          "cells_a": [
+            "TCR 4",
+            "Single Message System Interface (SMS and Promotion Data)"
+          ],
+          "cells_b": [
+            "TCR 4",
+            "Single Message System Interface (SMS and Promotion Data)"
+          ]
+        },
+        {
+          "key": [
+            "tcr 4",
+            "single message system interface (sms data)"
+          ],
+          "cells_a": [
+            "TCR 4",
+            "Single Message System Interface (SMS Data)"
+          ],
+          "cells_b": [
+            "TCR 4",
+            "Single Message System Interface (SMS Data)"
+          ]
+        },
+        {
+          "key": [
+            "tcr 5",
+            "payment service data"
+          ],
+          "cells_a": [
+            "TCR 5",
+            "Payment Service Data"
+          ],
+          "cells_b": [
+            "TCR 5",
+            "Payment Service Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr 6",
+            "limited-use data"
+          ],
+          "cells_a": [
+            "TCR 6",
+            "Limited-Use Data"
+          ],
+          "cells_b": [
+            "TCR 6",
+            "Limited-Use Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr 7",
+            "chip card transaction data"
+          ],
+          "cells_a": [
+            "TCR 7",
+            "Chip Card Transaction Data"
+          ],
+          "cells_b": [
+            "TCR 7",
+            "Chip Card Transaction Data"
+          ]
+        }
+      ],
+      "rows_removed": [],
+      "rows_added": []
+    },
+    {
+      "title_a": "36 Credit Voucher Dispute Reversal",
+      "title_b": "36 Credit Voucher Dispute Reversal",
+      "match_type": "exact",
+      "fuzzy_ratio": 1.0,
+      "duplicate_row_keys_a": [],
+      "duplicate_row_keys_b": [],
+      "rows_matched": [
+        {
+          "key": [
+            "tcr 0",
+            "reversal"
+          ],
+          "cells_a": [
+            "TCR 0",
+            "Reversal"
+          ],
+          "cells_b": [
+            "TCR 0",
+            "Reversal"
+          ]
+        },
+        {
+          "key": [
+            "tcr 1",
+            "additional data"
+          ],
+          "cells_a": [
+            "TCR 1",
+            "Additional Data"
+          ],
+          "cells_b": [
+            "TCR 1",
+            "Additional Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, brazil"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Brazil"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Brazil"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, colombia"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Colombia"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Colombia"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, japan"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Japan"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Japan"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, mexico"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Mexico"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Mexico"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, paraguay"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Paraguay"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Paraguay"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, south korea"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, South Korea"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, South Korea"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, sweden"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Sweden"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Sweden"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, turkey"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Turkey"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Turkey"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, uruguay"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Uruguay"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Uruguay"
+          ]
+        },
+        {
+          "key": [
+            "tcr 3",
+            "car rental"
+          ],
+          "cells_a": [
+            "TCR 3",
+            "Car Rental"
+          ],
+          "cells_b": [
+            "TCR 3",
+            "Car Rental"
+          ]
+        },
+        {
+          "key": [
+            "tcr 3",
+            "fleet service"
+          ],
+          "cells_a": [
+            "TCR 3",
+            "Fleet Service"
+          ],
+          "cells_b": [
+            "TCR 3",
+            "Fleet Service"
+          ]
+        },
+        {
+          "key": [
+            "tcr 3",
+            "industry-specific data–business application data"
+          ],
+          "cells_a": [
+            "TCR 3",
+            "Industry-Specific Data–Business Application Data"
+          ],
+          "cells_b": [
+            "TCR 3",
+            "Industry-Specific Data–Business Application Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr 3",
+            "lodging"
+          ],
+          "cells_a": [
+            "TCR 3",
+            "Lodging"
+          ],
+          "cells_b": [
+            "TCR 3",
+            "Lodging"
+          ]
+        },
+        {
+          "key": [
+            "tcr 3",
+            "original credit"
+          ],
+          "cells_a": [
+            "TCR 3",
+            "Original Credit"
+          ],
+          "cells_b": [
+            "TCR 3",
+            "Original Credit"
+          ]
+        },
+        {
+          "key": [
+            "tcr 3",
+            "passenger itinerary data"
+          ],
+          "cells_a": [
+            "TCR 3",
+            "Passenger Itinerary Data"
+          ],
+          "cells_b": [
+            "TCR 3",
+            "Passenger Itinerary Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr 4",
+            "promotion data"
+          ],
+          "cells_a": [
+            "TCR 4",
+            "Promotion Data"
+          ],
+          "cells_b": [
+            "TCR 4",
+            "Promotion Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr 4",
+            "single message system interface (sms and promotion data)"
+          ],
+          "cells_a": [
+            "TCR 4",
+            "Single Message System Interface (SMS and Promotion Data)"
+          ],
+          "cells_b": [
+            "TCR 4",
+            "Single Message System Interface (SMS and Promotion Data)"
+          ]
+        },
+        {
+          "key": [
+            "tcr 4",
+            "single message system interface (sms data)"
+          ],
+          "cells_a": [
+            "TCR 4",
+            "Single Message System Interface (SMS Data)"
+          ],
+          "cells_b": [
+            "TCR 4",
+            "Single Message System Interface (SMS Data)"
+          ]
+        },
+        {
+          "key": [
+            "tcr 5",
+            "payment service data"
+          ],
+          "cells_a": [
+            "TCR 5",
+            "Payment Service Data"
+          ],
+          "cells_b": [
+            "TCR 5",
+            "Payment Service Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr 6",
+            "limited-use data"
+          ],
+          "cells_a": [
+            "TCR 6",
+            "Limited-Use Data"
+          ],
+          "cells_b": [
+            "TCR 6",
+            "Limited-Use Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr 7",
+            "chip card transaction data"
+          ],
+          "cells_a": [
+            "TCR 7",
+            "Chip Card Transaction Data"
+          ],
+          "cells_b": [
+            "TCR 7",
+            "Chip Card Transaction Data"
+          ]
+        }
+      ],
+      "rows_removed": [],
+      "rows_added": []
+    },
+    {
+      "title_a": "37 Cash Disbursement Dispute Reversal",
+      "title_b": "37 Cash Disbursement Dispute Reversal",
+      "match_type": "exact",
+      "fuzzy_ratio": 1.0,
+      "duplicate_row_keys_a": [],
+      "duplicate_row_keys_b": [],
+      "rows_matched": [
+        {
+          "key": [
+            "tcr 0",
+            ""
+          ],
+          "cells_a": [
+            "TCR 0"
+          ],
+          "cells_b": [
+            "TCR 0"
+          ]
+        },
+        {
+          "key": [
+            "tcr 0",
+            "reversal"
+          ],
+          "cells_a": [
+            "TCR 0",
+            "Reversal"
+          ],
+          "cells_b": [
+            "TCR 0",
+            "Reversal"
+          ]
+        },
+        {
+          "key": [
+            "tcr 1",
+            "additional data"
+          ],
+          "cells_a": [
+            "TCR 1",
+            "Additional Data"
+          ],
+          "cells_b": [
+            "TCR 1",
+            "Additional Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr 1",
+            "vcrfs nonfulfillment"
+          ],
+          "cells_a": [
+            "TCR 1",
+            "VCRFS Nonfulfillment"
+          ],
+          "cells_b": [
+            "TCR 1",
+            "VCRFS Nonfulfillment"
+          ]
+        },
+        {
+          "key": [
+            "tcr 1",
+            "vcrfs/vdas advice"
+          ],
+          "cells_a": [
+            "TCR 1",
+            "VCRFS/VDAS Advice"
+          ],
+          "cells_b": [
+            "TCR 1",
+            "VCRFS/VDAS Advice"
+          ]
+        },
+        {
+          "key": [
+            "tcr 1–7",
+            "vcrfs nonfulfillment message"
+          ],
+          "cells_a": [
+            "TCR 1–7",
+            "VCRFS Nonfulfillment Message"
+          ],
+          "cells_b": [
+            "TCR 1–7",
+            "VCRFS Nonfulfillment Message"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, brazil"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Brazil"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Brazil"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, colombia"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Colombia"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Colombia"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, japan"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Japan"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Japan"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, mexico"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Mexico"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Mexico"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, paraguay"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Paraguay"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Paraguay"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, south korea"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, South Korea"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, South Korea"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, sweden"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Sweden"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Sweden"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, turkey"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Turkey"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Turkey"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "national settlement, uruguay"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "National Settlement, Uruguay"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "National Settlement, Uruguay"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "vcrfs advice"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "VCRFS Advice"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "VCRFS Advice"
+          ]
+        },
+        {
+          "key": [
+            "tcr 3",
+            "car rental"
+          ],
+          "cells_a": [
+            "TCR 3",
+            "Car Rental"
+          ],
+          "cells_b": [
+            "TCR 3",
+            "Car Rental"
+          ]
+        },
+        {
+          "key": [
+            "tcr 3",
+            "fleet service"
+          ],
+          "cells_a": [
+            "TCR 3",
+            "Fleet Service"
+          ],
+          "cells_b": [
+            "TCR 3",
+            "Fleet Service"
+          ]
+        },
+        {
+          "key": [
+            "tcr 3",
+            "industry-specific data"
+          ],
+          "cells_a": [
+            "TCR 3",
+            "Industry-Specific Data"
+          ],
+          "cells_b": [
+            "TCR 3",
+            "Industry-Specific Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr 3",
+            "lodging"
+          ],
+          "cells_a": [
+            "TCR 3",
+            "Lodging"
+          ],
+          "cells_b": [
+            "TCR 3",
+            "Lodging"
+          ]
+        },
+        {
+          "key": [
+            "tcr 3",
+            "passenger itinerary data"
+          ],
+          "cells_a": [
+            "TCR 3",
+            "Passenger Itinerary Data"
+          ],
+          "cells_b": [
+            "TCR 3",
+            "Passenger Itinerary Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr 4",
+            "promotion data"
+          ],
+          "cells_a": [
+            "TCR 4",
+            "Promotion Data"
+          ],
+          "cells_b": [
+            "TCR 4",
+            "Promotion Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr 4",
+            "single message system interface (sms and promotion data)"
+          ],
+          "cells_a": [
+            "TCR 4",
+            "Single Message System Interface (SMS and Promotion Data)"
+          ],
+          "cells_b": [
+            "TCR 4",
+            "Single Message System Interface (SMS and Promotion Data)"
+          ]
+        },
+        {
+          "key": [
+            "tcr 4",
+            "single message system interface (sms data)"
+          ],
+          "cells_a": [
+            "TCR 4",
+            "Single Message System Interface (SMS Data)"
+          ],
+          "cells_b": [
+            "TCR 4",
+            "Single Message System Interface (SMS Data)"
+          ]
+        },
+        {
+          "key": [
+            "tcr 5",
+            "payment service data"
+          ],
+          "cells_a": [
+            "TCR 5",
+            "Payment Service Data"
+          ],
+          "cells_b": [
+            "TCR 5",
+            "Payment Service Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr 6",
+            "limited-use data"
+          ],
+          "cells_a": [
+            "TCR 6",
+            "Limited-Use Data"
+          ],
+          "cells_b": [
+            "TCR 6",
+            "Limited-Use Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr 7",
+            "chip card transaction data"
+          ],
+          "cells_a": [
+            "TCR 7",
+            "Chip Card Transaction Data"
+          ],
+          "cells_b": [
+            "TCR 7",
+            "Chip Card Transaction Data"
+          ]
+        }
+      ],
+      "rows_removed": [],
+      "rows_added": []
+    },
+    {
+      "title_a": "38 VCRFS/VDAS Message",
+      "title_b": "38 VCRFS/VDAS Message",
+      "match_type": "exact",
+      "fuzzy_ratio": 1.0,
+      "duplicate_row_keys_a": [],
+      "duplicate_row_keys_b": [],
+      "rows_matched": [
+        {
+          "key": [
+            "tcr 2",
+            "vdas advice"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "VDAS Advice"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "VDAS Advice"
+          ]
+        },
+        {
+          "key": [
+            "tcr 3",
+            "chargeback documentation data"
+          ],
+          "cells_a": [
+            "TCR 3",
+            "Chargeback Documentation Data"
+          ],
+          "cells_b": [
+            "TCR 3",
+            "Chargeback Documentation Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr 5",
+            "vdas car rental"
+          ],
+          "cells_a": [
+            "TCR 5",
+            "VDAS Car Rental"
+          ],
+          "cells_b": [
+            "TCR 5",
+            "VDAS Car Rental"
+          ]
+        },
+        {
+          "key": [
+            "tcr 5",
+            "vdas lodging"
+          ],
+          "cells_a": [
+            "TCR 5",
+            "VDAS Lodging"
+          ],
+          "cells_b": [
+            "TCR 5",
+            "VDAS Lodging"
+          ]
+        }
+      ],
+      "rows_removed": [],
+      "rows_added": []
+    },
+    {
+      "title_a": "39 VCRFS/VDAS Message",
+      "title_b": "39 VCRFS/VDAS Message",
+      "match_type": "exact",
+      "fuzzy_ratio": 1.0,
+      "duplicate_row_keys_a": [],
+      "duplicate_row_keys_b": [],
+      "rows_matched": [
+        {
+          "key": [
+            "tcr 0",
+            ""
+          ],
+          "cells_a": [
+            "TCR 0"
+          ],
+          "cells_b": [
+            "TCR 0"
+          ]
+        },
+        {
+          "key": [
+            "tcr 1",
+            "vdas forms data"
+          ],
+          "cells_a": [
+            "TCR 1",
+            "VDAS Forms Data"
+          ],
+          "cells_b": [
+            "TCR 1",
+            "VDAS Forms Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr 1",
+            "vdas forms data, exhibit e or exhibit 2e"
+          ],
+          "cells_a": [
+            "TCR 1",
+            "VDAS Forms Data, Exhibit E or Exhibit 2E"
+          ],
+          "cells_b": [
+            "TCR 1",
+            "VDAS Forms Data, Exhibit E or Exhibit 2E"
+          ]
+        },
+        {
+          "key": [
+            "tcr 1–7",
+            "image/text message"
+          ],
+          "cells_a": [
+            "TCR 1–7",
+            "Image/Text Message"
+          ],
+          "cells_b": [
+            "TCR 1–7",
+            "Image/Text Message"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "vdas forms data, exhibit e or exhibit 2e, optional collection data"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "VDAS Forms Data, Exhibit E or Exhibit 2E, Optional Collection Data"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "VDAS Forms Data, Exhibit E or Exhibit 2E, Optional Collection Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr 3",
+            "vdas forms data, exhibit e or exhibit 2e, optional representment/second chargeback"
+          ],
+          "cells_a": [
+            "TCR 3",
+            "VDAS Forms Data, Exhibit E or Exhibit 2E, Optional Representment/Second\nChargeback"
+          ],
+          "cells_b": [
+            "TCR 3",
+            "VDAS Forms Data, Exhibit E or Exhibit 2E, Optional Representment/Second\nChargeback"
+          ]
+        },
+        {
+          "key": [
+            "tcr 4",
+            "vdas forms data, exhibit q or exhibit 3d"
+          ],
+          "cells_a": [
+            "TCR 4",
+            "VDAS Forms Data, Exhibit Q or Exhibit 3D"
+          ],
+          "cells_b": [
+            "TCR 4",
+            "VDAS Forms Data, Exhibit Q or Exhibit 3D"
+          ]
+        },
+        {
+          "key": [
+            "tcr 4",
+            "vdas forms data, exhibit y or exhibit 3c"
+          ],
+          "cells_a": [
+            "TCR 4",
+            "VDAS Forms Data, Exhibit Y or Exhibit 3C"
+          ],
+          "cells_b": [
+            "TCR 4",
+            "VDAS Forms Data, Exhibit Y or Exhibit 3C"
+          ]
+        },
+        {
+          "key": [
+            "tcr 5–6",
+            "vdas forms data, exhibit y or exhibit 3c, authorizations obtained information"
+          ],
+          "cells_a": [
+            "TCR 5–6",
+            "VDAS Forms Data, Exhibit Y or Exhibit 3C, Authorizations Obtained Information"
+          ],
+          "cells_b": [
+            "TCR 5–6",
+            "VDAS Forms Data, Exhibit Y or Exhibit 3C, Authorizations Obtained Information"
+          ]
+        }
+      ],
+      "rows_removed": [],
+      "rows_added": []
+    },
+    {
+      "title_a": "40 Fraud Advice",
+      "title_b": "40 Fraud Advice",
+      "match_type": "exact",
+      "fuzzy_ratio": 1.0,
+      "duplicate_row_keys_a": [],
+      "duplicate_row_keys_b": [],
+      "rows_matched": [
+        {
+          "key": [
+            "tcr 0",
+            ""
+          ],
+          "cells_a": [
+            "TCR 0"
+          ],
+          "cells_b": [
+            "TCR 0"
+          ]
+        },
+        {
+          "key": [
+            "tcr 1",
+            ""
+          ],
+          "cells_a": [
+            "TCR 1"
+          ],
+          "cells_b": [
+            "TCR 1"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            ""
+          ],
+          "cells_a": [
+            "TCR 2"
+          ],
+          "cells_b": [
+            "TCR 2"
+          ]
+        },
+        {
+          "key": [
+            "tcr 3",
+            ""
+          ],
+          "cells_a": [
+            "TCR 3"
+          ],
+          "cells_b": [
+            "TCR 3"
+          ]
+        },
+        {
+          "key": [
+            "tcr 4, 7",
+            ""
+          ],
+          "cells_a": [
+            "TCR 4, 7"
+          ],
+          "cells_b": [
+            "TCR 4, 7"
+          ]
+        }
+      ],
+      "rows_removed": [],
+      "rows_added": []
+    },
+    {
+      "title_a": "42 Merchant File Update",
+      "title_b": "42 Merchant File Update",
+      "match_type": "exact",
+      "fuzzy_ratio": 1.0,
+      "duplicate_row_keys_a": [],
+      "duplicate_row_keys_b": [],
+      "rows_matched": [
+        {
+          "key": [
+            "tcr 0",
+            "record 1"
+          ],
+          "cells_a": [
+            "TCR 0",
+            "Record 1"
+          ],
+          "cells_b": [
+            "TCR 0",
+            "Record 1"
+          ]
+        }
+      ],
+      "rows_removed": [],
+      "rows_added": []
+    },
+    {
+      "title_a": "43 Merchant File Update",
+      "title_b": "43 Merchant File Update",
+      "match_type": "exact",
+      "fuzzy_ratio": 1.0,
+      "duplicate_row_keys_a": [],
+      "duplicate_row_keys_b": [],
+      "rows_matched": [
+        {
+          "key": [
+            "tcr 0",
+            "record 2"
+          ],
+          "cells_a": [
+            "TCR 0",
+            "Record 2"
+          ],
+          "cells_b": [
+            "TCR 0",
+            "Record 2"
+          ]
+        }
+      ],
+      "rows_removed": [],
+      "rows_added": []
+    },
+    {
+      "title_a": "44 Collection Batch Acknowledgment",
+      "title_b": "44 Collection Batch Acknowledgment",
+      "match_type": "exact",
+      "fuzzy_ratio": 1.0,
+      "duplicate_row_keys_a": [],
+      "duplicate_row_keys_b": [],
+      "rows_matched": [
+        {
+          "key": [
+            "tcr 0",
+            "batch disposition code a"
+          ],
+          "cells_a": [
+            "TCR 0",
+            "Batch Disposition Code A"
+          ],
+          "cells_b": [
+            "TCR 0",
+            "Batch Disposition Code A"
+          ]
+        },
+        {
+          "key": [
+            "tcr 0",
+            "batch disposition code r"
+          ],
+          "cells_a": [
+            "TCR 0",
+            "Batch Disposition Code R"
+          ],
+          "cells_b": [
+            "TCR 0",
+            "Batch Disposition Code R"
+          ]
+        },
+        {
+          "key": [
+            "tcr 0",
+            "batch disposition code x"
+          ],
+          "cells_a": [
+            "TCR 0",
+            "Batch Disposition Code X"
+          ],
+          "cells_b": [
+            "TCR 0",
+            "Batch Disposition Code X"
+          ]
+        },
+        {
+          "key": [
+            "tcr 1–8",
+            "additional data"
+          ],
+          "cells_a": [
+            "TCR 1–8",
+            "Additional Data"
+          ],
+          "cells_b": [
+            "TCR 1–8",
+            "Additional Data"
+          ]
+        }
+      ],
+      "rows_removed": [],
+      "rows_added": []
+    },
+    {
+      "title_a": "45 General Delivery Report",
+      "title_b": "45 General Delivery Report",
+      "match_type": "exact",
+      "fuzzy_ratio": 1.0,
+      "duplicate_row_keys_a": [],
+      "duplicate_row_keys_b": [],
+      "rows_matched": [
+        {
+          "key": [
+            "tcr 0",
+            ""
+          ],
+          "cells_a": [
+            "TCR 0"
+          ],
+          "cells_b": [
+            "TCR 0"
+          ]
+        }
+      ],
+      "rows_removed": [],
+      "rows_added": []
+    },
+    {
+      "title_a": "46 Member Settlement Data",
+      "title_b": "46 Member Settlement Data",
+      "match_type": "exact",
+      "fuzzy_ratio": 1.0,
+      "duplicate_row_keys_a": [],
+      "duplicate_row_keys_b": [],
+      "rows_matched": [
+        {
+          "key": [
+            "tcr 0",
+            ""
+          ],
+          "cells_a": [
+            "TCR 0"
+          ],
+          "cells_b": [
+            "TCR 0"
+          ]
+        },
+        {
+          "key": [
+            "tcr 0",
+            "base ii–12 report"
+          ],
+          "cells_a": [
+            "TCR 0",
+            "BASE II–12 Report"
+          ],
+          "cells_b": [
+            "TCR 0",
+            "BASE II–12 Report"
+          ]
+        },
+        {
+          "key": [
+            "tcr 0",
+            "base ii–5a report for cible"
+          ],
+          "cells_a": [
+            "TCR 0",
+            "BASE II–5A Report for CIBLE"
+          ],
+          "cells_b": [
+            "TCR 0",
+            "BASE II–5A Report for CIBLE"
+          ]
+        },
+        {
+          "key": [
+            "tcr 0",
+            "base ii–6e report for cible"
+          ],
+          "cells_a": [
+            "TCR 0",
+            "BASE II–6E Report for CIBLE"
+          ],
+          "cells_b": [
+            "TCR 0",
+            "BASE II–6E Report for CIBLE"
+          ]
+        },
+        {
+          "key": [
+            "tcr 0",
+            "report group = c"
+          ],
+          "cells_a": [
+            "TCR 0",
+            "Report Group = C"
+          ],
+          "cells_b": [
+            "TCR 0",
+            "Report Group = C"
+          ]
+        },
+        {
+          "key": [
+            "tcr 0",
+            "report group = i (irf reporting)"
+          ],
+          "cells_a": [
+            "TCR 0",
+            "Report Group = I (IRF Reporting)"
+          ],
+          "cells_b": [
+            "TCR 0",
+            "Report Group = I (IRF Reporting)"
+          ]
+        },
+        {
+          "key": [
+            "tcr 0",
+            "report group = j (japan)"
+          ],
+          "cells_a": [
+            "TCR 0",
+            "Report Group = J (Japan)"
+          ],
+          "cells_b": [
+            "TCR 0",
+            "Report Group = J (Japan)"
+          ]
+        },
+        {
+          "key": [
+            "tcr 0",
+            "report group = n (brazil 54 report)"
+          ],
+          "cells_a": [
+            "TCR 0",
+            "Report Group = N (Brazil 54 Report)"
+          ],
+          "cells_b": [
+            "TCR 0",
+            "Report Group = N (Brazil 54 Report)"
+          ]
+        },
+        {
+          "key": [
+            "tcr 0",
+            "report group = n (brazil cib report)"
+          ],
+          "cells_a": [
+            "TCR 0",
+            "Report Group = N (Brazil CIB Report)"
+          ],
+          "cells_b": [
+            "TCR 0",
+            "Report Group = N (Brazil CIB Report)"
+          ]
+        },
+        {
+          "key": [
+            "tcr 0",
+            "report group = n (brazil clearing bin report)"
+          ],
+          "cells_a": [
+            "TCR 0",
+            "Report Group = N (Brazil Clearing BIN Report)"
+          ],
+          "cells_b": [
+            "TCR 0",
+            "Report Group = N (Brazil Clearing BIN Report)"
+          ]
+        },
+        {
+          "key": [
+            "tcr 0",
+            "report group = n (brazil settlement bin report)"
+          ],
+          "cells_a": [
+            "TCR 0",
+            "Report Group = N (Brazil Settlement BIN Report)"
+          ],
+          "cells_b": [
+            "TCR 0",
+            "Report Group = N (Brazil Settlement BIN Report)"
+          ]
+        }
+      ],
+      "rows_removed": [],
+      "rows_added": []
+    },
+    {
+      "title_a": "47 Report Generation Record",
+      "title_b": "47 Report Generation Record",
+      "match_type": "exact",
+      "fuzzy_ratio": 1.0,
+      "duplicate_row_keys_a": [],
+      "duplicate_row_keys_b": [],
+      "rows_matched": [
+        {
+          "key": [
+            "tcr 0",
+            ""
+          ],
+          "cells_a": [
+            "TCR 0"
+          ],
+          "cells_b": [
+            "TCR 0"
+          ]
+        }
+      ],
+      "rows_removed": [],
+      "rows_added": []
+    },
+    {
+      "title_a": "48 BASE I Advice Record",
+      "title_b": "48 BASE I Advice Record",
+      "match_type": "exact",
+      "fuzzy_ratio": 1.0,
+      "duplicate_row_keys_a": [],
+      "duplicate_row_keys_b": [],
+      "rows_matched": [
+        {
+          "key": [
+            "tcr 0",
+            "format 0 (standard)"
+          ],
+          "cells_a": [
+            "TCR 0",
+            "Format 0 (Standard)"
+          ],
+          "cells_b": [
+            "TCR 0",
+            "Format 0 (Standard)"
+          ]
+        },
+        {
+          "key": [
+            "tcr 0",
+            "format 1 (iso–enriched)"
+          ],
+          "cells_a": [
+            "TCR 0",
+            "Format 1 (ISO–Enriched)"
+          ],
+          "cells_b": [
+            "TCR 0",
+            "Format 1 (ISO–Enriched)"
+          ]
+        },
+        {
+          "key": [
+            "tcr 0",
+            "format 2"
+          ],
+          "cells_a": [
+            "TCR 0",
+            "Format 2"
+          ],
+          "cells_b": [
+            "TCR 0",
+            "Format 2"
+          ]
+        },
+        {
+          "key": [
+            "tcr 1",
+            "iso-enriched"
+          ],
+          "cells_a": [
+            "TCR 1",
+            "ISO-Enriched"
+          ],
+          "cells_b": [
+            "TCR 1",
+            "ISO-Enriched"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "iso-enriched"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "ISO-Enriched"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "ISO-Enriched"
+          ]
+        },
+        {
+          "key": [
+            "tcr 3",
+            "iso-enriched"
+          ],
+          "cells_a": [
+            "TCR 3",
+            "ISO-Enriched"
+          ],
+          "cells_b": [
+            "TCR 3",
+            "ISO-Enriched"
+          ]
+        },
+        {
+          "key": [
+            "tcr 6",
+            "iso-enriched"
+          ],
+          "cells_a": [
+            "TCR 6",
+            "ISO-Enriched"
+          ],
+          "cells_b": [
+            "TCR 6",
+            "ISO-Enriched"
+          ]
+        },
+        {
+          "key": [
+            "tcr 7",
+            "format 2"
+          ],
+          "cells_a": [
+            "TCR 7",
+            "Format 2"
+          ],
+          "cells_b": [
+            "TCR 7",
+            "Format 2"
+          ]
+        },
+        {
+          "key": [
+            "tcr 7",
+            "iso-enriched"
+          ],
+          "cells_a": [
+            "TCR 7",
+            "ISO-Enriched"
+          ],
+          "cells_b": [
+            "TCR 7",
+            "ISO-Enriched"
+          ]
+        }
+      ],
+      "rows_removed": [],
+      "rows_added": []
+    },
+    {
+      "title_a": "49 Split Batch Acknowledgment Transactions",
+      "title_b": "49 Split Batch Acknowledgment Transactions",
+      "match_type": "exact",
+      "fuzzy_ratio": 1.0,
+      "duplicate_row_keys_a": [],
+      "duplicate_row_keys_b": [],
+      "rows_matched": [
+        {
+          "key": [
+            "tcr 0",
+            "split batch acknowledgment transactions"
+          ],
+          "cells_a": [
+            "TCR 0",
+            "Split Batch Acknowledgment Transactions"
+          ],
+          "cells_b": [
+            "TCR 0",
+            "Split Batch Acknowledgment Transactions"
+          ]
+        }
+      ],
+      "rows_removed": [],
+      "rows_added": []
+    },
+    {
+      "title_a": "50 Free Text Message",
+      "title_b": "50 Free Text Message",
+      "match_type": "exact",
+      "fuzzy_ratio": 1.0,
+      "duplicate_row_keys_a": [],
+      "duplicate_row_keys_b": [],
+      "rows_matched": [
+        {
+          "key": [
+            "tcr 0",
+            "commercial card, car rental"
+          ],
+          "cells_a": [
+            "TCR 0",
+            "Commercial Card, Car Rental"
+          ],
+          "cells_b": [
+            "TCR 0",
+            "Commercial Card, Car Rental"
+          ]
+        },
+        {
+          "key": [
+            "tcr 0",
+            "commercial card, car rental (additional data elements)"
+          ],
+          "cells_a": [
+            "TCR 0",
+            "Commercial Card, Car Rental (Additional Data Elements)"
+          ],
+          "cells_b": [
+            "TCR 0",
+            "Commercial Card, Car Rental (Additional Data Elements)"
+          ]
+        },
+        {
+          "key": [
+            "tcr 0",
+            "commercial card, car rental, line item detail (item data elements)"
+          ],
+          "cells_a": [
+            "TCR 0",
+            "Commercial Card, Car Rental, Line Item Detail (Item Data Elements)"
+          ],
+          "cells_b": [
+            "TCR 0",
+            "Commercial Card, Car Rental, Line Item Detail (Item Data Elements)"
+          ]
+        },
+        {
+          "key": [
+            "tcr 0",
+            "commercial card, fleet service"
+          ],
+          "cells_a": [
+            "TCR 0",
+            "Commercial Card, Fleet Service"
+          ],
+          "cells_b": [
+            "TCR 0",
+            "Commercial Card, Fleet Service"
+          ]
+        },
+        {
+          "key": [
+            "tcr 0",
+            "commercial card, general use (additional data elements)"
+          ],
+          "cells_a": [
+            "TCR 0",
+            "Commercial Card, General Use (Additional Data Elements)"
+          ],
+          "cells_b": [
+            "TCR 0",
+            "Commercial Card, General Use (Additional Data Elements)"
+          ]
+        },
+        {
+          "key": [
+            "tcr 0",
+            "commercial card, generic data"
+          ],
+          "cells_a": [
+            "TCR 0",
+            "Commercial Card, Generic Data"
+          ],
+          "cells_b": [
+            "TCR 0",
+            "Commercial Card, Generic Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr 0",
+            "commercial card, invoice (header and summary)"
+          ],
+          "cells_a": [
+            "TCR 0",
+            "Commercial Card, Invoice (Header And Summary)"
+          ],
+          "cells_b": [
+            "TCR 0",
+            "Commercial Card, Invoice (Header And Summary)"
+          ]
+        },
+        {
+          "key": [
+            "tcr 0",
+            "commercial card, invoice (line detail)"
+          ],
+          "cells_a": [
+            "TCR 0",
+            "Commercial Card, Invoice (Line Detail)"
+          ],
+          "cells_b": [
+            "TCR 0",
+            "Commercial Card, Invoice (Line Detail)"
+          ]
+        },
+        {
+          "key": [
+            "tcr 0",
+            "commercial card, lodging"
+          ],
+          "cells_a": [
+            "TCR 0",
+            "Commercial Card, Lodging"
+          ],
+          "cells_b": [
+            "TCR 0",
+            "Commercial Card, Lodging"
+          ]
+        },
+        {
+          "key": [
+            "tcr 0",
+            "commercial card, lodging (additional data elements)"
+          ],
+          "cells_a": [
+            "TCR 0",
+            "Commercial Card, Lodging (Additional Data Elements)"
+          ],
+          "cells_b": [
+            "TCR 0",
+            "Commercial Card, Lodging (Additional Data Elements)"
+          ]
+        },
+        {
+          "key": [
+            "tcr 0",
+            "commercial card, lodging, line item detail (item data elements)"
+          ],
+          "cells_a": [
+            "TCR 0",
+            "Commercial Card, Lodging, Line Item Detail (Item Data Elements)"
+          ],
+          "cells_b": [
+            "TCR 0",
+            "Commercial Card, Lodging, Line Item Detail (Item Data Elements)"
+          ]
+        },
+        {
+          "key": [
+            "tcr 0",
+            "commercial card, open format, text message"
+          ],
+          "cells_a": [
+            "TCR 0",
+            "Commercial Card, Open Format, Text Message"
+          ],
+          "cells_b": [
+            "TCR 0",
+            "Commercial Card, Open Format, Text Message"
+          ]
+        },
+        {
+          "key": [
+            "tcr 0",
+            "commercial card, passenger itinerary data"
+          ],
+          "cells_a": [
+            "TCR 0",
+            "Commercial Card, Passenger Itinerary Data"
+          ],
+          "cells_b": [
+            "TCR 0",
+            "Commercial Card, Passenger Itinerary Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr 0",
+            "commercial card, passenger itinerary data, leg-specific"
+          ],
+          "cells_a": [
+            "TCR 0",
+            "Commercial Card, Passenger Itinerary Data, Leg-Specific"
+          ],
+          "cells_b": [
+            "TCR 0",
+            "Commercial Card, Passenger Itinerary Data, Leg-Specific"
+          ]
+        },
+        {
+          "key": [
+            "tcr 0",
+            "commercial card, purchasing transaction, line item detail (item data elements)"
+          ],
+          "cells_a": [
+            "TCR 0",
+            "Commercial Card, Purchasing Transaction, Line Item Detail (Item Data Elements)"
+          ],
+          "cells_b": [
+            "TCR 0",
+            "Commercial Card, Purchasing Transaction, Line Item Detail (Item Data Elements)"
+          ]
+        },
+        {
+          "key": [
+            "tcr 0",
+            "merchant registration"
+          ],
+          "cells_a": [
+            "TCR 0",
+            "Merchant Registration"
+          ],
+          "cells_b": [
+            "TCR 0",
+            "Merchant Registration"
+          ]
+        },
+        {
+          "key": [
+            "tcr 0",
+            "oct additional information"
+          ],
+          "cells_a": [
+            "TCR 0",
+            "OCT Additional Information"
+          ],
+          "cells_b": [
+            "TCR 0",
+            "OCT Additional Information"
+          ]
+        },
+        {
+          "key": [
+            "tcr 0",
+            "oct payment detail data"
+          ],
+          "cells_a": [
+            "TCR 0",
+            "OCT Payment Detail Data"
+          ],
+          "cells_b": [
+            "TCR 0",
+            "OCT Payment Detail Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr 0",
+            "stop recurring payment"
+          ],
+          "cells_a": [
+            "TCR 0",
+            "Stop Recurring Payment"
+          ],
+          "cells_b": [
+            "TCR 0",
+            "Stop Recurring Payment"
+          ]
+        },
+        {
+          "key": [
+            "tcr 0",
+            "text message"
+          ],
+          "cells_a": [
+            "TCR 0",
+            "Text Message"
+          ],
+          "cells_b": [
+            "TCR 0",
+            "Text Message"
+          ]
+        },
+        {
+          "key": [
+            "tcr 1",
+            "commercial card, fleet service"
+          ],
+          "cells_a": [
+            "TCR 1",
+            "Commercial Card, Fleet Service"
+          ],
+          "cells_b": [
+            "TCR 1",
+            "Commercial Card, Fleet Service"
+          ]
+        },
+        {
+          "key": [
+            "tcr 1",
+            "merchant registration, additional data"
+          ],
+          "cells_a": [
+            "TCR 1",
+            "Merchant Registration, Additional Data"
+          ],
+          "cells_b": [
+            "TCR 1",
+            "Merchant Registration, Additional Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr 1",
+            "oct additional information"
+          ],
+          "cells_a": [
+            "TCR 1",
+            "OCT Additional Information"
+          ],
+          "cells_b": [
+            "TCR 1",
+            "OCT Additional Information"
+          ]
+        },
+        {
+          "key": [
+            "tcr 1",
+            "oct payment detail data"
+          ],
+          "cells_a": [
+            "TCR 1",
+            "OCT Payment Detail Data"
+          ],
+          "cells_b": [
+            "TCR 1",
+            "OCT Payment Detail Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr 1–7",
+            "commercial card, open format, text message"
+          ],
+          "cells_a": [
+            "TCR 1–7",
+            "Commercial Card, Open Format, Text Message"
+          ],
+          "cells_b": [
+            "TCR 1–7",
+            "Commercial Card, Open Format, Text Message"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "oct payment detail data"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "OCT Payment Detail Data"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "OCT Payment Detail Data"
+          ]
+        }
+      ],
+      "rows_removed": [],
+      "rows_added": []
+    },
+    {
+      "title_a": "52 Request for Photocopy",
+      "title_b": "52 Request for Photocopy",
+      "match_type": "exact",
+      "fuzzy_ratio": 1.0,
+      "duplicate_row_keys_a": [],
+      "duplicate_row_keys_b": [],
+      "rows_matched": [
+        {
+          "key": [
+            "tcr 0",
+            ""
+          ],
+          "cells_a": [
+            "TCR 0"
+          ],
+          "cells_b": [
+            "TCR 0"
+          ]
+        },
+        {
+          "key": [
+            "tcr 1",
+            ""
+          ],
+          "cells_a": [
+            "TCR 1"
+          ],
+          "cells_b": [
+            "TCR 1"
+          ]
+        },
+        {
+          "key": [
+            "tcr 4",
+            ""
+          ],
+          "cells_a": [
+            "TCR 4"
+          ],
+          "cells_b": [
+            "TCR 4"
+          ]
+        }
+      ],
+      "rows_removed": [],
+      "rows_added": []
+    },
+    {
+      "title_a": "54 Table Update Record",
+      "title_b": "54 Table Update Record",
+      "match_type": "exact",
+      "fuzzy_ratio": 1.0,
+      "duplicate_row_keys_a": [],
+      "duplicate_row_keys_b": [],
+      "rows_matched": [
+        {
+          "key": [
+            "tcr 0",
+            ""
+          ],
+          "cells_a": [
+            "TCR 0"
+          ],
+          "cells_b": [
+            "TCR 0"
+          ]
+        }
+      ],
+      "rows_removed": [],
+      "rows_added": []
+    },
+    {
+      "title_a": "55 RCRF Update Record",
+      "title_b": "55 RCRF Update Record",
+      "match_type": "exact",
+      "fuzzy_ratio": 1.0,
+      "duplicate_row_keys_a": [],
+      "duplicate_row_keys_b": [],
+      "rows_matched": [
+        {
+          "key": [
+            "tcr 0",
+            ""
+          ],
+          "cells_a": [
+            "TCR 0"
+          ],
+          "cells_b": [
+            "TCR 0"
+          ]
+        },
+        {
+          "key": [
+            "tcr 1,2",
+            ""
+          ],
+          "cells_a": [
+            "TCR 1,2"
+          ],
+          "cells_b": [
+            "TCR 1,2"
+          ]
+        },
+        {
+          "key": [
+            "tcr 1,2",
+            "(outgoing interchange)"
+          ],
+          "cells_a": [
+            "TCR 1,2",
+            "(Outgoing Interchange)"
+          ],
+          "cells_b": [
+            "TCR 1,2",
+            "(Outgoing Interchange)"
+          ]
+        },
+        {
+          "key": [
+            "tcr 3–7",
+            "(outgoing and incoming)"
+          ],
+          "cells_a": [
+            "TCR 3–7",
+            "(Outgoing and Incoming)"
+          ],
+          "cells_b": [
+            "TCR 3–7",
+            "(Outgoing and Incoming)"
+          ]
+        }
+      ],
+      "rows_removed": [],
+      "rows_added": []
+    },
+    {
+      "title_a": "56 Currency Conversion Rate Update Record",
+      "title_b": "56 Currency Conversion Rate Update Record",
+      "match_type": "exact",
+      "fuzzy_ratio": 1.0,
+      "duplicate_row_keys_a": [],
+      "duplicate_row_keys_b": [],
+      "rows_matched": [
+        {
+          "key": [
+            "tcr 0",
+            ""
+          ],
+          "cells_a": [
+            "TCR 0"
+          ],
+          "cells_b": [
+            "TCR 0"
+          ]
+        },
+        {
+          "key": [
+            "tcr 1",
+            ""
+          ],
+          "cells_a": [
+            "TCR 1"
+          ],
+          "cells_b": [
+            "TCR 1"
+          ]
+        }
+      ],
+      "rows_removed": [],
+      "rows_added": []
+    },
+    {
+      "title_a": "57 Data Capture Advice",
+      "title_b": "57 Data Capture Advice",
+      "match_type": "exact",
+      "fuzzy_ratio": 1.0,
+      "duplicate_row_keys_a": [],
+      "duplicate_row_keys_b": [],
+      "rows_matched": [
+        {
+          "key": [
+            "tcr 0",
+            "batch header"
+          ],
+          "cells_a": [
+            "TCR 0",
+            "Batch Header"
+          ],
+          "cells_b": [
+            "TCR 0",
+            "Batch Header"
+          ]
+        },
+        {
+          "key": [
+            "tcr 0",
+            "batch trailer"
+          ],
+          "cells_a": [
+            "TCR 0",
+            "Batch Trailer"
+          ],
+          "cells_b": [
+            "TCR 0",
+            "Batch Trailer"
+          ]
+        },
+        {
+          "key": [
+            "tcr 0",
+            "japan acquirer services"
+          ],
+          "cells_a": [
+            "TCR 0",
+            "Japan Acquirer Services"
+          ],
+          "cells_b": [
+            "TCR 0",
+            "Japan Acquirer Services"
+          ]
+        },
+        {
+          "key": [
+            "tcr 0",
+            "japan acquirer services–additional capture information 57 data capture advice"
+          ],
+          "cells_a": [
+            "TCR 0",
+            "Japan Acquirer Services–Additional Capture Information 57 Data Capture Advice"
+          ],
+          "cells_b": [
+            "TCR 0",
+            "Japan Acquirer Services–Additional Capture Information 57 Data Capture Advice"
+          ]
+        },
+        {
+          "key": [
+            "tcr 0",
+            "transaction detail"
+          ],
+          "cells_a": [
+            "TCR 0",
+            "Transaction Detail"
+          ],
+          "cells_b": [
+            "TCR 0",
+            "Transaction Detail"
+          ]
+        },
+        {
+          "key": [
+            "tcr 0",
+            "transaction detail (korea)"
+          ],
+          "cells_a": [
+            "TCR 0",
+            "Transaction Detail (Korea)"
+          ],
+          "cells_b": [
+            "TCR 0",
+            "Transaction Detail (Korea)"
+          ]
+        },
+        {
+          "key": [
+            "tcr 1",
+            "american express auto leasing"
+          ],
+          "cells_a": [
+            "TCR 1",
+            "American Express Auto Leasing"
+          ],
+          "cells_b": [
+            "TCR 1",
+            "American Express Auto Leasing"
+          ]
+        },
+        {
+          "key": [
+            "tcr 1",
+            "american express auto rental"
+          ],
+          "cells_a": [
+            "TCR 1",
+            "American Express Auto Rental"
+          ],
+          "cells_b": [
+            "TCR 1",
+            "American Express Auto Rental"
+          ]
+        },
+        {
+          "key": [
+            "tcr 1",
+            "american express gen’l merchandise"
+          ],
+          "cells_a": [
+            "TCR 1",
+            "American Express Gen’l Merchandise"
+          ],
+          "cells_b": [
+            "TCR 1",
+            "American Express Gen’l Merchandise"
+          ]
+        },
+        {
+          "key": [
+            "tcr 1",
+            "american express insurance, part 1"
+          ],
+          "cells_a": [
+            "TCR 1",
+            "American Express Insurance, Part 1"
+          ],
+          "cells_b": [
+            "TCR 1",
+            "American Express Insurance, Part 1"
+          ]
+        },
+        {
+          "key": [
+            "tcr 1",
+            "american express lodging"
+          ],
+          "cells_a": [
+            "TCR 1",
+            "American Express Lodging"
+          ],
+          "cells_b": [
+            "TCR 1",
+            "American Express Lodging"
+          ]
+        },
+        {
+          "key": [
+            "tcr 1",
+            "american express restaurant"
+          ],
+          "cells_a": [
+            "TCR 1",
+            "American Express Restaurant"
+          ],
+          "cells_b": [
+            "TCR 1",
+            "American Express Restaurant"
+          ]
+        },
+        {
+          "key": [
+            "tcr 1",
+            "american express telephone, part 1"
+          ],
+          "cells_a": [
+            "TCR 1",
+            "American Express Telephone, Part 1"
+          ],
+          "cells_b": [
+            "TCR 1",
+            "American Express Telephone, Part 1"
+          ]
+        },
+        {
+          "key": [
+            "tcr 1",
+            "batch header"
+          ],
+          "cells_a": [
+            "TCR 1",
+            "Batch Header"
+          ],
+          "cells_b": [
+            "TCR 1",
+            "Batch Header"
+          ]
+        },
+        {
+          "key": [
+            "tcr 1",
+            "cardholder transaction detail (korea)"
+          ],
+          "cells_a": [
+            "TCR 1",
+            "Cardholder Transaction Detail (Korea)"
+          ],
+          "cells_b": [
+            "TCR 1",
+            "Cardholder Transaction Detail (Korea)"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "american express auto leasing (optional)"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "American Express Auto Leasing (Optional)"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "American Express Auto Leasing (Optional)"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "american express batch header"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "American Express Batch Header"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "American Express Batch Header"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "american express gen’l merchandise"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "American Express Gen’l Merchandise"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "American Express Gen’l Merchandise"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "american express insurance, part 2"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "American Express Insurance, Part 2"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "American Express Insurance, Part 2"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "american express telephone, part 2"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "American Express Telephone, Part 2"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "American Express Telephone, Part 2"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "transaction additional detail (korea)"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "Transaction Additional Detail (Korea)"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "Transaction Additional Detail (Korea)"
+          ]
+        },
+        {
+          "key": [
+            "tcr 3",
+            "transaction detail, payment service data"
+          ],
+          "cells_a": [
+            "TCR 3",
+            "Transaction Detail, Payment Service Data"
+          ],
+          "cells_b": [
+            "TCR 3",
+            "Transaction Detail, Payment Service Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr 4",
+            "car rental"
+          ],
+          "cells_a": [
+            "TCR 4",
+            "Car Rental"
+          ],
+          "cells_b": [
+            "TCR 4",
+            "Car Rental"
+          ]
+        },
+        {
+          "key": [
+            "tcr 4",
+            "industry-specific data"
+          ],
+          "cells_a": [
+            "TCR 4",
+            "Industry-Specific Data"
+          ],
+          "cells_b": [
+            "TCR 4",
+            "Industry-Specific Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr 4",
+            "lodging"
+          ],
+          "cells_a": [
+            "TCR 4",
+            "Lodging"
+          ],
+          "cells_b": [
+            "TCR 4",
+            "Lodging"
+          ]
+        },
+        {
+          "key": [
+            "tcr 4",
+            "mastercard transaction, car rental data"
+          ],
+          "cells_a": [
+            "TCR 4",
+            "Mastercard Transaction, Car Rental Data"
+          ],
+          "cells_b": [
+            "TCR 4",
+            "Mastercard Transaction, Car Rental Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr 4",
+            "mastercard transaction, lodging data"
+          ],
+          "cells_a": [
+            "TCR 4",
+            "Mastercard Transaction, Lodging Data"
+          ],
+          "cells_b": [
+            "TCR 4",
+            "Mastercard Transaction, Lodging Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr 4",
+            "passenger itinerary data"
+          ],
+          "cells_a": [
+            "TCR 4",
+            "Passenger Itinerary Data"
+          ],
+          "cells_b": [
+            "TCR 4",
+            "Passenger Itinerary Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr 5",
+            "limited-use data"
+          ],
+          "cells_a": [
+            "TCR 5",
+            "Limited-Use Data"
+          ],
+          "cells_b": [
+            "TCR 5",
+            "Limited-Use Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr 5",
+            "mastercard compliance data"
+          ],
+          "cells_a": [
+            "TCR 5",
+            "Mastercard Compliance Data"
+          ],
+          "cells_b": [
+            "TCR 5",
+            "Mastercard Compliance Data"
+          ]
+        }
+      ],
+      "rows_removed": [],
+      "rows_added": []
+    },
+    {
+      "title_a": "58 National Settlement Advice Record",
+      "title_b": "58 National Settlement Advice Record",
+      "match_type": "exact",
+      "fuzzy_ratio": 1.0,
+      "duplicate_row_keys_a": [],
+      "duplicate_row_keys_b": [],
+      "rows_matched": [
+        {
+          "key": [
+            "tcr 0",
+            ""
+          ],
+          "cells_a": [
+            "TCR 0"
+          ],
+          "cells_b": [
+            "TCR 0"
+          ]
+        }
+      ],
+      "rows_removed": [],
+      "rows_added": []
+    },
+    {
+      "title_a": "59 Interface Transaction Advice Record",
+      "title_b": "59 Interface Transaction Advice Record",
+      "match_type": "exact",
+      "fuzzy_ratio": 1.0,
+      "duplicate_row_keys_a": [],
+      "duplicate_row_keys_b": [],
+      "rows_matched": [
+        {
+          "key": [
+            "tcr 0",
+            "non-visa transaction detail"
+          ],
+          "cells_a": [
+            "TCR 0",
+            "Non-Visa Transaction Detail"
+          ],
+          "cells_b": [
+            "TCR 0",
+            "Non-Visa Transaction Detail"
+          ]
+        },
+        {
+          "key": [
+            "tcr 1",
+            "american express"
+          ],
+          "cells_a": [
+            "TCR 1",
+            "American Express"
+          ],
+          "cells_b": [
+            "TCR 1",
+            "American Express"
+          ]
+        },
+        {
+          "key": [
+            "tcr 1",
+            "non-visa transaction detail, additional data"
+          ],
+          "cells_a": [
+            "TCR 1",
+            "Non-Visa Transaction Detail, Additional Data"
+          ],
+          "cells_b": [
+            "TCR 1",
+            "Non-Visa Transaction Detail, Additional Data"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "american express auto leasing"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "American Express Auto Leasing"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "American Express Auto Leasing"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "american express auto rental"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "American Express Auto Rental"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "American Express Auto Rental"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "american express gen’l merchandise"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "American Express Gen’l Merchandise"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "American Express Gen’l Merchandise"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "american express insurance, part 1"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "American Express Insurance, Part 1"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "American Express Insurance, Part 1"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "american express lodging"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "American Express Lodging"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "American Express Lodging"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "american express restaurant"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "American Express Restaurant"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "American Express Restaurant"
+          ]
+        },
+        {
+          "key": [
+            "tcr 2",
+            "american express telephone"
+          ],
+          "cells_a": [
+            "TCR 2",
+            "American Express Telephone"
+          ],
+          "cells_b": [
+            "TCR 2",
+            "American Express Telephone"
+          ]
+        },
+        {
+          "key": [
+            "tcr 3",
+            "american express insurance, part 2"
+          ],
+          "cells_a": [
+            "TCR 3",
+            "American Express Insurance, Part 2"
+          ],
+          "cells_b": [
+            "TCR 3",
+            "American Express Insurance, Part 2"
+          ]
+        }
+      ],
+      "rows_removed": [],
+      "rows_added": []
+    },
+    {
+      "title_a": "90 File Header Records",
+      "title_b": "90 File Header Records",
+      "match_type": "exact",
+      "fuzzy_ratio": 1.0,
+      "duplicate_row_keys_a": [],
+      "duplicate_row_keys_b": [],
+      "rows_matched": [
+        {
+          "key": [
+            "tcr 0",
+            "incoming ctf"
+          ],
+          "cells_a": [
+            "TCR 0",
+            "Incoming CTF"
+          ],
+          "cells_b": [
+            "TCR 0",
+            "Incoming CTF"
+          ]
+        },
+        {
+          "key": [
+            "tcr 0",
+            "incoming itf"
+          ],
+          "cells_a": [
+            "TCR 0",
+            "Incoming ITF"
+          ],
+          "cells_b": [
+            "TCR 0",
+            "Incoming ITF"
+          ]
+        },
+        {
+          "key": [
+            "tcr 0",
+            "outgoing ctf"
+          ],
+          "cells_a": [
+            "TCR 0",
+            "Outgoing CTF"
+          ],
+          "cells_b": [
+            "TCR 0",
+            "Outgoing CTF"
+          ]
+        },
+        {
+          "key": [
+            "tcr 0",
+            "outgoing itf"
+          ],
+          "cells_a": [
+            "TCR 0",
+            "Outgoing ITF"
+          ],
+          "cells_b": [
+            "TCR 0",
+            "Outgoing ITF"
+          ]
+        }
+      ],
+      "rows_removed": [],
+      "rows_added": []
+    },
+    {
+      "title_a": "91 Batch Trailer Records",
+      "title_b": "91 Batch Trailer Records",
+      "match_type": "exact",
+      "fuzzy_ratio": 1.0,
+      "duplicate_row_keys_a": [],
+      "duplicate_row_keys_b": [],
+      "rows_matched": [
+        {
+          "key": [
+            "tcr 0",
+            "incoming ctf"
+          ],
+          "cells_a": [
+            "TCR 0",
+            "Incoming CTF"
+          ],
+          "cells_b": [
+            "TCR 0",
+            "Incoming CTF"
+          ]
+        },
+        {
+          "key": [
+            "tcr 0",
+            "incoming itf"
+          ],
+          "cells_a": [
+            "TCR 0",
+            "Incoming ITF"
+          ],
+          "cells_b": [
+            "TCR 0",
+            "Incoming ITF"
+          ]
+        },
+        {
+          "key": [
+            "tcr 0",
+            "outgoing ctf"
+          ],
+          "cells_a": [
+            "TCR 0",
+            "Outgoing CTF"
+          ],
+          "cells_b": [
+            "TCR 0",
+            "Outgoing CTF"
+          ]
+        },
+        {
+          "key": [
+            "tcr 0",
+            "outgoing itf"
+          ],
+          "cells_a": [
+            "TCR 0",
+            "Outgoing ITF"
+          ],
+          "cells_b": [
+            "TCR 0",
+            "Outgoing ITF"
+          ]
+        }
+      ],
+      "rows_removed": [],
+      "rows_added": []
+    },
+    {
+      "title_a": "92 File Trailer",
+      "title_b": "92 File Trailer",
+      "match_type": "exact",
+      "fuzzy_ratio": 1.0,
+      "duplicate_row_keys_a": [],
+      "duplicate_row_keys_b": [],
+      "rows_matched": [
+        {
+          "key": [
+            "tcr 0",
+            "ctf"
+          ],
+          "cells_a": [
+            "TCR 0",
+            "CTF"
+          ],
+          "cells_b": [
+            "TCR 0",
+            "CTF"
+          ]
+        },
+        {
+          "key": [
+            "tcr 0",
+            "itf"
+          ],
+          "cells_a": [
+            "TCR 0",
+            "ITF"
+          ],
+          "cells_b": [
+            "TCR 0",
+            "ITF"
+          ]
+        }
+      ],
+      "rows_removed": [],
+      "rows_added": []
+    }
+  ],
+  "sections_removed": [],
+  "sections_added": []
+}

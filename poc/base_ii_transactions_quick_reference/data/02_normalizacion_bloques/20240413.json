@@ -1,0 +1,4025 @@
+{
+  "manual": "base_ii_transactions_quick_reference",
+  "edition_date": "20240413",
+  "source_file": "20240413 - BASE II Transactions (Quick Reference).pdf",
+  "num_lines_in": 1152,
+  "num_lines_kept": 1063,
+  "num_blocks": 525,
+  "blocks": [
+    {
+      "type": "paragraph",
+      "page": 1,
+      "text": "BASE II Transactions Quick-Reference"
+    },
+    {
+      "type": "paragraph",
+      "page": 1,
+      "text": "Effective: 13 April 2024"
+    },
+    {
+      "type": "paragraph",
+      "page": 1,
+      "text": "© 2010-2024 Visa. All Rights Reserved."
+    },
+    {
+      "type": "paragraph",
+      "page": 2,
+      "text": "© 2021–2024 Visa. All Rights Reserved. Notice on Confidentiality, Intellectual Property Rights and Disclaimers (“Notice”) Confidentiality. This document and any information, data, representations, materials, recommendations, exhibits, appendices or glossaries contained herein or attached hereto (collectively, the “Material”) is proprietary and confidential to Visa. The Material is furnished to you solely in your capacity as a client and/or potential client of Visa and/or a participant in the Visa payments system. You agree to keep the Material confidential and not to use or disclose the Material for any purpose other than in such capacity. By accepting the Material, you agree that the Material is intended for use by you solely subject to the confidentiality restrictions in (i) the Visa Charter Documents (as applicable), (ii) the Visa Core Rules and Visa Product and Service Rules, the Visa Payment System Operating Regulations – Russia, Visa International Travelers Cheque Operating Regulations, V PAY Core Rules and V PAY Product and Service Rules and Visa Supplemental Requirements (collectively, the “Visa Rules”) (as applicable), (iii) for VisaNet Processors, an executed and valid VisaNet Letter of Agreement on file with Visa, and (iv) for other third parties, a current participation agreement that includes applicable confidentiality provisions, other non-disclosure agreement with Visa that covers disclosure and use of the Material, and/or other confidentiality agreements that limit your use and disclosure of the Material. The Material may only be disseminated within your organization on a need-to-know basis to enable your participation in the product, service and/or program described herein and/or in the Visa payments system. Please be advised that the Material may constitute material non-public information under U.S. federal securities laws and that purchasing or selling securities of Visa Inc. while being aware of material non-public information would constitute a violation of applicable U.S. federal securities laws. Intellectual Property Rights. The Material is protected by copyright. The Material and/or any part of the Material must not be duplicated, reproduced, published, distributed or disclosed, in whole or in part, in any form by any means without Visa’s prior written authorization, including to any third party. Visa owns the trademarks, logos, trade names and service marks, whether registered or unregistered, contained in the Material. Third-party trademarks not attributed to Visa are the property of their respective owners, are used for identification purposes only, and do not necessarily imply product endorsement or affiliation with Visa. Disclaimers. THE MATERIAL HEREIN IS PROVIDED ON AN “AS IS,” “WHERE IS,” BASIS, “WITH ALL FAULTS” KNOWN AND UNKNOWN. THE MATERIAL HEREIN IS INTENDED FOR INFORMATIONAL PURPOSES ONLY AND SHOULD NOT BE RELIED UPON FOR OPERATIONAL, MARKETING, LEGAL, REGULATORY, TECHNICAL, TAX, FINANCIAL OR OTHER ADVICE. TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, VISA EXPLICITLY DISCLAIMS ALL WARRANTIES, EXPRESS OR IMPLIED, REGARDING THE MATERIAL HEREIN, INCLUDING ANY IMPLIED WARRANTY OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT (INCLUDING, BUT NOT LIMITED TO, NON-INFRINGEMENT OF THIRD-PARTY INTELLECTUAL PROPERTY RIGHTS). VISA DOES NOT MAKE ANY WARRANTIES, REPRESENTATIONS, GUARANTEES OR INDEMNITIES AS TO THE COMPLETENESS, ACCURACY AUTHENTICITY, USEFULNESS, TIMELINESS, RELIABILITY OR APPROPRIATENESS OF THE MATERIAL HEREIN OR OF THE INFORMATION OR MATERIALS REFERENCED HEREIN. VISA IS NOT LIABLE OR RESPONSIBLE FOR YOUR USE OR DISCLOSURE OF OR RELIANCE ON THE MATERIAL HEREIN, INCLUDING ERRORS OF ANY KIND, CONTAINED IN THE MATERIAL. NOTHING IN THIS NOTICE OR THE MATERIAL HEREIN SHALL BE DEEMED TO EXCLUDE OR LIMIT LIABILITY THAT CANNOT BE EXCLUDED OR LIMITED AS A MATTER OF LAW. USE OF THE MATERIAL HEREIN IS AT YOUR OWN RISK. THE MATERIAL HEREIN SHOULD BE INDEPENDENTLY EVALUATED IN LIGHT OF YOUR SPECIFIC BUSINESS NEEDS AND ANY APPLICABLE LAWS AND REGULATIONS. THE"
+    },
+    {
+      "type": "paragraph",
+      "page": 3,
+      "text": "MATERIAL HEREIN IS NOT INTENDED AS INVESTMENT OR LEGAL ADVICE, AND READERS AND RECIPIENTS OF THE MATERIAL ARE ENCOURAGED TO SEEK THE ADVICE OF A COMPETENT PROFESSIONAL WHERE SUCH ADVICE IS REQUIRED. THE MATERIAL HEREIN MAY CONTAIN DEPICTIONS AND DESCRIPTIONS OF A PRODUCT, SERVICE AND/OR PROGRAM CURRENTLY IN THE PROCESS OF DEVELOPMENT AND DEPLOYMENT, AND SHOULD BE UNDERSTOOD AS A REPRESENTATION OF THE POTENTIAL FEATURES OF THE FULLY-DEPLOYED PRODUCT, SERVICE AND/OR PROGRAM. ANY FINAL VERSION OF SUCH PRODUCT, SERVICE AND/OR PROGRAM MAY NOT CONTAIN ALL OF THE FEATURES DESCRIBED IN THE MATERIAL. WHERE POTENTIAL FUTURE FUNCTIONALITY IS HIGHLIGHTED, VISA DOES NOT PROVIDE ANY WARRANTY ON WHETHER SUCH FUNCTIONALITY WILL BE AVAILABLE OR IF IT WILL BE DELIVERED IN ANY PARTICULAR MANNER OR MARKET. PARTICIPATION IN PRODUCTS, SERVICES AND/OR PROGRAMS, IF AND WHEN OFFERED, MAY BE SUBJECT TO VISA’S TERMS AND CONDITIONS. THE MATERIAL HEREIN COULD INCLUDE TECHNICAL INACCURACIES OR TYPOGRAPHICAL ERRORS. CHANGES MAY BE PERIODICALLY MADE TO THE MATERIAL. SUCH CHANGES WILL BE INCORPORATED IN NEW EDITIONS OF THE MATERIAL. VISA MAY MAKE IMPROVEMENTS AND/OR CHANGES IN OR TO THE PRODUCT(S), SERVICE(S) AND/OR PROGRAM(S) DESCRIBED IN THE MATERIAL HEREIN AT ANY TIME AT VISA’S SOLE DISCRETION. VISA MAY MODIFY, REPLACE OR RECALL THE MATERIAL HEREIN AT ANY TIME WITHOUT NOTICE TO ANY PARTY AND AT VISA’S SOLE DISCRETION. Additional disclaimers and/or notifications may be found in the “Additional Notices” section of this document and/or in the Material herein. Relationship to the Visa Rules. The Material is not part of the Visa Rules. In the event of any conflict between the Material, any document referenced herein or any communications concerning the Material, and any content in the Visa Rules, the Visa Rules shall govern and control. Definitions. Capitalized terms not otherwise defined herein have the meanings given to them in the Visa Core Rules and Visa Product and Service Rules. As used in this Notice, the terms \"you\" or \"your” refer to (i) the person using the Material in any way, (ii) your organization and/or (ii) your or your organization’s Sponsor. “Visa” refers to the relevant Visa entity that has entered into an agreement with you governing the subject matter of the Material, being only one of the following Visa entities, and any of its current and former affiliates, employees, successors or assigns:"
+    },
+    {
+      "type": "paragraph",
+      "page": 3,
+      "text": "Visa Canada Corporation; l Visa do Brasil Empreendimentos Ltda.; l Visa Europe Limited; l Visa International Service Association; l Visa International Servicios de Pagos Espana, S.R.L.U.; l Visa U.S.A. Inc; l"
+    },
+    {
+      "type": "paragraph",
+      "page": 4,
+      "text": "Visa Worldwide Pte Limited; OR l Another Visa entity that is an affiliate of any of the foregoing entities. l"
+    },
+    {
+      "type": "paragraph",
+      "page": 4,
+      "text": "* * * If you have questions about a Visa product, service, program or capability, please contact your Visa representative."
+    },
+    {
+      "type": "paragraph",
+      "page": 5,
+      "text": "Chapter 1 BASE II Transactions Quick- Reference"
+    },
+    {
+      "type": "section_heading",
+      "page": 5,
+      "text": "00 Short Block"
+    },
+    {
+      "type": "section_heading",
+      "page": 5,
+      "text": "01 Returned Credit"
+    },
+    {
+      "type": "table_row",
+      "page": 5,
+      "cells": [
+        "TCR 0–8",
+        "Returned Item"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 5,
+      "cells": [
+        "TCR 9",
+        "Identifying Data"
+      ]
+    },
+    {
+      "type": "section_heading",
+      "page": 5,
+      "text": "02 Returned Debit"
+    },
+    {
+      "type": "table_row",
+      "page": 5,
+      "cells": [
+        "TCR 0–8",
+        "Returned Item"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 5,
+      "cells": [
+        "TCR 9",
+        "Identifying Data"
+      ]
+    },
+    {
+      "type": "section_heading",
+      "page": 5,
+      "text": "03 Returned Nonfinancial"
+    },
+    {
+      "type": "table_row",
+      "page": 5,
+      "cells": [
+        "TCR 0–8",
+        "Returned Item"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 5,
+      "cells": [
+        "TCR 9",
+        "Identifying Data"
+      ]
+    },
+    {
+      "type": "section_heading",
+      "page": 6,
+      "text": "04 Reclassification Advice"
+    },
+    {
+      "type": "table_row",
+      "page": 6,
+      "cells": [
+        "TCR 0–7"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 6,
+      "cells": [
+        "TCR 9"
+      ]
+    },
+    {
+      "type": "section_heading",
+      "page": 6,
+      "text": "05 Sales Draft"
+    },
+    {
+      "type": "table_row",
+      "page": 6,
+      "cells": [
+        "TCR 0",
+        "Draft Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 6,
+      "cells": [
+        "TCR 1",
+        "Additional Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 6,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Argentina"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 6,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Bolivia"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 6,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Brazil"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 6,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Chile"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 6,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Colombia"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 6,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Japan"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 6,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Mexico"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 6,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Paraguay"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 6,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Russia"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 6,
+      "cells": [
+        "TCR 2",
+        "National Settlement, South Korea"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 6,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Sweden"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 6,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Turkey"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 6,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Uruguay"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 6,
+      "cells": [
+        "TCR 3",
+        "Industry-Specific Data–Business Application Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 6,
+      "cells": [
+        "TCR 3",
+        "Passenger Itinerary Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 6,
+      "cells": [
+        "TCR 3",
+        "Passenger Transport Ancillary Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 6,
+      "cells": [
+        "TCR 3",
+        "Lodging"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 6,
+      "cells": [
+        "TCR 3",
+        "Car Rental"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 6,
+      "cells": [
+        "TCR 3",
+        "EMV Fleet Service"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 6,
+      "cells": [
+        "TCR 3",
+        "Fleet Service"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 6,
+      "cells": [
+        "TCR 3",
+        "Loan Detail"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 6,
+      "cells": [
+        "TCR 3",
+        "Business Application Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 6,
+      "cells": [
+        "TCR 4",
+        "Supplemental Financial Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 6,
+      "cells": [
+        "TCR 4",
+        "Supplemental Financial and Promotion Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 6,
+      "cells": [
+        "TCR 4",
+        "Supplemental Visa Claims Resolution Financial Data Record"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 7,
+      "cells": [
+        "TCR 4",
+        "Promotion Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 7,
+      "cells": [
+        "TCR 5",
+        "Payment Service Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 7,
+      "cells": [
+        "TCR 6",
+        "Limited-Use Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 7,
+      "cells": [
+        "TCR 7",
+        "Chip Card Transaction Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 7,
+      "cells": [
+        "TCR D",
+        "Recurring Payment"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 7,
+      "cells": [
+        "TCR D",
+        "Installment Payment"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 7,
+      "cells": [
+        "TCR D",
+        "Original Credit Additional Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 7,
+      "cells": [
+        "TCR D",
+        "(FS) Fleet Supplementary Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 7,
+      "cells": [
+        "TCR E",
+        "Supplemental Payment Data"
+      ]
+    },
+    {
+      "type": "section_heading",
+      "page": 7,
+      "text": "06 Credit Voucher"
+    },
+    {
+      "type": "table_row",
+      "page": 7,
+      "cells": [
+        "TCR 0",
+        "Credit Voucher"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 7,
+      "cells": [
+        "TCR 1",
+        "Additional Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 7,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Brazil"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 7,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Colombia"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 7,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Japan"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 7,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Mexico"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 7,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Paraguay"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 7,
+      "cells": [
+        "TCR 2",
+        "National Settlement, South Korea"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 7,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Sweden"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 7,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Turkey"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 7,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Uruguay"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 7,
+      "cells": [
+        "TCR 3",
+        "Industry-Specific Data–Business Application Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 7,
+      "cells": [
+        "TCR 3",
+        "Passenger Itinerary Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 7,
+      "cells": [
+        "TCR 3",
+        "Lodging"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 7,
+      "cells": [
+        "TCR 3",
+        "Car Rental"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 7,
+      "cells": [
+        "TCR 3",
+        "Fleet Service"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 7,
+      "cells": [
+        "TCR 3",
+        "Original Credit"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 7,
+      "cells": [
+        "TCR 4",
+        "Supplemental Financial Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 7,
+      "cells": [
+        "TCR 4",
+        "Supplemental Financial and Promotion Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 7,
+      "cells": [
+        "TCR 4",
+        "Promotion Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 7,
+      "cells": [
+        "TCR 5",
+        "Payment Service Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 8,
+      "cells": [
+        "TCR 6",
+        "Limited-Use Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 8,
+      "cells": [
+        "TCR 7",
+        "Chip Card Transaction Data"
+      ]
+    },
+    {
+      "type": "section_heading",
+      "page": 8,
+      "text": "07 Cash Disbursement"
+    },
+    {
+      "type": "table_row",
+      "page": 8,
+      "cells": [
+        "TCR 0",
+        "Cash Disbursement"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 8,
+      "cells": [
+        "TCR 1",
+        "Additional Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 8,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Brazil"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 8,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Colombia"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 8,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Japan"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 8,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Mexico"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 8,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Paraguay"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 8,
+      "cells": [
+        "TCR 2",
+        "National Settlement, South Korea"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 8,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Sweden"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 8,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Turkey"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 8,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Uruguay"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 8,
+      "cells": [
+        "TCR 3",
+        "Industry-Specific Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 8,
+      "cells": [
+        "TCR 3",
+        "Passenger Itinerary Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 8,
+      "cells": [
+        "TCR 3",
+        "Lodging"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 8,
+      "cells": [
+        "TCR 3",
+        "Car Rental"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 8,
+      "cells": [
+        "TCR 3",
+        "Fleet Service"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 8,
+      "cells": [
+        "TCR 4",
+        "Supplemental Financial Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 8,
+      "cells": [
+        "TCR 4",
+        "Supplemental Financial and Promotion Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 8,
+      "cells": [
+        "TCR 4",
+        "Promotion Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 8,
+      "cells": [
+        "TCR 5",
+        "Payment Service Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 8,
+      "cells": [
+        "TCR 6",
+        "Limited-Use Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 8,
+      "cells": [
+        "TCR 7",
+        "Chip Card Transaction Data"
+      ]
+    },
+    {
+      "type": "section_heading",
+      "page": 8,
+      "text": "10 Fee Collection"
+    },
+    {
+      "type": "table_row",
+      "page": 8,
+      "cells": [
+        "TCR 0"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 8,
+      "cells": [
+        "TCR 0",
+        "Visa Award (Loyalty)"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 8,
+      "cells": [
+        "TCR 0",
+        "Sweepstakes"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 8,
+      "cells": [
+        "TCR 1",
+        "Additional Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 9,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Argentina"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 9,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Brazil"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 9,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Paraguay"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 9,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Uruguay"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 9,
+      "cells": [
+        "TCR 4",
+        "Promotion Data"
+      ]
+    },
+    {
+      "type": "section_heading",
+      "page": 9,
+      "text": "15 Sales Draft Dispute"
+    },
+    {
+      "type": "table_row",
+      "page": 9,
+      "cells": [
+        "TCR 0",
+        "Dispute"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 9,
+      "cells": [
+        "TCR 1",
+        "Additional Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 9,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Brazil"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 9,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Colombia"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 9,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Japan"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 9,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Mexico"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 9,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Paraguay"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 9,
+      "cells": [
+        "TCR 2",
+        "National Settlement, South Korea"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 9,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Sweden"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 9,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Turkey"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 9,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Uruguay"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 9,
+      "cells": [
+        "TCR 3",
+        "Industry-Specific Data–Business Application Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 9,
+      "cells": [
+        "TCR 3",
+        "Passenger Itinerary Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 9,
+      "cells": [
+        "TCR 3",
+        "Lodging"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 9,
+      "cells": [
+        "TCR 3",
+        "Car Rental"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 9,
+      "cells": [
+        "TCR 3",
+        "Fleet Service"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 9,
+      "cells": [
+        "TCR 4",
+        "Single Message System Interface (SMS Data)"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 9,
+      "cells": [
+        "TCR 4",
+        "Single Message System Interface (SMS and Promotion Data)"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 9,
+      "cells": [
+        "TCR 4",
+        "Promotion Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 9,
+      "cells": [
+        "TCR 5",
+        "Payment Service Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 9,
+      "cells": [
+        "TCR 6",
+        "Limited-Use Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 9,
+      "cells": [
+        "TCR 7",
+        "Chip Card Transaction Data"
+      ]
+    },
+    {
+      "type": "section_heading",
+      "page": 10,
+      "text": "16 Credit Voucher Dispute"
+    },
+    {
+      "type": "table_row",
+      "page": 10,
+      "cells": [
+        "TCR 0",
+        "Dispute"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 10,
+      "cells": [
+        "TCR 1",
+        "Additional Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 10,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Brazil"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 10,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Colombia"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 10,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Japan"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 10,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Mexico"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 10,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Paraguay"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 10,
+      "cells": [
+        "TCR 2",
+        "National Settlement, South Korea"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 10,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Sweden"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 10,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Turkey"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 10,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Uruguay"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 10,
+      "cells": [
+        "TCR 3",
+        "Industry-Specific Data–Business Application Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 10,
+      "cells": [
+        "TCR 3",
+        "Passenger Itinerary Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 10,
+      "cells": [
+        "TCR 3",
+        "Lodging"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 10,
+      "cells": [
+        "TCR 3",
+        "Car Rental"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 10,
+      "cells": [
+        "TCR 3",
+        "Fleet Service"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 10,
+      "cells": [
+        "TCR 3",
+        "Original Credit"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 10,
+      "cells": [
+        "TCR 4",
+        "Single Message System Interface (SMS Data)"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 10,
+      "cells": [
+        "TCR 4",
+        "Single Message System Interface (SMS and Promotion Data)"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 10,
+      "cells": [
+        "TCR 4",
+        "Promotion Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 10,
+      "cells": [
+        "TCR 5",
+        "Payment Service Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 10,
+      "cells": [
+        "TCR 6",
+        "Limited-Use Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 10,
+      "cells": [
+        "TCR 7",
+        "Chip Card Transaction Data"
+      ]
+    },
+    {
+      "type": "section_heading",
+      "page": 10,
+      "text": "17 Cash Disbursement Dispute"
+    },
+    {
+      "type": "table_row",
+      "page": 10,
+      "cells": [
+        "TCR 0",
+        "Dispute"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 10,
+      "cells": [
+        "TCR 1",
+        "Additional Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 10,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Brazil"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 10,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Colombia"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 10,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Japan"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 10,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Mexico"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 11,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Paraguay"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 11,
+      "cells": [
+        "TCR 2",
+        "National Settlement, South Korea"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 11,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Sweden"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 11,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Turkey"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 11,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Uruguay"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 11,
+      "cells": [
+        "TCR 3",
+        "Industry-Specific Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 11,
+      "cells": [
+        "TCR 3",
+        "Passenger Itinerary Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 11,
+      "cells": [
+        "TCR 3",
+        "Lodging"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 11,
+      "cells": [
+        "TCR 3",
+        "Car Rental"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 11,
+      "cells": [
+        "TCR 3",
+        "Fleet Service"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 11,
+      "cells": [
+        "TCR 4",
+        "Single Message System Interface (SMS Data)"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 11,
+      "cells": [
+        "TCR 4",
+        "Single Message System Interface (SMS and Promotion Data)"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 11,
+      "cells": [
+        "TCR 4",
+        "Promotion Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 11,
+      "cells": [
+        "TCR 5",
+        "Payment Service Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 11,
+      "cells": [
+        "TCR 6",
+        "Limited-Use Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 11,
+      "cells": [
+        "TCR 7",
+        "Chip Card Transaction Data"
+      ]
+    },
+    {
+      "type": "section_heading",
+      "page": 11,
+      "text": "20 Funds Disbursement"
+    },
+    {
+      "type": "table_row",
+      "page": 11,
+      "cells": [
+        "TCR 0"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 11,
+      "cells": [
+        "TCR 0",
+        "Visa Award (Loyalty)"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 11,
+      "cells": [
+        "TCR 0",
+        "Sweepstakes"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 11,
+      "cells": [
+        "TCR 1",
+        "Additional Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 11,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Argentina"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 11,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Brazil"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 11,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Paraguay"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 11,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Uruguay"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 11,
+      "cells": [
+        "TCR 4",
+        "Promotion Data"
+      ]
+    },
+    {
+      "type": "section_heading",
+      "page": 11,
+      "text": "25 Sales Draft Reversal"
+    },
+    {
+      "type": "table_row",
+      "page": 11,
+      "cells": [
+        "TCR 0",
+        "Reversal"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 11,
+      "cells": [
+        "TCR 1",
+        "Additional Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 11,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Brazil"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 12,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Colombia"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 12,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Japan"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 12,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Mexico"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 12,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Paraguay"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 12,
+      "cells": [
+        "TCR 2",
+        "National Settlement, South Korea"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 12,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Sweden"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 12,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Turkey"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 12,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Uruguay"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 12,
+      "cells": [
+        "TCR 3",
+        "Industry-Specific Data–Business Application Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 12,
+      "cells": [
+        "TCR 3",
+        "Passenger Itinerary Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 12,
+      "cells": [
+        "TCR 3",
+        "Lodging"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 12,
+      "cells": [
+        "TCR 3",
+        "Car Rental"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 12,
+      "cells": [
+        "TCR 3",
+        "Fleet Service"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 12,
+      "cells": [
+        "TCR 4",
+        "Single Message System Interface (SMS Data)"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 12,
+      "cells": [
+        "TCR 4",
+        "Single Message System Interface (SMS and Promotion Data)"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 12,
+      "cells": [
+        "TCR 4",
+        "Promotion Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 12,
+      "cells": [
+        "TCR 5",
+        "Payment Service Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 12,
+      "cells": [
+        "TCR 6",
+        "Limited-Use Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 12,
+      "cells": [
+        "TCR 7",
+        "Chip Card Transaction Data"
+      ]
+    },
+    {
+      "type": "section_heading",
+      "page": 12,
+      "text": "26 Credit Voucher Reversal"
+    },
+    {
+      "type": "table_row",
+      "page": 12,
+      "cells": [
+        "TCR 0",
+        "Reversal"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 12,
+      "cells": [
+        "TCR 1",
+        "Additional Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 12,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Brazil"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 12,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Colombia"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 12,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Japan"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 12,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Mexico"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 12,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Paraguay"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 12,
+      "cells": [
+        "TCR 2",
+        "National Settlement, South Korea"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 12,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Sweden"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 12,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Turkey"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 12,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Uruguay"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 13,
+      "cells": [
+        "TCR 3",
+        "Industry-Specific Data–Business Application Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 13,
+      "cells": [
+        "TCR 3",
+        "Passenger Itinerary Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 13,
+      "cells": [
+        "TCR 3",
+        "Lodging"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 13,
+      "cells": [
+        "TCR 3",
+        "Car Rental"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 13,
+      "cells": [
+        "TCR 3",
+        "Fleet Service"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 13,
+      "cells": [
+        "TCR 3",
+        "Original Credit"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 13,
+      "cells": [
+        "TCR 4",
+        "Single Message System Interface (SMS Data)"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 13,
+      "cells": [
+        "TCR 4",
+        "Single Message System Interface (SMS and Promotion Data)"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 13,
+      "cells": [
+        "TCR 4",
+        "Promotion Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 13,
+      "cells": [
+        "TCR 5",
+        "Payment Service Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 13,
+      "cells": [
+        "TCR 6",
+        "Limited-Use Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 13,
+      "cells": [
+        "TCR 7",
+        "Chip Card Transaction Data"
+      ]
+    },
+    {
+      "type": "section_heading",
+      "page": 13,
+      "text": "27 Cash Disbursement Reversal"
+    },
+    {
+      "type": "table_row",
+      "page": 13,
+      "cells": [
+        "TCR 0",
+        "Reversal"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 13,
+      "cells": [
+        "TCR 1",
+        "Additional Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 13,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Brazil"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 13,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Colombia"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 13,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Japan"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 13,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Mexico"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 13,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Paraguay"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 13,
+      "cells": [
+        "TCR 2",
+        "National Settlement, South Korea"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 13,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Sweden"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 13,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Turkey"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 13,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Uruguay"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 13,
+      "cells": [
+        "TCR 3",
+        "Industry-Specific Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 13,
+      "cells": [
+        "TCR 3",
+        "Passenger Itinerary Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 13,
+      "cells": [
+        "TCR 3",
+        "Lodging"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 13,
+      "cells": [
+        "TCR 3",
+        "Car Rental"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 13,
+      "cells": [
+        "TCR 3",
+        "Fleet Service"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 13,
+      "cells": [
+        "TCR 4",
+        "Single Message System Interface (SMS Data)"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 13,
+      "cells": [
+        "TCR 4",
+        "Single Message System Interface (SMS and Promotion Data)"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 14,
+      "cells": [
+        "TCR 4",
+        "Promotion Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 14,
+      "cells": [
+        "TCR 5",
+        "Payment Service Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 14,
+      "cells": [
+        "TCR 6",
+        "Limited-Use Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 14,
+      "cells": [
+        "TCR 7",
+        "Chip Card Transaction Data"
+      ]
+    },
+    {
+      "type": "section_heading",
+      "page": 14,
+      "text": "30 ICS/NARS Input Processing"
+    },
+    {
+      "type": "table_row",
+      "page": 14,
+      "cells": [
+        "TCR 0",
+        "ICS/NARS Input Processing"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 14,
+      "cells": [
+        "TCR 1–7",
+        "ICS Input Processing"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 14,
+      "cells": [
+        "TCR 1–7",
+        "NARS Input Processing"
+      ]
+    },
+    {
+      "type": "section_heading",
+      "page": 14,
+      "text": "31 ICS/NARS Response Processing"
+    },
+    {
+      "type": "table_row",
+      "page": 14,
+      "cells": [
+        "TCR 0",
+        "ICS/NARS Response Processing"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 14,
+      "cells": [
+        "TCR 1–7",
+        "ICS Response Processing"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 14,
+      "cells": [
+        "TCR 1–7",
+        "NARS Response Processing"
+      ]
+    },
+    {
+      "type": "section_heading",
+      "page": 14,
+      "text": "32 Risk Management"
+    },
+    {
+      "type": "section_heading",
+      "page": 14,
+      "text": "33 Multipurpose Message"
+    },
+    {
+      "type": "table_row",
+      "page": 14,
+      "cells": [
+        "TCR 0",
+        "RDMS Message"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 14,
+      "cells": [
+        "TCR 0",
+        "CRS Issuer Advice"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 14,
+      "cells": [
+        "TCR 0",
+        "Plus BIN Table Header"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 14,
+      "cells": [
+        "TCR 0",
+        "Plus BIN Table Detail"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 14,
+      "cells": [
+        "TCR 0",
+        "Plus BIN Table Trailer"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 14,
+      "cells": [
+        "TCR 0",
+        "RDMS Message Europe Non-Reloadable Prepaid Routing File"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 14,
+      "cells": [
+        "TCR 0",
+        "Universal Biller File Table Header"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 14,
+      "cells": [
+        "TCR 0",
+        "Universal Biller File Table Detail, Biller Master Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 14,
+      "cells": [
+        "TCR 0",
+        "Dispute Financial Status Advice"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 14,
+      "cells": [
+        "TCR 0",
+        "BASE II Clearing and Settlement Advice"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 14,
+      "cells": [
+        "TCR 1",
+        "BASE II Clearing and Settlement Advice"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 14,
+      "cells": [
+        "TCR 1",
+        "Dispute Financial Status Advice (Cont’d)"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 14,
+      "cells": [
+        "TCR 1",
+        "Universal Biller File Table Detail, Additional Biller Master Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 14,
+      "cells": [
+        "TCR 0",
+        "Universal Biller File Table Detail, CBAN Mask Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 14,
+      "cells": [
+        "TCR 0",
+        "Universal Biller File Table Trailer"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 15,
+      "cells": [
+        "TCR 0",
+        "V.I.P. Full Service Dispute Financial Status Advice"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 15,
+      "cells": [
+        "TCR 1",
+        "V.I.P. Full Service Dispute Financial Status Advice (Cont’d)"
+      ]
+    },
+    {
+      "type": "section_heading",
+      "page": 15,
+      "text": "35 Sales Draft Dispute Reversal"
+    },
+    {
+      "type": "table_row",
+      "page": 15,
+      "cells": [
+        "TCR 0",
+        "Reversal"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 15,
+      "cells": [
+        "TCR 1",
+        "Additional Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 15,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Brazil"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 15,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Colombia"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 15,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Japan"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 15,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Mexico"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 15,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Paraguay"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 15,
+      "cells": [
+        "TCR 2",
+        "National Settlement, South Korea"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 15,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Sweden"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 15,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Turkey"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 15,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Uruguay"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 15,
+      "cells": [
+        "TCR 3",
+        "Industry-Specific Data–Business Application Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 15,
+      "cells": [
+        "TCR 3",
+        "Passenger Itinerary Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 15,
+      "cells": [
+        "TCR 3",
+        "Lodging"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 15,
+      "cells": [
+        "TCR 3",
+        "Car Rental"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 15,
+      "cells": [
+        "TCR 3",
+        "Fleet Service"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 15,
+      "cells": [
+        "TCR 4",
+        "Single Message System Interface (SMS Data)"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 15,
+      "cells": [
+        "TCR 4",
+        "Single Message System Interface (SMS and Promotion Data)"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 15,
+      "cells": [
+        "TCR 4",
+        "Promotion Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 15,
+      "cells": [
+        "TCR 5",
+        "Payment Service Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 15,
+      "cells": [
+        "TCR 6",
+        "Limited-Use Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 15,
+      "cells": [
+        "TCR 7",
+        "Chip Card Transaction Data"
+      ]
+    },
+    {
+      "type": "section_heading",
+      "page": 15,
+      "text": "36 Credit Voucher Dispute Reversal"
+    },
+    {
+      "type": "table_row",
+      "page": 15,
+      "cells": [
+        "TCR 0",
+        "Reversal"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 15,
+      "cells": [
+        "TCR 1",
+        "Additional Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 15,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Brazil"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 15,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Colombia"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 16,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Japan"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 16,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Mexico"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 16,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Paraguay"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 16,
+      "cells": [
+        "TCR 2",
+        "National Settlement, South Korea"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 16,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Sweden"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 16,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Turkey"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 16,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Uruguay"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 16,
+      "cells": [
+        "TCR 3",
+        "Industry-Specific Data–Business Application Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 16,
+      "cells": [
+        "TCR 3",
+        "Passenger Itinerary Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 16,
+      "cells": [
+        "TCR 3",
+        "Lodging"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 16,
+      "cells": [
+        "TCR 3",
+        "Car Rental"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 16,
+      "cells": [
+        "TCR 3",
+        "Fleet Service"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 16,
+      "cells": [
+        "TCR 3",
+        "Original Credit"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 16,
+      "cells": [
+        "TCR 4",
+        "Single Message System Interface (SMS Data)"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 16,
+      "cells": [
+        "TCR 4",
+        "Single Message System Interface (SMS and Promotion Data)"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 16,
+      "cells": [
+        "TCR 4",
+        "Promotion Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 16,
+      "cells": [
+        "TCR 5",
+        "Payment Service Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 16,
+      "cells": [
+        "TCR 6",
+        "Limited-Use Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 16,
+      "cells": [
+        "TCR 7",
+        "Chip Card Transaction Data"
+      ]
+    },
+    {
+      "type": "section_heading",
+      "page": 16,
+      "text": "37 Cash Disbursement Dispute Reversal"
+    },
+    {
+      "type": "table_row",
+      "page": 16,
+      "cells": [
+        "TCR 0",
+        "Reversal"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 16,
+      "cells": [
+        "TCR 1",
+        "Additional Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 16,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Brazil"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 16,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Colombia"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 16,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Japan"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 16,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Mexico"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 16,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Paraguay"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 16,
+      "cells": [
+        "TCR 2",
+        "National Settlement, South Korea"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 16,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Sweden"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 16,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Turkey"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 16,
+      "cells": [
+        "TCR 2",
+        "National Settlement, Uruguay"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 17,
+      "cells": [
+        "TCR 3",
+        "Industry-Specific Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 17,
+      "cells": [
+        "TCR 3",
+        "Passenger Itinerary Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 17,
+      "cells": [
+        "TCR 3",
+        "Lodging"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 17,
+      "cells": [
+        "TCR 3",
+        "Car Rental"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 17,
+      "cells": [
+        "TCR 3",
+        "Fleet Service"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 17,
+      "cells": [
+        "TCR 4",
+        "Single Message System Interface (SMS Data)"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 17,
+      "cells": [
+        "TCR 4",
+        "Single Message System Interface (SMS and Promotion Data)"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 17,
+      "cells": [
+        "TCR 4",
+        "Promotion Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 17,
+      "cells": [
+        "TCR 5",
+        "Payment Service Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 17,
+      "cells": [
+        "TCR 6",
+        "Limited-Use Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 17,
+      "cells": [
+        "TCR 7",
+        "Chip Card Transaction Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 17,
+      "cells": [
+        "TCR 0"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 17,
+      "cells": [
+        "TCR 1",
+        "VCRFS Nonfulfillment"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 17,
+      "cells": [
+        "TCR 1–7",
+        "VCRFS Nonfulfillment Message"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 17,
+      "cells": [
+        "TCR 1",
+        "VCRFS/VDAS Advice"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 17,
+      "cells": [
+        "TCR 2",
+        "VCRFS Advice"
+      ]
+    },
+    {
+      "type": "section_heading",
+      "page": 17,
+      "text": "38 VCRFS/VDAS Message"
+    },
+    {
+      "type": "table_row",
+      "page": 17,
+      "cells": [
+        "TCR 2",
+        "VDAS Advice"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 17,
+      "cells": [
+        "TCR 3",
+        "Chargeback Documentation Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 17,
+      "cells": [
+        "TCR 5",
+        "VDAS Lodging"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 17,
+      "cells": [
+        "TCR 5",
+        "VDAS Car Rental"
+      ]
+    },
+    {
+      "type": "section_heading",
+      "page": 17,
+      "text": "39 VCRFS/VDAS Message"
+    },
+    {
+      "type": "table_row",
+      "page": 17,
+      "cells": [
+        "TCR 0"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 17,
+      "cells": [
+        "TCR 1–7",
+        "Image/Text Message"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 17,
+      "cells": [
+        "TCR 1",
+        "VDAS Forms Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 17,
+      "cells": [
+        "TCR 1",
+        "VDAS Forms Data, Exhibit E or Exhibit 2E"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 17,
+      "cells": [
+        "TCR 2",
+        "VDAS Forms Data, Exhibit E or Exhibit 2E, Optional Collection Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 17,
+      "cells": [
+        "TCR 3",
+        "VDAS Forms Data, Exhibit E or Exhibit 2E, Optional Representment/Second\nChargeback"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 17,
+      "cells": [
+        "TCR 4",
+        "VDAS Forms Data, Exhibit Q or Exhibit 3D"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 18,
+      "cells": [
+        "TCR 4",
+        "VDAS Forms Data, Exhibit Y or Exhibit 3C"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 18,
+      "cells": [
+        "TCR 5–6",
+        "VDAS Forms Data, Exhibit Y or Exhibit 3C, Authorizations Obtained Information"
+      ]
+    },
+    {
+      "type": "section_heading",
+      "page": 18,
+      "text": "40 Fraud Advice"
+    },
+    {
+      "type": "table_row",
+      "page": 18,
+      "cells": [
+        "TCR 0"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 18,
+      "cells": [
+        "TCR 1"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 18,
+      "cells": [
+        "TCR 2"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 18,
+      "cells": [
+        "TCR 3"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 18,
+      "cells": [
+        "TCR 4, 7"
+      ]
+    },
+    {
+      "type": "section_heading",
+      "page": 18,
+      "text": "42 Merchant File Update"
+    },
+    {
+      "type": "table_row",
+      "page": 18,
+      "cells": [
+        "TCR 0",
+        "Record 1"
+      ]
+    },
+    {
+      "type": "section_heading",
+      "page": 18,
+      "text": "43 Merchant File Update"
+    },
+    {
+      "type": "table_row",
+      "page": 18,
+      "cells": [
+        "TCR 0",
+        "Record 2"
+      ]
+    },
+    {
+      "type": "section_heading",
+      "page": 18,
+      "text": "44 Collection Batch Acknowledgment"
+    },
+    {
+      "type": "table_row",
+      "page": 18,
+      "cells": [
+        "TCR 0",
+        "Batch Disposition Code A"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 18,
+      "cells": [
+        "TCR 0",
+        "Batch Disposition Code R"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 18,
+      "cells": [
+        "TCR 0",
+        "Batch Disposition Code X"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 18,
+      "cells": [
+        "TCR 1–8",
+        "Additional Data"
+      ]
+    },
+    {
+      "type": "section_heading",
+      "page": 18,
+      "text": "45 General Delivery Report"
+    },
+    {
+      "type": "table_row",
+      "page": 18,
+      "cells": [
+        "TCR 0"
+      ]
+    },
+    {
+      "type": "section_heading",
+      "page": 18,
+      "text": "46 Member Settlement Data"
+    },
+    {
+      "type": "table_row",
+      "page": 18,
+      "cells": [
+        "TCR 0"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 18,
+      "cells": [
+        "TCR 0",
+        "BASE II–12 Report"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 18,
+      "cells": [
+        "TCR 0",
+        "BASE II–5A Report for CIBLE"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 18,
+      "cells": [
+        "TCR 0",
+        "BASE II–6E Report for CIBLE"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 18,
+      "cells": [
+        "TCR 0",
+        "Report Group = C"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 18,
+      "cells": [
+        "TCR 0",
+        "Report Group = I (IRF Reporting)"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 18,
+      "cells": [
+        "TCR 0",
+        "Report Group = J (Japan)"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 18,
+      "cells": [
+        "TCR 0",
+        "Report Group = N (Brazil Clearing BIN Report)"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 19,
+      "cells": [
+        "TCR 0",
+        "Report Group = N (Brazil Settlement BIN Report)"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 19,
+      "cells": [
+        "TCR 0",
+        "Report Group = N (Brazil CIB Report)"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 19,
+      "cells": [
+        "TCR 0",
+        "Report Group = N (Brazil 54 Report)"
+      ]
+    },
+    {
+      "type": "section_heading",
+      "page": 19,
+      "text": "47 Report Generation Record"
+    },
+    {
+      "type": "table_row",
+      "page": 19,
+      "cells": [
+        "TCR 0"
+      ]
+    },
+    {
+      "type": "section_heading",
+      "page": 19,
+      "text": "48 BASE I Advice Record"
+    },
+    {
+      "type": "table_row",
+      "page": 19,
+      "cells": [
+        "TCR 0",
+        "Format 0 (Standard)"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 19,
+      "cells": [
+        "TCR 0",
+        "Format 1 (ISO–Enriched)"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 19,
+      "cells": [
+        "TCR 0",
+        "Format 2"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 19,
+      "cells": [
+        "TCR 1",
+        "ISO-Enriched"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 19,
+      "cells": [
+        "TCR 2",
+        "ISO-Enriched"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 19,
+      "cells": [
+        "TCR 3",
+        "ISO-Enriched"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 19,
+      "cells": [
+        "TCR 6",
+        "ISO-Enriched"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 19,
+      "cells": [
+        "TCR 7",
+        "ISO-Enriched"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 19,
+      "cells": [
+        "TCR 7",
+        "Format 2"
+      ]
+    },
+    {
+      "type": "section_heading",
+      "page": 19,
+      "text": "49 Split Batch Acknowledgment Transactions"
+    },
+    {
+      "type": "table_row",
+      "page": 19,
+      "cells": [
+        "TCR 0",
+        "Split Batch Acknowledgment Transactions"
+      ]
+    },
+    {
+      "type": "section_heading",
+      "page": 19,
+      "text": "50 Free Text Message"
+    },
+    {
+      "type": "table_row",
+      "page": 19,
+      "cells": [
+        "TCR 0",
+        "Text Message"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 19,
+      "cells": [
+        "TCR 0",
+        "OCT Additional Information"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 19,
+      "cells": [
+        "TCR 0",
+        "OCT Payment Detail Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 19,
+      "cells": [
+        "TCR 0",
+        "Commercial Card, Passenger Itinerary Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 19,
+      "cells": [
+        "TCR 0",
+        "Commercial Card, Passenger Itinerary Data, Leg-Specific"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 19,
+      "cells": [
+        "TCR 0",
+        "Commercial Card, Fleet Service"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 19,
+      "cells": [
+        "TCR 1",
+        "OCT Additional Information"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 19,
+      "cells": [
+        "TCR 1",
+        "OCT Payment Detail Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 19,
+      "cells": [
+        "TCR 1",
+        "Commercial Card, Fleet Service"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 19,
+      "cells": [
+        "TCR 0",
+        "Commercial Card, Generic Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 19,
+      "cells": [
+        "TCR 0",
+        "Commercial Card, Lodging"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 20,
+      "cells": [
+        "TCR 0",
+        "Commercial Card, Car Rental"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 20,
+      "cells": [
+        "TCR 0",
+        "Commercial Card, Invoice (Header And Summary)"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 20,
+      "cells": [
+        "TCR 0",
+        "Commercial Card, General Use (Additional Data Elements)"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 20,
+      "cells": [
+        "TCR 0",
+        "Commercial Card, Lodging (Additional Data Elements)"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 20,
+      "cells": [
+        "TCR 0",
+        "Commercial Card, Car Rental (Additional Data Elements)"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 20,
+      "cells": [
+        "TCR 0",
+        "Commercial Card, Invoice (Line Detail)"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 20,
+      "cells": [
+        "TCR 0",
+        "Commercial Card, Purchasing Transaction, Line Item Detail (Item Data Elements)"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 20,
+      "cells": [
+        "TCR 0",
+        "Commercial Card, Lodging, Line Item Detail (Item Data Elements)"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 20,
+      "cells": [
+        "TCR 0",
+        "Commercial Card, Car Rental, Line Item Detail (Item Data Elements)"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 20,
+      "cells": [
+        "TCR 0",
+        "Commercial Card, Open Format, Text Message"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 20,
+      "cells": [
+        "TCR 1–7",
+        "Commercial Card, Open Format, Text Message"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 20,
+      "cells": [
+        "TCR 0",
+        "Merchant Registration"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 20,
+      "cells": [
+        "TCR 1",
+        "Merchant Registration, Additional Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 20,
+      "cells": [
+        "TCR 0",
+        "Stop Recurring Payment"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 20,
+      "cells": [
+        "TCR 2",
+        "OCT Payment Detail Data"
+      ]
+    },
+    {
+      "type": "section_heading",
+      "page": 20,
+      "text": "52 Request for Photocopy"
+    },
+    {
+      "type": "table_row",
+      "page": 20,
+      "cells": [
+        "TCR 0"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 20,
+      "cells": [
+        "TCR 1"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 20,
+      "cells": [
+        "TCR 4"
+      ]
+    },
+    {
+      "type": "section_heading",
+      "page": 20,
+      "text": "54 Table Update Record"
+    },
+    {
+      "type": "table_row",
+      "page": 20,
+      "cells": [
+        "TCR 0"
+      ]
+    },
+    {
+      "type": "section_heading",
+      "page": 20,
+      "text": "55 RCRF Update Record"
+    },
+    {
+      "type": "table_row",
+      "page": 20,
+      "cells": [
+        "TCR 0"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 20,
+      "cells": [
+        "TCR 1,2"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 20,
+      "cells": [
+        "TCR 1,2",
+        "(Outgoing Interchange)"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 20,
+      "cells": [
+        "TCR 3–7",
+        "(Outgoing and Incoming)"
+      ]
+    },
+    {
+      "type": "section_heading",
+      "page": 20,
+      "text": "56 Currency Conversion Rate Update Record"
+    },
+    {
+      "type": "table_row",
+      "page": 20,
+      "cells": [
+        "TCR 0"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 20,
+      "cells": [
+        "TCR 1"
+      ]
+    },
+    {
+      "type": "section_heading",
+      "page": 21,
+      "text": "57 Data Capture Advice"
+    },
+    {
+      "type": "table_row",
+      "page": 21,
+      "cells": [
+        "TCR 0",
+        "Batch Header"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 21,
+      "cells": [
+        "TCR 1",
+        "Batch Header"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 21,
+      "cells": [
+        "TCR 2",
+        "American Express Batch Header"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 21,
+      "cells": [
+        "TCR 0",
+        "Transaction Detail"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 21,
+      "cells": [
+        "TCR 1",
+        "American Express Gen’l Merchandise"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 21,
+      "cells": [
+        "TCR 2",
+        "American Express Gen’l Merchandise"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 21,
+      "cells": [
+        "TCR 1",
+        "American Express Auto Rental"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 21,
+      "cells": [
+        "TCR 1",
+        "American Express Lodging"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 21,
+      "cells": [
+        "TCR 1",
+        "American Express Restaurant"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 21,
+      "cells": [
+        "TCR 1",
+        "American Express Insurance, Part 1"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 21,
+      "cells": [
+        "TCR 2",
+        "American Express Insurance, Part 2"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 21,
+      "cells": [
+        "TCR 1",
+        "American Express Auto Leasing"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 21,
+      "cells": [
+        "TCR 2",
+        "American Express Auto Leasing (Optional)"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 21,
+      "cells": [
+        "TCR 1",
+        "American Express Telephone, Part 1"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 21,
+      "cells": [
+        "TCR 2",
+        "American Express Telephone, Part 2"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 21,
+      "cells": [
+        "TCR 3",
+        "Transaction Detail, Payment Service Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 21,
+      "cells": [
+        "TCR 4",
+        "Industry-Specific Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 21,
+      "cells": [
+        "TCR 4",
+        "Passenger Itinerary Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 21,
+      "cells": [
+        "TCR 4",
+        "Lodging"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 21,
+      "cells": [
+        "TCR 4",
+        "Car Rental"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 21,
+      "cells": [
+        "TCR 4",
+        "Mastercard Transaction, Lodging Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 21,
+      "cells": [
+        "TCR 4",
+        "Mastercard Transaction, Car Rental Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 21,
+      "cells": [
+        "TCR 5",
+        "Limited-Use Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 21,
+      "cells": [
+        "TCR 5",
+        "Mastercard Compliance Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 21,
+      "cells": [
+        "TCR 0",
+        "Japan Acquirer Services"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 21,
+      "cells": [
+        "TCR 0",
+        "Japan Acquirer Services–Additional Capture Information 57 Data Capture Advice"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 21,
+      "cells": [
+        "TCR 0",
+        "Transaction Detail (Korea)"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 21,
+      "cells": [
+        "TCR 1",
+        "Cardholder Transaction Detail (Korea)"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 21,
+      "cells": [
+        "TCR 2",
+        "Transaction Additional Detail (Korea)"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 21,
+      "cells": [
+        "TCR 0",
+        "Batch Trailer"
+      ]
+    },
+    {
+      "type": "section_heading",
+      "page": 22,
+      "text": "58 National Settlement Advice Record"
+    },
+    {
+      "type": "table_row",
+      "page": 22,
+      "cells": [
+        "TCR 0"
+      ]
+    },
+    {
+      "type": "section_heading",
+      "page": 22,
+      "text": "59 Interface Transaction Advice Record"
+    },
+    {
+      "type": "table_row",
+      "page": 22,
+      "cells": [
+        "TCR 0",
+        "Non-Visa Transaction Detail"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 22,
+      "cells": [
+        "TCR 1",
+        "Non-Visa Transaction Detail, Additional Data"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 22,
+      "cells": [
+        "TCR 1",
+        "American Express"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 22,
+      "cells": [
+        "TCR 2",
+        "American Express Gen’l Merchandise"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 22,
+      "cells": [
+        "TCR 2",
+        "American Express Auto Rental"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 22,
+      "cells": [
+        "TCR 2",
+        "American Express Lodging"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 22,
+      "cells": [
+        "TCR 2",
+        "American Express Restaurant"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 22,
+      "cells": [
+        "TCR 2",
+        "American Express Insurance, Part 1"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 22,
+      "cells": [
+        "TCR 3",
+        "American Express Insurance, Part 2"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 22,
+      "cells": [
+        "TCR 2",
+        "American Express Auto Leasing"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 22,
+      "cells": [
+        "TCR 2",
+        "American Express Telephone"
+      ]
+    },
+    {
+      "type": "section_heading",
+      "page": 22,
+      "text": "90 File Header Records"
+    },
+    {
+      "type": "table_row",
+      "page": 22,
+      "cells": [
+        "TCR 0",
+        "Outgoing CTF"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 22,
+      "cells": [
+        "TCR 0",
+        "Incoming CTF"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 22,
+      "cells": [
+        "TCR 0",
+        "Outgoing ITF"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 22,
+      "cells": [
+        "TCR 0",
+        "Incoming ITF"
+      ]
+    },
+    {
+      "type": "section_heading",
+      "page": 22,
+      "text": "91 Batch Trailer Records"
+    },
+    {
+      "type": "table_row",
+      "page": 22,
+      "cells": [
+        "TCR 0",
+        "Outgoing CTF"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 22,
+      "cells": [
+        "TCR 0",
+        "Incoming CTF"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 22,
+      "cells": [
+        "TCR 0",
+        "Outgoing ITF"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 22,
+      "cells": [
+        "TCR 0",
+        "Incoming ITF"
+      ]
+    },
+    {
+      "type": "section_heading",
+      "page": 22,
+      "text": "92 File Trailer"
+    },
+    {
+      "type": "table_row",
+      "page": 22,
+      "cells": [
+        "TCR 0",
+        "CTF"
+      ]
+    },
+    {
+      "type": "table_row",
+      "page": 22,
+      "cells": [
+        "TCR 0",
+        "ITF"
+      ]
+    }
+  ]
+}

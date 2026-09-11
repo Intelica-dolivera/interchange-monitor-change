@@ -1,0 +1,3415 @@
+{
+  "manual": "visanet_settlement_service_vss_user_guide_volume_2_reports",
+  "edition_a": "20220423",
+  "edition_b": "20221014",
+  "appendices": {
+    "appendix_a": [
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "VSS-110-C Field Descriptions",
+        "duplicate_keys_a": [
+          "total acquirer",
+          "total acquirer ssid name ftsre1",
+          "total acquirer ssid name ftsre2",
+          "total acquirer ssid name ftsre3",
+          "total issuer",
+          "total issuer ssid name ftsre1",
+          "total issuer ssid name ftsre2",
+          "total issuer ssid name ftsre3",
+          "total other",
+          "total other ssid name ftsre1",
+          "total other ssid name ftsre2",
+          "total other ssid name ftsre3"
+        ],
+        "duplicate_keys_b": [
+          "total acquirer",
+          "total acquirer ssid name ftsre1",
+          "total acquirer ssid name ftsre2",
+          "total acquirer ssid name ftsre3",
+          "total issuer",
+          "total issuer ssid name ftsre1",
+          "total issuer ssid name ftsre2",
+          "total issuer ssid name ftsre3",
+          "total other",
+          "total other ssid name ftsre1",
+          "total other ssid name ftsre2",
+          "total other ssid name ftsre3"
+        ]
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "VSS-215 Field Descriptions",
+        "duplicate_keys_a": [
+          "interchange amount",
+          "international service assessment charges"
+        ],
+        "duplicate_keys_b": [
+          "interchange amount",
+          "international service assessment charges"
+        ]
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "VSS-110 Field Descriptions",
+        "duplicate_keys_a": [
+          "total acquirer",
+          "total issuer",
+          "total other"
+        ],
+        "duplicate_keys_b": [
+          "total acquirer",
+          "total issuer",
+          "total other"
+        ]
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "VSS-900-PS Field Descriptions",
+        "duplicate_keys_a": [
+          "received from visa",
+          "sent to visa"
+        ],
+        "duplicate_keys_b": [
+          "received from visa",
+          "sent to visa"
+        ]
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "VSS-300 Field Descriptions Note:",
+        "duplicate_keys_a": [
+          "net settlement amount"
+        ],
+        "duplicate_keys_b": [
+          "net settlement amount"
+        ]
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "VSS-600 Field Descriptions",
+        "duplicate_keys_a": [
+          "total 01-day defer"
+        ],
+        "duplicate_keys_b": [
+          "total 01-day defer"
+        ]
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "VSS-115 Field Descriptions",
+        "duplicate_keys_a": [
+          "business transaction type",
+          "dispute resp fin",
+          "reimbursement fees",
+          "representment",
+          "total interchange",
+          "visa charges"
+        ],
+        "duplicate_keys_b": [
+          "business transaction type",
+          "dispute resp fin",
+          "reimbursement fees",
+          "representment",
+          "total interchange",
+          "visa charges"
+        ]
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "Available VSS Reports Transaction Dispositions (VSS-900-Reconciliation Report)",
+        "duplicate_keys_a": [
+          ""
+        ],
+        "duplicate_keys_b": [
+          ""
+        ]
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "VSS-116 Field Descriptions",
+        "duplicate_keys_a": [
+          "business transaction type",
+          "dispute resp fin",
+          "reimbursement fees",
+          "representment",
+          "total interchange",
+          "visa charges"
+        ],
+        "duplicate_keys_b": [
+          "business transaction type",
+          "dispute resp fin",
+          "reimbursement fees",
+          "representment",
+          "total interchange",
+          "visa charges"
+        ]
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "VSS-140 Field Descriptions",
+        "duplicate_keys_a": [
+          "visa eu"
+        ],
+        "duplicate_keys_b": [
+          "visa eu"
+        ]
+      }
+    ],
+    "appendix_b": [
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "VSS 140–230 Report Count/Amount Fields Mapped to TCR 1 VSS-215, VSS-215-M, and VSS-640 Report Count/Amount Fields Mapped to TCR 1",
+        "duplicate_keys_a": [
+          "fifth amount",
+          "fourth amount",
+          "sixth amount"
+        ],
+        "duplicate_keys_b": [
+          "fifth amount",
+          "fourth amount",
+          "sixth amount"
+        ]
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "record map. When the No Data Indicator on the TCR 0 = Y, no TCR 1 record is created. VSS 120–135 Report Count/Amount Fields Mapped to TCR 1 VSS 140–230 Report Count/Amount Fields Mapped to TCR 1",
+        "duplicate_keys_a": [
+          "first amount",
+          "first count",
+          "second amount",
+          "second count",
+          "third amount"
+        ],
+        "duplicate_keys_b": [
+          "first amount",
+          "first count",
+          "second amount",
+          "second count",
+          "third amount"
+        ]
+      }
+    ],
+    "appendix_c": [
+      {
+        "change_type": "row_content_changed",
+        "column": "Settlement Service",
+        "old": "PAPUA NEW GUINEA NNSS",
+        "new": "Papua New Guinea NNSS",
+        "similarity_ratio": 0.476,
+        "table_title": "Settlement Services",
+        "key": "0147",
+        "ai_category": "editorial_reword",
+        "ai_reason": "El cambio solo afecta la mayúscula de la primera letra y el orden de las palabras, manteniendo el mismo significado y valor.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Settlement Service",
+        "old": "JORDAN NNSS",
+        "new": "Jordan NNSS",
+        "similarity_ratio": 0.545,
+        "table_title": "Settlement Services",
+        "key": "0148",
+        "ai_category": "editorial_reword",
+        "ai_reason": "El cambio solo afecta la mayúscula de la primera letra y el espacio antes del texto, sin alterar el significado o el valor real.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_added",
+        "table_title": "Charge Types",
+        "key": "029",
+        "row": {
+          "type": "grid_row",
+          "page": 261,
+          "table_title": "Charge Types",
+          "anchor_column": "Code",
+          "columns": {
+            "Code": "029",
+            "Charge Type": "NON-DOMESTIC SETTLEMENT CHARGE"
+          }
+        }
+      },
+      {
+        "change_type": "row_added",
+        "table_title": "Charge Types",
+        "key": "030",
+        "row": {
+          "type": "grid_row",
+          "page": 261,
+          "table_title": "Charge Types",
+          "anchor_column": "Code",
+          "columns": {
+            "Code": "030",
+            "Charge Type": "MCY NON-TRAVEL CHARGE"
+          }
+        }
+      },
+      {
+        "change_type": "row_added",
+        "table_title": "Charge Types",
+        "key": "031",
+        "row": {
+          "type": "grid_row",
+          "page": 261,
+          "table_title": "Charge Types",
+          "anchor_column": "Code",
+          "columns": {
+            "Code": "031",
+            "Charge Type": "MCY SETTLEMENT CHARGE"
+          }
+        }
+      },
+      {
+        "change_type": "row_added",
+        "table_title": "Charge Types",
+        "key": "032",
+        "row": {
+          "type": "grid_row",
+          "page": 261,
+          "table_title": "Charge Types",
+          "anchor_column": "Code",
+          "columns": {
+            "Code": "032",
+            "Charge Type": "ISSUER NON-DOMESTIC SETL ALLOC"
+          }
+        }
+      },
+      {
+        "change_type": "row_added",
+        "table_title": "Charge Types",
+        "key": "034",
+        "row": {
+          "type": "grid_row",
+          "page": 261,
+          "table_title": "Charge Types",
+          "anchor_column": "Code",
+          "columns": {
+            "Code": "034",
+            "Charge Type": "ACQUIRER NON-DOMESTIC SETL ALLOC"
+          }
+        }
+      },
+      {
+        "change_type": "row_added",
+        "table_title": "Charge Types",
+        "key": "035",
+        "row": {
+          "type": "grid_row",
+          "page": 261,
+          "table_title": "Charge Types",
+          "anchor_column": "Code",
+          "columns": {
+            "Code": "035",
+            "Charge Type": "MCY NON-TRAVEL ALLOC"
+          }
+        }
+      },
+      {
+        "change_type": "row_added",
+        "table_title": "Charge Types",
+        "key": "040",
+        "row": {
+          "type": "grid_row",
+          "page": 261,
+          "table_title": "Charge Types",
+          "anchor_column": "Code",
+          "columns": {
+            "Code": "040",
+            "Charge Type": "MCY SETTLEMENT ALLOC"
+          }
+        }
+      },
+      {
+        "change_type": "row_added",
+        "table_title": "Charge Types",
+        "key": "066",
+        "row": {
+          "type": "grid_row",
+          "page": 262,
+          "table_title": "Charge Types",
+          "anchor_column": "Code",
+          "columns": {
+            "Code": "066",
+            "Charge Type": "ALLOC CROSS BORDER SERVICE MULTI"
+          }
+        }
+      },
+      {
+        "change_type": "row_added",
+        "table_title": "Charge Types",
+        "key": "067",
+        "row": {
+          "type": "grid_row",
+          "page": 262,
+          "table_title": "Charge Types",
+          "anchor_column": "Code",
+          "columns": {
+            "Code": "067",
+            "Charge Type": "ALLOC CROSS BORDER SERVICE SINGLE"
+          }
+        }
+      },
+      {
+        "change_type": "row_added",
+        "table_title": "Charge Types",
+        "key": "172",
+        "row": {
+          "type": "grid_row",
+          "page": 265,
+          "table_title": "Charge Types",
+          "anchor_column": "Code",
+          "columns": {
+            "Code": "172",
+            "Charge Type": "MCS ALLOC PUR INTRA MULTI"
+          }
+        }
+      },
+      {
+        "change_type": "row_added",
+        "table_title": "Charge Types",
+        "key": "173",
+        "row": {
+          "type": "grid_row",
+          "page": 265,
+          "table_title": "Charge Types",
+          "anchor_column": "Code",
+          "columns": {
+            "Code": "173",
+            "Charge Type": "MCS ALLOC PUR INTRA SINGLE"
+          }
+        }
+      },
+      {
+        "change_type": "row_added",
+        "table_title": "Charge Types",
+        "key": "174",
+        "row": {
+          "type": "grid_row",
+          "page": 265,
+          "table_title": "Charge Types",
+          "anchor_column": "Code",
+          "columns": {
+            "Code": "174",
+            "Charge Type": "MCS ALLOC CASH INTRA MULTI"
+          }
+        }
+      },
+      {
+        "change_type": "row_added",
+        "table_title": "Charge Types",
+        "key": "175",
+        "row": {
+          "type": "grid_row",
+          "page": 265,
+          "table_title": "Charge Types",
+          "anchor_column": "Code",
+          "columns": {
+            "Code": "175",
+            "Charge Type": "MCS ALLOC CASH INTRA SINGLE"
+          }
+        }
+      },
+      {
+        "change_type": "row_added",
+        "table_title": "Charge Types",
+        "key": "176",
+        "row": {
+          "type": "grid_row",
+          "page": 265,
+          "table_title": "Charge Types",
+          "anchor_column": "Code",
+          "columns": {
+            "Code": "176",
+            "Charge Type": "MCS ALLOC PUR MULTI"
+          }
+        }
+      },
+      {
+        "change_type": "row_added",
+        "table_title": "Charge Types",
+        "key": "177",
+        "row": {
+          "type": "grid_row",
+          "page": 265,
+          "table_title": "Charge Types",
+          "anchor_column": "Code",
+          "columns": {
+            "Code": "177",
+            "Charge Type": "MCS ALLOC PUR SINCLE"
+          }
+        }
+      },
+      {
+        "change_type": "row_added",
+        "table_title": "Charge Types",
+        "key": "178",
+        "row": {
+          "type": "grid_row",
+          "page": 265,
+          "table_title": "Charge Types",
+          "anchor_column": "Code",
+          "columns": {
+            "Code": "178",
+            "Charge Type": "MCS ALLOC CASH MULTI"
+          }
+        }
+      },
+      {
+        "change_type": "row_added",
+        "table_title": "Charge Types",
+        "key": "179",
+        "row": {
+          "type": "grid_row",
+          "page": 265,
+          "table_title": "Charge Types",
+          "anchor_column": "Code",
+          "columns": {
+            "Code": "179",
+            "Charge Type": "MCS ALLOC CASH SINGLE"
+          }
+        }
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Charge Type",
+        "old": "Other",
+        "new": "OTHER",
+        "similarity_ratio": 0.2,
+        "table_title": "Charge Types",
+        "key": "000",
+        "ai_category": "editorial_reword",
+        "ai_reason": "El cambio es solo la diferencia en mayúsculas y minúsculas entre 'Other' y 'OTHER', sin alterar el significado o regla de negocio.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Charge Type",
+        "old": "BASE II Processing Charges",
+        "new": "BASE II PROCESSING CHARGES",
+        "similarity_ratio": 0.423,
+        "table_title": "Charge Types",
+        "key": "001",
+        "ai_category": "editorial_reword",
+        "ai_reason": "El cambio solo afecta la mayúscula y el formato de escritura, manteniendo el mismo significado y contenido.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Charge Type",
+        "old": "International Acquiring Fee",
+        "new": "INTERNATIONAL ACQUIRING FEE",
+        "similarity_ratio": 0.185,
+        "table_title": "Charge Types",
+        "key": "002",
+        "ai_category": "editorial_reword",
+        "ai_reason": "El cambio solo afecta el formato de mayúsculas y el orden de palabras, manteniendo el mismo significado.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Charge Type",
+        "old": "MRM Fee Difference",
+        "new": "MRM FEE DIFFERENCE",
+        "similarity_ratio": 0.389,
+        "table_title": "Charge Types",
+        "key": "003",
+        "ai_category": "editorial_reword",
+        "ai_reason": "El cambio solo afecta la mayúscula en 'FEE' y el espacio antes de 'DIFFERENCE', manteniendo el mismo significado y valor.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Charge Type",
+        "old": "Currency Conversion Fees",
+        "new": "CURRENCY CONVERSION FEES",
+        "similarity_ratio": 0.208,
+        "table_title": "Charge Types",
+        "key": "004",
+        "ai_category": "editorial_reword",
+        "ai_reason": "El cambio solo afecta la mayúscula y el formato de la frase, manteniendo el mismo significado.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Charge Type",
+        "old": "Currency Conversion Fee Allocations",
+        "new": "CURRENCY CONVERSION FEE ALLOCATIONS",
+        "similarity_ratio": 0.2,
+        "table_title": "Charge Types",
+        "key": "005",
+        "ai_category": "editorial_reword",
+        "ai_reason": "El cambio solo afecta la mayúscula y el formato de la cadena, manteniendo el mismo significado y contenido.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Charge Type",
+        "old": "Returned Item Charges",
+        "new": "RETURNED ITEM CHARGES",
+        "similarity_ratio": 0.238,
+        "table_title": "Charge Types",
+        "key": "006",
+        "ai_category": "editorial_reword",
+        "ai_reason": "El cambio es solo la capitalización y el formato de la frase, manteniendo el mismo significado.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Charge Type",
+        "old": "Korea Cross-Border USD Fee",
+        "new": "KOREA CROSS BORDER USD FEE",
+        "similarity_ratio": 0.385,
+        "table_title": "Charge Types",
+        "key": "009",
+        "ai_category": "editorial_reword",
+        "ai_reason": "El cambio solo afecta el formato de escritura (mayúsculas y espaciado) sin alterar el significado o regla de negocio.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Charge Type",
+        "old": "Korea Cross-Border USD Fee Allocation",
+        "new": "KOREA CROSS BORDER USD FEE ALLOCATION",
+        "similarity_ratio": 0.324,
+        "table_title": "Charge Types",
+        "key": "010",
+        "ai_category": "editorial_reword",
+        "ai_reason": "El cambio solo afecta el formato de mayúsculas y el orden de palabras, manteniendo el mismo significado y contenido.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Charge Type",
+        "old": "International Service Assessment",
+        "new": "INTERNATIONAL SERVICE ASSESSMENT",
+        "similarity_ratio": 0.156,
+        "table_title": "Charge Types",
+        "key": "011",
+        "ai_category": "editorial_reword",
+        "ai_reason": "El cambio solo afecta la mayúscula y el formato del texto, manteniendo el mismo significado.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Charge Type",
+        "old": "International Service Assessment Allocation",
+        "new": "INTL SERVICE ASSESSMENT ALLOCATION",
+        "similarity_ratio": 0.182,
+        "table_title": "Charge Types",
+        "key": "012",
+        "ai_category": "editorial_reword",
+        "ai_reason": "El cambio solo afecta la mayúscula y el orden de palabras, manteniendo el mismo significado.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Charge Type",
+        "old": "Visa Processing Charge",
+        "new": "VISA GATEWAY PROCESSING CHARGE",
+        "similarity_ratio": 0.192,
+        "table_title": "Charge Types",
+        "key": "013",
+        "ai_category": "editorial_reword",
+        "ai_reason": "El cambio solo afecta la mayúscula y el orden de palabras, manteniendo el mismo significado.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Charge Type",
+        "old": "Network Switch Charge",
+        "new": "NETWORK SWITCH CHARGE",
+        "similarity_ratio": 0.238,
+        "table_title": "Charge Types",
+        "key": "014",
+        "ai_category": "editorial_reword",
+        "ai_reason": "El cambio solo afecta la mayúscula y el formato del texto, manteniendo el mismo significado.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Charge Type",
+        "old": "ISA Credit Rebate",
+        "new": "INTL SERVICE ASSESSMENT REBATES",
+        "similarity_ratio": 0.208,
+        "table_title": "Charge Types",
+        "key": "015",
+        "ai_category": "business_rule_change",
+        "ai_reason": "El valor cambia de 'ISA Credit Rebate' a 'INTL SERVICE ASSESSMENT REBATES', lo que indica una diferencia en el tipo de reembolso y su descripción, no solo una redacción.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Charge Type",
+        "old": "Fx Timing Difference",
+        "new": "FX TIMING DIFFERENCE",
+        "similarity_ratio": 0.25,
+        "table_title": "Charge Types",
+        "key": "016",
+        "ai_category": "editorial_reword",
+        "ai_reason": "El cambio solo afecta la mayúscula y el formato del texto, manteniendo el mismo significado.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Charge Type",
+        "old": "Cross-Currency Fx Difference",
+        "new": "CROSS CURRENCY FX DIFFERENCE",
+        "similarity_ratio": 0.214,
+        "table_title": "Charge Types",
+        "key": "017",
+        "ai_category": "editorial_reword",
+        "ai_reason": "El cambio solo afecta la mayúscula y el espacio en la descripción, manteniendo el mismo significado y valor.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Charge Type",
+        "old": "Candidate Fx Difference",
+        "new": "CANDIDATE FX DIFFERENCE",
+        "similarity_ratio": 0.217,
+        "table_title": "Charge Types",
+        "key": "018",
+        "ai_category": "editorial_reword",
+        "ai_reason": "El cambio solo afecta la mayúscula y el formato del texto, manteniendo el mismo significado.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Charge Type",
+        "old": "No Conversion Difference",
+        "new": "NO CONVERSION DIFFERENCE",
+        "similarity_ratio": 0.208,
+        "table_title": "Charge Types",
+        "key": "019",
+        "ai_category": "editorial_reword",
+        "ai_reason": "El cambio es solo la diferencia entre mayúsculas y minúsculas y el orden de las palabras, sin alterar el significado.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Charge Type",
+        "old": "Timing Cross Difference",
+        "new": "TIMING CROSS DIFFERENCE",
+        "similarity_ratio": 0.217,
+        "table_title": "Charge Types",
+        "key": "020",
+        "ai_category": "editorial_reword",
+        "ai_reason": "El cambio solo afecta la mayúscula y el formato del texto, manteniendo el mismo significado.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Charge Type",
+        "old": "Timing Candidate Difference",
+        "new": "TIMING CANDIDATE DIFFERENCE",
+        "similarity_ratio": 0.185,
+        "table_title": "Charge Types",
+        "key": "021",
+        "ai_category": "editorial_reword",
+        "ai_reason": "El cambio solo afecta la mayúsculas y el formato, manteniendo el mismo significado y valor.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Charge Type",
+        "old": "Timing Cross-Candidate Difference",
+        "new": "TIMING CROSS CANDIDATE DIFFERENCE",
+        "similarity_ratio": 0.182,
+        "table_title": "Charge Types",
+        "key": "022",
+        "ai_category": "editorial_reword",
+        "ai_reason": "El cambio solo afecta la mayúscula y el espacio en la descripción, manteniendo el mismo significado.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Charge Type",
+        "old": "No Conversion Cross-Rate Diff",
+        "new": "NO CONVERSION CROSS RATE DIFF",
+        "similarity_ratio": 0.276,
+        "table_title": "Charge Types",
+        "key": "023",
+        "ai_category": "editorial_reword",
+        "ai_reason": "El cambio es solo en mayúsculas y formato, manteniendo el mismo significado.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Charge Type",
+        "old": "ISA Single Currency Non-Internet",
+        "new": "ISA SINGLE CURR NON-INTERNET",
+        "similarity_ratio": 0.367,
+        "table_title": "Charge Types",
+        "key": "024",
+        "ai_category": "editorial_reword",
+        "ai_reason": "El cambio solo afecta la mayúscula y el formato de escritura, manteniendo el mismo significado y valor.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Charge Type",
+        "old": "Issuer Region ISA Allocation",
+        "new": "ISSUER REGION ISA ALLOCATION",
+        "similarity_ratio": 0.321,
+        "table_title": "Charge Types",
+        "key": "025",
+        "ai_category": "editorial_reword",
+        "ai_reason": "El cambio solo afecta la mayúscula y el espacio en la descripción, manteniendo el mismo significado y contenido.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Charge Type",
+        "old": "ISA Acquirer Redirected",
+        "new": "ISA ACQUIRER REDIRECTED",
+        "similarity_ratio": 0.304,
+        "table_title": "Charge Types",
+        "key": "026",
+        "ai_category": "editorial_reword",
+        "ai_reason": "El cambio solo afecta la mayúscula y el espacio en la redacción, manteniendo el mismo significado y valor.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Charge Type",
+        "old": "Issuer ISA Charge Single Currency",
+        "new": "ISSUER ISA CHARGE-SINGLE CURRENCY",
+        "similarity_ratio": 0.303,
+        "table_title": "Charge Types",
+        "key": "027",
+        "ai_category": "editorial_reword",
+        "ai_reason": "El cambio solo afecta la mayúscula y el espacio entre palabras, manteniendo el mismo significado y valor.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Charge Type",
+        "old": "Issuer ISA Allocation Single Currency",
+        "new": "ISSUER ISA ALLOCATION-SINGLE CURRENCY",
+        "similarity_ratio": 0.27,
+        "table_title": "Charge Types",
+        "key": "028",
+        "ai_category": "editorial_reword",
+        "ai_reason": "El cambio solo afecta la mayúscula y el espacio entre palabras, manteniendo el mismo significado y valor.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Charge Type",
+        "old": "ISA Allocation Single Currency Internet",
+        "new": "ISA ALLOC SINGLE CURR INTERNET",
+        "similarity_ratio": 0.319,
+        "table_title": "Charge Types",
+        "key": "033",
+        "ai_category": "editorial_reword",
+        "ai_reason": "El cambio solo afecta la mayúscula y el orden de las palabras, manteniendo el mismo significado.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Charge Type",
+        "old": "Network Security",
+        "new": "NETWORK SECURITY",
+        "similarity_ratio": 0.188,
+        "table_title": "Charge Types",
+        "key": "036",
+        "ai_category": "editorial_reword",
+        "ai_reason": "El cambio solo afecta la mayúscula y el espacio en el texto, manteniendo el mismo significado.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Charge Type",
+        "old": "International Acquirer Fee CNP",
+        "new": "INTERNATIONAL ACQUIRER FEE CNP",
+        "similarity_ratio": 0.3,
+        "table_title": "Charge Types",
+        "key": "037",
+        "ai_category": "editorial_reword",
+        "ai_reason": "El cambio solo afecta el formato de mayúsculas y el orden de palabras, manteniendo el mismo significado.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Charge Type",
+        "old": "Network Premier Issuer",
+        "new": "NETWORK PREMIER ISSUER",
+        "similarity_ratio": 0.227,
+        "table_title": "Charge Types",
+        "key": "038",
+        "ai_category": "editorial_reword",
+        "ai_reason": "El cambio solo afecta la mayúsculas y el formato del texto, manteniendo el mismo significado.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Charge Type",
+        "old": "Transaction Integrity Fee Debit/PP",
+        "new": "TRANSACTION INTEGRITY FEE DEBIT/PP",
+        "similarity_ratio": 0.294,
+        "table_title": "Charge Types",
+        "key": "039",
+        "ai_category": "editorial_reword",
+        "ai_reason": "El cambio solo afecta mayúsculas y el formato del texto, manteniendo el mismo significado.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Charge Type",
+        "old": "AISA Charge Base Purchase",
+        "new": "AISA CHARGE BASE PURC",
+        "similarity_ratio": 0.435,
+        "table_title": "Charge Types",
+        "key": "042",
+        "ai_category": "editorial_reword",
+        "ai_reason": "El cambio solo afecta la mayúscula y el orden de las palabras, manteniendo el significado y el valor del código.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Charge Type",
+        "old": "AISA Charge Enhanced Purchase",
+        "new": "AISA CHARGE ENHANCED PUR",
+        "similarity_ratio": 0.377,
+        "table_title": "Charge Types",
+        "key": "043",
+        "ai_category": "editorial_reword",
+        "ai_reason": "El cambio solo afecta la mayúsculas y el orden de las palabras, manteniendo el mismo significado.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Charge Type",
+        "old": "INTL ACQ Service Fee Multi Currency Purchase",
+        "new": "INTL ACQ SERV FEE MULTI CURR PUR",
+        "similarity_ratio": 0.474,
+        "table_title": "Charge Types",
+        "key": "044",
+        "ai_category": "editorial_reword",
+        "ai_reason": "El cambio es una simplificación de la redacción sin alterar el significado, eliminando espacios y ajustando mayúsculas para un formato más conciso.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Charge Type",
+        "old": "INTL ACQ Service Fee Single Currency Purchase",
+        "new": "INTL ACQ SERV FEE SINGLE CURR PUR",
+        "similarity_ratio": 0.462,
+        "table_title": "Charge Types",
+        "key": "045",
+        "ai_category": "editorial_reword",
+        "ai_reason": "El cambio es una simplificación de la redacción sin alterar el significado, eliminando espacios y ajustando mayúsculas para un formato más conciso.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Charge Type",
+        "old": "AISA Charge-Multi Currency Purchase",
+        "new": "AISA CHARGE-MULTI CURR PURCHASE",
+        "similarity_ratio": 0.364,
+        "table_title": "Charge Types",
+        "key": "050",
+        "ai_category": "editorial_reword",
+        "ai_reason": "El cambio solo afecta la mayúscula y el orden de las palabras, manteniendo el mismo significado.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Charge Type",
+        "old": "AISA Charge-Single Currency Purchase",
+        "new": "AISA CHARGE-SINGLE CURR PURCHASE",
+        "similarity_ratio": 0.353,
+        "table_title": "Charge Types",
+        "key": "051",
+        "ai_category": "editorial_reword",
+        "ai_reason": "El cambio solo afecta la mayúscula y el orden de las palabras, manteniendo el mismo significado.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Charge Type",
+        "old": "Network Infrastructure Assessment",
+        "new": "NETWORK INFRASTRUCTURE ASSESSMENT",
+        "similarity_ratio": 0.152,
+        "table_title": "Charge Types",
+        "key": "052",
+        "ai_category": "editorial_reword",
+        "ai_reason": "El cambio solo afecta la mayúsculas y el formato del texto, manteniendo el mismo significado.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Charge Type",
+        "old": "PIN-less POS",
+        "new": "PINLESS POS",
+        "similarity_ratio": 0.609,
+        "table_title": "Charge Types",
+        "key": "053",
+        "ai_category": "editorial_reword",
+        "ai_reason": "El cambio es solo la diferencia en mayúsculas y minúsculas y el espacio en blanco, sin alterar el significado del término.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Charge Type",
+        "old": "Cross-Border Service Allocation",
+        "new": "CROSS BORDER SERVICE ALLOCATION",
+        "similarity_ratio": 0.194,
+        "table_title": "Charge Types",
+        "key": "054",
+        "ai_category": "editorial_reword",
+        "ai_reason": "El cambio solo afecta la mayúscula y el espacio en la descripción, manteniendo el mismo significado.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Charge Type",
+        "old": "AISA Allocation Base Purchase",
+        "new": "AISA ALLOC BASE PUR",
+        "similarity_ratio": 0.417,
+        "table_title": "Charge Types",
+        "key": "055",
+        "ai_category": "editorial_reword",
+        "ai_reason": "El valor cambia solo en mayúsculas y espaciado, manteniendo el mismo significado.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Charge Type",
+        "old": "AISA Allocation Enhanced Purchase",
+        "new": "AISA ALLOC ENHANCED PUR",
+        "similarity_ratio": 0.357,
+        "table_title": "Charge Types",
+        "key": "056",
+        "ai_category": "editorial_reword",
+        "ai_reason": "El valor cambia solo en mayúsculas y espaciado, manteniendo el mismo significado.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Charge Type",
+        "old": "Issuer ISA Charge Multi-Currency",
+        "new": "ISSUER ISA CHARGE-MULTI CURRENCY",
+        "similarity_ratio": 0.281,
+        "table_title": "Charge Types",
+        "key": "058",
+        "ai_category": "editorial_reword",
+        "ai_reason": "El cambio solo afecta la mayúscula y el orden de las palabras, manteniendo el mismo significado.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Charge Type",
+        "old": "Transaction Integrity Fee Credit",
+        "new": "TRANSACTION INTEGRITY FEE CREDIT",
+        "similarity_ratio": 0.219,
+        "table_title": "Charge Types",
+        "key": "059",
+        "ai_category": "editorial_reword",
+        "ai_reason": "El cambio solo afecta la mayúscula y el formato del texto, manteniendo el mismo significado.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Charge Type",
+        "old": "Internet Acquiring License Fee",
+        "new": "INTERNET ACQUIRING LICENSE FEE",
+        "similarity_ratio": 0.233,
+        "table_title": "Charge Types",
+        "key": "060",
+        "ai_category": "editorial_reword",
+        "ai_reason": "El cambio solo afecta la mayúscula y el espacio en la descripción, manteniendo el mismo significado.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Charge Type",
+        "old": "IAF Charge Base Purchase",
+        "new": "IAF CHARGE BASE PUR",
+        "similarity_ratio": 0.419,
+        "table_title": "Charge Types",
+        "key": "062",
+        "ai_category": "editorial_reword",
+        "ai_reason": "El cambio solo afecta la mayúsculas y el orden de las palabras, manteniendo el mismo significado.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Charge Type",
+        "old": "IAF Charge Enhanced Purchase",
+        "new": "IAF CHARGE ENHANCED PUR",
+        "similarity_ratio": 0.353,
+        "table_title": "Charge Types",
+        "key": "063",
+        "ai_category": "editorial_reword",
+        "ai_reason": "El valor cambia solo en mayúsculas y el orden de las palabras, manteniendo el mismo significado.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Charge Type",
+        "old": "IAF Allocation Base Purchase",
+        "new": "IAF ALLOC BASE PUR",
+        "similarity_ratio": 0.391,
+        "table_title": "Charge Types",
+        "key": "064",
+        "ai_category": "editorial_reword",
+        "ai_reason": "El valor cambia solo en mayúsculas y espacios, manteniendo el mismo significado.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Charge Type",
+        "old": "IAF Allocation Enhanced Purchase",
+        "new": "IAF ALLOC ENHANCED PUR",
+        "similarity_ratio": 0.333,
+        "table_title": "Charge Types",
+        "key": "065",
+        "ai_category": "editorial_reword",
+        "ai_reason": "El valor cambia solo en mayúsculas y formato, manteniendo el mismo significado.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Charge Type",
+        "old": "Install Payment Interest Amount",
+        "new": "INSTALL PAYMENT INTEREST AMT",
+        "similarity_ratio": 0.237,
+        "table_title": "Charge Types",
+        "key": "121",
+        "ai_category": "editorial_reword",
+        "ai_reason": "El cambio solo afecta la mayúscula y el formato del texto, manteniendo el mismo significado.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Charge Type",
+        "old": "VAT Install Payment Interest Amount",
+        "new": "VAT INSTALL PAYMENT INTEREST AMT",
+        "similarity_ratio": 0.328,
+        "table_title": "Charge Types",
+        "key": "122",
+        "ai_category": "editorial_reword",
+        "ai_reason": "El cambio solo afecta la mayúscula y el espacio entre palabras, manteniendo el mismo significado y valor.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Charge Type",
+        "old": "Install Payment Risk Amount",
+        "new": "INSTALL PAYMENT RISK AMT",
+        "similarity_ratio": 0.275,
+        "table_title": "Charge Types",
+        "key": "123",
+        "ai_category": "editorial_reword",
+        "ai_reason": "El cambio es solo una diferencia en mayúsculas y espaciado, manteniendo el mismo significado.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Charge Type",
+        "old": "VAT Install Payment Risk Amount",
+        "new": "VAT INSTALL PAYMENT RISK AMT",
+        "similarity_ratio": 0.373,
+        "table_title": "Charge Types",
+        "key": "124",
+        "ai_category": "editorial_reword",
+        "ai_reason": "El cambio solo afecta el formato de escritura (mayúsculas y espaciado) sin alterar el significado o regla de negocio.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Charge Type",
+        "old": "Issuer ISA Allocation-Multi-Currency",
+        "new": "ISSUER ISA ALLOCATION-MULTI-CURR",
+        "similarity_ratio": 0.324,
+        "table_title": "Charge Types",
+        "key": "125",
+        "ai_category": "editorial_reword",
+        "ai_reason": "El cambio solo afecta el formato de escritura (mayúsculas/minúsculas y orden de palabras) sin alterar el significado o regla de negocio.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Charge Type",
+        "old": "ATM Fees Differential, Interregion",
+        "new": "ATM FEES DIFFERENTIAL, INTER-REGION",
+        "similarity_ratio": 0.29,
+        "table_title": "Charge Types",
+        "key": "901",
+        "ai_category": "editorial_reword",
+        "ai_reason": "El cambio solo afecta el formato de escritura (mayúsculas, guiones y espacios) sin alterar el significado o regla de negocio.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Charge Type",
+        "old": "Rounding Difference",
+        "new": "ROUNDING DIFFERENCE",
+        "similarity_ratio": 0.158,
+        "table_title": "Charge Types",
+        "key": "902",
+        "ai_category": "editorial_reword",
+        "ai_reason": "El cambio es solo la capitalización y el formato de la palabra, manteniendo el mismo significado.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Charge Type",
+        "old": "US Fee Differential",
+        "new": "US FEE DIFFERENTIAL",
+        "similarity_ratio": 0.316,
+        "table_title": "Charge Types",
+        "key": "903",
+        "ai_category": "editorial_reword",
+        "ai_reason": "El cambio solo afecta la mayúscula y el espacio en 'US Fee Differential' vs 'US Fee Differential', manteniendo el mismo significado y valor.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Charge Type",
+        "old": "US SMIR Fee Differentials",
+        "new": "SMIR FEE DIFFERENTIALS",
+        "similarity_ratio": 0.34,
+        "table_title": "Charge Types",
+        "key": "904",
+        "ai_category": "editorial_reword",
+        "ai_reason": "El cambio solo afecta la mayúscula y el orden de las palabras, manteniendo el mismo significado.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Charge Type",
+        "old": "ATM Fees Differential, Intraregion",
+        "new": "ATM FEES DIFFERENTIAL, INTRA-REGION",
+        "similarity_ratio": 0.29,
+        "table_title": "Charge Types",
+        "key": "911",
+        "ai_category": "editorial_reword",
+        "ai_reason": "El cambio solo afecta mayúsculas y espaciado, manteniendo el mismo significado y valor.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Charge Type",
+        "old": "Consumer Debit Fee Differentials",
+        "new": "CONSUMER DEBIT FEE DIFFERENTIAL",
+        "similarity_ratio": 0.222,
+        "table_title": "Charge Types",
+        "key": "912",
+        "ai_category": "editorial_reword",
+        "ai_reason": "El cambio solo afecta la mayúscula y el espacio en la descripción, manteniendo el mismo significado y contenido.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Charge Type",
+        "old": "Rewards Fee Differentials",
+        "new": "REWARDS FEE DIFFERENTIALS",
+        "similarity_ratio": 0.2,
+        "table_title": "Charge Types",
+        "key": "913",
+        "ai_category": "editorial_reword",
+        "ai_reason": "El cambio solo afecta la mayúscula y el formato del texto, manteniendo el mismo significado.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Charge Type",
+        "old": "AP Intraregion Fee Differential",
+        "new": "AP INTRA-REGION FEE DIFFERENTIAL",
+        "similarity_ratio": 0.254,
+        "table_title": "Charge Types",
+        "key": "920",
+        "ai_category": "editorial_reword",
+        "ai_reason": "El cambio solo afecta la mayúscula y el espacio en la descripción, manteniendo el mismo significado y valor.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Charge Type",
+        "old": "AP Olympics Fund",
+        "new": "AP OLYMPICS FUND",
+        "similarity_ratio": 0.375,
+        "table_title": "Charge Types",
+        "key": "921",
+        "ai_category": "editorial_reword",
+        "ai_reason": "El cambio solo afecta la mayúscula y el espacio en 'AP Olympics Fund' a 'AP OLYMPICS FUND', manteniendo el mismo significado y valor.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "paragraph_added",
+        "text": "This table contains the VSS Codes for jurisdictions. This table contains the VSS Codes for regions."
+      },
+      {
+        "change_type": "paragraph_added",
+        "text": "This table contains the VSS Codes for settlement services."
+      },
+      {
+        "change_type": "paragraph_removed",
+        "text": "This table contains the VSS Codes for jurisdictions."
+      },
+      {
+        "change_type": "paragraph_removed",
+        "text": "This table contains the VSS Codes for regions. This table contains the VSS Codes for settlement services."
+      }
+    ],
+    "appendix_d": [
+      {
+        "change_type": "table_added",
+        "table_title": "V.I.P. Release 2.2 Format Record Summary Header Record—V22000",
+        "num_rows": 9
+      },
+      {
+        "change_type": "table_added",
+        "table_title": "Financial Transaction Record/Recurring Payments—V22235",
+        "num_rows": 3
+      },
+      {
+        "change_type": "table_removed",
+        "table_title": "Header Record—V22000",
+        "num_rows": 7
+      },
+      {
+        "change_type": "table_removed",
+        "table_title": "Financial Transaction Record 3—V22220 Note:",
+        "num_rows": 7
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Position",
+        "old": "32–33",
+        "new": "36–37",
+        "similarity_ratio": 0.6,
+        "table_title": "Financial Transaction Fee Record—V23210",
+        "key": "b2b program id",
+        "ai_category": "business_rule_change",
+        "ai_reason": "El rango de posiciones cambia de 32–33 a 36–37, lo que indica una modificación en la regla de negocio relacionada con los campos de la transacción.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Position",
+        "old": "43–130",
+        "new": "38–130",
+        "similarity_ratio": 0.833,
+        "table_title": "Financial Transaction Fee Record—V23210",
+        "key": "filler",
+        "ai_category": "extraction_noise",
+        "ai_reason": "El cambio en el rango de posición (43–130 a 38–130) parece ser un artefacto de extracción de PDF, ya que el valor numérico inicial cambia sin explicación clara en el contexto del reporte.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Attribute",
+        "old": "11 N",
+        "new": "15 N",
+        "similarity_ratio": 0.75,
+        "table_title": "Financial Transaction Fee Record—V23210",
+        "key": "reimbursement fee",
+        "ai_category": "business_rule_change",
+        "ai_reason": "El valor de la tarifa de reembolso cambió de 11 N a 15 N, lo que indica un cambio en la regla de negocio relacionado con las tarifas.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Position",
+        "old": "7–17",
+        "new": "7–21",
+        "similarity_ratio": 0.75,
+        "table_title": "Financial Transaction Fee Record—V23210",
+        "key": "reimbursement fee",
+        "ai_category": "business_rule_change",
+        "ai_reason": "El rango de fechas para el cobro de la tarifa de reembolso ha cambiado de 7-17 a 7-21, lo que indica una modificación real en la regla de negocio.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Position",
+        "old": "18",
+        "new": "22",
+        "similarity_ratio": 0.0,
+        "table_title": "Financial Transaction Fee Record—V23210",
+        "key": "reimbursement fee debit/ credit indicator",
+        "ai_category": "business_rule_change",
+        "ai_reason": "El valor de la columna 'Position' cambia de 18 a 22, lo que indica una modificación en la regla de negocio relacionada con el indicador de débito/crédito de la tarifa de reembolso.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Position",
+        "old": "19–29",
+        "new": "23–33",
+        "similarity_ratio": 0.2,
+        "table_title": "Financial Transaction Fee Record—V23210",
+        "key": "transaction integrity fee",
+        "ai_category": "business_rule_change",
+        "ai_reason": "El rango de valores cambia de 19–29 a 23–33, lo que indica una modificación en la regla de negocio que define el rango de transacciones.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Position",
+        "old": "30 31",
+        "new": "34 35",
+        "similarity_ratio": 0.6,
+        "table_title": "Financial Transaction Fee Record—V23210",
+        "key": "transaction integrity fee debit/credit indicator additional token response information",
+        "ai_category": "extraction_noise",
+        "ai_reason": "El cambio de valores '30 31' a '34 35' en la columna 'Position' es un artefacto de extracción de PDF, ya que los valores numéricos no siguen un patrón lógico y no representan una regla de negocio o redacción diferente.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_added",
+        "table_title": "Financial Transaction Record/mVisa Record—V22228",
+        "key": "sender account billing amount service processing type",
+        "row": {
+          "type": "grid_row",
+          "page": 368,
+          "table_title": "Financial Transaction Record/mVisa Record—V22228",
+          "anchor_column": "Field Name",
+          "columns": {
+            "Comments": "Cardholder Billing amount in Sender Account Number Billing Currency This field will contain a value that identifies the deferred OCT request type. Valid values are: 00 (Not a deferred OCT) 01 (Originator hold) 02 (Visa deferred OCT hold, default interval) 09 (Cancel pending deferred OCT request) 0Q (Query the status of the deferred OCT) Note:  The values of 09 and 0Q are logged only for the originating acquirer.",
+            "Field Source": "TLV Field 104, Usage 2, Dataset ID 57, Tag 80",
+            "Attribute": "12 UN 2 AN",
+            "Position": "49–60 61–62",
+            "Field Name": "Sender Account Billing Amount Service Processing Type"
+          }
+        }
+      },
+      {
+        "change_type": "row_removed",
+        "table_title": "Financial Transaction Record/mVisa Record—V22228",
+        "key": "sender account billing amount deferred oct request type",
+        "row": {
+          "type": "grid_row",
+          "page": 368,
+          "table_title": "Financial Transaction Record/mVisa Record—V22228",
+          "anchor_column": "Field Name",
+          "columns": {
+            "Comments": "Cardholder Billing amount in Sender Account Number Billing Currency This field will contain a value that identifies the deferred OCT request type. Valid values are: 00 (Not a deferred OCT) 01 (Originator hold) 02 (Visa deferred OCT hold, default interval) 09 (Cancel pending deferred OCT request) 0Q (Query the status of the deferred OCT) Note:  The values of 09 and 0Q are logged only for the originating acquirer.",
+            "Field Source": "TLV Field 104, Usage 2, Dataset ID 57, Tag 80",
+            "Attribute": "12 UN 2 AN",
+            "Position": "49–60 61–62",
+            "Field Name": "Sender Account Billing Amount Deferred OCT Request Type"
+          }
+        }
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Position",
+        "old": "46",
+        "new": "54",
+        "similarity_ratio": 0.5,
+        "table_title": "Financial Transaction Fee Record—V22261",
+        "key": "additional token response information",
+        "ai_category": "business_rule_change",
+        "ai_reason": "El valor de la posición cambió de 46 a 54, lo que indica una modificación real en la regla de negocio o significado del campo.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Position",
+        "old": "47–48",
+        "new": "55–56",
+        "similarity_ratio": 0.2,
+        "table_title": "Financial Transaction Fee Record—V22261",
+        "key": "b2b program id",
+        "ai_category": "business_rule_change",
+        "ai_reason": "El cambio en los valores de posición (47-48 a 55-56) indica una modificación real en la regla de negocio que define dónde se extraen los datos del documento.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Attribute",
+        "old": "11 N",
+        "new": "15 N",
+        "similarity_ratio": 0.75,
+        "table_title": "Financial Transaction Fee Record—V22261",
+        "key": "cash-back irf amount - settlement currency",
+        "ai_category": "business_rule_change",
+        "ai_reason": "El valor de la columna 'cash-back irf amount - settlement currency' cambió de '11 N' a '15 N', lo que indica un cambio en la cantidad de cash-back en la moneda de liquidación, afectando la regla de negocio.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Position",
+        "old": "19–29",
+        "new": "23–37",
+        "similarity_ratio": 0.2,
+        "table_title": "Financial Transaction Fee Record—V22261",
+        "key": "cash-back irf amount - settlement currency",
+        "ai_category": "business_rule_change",
+        "ai_reason": "El rango numérico de los valores cambia de 19–29 a 23–37, lo que indica una modificación en la regla de negocio para el cálculo de la cantidad de cash-back en la moneda de liquidación.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Attribute",
+        "old": "87 AN",
+        "new": "74 AN",
+        "similarity_ratio": 0.8,
+        "table_title": "Financial Transaction Fee Record—V22261",
+        "key": "filler",
+        "ai_category": "extraction_noise",
+        "ai_reason": "El cambio en el valor de la columna 'Attribute' (de '87 AN' a '74 AN') parece ser un artefacto de extracción de PDF, ya que el número cambia sin una explicación lógica y el formato es similar.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Position",
+        "old": "49–130",
+        "new": "57–130",
+        "similarity_ratio": 0.667,
+        "table_title": "Financial Transaction Fee Record—V22261",
+        "key": "filler",
+        "ai_category": "business_rule_change",
+        "ai_reason": "El rango de valores cambia de 49-130 a 57-130, lo que indica una modificación en la regla de negocio relacionada con los límites de transacciones.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Attribute",
+        "old": "11 N",
+        "new": "15 N",
+        "similarity_ratio": 0.75,
+        "table_title": "Financial Transaction Fee Record—V22261",
+        "key": "reimbursement fee",
+        "ai_category": "business_rule_change",
+        "ai_reason": "El valor de la tarifa de reembolso cambió de 11 N a 15 N, lo que indica un cambio en la regla de negocio relacionado con el cálculo de tarifas.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Position",
+        "old": "7–17",
+        "new": "7–21",
+        "similarity_ratio": 0.75,
+        "table_title": "Financial Transaction Fee Record—V22261",
+        "key": "reimbursement fee",
+        "ai_category": "business_rule_change",
+        "ai_reason": "El rango de fechas para el cobro de la tarifa de reembolso ha cambiado de 7–17 a 7–21, lo que indica una modificación en la regla de negocio.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Position",
+        "old": "18",
+        "new": "22",
+        "similarity_ratio": 0.0,
+        "table_title": "Financial Transaction Fee Record—V22261",
+        "key": "reimbursement fee debit/ credit indicator",
+        "ai_category": "business_rule_change",
+        "ai_reason": "El valor de la columna 'Position' cambia de 18 a 22, lo que indica una modificación en la regla de negocio relacionada con el indicador de débito/crédito para gastos de reembolso.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Position",
+        "old": "30–40",
+        "new": "38–48",
+        "similarity_ratio": 0.6,
+        "table_title": "Financial Transaction Fee Record—V22261",
+        "key": "transaction integrity fee",
+        "ai_category": "business_rule_change",
+        "ai_reason": "El rango de valores cambia de 30–40 a 38–48, lo que indica una modificación en la regla de negocio relacionada con los límites de la tarifa.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Position",
+        "old": "41 42–45",
+        "new": "49 50–53",
+        "similarity_ratio": 0.5,
+        "table_title": "Financial Transaction Fee Record—V22261",
+        "key": "transaction integrity fee debit/credit indicator agreement id",
+        "ai_category": "extraction_noise",
+        "ai_reason": "El cambio en los valores de la columna 'Position' (41 42–45 a 49 50–53) no sigue un patrón lógico y parece un artefacto de extracción de PDF, ya que los números no son coherentes con las reglas de negocio o formatos estándar.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "Financial Transaction Record/Multicurrency-Specific—V22260",
+        "duplicate_keys_a": [
+          "filler"
+        ],
+        "duplicate_keys_b": [
+          "filler"
+        ]
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "Financial Transaction Record/National Net Data—V22275",
+        "duplicate_keys_a": [
+          "reserved"
+        ],
+        "duplicate_keys_b": [
+          "reserved"
+        ]
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "Financial Transaction Record–5—V22226",
+        "duplicate_keys_a": [
+          "reserved"
+        ],
+        "duplicate_keys_b": [
+          "reserved"
+        ]
+      },
+      {
+        "change_type": "row_added",
+        "table_title": "Financial Transaction Record 2—V23201",
+        "key": "prepaid program indicator",
+        "row": {
+          "type": "grid_row",
+          "page": 404,
+          "table_title": "Financial Transaction Record 2—V23201",
+          "anchor_column": "Field Name",
+          "columns": {
+            "Comments": "",
+            "Field Sources": "",
+            "Attribute": "1 AN",
+            "Position": "127",
+            "Field Name": "Prepaid Program Indicator"
+          }
+        }
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Attribute",
+        "old": "4 AN",
+        "new": "3 AN",
+        "similarity_ratio": 0.75,
+        "table_title": "Financial Transaction Record 2—V23201",
+        "key": "filler",
+        "ai_category": "extraction_noise",
+        "ai_reason": "El cambio en el valor de la columna 'Attribute' de '4 AN' a '3 AN' es un artefacto de extracción de PDF, ya que no representa un cambio real en el significado o valor de negocio.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Position",
+        "old": "127–130",
+        "new": "128–130",
+        "similarity_ratio": 0.857,
+        "table_title": "Financial Transaction Record 2—V23201",
+        "key": "filler",
+        "ai_category": "business_rule_change",
+        "ai_reason": "El rango de valores cambia de 127–130 a 128–130, lo que indica una modificación en la regla de negocio relacionada con los límites de transacciones.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "Advice Notification Transaction Record/Interlink-Specific—V22600",
+        "duplicate_keys_a": [
+          "filler"
+        ],
+        "duplicate_keys_b": [
+          "filler"
+        ]
+      },
+      {
+        "change_type": "row_removed",
+        "table_title": "Financial Transaction Record 1.1—V22201",
+        "key": "__unassigned_prefix__",
+        "row": {
+          "type": "grid_row",
+          "page": 357,
+          "table_title": "Financial Transaction Record 1.1—V22201",
+          "anchor_column": "Field Name",
+          "columns": {
+            "__unassigned_prefix__": "This field will contain the following values:"
+          }
+        }
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Comments",
+        "old": "",
+        "new": "This field will contain the following values:",
+        "similarity_ratio": 0.0,
+        "table_title": "Financial Transaction Record 1.1—V22201",
+        "key": "pan token",
+        "ai_category": "editorial_reword",
+        "ai_reason": "El cambio solo modifica la redacción para especificar que el campo contendrá valores definidos, sin alterar el significado o regla de negocio.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_added",
+        "table_title": "Financial Transaction Record 3—V22220",
+        "key": "customer identification method",
+        "row": {
+          "type": "grid_row",
+          "page": 362,
+          "table_title": "Financial Transaction Record 3—V22220",
+          "anchor_column": "Field Name",
+          "columns": {
+            "Comments": "Not applicable",
+            "Field Sources": "Field 60.9— Cardholder ID Method",
+            "Attribute": "1 AN",
+            "Position": "116",
+            "Field Name": "Customer Identification Method"
+          }
+        }
+      },
+      {
+        "change_type": "row_added",
+        "table_title": "Financial Transaction Record 3—V22220",
+        "key": "e-commerce cavv result code",
+        "row": {
+          "type": "grid_row",
+          "page": 362,
+          "table_title": "Financial Transaction Record 3—V22220",
+          "anchor_column": "Field Name",
+          "columns": {
+            "Comments": "Not applicable",
+            "Field Sources": "Field 44.13",
+            "Attribute": "1 AN",
+            "Position": "129",
+            "Field Name": "E-Commerce CAVV Result Code"
+          }
+        }
+      },
+      {
+        "change_type": "row_added",
+        "table_title": "Financial Transaction Record 3—V22220",
+        "key": "e-commerce goods indicator",
+        "row": {
+          "type": "grid_row",
+          "page": 362,
+          "table_title": "Financial Transaction Record 3—V22220",
+          "anchor_column": "Field Name",
+          "columns": {
+            "Comments": "Not applicable",
+            "Field Sources": "Field 62.19",
+            "Attribute": "2 AN",
+            "Position": "127-128",
+            "Field Name": "E-Commerce Goods Indicator"
+          }
+        }
+      },
+      {
+        "change_type": "row_added",
+        "table_title": "Financial Transaction Record 3—V22220",
+        "key": "forwarding institution country code",
+        "row": {
+          "type": "grid_row",
+          "page": 362,
+          "table_title": "Financial Transaction Record 3—V22220",
+          "anchor_column": "Field Name",
+          "columns": {
+            "Comments": "Not applicable",
+            "Field Sources": "Field 21",
+            "Attribute": "3 N",
+            "Position": "113–115",
+            "Field Name": "Forwarding Institution Country Code"
+          }
+        }
+      },
+      {
+        "change_type": "row_added",
+        "table_title": "Financial Transaction Record 3—V22220",
+        "key": "forwarding institution id",
+        "row": {
+          "type": "grid_row",
+          "page": 362,
+          "table_title": "Financial Transaction Record 3—V22220",
+          "anchor_column": "Field Name",
+          "columns": {
+            "Comments": "Not applicable",
+            "Field Sources": "Field 33",
+            "Attribute": "11 N",
+            "Position": "102–112",
+            "Field Name": "Forwarding Institution ID"
+          }
+        }
+      },
+      {
+        "change_type": "row_added",
+        "table_title": "Financial Transaction Record 3—V22220",
+        "key": "issuer affiliate id",
+        "row": {
+          "type": "grid_row",
+          "page": 362,
+          "table_title": "Financial Transaction Record 3—V22220",
+          "anchor_column": "Field Name",
+          "columns": {
+            "Comments": "Space if acquirer record",
+            "Field Sources": "Not applicable",
+            "Attribute": "10 AN",
+            "Position": "117–126",
+            "Field Name": "Issuer Affiliate ID"
+          }
+        }
+      },
+      {
+        "change_type": "row_added",
+        "table_title": "Financial Transaction Record 3—V22220",
+        "key": "recurring payment indicator flag",
+        "row": {
+          "type": "grid_row",
+          "page": 362,
+          "table_title": "Financial Transaction Record 3—V22220",
+          "anchor_column": "Field Name",
+          "columns": {
+            "Comments": "",
+            "Field Sources": "Field 126.13",
+            "Attribute": "1 AN",
+            "Position": "130",
+            "Field Name": "Recurring Payment Indicator flag"
+          }
+        }
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "Financial Transaction Record/Money Transfer and Personal Payments-Specific—V22276",
+        "duplicate_keys_a": [
+          "reserved"
+        ],
+        "duplicate_keys_b": [
+          "reserved"
+        ]
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "File Maintenance–Address Verification File Update—V22310",
+        "duplicate_keys_a": [
+          "filler"
+        ],
+        "duplicate_keys_b": [
+          "filler"
+        ]
+      },
+      {
+        "change_type": "row_added",
+        "table_title": "Financial Transaction Record 2—V22210",
+        "key": "durbin regulated status indicator prepaid program indicator",
+        "row": {
+          "type": "grid_row",
+          "page": 359,
+          "table_title": "Financial Transaction Record 2—V22210",
+          "anchor_column": "Field Name",
+          "columns": {
+            "Comments": "",
+            "Field Sources": "",
+            "Attribute": "1 AN 1 AN",
+            "Position": "78 79",
+            "Field Name": "Durbin Regulated Status Indicator Prepaid Program Indicator"
+          }
+        }
+      },
+      {
+        "change_type": "row_removed",
+        "table_title": "Financial Transaction Record 2—V22210",
+        "key": "durbin regulated status indicator",
+        "row": {
+          "type": "grid_row",
+          "page": 359,
+          "table_title": "Financial Transaction Record 2—V22210",
+          "anchor_column": "Field Name",
+          "columns": {
+            "Comments": "",
+            "Field Sources": "",
+            "Attribute": "1 AN",
+            "Position": "78",
+            "Field Name": "Durbin Regulated Status Indicator"
+          }
+        }
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Attribute",
+        "old": "2 N",
+        "new": "1 N",
+        "similarity_ratio": 0.667,
+        "table_title": "Financial Transaction Record 2—V22210",
+        "key": "reserved",
+        "ai_category": "business_rule_change",
+        "ai_reason": "El valor de la columna 'Attribute' cambia de '2 N' a '1 N', lo que indica una modificación en la regla de negocio relacionada con el código de atributo.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Position",
+        "old": "79–80",
+        "new": "80",
+        "similarity_ratio": 0.571,
+        "table_title": "Financial Transaction Record 2—V22210",
+        "key": "reserved",
+        "ai_category": "extraction_noise",
+        "ai_reason": "El cambio de '79–80' a '80' es un artefacto de extracción de PDF, probablemente un texto cortado o fragmento no completo.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "Trailer Record—V22900",
+        "duplicate_keys_a": [
+          "filler"
+        ],
+        "duplicate_keys_b": [
+          "filler"
+        ]
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "Administrative Message 2 Transaction Record—V22401",
+        "duplicate_keys_a": [
+          "filler"
+        ],
+        "duplicate_keys_b": [
+          "filler"
+        ]
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "Financial Maintenance Transaction Record—V22300",
+        "duplicate_keys_a": [
+          "filler"
+        ],
+        "duplicate_keys_b": [
+          "filler"
+        ]
+      },
+      {
+        "change_type": "row_added",
+        "table_title": "V.I.P. Release 2.2 Format Record Summary",
+        "key": "financial transaction",
+        "row": {
+          "type": "grid_row",
+          "page": 351,
+          "table_title": "V.I.P. Release 2.2 Format Record Summary",
+          "anchor_column": "Record Category",
+          "columns": {
+            "Description": "Contains Visa Cash Field 55 data, Record 3.",
+            "Table Reference Number": "Financial Transaction Record/Visa Cash Field 55-Specific—V22287",
+            "Record Types": "V22287",
+            "Record Category": "Financial Transaction"
+          }
+        }
+      },
+      {
+        "change_type": "row_removed",
+        "table_title": "V.I.P. Release 2.2 Format Record Summary",
+        "key": "a trailer record completes the data set for the raw data recipient.",
+        "row": {
+          "type": "grid_row",
+          "page": 352,
+          "table_title": "V.I.P. Release 2.2 Format Record Summary",
+          "anchor_column": "Record Category",
+          "columns": {
+            "Description": "",
+            "Table Reference Number": "",
+            "Record Types": "",
+            "Record Category": "A trailer record completes the data set for the raw data recipient."
+          }
+        }
+      },
+      {
+        "change_type": "row_removed",
+        "table_title": "V.I.P. Release 2.2 Format Record Summary",
+        "key": "trailer record",
+        "row": {
+          "type": "grid_row",
+          "page": 352,
+          "table_title": "V.I.P. Release 2.2 Format Record Summary",
+          "anchor_column": "Record Category",
+          "columns": {
+            "Description": "Contains the detail record count for the file; one per V22000.",
+            "Table Reference Number": "Trailer Record—V22900",
+            "Record Types": "V22900",
+            "Record Category": "Trailer Record"
+          }
+        }
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Description",
+        "old": "Contains Interlink-specific transaction data as well as additional data when transactions require supporting information.",
+        "new": "Contains additional transaction data for transactions that are recurring payments.",
+        "similarity_ratio": 0.552,
+        "table_title": "V.I.P. Release 2.2 Format Record Summary",
+        "key": "financial transaction",
+        "ai_category": "business_rule_change",
+        "ai_reason": "El cambio modifica la descripción de los datos que incluye el tipo de transacciones, pasando de 'Interlink-specific' a 'recurring payments', lo que implica una diferencia en el tipo de transacciones que se consideran.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Record Types",
+        "old": "V22240",
+        "new": "V22235",
+        "similarity_ratio": 0.667,
+        "table_title": "V.I.P. Release 2.2 Format Record Summary",
+        "key": "financial transaction",
+        "ai_category": "extraction_noise",
+        "ai_reason": "El cambio en el valor de Record Types de V22240 a V22235 es un artefacto de extracción de PDF, ya que los códigos de registros en VisaNet no cambian de forma significativa y este tipo de variación es común en extracciones.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Table Reference Number",
+        "old": "Financial Transaction Record/ Interlink-Specific—V22240",
+        "new": "Financial Transaction Record/ Recurring Payments—V22235",
+        "similarity_ratio": 0.673,
+        "table_title": "V.I.P. Release 2.2 Format Record Summary",
+        "key": "financial transaction",
+        "ai_category": "business_rule_change",
+        "ai_reason": "El cambio en el nombre del registro de la tabla de referencia indica una modificación en la categorización de transacciones, pasando de 'Interlink-Specific' a 'Recurring Payments', lo que refleja una diferencia en el tipo de transacción que se procesa.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Description",
+        "old": "Contains ATM-specific data applicable for Visa ATM and Plus ATM transactions only.",
+        "new": "Contains Interlink-specific transaction data as well as additional data when transactions require supporting information.",
+        "similarity_ratio": 0.493,
+        "table_title": "V.I.P. Release 2.2 Format Record Summary",
+        "key": "financial transaction",
+        "ai_category": "business_rule_change",
+        "ai_reason": "El cambio modifica la descripción de los datos incluidos en la transacción, indicando que ahora se incluyen datos específicos de Interlink y información adicional, en lugar de solo datos ATM.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Record Types",
+        "old": "V22250",
+        "new": "V22240",
+        "similarity_ratio": 0.833,
+        "table_title": "V.I.P. Release 2.2 Format Record Summary",
+        "key": "financial transaction",
+        "ai_category": "extraction_noise",
+        "ai_reason": "El cambio en los valores de los registros (V22250 a V22240) parece ser un artefacto de extracción de PDF, ya que los códigos son similares pero no representan un cambio real en las reglas de negocio o redacción.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Table Reference Number",
+        "old": "Financial Transaction Record/ATM- Specific—V22250",
+        "new": "Financial Transaction Record/ Interlink-Specific—V22240",
+        "similarity_ratio": 0.846,
+        "table_title": "V.I.P. Release 2.2 Format Record Summary",
+        "key": "financial transaction",
+        "ai_category": "business_rule_change",
+        "ai_reason": "El cambio en el nombre del formato de registro indica una diferencia en el tipo de transacción específico (ATM vs Interlink) y el número de versión, lo que afecta la clasificación de transacciones en el sistema.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Description",
+        "old": "Contains DE22–specific data.",
+        "new": "Contains ATM-specific data applicable for Visa ATM and Plus ATM transactions only.",
+        "similarity_ratio": 0.418,
+        "table_title": "V.I.P. Release 2.2 Format Record Summary",
+        "key": "financial transaction",
+        "ai_category": "business_rule_change",
+        "ai_reason": "El cambio especifica que los datos son específicos para ATM y Plus ATM, mientras que antes se mencionaba DE22, lo que indica una diferencia en el tipo de transacciones cubiertas.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Record Types",
+        "old": "V22251",
+        "new": "V22250",
+        "similarity_ratio": 0.833,
+        "table_title": "V.I.P. Release 2.2 Format Record Summary",
+        "key": "financial transaction",
+        "ai_category": "extraction_noise",
+        "ai_reason": "El cambio de 'V22251' a 'V22250' es un artefacto de extracción de PDF, ya que los valores de código de reporte no deben variar en una actualización de sistema.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Table Reference Number",
+        "old": "Financial Transaction Record/DE22- Specific—V22251",
+        "new": "Financial Transaction Record/ATM- Specific—V22250",
+        "similarity_ratio": 0.909,
+        "table_title": "V.I.P. Release 2.2 Format Record Summary",
+        "key": "financial transaction",
+        "ai_category": "business_rule_change",
+        "ai_reason": "El valor de la tabla de referencia cambia de V22251 a V22250 y de 'DE22-Specific' a 'ATM-Specific', lo que indica una modificación en la regla de negocio relacionada con el tipo de transacción.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Description",
+        "old": "Contains Fee Collections/Funds Disbursement message text.",
+        "new": "Contains DE22–specific data.",
+        "similarity_ratio": 0.329,
+        "table_title": "V.I.P. Release 2.2 Format Record Summary",
+        "key": "financial transaction",
+        "ai_category": "business_rule_change",
+        "ai_reason": "El cambio indica que el mensaje ahora contiene datos específicos de DE22 en lugar de texto general de cobros y desembolsos, lo que modifica la descripción de los datos.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Record Types",
+        "old": "V22255",
+        "new": "V22251",
+        "similarity_ratio": 0.833,
+        "table_title": "V.I.P. Release 2.2 Format Record Summary",
+        "key": "financial transaction",
+        "ai_category": "extraction_noise",
+        "ai_reason": "El cambio en el código de registro de V22255 a V22251 es un artefacto de extracción de PDF, ya que los códigos de registros en VisaNet son estáticos y no cambian en la práctica.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Table Reference Number",
+        "old": "Financial Transaction Record/Fee Collections/Funds Disbursement Text Message Record—V22255",
+        "new": "Financial Transaction Record/DE22- Specific—V22251",
+        "similarity_ratio": 0.586,
+        "table_title": "V.I.P. Release 2.2 Format Record Summary",
+        "key": "financial transaction",
+        "ai_category": "business_rule_change",
+        "ai_reason": "El cambio en el nombre del registro indica una modificación en la categorización de los registros financieros, específicamente en la identificación de los tipos de transacciones.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Description",
+        "old": "Contains Multicurrency data (for Multicurrency Service participants only).",
+        "new": "Contains Fee Collections/Funds Disbursement message text.",
+        "similarity_ratio": 0.351,
+        "table_title": "V.I.P. Release 2.2 Format Record Summary",
+        "key": "financial transaction",
+        "ai_category": "business_rule_change",
+        "ai_reason": "El cambio modifica el significado de la descripción del mensaje, pasando de datos multiespecial a mensajes de cobros y desembolsos, lo que implica una regla de negocio diferente.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Record Types",
+        "old": "V22260",
+        "new": "V22255",
+        "similarity_ratio": 0.667,
+        "table_title": "V.I.P. Release 2.2 Format Record Summary",
+        "key": "financial transaction",
+        "ai_category": "extraction_noise",
+        "ai_reason": "El cambio de 'V22260' a 'V22255' es un artefacto de extracción de PDF, ya que los valores son diferentes pero no representan un cambio real en la regla de negocio o redacción.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Table Reference Number",
+        "old": "Financial Transaction Record/ Multicurrency-Specific—V22260",
+        "new": "Financial Transaction Record/Fee Collections/Funds Disbursement Text Message Record—V22255",
+        "similarity_ratio": 0.523,
+        "table_title": "V.I.P. Release 2.2 Format Record Summary",
+        "key": "financial transaction",
+        "ai_category": "business_rule_change",
+        "ai_reason": "El valor cambia de 'Financial Transaction Record/ Multicurrency-Specific—V22260' a 'Financial Transaction Record/Fee Collections/Funds Disbursement Text Message Record—V22255', lo que indica una modificación en la descripción del tipo de registro y su código, sugiriendo un cambio en la regla de negocio.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Description",
+        "old": "Contains Financial Transaction Fee Record information.",
+        "new": "Contains Multicurrency data (for Multicurrency Service participants only).",
+        "similarity_ratio": 0.344,
+        "table_title": "V.I.P. Release 2.2 Format Record Summary",
+        "key": "financial transaction",
+        "ai_category": "business_rule_change",
+        "ai_reason": "El cambio modifica el contenido real de la descripción, indicando que el reporte ahora incluye datos multiespecialidad para participantes del servicio multicurrency, en lugar de información sobre tarifas de transacciones financieras.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Record Types",
+        "old": "V22261",
+        "new": "V22260",
+        "similarity_ratio": 0.833,
+        "table_title": "V.I.P. Release 2.2 Format Record Summary",
+        "key": "financial transaction",
+        "ai_category": "extraction_noise",
+        "ai_reason": "El cambio en el valor de Record Types de V22261 a V22260 es un artefacto de extracción de PDF, ya que los códigos de registros en VisaNet son estáticos y no cambian en la versión del documento.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Table Reference Number",
+        "old": "Financial Transaction Fee Record— V22261",
+        "new": "Financial Transaction Record/ Multicurrency-Specific—V22260",
+        "similarity_ratio": 0.687,
+        "table_title": "V.I.P. Release 2.2 Format Record Summary",
+        "key": "financial transaction",
+        "ai_category": "business_rule_change",
+        "ai_reason": "El nombre del registro cambia de 'Financial Transaction Fee Record— V22261' a 'Financial Transaction Record/ Multicurrency-Specific—V22260', lo que indica una modificación en la definición del tipo de transacción y su código de referencia, afectando la regla de negocio.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Description",
+        "old": "Contains VisaNet POS Acquirer Services data.",
+        "new": "Contains Financial Transaction Fee Record information.",
+        "similarity_ratio": 0.408,
+        "table_title": "V.I.P. Release 2.2 Format Record Summary",
+        "key": "financial transaction",
+        "ai_category": "business_rule_change",
+        "ai_reason": "El cambio refleja una modificación en la descripción de los datos que ahora incluye información sobre cargos financieros en lugar de servicios de acquirer, lo que altera el significado del contenido.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Record Types",
+        "old": "V22270",
+        "new": "V22261",
+        "similarity_ratio": 0.667,
+        "table_title": "V.I.P. Release 2.2 Format Record Summary",
+        "key": "financial transaction",
+        "ai_category": "extraction_noise",
+        "ai_reason": "El cambio en los valores de los registros (V22270 a V22261) parece ser un artefacto de extracción de PDF, ya que los códigos de registros son específicos y no cambian en el significado o regla de negocio.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Table Reference Number",
+        "old": "Financial Transaction Record/ VisaNet POS Acquirer Services— V22270",
+        "new": "Financial Transaction Fee Record— V22261",
+        "similarity_ratio": 0.636,
+        "table_title": "V.I.P. Release 2.2 Format Record Summary",
+        "key": "financial transaction",
+        "ai_category": "business_rule_change",
+        "ai_reason": "El nombre del registro cambia de 'Financial Transaction Record/ VisaNet POS Acquirer Services— V22270' a 'Financial Transaction Fee Record— V22261', lo que indica una diferencia en el tipo de transacción y el código de referencia, afectando la lógica de negocio.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Description",
+        "old": "Contains additional transaction data when national net transactions require supporting information.",
+        "new": "Contains VisaNet POS Acquirer Services data.",
+        "similarity_ratio": 0.28,
+        "table_title": "V.I.P. Release 2.2 Format Record Summary",
+        "key": "financial transaction",
+        "ai_category": "business_rule_change",
+        "ai_reason": "El cambio modifica la descripción de los datos que contiene el campo, pasando de información sobre transacciones nacionales a datos específicos de VisaNet POS Acquirer Services, lo que implica una alteración en la regla de negocio.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Record Types",
+        "old": "V22275",
+        "new": "V22270",
+        "similarity_ratio": 0.833,
+        "table_title": "V.I.P. Release 2.2 Format Record Summary",
+        "key": "financial transaction",
+        "ai_category": "extraction_noise",
+        "ai_reason": "El cambio en el código de registro de V22275 a V22270 es un artefacto de extracción de PDF, ya que los códigos de registros en el contexto de VisaNet no suelen variar en este rango y el formato de los códigos es inconsistente.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Table Reference Number",
+        "old": "Financial Transaction Record/ National Net Data—V22275",
+        "new": "Financial Transaction Record/ VisaNet POS Acquirer Services— V22270",
+        "similarity_ratio": 0.678,
+        "table_title": "V.I.P. Release 2.2 Format Record Summary",
+        "key": "financial transaction",
+        "ai_category": "business_rule_change",
+        "ai_reason": "El nombre del reporte cambió de 'Financial Transaction Record/ National Net Data—V22275' a 'Financial Transaction Record/ VisaNet POS Acquirer Services— V22270', lo que indica una diferencia en la descripción del tipo de transacción y su código de referencia, lo cual afecta la regla de negocio.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Description",
+        "old": "Contains Money Transfer and Personal Payments data.",
+        "new": "Contains additional transaction data when national net transactions require supporting information.",
+        "similarity_ratio": 0.333,
+        "table_title": "V.I.P. Release 2.2 Format Record Summary",
+        "key": "financial transaction",
+        "ai_category": "business_rule_change",
+        "ai_reason": "El cambio modifica la descripción de los datos que incluye la tabla, especificando que ahora contiene información adicional para transacciones nacionales que requieren soporte, lo que implica una regla de negocio diferente.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Record Types",
+        "old": "V22276",
+        "new": "V22275",
+        "similarity_ratio": 0.833,
+        "table_title": "V.I.P. Release 2.2 Format Record Summary",
+        "key": "financial transaction",
+        "ai_category": "extraction_noise",
+        "ai_reason": "El cambio en el código de registro de V22276 a V22275 es un artefacto de extracción de PDF, ya que los códigos de registros en VisaNet son estáticos y no cambian en la versión del documento.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Table Reference Number",
+        "old": "Financial Transaction Record/Money Transfer and Personal Payments- Specific—V22276",
+        "new": "Financial Transaction Record/ National Net Data—V22275",
+        "similarity_ratio": 0.647,
+        "table_title": "V.I.P. Release 2.2 Format Record Summary",
+        "key": "financial transaction",
+        "ai_category": "business_rule_change",
+        "ai_reason": "El cambio en el nombre del formato de registro indica una modificación en la categorización de transacciones, pasando de 'Money Transfer and Personal Payments' a 'National Net Data', lo que afecta la definición de transacciones en el sistema.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Description",
+        "old": "Contains Visa Smart Debit/Visa Smart Credit (VSDC) data.",
+        "new": "Contains Money Transfer and Personal Payments data.",
+        "similarity_ratio": 0.393,
+        "table_title": "V.I.P. Release 2.2 Format Record Summary",
+        "key": "financial transaction",
+        "ai_category": "business_rule_change",
+        "ai_reason": "El cambio modifica el tipo de datos que el reporte contiene, pasando de transacciones VSDC a transferencias y pagos personales, lo que implica una alteración en la regla de negocio.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Record Types",
+        "old": "V22280",
+        "new": "V22276",
+        "similarity_ratio": 0.667,
+        "table_title": "V.I.P. Release 2.2 Format Record Summary",
+        "key": "financial transaction",
+        "ai_category": "extraction_noise",
+        "ai_reason": "El cambio en el valor de Record Types de V22280 a V22276 es un artefacto de extracción de PDF, ya que los códigos de registros en VisaNet son estáticos y no cambian en la versión del documento.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Table Reference Number",
+        "old": "Financial Transaction Record/VSDC- Specific—V22280",
+        "new": "Financial Transaction Record/Money Transfer and Personal Payments- Specific—V22276",
+        "similarity_ratio": 0.667,
+        "table_title": "V.I.P. Release 2.2 Format Record Summary",
+        "key": "financial transaction",
+        "ai_category": "business_rule_change",
+        "ai_reason": "El valor cambia de 'Financial Transaction Record/VSDC- Specific—V22280' a 'Financial Transaction Record/Money Transfer and Personal Payments- Specific—V2.2276', lo que indica una modificación en la descripción de la transacción y el código de referencia, sugiriendo un cambio en la regla de negocio.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Description",
+        "old": "Contains VSDC data; continuation of V22280 record.",
+        "new": "Contains Visa Smart Debit/Visa Smart Credit (VSDC) data.",
+        "similarity_ratio": 0.358,
+        "table_title": "V.I.P. Release 2.2 Format Record Summary",
+        "key": "financial transaction",
+        "ai_category": "business_rule_change",
+        "ai_reason": "El cambio refleja una actualización en la descripción de los datos VSDC, especificando ahora que son Visa Smart Debit/Visa Smart Credit en lugar de simplemente 'VSDC data', lo que modifica el significado técnico del contenido.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Record Types",
+        "old": "V22281",
+        "new": "V22280",
+        "similarity_ratio": 0.833,
+        "table_title": "V.I.P. Release 2.2 Format Record Summary",
+        "key": "financial transaction",
+        "ai_category": "business_rule_change",
+        "ai_reason": "El cambio en el código de registro de V22281 a V22280 indica una modificación real en el tipo de registro, lo que afecta la lógica de negocio del sistema de settlement.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Table Reference Number",
+        "old": "Financial Transaction Record/VSDC- Specific, Continuation Record— V22281",
+        "new": "Financial Transaction Record/VSDC- Specific—V22280",
+        "similarity_ratio": 0.803,
+        "table_title": "V.I.P. Release 2.2 Format Record Summary",
+        "key": "financial transaction",
+        "ai_category": "editorial_reword",
+        "ai_reason": "El cambio solo afecta la redacción y el formato, manteniendo el mismo significado y estructura de la descripción del registro.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Description",
+        "old": "Contains VSDC issuer-only data; continuation of V22280 and V22281 records.",
+        "new": "Contains VSDC data; continuation of V22280 record.",
+        "similarity_ratio": 0.806,
+        "table_title": "V.I.P. Release 2.2 Format Record Summary",
+        "key": "financial transaction",
+        "ai_category": "business_rule_change",
+        "ai_reason": "El cambio indica que los datos VSDC ahora incluyen información de emisor exclusiva y se refiere específicamente a V22280 en lugar de V22280 y V22281, lo que modifica la descripción de los registros.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Record Types",
+        "old": "V22282",
+        "new": "V22281",
+        "similarity_ratio": 0.833,
+        "table_title": "V.I.P. Release 2.2 Format Record Summary",
+        "key": "financial transaction",
+        "ai_category": "business_rule_change",
+        "ai_reason": "El valor de Record Types cambió de V22282 a V22281, lo que indica una modificación real en la regla de negocio para identificar los tipos de registros.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Description",
+        "old": "Contains Visa Cash Field 55 data, Record 1.",
+        "new": "Contains VSDC issuer-only data; continuation of V22280 and V22281 records.",
+        "similarity_ratio": 0.462,
+        "table_title": "V.I.P. Release 2.2 Format Record Summary",
+        "key": "financial transaction",
+        "ai_category": "business_rule_change",
+        "ai_reason": "El cambio describe que el campo contiene datos específicos de emisor (VSDC) en lugar de datos de Visa Cash, lo que altera la interpretación del contenido del campo.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Record Types",
+        "old": "V22285",
+        "new": "V22282",
+        "similarity_ratio": 0.833,
+        "table_title": "V.I.P. Release 2.2 Format Record Summary",
+        "key": "financial transaction",
+        "ai_category": "business_rule_change",
+        "ai_reason": "El valor de Record Types cambió de V22285 a V22282, lo que indica una modificación real en la regla de negocio para identificar los tipos de registros.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Table Reference Number",
+        "old": "Financial Transaction Record/Visa Cash Field 55-Specific —V22285",
+        "new": "Financial Transaction Record/VSDC- Specific, Continuation Record— V22282",
+        "similarity_ratio": 0.676,
+        "table_title": "V.I.P. Release 2.2 Format Record Summary",
+        "key": "financial transaction",
+        "ai_category": "business_rule_change",
+        "ai_reason": "El valor cambia de 'Financial Transaction Record/Visa Cash Field 55-Specific —V22285' a 'Financial Transaction Record/VSDC- Specific, Continuation Record— V22282', lo que indica una modificación en la descripción del tipo de registro y su código de versión, sugiriendo un cambio en la regla de negocio.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Description",
+        "old": "Contains Visa Cash Field 55 data, Record 2.",
+        "new": "Contains Visa Cash Field 55 data, Record 1.",
+        "similarity_ratio": 0.977,
+        "table_title": "V.I.P. Release 2.2 Format Record Summary",
+        "key": "financial transaction",
+        "ai_category": "business_rule_change",
+        "ai_reason": "El cambio indica que el campo de referencia ha pasado de ser Record 2 a Record 1, lo que afecta la interpretación de los datos en el reporte.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Record Types",
+        "old": "V22286",
+        "new": "V22285",
+        "similarity_ratio": 0.833,
+        "table_title": "V.I.P. Release 2.2 Format Record Summary",
+        "key": "financial transaction",
+        "ai_category": "extraction_noise",
+        "ai_reason": "El cambio en el código de registro de V22286 a V22285 es un artefacto de extracción de PDF, ya que los códigos de registros en VisaNet son estáticos y no cambian en la versión del documento.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Description",
+        "old": "Contains Visa Cash Field 55 data, Record 3.",
+        "new": "Contains Visa Cash Field 55 data, Record 2.",
+        "similarity_ratio": 0.977,
+        "table_title": "V.I.P. Release 2.2 Format Record Summary",
+        "key": "financial transaction",
+        "ai_category": "business_rule_change",
+        "ai_reason": "El cambio indica que el registro de datos Visa Cash se ha modificado de Record 3 a Record 2, lo que afecta la regla de negocio sobre el formato de los registros.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Record Types",
+        "old": "V22287",
+        "new": "V22286",
+        "similarity_ratio": 0.833,
+        "table_title": "V.I.P. Release 2.2 Format Record Summary",
+        "key": "financial transaction",
+        "ai_category": "extraction_noise",
+        "ai_reason": "El cambio en el código de registro de V22287 a V22286 es un artefacto de extracción de PDF, ya que los códigos de registros en VisaNet son estáticos y no cambian en la versión del documento.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Table Reference Number",
+        "old": "Financial Transaction Record/Visa Cash Field 55-Specific—V22287",
+        "new": "Financial Transaction Record/Visa Cash Field 55-Specific —V22286",
+        "similarity_ratio": 0.976,
+        "table_title": "V.I.P. Release 2.2 Format Record Summary",
+        "key": "financial transaction",
+        "ai_category": "editorial_reword",
+        "ai_reason": "El cambio solo afecta el orden de palabras y el uso del guion en el nombre del formato, manteniendo el mismo significado y valor.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "V.I.P. Release 2.2 Format Record Summary",
+        "duplicate_keys_a": [
+          "administrative message",
+          "advice notification",
+          "file maintenance",
+          "financial transaction"
+        ],
+        "duplicate_keys_b": [
+          "administrative message",
+          "advice notification",
+          "file maintenance",
+          "financial transaction"
+        ]
+      },
+      {
+        "change_type": "row_added",
+        "table_title": "Financial Transaction Record 3—V23202",
+        "key": "service processing type",
+        "row": {
+          "type": "grid_row",
+          "page": 406,
+          "table_title": "Financial Transaction Record 3—V23202",
+          "anchor_column": "Field Name",
+          "columns": {
+            "Comments": "This field contains a value that identifies the deferred OCT request type. Valid Values are: 00 (Not a deferred OCT) 01 (Originator hold) 02 (Visa deferred OCT hold, default interval) 09 (Cancel pending deferred OCT request) 0Q (Query the status of the deferred OCT) Note:  The values of 09 and 0Q are logged only for the originating acquirer.",
+            "Field Sources": "TLV Field 104, Usage 2, Dataset ID 57, Tag 80",
+            "Attribute": "2 AN",
+            "Position": "114–115",
+            "Field Name": "Service Processing Type"
+          }
+        }
+      },
+      {
+        "change_type": "row_removed",
+        "table_title": "Financial Transaction Record 3—V23202",
+        "key": "deferred oct request type",
+        "row": {
+          "type": "grid_row",
+          "page": 405,
+          "table_title": "Financial Transaction Record 3—V23202",
+          "anchor_column": "Field Name",
+          "columns": {
+            "Comments": "This field contains a value that identifies the deferred OCT request type. Valid Values are: 00 (Not a deferred OCT) 01 (Originator hold) 02 (Visa deferred OCT hold, default interval) 09 (Cancel pending deferred OCT request) 0Q (Query the status of the deferred OCT) Note:  The values of 09 and 0Q are logged only for the originating acquirer.",
+            "Field Sources": "TLV Field 104, Usage 2, Dataset ID 57, Tag 80",
+            "Attribute": "2 AN",
+            "Position": "114–115",
+            "Field Name": "Deferred OCT Request Type"
+          }
+        }
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "Administrative Message 1 Transaction Record—V22400",
+        "duplicate_keys_a": [
+          "filler"
+        ],
+        "duplicate_keys_b": [
+          "filler"
+        ]
+      },
+      {
+        "change_type": "heading_added",
+        "text": "Financial Transaction Record/Recurring Payments (V22235)"
+      },
+      {
+        "change_type": "paragraph_added",
+        "text": "This table shows the additional detail financial transaction information contained in the V22235 record."
+      },
+      {
+        "change_type": "paragraph_added",
+        "text": "V22276, V22280, V22281, V22282, V22285, V22256, and V22287 contain information for specific transactions or processing."
+      },
+      {
+        "change_type": "paragraph_added",
+        "text": "V22225, V22226, V22227, V22228, V22230, V22231, V22235, V22240, V22250, V22251, V22255, V22260, V22261, V22270, V22275,"
+      },
+      {
+        "change_type": "paragraph_removed",
+        "text": "V22225, V22226, V22227, V22228, V22230, V22231, V22240, V22250, V22251, V22255, V22260, V22261, V22270, V22275, V22276,"
+      },
+      {
+        "change_type": "paragraph_removed",
+        "text": "V22280, V22281, V22282, V22285, V22256, and V22287 contain information for specific transactions or processing."
+      }
+    ],
+    "appendix_e": [
+      {
+        "change_type": "table_added",
+        "table_title": "BASE II Transaction Cross-Reference to VSS Business Transaction Types SMS (Excluding Interlink) Transactions Cross-Reference to VSS Business Transaction Types",
+        "num_rows": 8
+      },
+      {
+        "change_type": "row_removed",
+        "table_title": "BASE II Transaction Cross-Reference to VSS Business Transaction Types",
+        "key": "currency conversion rate update",
+        "row": {
+          "type": "grid_row",
+          "page": 416,
+          "table_title": "BASE II Transaction Cross-Reference to VSS Business Transaction Types",
+          "anchor_column": "Transaction Description",
+          "columns": {
+            "TC": "56",
+            "Additional Data": "Not applicable",
+            "Outgoing": "Not applicable",
+            "Incoming": "Other",
+            "Transaction Description": "Currency Conversion Rate Update",
+            "VSS Business Transaction Type": "Currency Conversion Rate Update"
+          }
+        }
+      },
+      {
+        "change_type": "row_removed",
+        "table_title": "BASE II Transaction Cross-Reference to VSS Business Transaction Types",
+        "key": "data capture advice",
+        "row": {
+          "type": "grid_row",
+          "page": 416,
+          "table_title": "BASE II Transaction Cross-Reference to VSS Business Transaction Types",
+          "anchor_column": "Transaction Description",
+          "columns": {
+            "TC": "57",
+            "Additional Data": "Not applicable",
+            "Outgoing": "Not applicable",
+            "Incoming": "Other",
+            "Transaction Description": "Data Capture Advice",
+            "VSS Business Transaction Type": "Data Capture Advice"
+          }
+        }
+      },
+      {
+        "change_type": "row_removed",
+        "table_title": "BASE II Transaction Cross-Reference to VSS Business Transaction Types",
+        "key": "interface advice",
+        "row": {
+          "type": "grid_row",
+          "page": 416,
+          "table_title": "BASE II Transaction Cross-Reference to VSS Business Transaction Types",
+          "anchor_column": "Transaction Description",
+          "columns": {
+            "TC": "59",
+            "Additional Data": "Not applicable",
+            "Outgoing": "Other",
+            "Incoming": "n/a",
+            "Transaction Description": "Interface Advice",
+            "VSS Business Transaction Type": "Interface Advice"
+          }
+        }
+      },
+      {
+        "change_type": "row_removed",
+        "table_title": "BASE II Transaction Cross-Reference to VSS Business Transaction Types",
+        "key": "national settlement",
+        "row": {
+          "type": "grid_row",
+          "page": 416,
+          "table_title": "BASE II Transaction Cross-Reference to VSS Business Transaction Types",
+          "anchor_column": "Transaction Description",
+          "columns": {
+            "TC": "58",
+            "Additional Data": "Not applicable",
+            "Outgoing": "Other",
+            "Incoming": "Other",
+            "Transaction Description": "National Settlement",
+            "VSS Business Transaction Type": "National Settlement Advice"
+          }
+        }
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Additional Data",
+        "old": "Usage Code = 1 MCC = 6010,0000",
+        "new": "Usage Code = 9 MCC = 6010,0000",
+        "similarity_ratio": 0.967,
+        "table_title": "BASE II Transaction Cross-Reference to VSS Business Transaction Types",
+        "key": "cash disbursement first dispute financial (atm)",
+        "ai_category": "business_rule_change",
+        "ai_reason": "El código de uso cambia de 1 a 9, lo que indica una modificación real en la regla de negocio para la transacción.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Additional Data",
+        "old": "Usage Code = 1 MCC = 6010",
+        "new": "Usage Code = 9 MCC = 6010",
+        "similarity_ratio": 0.96,
+        "table_title": "BASE II Transaction Cross-Reference to VSS Business Transaction Types",
+        "key": "cash disbursement first dispute financial (manual cash)",
+        "ai_category": "business_rule_change",
+        "ai_reason": "El código de uso cambia de 1 a 9, lo que indica una modificación real en la regla de negocio para la transacción.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Additional Data",
+        "old": "Usage Code = 2 MCC = 6011",
+        "new": "Usage Code = 9 MCC = 6011",
+        "similarity_ratio": 0.96,
+        "table_title": "BASE II Transaction Cross-Reference to VSS Business Transaction Types",
+        "key": "cash disbursement second presentment (atm)",
+        "ai_category": "business_rule_change",
+        "ai_reason": "El código de uso cambia de 2 a 9, lo que implica una modificación real en la regla de negocio para la transacción.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Additional Data",
+        "old": "Usage Code = 2 MCC = 6010,0000",
+        "new": "Usage Code = 9 MCC = 6010,0000",
+        "similarity_ratio": 0.967,
+        "table_title": "BASE II Transaction Cross-Reference to VSS Business Transaction Types",
+        "key": "cash disbursement second presentment (manual cash)",
+        "ai_category": "business_rule_change",
+        "ai_reason": "El código de uso cambia de 2 a 9, lo que indica una modificación real en la regla de negocio para la transacción.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Additional Data",
+        "old": "Usage Code = 2 Special Condition Indicator = 8",
+        "new": "Usage Code = 2 Special Condition Indicator = 7, 8",
+        "similarity_ratio": 0.968,
+        "table_title": "BASE II Transaction Cross-Reference to VSS Business Transaction Types",
+        "key": "credit voucher (quasi-cash)",
+        "ai_category": "business_rule_change",
+        "ai_reason": "El valor del Special Condition Indicator cambió de 8 a 7, 8, lo que indica una modificación en la regla de negocio para el código de uso.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Additional Data",
+        "old": "Usage Code = 1",
+        "new": "Usage Code = 9",
+        "similarity_ratio": 0.929,
+        "table_title": "BASE II Transaction Cross-Reference to VSS Business Transaction Types",
+        "key": "credit voucher first dispute financial",
+        "ai_category": "business_rule_change",
+        "ai_reason": "El código de uso cambia de 1 a 9, lo que indica una modificación real en la regla de negocio para la transacción.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Additional Data",
+        "old": "Usage Code = 1 Special Condition Indicator = 8",
+        "new": "Usage Code = 9 Special Condition Indicator = 7, 8",
+        "similarity_ratio": 0.947,
+        "table_title": "BASE II Transaction Cross-Reference to VSS Business Transaction Types",
+        "key": "credit voucher first dispute financial (quasi-cash)",
+        "ai_category": "business_rule_change",
+        "ai_reason": "El código de uso cambió de 1 a 9 y el indicador de condición especial cambió de 8 a 7 y 8, lo que indica una modificación en las reglas de negocio.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Additional Data",
+        "old": "Usage Code = 1 Special Condition Indicator = 8",
+        "new": "Usage Code = 1 Special Condition Indicator = 7, 8",
+        "similarity_ratio": 0.968,
+        "table_title": "BASE II Transaction Cross-Reference to VSS Business Transaction Types",
+        "key": "credit voucher first presentment (quasi- cash)",
+        "ai_category": "business_rule_change",
+        "ai_reason": "El valor del Special Condition Indicator cambió de 8 a 7, 8, lo que indica una modificación en la regla de negocio para el código de uso.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Additional Data",
+        "old": "Usage Code = 2 (and acquiring identifier)",
+        "new": "Usage Code = 9 (and acquiring identifier)",
+        "similarity_ratio": 0.976,
+        "table_title": "BASE II Transaction Cross-Reference to VSS Business Transaction Types",
+        "key": "credit voucher second presentment",
+        "ai_category": "business_rule_change",
+        "ai_reason": "El valor del Usage Code cambia de 2 a 9, lo que representa una modificación real en la regla de negocio para la transacción.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Additional Data",
+        "old": "Usage Code = 2 Special Condition Indicator = 8",
+        "new": "Usage Code = 9 Special Condition Indicator = 7, 8",
+        "similarity_ratio": 0.947,
+        "table_title": "BASE II Transaction Cross-Reference to VSS Business Transaction Types",
+        "key": "credit voucher second presentment (quasi-cash)",
+        "ai_category": "business_rule_change",
+        "ai_reason": "El código de uso cambia de 2 a 9 y el indicador de condición especial pasa de 8 a 7 y 8, lo que altera las reglas de negocio para las transacciones.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Additional Data",
+        "old": "Usage Code = 1 MCC = 6011",
+        "new": "Usage Code = 9 MCC = 6011",
+        "similarity_ratio": 0.96,
+        "table_title": "BASE II Transaction Cross-Reference to VSS Business Transaction Types",
+        "key": "reversal of cash disbursement first dispute financial (atm)",
+        "ai_category": "business_rule_change",
+        "ai_reason": "El código de uso cambia de 1 a 9, lo que indica una modificación real en la regla de negocio para la transacción.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Additional Data",
+        "old": "Usage Code = 1 MCC = 6010",
+        "new": "Usage Code = 9 MCC = 6010",
+        "similarity_ratio": 0.96,
+        "table_title": "BASE II Transaction Cross-Reference to VSS Business Transaction Types",
+        "key": "reversal of cash disbursement first dispute financial (manual cash)",
+        "ai_category": "business_rule_change",
+        "ai_reason": "El código de uso cambia de 1 a 9, lo que indica una modificación en la regla de negocio para identificar el tipo de transacción.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Additional Data",
+        "old": "Usage Code = 2 MCC = 6011",
+        "new": "Usage Code = 9 MCC = 6011",
+        "similarity_ratio": 0.96,
+        "table_title": "BASE II Transaction Cross-Reference to VSS Business Transaction Types",
+        "key": "reversal of cash disbursement second presentment (atm)",
+        "ai_category": "business_rule_change",
+        "ai_reason": "El código de uso cambia de 2 a 9, lo que indica una modificación en la regla de negocio para la transacción.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Additional Data",
+        "old": "Usage Code = 2 MCC = 6010,0000",
+        "new": "Usage Code = 9 MCC = 6010,0000",
+        "similarity_ratio": 0.967,
+        "table_title": "BASE II Transaction Cross-Reference to VSS Business Transaction Types",
+        "key": "reversal of cash disbursement second presentment (manual cash)",
+        "ai_category": "business_rule_change",
+        "ai_reason": "El código de uso cambia de 2 a 9, lo que indica una modificación real en la regla de negocio para la transacción.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Additional Data",
+        "old": "Usage Code = 2 Special Condition Indicator = 8",
+        "new": "Usage Code = 2 Special Condition Indicator = 7, 8",
+        "similarity_ratio": 0.968,
+        "table_title": "BASE II Transaction Cross-Reference to VSS Business Transaction Types",
+        "key": "reversal of credit voucher (quasi- cash)",
+        "ai_category": "business_rule_change",
+        "ai_reason": "El valor de Special Condition Indicator cambió de 8 a 7,8, lo que indica una modificación en la regla de negocio para el código de uso.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Additional Data",
+        "old": "Usage Code = 2 MCC = 6010,0000",
+        "new": "Usage Code = 9 MCC = 6010,0000",
+        "similarity_ratio": 0.967,
+        "table_title": "BASE II Transaction Cross-Reference to VSS Business Transaction Types",
+        "key": "reversal of credit voucher cash disbursement (manual cash)",
+        "ai_category": "business_rule_change",
+        "ai_reason": "El código de uso cambia de 2 a 9, lo que indica una modificación en la regla de negocio para la transacción.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Additional Data",
+        "old": "Usage Code = 1",
+        "new": "Usage Code = 9",
+        "similarity_ratio": 0.929,
+        "table_title": "BASE II Transaction Cross-Reference to VSS Business Transaction Types",
+        "key": "reversal of credit voucher first dispute financial",
+        "ai_category": "business_rule_change",
+        "ai_reason": "El código de uso cambia de 1 a 9, lo que indica una modificación real en la regla de negocio para el tipo de transacción.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Additional Data",
+        "old": "Usage Code = 1 Special Condition Indicator = 8",
+        "new": "Usage Code = 9 Special Condition Indicator = 7, 8",
+        "similarity_ratio": 0.947,
+        "table_title": "BASE II Transaction Cross-Reference to VSS Business Transaction Types",
+        "key": "reversal of credit voucher first dispute financial (quasi-cash)",
+        "ai_category": "business_rule_change",
+        "ai_reason": "El código de uso cambió de 1 a 9 y el indicador de condición especial cambió de 8 a 7 y 8, lo que implica una modificación en las reglas de negocio.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Additional Data",
+        "old": "Usage Code = 1 Special Condition Indicator = 8",
+        "new": "Usage Code = 1 Special Condition Indicator = 7, 8",
+        "similarity_ratio": 0.968,
+        "table_title": "BASE II Transaction Cross-Reference to VSS Business Transaction Types",
+        "key": "reversal of credit voucher first presentment (quasi- cash)",
+        "ai_category": "business_rule_change",
+        "ai_reason": "El valor del Special Condition Indicator cambió de 8 a 7, 8, lo que indica una modificación en la regla de negocio para el código de uso.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Additional Data",
+        "old": "Usage Code = 2",
+        "new": "Usage Code = 9",
+        "similarity_ratio": 0.929,
+        "table_title": "BASE II Transaction Cross-Reference to VSS Business Transaction Types",
+        "key": "reversal of credit voucher second presentment",
+        "ai_category": "business_rule_change",
+        "ai_reason": "El código de uso cambia de 2 a 9, lo que indica una modificación real en la regla de negocio para el tipo de transacción.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Additional Data",
+        "old": "Usage Code = 2 Special Condition Indicator = 8",
+        "new": "Usage Code = 9 Special Condition Indicator = 7, 8",
+        "similarity_ratio": 0.947,
+        "table_title": "BASE II Transaction Cross-Reference to VSS Business Transaction Types",
+        "key": "reversal of credit voucher second presentment (quasi- cash)",
+        "ai_category": "business_rule_change",
+        "ai_reason": "El código de uso cambia de 2 a 9 y el indicador de condición especial pasa de 8 a 7 y 8, lo que altera las reglas de negocio para la transacción.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Additional Data",
+        "old": "Usage Code = 2 Special Condition Indicator = 8",
+        "new": "Usage Code = 2 Special Condition Indicator = 7, 8",
+        "similarity_ratio": 0.968,
+        "table_title": "BASE II Transaction Cross-Reference to VSS Business Transaction Types",
+        "key": "reversal of sales draft (quasi-cash)",
+        "ai_category": "business_rule_change",
+        "ai_reason": "El valor de Special Condition Indicator cambió de 8 a 7, 8, lo que indica una modificación en la regla de negocio para el código de uso.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Additional Data",
+        "old": "Usage Code = 1",
+        "new": "Usage Code = 9",
+        "similarity_ratio": 0.929,
+        "table_title": "BASE II Transaction Cross-Reference to VSS Business Transaction Types",
+        "key": "reversal of sales draft first dispute financial",
+        "ai_category": "business_rule_change",
+        "ai_reason": "El código de uso cambia de 1 a 9, lo que indica una modificación real en la regla de negocio para el tipo de transacción.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Additional Data",
+        "old": "Usage Code = 1 Special Condition Indicator = 8",
+        "new": "Usage Code = 9 Special Condition Indicator = 7, 8",
+        "similarity_ratio": 0.947,
+        "table_title": "BASE II Transaction Cross-Reference to VSS Business Transaction Types",
+        "key": "reversal of sales draft first dispute financial (quasi- cash)",
+        "ai_category": "business_rule_change",
+        "ai_reason": "El código de uso cambia de 1 a 9 y el indicador de condición especial pasa de 8 a 7 y 8, lo que altera las reglas de negocio para las transacciones.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Additional Data",
+        "old": "Usage Code = 1 Special Condition Indicator = 8",
+        "new": "Usage Code = 1 Special Condition Indicator = 7, 8",
+        "similarity_ratio": 0.968,
+        "table_title": "BASE II Transaction Cross-Reference to VSS Business Transaction Types",
+        "key": "reversal of sales draft first presentment (quasi- cash)",
+        "ai_category": "business_rule_change",
+        "ai_reason": "El valor del Special Condition Indicator cambió de 8 a 7, 8, lo que indica una modificación en la regla de negocio para el código de uso.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Additional Data",
+        "old": "Usage Code = 2",
+        "new": "Usage Code = 9",
+        "similarity_ratio": 0.929,
+        "table_title": "BASE II Transaction Cross-Reference to VSS Business Transaction Types",
+        "key": "reversal of sales draft second presentment",
+        "ai_category": "business_rule_change",
+        "ai_reason": "El código de uso cambia de 2 a 9, lo que indica una modificación real en la regla de negocio para el tipo de transacción.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Additional Data",
+        "old": "Usage Code = 2 Special Condition Indicator = 8",
+        "new": "Usage Code = 9 Special Condition Indicator = 7, 8",
+        "similarity_ratio": 0.947,
+        "table_title": "BASE II Transaction Cross-Reference to VSS Business Transaction Types",
+        "key": "reversal of sales draft second presentment (quasi- cash)",
+        "ai_category": "business_rule_change",
+        "ai_reason": "El código de uso cambió de 2 a 9 y el indicador de condición especial cambió de 8 a 7 y 8, lo que implica una modificación en las reglas de negocio para las transacciones.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Additional Data",
+        "old": "Usage Code = 2 Special Condition Indicator = 8",
+        "new": "Usage Code = 2 Special Condition Indicator = 7, 8",
+        "similarity_ratio": 0.968,
+        "table_title": "BASE II Transaction Cross-Reference to VSS Business Transaction Types",
+        "key": "sales draft (quasi- cash)",
+        "ai_category": "business_rule_change",
+        "ai_reason": "El valor del Special Condition Indicator cambió de 8 a 7, 8, lo que indica una modificación en la regla de negocio para el código de uso.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Additional Data",
+        "old": "Usage Code = 1",
+        "new": "Usage Code = 9",
+        "similarity_ratio": 0.929,
+        "table_title": "BASE II Transaction Cross-Reference to VSS Business Transaction Types",
+        "key": "sales draft first dispute financial",
+        "ai_category": "business_rule_change",
+        "ai_reason": "El código de uso cambia de 1 a 9, lo que indica una modificación real en la regla de negocio para identificar el tipo de transacción.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Additional Data",
+        "old": "Usage Code = 1 Special Condition Indicator = 8",
+        "new": "Usage Code = 9 Special Condition Indicator = 7, 8",
+        "similarity_ratio": 0.947,
+        "table_title": "BASE II Transaction Cross-Reference to VSS Business Transaction Types",
+        "key": "sales draft first dispute financial (quasi-cash)",
+        "ai_category": "business_rule_change",
+        "ai_reason": "El código de uso cambió de 1 a 9 y el indicador de condición especial cambió de 8 a 7 y 8, lo que indica una modificación en las reglas de negocio.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Additional Data",
+        "old": "Usage Code = 1 Special Condition Indicator = 8",
+        "new": "Usage Code = 1 Special Condition Indicator = 7, 8",
+        "similarity_ratio": 0.968,
+        "table_title": "BASE II Transaction Cross-Reference to VSS Business Transaction Types",
+        "key": "sales draft first presentment (quasi- cash)",
+        "ai_category": "business_rule_change",
+        "ai_reason": "El valor del Special Condition Indicator cambió de 8 a 7, 8, lo que indica una modificación en la regla de negocio para el código de uso.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Additional Data",
+        "old": "Usage Code = 2",
+        "new": "Usage Code = 9",
+        "similarity_ratio": 0.929,
+        "table_title": "BASE II Transaction Cross-Reference to VSS Business Transaction Types",
+        "key": "sales draft second presentment",
+        "ai_category": "business_rule_change",
+        "ai_reason": "El código de uso cambia de 2 a 9, lo que indica una modificación real en la regla de negocio para la transacción.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Additional Data",
+        "old": "Usage Code = 2 Special Condition Indicator = 8",
+        "new": "Usage Code = 9 Special Condition Indicator = 7, 8",
+        "similarity_ratio": 0.947,
+        "table_title": "BASE II Transaction Cross-Reference to VSS Business Transaction Types",
+        "key": "sales draft second presentment (quasi- cash)",
+        "ai_category": "business_rule_change",
+        "ai_reason": "El código de uso cambió de 2 a 9 y el indicador de condición especial cambió de 8 a 7 y 8, lo que implica una modificación en las reglas de negocio.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Additional Data",
+        "old": "Not applicable Not applicable",
+        "new": "Not applicable",
+        "similarity_ratio": 0.651,
+        "table_title": "BASE II Transaction Cross-Reference to VSS Business Transaction Types",
+        "key": "text message",
+        "ai_category": "editorial_reword",
+        "ai_reason": "El valor cambió de 'Not applicable Not applicable' a 'Not applicable', pero el significado y la información real no varían, solo se eliminó un espacio o texto redundante.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Incoming",
+        "old": "Other Acquirer",
+        "new": "Other",
+        "similarity_ratio": 0.526,
+        "table_title": "BASE II Transaction Cross-Reference to VSS Business Transaction Types",
+        "key": "text message",
+        "ai_category": "business_rule_change",
+        "ai_reason": "El valor cambió de 'Other Acquirer' a 'Other', lo que indica una modificación en la definición de la transacción, afectando la clasificación de tipos de transacción en el sistema.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Outgoing",
+        "old": "Other Issuer",
+        "new": "Other",
+        "similarity_ratio": 0.588,
+        "table_title": "BASE II Transaction Cross-Reference to VSS Business Transaction Types",
+        "key": "text message",
+        "ai_category": "business_rule_change",
+        "ai_reason": "El valor cambió de 'Other Issuer' a 'Other', lo que indica una modificación en el significado o regla de negocio, ya que ahora se refiere a un tipo de transacción más general sin especificar el emisor.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "TC",
+        "old": "50 51",
+        "new": "50",
+        "similarity_ratio": 0.571,
+        "table_title": "BASE II Transaction Cross-Reference to VSS Business Transaction Types",
+        "key": "text message",
+        "ai_category": "extraction_noise",
+        "ai_reason": "El valor '51' fue eliminado en la nueva edición, lo que podría ser un artefacto de extracción de PDF como texto cortado o fragmento no relevante.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_removed",
+        "table_title": "SMS (Excluding Interlink) Transactions Cross-Reference to VSS Business Transaction Types",
+        "key": "adjustment (back office)",
+        "row": {
+          "type": "grid_row",
+          "page": 417,
+          "table_title": "SMS (Excluding Interlink) Transactions Cross-Reference to VSS Business Transaction Types",
+          "anchor_column": "Transaction Type",
+          "columns": {
+            "Transaction Type": "Adjustment (Back office)",
+            "Messages and Codes": "Response Code = 00",
+            "Business Transaction Type": ""
+          }
+        }
+      },
+      {
+        "change_type": "row_removed",
+        "table_title": "SMS (Excluding Interlink) Transactions Cross-Reference to VSS Business Transaction Types",
+        "key": "atm",
+        "row": {
+          "type": "grid_row",
+          "page": 418,
+          "table_title": "SMS (Excluding Interlink) Transactions Cross-Reference to VSS Business Transaction Types",
+          "anchor_column": "Transaction Type",
+          "columns": {
+            "Transaction Type": "ATM",
+            "Messages and Codes": "Message Type = 0422",
+            "Business Transaction Type": "ATM Cash"
+          }
+        }
+      },
+      {
+        "change_type": "row_removed",
+        "table_title": "SMS (Excluding Interlink) Transactions Cross-Reference to VSS Business Transaction Types",
+        "key": "cash disbursement",
+        "row": {
+          "type": "grid_row",
+          "page": 417,
+          "table_title": "SMS (Excluding Interlink) Transactions Cross-Reference to VSS Business Transaction Types",
+          "anchor_column": "Transaction Type",
+          "columns": {
+            "Transaction Type": "Cash Disbursement",
+            "Messages and Codes": "Message Type = 0200, 0220 Processing Code = 01 POS Condition Code ≠ 13 Merchant's Type = 6011 Response Code = 00",
+            "Business Transaction Type": "ATM Cash Original Withdrawal"
+          }
+        }
+      },
+      {
+        "change_type": "row_removed",
+        "table_title": "SMS (Excluding Interlink) Transactions Cross-Reference to VSS Business Transaction Types",
+        "key": "cash disbursement adjustment",
+        "row": {
+          "type": "grid_row",
+          "page": 417,
+          "table_title": "SMS (Excluding Interlink) Transactions Cross-Reference to VSS Business Transaction Types",
+          "anchor_column": "Transaction Type",
+          "columns": {
+            "Transaction Type": "Cash Disbursement Adjustment",
+            "Messages and Codes": "Processing Code = 02 Merchant's Type = 6011",
+            "Business Transaction Type": "Debit Adjustment"
+          }
+        }
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Messages and Codes",
+        "old": "Message Type = 0220",
+        "new": "Message Type = 0422",
+        "similarity_ratio": 0.947,
+        "table_title": "SMS (Excluding Interlink) Transactions Cross-Reference to VSS Business Transaction Types",
+        "key": "atm",
+        "ai_category": "business_rule_change",
+        "ai_reason": "El valor de Message Type cambia de 0220 a 0422, lo que indica una diferencia real en el tipo de transacción que se está referenciando.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Messages and Codes",
+        "old": "Message Type = 0422",
+        "new": "Message Type = 0400, 0420",
+        "similarity_ratio": 0.818,
+        "table_title": "SMS (Excluding Interlink) Transactions Cross-Reference to VSS Business Transaction Types",
+        "key": "atm",
+        "ai_category": "business_rule_change",
+        "ai_reason": "El valor de Message Type cambió de 0422 a 0400 y 0420, lo que indica una modificación en las reglas de negocio para los tipos de transacción.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Messages and Codes",
+        "old": "Message Type = 0400, 0420",
+        "new": "Message Type = 0422",
+        "similarity_ratio": 0.818,
+        "table_title": "SMS (Excluding Interlink) Transactions Cross-Reference to VSS Business Transaction Types",
+        "key": "atm",
+        "ai_category": "business_rule_change",
+        "ai_reason": "El mensaje de tipo de transacción cambió de 0400 y 0420 a 0422, lo que indica una modificación en las reglas de negocio para los tipos de transacción.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Business Transaction Type",
+        "old": "Credit Adjustment",
+        "new": "Debit Adjustment",
+        "similarity_ratio": 0.848,
+        "table_title": "SMS (Excluding Interlink) Transactions Cross-Reference to VSS Business Transaction Types",
+        "key": "cash disbursement adjustment",
+        "ai_category": "business_rule_change",
+        "ai_reason": "El cambio de 'Credit Adjustment' a 'Debit Adjustment' refleja una modificación en la regla de negocio que define el tipo de transacción, ya que el ajuste de efectivo se clasifica ahora como débito en lugar de crédito.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Messages and Codes",
+        "old": "Processing Code = 22 Merchant's Type = 6011",
+        "new": "Processing Code = 02 Merchant's Type = 6011",
+        "similarity_ratio": 0.977,
+        "table_title": "SMS (Excluding Interlink) Transactions Cross-Reference to VSS Business Transaction Types",
+        "key": "cash disbursement adjustment",
+        "ai_category": "business_rule_change",
+        "ai_reason": "El código de procesamiento cambió de 22 a 02, lo que indica una modificación real en la regla de negocio para identificar el tipo de transacción.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "SMS (Excluding Interlink) Transactions Cross-Reference to VSS Business Transaction Types",
+        "duplicate_keys_a": [
+          "adjustment",
+          "adjustment (back office)",
+          "atm",
+          "atm transfer",
+          "cash disbursement adjustment",
+          "dispute financial",
+          "dispute financial reversal",
+          "dispute response financial",
+          "pos",
+          "pos balance inquiry",
+          "pos payment order",
+          "purchase",
+          "reversal",
+          "teller-originated"
+        ],
+        "duplicate_keys_b": [
+          "adjustment",
+          "atm",
+          "atm transfer",
+          "dispute financial",
+          "dispute financial reversal",
+          "dispute response financial",
+          "pos",
+          "pos balance inquiry",
+          "pos payment order",
+          "purchase",
+          "reversal",
+          "teller-originated"
+        ]
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "SMS (Including Interlink) Transactions Cross-Reference to VSS Business Transaction Types",
+        "duplicate_keys_a": [
+          "reversal"
+        ],
+        "duplicate_keys_b": [
+          "reversal"
+        ]
+      },
+      {
+        "change_type": "paragraph_added",
+        "text": "1. Returned items: In VSS, transactions returned by BASE II retain the returned item's transaction code. 2. TC 10 and TC 20: For Fee Collection and Funds Disbursement transactions, the VSS Transaction Type contains the Reason Code (see Appendix C, VSS Codes) This table provides a cross-reference between SMS (excluding Interlink) transactions and VSS business transaction types."
+      },
+      {
+        "change_type": "paragraph_removed",
+        "text": "1. Returned items: In VSS, transactions returned by BASE II retain the returned item's transaction code. 2. TC 10 and TC 20: For Fee Collection and Funds Disbursement transactions, the VSS Transaction Type contains the Reason Code (see Appendix C, VSS Codes)"
+      },
+      {
+        "change_type": "paragraph_removed",
+        "text": "This table provides a cross-reference between SMS (excluding Interlink) transactions and VSS business transaction types."
+      }
+    ]
+  },
+  "ai_summary": {
+    "editorial_reword": 69,
+    "business_rule_change": 86,
+    "extraction_noise": 19
+  }
+}

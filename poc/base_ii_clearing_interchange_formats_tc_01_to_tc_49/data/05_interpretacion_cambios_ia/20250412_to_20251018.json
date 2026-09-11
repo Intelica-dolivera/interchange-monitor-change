@@ -1,0 +1,1128 @@
+{
+  "manual": "base_ii_clearing_interchange_formats_tc_01_to_tc_49",
+  "edition_a": "20250412",
+  "edition_b": "20251018",
+  "summary": {
+    "duplicate_position_warning": 8,
+    "card_content_changed": 22,
+    "field_became_defined": 6,
+    "field_became_reserved": 2,
+    "row_content_changed": 4,
+    "row_added": 3,
+    "row_removed": 1,
+    "card_added": 3,
+    "card_removed": 1,
+    "section_renamed": 3
+  },
+  "changes": [
+    {
+      "change_type": "duplicate_position_warning",
+      "title": "TC 05 - TCR 0",
+      "kind": "card",
+      "duplicate_positions_a": [
+        "58-61"
+      ],
+      "duplicate_positions_b": [
+        "58-61"
+      ]
+    },
+    {
+      "change_type": "card_content_changed",
+      "position": "50-57",
+      "field": "description",
+      "old": "Contains the Visa-assigned business ID of the acquirer that signed the merchant for processing purchase or mail/phone order transactions. In this case, the acquirer is referred to as the Merchant Sponsor. The entry must be numeric. For transactions with a marketplace, payment facilitator or ramp ID this field will contain the payment facilitator, marketplace ID or ramp ID. U.S. acquirers must provide this field on all original presentments. For dispute financials, dispute response financial, retrieval requests, and fraud advices, U.S. issuers must retain and return the Acquirer’s Business ID if it was provided by the acquirer.",
+      "new": "Contains the Visa-assigned business ID of the acquirer that signed the merchant for processing purchase or mail/phone order transactions. In this case, the acquirer is referred to as the Merchant Sponsor. The entry must be numeric. U.S. acquirers must provide this field on all original presentments. For dispute financials, dispute response financial, retrieval requests, and fraud advices, U.S. issuers must retain and return the Acquirer’s Business ID if it was provided by the acquirer.",
+      "similarity_ratio": 0.493,
+      "title": "TC 05 - TCR 0",
+      "field_name": "Acquirer's Business ID",
+      "ai_category": "business_rule_change",
+      "ai_reason": "El texto nuevo elimina la frase 'For transactions with a marketplace, payment facilitator or ramp ID this field will contain the payment facilitator, marketplace ID or ramp ID.' que estaba en el texto viejo, pero mantiene el mismo significado y solo hay una diferencia en la redacción.",
+      "disappeared_content": [
+        "For transactions with a marketplace, payment facilitator or ramp ID this field will contain the payment facilitator, marketplace ID or ramp ID."
+      ],
+      "safety_net_override": true,
+      "ai_original_category": "editorial_reword"
+    },
+    {
+      "change_type": "card_content_changed",
+      "position": "24-73",
+      "field": "note",
+      "old": "See BASE II Clearing Data Codes for Dispute Reason Codes and Visa Core Rules and Visa Product and Service Rules for further information. National—Brazil: Tax ID: positions 24–37 (14 digits), Merchant Legal Name: positions 38–73. Market Place Data: The following value is supported in Position 50-52: F^^ (Foreign Retailer Indicator) The client will not have any explicit field or flag to know whether the populated data is Market Place data or Member Message Text sent by the client.",
+      "new": "See BASE II Clearing Data Codes for Dispute Reason Codes and Visa Core Rules and Visa Product and Service Rules for further information. National—Brazil: Tax ID: positions 24–37 (14 digits), Merchant Legal Name: positions 38–73.",
+      "similarity_ratio": 0.641,
+      "title": "TC 05 - TCR 1 Additional Data",
+      "field_name": "Member Message Text",
+      "ai_category": "business_rule_change",
+      "ai_reason": "El texto antiguo incluía información sobre Market Place Data en posiciones 50-52 que ahora se ha eliminado, lo que cambia el rango de valores válidos para el campo Member Message Text.",
+      "disappeared_content": [
+        "Market Place Data: The following value is supported in Position 50-52: F^^ (Foreign Retailer Indicator) The client will not have any explicit field or flag to know whether the populated data is Market Place data or Member Message Text sent by the client."
+      ],
+      "safety_net_override": false
+    },
+    {
+      "change_type": "card_content_changed",
+      "position": "149",
+      "field": "description",
+      "old": "This field indicates whether the account is Spend Qualified or not. VIC Edit: Visa will include the appropriate value in this field. This field will contain; B (Base spend assessment threshold defined by Visa has been met.) l Q (Spend assessment threshold defined by Visa has been met.) l N (Spend assessment threshold defined by Visa has not been met.) l Space (Spend processing does not apply (Not applicable).) l 1 Tier 1 - Spend assessment threshold defined by Visa has been met l 2 Tier 2 - Spend assessment threshold defined by Visa has been met l 3 Tier 3 - Spend assessment threshold defined by Visa has been met l 4 Tier 4 - Spend assessment threshold defined by Visa has been met l 5 Tier 5 - Spend assessment threshold defined by Visa has been met l Acquirers can choose to receive spend qualified indicator reclassifi­ cations by submitting nonspace values in this field. Acquirers that choose not to receive spend qualified indicator reclassifi­ cations should submit space in this field.",
+      "new": "This field indicates whether the account is Spend Qualified or not. VIC Edit: Visa will include the appropriate value in this field. This field will contain; B (Base spend assessment threshold defined by Visa has been met.) l Q (Spend assessment threshold defined by Visa has been met.) l N (Spend assessment threshold defined by Visa has not been met.) l Space (Spend processing does not apply (Not applicable).) l J Not Qualified Tier 5 l K Not Qualified Tier 4 l L Not Qualified Tier 3 l M Not Qualified Tier 2 l R Qualified Tier 2 l S Qualified Tier 3 l T Qualified Tier 4 l U Qualified Tier 5 l V Qualified Tier 6 l W Qualified Tier 7 l 1 Tier 1 - Spend assessment threshold defined by Visa has been met l 2 Tier 2 - Spend assessment threshold defined by Visa has been met l 3 Tier 3 - Spend assessment threshold defined by Visa has been met l 4 Tier 4 - Spend assessment threshold defined by Visa has been met l 5 Tier 5 - Spend assessment threshold defined by Visa has been met l Acquirers can choose to receive spend qualified indicator reclassifi­ cations by submitting nonspace values in this field. Acquirers that choose not to receive spend qualified indicator reclassifi­ cations should submit space in this field.",
+      "similarity_ratio": 0.899,
+      "title": "TC 05 - TCR 5 Payment Service Data",
+      "field_name": "Spend Qualified Indicator",
+      "ai_category": "business_rule_change",
+      "ai_reason": "El campo ha cambiado de valores válidos, añadiendo nuevos códigos (J, K, L, M, R, S, T, U, V, W) y redefiniendo la interpretación de los valores para los niveles de tier.",
+      "disappeared_content": [],
+      "safety_net_override": false
+    },
+    {
+      "change_type": "duplicate_position_warning",
+      "title": "TC 05 - TCR 7 Chip Card Transaction Data",
+      "kind": "card",
+      "duplicate_positions_a": [
+        "1"
+      ],
+      "duplicate_positions_b": [
+        "1"
+      ]
+    },
+    {
+      "change_type": "field_became_defined",
+      "kind": "row",
+      "subtype": "split",
+      "title": "TC 05 - TCR E Supplemental Payment Data",
+      "removed_position": "71-168",
+      "removed_cells": [
+        "71–168",
+        "98",
+        "AN",
+        "Reserved"
+      ],
+      "new_fields": [
+        {
+          "position": "71-78",
+          "cells": [
+            "71–78",
+            "8",
+            "UN",
+            "Payment Facilitator ID"
+          ]
+        }
+      ],
+      "remaining_reserved": [
+        {
+          "position": "79-86",
+          "cells": [
+            "79–86",
+            "8",
+            "UN",
+            "Marketplace ID"
+          ]
+        },
+        {
+          "position": "87-94",
+          "cells": [
+            "87–94",
+            "8",
+            "UN",
+            "Staged Digital Wallet ID"
+          ]
+        },
+        {
+          "position": "95-102",
+          "cells": [
+            "95–102",
+            "8",
+            "UN",
+            "Ramp Provider ID"
+          ]
+        },
+        {
+          "position": "103",
+          "cells": [
+            "103",
+            "1",
+            "AN",
+            "Foreign Retailer Indicator"
+          ]
+        },
+        {
+          "position": "104-115",
+          "cells": [
+            "104–115",
+            "12",
+            "UN",
+            "Foreign Retailer Transaction Amount"
+          ]
+        },
+        {
+          "position": "116-118",
+          "cells": [
+            "116–118",
+            "3",
+            "AN",
+            "Submitted Merchant Country Code"
+          ]
+        },
+        {
+          "position": "119",
+          "cells": [
+            "119",
+            "1",
+            "AN",
+            "IMP Qualified"
+          ]
+        },
+        {
+          "position": "120-168",
+          "cells": [
+            "120–168",
+            "49",
+            "AN",
+            "Reserved"
+          ]
+        }
+      ]
+    },
+    {
+      "change_type": "field_became_defined",
+      "kind": "card",
+      "subtype": "split",
+      "title": "TC 05 - TCR E Supplemental Payment Data",
+      "removed_position": "71-168",
+      "removed_card": {
+        "type": "field_card",
+        "page": 220,
+        "name": "Reserved",
+        "positions": "71–168",
+        "length": "98",
+        "format": "alphanumeric",
+        "description": "This field is reserved for future use.",
+        "note": "",
+        "values": "",
+        "mapping": ""
+      },
+      "new_fields": [
+        {
+          "position": "71-78",
+          "card": {
+            "type": "field_card",
+            "page": 220,
+            "name": "Payment Facilitator ID",
+            "positions": "71–78",
+            "length": "8",
+            "format": "unpacked numeric",
+            "description": "This field contains the Payment Facilitator ID.",
+            "note": "",
+            "values": "",
+            "mapping": ""
+          }
+        }
+      ],
+      "remaining_reserved": [
+        {
+          "position": "79-86",
+          "card": {
+            "type": "field_card",
+            "page": 220,
+            "name": "Marketplace ID",
+            "positions": "79–86",
+            "length": "8",
+            "format": "unpacked numeric",
+            "description": "This field contains the Marketplace ID.",
+            "note": "",
+            "values": "",
+            "mapping": ""
+          }
+        },
+        {
+          "position": "87-94",
+          "card": {
+            "type": "field_card",
+            "page": 220,
+            "name": "Staged Digital Wallet ID",
+            "positions": "87–94",
+            "length": "8",
+            "format": "unpacked numeric",
+            "description": "This field contains the Staged Digital Wallet ID.",
+            "note": "",
+            "values": "",
+            "mapping": ""
+          }
+        },
+        {
+          "position": "95-102",
+          "card": {
+            "type": "field_card",
+            "page": 220,
+            "name": "Ramp Provider ID",
+            "positions": "95–102",
+            "length": "8",
+            "format": "unpacked numeric",
+            "description": "This field contains the Ramp Provider ID.",
+            "note": "",
+            "values": "",
+            "mapping": ""
+          }
+        },
+        {
+          "position": "103",
+          "card": {
+            "type": "field_card",
+            "page": 221,
+            "name": "Foreign Retailer Indicator",
+            "positions": "103",
+            "length": "1",
+            "format": "alphanumeric",
+            "description": "This field contains the Foreign Retailer Indicator. This field indicates if the marketplace and its retailers are located in the same or different countries of if the ramp provider and its conversion affiliate are located in the same or different countries. For all other transactions, this field should be defaulted as a space.",
+            "note": "",
+            "values": " For transactions that involve a marketplace's retailers: F = (One or more retailers are located in a different country from the marketplace). Space = (All retailers are located in the same country as the marketplace). For transactions that involve a ramp provider's conversion affiliate: A = (Conversion affiliate is located in the same country as the ramp provider). B = (Conversion affiliate is located in a different country from the ramp provider.",
+            "mapping": ""
+          }
+        },
+        {
+          "position": "104-115",
+          "card": {
+            "type": "field_card",
+            "page": 221,
+            "name": "Foreign Retailer Transaction Amount",
+            "positions": "104–115",
+            "length": "12",
+            "format": "unpacked numeric",
+            "description": "This field contains the Foreign Retailer Transaction Amount.",
+            "note": "",
+            "values": "",
+            "mapping": ""
+          }
+        },
+        {
+          "position": "116-118",
+          "card": {
+            "type": "field_card",
+            "page": 221,
+            "name": "Submitted Merchant Country Code",
+            "positions": "116–118",
+            "length": "3",
+            "format": "alphanumeric",
+            "description": "Reserved for future Enhancement.",
+            "note": "",
+            "values": "",
+            "mapping": ""
+          }
+        },
+        {
+          "position": "119",
+          "card": {
+            "type": "field_card",
+            "page": 221,
+            "name": "IMP Qualified",
+            "positions": "119",
+            "length": "1",
+            "format": "alphanumeric",
+            "description": "Reserved for future Enhancement.",
+            "note": "",
+            "values": "",
+            "mapping": ""
+          }
+        },
+        {
+          "position": "120-168",
+          "card": {
+            "type": "field_card",
+            "page": 221,
+            "name": "Reserved",
+            "positions": "120–168",
+            "length": "49",
+            "format": "alphanumeric",
+            "description": "This field is reserved for future use.",
+            "note": "",
+            "values": "",
+            "mapping": ""
+          }
+        }
+      ]
+    },
+    {
+      "change_type": "field_became_reserved",
+      "kind": "row",
+      "subtype": "renamed_in_place",
+      "title": "TC 05 - TCR E Supplemental Payment Data",
+      "position": "5-6",
+      "cells_a": [
+        "5–6",
+        "2",
+        "AN",
+        "Business Format Code (FA)"
+      ],
+      "cells_b": [
+        "5–6",
+        "2",
+        "AN",
+        "Reserved"
+      ]
+    },
+    {
+      "change_type": "field_became_reserved",
+      "kind": "card",
+      "subtype": "renamed_in_place",
+      "title": "TC 05 - TCR E Supplemental Payment Data",
+      "position": "5-6",
+      "card_a": {
+        "type": "field_card",
+        "page": 220,
+        "name": "Business Format Code (FA)",
+        "positions": "5–6",
+        "length": "2",
+        "format": "alphanumeric",
+        "description": "Code indicating the type of business that is applicable to this transaction. This field must contain FA = Multi-Account (Flex) Account.",
+        "note": "",
+        "values": "",
+        "mapping": ""
+      },
+      "card_b": {
+        "type": "field_card",
+        "page": 220,
+        "name": "Reserved",
+        "positions": "5–6",
+        "length": "2",
+        "format": "alphanumeric",
+        "description": "This field is reserved for future use.",
+        "note": "",
+        "values": "",
+        "mapping": ""
+      }
+    },
+    {
+      "change_type": "duplicate_position_warning",
+      "title": "TC 10 - TCR 0",
+      "kind": "card",
+      "duplicate_positions_a": [
+        "77-146"
+      ],
+      "duplicate_positions_b": [
+        "77-146"
+      ]
+    },
+    {
+      "change_type": "duplicate_position_warning",
+      "title": "TC 20 - TCR 0",
+      "kind": "card",
+      "duplicate_positions_a": [
+        "77-146"
+      ],
+      "duplicate_positions_b": [
+        "77-146"
+      ]
+    },
+    {
+      "change_type": "row_content_changed",
+      "position": "148-151",
+      "column": "Contents",
+      "old": "Agreement ID",
+      "new": "Selected Program ID",
+      "similarity_ratio": 0.387,
+      "title": "TC 33 - TCR 0 Commercial Choice Select Reference Data Record",
+      "field_name": "Selected Program ID",
+      "ai_category": "business_rule_change",
+      "ai_reason": "El campo cambia de 'Agreement ID' a 'Selected Program ID', lo que redefine el significado del campo en el contexto de la referencia de datos.",
+      "disappeared_content": [],
+      "safety_net_override": false
+    },
+    {
+      "change_type": "card_content_changed",
+      "position": "148-151",
+      "field": "name",
+      "old": "Agreement ID",
+      "new": "Selected Program ID",
+      "similarity_ratio": 0.387,
+      "title": "TC 33 - TCR 0 Commercial Choice Select Reference Data Record",
+      "field_name": "Selected Program ID",
+      "ai_category": "business_rule_change",
+      "ai_reason": "El campo se redefinio de 'Agreement ID' a 'Selected Program ID', cambiando el significado de negocio.",
+      "disappeared_content": [],
+      "safety_net_override": false
+    },
+    {
+      "change_type": "card_content_changed",
+      "position": "148-151",
+      "field": "description",
+      "old": "This field will contain the agreement ID associated with the agreed fee rate.",
+      "new": "This field will contain the selected program ID associated with the agreed fee rate.",
+      "similarity_ratio": 0.882,
+      "title": "TC 33 - TCR 0 Commercial Choice Select Reference Data Record",
+      "field_name": "Selected Program ID",
+      "ai_category": "business_rule_change",
+      "ai_reason": "El campo se redefine desde 'agreement ID' a 'selected program ID', cambiando el significado técnico del valor asociado.",
+      "disappeared_content": [],
+      "safety_net_override": false
+    },
+    {
+      "change_type": "card_content_changed",
+      "position": "152-159",
+      "field": "description",
+      "old": "This field identifies the rate associated to an agreement ID. This field may contain values from 0-9. Six decimal places are implied. For example, 00450000 is equal to 0.45% or 01450000 is equal to 1.45%.",
+      "new": "This field identifies the rate associated to a Selected Program ID. This field may contain values from 0-9. Six decimal places are implied. For example, 00450000 is equal to 0.45% or 01450000 is equal to 1.45%.",
+      "similarity_ratio": 0.942,
+      "title": "TC 33 - TCR 0 Commercial Choice Select Reference Data Record",
+      "field_name": "Rate",
+      "ai_category": "editorial_reword",
+      "ai_reason": "El texto describe el mismo concepto pero cambia 'agreement ID' por 'Selected Program ID' en el contexto del campo Rate, sin alterar el significado o valores válidos.",
+      "disappeared_content": [],
+      "safety_net_override": false
+    },
+    {
+      "change_type": "row_added",
+      "title": "TC 33 - TCR 1 BASE II Clearing and Settlement Advice",
+      "position": "156-159",
+      "cells": [
+        "156-159",
+        "4",
+        "AN",
+        "Reserved"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "TC 33 - TCR 1 BASE II Clearing and Settlement Advice",
+      "position": "160",
+      "cells": [
+        "160",
+        "1",
+        "AN",
+        "IMP Qualified"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "TC 33 - TCR 1 BASE II Clearing and Settlement Advice",
+      "position": "161-168",
+      "cells": [
+        "161-168",
+        "8",
+        "AN",
+        "Reserved"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "TC 33 - TCR 1 BASE II Clearing and Settlement Advice",
+      "position": "156-168",
+      "cells": [
+        "156-168",
+        "13",
+        "AN",
+        "Reserved"
+      ]
+    },
+    {
+      "change_type": "row_content_changed",
+      "position": "97-100",
+      "column": "Contents",
+      "old": "Agreement ID",
+      "new": "Selected Program ID",
+      "similarity_ratio": 0.387,
+      "title": "TC 33 - TCR 1 BASE II Clearing and Settlement Advice",
+      "field_name": "Selected Program ID",
+      "ai_category": "business_rule_change",
+      "ai_reason": "El campo se redefinio de 'Agreement ID' a 'Selected Program ID', cambiando el significado de negocio.",
+      "disappeared_content": [],
+      "safety_net_override": false
+    },
+    {
+      "change_type": "card_added",
+      "title": "TC 33 - TCR 1 BASE II Clearing and Settlement Advice",
+      "position": "156-159",
+      "card": {
+        "type": "field_card",
+        "page": 360,
+        "name": "Reserved",
+        "positions": "156-159",
+        "length": "4",
+        "format": "alphanumeric",
+        "description": "This field is reserved for future use.",
+        "note": "",
+        "values": "",
+        "mapping": ""
+      }
+    },
+    {
+      "change_type": "card_added",
+      "title": "TC 33 - TCR 1 BASE II Clearing and Settlement Advice",
+      "position": "160",
+      "card": {
+        "type": "field_card",
+        "page": 360,
+        "name": "IMP Qualified",
+        "positions": "160",
+        "length": "1",
+        "format": "alphanumeric",
+        "description": "Reserved for future Enhancement.",
+        "note": "",
+        "values": "",
+        "mapping": ""
+      }
+    },
+    {
+      "change_type": "card_added",
+      "title": "TC 33 - TCR 1 BASE II Clearing and Settlement Advice",
+      "position": "161-168",
+      "card": {
+        "type": "field_card",
+        "page": 360,
+        "name": "Reserved",
+        "positions": "161-168",
+        "length": "8",
+        "format": "alphanumeric",
+        "description": "This field is reserved for future use.",
+        "note": "",
+        "values": "",
+        "mapping": ""
+      }
+    },
+    {
+      "change_type": "card_removed",
+      "title": "TC 33 - TCR 1 BASE II Clearing and Settlement Advice",
+      "position": "156-168",
+      "card": {
+        "type": "field_card",
+        "page": 359,
+        "name": "Reserved",
+        "positions": "156-168",
+        "length": "13",
+        "format": "alphanumeric",
+        "description": "This field is reserved for future use. EP will always space-fill.",
+        "note": "",
+        "values": "",
+        "mapping": ""
+      }
+    },
+    {
+      "change_type": "card_content_changed",
+      "position": "97-100",
+      "field": "name",
+      "old": "Agreement ID",
+      "new": "Selected Program ID",
+      "similarity_ratio": 0.387,
+      "title": "TC 33 - TCR 1 BASE II Clearing and Settlement Advice",
+      "field_name": "Selected Program ID",
+      "ai_category": "business_rule_change",
+      "ai_reason": "El campo se redefinio de 'Agreement ID' a 'Selected Program ID', cambiando el significado técnico del campo en el contexto del sistema de Visa.",
+      "disappeared_content": [],
+      "safety_net_override": false
+    },
+    {
+      "change_type": "card_content_changed",
+      "position": "97-100",
+      "field": "description",
+      "old": "This field will contain the agreement ID associated with the agreed fee rate. This field must contain a D.",
+      "new": "This field will contain the selected program ID associated with the agreed fee rate. This field must contain a D.",
+      "similarity_ratio": 0.913,
+      "title": "TC 33 - TCR 1 BASE II Clearing and Settlement Advice",
+      "field_name": "Selected Program ID",
+      "ai_category": "business_rule_change",
+      "ai_reason": "El campo se redefine para incluir 'selected program ID' en lugar de 'agreement ID', cambiando el significado técnico del campo.",
+      "disappeared_content": [],
+      "safety_net_override": false
+    },
+    {
+      "change_type": "row_content_changed",
+      "position": "114-149",
+      "column": "Format",
+      "old": "AN",
+      "new": "ANS",
+      "similarity_ratio": 0.8,
+      "title": "TC 33.A - CP 01 TCR 7 Gateway Data (Cont'd)",
+      "field_name": "Mastercard AVV Verification Directory Server Transaction ID",
+      "ai_category": "business_rule_change",
+      "ai_reason": "El formato del campo cambia de 3 caracteres a 4, lo que implica un cambio en la longitud válida y el significado del valor de negocio.",
+      "disappeared_content": [],
+      "safety_net_override": false
+    },
+    {
+      "change_type": "card_content_changed",
+      "position": "114-149",
+      "field": "format",
+      "old": "alphanumeric",
+      "new": "alphanumeric special",
+      "similarity_ratio": 0.75,
+      "title": "TC 33.A - CP 01 TCR 7 Gateway Data (Cont'd)",
+      "field_name": "Mastercard AVV Verification Directory Server Transaction ID",
+      "ai_category": "business_rule_change",
+      "ai_reason": "El cambio de 'alphanumeric' a 'alphanumeric special' indica que ahora se permiten caracteres especiales en el campo, modificando la regla de validación del valor.",
+      "disappeared_content": [],
+      "safety_net_override": false
+    },
+    {
+      "change_type": "card_content_changed",
+      "position": "150-151",
+      "field": "name",
+      "old": "Transit Transaction Type Indicator",
+      "new": "character Transit Transaction Type Indicator",
+      "similarity_ratio": 0.872,
+      "title": "TC 33.A - CP 01 TCR 7 Gateway Data (Cont'd)",
+      "field_name": "Transit Transaction Type Indicator",
+      "ai_category": "editorial_reword",
+      "ai_reason": "El texto describe el mismo concepto, solo se añadió la palabra 'character' para especificar el formato del campo.",
+      "disappeared_content": [],
+      "safety_net_override": false
+    },
+    {
+      "change_type": "duplicate_position_warning",
+      "title": "TC 33.A - CP 09 TCR 1 Push Payment - Original Credit Transactions",
+      "kind": "card",
+      "duplicate_positions_a": [
+        "59-78"
+      ],
+      "duplicate_positions_b": [
+        "59-78"
+      ]
+    },
+    {
+      "change_type": "field_became_defined",
+      "kind": "row",
+      "subtype": "split",
+      "title": "TC 33.A - CP 12 TCR 0 Transaction Data",
+      "removed_position": "128-168",
+      "removed_cells": [
+        "128-168",
+        "41",
+        "AN",
+        "Reserved"
+      ],
+      "new_fields": [
+        {
+          "position": "128-139",
+          "cells": [
+            "128-139",
+            "12",
+            "AN",
+            "Original Requested Amount"
+          ]
+        }
+      ],
+      "remaining_reserved": [
+        {
+          "position": "140-168",
+          "cells": [
+            "140-168",
+            "29",
+            "AN",
+            "Reserved"
+          ]
+        }
+      ]
+    },
+    {
+      "change_type": "field_became_defined",
+      "kind": "card",
+      "subtype": "split",
+      "title": "TC 33.A - CP 12 TCR 0 Transaction Data",
+      "removed_position": "128-168",
+      "removed_card": {
+        "type": "field_card",
+        "page": 574,
+        "name": "Reserved",
+        "positions": "128-168",
+        "length": "41",
+        "format": "alphanumeric",
+        "description": "This field is reserved for future use.",
+        "note": "",
+        "values": "",
+        "mapping": ""
+      },
+      "new_fields": [
+        {
+          "position": "128-139",
+          "card": {
+            "type": "field_card",
+            "page": 575,
+            "name": "Original Requested Amount",
+            "positions": "128-139",
+            "length": "12",
+            "format": "alphanumeric",
+            "description": "This field will contain the Original Requested Amount. Source: N/A",
+            "note": "",
+            "values": "",
+            "mapping": ""
+          }
+        }
+      ],
+      "remaining_reserved": [
+        {
+          "position": "140-168",
+          "card": {
+            "type": "field_card",
+            "page": 575,
+            "name": "Reserved",
+            "positions": "140-168",
+            "length": "29",
+            "format": "alphanumeric",
+            "description": "This field is reserved for future use.",
+            "note": "",
+            "values": "",
+            "mapping": ""
+          }
+        }
+      ]
+    },
+    {
+      "change_type": "row_content_changed",
+      "position": "125-128",
+      "column": "Contents",
+      "old": "Agreement ID - Choice Program",
+      "new": "Selected Program ID",
+      "similarity_ratio": 0.458,
+      "title": "TC 33.A - CP 12 TCR 1 Merchant Data",
+      "field_name": "Selected Program ID",
+      "ai_category": "business_rule_change",
+      "ai_reason": "El campo se redefinio desde 'Agreement ID - Choice Program' a 'Selected Program ID', cambiando el significado técnico y el valor de negocio.",
+      "disappeared_content": [],
+      "safety_net_override": false
+    },
+    {
+      "change_type": "card_content_changed",
+      "position": "125-128",
+      "field": "name",
+      "old": "Agreement ID - Choice Program",
+      "new": "Selected Program ID",
+      "similarity_ratio": 0.458,
+      "title": "TC 33.A - CP 12 TCR 1 Merchant Data",
+      "field_name": "Selected Program ID",
+      "ai_category": "business_rule_change",
+      "ai_reason": "El campo se redefinio de 'Agreement ID - Choice Program' a 'Selected Program ID', cambiando el significado técnico y el valor de negocio.",
+      "disappeared_content": [],
+      "safety_net_override": false
+    },
+    {
+      "change_type": "card_content_changed",
+      "position": "125-128",
+      "field": "description",
+      "old": "This field will contain the Agreement ID - Choice Program. Source: F111 DSID 02 TC0",
+      "new": "This field will contain Selected Program ID. Source: F111 DSID 02 TC0",
+      "similarity_ratio": 0.789,
+      "title": "TC 33.A - CP 12 TCR 1 Merchant Data",
+      "field_name": "Selected Program ID",
+      "ai_category": "business_rule_change",
+      "ai_reason": "El campo se redefinio de 'Agreement ID - Choice Program' a 'Selected Program ID', cambiando el significado técnico del campo.",
+      "disappeared_content": [],
+      "safety_net_override": false
+    },
+    {
+      "change_type": "card_content_changed",
+      "position": "129-131",
+      "field": "name",
+      "old": "Electric Vehicle - Connector Type",
+      "new": "character Electric Vehicle - Connector Type",
+      "similarity_ratio": 0.868,
+      "title": "TC 33.A - CP 12 TCR 1 Merchant Data",
+      "field_name": "Electric Vehicle - Connector Type",
+      "ai_category": "editorial_reword",
+      "ai_reason": "El texto describe el mismo concepto, solo se añadió la palabra 'character' al inicio para especificar el tipo de dato.",
+      "disappeared_content": [],
+      "safety_net_override": false
+    },
+    {
+      "change_type": "field_became_defined",
+      "kind": "row",
+      "subtype": "split",
+      "title": "TC 33.A - CP 12 TCR 4 Gateway Data, continuation",
+      "removed_position": "160-168",
+      "removed_cells": [
+        "160-168",
+        "9",
+        "AN",
+        "Reserved"
+      ],
+      "new_fields": [
+        {
+          "position": "160-161",
+          "cells": [
+            "160-161",
+            "2",
+            "AN",
+            "Risk Score"
+          ]
+        }
+      ],
+      "remaining_reserved": [
+        {
+          "position": "162-168",
+          "cells": [
+            "162-168",
+            "7",
+            "AN",
+            "Reserved"
+          ]
+        }
+      ]
+    },
+    {
+      "change_type": "field_became_defined",
+      "kind": "card",
+      "subtype": "split",
+      "title": "TC 33.A - CP 12 TCR 4 Gateway Data, continuation",
+      "removed_position": "160-168",
+      "removed_card": {
+        "type": "field_card",
+        "page": 586,
+        "name": "Reserved",
+        "positions": "160-168",
+        "length": "9",
+        "format": "alphanumeric",
+        "description": "This field is reserved for future use.",
+        "note": "",
+        "values": "",
+        "mapping": ""
+      },
+      "new_fields": [
+        {
+          "position": "160-161",
+          "card": {
+            "type": "field_card",
+            "page": 587,
+            "name": "Risk Score",
+            "positions": "160-161",
+            "length": "2",
+            "format": "alphanumeric",
+            "description": "This field will contain Risk Score. Source: F104 DSID5B T01",
+            "note": "",
+            "values": "",
+            "mapping": ""
+          }
+        }
+      ],
+      "remaining_reserved": [
+        {
+          "position": "162-168",
+          "card": {
+            "type": "field_card",
+            "page": 587,
+            "name": "Reserved",
+            "positions": "162-168",
+            "length": "7",
+            "format": "alphanumeric",
+            "description": "This field is reserved for future use.",
+            "note": "",
+            "values": "",
+            "mapping": ""
+          }
+        }
+      ]
+    },
+    {
+      "change_type": "card_content_changed",
+      "position": "21-55",
+      "field": "name",
+      "old": "Acceptor Business Registration ID",
+      "new": "character Acceptor Business Registration ID",
+      "similarity_ratio": 0.868,
+      "title": "TC 33.A - CP 12 TCR 4 Gateway Data, continuation",
+      "field_name": "Acceptor Business Registration ID",
+      "ai_category": "editorial_reword",
+      "ai_reason": "El texto describe el mismo concepto pero añade la palabra 'character' para especificar el tipo de dato, sin alterar el significado o reglas de negocio.",
+      "disappeared_content": [],
+      "safety_net_override": false
+    },
+    {
+      "change_type": "card_content_changed",
+      "position": "4",
+      "field": "description",
+      "old": "This field will contain the number 4.",
+      "new": "This field will contain the number 5.",
+      "similarity_ratio": 0.973,
+      "title": "TC 33.A - CP 12 TCR 5 Transaction Data",
+      "field_name": "Transaction Component Sequence Number",
+      "ai_category": "business_rule_change",
+      "ai_reason": "El valor numérico del campo cambió de 4 a 5, lo que implica un cambio en la regla de negocio.",
+      "disappeared_content": [],
+      "safety_net_override": false
+    },
+    {
+      "change_type": "card_content_changed",
+      "position": "34-41",
+      "field": "name",
+      "old": "Terminal ID",
+      "new": "character Terminal ID",
+      "similarity_ratio": 0.688,
+      "title": "TC 33.B - CP 51 TCR 1 Additional Data",
+      "field_name": "Terminal ID",
+      "ai_category": "editorial_reword",
+      "ai_reason": "El texto describe el mismo concepto pero añade la palabra 'character' para especificar el tipo de dato, sin alterar el significado o valor de negocio.",
+      "disappeared_content": [],
+      "safety_net_override": false
+    },
+    {
+      "change_type": "card_content_changed",
+      "position": "138-157",
+      "field": "name",
+      "old": "character Ship to Postal Code",
+      "new": "Ship to Postal Code",
+      "similarity_ratio": 0.792,
+      "title": "TC 33.B - CP 51 TCR 2 Billing and Shipping",
+      "field_name": "Ship to Postal Code",
+      "ai_category": "editorial_reword",
+      "ai_reason": "El texto cambia de 'character Ship to Postal Code' a 'Ship to Postal Code', eliminando la palabra 'character' sin alterar el significado o contenido del campo.",
+      "disappeared_content": [],
+      "safety_net_override": false
+    },
+    {
+      "change_type": "card_content_changed",
+      "position": "158-160",
+      "field": "name",
+      "old": "Ship to State/Province Code",
+      "new": "character Ship to State/Province Code",
+      "similarity_ratio": 0.844,
+      "title": "TC 33.B - CP 51 TCR 2 Billing and Shipping",
+      "field_name": "Ship to State/Province Code",
+      "ai_category": "editorial_reword",
+      "ai_reason": "El texto describe el mismo campo pero añade la palabra 'character' al inicio, lo que es un cambio de redacción sin alterar el significado o valor de negocio.",
+      "disappeared_content": [],
+      "safety_net_override": false
+    },
+    {
+      "change_type": "card_content_changed",
+      "position": "50-89",
+      "field": "name",
+      "old": "character Address Line 2",
+      "new": "Address Line 2",
+      "similarity_ratio": 0.737,
+      "title": "TC 33.B - CP 51 TCR 3 Billing and Shipping (Cont'd)",
+      "field_name": "Address Line 2",
+      "ai_category": "editorial_reword",
+      "ai_reason": "El texto cambia de 'character Address Line 2' a 'Address Line 2', eliminando la palabra 'character' sin alterar el significado del campo.",
+      "disappeared_content": [],
+      "safety_net_override": false
+    },
+    {
+      "change_type": "card_content_changed",
+      "position": "140-159",
+      "field": "name",
+      "old": "State",
+      "new": "character State",
+      "similarity_ratio": 0.5,
+      "title": "TC 33.B - CP 51 TCR 3 Billing and Shipping (Cont'd)",
+      "field_name": "State",
+      "ai_category": "editorial_reword",
+      "ai_reason": "El texto describe el mismo concepto pero añade la palabra 'character' para especificar el formato del campo, sin cambiar el significado o valor de negocio.",
+      "disappeared_content": [],
+      "safety_net_override": false
+    },
+    {
+      "change_type": "card_content_changed",
+      "position": "32-91",
+      "field": "name",
+      "old": "Merchant Street Address",
+      "new": "character Merchant Street Address",
+      "similarity_ratio": 0.821,
+      "title": "TC 33.B - CP 51 TCR 4 Merchant Data",
+      "field_name": "Merchant Street Address",
+      "ai_category": "editorial_reword",
+      "ai_reason": "El texto describe el mismo contenido pero añade la palabra 'character' al inicio para especificar el tipo de dato, sin alterar el significado o valor de negocio.",
+      "disappeared_content": [],
+      "safety_net_override": false
+    },
+    {
+      "change_type": "card_content_changed",
+      "position": "152-155",
+      "field": "name",
+      "old": "Merchant Category Code",
+      "new": "character Merchant Category Code",
+      "similarity_ratio": 0.815,
+      "title": "TC 33.B - CP 51 TCR 4 Merchant Data",
+      "field_name": "Merchant Category Code",
+      "ai_category": "editorial_reword",
+      "ai_reason": "El texto describe el mismo contenido pero añade la palabra 'character' al inicio para especificar el tipo de dato, sin alterar el significado o valores válidos del campo.",
+      "disappeared_content": [],
+      "safety_net_override": false
+    },
+    {
+      "change_type": "duplicate_position_warning",
+      "title": "TC 33.B - CP 59 TCR 1 Push Payment - Original Credit Transaction",
+      "kind": "card",
+      "duplicate_positions_a": [
+        "61-80"
+      ],
+      "duplicate_positions_b": [
+        "61-80"
+      ]
+    },
+    {
+      "change_type": "duplicate_position_warning",
+      "title": "TC 39 - TCR 4 VDAS Forms Data, Exhibit Y or Exhibit 3C",
+      "kind": "row",
+      "duplicate_positions_a": [
+        "12-19",
+        "12-68",
+        "20-27",
+        "28-39",
+        "40",
+        "41-43",
+        "44",
+        "45-56",
+        "57-68",
+        "82-93"
+      ],
+      "duplicate_positions_b": [
+        "12-19",
+        "12-68",
+        "20-27",
+        "28-39",
+        "40",
+        "41-43",
+        "44",
+        "45-56",
+        "57-68",
+        "82-93"
+      ]
+    },
+    {
+      "change_type": "duplicate_position_warning",
+      "title": "TC 39 - TCR 4 VDAS Forms Data, Exhibit Y or Exhibit 3C",
+      "kind": "card",
+      "duplicate_positions_a": [
+        "12-19",
+        "12-68",
+        "20-27",
+        "28-39",
+        "40",
+        "41-43",
+        "44",
+        "45-56",
+        "57-68",
+        "82-93"
+      ],
+      "duplicate_positions_b": [
+        "12-19",
+        "12-68",
+        "20-27",
+        "28-39",
+        "40",
+        "41-43",
+        "44",
+        "45-56",
+        "57-68",
+        "82-93"
+      ]
+    },
+    {
+      "change_type": "section_renamed",
+      "title_a": "TC 01, 02, 03 - TCR 0-8, D",
+      "title_b": "TC 01, 02, 03 - TCR 0-8, D, E",
+      "fuzzy_ratio": 0.945
+    },
+    {
+      "change_type": "section_renamed",
+      "title_a": "TC 04 - TCR 0-7 and D",
+      "title_b": "TC 04 - TCR 0-7, D, and E",
+      "fuzzy_ratio": 0.87
+    },
+    {
+      "change_type": "section_renamed",
+      "title_a": "TC 33 - Capture File",
+      "title_b": "TC 33.B - Capture File",
+      "fuzzy_ratio": 0.952
+    }
+  ],
+  "ai_summary": {
+    "business_rule_change": 15,
+    "editorial_reword": 11
+  }
+}

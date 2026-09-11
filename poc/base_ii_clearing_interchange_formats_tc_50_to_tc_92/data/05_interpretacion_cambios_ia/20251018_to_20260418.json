@@ -1,0 +1,124 @@
+{
+  "manual": "base_ii_clearing_interchange_formats_tc_50_to_tc_92",
+  "edition_a": "20251018",
+  "edition_b": "20260418",
+  "summary": {
+    "card_content_changed": 6,
+    "duplicate_position_warning": 1
+  },
+  "changes": [
+    {
+      "change_type": "card_content_changed",
+      "position": "4",
+      "field": "format",
+      "old": "unpacked numeric",
+      "new": "alphanumeric",
+      "similarity_ratio": 0.643,
+      "title": "TC 50 - TCR 0 - OCT Additional Information",
+      "signature": "Destination Identifier",
+      "signature_position": "5-10",
+      "field_name": "Transaction Component Sequence Number",
+      "ai_category": "business_rule_change",
+      "ai_reason": "El formato del campo cambia de numérico a alfanumérico, lo que implica una redefinición del tipo de dato y su uso en el contexto de transacciones.",
+      "disappeared_content": [],
+      "safety_net_override": false
+    },
+    {
+      "change_type": "card_content_changed",
+      "position": "4",
+      "field": "format",
+      "old": "unpacked numeric",
+      "new": "alphanumeric",
+      "similarity_ratio": 0.643,
+      "title": "TC 50 - TCR 1 - OCT Additional Information",
+      "signature": "Recipient First Name",
+      "signature_position": "5-39",
+      "field_name": "Transaction Component Sequence Number",
+      "ai_category": "business_rule_change",
+      "ai_reason": "El formato del campo cambia de numérico a alfanumérico, lo que implica una redefinición del tipo de dato y su significado en el contexto de transacciones.",
+      "disappeared_content": [],
+      "safety_net_override": false
+    },
+    {
+      "change_type": "card_content_changed",
+      "position": "4",
+      "field": "format",
+      "old": "unpacked numeric",
+      "new": "alphanumeric",
+      "similarity_ratio": 0.643,
+      "title": "TC 50 - TCR 0 - OCT Payment Detail Data",
+      "signature": "Destination Identifier",
+      "signature_position": "5-10",
+      "field_name": "Transaction Component Sequence Number",
+      "ai_category": "business_rule_change",
+      "ai_reason": "El formato del campo cambia de 'unpacked numeric' a 'alphanumeric', lo que implica una redefinición del tipo de dato válido para el campo en el contexto de transacciones.",
+      "disappeared_content": [],
+      "safety_net_override": false
+    },
+    {
+      "change_type": "card_content_changed",
+      "position": "4",
+      "field": "format",
+      "old": "unpacked numeric",
+      "new": "alphanumeric",
+      "similarity_ratio": 0.643,
+      "title": "TC 50 - TCR 1 - OCT Payment Detail Data",
+      "signature": "Destination Identifier",
+      "signature_position": "5-10",
+      "field_name": "Transaction Component Sequence Number",
+      "ai_category": "business_rule_change",
+      "ai_reason": "El formato del campo cambia de 'unpacked numeric' a 'alphanumeric', lo que implica una redefinición del tipo de datos permitido para la transacción.",
+      "disappeared_content": [],
+      "safety_net_override": false
+    },
+    {
+      "change_type": "card_content_changed",
+      "position": "4",
+      "field": "format",
+      "old": "unpacked numeric",
+      "new": "alphanumeric",
+      "similarity_ratio": 0.643,
+      "title": "TC 50 - TCR 2 - OCT Payment Detail Data",
+      "signature": "Destination Identifier",
+      "signature_position": "5-10",
+      "field_name": "Transaction Component Sequence Number",
+      "ai_category": "business_rule_change",
+      "ai_reason": "El formato del campo cambia de 'unpacked numeric' a 'alphanumeric', lo que implica una redefinición del tipo de dato y su validez para el intercambio.",
+      "disappeared_content": [],
+      "safety_net_override": false
+    },
+    {
+      "change_type": "duplicate_position_warning",
+      "title": "TC 54 - TCR 0 Edit Package Release 4.0 Table Update Record Transactions",
+      "kind": "card",
+      "duplicate_positions_a": [
+        "30-169"
+      ],
+      "duplicate_positions_b": [
+        "30-169"
+      ],
+      "signature": "Record Hash Total",
+      "signature_position": "3-4"
+    },
+    {
+      "change_type": "card_content_changed",
+      "position": "111",
+      "field": "description",
+      "old": "Identifies if a transaction is one of the following: Mail order l Electronic Commerce l Phone order l Recurring l Installment Billing l Other Mail/Phone Order-type l Must be space-filled or contain 1 through 8. See BASE II Clearing Data Codes for Mail/Telephone or Electronic Commerce indicators. It may not be space-filled if the Merchant Category Code is 5960, 5962, or 5964 through 5969.",
+      "new": "Identifies if a transaction is one of the following: ●Mail order ●Electronic Commerce ●Phone order ●Recurring ●Installment Billing ●Other Mail/Phone Order-type Must be space-filled or contain 1 through 8. See BASE II Clearing Data Codes for Mail/Telephone or Electronic Commerce indicators. It may not be space-filled if the Merchant Category Code is 5960, 5962, or 5964 through 5969.",
+      "similarity_ratio": 0.948,
+      "title": "TC 57 - TCR 0 - Transaction Detail",
+      "signature": "Destination Identifier",
+      "signature_position": "5-10",
+      "field_name": "Mail/Telephone or Electronic Commerce Indicator",
+      "ai_category": "editorial_reword",
+      "ai_reason": "El texto describe lo mismo pero con formato de lista y corrección de espacios en el texto.",
+      "disappeared_content": [],
+      "safety_net_override": false
+    }
+  ],
+  "ai_summary": {
+    "business_rule_change": 5,
+    "editorial_reword": 1
+  }
+}

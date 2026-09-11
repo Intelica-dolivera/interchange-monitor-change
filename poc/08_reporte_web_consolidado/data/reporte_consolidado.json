@@ -1,0 +1,2057 @@
+{
+  "generated_at": "2026-09-10T02:05:46+00:00",
+  "manuals": [
+    {
+      "edition_a": "20251018",
+      "edition_b": "20260418",
+      "headline": {
+        "label": "Cambios de negocio a revisar",
+        "value": 49
+      },
+      "secondary": [
+        {
+          "label": "Altas",
+          "value": 24
+        },
+        {
+          "label": "Bajas",
+          "value": 22
+        },
+        {
+          "label": "Tablas agregadas",
+          "value": 9
+        },
+        {
+          "label": "Tablas eliminadas",
+          "value": 3
+        }
+      ],
+      "groups": [
+        {
+          "group_title": "Acceptance Terminal Indicator",
+          "items": [
+            {
+              "location": "Código `1` — columna *Usage Use to indicate that the transaction does not originate at an unattended terminal.*",
+              "before": "Use to indicate that the transaction:\nl\nIs less than US$40, or local currency\nequivalent.\nl\nIs not authorized.\nl\nExamples of a Type A UAT transaction are:\nHas no cardholder verification performed.\nl\nl\nl\nl\nParking garage fee\nRoad toll\nMotion picture theater admission\nMagnetic stripe telephone call",
+              "after": "Use to indicate that the transaction:\n●Is less than US$40, or local currency\nequivalent.\n●Is not authorized.\n●Has no cardholder verification performed.\nExamples of a Type A UAT transaction are:\n●Parking garage fee\n●Road toll\n●Motion picture theater admission\n●Magnetic stripe telephone call",
+              "reason": "El texto se reorganizó para mejorar la estructura con marcado de puntos y listas, pero el significado y los valores no cambiaron.",
+              "flagged": true
+            },
+            {
+              "location": "Código `2` — columna *Usage Use to indicate that the transaction does not originate at an unattended terminal.*",
+              "before": "Use to indicate that the transaction:\nl\nIs authorized.\nl\nExamples of a Type C UAT transaction are:\nHas PIN verification performed.\nl\nATM\nl\nFuel purchase with PIN",
+              "after": "Use to indicate that the transaction:\n●Is authorized.\n●Has PIN verification performed.\nExamples of a Type C UAT transaction are:\n●ATM\n●Fuel purchase with PIN",
+              "reason": "El texto describe lo mismo pero con formato de lista diferente y orden de ejemplos ajustado.",
+              "flagged": true
+            }
+          ]
+        },
+        {
+          "group_title": "Country and Currency Codes",
+          "items": [
+            {
+              "location": "Código `BULGARIA` — columna *ISO Currency Name*",
+              "before": "Bulgarian Lev",
+              "after": "EuroS",
+              "reason": "El texto anterior 'Bulgarian Lev' indica la moneda de Bulgaria, mientras que 'EuroS' es el nombre de la moneda en uso actual, cambiando el significado de negocio.",
+              "flagged": false
+            },
+            {
+              "location": "Código `BULGARIA` — columna *ISO Alpha Currency Code*",
+              "before": "BGN",
+              "after": "EUR",
+              "reason": "El código de moneda cambió de BGN a EUR, lo que representa un cambio real en el valor de negocio para Bulgaria.",
+              "flagged": false
+            },
+            {
+              "location": "Código `BULGARIA` — columna *ISO Numeric Currency Code*",
+              "before": "975",
+              "after": "978",
+              "reason": "El código ISO Numeric Currency Code cambió de 975 a 978, lo que altera el valor de negocio del código de moneda.",
+              "flagged": false
+            },
+            {
+              "location": "Código `CROATIA` — columna *ISO Currency Name*",
+              "before": "Euro",
+              "after": "EuroS",
+              "reason": "El texto cambió de 'Euro' a 'EuroS', lo que altera el significado del código de moneda en el contexto de Visa.",
+              "flagged": false
+            },
+            {
+              "location": "Código `CROATIA` — columna *ISO Alpha Currency Code*",
+              "before": "Euro",
+              "after": "EUR",
+              "reason": "El código de moneda cambió de 'Euro' a 'EUR', que es el código ISO estándar para la moneda oficial de Croacia.",
+              "flagged": false
+            }
+          ]
+        },
+        {
+          "group_title": "Fee Collection/Funds Disbursement Reason Codes",
+          "items": [
+            {
+              "location": "Código `0150` — columna *Definition*",
+              "before": "Recovered Card Handling Fees/Rewards\nl\nATM Balance Inquiry acquiring direct fee returns\nATM Balance Inquiry is available for ATM Balance Inquiry acquiring\ndirect fee participants in AP region only.\nThe Account Number field must contain a valid account number.",
+              "after": "Recovered Card Handling Fees/Rewards\n●The Account Number field must contain a valid account number.\nDomestic ATM Balance Inquiry acquiring direct access fee returns\nATM Balance Inquiry acquiring direct access fee is available for partic-\nipants in Mexico.",
+              "reason": "El texto nuevo especifica que el servicio está disponible solo en México, mientras que el texto viejo menciona que es para participantes en la región AP.",
+              "flagged": false
+            }
+          ]
+        },
+        {
+          "group_title": "Glossary",
+          "items": [
+            {
+              "location": "Código `ACCOUNT SCREEN CLEARING FILE (ASCF)` — columna *Definition*",
+              "before": "The Account Screen Clearing File (ASCF) provides global clearing transaction\nprotection for listed accounts, including below-floor-limit transactions, force-\nposted transactions and card-not-present transactions. The file is an extract\nof negatively listed accounts from the ASAF that Visa references in clearing\nwhen the issuer participates in Account Screen All Respond and Clearing\nReturn functionality.",
+              "after": "Provides global clearing transaction protection for listed accounts, including\nbelow-floor-limit transactions, force-posted transactions, and card-not-\npresent transactions. The file is an extract of negatively listed accounts from\nthe Account Screen Authorization File (ASAF) that Visa references in Clearing\nwhen the Issuer participates in Account Screen All Respond and Clearing\nReturn functionality.",
+              "reason": "El cambio modifica el nombre del archivo ASAF a Account Screen Authorization File (ASAF) y ajusta la descripción de la función de clearing, lo que implica una diferencia en el significado técnico del proceso.",
+              "flagged": false
+            },
+            {
+              "location": "Código `BASE II SYSTEM` — columna *Definition*",
+              "before": "An electronic batch transmission system primarily used for the exchange of\nVisa interchange transaction data and for settlement of the value of those\ntransactions between acquirers and issuers. This system is also used by\ncenters to retrieve records from the Advice File and by Visa to settle various\nfees with clients.",
+              "after": "An international electronic batch transmission system primarily used for\nthe exchange of Visa interchange transaction data and for settlement of\nthe value of those transactions between acquirers and issuers. Processing\ncenters use this system to retrieve records from the Advice File. Visa uses the\nsystem to settle fees with clients.",
+              "reason": "El texto describe lo mismo pero con una redacción más clara y sin repeticiones.",
+              "flagged": true
+            },
+            {
+              "location": "Código `CENTRAL PROCESSING DATE (CPD)` — columna *Definition*",
+              "before": "The date (based on GMT) when the ITF or report in question was generated\nat a VIC.",
+              "after": "The date (based on GMT) on which a client enters Interchange data to, and\nthe data is accepted by, a VisaNet Interchange Center (VIC).",
+              "reason": "El significado de la fecha de generación de los datos cambia de 'cuando se generó el ITF o reporte en un VIC' a 'cuando el cliente ingresa datos al VIC y son aceptados'",
+              "flagged": false
+            },
+            {
+              "location": "Código `DESTINATION IDENTIFIER` — columna *Definition*",
+              "before": "See acquiring identifier and/or issuing identifier.",
+              "after": "An Identifier to which a BASE II transaction message is sent.",
+              "reason": "El significado del código cambió de referirse a identificadores de adquisición/emitidos a un identificador de destino específico para transacciones BASE II.",
+              "flagged": false
+            },
+            {
+              "location": "Código `ISSUER CENTER` — columna *Definition*",
+              "before": "A BASE II processing center acting in support of one or more issuers. The\nprocessing center processes completed account holder transactions (local\nand interchange) for account holder account posting and billing. For\ncompleted interchange transactions, the center is also responsible for\nreceiving and processing incoming transactions for the account holders of\nthe issuer or issuers.",
+              "after": "A BASE II processing center acting in support of one or more issuers.\nThe processing center processes completed cardholder transactions (local\nand interchange) for cardholder account posting and billing. For completed\ninterchange transactions, the center is also responsible for receiving and\nprocessing incoming transactions for the cardholders of the issuer or issuers.",
+              "reason": "El cambio modifica el término 'account holder' por 'cardholder' y 'account posting' por 'cardholder account posting', lo que altera el significado técnico del servicio.",
+              "flagged": false
+            },
+            {
+              "location": "Código `ISSUING IDENTIFIER` — columna *Definition*",
+              "before": "A numeric value used to define issuing processing. Multiple Issuing BINs can\nbe linked to the same Issuing Identifier in Visa's systems.",
+              "after": "A numeric value used to define issuing processing. It is not governed by ISO\nand does not have to start with a four (4). Multiple issuing BINs can be linked\nto the same issuing identifier within Visa systems, which can allow mirroring\nof processing or routing configurations.",
+              "reason": "El texto nuevo especifica que el Issuing Identifier no está gobernado por ISO y no debe comenzar con un 4, lo que modifica su definición comercial.",
+              "flagged": false
+            },
+            {
+              "location": "Código `PLUS IDENTIFIER FILE` — columna *Definition*",
+              "before": "A file containing Plus table update records that is created through incoming\nEdit Package processing for all clients subscribing to the Plus ATM system.\nThe Plus Table contains identifier numbers of Plus card issuers.",
+              "after": "A file containing Plus table update records that is created through incoming\nEdit Package processing for all clients subscribing to the Plus ATM system.\nThe Plus Table contains numbers of Plus card issuers.",
+              "reason": "El cambio en 'identifier numbers' a 'numbers' altera el significado técnico del código, indicando que el valor de negocio cambió de identificadores a números simples.",
+              "flagged": false
+            },
+            {
+              "location": "Código `SOURCE IDENTIFIER` — columna *Definition*",
+              "before": "See acquiring identifier and/or issuing identifier.",
+              "after": "The Identifier from which a BASE II transaction message is sent.",
+              "reason": "El texto describe lo mismo pero con una redacción más clara y específica, sin cambios en el significado.",
+              "flagged": true
+            },
+            {
+              "location": "Código `TRANSACTION` — columna *Definition*",
+              "before": "BASE II transaction. The record or records that make up a single financial,\nadministrative, or text message, as required for transmission between a\nprocessing center and a VIC. BASE II transactions are identified by transaction\ncodes.\nCardholder transaction. The use of a payment credential to make a payment\nor otherwise exhange value between a cardholder (or an issuer) and a\nmerchant (or an acquirer).",
+              "after": "BASE II transaction. The record or records that make up a single financial,\nadministrative, or text message, as required for transmission between a\nprocessing center and a VIC. BASE II transactions are identified by transaction\ncodes.\nCardholder transaction. The use of a card by a customer (normally assumed\nto be the cardholder) to purchase goods or services from a merchant or\nsecure cash from an ATM or financial institution.",
+              "reason": "El texto describe el mismo concepto de transacción del titular de tarjeta, pero con una redacción diferente que especifica el uso de la tarjeta por un cliente para comprar bienes o servicios, en lugar de 'exhange value entre un cardholder y un merchant'.",
+              "flagged": true
+            }
+          ]
+        },
+        {
+          "group_title": "POS Environment Codes",
+          "items": [
+            {
+              "location": "Código `R` — columna *Usage Used to indicate that the field is not populated.*",
+              "before": "Use to identify multiple transactions that:\nl\nl\nExamples of a recurring transaction include\nperiodic membership fees, subscriptions, etc.\nOccur at predetermined intervals that do not\nexceed 1 year between transactions\nRepresent an agreement between a\ncardholder and a merchant to purchase\ngoods or services over a period of time.",
+              "after": "Use to identify multiple transactions that:\n●Occur at predetermined intervals that do not\n●Represent an agreement between a\nExamples of a recurring transaction include\nperiodic membership fees, subscriptions, etc.\nexceed 1 year between transactions\ncardholder and a merchant to purchase\ngoods or services over a period of time.",
+              "reason": "El texto se reorganizó para mejorar la legibilidad, manteniendo el mismo significado y contenido.",
+              "flagged": true
+            }
+          ]
+        },
+        {
+          "group_title": "Payment Mode Codes",
+          "items": [
+            {
+              "location": "Código `61` — columna *Definition*",
+              "before": "Twice Payment or Installment Payment with Number of Installment Payments\nl\nl\nTwice Payment: number of installment payments = 0 or 2. Settlement between the acquirer\nand issuer is deferred for Twice Payment.\nInstallment Payment: number of installment payments is greater than or equal to 3.\nSettlement between the acquirer and issuer is not deferred for Installment Payment.",
+              "after": "Twice Payment or Installment Payment with Number of Installment Payments\n●Twice Payment: number of installment payments = 0 or 2. Settlement between the acquirer\n●Installment Payment: number of installment payments is greater than or equal to 3.\nand issuer is deferred for Twice Payment.\nSettlement between the acquirer and issuer is not deferred for Installment Payment.",
+              "reason": "El texto se reorganizó con puntos y espacios diferentes, pero mantiene el mismo significado y contenido.",
+              "flagged": true
+            }
+          ]
+        },
+        {
+          "group_title": "Product ID Values",
+          "items": [
+            {
+              "location": "Código `G2` — columna *Description*",
+              "before": "Visa Business Check Card",
+              "after": "Visa Value Business",
+              "reason": "El texto descriptivo cambia de 'Visa Business Check Card' a 'Visa Value Business', lo que altera el significado comercial del producto.",
+              "flagged": false
+            },
+            {
+              "location": "Código `S1` — columna *Description*",
+              "before": "Visa Purchasing with Fleet",
+              "after": "Visa Purchasing with Fleet\nVisa Fleet (Canada only)",
+              "reason": "Se agregó una restricción geográfica específica para el código en el valor nuevo, indicando que solo aplica en Canadá.",
+              "flagged": false
+            },
+            {
+              "location": "Código `W1` — columna *Description*",
+              "before": "Visa Direct Payouts A",
+              "after": "Visa Direct Payouts to Bank Accounts",
+              "reason": "El texto describe ahora el pago directo a cuentas bancarias en lugar de un pago directo general, cambiando el significado de negocio.",
+              "flagged": false
+            }
+          ]
+        },
+        {
+          "group_title": "Request for Copy Reason Codes-Copy/Microfilm of Original (TC 52)",
+          "items": [
+            {
+              "location": "Código `33` — columna *Reason*",
+              "before": "l\nl",
+              "after": "●Legal process or fraud analysis request—U.S. Domestic only\n●Fraud analysis request—Non-U.S. Domestic",
+              "reason": "El significado del código 33 cambió de ser un texto vacío a especificar dos tipos de solicitudes legales o de análisis de fraude con distinción de territorio.",
+              "flagged": false
+            },
+            {
+              "location": "Código `34` — columna *Reason*",
+              "before": "l\nl",
+              "after": "●Repeat request for copy—U.S. Domestic only\n●Legal process request—Non-U.S. Domestic",
+              "reason": "El código 34 ahora incluye dos razones específicas: 'Repeat request for copy—U.S. Domestic only' y 'Legal process request—Non-U.S. Domestic', cambiando su significado de negocio desde un texto vacío a dos condiciones claras.",
+              "flagged": false
+            }
+          ]
+        },
+        {
+          "group_title": "Retired Chargeback Reason Codes",
+          "items": [
+            {
+              "location": "Código `30` — columna *Chargeback Reason Rules*",
+              "before": "Services Not Provided or Merchandise Not Received\nAll Regions:\nl\nInternational:\nl\nl\nU.K. Domestic:\nl\nCanada Region:\nl\nl\nJapan Domestic:\nl\nATM is prohibited.\nFor T&E transactions the minimum amount must be equal to or\ngreater than $25.00 USD.\nNo non-T&E minimum amount.\nT&E and non-T&E, no minimum amount.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nT&E and non-T&E, no minimum amount.",
+              "after": "Services Not Provided or Merchandise Not Received\nAll Regions:\n●ATM is prohibited.\nInternational:\n●For T&E transactions the minimum amount must be equal to or greater\n●No non-T&E minimum amount.\nU.K. Domestic:\nthan $25.00 USD.\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\nthan $25.00 CAD.\ngreater than $10.00 CAD.\n●T&E and non-T&E, no minimum amount.",
+              "reason": "El texto nuevo modifica el orden de las reglas para T&E y no T&E en Canadá, cambiando el valor de los mínimos de transacciones.",
+              "flagged": false
+            },
+            {
+              "location": "Código `41` — columna *Chargeback Reason Rules*",
+              "before": "Cancelled Recurring Transaction\nAll Regions:\nl\nInternational:\nATM is prohibited.\nl\nl\nU.K. Domestic:\nFor T&E transaction, the minimum amount must be equal to or\ngreater than $25.00 USD.\nNo non-T&E minimum amount.\nl\nCanada Region:\nl\nl\nJapan Domestic:\nl\nT&E and non-T&E, no minimum amount.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nT&E and non-T&E, no minimum amount.",
+              "after": "Cancelled Recurring Transaction\nAll Regions:\n●ATM is prohibited.\nInternational:\n●For T&E transaction, the minimum amount must be equal to or greater\n●No non-T&E minimum amount.\nU.K. Domestic:\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\n●T&E and non-T&E, no minimum amount.\nthan $25.00 USD.\nthan $25.00 CAD.\ngreater than $10.00 CAD.",
+              "reason": "El texto nuevo modifica los límites de monto para transacciones T&E y no T&E en Canadá, especificando valores diferentes que afectan la regla de negocio.",
+              "flagged": false
+            },
+            {
+              "location": "Código `53` — columna *Chargeback Reason Rules*",
+              "before": "Not as Described or Defective Merchandise\nAll Regions:\nl\nInternational:\nl\nl\nU.S. Region:\nl\nU.K. Domestic:\nl\nCanada Region:\nl\nl\nJapan Domestic:\nl\nATM is prohibited.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 USD.\nNo non-T&E minimum amount.\nEPS not allowed.\nT&E and non-T&E, no minimum amount.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nT&E and non-T&E, no minimum amount.",
+              "after": "Not as Described or Defective Merchandise\nAll Regions:\n●ATM is prohibited.\nInternational:\n●For T&E transactions, the minimum amount must be equal to or greater\n●No non-T&E minimum amount.\nU.S. Region:\nthan $25.00 USD.\n●EPS not allowed.\nU.K. Domestic:\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\nthan $25.00 CAD.\ngreater than $10.00 CAD.\n●T&E and non-T&E, no minimum amount.",
+              "reason": "El texto nuevo modifica el orden de las reglas para T&E y no T&E en el valor mínimo de transacciones en CAD, cambiando el valor anterior de $25.00 USD a $25.00 CAD y $10.00 CAD respectivamente.",
+              "flagged": false
+            },
+            {
+              "location": "Código `57` — columna *Chargeback Reason Rules*",
+              "before": "Fraudulent Multiple Transactions\nAll Regions:\nl\nl\nl\nInternational:\nATM is prohibited.\nDirect Marketing MCCs are prohibited.\nMOTO/ECI must be spaces.\nl\nl\nU.K. Domestic:\nl\nCanada Region:\nl\nl\nJapan Domestic:\nl\nFor T&E transactions, the minimum must be equal to or greater\nthan $25.00 USD.\nNo non-T&E minimum amount.\nT&E and non-T&E, no minimum amount.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD\nT&E and non-T&E, no minimum amount.",
+              "after": "Fraudulent Multiple Transactions\nAll Regions:\n●ATM is prohibited.\n●Direct Marketing MCCs are prohibited.\n●MOTO/ECI must be spaces.\nInternational:\n●For T&E transactions, the minimum must be equal to or greater than\n●No non-T&E minimum amount.\nU.K. Domestic:\n$25.00 USD.\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\nthan $25.00 CAD.\ngreater than $10.00 CAD\n●T&E and non-T&E, no minimum amount.",
+              "reason": "El texto nuevo modifica los límites de mínimo para transacciones T&E y no T&E en regiones específicas, cambiando el valor anterior de $25.00 USD a $25.00 CAD y $10.00 CAD respectivamente.",
+              "flagged": false
+            },
+            {
+              "location": "Código `60` — columna *Chargeback Reason Rules*",
+              "before": "Illegible Fulfillment\nAll Regions:\nl\nInternational:\nl\nU.S. Domestic and AP Region:\nl\nCanada Region:\nATM is prohibited.\nNo T&E or non-T&E minimum amount.\nEPS is not allowed.\nl\nl\nl\nJapan Domestic:\nl\nEPS is not allowed.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nT&E and non-T&E, no minimum amount.",
+              "after": "Illegible Fulfillment\nAll Regions:\n●ATM is prohibited.\nInternational:\n●No T&E or non-T&E minimum amount.\nU.S. Domestic and AP Region:\n●EPS is not allowed.\nCanada Region:\n●EPS is not allowed.\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\n●T&E and non-T&E, no minimum amount.\nthan $25.00 CAD.\ngreater than $10.00 CAD.",
+              "reason": "El texto nuevo modifica las reglas de mínimo de monto para transacciones T&E y no T&E en el contexto de Japón, especificando valores numéricos diferentes al valor anterior.",
+              "flagged": false
+            },
+            {
+              "location": "Código `62` — columna *Chargeback Reason Rules*",
+              "before": "Counterfeit Transaction\nAll Regions:\nl\nl\nInternational:\nl\nCanada Region:\nl\nl\nJapan Domestic:\nl\nDirect Marketing MCCs are prohibited.\nMOTO/ECI must be spaces.\nNo T&E or non-T&E minimum amount.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nT&E and non-T&E, no minimum amount.",
+              "after": "Counterfeit Transaction\nAll Regions:\n●Direct Marketing MCCs are prohibited.\n●MOTO/ECI must be spaces.\nInternational:\n●No T&E or non-T&E minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\nthan $25.00 CAD.\ngreater than $10.00 CAD.\n●T&E and non-T&E, no minimum amount.",
+              "reason": "El texto nuevo reorganiza las reglas de manera que las condiciones para T&E y no T&E se especifican con montos mínimos diferentes, mientras que el valor anterior no distinguía claramente los montos mínimos para cada tipo de transacción.",
+              "flagged": false
+            },
+            {
+              "location": "Código `70` — columna *Chargeback Reason Rules*",
+              "before": "Card Recovery Bulletin or Exception File\nAll Regions:\nl\nl\nInternational:\nATM is prohibited.\nValidate against the Card Warning Bulletin.\nl\nl\nU.K. Domestic:\nl\nCanada Region:\nl\nl\nJapan Domestic:\nl\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 USD.\nNo non-T&E minimum amount.\nT&E and non-T&E, no minimum amount.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nT&E and non-T&E, no minimum amount.",
+              "after": "Card Recovery Bulletin or Exception File\nAll Regions:\n●ATM is prohibited.\n●Validate against the Card Warning Bulletin.\nInternational:\n●For T&E transactions, the minimum amount must be equal to or greater\n●No non-T&E minimum amount.\nU.K. Domestic:\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\n●T&E and non-T&E, no minimum amount.\nthan $25.00 USD.\nthan $25.00 CAD.\ngreater than $10.00 CAD.",
+              "reason": "El texto nuevo modifica los límites de monto para transacciones T&E y no T&E en diferentes regiones, especificando valores distintos para USD y CAD que no estaban claros en la versión anterior.",
+              "flagged": false
+            },
+            {
+              "location": "Código `71` — columna *Chargeback Reason Rules*",
+              "before": "Declined Authorization\nAll Regions:\nl\nInternational:\nl\nl\nU.K. Domestic:\nl\nCanada Region:\nl\nl\nJapan Domestic:\nl\nATM is prohibited.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 USD.\nNo non-T&E minimum amount.\nT&E and non-T&E, no minimum amount.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nT&E and non-T&E, no minimum amount.",
+              "after": "Declined Authorization\nAll Regions:\n●ATM is prohibited.\nInternational:\n●For T&E transactions, the minimum amount must be equal to or greater\n●No non-T&E minimum amount.\nU.K. Domestic:\nthan $25.00 USD.\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\nthan $25.00 CAD.\ngreater than $10.00 CAD.\n●T&E and non-T&E, no minimum amount.",
+              "reason": "El texto nuevo modifica el orden de las reglas de mínimo monto para transacciones T&E y no T&E en diferentes regiones, alterando el significado de las condiciones comerciales.",
+              "flagged": false
+            },
+            {
+              "location": "Código `72` — columna *Chargeback Reason Rules*",
+              "before": "No Authorization\nAll Regions:\nl\nInternational:\nATM is prohibited.\nl\nl\nU.K. Domestic:\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 USD.\nNo non-T&E minimum amount.\nl\nCanada Region:\nl\nl\nJapan Domestic:\nl\nT&E and non-T&E, no minimum amount.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nT&E and non-T&E, no minimum amount.",
+              "after": "No Authorization\nAll Regions:\n●ATM is prohibited.\nInternational:\n●For T&E transactions, the minimum amount must be equal to or greater\n●No non-T&E minimum amount.\nU.K. Domestic:\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\n●T&E and non-T&E, no minimum amount.\nthan $25.00 USD.\nthan $25.00 CAD.\ngreater than $10.00 CAD.",
+              "reason": "El texto nuevo modifica los límites de monto para transacciones T&E y no T&E en diferentes regiones, especificando valores diferentes para USD y CAD que no estaban claros en la versión anterior.",
+              "flagged": false
+            },
+            {
+              "location": "Código `73` — columna *Chargeback Reason Rules*",
+              "before": "Expired Card\nAll Regions:\nl\nInternational:\nl\nl\nU.K. Domestic:\nl\nCanada Region:\nl\nl\nJapan Domestic:\nl\nATM is prohibited.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 USD.\nNo non-T&E minimum amount.\nT&E and non-T&E, no minimum amount.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nT&E and non-T&E, no minimum amount.",
+              "after": "Expired Card\nAll Regions:\n●ATM is prohibited.\nInternational:\n●For T&E transactions, the minimum amount must be equal to or greater\n●No non-T&E minimum amount.\nU.K. Domestic:\nthan $25.00 USD.\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\nthan $25.00 CAD.\ngreater than $10.00 CAD.\n●T&E and non-T&E, no minimum amount.",
+              "reason": "El texto nuevo modifica el orden de las reglas para T&E y no T&E en el valor mínimo de transacciones, cambiando el significado de las condiciones aplicables.",
+              "flagged": false
+            },
+            {
+              "location": "Código `74` — columna *Chargeback Reason Rules*",
+              "before": "Late Presentment\nInternational:\nl\nl\nU.S. Domestic:\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 USD.\nNo non-T&E minimum amount.\nl\nl\nU.K. Domestic:\nPlus ATM cash disbursement and alternate media transactions\nare prohibited.\nVisa ATM cash disbursement transaction is not allowed.\nl\nCanada Region:\nl\nl\nJapan Domestic:\nl\nT&E and non-T&E, no minimum amount.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nT&E and non-T&E, no minimum amount.",
+              "after": "Late Presentment\nInternational:\n●For T&E transactions, the minimum amount must be equal to or greater\n●No non-T&E minimum amount.\nU.S. Domestic:\nthan $25.00 USD.\n●Plus ATM cash disbursement and alternate media transactions are\n●Visa ATM cash disbursement transaction is not allowed.\nU.K. Domestic:\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\n●T&E and non-T&E, no minimum amount.\nprohibited.\nthan $25.00 CAD.\ngreater than $10.00 CAD.",
+              "reason": "El cambio modifica la estructura de las reglas de presentación tardía para T&E y no T&E en diferentes regiones, especificando montos diferentes para CAD y USD.",
+              "flagged": false
+            },
+            {
+              "location": "Código `75` — columna *Chargeback Reason Rules*",
+              "before": "Transaction Not Recognized\nAll Regions:\nl\nl\nInternational:\nl\nl\nU.S. Region:\nl\nl\nl\nU.K. Domestic\nl\nCanada Region:\nl\nl\nl\nJapan Domestic:\nl\nATM is prohibited.\nCannot be a Secure Electronic Commerce transaction.\nNo T&E minimum amount.\nNo non-T&E minimum amount.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 USD.\nNo non-T&E minimum amount.\nEPS not allowed.\nT&E and non-T&E, no minimum amount.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nNot valid for EPS/NSR Transactions\nT&E and non-T&E, no minimum amount.",
+              "after": "Transaction Not Recognized\nAll Regions:\n●ATM is prohibited.\n●Cannot be a Secure Electronic Commerce transaction.\nInternational:\n●No T&E minimum amount.\n●No non-T&E minimum amount.\nU.S. Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●No non-T&E minimum amount.\n●EPS not allowed.\nU.K. Domestic\nthan $25.00 USD.\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\n●Not valid for EPS/NSR Transactions\nJapan Domestic:\nthan $25.00 CAD.\ngreater than $10.00 CAD.\n●T&E and non-T&E, no minimum amount.",
+              "reason": "El texto nuevo modifica las reglas de mínimo monto para transacciones T&E y no T&E en regiones específicas, alterando condiciones de negocio.",
+              "flagged": false
+            },
+            {
+              "location": "Código `76` — columna *Chargeback Reason Rules*",
+              "before": "Incorrect Currency or Transaction Code or Domestic\nTransaction Processing Violation\nInternational:\nl\nl\nU.K. Domestic:\nl\nCanada Region:\nl\nl\nJapan Domestic:\nl\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 USD.\nNo non-T&E minimum amount.\nT&E and non-T&E, no minimum amount.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nT&E and non-T&E, no minimum amount.",
+              "after": "Incorrect Currency or Transaction Code or Domestic Transaction\nProcessing Violation\nInternational:\n●For T&E transactions, the minimum amount must be equal to or greater\n●No non-T&E minimum amount.\nU.K. Domestic:\nthan $25.00 USD.\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\nthan $25.00 CAD.\ngreater than $10.00 CAD.\n●T&E and non-T&E, no minimum amount.",
+              "reason": "El texto nuevo modifica el orden de las reglas de mínimo monto para transacciones T&E y no T&E en diferentes regiones, alterando el significado de las condiciones comerciales.",
+              "flagged": false
+            },
+            {
+              "location": "Código `77` — columna *Chargeback Reason Rules*",
+              "before": "Non-Matching Account Number\nAll Regions:\nl\nInternational:\nl\nl\nU.K. Domestic:\nl\nCanada Region:\nATM is prohibited.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 USD.\nNo non-T&E minimum amount.\nT&E and non-T&E, no minimum amount.\nl\nl\nJapan Domestic:\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nl\nT&E and non-T&E, no minimum amount.",
+              "after": "Non-Matching Account Number\nAll Regions:\n●ATM is prohibited.\nInternational:\n●For T&E transactions, the minimum amount must be equal to or greater\n●No non-T&E minimum amount.\nU.K. Domestic:\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\n●T&E and non-T&E, no minimum amount.\nthan $25.00 USD.\nthan $25.00 CAD.\ngreater than $10.00 CAD.",
+              "reason": "El texto nuevo modifica los límites de monto para transacciones T&E y no T&E en diferentes regiones, especificando valores distintos para USD y CAD que no estaban claros en la versión anterior.",
+              "flagged": false
+            },
+            {
+              "location": "Código `78` — columna *Chargeback Reason Rules*",
+              "before": "Service Code Violation\nAll Regions:\nl\nInternational:\nl\nl\nU.K. Domestic:\nl\nCanada Region:\nl\nl\nJapan Domestic:\nl\nATM is prohibited.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 USD.\nNo non-T&E minimum amount.\nT&E and non-T&E, no minimum amount.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nT&E and non-T&E, no minimum amount.",
+              "after": "Service Code Violation\nAll Regions:\n●ATM is prohibited.\nInternational:\n●For T&E transactions, the minimum amount must be equal to or greater\n●No non-T&E minimum amount.\nU.K. Domestic:\nthan $25.00 USD.\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\nthan $25.00 CAD.\ngreater than $10.00 CAD.\n●T&E and non-T&E, no minimum amount.",
+              "reason": "El texto nuevo reorganiza las reglas de mínimo de monto para transacciones T&E y no T&E, alterando el significado de los valores mínimos en USD y CAD.",
+              "flagged": false
+            },
+            {
+              "location": "Código `80` — columna *Chargeback Reason Rules*",
+              "before": "Incorrect Transaction Amount or Account Number\nAll Regions except U.S. Region:\nl\nInternational:\nATM is prohibited.\nl\nl\nU.K. Domestic:\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 USD.\nNo non-T&E minimum amount.\nl\nCanada Region:\nl\nl\nl\nJapan Domestic:\nl\nT&E and non-T&E, no minimum amount.\nEPS is not allowed.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nT&E and non-T&E, no minimum amount.",
+              "after": "Incorrect Transaction Amount or Account Number\nAll Regions except U.S. Region:\n●ATM is prohibited.\nInternational:\n●For T&E transactions, the minimum amount must be equal to or greater\n●No non-T&E minimum amount.\nU.K. Domestic:\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●EPS is not allowed.\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\n●T&E and non-T&E, no minimum amount.\nthan $25.00 USD.\nthan $25.00 CAD.\ngreater than $10.00 CAD.",
+              "reason": "El texto nuevo modifica las reglas de mínimo monto para transacciones T&E y no T&E en diferentes regiones, especificando valores diferentes en CAD y USD que no estaban claros en la versión anterior.",
+              "flagged": false
+            },
+            {
+              "location": "Código `81` — columna *Chargeback Reason Rules*",
+              "before": "Fraud - Card-Present Environment\nAll Regions:\nl\nl\nInternational:\nl\nl\nl\nU.S. Region:\nl\nl\nAP Region:\nl\nU.K. Domestic:\nl\nCanada Region:\nl\nl\nl\nJapan Domestic:\nl\nMOTO/ECI must be spaces.\nDirect Marketing MCCs are prohibited.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 USD.\nNo non-T&E minimum amount.\nATM is prohibited\nFor Automated Fuel Dispenser transactions, the minimum\namount must be equal to or greater than $10.00 USD.\nATM is prohibited\nEPS not allowed.\nT&E and non-T&E, no minimum amount.\nEPS is not allowed.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nT&E and non-T&E, no minimum amount.",
+              "after": "Fraud - Card-Present Environment\nAll Regions:\n●MOTO/ECI must be spaces.\n●Direct Marketing MCCs are prohibited.\nInternational:\n●For T&E transactions, the minimum amount must be equal to or greater\n●No non-T&E minimum amount.\n●ATM is prohibited\nU.S. Region:\nthan $25.00 USD.\n●For Automated Fuel Dispenser transactions, the minimum amount must be\n●ATM is prohibited\nAP Region:\nequal to or greater than $10.00 USD.\n●EPS not allowed.\nU.K. Domestic:\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●EPS is not allowed.\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\n●T&E and non-T&E, no minimum amount.\nthan $25.00 CAD.\ngreater than $10.00 CAD.",
+              "reason": "El texto nuevo modifica el orden de las reglas para T&E y no T&E en CAD, cambiando el valor mínimo de transacción desde $25.00 USD a $25.00 CAD y $10.00 CAD respectivamente.",
+              "flagged": false
+            },
+            {
+              "location": "Código `82` — columna *Chargeback Reason Rules*",
+              "before": "Duplicate Processing\nInternational:\nl\nl\nU.K. Domestic:\nl\nCanada Region:\nl\nl\nJapan Domestic:\nl\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 USD.\nNo non-T&E minimum amount.\nT&E and non-T&E, no minimum amount.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nT&E and non-T&E, no minimum amount.",
+              "after": "Duplicate Processing\nInternational:\n●For T&E transactions, the minimum amount must be equal to or greater\n●No non-T&E minimum amount.\nU.K. Domestic:\nthan $25.00 USD.\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\nthan $25.00 CAD.\ngreater than $10.00 CAD.\n●T&E and non-T&E, no minimum amount.",
+              "reason": "El texto se reorganizó para mejorar la legibilidad, manteniendo el mismo significado y reglas de negocio.",
+              "flagged": true
+            },
+            {
+              "location": "Código `83` — columna *Chargeback Reason Rules*",
+              "before": "Fraud - Card-Absent Environment\nAll Regions:\nl\nl\nInternational:\nl\nl\nU.K. Domestic:\nl\nCanada Region:\nATM is prohibited.\nRestricted for use by Secure Electronic Commerce transactions,\nexcept by U.S. region.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 USD.\nNo non-T&E minimum amount.\nT&E and non-T&E, no minimum amount.\nl\nl\nJapan Domestic:\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nl\nT&E and non-T&E, no minimum amount.",
+              "after": "Fraud - Card-Absent Environment\nAll Regions:\n●ATM is prohibited.\n●Restricted for use by Secure Electronic Commerce transactions, except by\nInternational:\nU.S. region.\n●For T&E transactions, the minimum amount must be equal to or greater\n●No non-T&E minimum amount.\nU.K. Domestic:\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\n●T&E and non-T&E, no minimum amount.\nthan $25.00 USD.\nthan $25.00 CAD.\ngreater than $10.00 CAD.",
+              "reason": "El texto nuevo modifica el orden de las reglas para T&E y no T&E en el Canada Region, especificando que el mínimo para T&E es $25.00 USD y para no T&E es $10.00 CAD, mientras que el texto antiguo no tenía claridad en el monto para no T&E en Canada.",
+              "flagged": false
+            },
+            {
+              "location": "Código `85` — columna *Chargeback Reason Rules*",
+              "before": "Credit Not Processed\nAll Regions:\nl\nInternational:\nl\nl\nU.K. Domestic:\nl\nCanada Region:\nl\nl\nJapan Domestic:\nl\nATM is prohibited.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 USD.\nNo non-T&E minimum amount.\nT&E and non-T&E, no minimum amount.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nT&E and non-T&E, no minimum amount.",
+              "after": "Credit Not Processed\nAll Regions:\n●ATM is prohibited.\nInternational:\n●For T&E transactions, the minimum amount must be equal to or greater\n●No non-T&E minimum amount.\nU.K. Domestic:\nthan $25.00 USD.\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\nthan $25.00 CAD.\ngreater than $10.00 CAD.\n●T&E and non-T&E, no minimum amount.",
+              "reason": "El texto nuevo modifica el orden de las reglas para T&E y no T&E en el contexto de transacciones domésticas en Canadá, alterando la interpretación del mínimo requerido.",
+              "flagged": false
+            },
+            {
+              "location": "Código `86` — columna *Chargeback Reason Rules*",
+              "before": "Paid by Other Means\nAll Regions:\nl\nInternational:\nl\nl\nU.S. Region:\nl\nAP Region:\nl\nU.K. Domestic:\nl\nCanada Region:\nl\nl\nJapan Domestic:\nl\nATM is prohibited.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 USD.\nNo non-T&E minimum amount.\nEPS not allowed.\nEPS not allowed.\nT&E and non-T&E, no minimum amount.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nT&E and non-T&E, no minimum amount.",
+              "after": "Paid by Other Means\nAll Regions:\n●ATM is prohibited.\nInternational:\n●For T&E transactions, the minimum amount must be equal to or greater\n●No non-T&E minimum amount.\nU.S. Region:\nthan $25.00 USD.\n●EPS not allowed.\nAP Region:\n●EPS not allowed.\nU.K. Domestic:\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\nthan $25.00 CAD.\ngreater than $10.00 CAD.\n●T&E and non-T&E, no minimum amount.",
+              "reason": "El texto nuevo modifica el orden de las reglas para T&E y no T&E en el valor mínimo de transacciones en CAD, cambiando el monto mínimo de $25.00 USD a $25.00 CAD y $10.00 CAD respectivamente.",
+              "flagged": false
+            },
+            {
+              "location": "Código `90` — columna *Chargeback Reason Rules*",
+              "before": "Non-Receipt of Cash or Load Transaction Value at ATM or\nLoad Device\nInternational:\nl\nU.S. Region:\nl\nl\nU.K. Domestic:\nl\nCanada Region:\nl\nl\nJapan Domestic:\nl\nT&E and non-T&E, no minimum amount.\nT&E and Non-T&E not allowed.\nValid for ATM only.\nT&E and non-T&E, no minimum amount.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nT&E and non-T&E, no minimum amount.",
+              "after": "Non-Receipt of Cash or Load Transaction Value at ATM or Load Device\nInternational:\n●T&E and non-T&E, no minimum amount.\nU.S. Region:\n●T&E and Non-T&E not allowed.\n●Valid for ATM only.\nU.K. Domestic:\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\nthan $25.00 CAD.\ngreater than $10.00 CAD.\n●T&E and non-T&E, no minimum amount.",
+              "reason": "El texto nuevo modifica las reglas de mínimo monto para transacciones T&E y no T&E en Canadá, especificando valores diferentes al valor anterior.",
+              "flagged": false
+            },
+            {
+              "location": "Código `93` — columna *Chargeback Reason Rules*",
+              "before": "Merchant Fraud Performance\nAll Regions:\nl\nInternational:\nATM is prohibited.\nl\nU.K. Domestic:\nl\nCanada Region:\nl\nl\nJapan Domestic:\nl\nT&E and non-T&E, no minimum amount.\nT&E and non-T&E, no minimum amount.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nT&E and non-T&E, no minimum amount.",
+              "after": "Merchant Fraud Performance\nAll Regions:\n●ATM is prohibited.\nInternational:\n●T&E and non-T&E, no minimum amount.\nU.K. Domestic:\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\n●T&E and non-T&E, no minimum amount.\nthan $25.00 CAD.\ngreater than $10.00 CAD.",
+              "reason": "El texto se reescribe con formato de listas y puntos en lugar de líneas en blanco, pero mantiene el mismo significado y reglas de comercio.",
+              "flagged": true
+            }
+          ]
+        },
+        {
+          "group_title": "Return/Reclassification Reason Codes",
+          "items": [
+            {
+              "location": "Código `01` — columna *Error Condition*",
+              "before": "The Hash Total is invalid. If data is from a local tape, a problem occurred in the Edit\nPackage. The VAP checks the Hash Total while loading the file, so if the data is from one of\nthese devices or is inter-VIC, an invalid Hash Total indicates one of these issues\nl\nl\nl\nNoise on the communication line has modified the data.\nThe sending VAP or VIC is not using the same Data Structure Table that the receiving\nVIC is using, which caused the receiving VIC to incorrectly expand the transaction.\nThe file was modified after the Edit Package was executed.",
+              "after": "The Hash Total is invalid. If data is from a local tape, a problem occurred in the Edit\nPackage. The VAP checks the Hash Total while loading the file, so if the data is from one of\nthese devices or is inter-VIC, an invalid Hash Total indicates one of these issues\n●Noise on the communication line has modified the data.\n●The sending VAP or VIC is not using the same Data Structure Table that the receiving\n●The file was modified after the Edit Package was executed.\nVIC is using, which caused the receiving VIC to incorrectly expand the transaction.",
+              "reason": "El texto se reorganizó para usar bullets en lugar de líneas separadas, manteniendo el mismo significado.",
+              "flagged": true
+            },
+            {
+              "location": "Código `HZ` — columna *Error Condition*",
+              "before": "The recalculation of the validation code at the VIC showed that one of the fields listed\nbelow did not match the value in the authorization message. Please resubmit.\nl\nl\nl\nl\nl\nl\nl\nl\nl\nl\nl\nl\nCPS/ATM:\nAccount Number\nAuthorized Amount\nAuthorization Characteristics Indicator\nAuthorization Code\nAuthorization Currency Code\nAuthorization Response Code\nCashback\nMarket-Specific Authorization Indicator\nMerchant Category Code\nPOS Entry Mode\nTransaction Identifier\nProduct ID\nl\nl\nl\nl\nl\nl\nl\nl\nl\nAccount Number\nAuthorization Characteristics Indicator\nTransaction Identifier\nAuthorized Amount\nAuthorization Currency Code\nMerchant Country Code\nATM Account Selection\nAcquiring Identifier\nSurcharge Amount",
+              "after": "The recalculation of the validation code at the VIC showed that one of the fields listed\nbelow did not match the value in the authorization message. Please resubmit.",
+              "reason": "El texto se simplificó eliminando los detalles específicos de los campos que antes se listaban, manteniendo el mismo mensaje sin cambios de significado.",
+              "flagged": true
+            }
+          ]
+        }
+      ],
+      "top_items": [
+        {
+          "location": "Acceptance Terminal Indicator — Código `1` — columna *Usage Use to indicate that the transaction does not originate at an unattended terminal.*",
+          "before": "Use to indicate that the transaction:\nl\nIs less than US$40, or local currency\nequivalent.\nl\nIs not authorized.\nl\nExamples of a Type A UAT transaction are:\nHas no cardholder verification performed.\nl\nl\nl\nl\nParking garage fee\nRoad toll\nMotion picture theater admission\nMagnetic stripe telephone call",
+          "after": "Use to indicate that the transaction:\n●Is less than US$40, or local currency\nequivalent.\n●Is not authorized.\n●Has no cardholder verification performed.\nExamples of a Type A UAT transaction are:\n●Parking garage fee\n●Road toll\n●Motion picture theater admission\n●Magnetic stripe telephone call",
+          "reason": "El texto se reorganizó para mejorar la estructura con marcado de puntos y listas, pero el significado y los valores no cambiaron.",
+          "flagged": true
+        },
+        {
+          "location": "Acceptance Terminal Indicator — Código `2` — columna *Usage Use to indicate that the transaction does not originate at an unattended terminal.*",
+          "before": "Use to indicate that the transaction:\nl\nIs authorized.\nl\nExamples of a Type C UAT transaction are:\nHas PIN verification performed.\nl\nATM\nl\nFuel purchase with PIN",
+          "after": "Use to indicate that the transaction:\n●Is authorized.\n●Has PIN verification performed.\nExamples of a Type C UAT transaction are:\n●ATM\n●Fuel purchase with PIN",
+          "reason": "El texto describe lo mismo pero con formato de lista diferente y orden de ejemplos ajustado.",
+          "flagged": true
+        },
+        {
+          "location": "Country and Currency Codes — Código `BULGARIA` — columna *ISO Currency Name*",
+          "before": "Bulgarian Lev",
+          "after": "EuroS",
+          "reason": "El texto anterior 'Bulgarian Lev' indica la moneda de Bulgaria, mientras que 'EuroS' es el nombre de la moneda en uso actual, cambiando el significado de negocio.",
+          "flagged": false
+        }
+      ],
+      "slug": "base_ii_clearing_data_codes",
+      "title": "BASE II Clearing Data Codes",
+      "is_new_since_last_publish": false
+    },
+    {
+      "edition_a": "20251018",
+      "edition_b": "20260418",
+      "headline": {
+        "label": "Cambios de negocio a revisar",
+        "value": 9
+      },
+      "secondary": [
+        {
+          "label": "Fichas agregadas",
+          "value": 4
+        },
+        {
+          "label": "Fichas eliminadas",
+          "value": 3
+        }
+      ],
+      "groups": [
+        {
+          "group_title": "`BASE II System` — BASE II System",
+          "items": [
+            {
+              "location": "Description",
+              "before": "An electronic batch transmission system primarily used for the exchange of Visa interchange transaction data and for settlement of the value of those transactions between acquirers and issuers. This system is also used by centers to retrieve records from the Advice File and by Visa to settle various fees with clients.",
+              "after": "An international electronic batch transmission system primarily used for the exchange of Visa interchange transaction data and for settlement of the value of those transactions between acquirers and issuers. Processing centers use this system to retrieve records from the Advice File. Visa uses the system to settle fees with clients.",
+              "reason": "El texto nuevo especifica que es un sistema internacional y modifica el uso de los centros de procesamiento y Visa para la retención de registros y cobros, lo que cambia el significado de negocio.",
+              "flagged": false
+            }
+          ]
+        },
+        {
+          "group_title": "`V0173` — CASHBACK AMOUNT MUST BE LESS THAN OR EQUAL TO SOURCE AMOUNT",
+          "items": [
+            {
+              "location": "Título",
+              "before": "CASHBACK AMOUNT MUST BE LESS THAN SOURCE AMOUNT",
+              "after": "CASHBACK AMOUNT MUST BE LESS THAN OR EQUAL TO SOURCE AMOUNT",
+              "reason": "El mensaje original indicaba que la cantidad de cashback debe ser menor que la cantidad fuente, mientras que la nueva versión establece que debe ser menor o igual, lo que cambia la condición de validación.",
+              "flagged": false
+            },
+            {
+              "location": "Description",
+              "before": "The cashback amount must be numeric and must be less than the Source Amount for Canada domestic transactions.",
+              "after": "The cashback amount must be numeric and must be less than or equal to the Source Amount for Canada domestic transactions.",
+              "reason": "El cambio modifica la condición de validación de que el cashback debe ser menor o igual que el Source Amount en lugar de menor, lo que altera el rango de valores permitidos.",
+              "flagged": false
+            },
+            {
+              "location": "Transaction Types",
+              "before": "Sales Draft – All",
+              "after": "Sales Draft – All | Account Funding – All",
+              "reason": "La lista de Transaction Types se amplio para incluir 'Account Funding – All', lo que modifica la condicion de validacion para el cashback.",
+              "flagged": false
+            }
+          ]
+        },
+        {
+          "group_title": "`V0188` — CASHBACK AMOUNT MUST BE LESS THAN OR EQUAL TO SOURCE AMOUNT",
+          "items": [
+            {
+              "location": "Título",
+              "before": "CASHBACK AMOUNT MUST BE LESS THAN SOURCE AMOUNT",
+              "after": "CASHBACK AMOUNT MUST BE LESS THAN OR EQUAL TO SOURCE AMOUNT",
+              "reason": "El mensaje original indicaba que la cantidad de cashback debe ser menor que la cantidad fuente, mientras que la nueva versión establece que debe ser menor o igual, modificando así la condición de validación.",
+              "flagged": false
+            },
+            {
+              "location": "Description",
+              "before": "The cashback amount must be numeric, must not be less than zero, and must be less than the Source Amount for U.S. domestic transactions.",
+              "after": "The cashback amount must be numeric, must not be less than zero, and must be less than or equal to the Source Amount for U.S. domestic transactions.",
+              "reason": "El cambio modifica la condición de validación para que el cashback amount sea menor o igual que el Source Amount, en lugar de menor, lo que altera la lógica de negocio.",
+              "flagged": false
+            }
+          ]
+        },
+        {
+          "group_title": "`V1098` — CASHBACK MUST BE LESS THAN OR EQUAL TO SOURCE AMOUNT",
+          "items": [
+            {
+              "location": "Título",
+              "before": "CASHBACK MUST BE LESS THAN SOURCE AMOUNT FOR PURCHASE AND CREDIT VOUCHER TRANSACTIONS",
+              "after": "CASHBACK MUST BE LESS THAN OR EQUAL TO SOURCE AMOUNT",
+              "reason": "El mensaje original especificaba que el cashback debe ser menor que el monto fuente, mientras que el nuevo mensaje indica que debe ser menor o igual, lo que cambia la condición de validación.",
+              "flagged": false
+            },
+            {
+              "location": "Description",
+              "before": "For AP, CEMEA, and EU transactions, the cashback amount must be less than the source amount. Europe regional transactions submitted with issuer, acquirer, or merchant from UK or Ireland are excluded from this edit. South Africa NNSS transactions are excluded from this edit.",
+              "after": "For AP, Canada, CEMEA, EU, and cross-border transactions, the cashback amount must be less than or equal to the source amount.",
+              "reason": "El cambio modifica la condición de validación al incluir transacciones cruzadas y especificar que el cashback debe ser menor o igual que el source amount, en lugar de menor, además de excluir transacciones específicas en la versión antigua.",
+              "flagged": false
+            },
+            {
+              "location": "Action",
+              "before": "Verify that the Cashback amount is less than the Source amount.",
+              "after": "Verify that the Cashback amount is less than or equal to the Source amount.",
+              "reason": "El cambio modifica la condición de validación de que el Cashback debe ser menor o igual que el Source amount, en lugar de menor, lo que altera la lógica de negocio.",
+              "flagged": false
+            }
+          ]
+        }
+      ],
+      "top_items": [
+        {
+          "location": "`BASE II System` — BASE II System — Description",
+          "before": "An electronic batch transmission system primarily used for the exchange of Visa interchange transaction data and for settlement of the value of those transactions between acquirers and issuers. This system is also used by centers to retrieve records from the Advice File and by Visa to settle various fees with clients.",
+          "after": "An international electronic batch transmission system primarily used for the exchange of Visa interchange transaction data and for settlement of the value of those transactions between acquirers and issuers. Processing centers use this system to retrieve records from the Advice File. Visa uses the system to settle fees with clients.",
+          "reason": "El texto nuevo especifica que es un sistema internacional y modifica el uso de los centros de procesamiento y Visa para la retención de registros y cobros, lo que cambia el significado de negocio.",
+          "flagged": false
+        },
+        {
+          "location": "`V0173` — CASHBACK AMOUNT MUST BE LESS THAN OR EQUAL TO SOURCE AMOUNT — Título",
+          "before": "CASHBACK AMOUNT MUST BE LESS THAN SOURCE AMOUNT",
+          "after": "CASHBACK AMOUNT MUST BE LESS THAN OR EQUAL TO SOURCE AMOUNT",
+          "reason": "El mensaje original indicaba que la cantidad de cashback debe ser menor que la cantidad fuente, mientras que la nueva versión establece que debe ser menor o igual, lo que cambia la condición de validación.",
+          "flagged": false
+        },
+        {
+          "location": "`V0173` — CASHBACK AMOUNT MUST BE LESS THAN OR EQUAL TO SOURCE AMOUNT — Description",
+          "before": "The cashback amount must be numeric and must be less than the Source Amount for Canada domestic transactions.",
+          "after": "The cashback amount must be numeric and must be less than or equal to the Source Amount for Canada domestic transactions.",
+          "reason": "El cambio modifica la condición de validación de que el cashback debe ser menor o igual que el Source Amount en lugar de menor, lo que altera el rango de valores permitidos.",
+          "flagged": false
+        }
+      ],
+      "slug": "base_ii_clearing_edit_package_messages",
+      "title": "BASE II Clearing Edit Package Messages",
+      "is_new_since_last_publish": false
+    },
+    {
+      "edition_a": "20251018",
+      "edition_b": "20260418",
+      "headline": {
+        "label": "Cambios de negocio a revisar",
+        "value": 91
+      },
+      "secondary": [
+        {
+          "label": "Transiciones Reserved↔definido",
+          "value": 8
+        },
+        {
+          "label": "Secciones agregadas",
+          "value": 4
+        },
+        {
+          "label": "Secciones eliminadas",
+          "value": 1
+        }
+      ],
+      "groups": [
+        {
+          "group_title": "Reserved → definido — TC 04 - TCR 9",
+          "items": [
+            {
+              "location": "Posición `151-168` (Reserved) se partió",
+              "before": "`151-168` Reserved",
+              "after": "`151-153` VFC Reclassification Reason. Reserved restante: 154-168 Reserved",
+              "reason": "Confirmado en grilla y ficha.",
+              "flagged": false
+            }
+          ]
+        },
+        {
+          "group_title": "Reserved → definido — TC 05 - TCR 2 Colombia",
+          "items": [
+            {
+              "location": "Posición `5-16`",
+              "before": "Reserved",
+              "after": "Tip Amount",
+              "reason": "Confirmado en grilla y ficha.",
+              "flagged": false
+            }
+          ]
+        },
+        {
+          "group_title": "Reserved → definido — TC 33 - TCR 1 BASE II Clearing and Settlement Advice",
+          "items": [
+            {
+              "location": "Posición `161-168`",
+              "before": "Reserved",
+              "after": "Payment Facilitator ID",
+              "reason": "Confirmado en grilla y ficha.",
+              "flagged": false
+            }
+          ]
+        },
+        {
+          "group_title": "Reserved → definido — TC 33.A - CP 04 TCR 0 Level II Data",
+          "items": [
+            {
+              "location": "Posición `99-168` (Reserved) se partió",
+              "before": "`99-168` Reserved",
+              "after": "`99` Merchant CEDP Verified Indicator. Reserved restante: 100-168 Reserved",
+              "reason": "Confirmado en grilla y ficha.",
+              "flagged": false
+            }
+          ]
+        },
+        {
+          "group_title": "Reserved → definido — TC 33.A - CP 09 TCR 4 - Recipient Name (Split)",
+          "items": [
+            {
+              "location": "Posición `110-168` (Reserved) se partió",
+              "before": "`110-168` Reserved",
+              "after": "`110-117` Payee Date of Birth. Reserved restante: 118-137 Reserved, 138-139 Reserved, 140-168 Reserved",
+              "reason": "Confirmado en grilla y ficha.",
+              "flagged": false
+            }
+          ]
+        },
+        {
+          "group_title": "Reserved → definido — TC 33.A - CP 12 TCR 1 Merchant Data",
+          "items": [
+            {
+              "location": "Posición `149-168` (Reserved) se partió",
+              "before": "`149-168` Reserved",
+              "after": "`149-160` Foreign Retailer Transaction Amount. Reserved restante: 161-168 Reserved",
+              "reason": "Confirmado en grilla y ficha.",
+              "flagged": false
+            }
+          ]
+        },
+        {
+          "group_title": "Reserved → definido — TC 33.A - CP 12 TCR 5 Transaction Data",
+          "items": [
+            {
+              "location": "Posición `148-168` (Reserved) se partió",
+              "before": "`148-168` Reserved",
+              "after": "`148-157` Mastercard - Service Location Postal Code. Reserved restante: 158-168 Reserved",
+              "reason": "Confirmado en grilla y ficha.",
+              "flagged": false
+            }
+          ]
+        },
+        {
+          "group_title": "Definido → Reserved — TC 33.A - CP 12 TCR 2 Merchant Data",
+          "items": [
+            {
+              "location": "Posición `5-34`",
+              "before": "Mastercard - Account Level Management Service Data",
+              "after": "Reserved",
+              "reason": "Confirmado en grilla y ficha.",
+              "flagged": false
+            }
+          ]
+        },
+        {
+          "group_title": "TC 05 - TCR 0",
+          "items": [
+            {
+              "location": "`133-136` — Merchant Category Code · Ficha (description)",
+              "before": "Indicates merchant’s type of business product or service. The field must contain a valid four-digit numeric Merchant Category Code (MCC). For Reimbursement Attribute 1, 2, G, or H, the entry must be 6011. National—U.S.: MCCs 5962, 5966, and 5967 cannot be submitted with l Reimbursement Attribute A, D or J. MCCs 5962 or 5964 – 5969 cannot be submitted with a Requested l Payment Service (RPS) of A, an Authorization Characteristic Indicator (ACI) of A or E, and a POS Entry Mode of 01 or 10. Only MCC 5411 is valid on Supermarket transactions (Reimbursement l Attribute 4). VIC Edits: MCC 6010 and 6011 are invalid for original sales drafts and credit l vouchers and their reversals. For custom payment service original purchase transactions and their l reversals and Electronic Data Quality Program transactions, this field must have the same contents as in the Authorization Request (V.I.P. Field 18 converted to unpacked numeric). If multiple authorizations and/or an authorization reversal were submitted, this field must contain the Merchant Category Code from the first authorization response. For the CPS/Automated Fuel Dispenser custom payment service, the l MCC must be 5542. For the CPS/ATM custom payment service, the MCC must be 6011. l VIC Edit, National—Brazil: To qualify for the CPS/Retail-Petrol PSIRF, the MCC must be 5541. l To qualify for the CPS/Restaurant PSIRF, the MCC must be 5812 or l 5814. VIC Edit, National—U.S.: Only MCCs 7523, and 7832 are valid on EPS transactions (Reimbursement Attribute 3). VIC Edit, National—Malaysia and Macau: Only MCCs 5814, 4784 and 7832 are valid on EPS transactions (Reimbursement Attribute 3). VIC Edit, National—Hong Kong*, Australia, New Zealand, Thailand, India and Indonesia: Only MCCs 4784, 5813, 7523, and 7832 are valid on EPS transactions (Reimbursement Attribute 3). *MCC 8062 is also valid for EPS transactions as of August 17, 2002. VIC Edit, Intraregional AP: Only MCCs 4784, 5814, 7523 and 7832 are valid on EPS transactions (Reimbursement Attribute 3).",
+              "after": "Indicates merchant’s type of business product or service. The field must contain a valid four-digit numeric Merchant Category Code (MCC). For Reimbursement Attribute 1, 2, G, or H, the entry must be 6011. National—U.S.: ●MCCs 5962, 5966, and 5967 cannot be submitted with Reimbursement Attribute A, D or J. ●MCCs 5962 or 5964 – 5969 cannot be submitted with a Requested Payment Service (RPS) of A, an Authorization Characteristic Indicator (ACI) of A or E, and a POS Entry Mode of 01 or 10. ●Only MCC 5411 is valid on Supermarket transactions (Reimbursement Attribute 4). VIC Edits: ●MCC 6010 and 6011 are invalid for original sales drafts and credit vouchers and their reversals. ●For custom payment service original purchase transactions and their reversals and Electronic Data Quality Program transactions, this field must have the same contents as in the Authorization Request (V.I.P. Field 18 converted to unpacked numeric). If multiple authorizations and/or an authorization reversal were submitted, this field must contain the Merchant Category Code from the first authorization response. ●For the CPS/Automated Fuel Dispenser custom payment service, the MCC must be 5542. ●For the CPS/ATM custom payment service, the MCC must be 6011. VIC Edit, National—Brazil: ●To qualify for the CPS/Retail-Petrol PSIRF, the MCC must be 5541. ●To qualify for the CPS/Restaurant PSIRF, the MCC must be 5812 or 5814. VIC Edit, National—U.S.: Only MCCs 7523, and 7832 are valid on EPS transactions (Reimbursement Attribute 3). VIC Edit, National—Malaysia and Macau: Only MCCs 5814, 4784 and 7832 are valid on EPS transactions (Reimbursement Attribute 3). VIC Edit, National—Hong Kong*, Australia, New Zealand, Thailand, India and Indonesia: Only MCCs 4784, 5813, 7523, and 7832 are valid on EPS transactions (Reimbursement Attribute 3). *MCC 8062 is also valid for EPS transactions as of August 17, 2002. VIC Edit, Intraregional AP: Only MCCs 4784, 5814, 7523 and 7832 are valid on EPS transactions (Reimbursement Attribute 3). See the Visa Core Rules and Visa Product and Service Rules or the Visa Merchant Data Standards Manual for valid codes. Dispute Financials, Dispute Financial Reversals The field must be the same as in the original transaction.",
+              "reason": "La edición nueva añade una restricción adicional que el campo debe ser el mismo que en la transacción original en disputas financieras, lo que modifica el significado del campo.",
+              "flagged": false
+            },
+            {
+              "location": "`133-136` — Merchant Category Code · Ficha (note)",
+              "before": "See the Visa Core Rules and Visa Product and Service Rules or the Visa Merchant Data Standards Manual for valid codes. Dispute Financials, Dispute Financial Reversals The field must be the same as in the original transaction.",
+              "after": "",
+              "reason": "El texto antiguo especificaba que el Merchant Category Code debe coincidir con la transacción original, mientras que el nuevo texto está vacío, lo que implica una redefinición del campo.",
+              "flagged": false
+            },
+            {
+              "location": "`150` — Settlement Flag · Ficha (description)",
+              "before": "Indicates the service used for settlement. The field must contain 0, 3, 8, or 9 per the permitted entries shown below. If the entry is 8, the Source Currency Code must be the currency of the national settlement service. National—U.S.: The field must contain a 0, 3, or 9. National—Japan: This field must contain a 0, 8, or 9. If this field contains an 8 on purchase and credit transactions, a TCR 2 must be present. National—Mexico: This field must contain a 0, 8, or 9. If this field contains an 8 on purchase and credit transactions, a TCR 2 must be present. National—Sweden: The field must contain a 3 or 8 and a TCR 2 must be present.",
+              "after": "Indicates the service used for settlement. The field must contain 0, 3, 8, or 9 per the permitted entries shown below. If the entry is 8, the Source Currency Code must be the currency of the national settlement service. National—U.S.: The field must contain a 0, 3, or 9. National—Japan: This field must contain a 0, 8, or 9. If this field contains an 8 on purchase and credit transactions, a TCR 2 must be present. National—Mexico: This field must contain a 0, 8, or 9. If this field contains an 8 on purchase and credit transactions, a TCR 2 must be present. National—Sweden: The field must contain a 3 or 8 and a TCR 2 must be present. This edit will continue to be performed by the Edit Package when the Bypass Business Edits option is used during an outgoing edit run. 0 = International settlement service 3 = Clearing only international settlement 4 = Clearing only national net settlement 8 = National Net settlement service (valid only for countries with defined service) 9 = BASE II selects the appropriate settlement service based on routing and country-defined default ●The card (ARDEF) range for this account must be designated as clearing-only and reside in the same country as the source identifier. ●Entries for the Source and Destination identifiers and account number fields will be edited the same as for non-clearing-only transactions. ●Source Currency code must be valid. ●Merchant Country Code must be valid. ●Source Amount must be numeric. ●Account Number must be valid. ●Account Number Extension must be numeric. ●Acquirer Reference Number must be valid. ●Usage Code must be valid. ●Central Processing Date must be valid.",
+              "reason": "La nueva edición añade detalles específicos de validación y requisitos adicionales para el campo, como el rango de ARDEF, validación de campos y condiciones para transacciones, lo que modifica las reglas de negocio.",
+              "flagged": false
+            },
+            {
+              "location": "`150` — Settlement Flag · Ficha (note)",
+              "before": "This edit will continue to be performed by the Edit Package when the Bypass Business Edits option is used during an outgoing edit run. 0 = International settlement service 3 = Clearing only international settlement 4 = Clearing only national net settlement 8 = National Net settlement service (valid only for countries with defined service) 9 = BASE II selects the appropriate settlement service based on routing and country-defined default The card (ARDEF) range for this account must be designated l as clearing-only and reside in the same country as the source identifier. Entries for the Source and Destination identifiers and account l number fields will be edited the same as for non-clearing-only transactions. Source Currency code must be valid. l Merchant Country Code must be valid. l Source Amount must be numeric. l Account Number must be valid. l Account Number Extension must be numeric. l Acquirer Reference Number must be valid. l Usage Code must be valid. l Central Processing Date must be valid. l",
+              "after": "",
+              "reason": "El texto nuevo está vacío, lo que indica un artefacto de extracción de PDF en lugar de un cambio real de contenido.",
+              "flagged": true
+            },
+            {
+              "location": "`152-157` — Authorization Code · Ficha (description)",
+              "before": "A code that an issuer, its authorizing processor, or Stand-In Processing (STIP) provides to indicate approval of a transaction. The code is returned in the Authorization Response and is usually recorded on the Transaction Receipt. The field must contain a six-position Authorization Code. Allowed entries are: Spaces l A through Z l 0 through 9 l Failure to pass this edit will result in the transaction being returned.",
+              "after": "A code that an issuer, its authorizing processor, or Stand-In Processing (STIP) provides to indicate approval of a transaction. The code is returned in the Authorization Response and is usually recorded on the Transaction Receipt. The field must contain a six-position Authorization Code. Allowed entries are: ●Spaces ●A through Z ●0 through 9 Failure to pass this edit will result in the transaction being returned. In addition to the edit for the allowed entries that determines the validity of a transaction, the following entries indicate that the transaction is considered unauthorized by the issuer (as defined in the Visa Core Rules and Visa Product and Service Rules): ●SVCxxx (where xxx is the service code from the magnetic stripe) ●00000 (in the last five positions of the field) ^^^^^ (in the last five positions of the field) ●0000N (in the last five positions of the field) ●0000^ (in the last five positions of the field) ●0000P (in the last five positions of the field) ●0000Y (in the last five positions of the field) An ●X (in the last position of the field) (^ = space) National—U.S.: 0000Y is invalid in the last five positions for EPS, and Supermarket original sales drafts and their reversals. VIC Edit: For custom payment service original purchase transactions and their reversals and Electronic Data Quality Program transactions, the Authorization Code must be the same as in the Authorization Response (V.I.P. Field 38). If multiple authorizations and/or an authori- zation reversal were submitted, this field must contain the Authorization Code from the first authorization response. VIC Edit, National—Germany: In order to qualify for Airline IRF, the last 5 digits must not be 0000N, 0000Y, 00000, 0000^, or ^^^^^. VIC Edit, Intraregional EU and Domestic EU: In order to qualify for Airline IRF, the last 5 digits must not be 0000N, 0000Y, 00000, 0000^, ^^^^^, SVCXXX, 0000P, or X in the last position. National—U.K.: Only authorized transactions may qualify for the CNP ’94 IRF rates. International Pre-PS2000 or Hungary Domestic: A transaction will be returned or reclassified if this field contains any of these values: ^^^^^ (in the last five positions of the field) 00000 (in the last five positions of the field) 0000^ (in the last five positions of the field) 0000N (in the last five positions of the field) (^ = space)",
+              "reason": "La edición nueva incluye reglas adicionales de validación específicas para diferentes regiones y tipos de transacciones, como el uso de códigos de autorización específicos para transacciones de avión, EPS y otros servicios, lo que modifica el significado de los valores permitidos.",
+              "flagged": false
+            },
+            {
+              "location": "`152-157` — Authorization Code · Ficha (note)",
+              "before": "In addition to the edit for the allowed entries that determines the validity of a transaction, the following entries indicate that the transaction is considered unauthorized by the issuer (as defined in the Visa Core Rules and Visa Product and Service Rules): SVCxxx (where xxx is the service code from the magnetic stripe) 00000 (in the last five positions of the field) ^^^^^ (in the last five positions of the field) 0000N (in the last five positions of the field) 0000^ (in the last five positions of the field) 0000P (in the last five positions of the field) 0000Y (in the last five positions of the field) An X (in the last position of the field) (^ = space) National—U.S.: 0000Y is invalid in the last five positions for EPS, and Supermarket original sales drafts and their reversals. VIC Edit: For custom payment service original purchase transactions and their reversals and Electronic Data Quality Program transactions, the Authorization Code must be the same as in the Authorization Response (V.I.P. Field 38). If multiple authorizations and/or an authorization reversal were submitted, this field must contain the Authorization Code from the first authorization response. VIC Edit, National—Germany: In order to qualify for Airline IRF, the last 5 digits must not be 0000N, 0000Y, 00000, 0000^, or ^^^^^. VIC Edit, Intraregional EU and Domestic EU: In order to qualify for Airline IRF, the last 5 digits must not be 0000N, 0000Y, 00000, 0000^, ^^^^^, SVCXXX, 0000P, or X in the last position. National—U.K.: Only authorized transactions may qualify for the CNP ’94 IRF rates. International Pre-PS2000 or Hungary Domestic: A transaction will be returned or reclassified if this field contains any of these values: ^^^^^ (in the last five positions of the field) 00000 (in the last five positions of the field) 0000^ (in the last five positions of the field) 0000N (in the last five positions of the field) (^ = space)",
+              "after": "",
+              "reason": "El texto antiguo define valores específicos de Authorization Code que son inválidos en diferentes contextos, mientras que el texto nuevo está vacío, lo que indica que se eliminó la regla de validación para estos valores, cambiando el significado de negocio.",
+              "flagged": false
+            },
+            {
+              "location": "`168` — Reimbursement Attribute · Ficha (description)",
+              "before": "This field must contain A through Z or 0 through 9. If 1, 2, G, or H is entered, the Merchant Category Code must be 6011 and the transaction must be a cash disbursement (TC 07, 17, 27, 37). If a 6, 7, or J is entered, the transaction cannot be a cash disbursement (TC 07, 17, 27, and 37). If a 7 is entered, the transaction cannot be an original purchased or credit voucher except in the EU region. If 8, 9, A, B, C, or J is entered, the transaction must be a sales draft (TC 05, 15, 25, 35) or a credit voucher (TC 06, 16, 26, 36). If A is entered, the transaction must be participating in a custom payment service (that is, the Authorization Characteristics Indicator cannot equal N). Regional—CEMEA: If C is entered, the MCC must be classified as an International Airline. VIC Edit, Intraregional EU and Domestic EU: C is valid for all airline MCCs for domestic and intraregional airline transactions. National—U.S.: If 4 is entered, the Merchant Category Code must be 5411. MCCs 5962, 5966, and 5967 cannot be submitted with a Reimbursement Attribute of A, D, or J. Transactions from U.S. acquirers for nonsecured electronic commerce (Moto/EC Indicator 8) must contain Reimbursement Attribute 0. VIC Edit: If A is entered, the transaction must meet all qualification criteria for the PSIRF rate. VIC Edit, National—U.S.: If 3 is entered, the Merchant Category Code must be valid for EPS transactions. VIC Edit, Regional—Asia Pacific: A 7 is not valid on original transactions (TC 05, 06, 25, 26; usage code 1). If 3 is entered, the Merchant Category Code must be valid for EPS transactions. VIC Edit, National—Malaysia, Hong Kong, Macau, Australia, New Zealand, Thailand, India, and Indonesia: If 3 is entered, the Merchant Category Code must be valid for EPS transactions.",
+              "after": "This field must contain A through Z or 0 through 9. If 1, 2, G, or H is entered, the Merchant Category Code must be 6011 and the transaction must be a cash disbursement (TC 07, 17, 27, 37). If a 6, 7, or J is entered, the transaction cannot be a cash disbursement (TC 07, 17, 27, and 37). If a 7 is entered, the transaction cannot be an original purchased or credit voucher except in the EU region. If 8, 9, A, B, C, or J is entered, the transaction must be a sales draft (TC 05, 15, 25, 35) or a credit voucher (TC 06, 16, 26, 36). If A is entered, the transaction must be participating in a custom payment service (that is, the Authorization Characteristics Indicator cannot equal N). Regional—CEMEA: If C is entered, the MCC must be classified as an International Airline. VIC Edit, Intraregional EU and Domestic EU: C is valid for all airline MCCs for domestic and intraregional airline transactions. National—U.S.: If 4 is entered, the Merchant Category Code must be 5411. MCCs 5962, 5966, and 5967 cannot be submitted with a Reimbursement Attribute of A, D, or J. Transactions from U.S. acquirers for nonsecured electronic commerce (Moto/EC Indicator 8) must contain Reimbursement Attribute 0. VIC Edit: If A is entered, the transaction must meet all qualification criteria for the PSIRF rate. VIC Edit, National—U.S.: If 3 is entered, the Merchant Category Code must be valid for EPS transactions. VIC Edit, Regional—Asia Pacific: A 7 is not valid on original transactions (TC 05, 06, 25, 26; usage code 1). If 3 is entered, the Merchant Category Code must be valid for EPS transactions. VIC Edit, National—Malaysia, Hong Kong, Macau, Australia, New Zealand, Thailand, India, and Indonesia: If 3 is entered, the Merchant Category Code must be valid for EPS transactions. Refer to BASE II Clearing Data Codes for Reimbursement Attribute definitions.",
+              "reason": "La nueva edición añade una referencia a la documentación BASE II Clearing Data Codes para definiciones de Reimbursement Attribute, lo que modifica el contexto de validación del campo.",
+              "flagged": false
+            },
+            {
+              "location": "`168` — Reimbursement Attribute · Ficha (note)",
+              "before": "Refer to BASE II Clearing Data Codes for Reimbursement Attribute definitions.",
+              "after": "",
+              "reason": "El texto en la edición nueva está vacío, lo que sugiere un artefacto de extracción de PDF en lugar de un cambio real de contenido.",
+              "flagged": true
+            },
+            {
+              "location": "`38-48` — Acquirer Reference Number— Film Locator · Ficha (name)",
+              "before": "Film Locator",
+              "after": "Acquirer Reference Number— Film Locator",
+              "reason": "El campo se redefinio para incluir el nombre completo del campo en lugar de solo su identificador.",
+              "flagged": false
+            },
+            {
+              "location": "`92-116` — Merchant Name · Ficha (description)",
+              "before": "Name of the merchant in the original transaction. The first position in this field cannot be a space. VIC Edit: Entries must not exceed 25 characters. For entries less than 25, space-fill after the last character. Refer to the Visa Core Rules and Visa Product and Service Rules for any special requirements regarding the use of the Merchant Name field.",
+              "after": "Name of the merchant in the original transaction. The first position in this field cannot be a space. VIC Edit: Entries must not exceed 25 characters. For entries less than 25, space-fill after the last character. Refer to the Visa Core Rules and Visa Product and Service Rules for any special requirements regarding the use of the Merchant Name field. Some airline fee programs may require the original ticket number (ticket identifier) or the ancillary service description in positions 13 through 25 of the merchant name. VisaPhone transactions (MCC 4815) must be in the following format: Dispute Response Financials The field must be the same as in the original transaction unless a correction is required to resolve a dispute financial. Dispute Financials, Reversals The entry must be the same as in the original transaction.",
+              "reason": "La nueva edición añade restricciones específicas para programas de tarifas aéreas y transacciones VisaPhone, modificando las reglas de negocio para el campo Merchant Name.",
+              "flagged": false
+            },
+            {
+              "location": "`92-116` — Merchant Name · Ficha (note)",
+              "before": "Some airline fee programs may require the original ticket number (ticket identifier) or the ancillary service description in positions 13 through 25 of the merchant name. VisaPhone transactions (MCC 4815) must be in the following format: Dispute Response Financials The field must be the same as in the original transaction unless a correction is required to resolve a dispute financial. Dispute Financials, Reversals The entry must be the same as in the original transaction.",
+              "after": "",
+              "reason": "El texto antiguo especifica que VisaPhone transactions (MCC 4815) deben seguir un formato particular en el campo Merchant Name, mientras que el texto nuevo está vacío, lo que implica una redefinición del campo o una condición de negocio que cambió.",
+              "flagged": false
+            }
+          ]
+        },
+        {
+          "group_title": "TC 05 - TCR 2 Argentina",
+          "items": [
+            {
+              "location": "`26-37` — Installment Payment Interest Amount · Ficha (description)",
+              "before": "This field must contain the installment payment interest amount. This field must contain all zeros, when the value of payment indicator in positions 20–21 contains one of the following: CC l CO l CR l PA l For cash disbursement, Visa will default to zeros.",
+              "after": "This field must contain the installment payment interest amount. This field must contain all zeros, when the value of payment indicator in positions 20–21 contains one of the following: ●CC ●CO ●CR ●PA For cash disbursement, Visa will default to zeros.",
+              "reason": "El texto describe lo mismo pero con formato de lista más claro y sin espacios en los códigos.",
+              "flagged": true
+            },
+            {
+              "location": "`70-75` — Deferred Cardholder Billing Date · Ficha (description)",
+              "before": "This field will contain the deferred cardholder billing date in the yymmdd format, where: yy (Year) = 00–99 l mm (Month) = 01–12 l dd (Day) = 01–31 l This field must be present when the payment indicator in positions 20– 21 contains one of the following values: AD l CD l PA l Additionally, this field must not be submitted earlier than the CPD. For all other values of Payment Indicator in positions 20–21, this field must contain all zeros.",
+              "after": "This field will contain the deferred cardholder billing date in the yymmdd format, where: ●yy (Year) = 00–99 ●mm (Month) = 01–12 ●dd (Day) = 01–31 This field must be present when the payment indicator in positions 20– 21 contains one of the following values: ●AD ●CD ●PA Additionally, this field must not be submitted earlier than the CPD. For all other values of Payment Indicator in positions 20–21, this field must contain all zeros.",
+              "reason": "El texto describe el mismo contenido pero con formato de lista y puntos para mejorar la legibilidad, sin cambios en el significado o reglas de negocio.",
+              "flagged": true
+            }
+          ]
+        },
+        {
+          "group_title": "TC 05 - TCR 2 Colombia",
+          "items": [
+            {
+              "location": "`20-31` — Amount Base of Add Value Tax to Return · Grilla (Position)",
+              "before": "88–95",
+              "after": "20–31",
+              "reason": "El rango de posiciones del campo cambia de 88-95 a 20-31, lo que redefine su posición en el mensaje y afecta el cálculo del valor de negocio.",
+              "flagged": false
+            },
+            {
+              "location": "`20-31` — Amount Base of Add Value Tax to Return · Grilla (Field Length)",
+              "before": "8",
+              "after": "12",
+              "reason": "El campo de longitud cambia de 1 a 12 bytes, lo que implica un cambio en la cantidad de datos que se espera para el valor de la tarjeta de crédito en Colombia.",
+              "flagged": false
+            },
+            {
+              "location": "`20-31` — Amount Base of Add Value Tax to Return · Ficha (positions)",
+              "before": "88–95",
+              "after": "20–31",
+              "reason": "El rango de posiciones del campo cambia de 88-95 a 20-31, lo que redefine el layout del mensaje y afecta la interpretación del campo en el formato de intercambio.",
+              "flagged": false
+            },
+            {
+              "location": "`20-31` — Amount Base of Add Value Tax to Return · Ficha (length)",
+              "before": "8",
+              "after": "12",
+              "reason": "El campo 'length' cambia de 8 a 12 bytes, lo que implica un cambio en la longitud válida del campo de valor de la tarjeta, afectando la estructura de datos y el significado del mensaje.",
+              "flagged": false
+            },
+            {
+              "location": "`3` — Transaction Code Qualifier · Ficha (description)",
+              "before": "The field must contain one of these values: 0 = Default 1 = Account Funding 2 = Original Credit",
+              "after": "The field must contain one of these values: 0 = Default 1 = Account Funding 2 = Original Credit This edit will continue to be performed by the Edit Package when the Bypass Business Edits option is used during an outgoing edit run.",
+              "reason": "La nueva edición añade una condición adicional sobre el uso del Edit Package y la opción Bypass Business Edits, lo que modifica el comportamiento del campo en situaciones específicas.",
+              "flagged": false
+            },
+            {
+              "location": "`3` — Transaction Code Qualifier · Ficha (note)",
+              "before": "This edit will continue to be performed by the Edit Package when the Bypass Business Edits option is used during an outgoing edit run.",
+              "after": "",
+              "reason": "El texto nuevo está vacío, lo que sugiere un artefacto de extracción en lugar de un cambio real de contenido.",
+              "flagged": true
+            },
+            {
+              "location": "`32-43` — Consumption Tax Amount · Grilla (Position)",
+              "before": "96–104",
+              "after": "32–43",
+              "reason": "El rango de posición del campo de Consumo de Impuesto cambió de 96-104 a 32-43, lo que implica una redefinición del layout del mensaje.",
+              "flagged": false
+            },
+            {
+              "location": "`32-43` — Consumption Tax Amount · Grilla (Field Length)",
+              "before": "9",
+              "after": "12",
+              "reason": "El campo de longitud del monto de impuesto de consumo cambió de 1 a 2 bytes, lo que implica un cambio en la validación de datos y el rango de valores permitidos.",
+              "flagged": false
+            },
+            {
+              "location": "`32-43` — Consumption Tax Amount · Ficha (positions)",
+              "before": "96–104",
+              "after": "32–43",
+              "reason": "El rango de posiciones del campo de impuesto de consumo cambió de 96-104 a 32-43, lo que redefine su ubicación en el mensaje.",
+              "flagged": false
+            },
+            {
+              "location": "`32-43` — Consumption Tax Amount · Ficha (length)",
+              "before": "9",
+              "after": "12",
+              "reason": "El campo 'length' cambia de 1 a 2 bytes, lo que implica un cambio en la longitud del campo de consumo de impuestos, afectando la validación y estructura de los mensajes.",
+              "flagged": false
+            },
+            {
+              "location": "`32-43` — Consumption Tax Amount · Ficha (description)",
+              "before": "Optional. This field will contain the National Consumption Tax and is applicable for the following goods and services. Mobile Services l Motor vehicles, boats, airplane l Sale of food and beverages l This field should be right-justified. Two decimal places are implied. This field should be zero-filled when the information is not present. Outgoing: The Edit Package will insert zeros in this field if the value is not numeric.",
+              "after": "Optional. This field will contain the National Consumption Tax and is applicable for the following goods and services. ●Mobile Services ●Motor vehicles, boats, airplane ●Sale of food and beverages This field should be right-justified. Two decimal places are implied. This field should be zero-filled when the information is not present.",
+              "reason": "El texto se reescribió para eliminar los puntos y usar viñetas, manteniendo el mismo significado.",
+              "flagged": true
+            },
+            {
+              "location": "`44-55` — Add Value Tax Amount · Grilla (Position)",
+              "before": "105–113",
+              "after": "44–55",
+              "reason": "El rango de posición del campo cambia de 105-113 a 44-55, lo que redefine su ubicación en el mensaje y afecta el formato de intercambio.",
+              "flagged": false
+            },
+            {
+              "location": "`44-55` — Add Value Tax Amount · Grilla (Field Length)",
+              "before": "9",
+              "after": "12",
+              "reason": "El campo de longitud cambia de 1 a 12 bytes, lo que implica un cambio en la cantidad de datos que se procesa, afectando la validación y el formato del mensaje.",
+              "flagged": false
+            },
+            {
+              "location": "`44-55` — Add Value Tax Amount · Ficha (positions)",
+              "before": "105–113",
+              "after": "44–55",
+              "reason": "El rango de posiciones del campo cambia de 105-113 a 44-55, lo que redefine el layout del mensaje y afecta la estructura de datos.",
+              "flagged": false
+            },
+            {
+              "location": "`44-55` — Add Value Tax Amount · Ficha (length)",
+              "before": "9",
+              "after": "12",
+              "reason": "El campo 'length' cambia de 9 a 12 bytes, lo que implica un cambio en la longitud válida del campo de valor fiscal, afectando la estructura de datos y el significado del mensaje.",
+              "flagged": false
+            }
+          ]
+        },
+        {
+          "group_title": "TC 05 - TCR 2 Japan",
+          "items": [
+            {
+              "location": "`139` — Net/Gross Flag · Ficha (description)",
+              "before": "Indicates net or gross amount. The entry must be numeric.",
+              "after": "Indicates net or gross amount. The entry must be numeric. 1, 2, 8 or 9 must be set. If not used, set 1 (no space or 0).",
+              "reason": "La nueva edición especifica que deben establecerse valores 1, 2, 8 o 9, y si no se usa el campo debe ser 1 (sin espacio o 0), lo que modifica la regla de negocio respecto a los valores permitidos.",
+              "flagged": false
+            },
+            {
+              "location": "`139` — Net/Gross Flag · Ficha (note)",
+              "before": "1, 2, 8 or 9 must be set. If not used set 1 (no space or 0).",
+              "after": "",
+              "reason": "La edición vieja especificaba que debe ser 1, 2, 8 o 9, mientras que la nueva está vacía, lo que implica una redefinición del campo sin condiciones válidas.",
+              "flagged": false
+            },
+            {
+              "location": "`160-167` — Acquirer's Invoice Amount · Ficha (description)",
+              "before": "The net value of the transaction after applying the Interchange Reimbursement Fee. The entry must be numeric.",
+              "after": "The net value of the transaction after applying calculated Interchange Reimbursement Fee Incoming: The entry must be zero-filled. Outgoing: The field will contain the net value of the transaction after applying the Interchange Reimbursement Fee calculated by clearing.",
+              "reason": "El texto nuevo especifica que el campo debe ser cero rellenado para entradas entrantes y contiene el valor calculado para salidas, mientras que la versión anterior solo requería ser numérico.",
+              "flagged": false
+            },
+            {
+              "location": "`26-33` — Net Sales Amount · Ficha (description)",
+              "before": "This field must contain the sales amount of the goods and service before tax and mailing charges. The entry must be numeric.",
+              "after": "This field must contain the sales amount of the goods and service before tax and mailing charges. The entry must be numeric. If the Tax and Mailing Charge is zero, this value should be equal to TCR 0 Source Amount.",
+              "reason": "La nueva edición añade una condición específica que el valor debe coincidir con el TCR 0 Source Amount si el Tax and Mailing Charge es cero, lo que modifica la lógica de negocio.",
+              "flagged": false
+            },
+            {
+              "location": "`26-33` — Net Sales Amount · Ficha (note)",
+              "before": "If the Tax and Mailing Charge is zero, this value should be equal to TCR 0 Source Amount.",
+              "after": "",
+              "reason": "La edición nueva elimina la condición de que el valor debe ser igual al TCR 0 Source Amount cuando el Tax and Mailing Charge es cero, lo que cambia la regla de negocio.",
+              "flagged": false
+            },
+            {
+              "location": "`34-41` — Tax and Mailing Charge · Ficha (description)",
+              "before": "Tax and mailing charge portion of transaction. The entry must be numeric and may be zeros.",
+              "after": "Tax and mailing charge portion of transaction. The entry must be numeric and may be zeros. * TCR 2 Net Sales Amount (position 26–33) + Tax and Mailing Charge (34–41) = TCR 0 Source Amount (= Destination Amount).",
+              "reason": "La nueva edición añade una regla de negocio que relaciona TCR 2 Net Sales Amount con Tax and Mailing Charge para calcular TCR 0 Source Amount, modificando la lógica de validación.",
+              "flagged": false
+            },
+            {
+              "location": "`34-41` — Tax and Mailing Charge · Ficha (note)",
+              "before": "* TCR 2 Net Sales Amount (position 26–33) + Tax and Mailing Charge (34–41) = TCR 0 Source Amount (= Destination Amount).",
+              "after": "",
+              "reason": "El texto antiguo define una relación matemática entre campos que ahora está vacío, lo que implica que la regla de negocio cambió significativamente.",
+              "flagged": false
+            },
+            {
+              "location": "`42-58` — Sales Draft Reference Number · Ficha (description)",
+              "before": "Reference number of the sales draft. The entry must be numeric.",
+              "after": "Reference number of the sales draft. The entry must be numeric. First 4 byte = MMDD. May copy from TCR 0 Purchase Date (position 58– 61) to first 4 byte.",
+              "reason": "La nueva edición especifica que los primeros 4 bytes deben ser MMDD y puede copiarse de la fecha de compra en TCR 0, lo que redefine la validación del campo.",
+              "flagged": false
+            },
+            {
+              "location": "`42-58` — Sales Draft Reference Number · Ficha (note)",
+              "before": "First 4 byte = MMDD. May copy from TCR 0 Purchase Date (position 58–61) to first 4 byte.",
+              "after": "",
+              "reason": "El texto nuevo está vacío, lo que sugiere un artefacto de extracción de PDF en lugar de un cambio real de contenido.",
+              "flagged": true
+            }
+          ]
+        },
+        {
+          "group_title": "TC 05 - TCR 5 Payment Service Data",
+          "items": [
+            {
+              "location": "`149` — Spend Qualified Indicator · Ficha (description)",
+              "before": "This field indicates whether the account is Spend Qualified or not. VIC Edit: Visa will include the appropriate value in this field. This field will contain; B (Base spend assessment threshold defined by Visa has been met.) l Q (Spend assessment threshold defined by Visa has been met.) l N (Spend assessment threshold defined by Visa has not been met.) l Space (Spend processing does not apply (Not applicable).) l J Not Qualified Tier 5 l K Not Qualified Tier 4 l L Not Qualified Tier 3 l M Not Qualified Tier 2 l R Qualified Tier 2 l S Qualified Tier 3 l T Qualified Tier 4 l U Qualified Tier 5 l V Qualified Tier 6 l W Qualified Tier 7 l 1 Tier 1 - Spend assessment threshold defined by Visa has been met l 2 Tier 2 - Spend assessment threshold defined by Visa has been met l 3 Tier 3 - Spend assessment threshold defined by Visa has been met l 4 Tier 4 - Spend assessment threshold defined by Visa has been met l 5 Tier 5 - Spend assessment threshold defined by Visa has been met l Acquirers can choose to receive spend qualified indicator reclassifi­ cations by submitting nonspace values in this field. Acquirers that choose not to receive spend qualified indicator reclassifi­ cations should submit space in this field.",
+              "after": "This field indicates whether the account is Spend Qualified or not. VIC Edit: Visa will include the appropriate value in this field. This field will contain; ●B (Base spend assessment threshold defined by Visa has been met.) ●Q (Spend assessment threshold defined by Visa has been met.) ●N (Spend assessment threshold defined by Visa has not been met.) ●Space (Spend processing does not apply (Not applicable).) ●J Not Qualified Tier 5 ●K Not Qualified Tier 4 ●L Not Qualified Tier 3 ●M Not Qualified Tier 2 ●R Qualified Tier 2 ●S Qualified Tier 3 ●T Qualified Tier 4 ●U Qualified Tier 5 ●V Qualified Tier 6 ●W Qualified Tier 7 ●1 Tier 1 - Spend assessment threshold defined by Visa has been met ●2 Tier 2 - Spend assessment threshold defined by Visa has been met ●3 Tier 3 - Spend assessment threshold defined by Visa has been met ●4 Tier 4 - Spend assessment threshold defined by Visa has been met ●5 Tier 5 - Spend assessment threshold defined by Visa has been met Acquirers can choose to receive spend qualified indicator reclassifi- cations by submitting nonspace values in this field. Acquirers that choose not to receive spend qualified indicator reclassifi- cations should submit space in this field.",
+              "reason": "El texto solo cambió los puntos de lista de los valores con asteriscos en lugar de puntos y corrigió un espacio extra en 'reclassifi- cations' para mantener la coherencia en el formato de texto.",
+              "flagged": true
+            }
+          ]
+        },
+        {
+          "group_title": "TC 05 - TCR 6 Limited-Use Data",
+          "items": [
+            {
+              "location": "`157` — Applied Special Service · Ficha (description)",
+              "before": "This field will contain VDCAP Indicator from acquirer. This field will contain a value of 1 (VDCAP). 1 = VDCAP Space = Default",
+              "after": "This field will contain the Digital Commerce Authentication Program (DCAP) Indicator from acquirer. This field will contain a value of 1 (DCAP). 1 = DCAP Space = Default",
+              "reason": "El campo se redefinio de VDCAP a DCAP, cambiando el significado técnico y el valor de negocio.",
+              "flagged": false
+            }
+          ]
+        },
+        {
+          "group_title": "TC 20 - TCR 0",
+          "items": [
+            {
+              "location": "`77-146` — Message Text · Ficha (name)",
+              "before": "Message Text Field for Reason Code 0300",
+              "after": "Message Text",
+              "reason": "El texto describe el mismo concepto pero con una redacción más simple y directa, eliminando detalles específicos como el código de razón.",
+              "flagged": true
+            },
+            {
+              "location": "`77-146` — Message Text · Ficha (description)",
+              "before": "This field can be used for a text message for transactions with a Reason Code of 0300. This field is used only in Brazil and Canada Bill Payment Service.",
+              "after": "This field can be used for a freeform text message or for required information. In a Funds Disbursement Reason Code 0300 transaction (Bill Payment Service for Brazil and Canada only), this field must not contain all spaces. In a Funds Disbursement Reason Code 5220 or 5230, the message text contains transaction reconciliation data for the Commercial Enhanced Data Program (CEDP). Refer to the Commercial Enhanced Data Program Guide U.S. – Visa Commercial Solutions for further details.",
+              "reason": "El texto define nuevas reglas de uso para el campo en transacciones específicas (Reason Code 0300, 5220, 5230) y establece requisitos adicionales como evitar espacios en blanco y contenido de CEDP, lo que cambia el significado operativo del campo.",
+              "flagged": false
+            }
+          ]
+        },
+        {
+          "group_title": "TC 33 - TCR 0 Universal Biller File Table Header",
+          "items": [
+            {
+              "location": "`4` — Transaction Component Sequence Number · Ficha (name)",
+              "before": "Transaction Code Qualifier Number",
+              "after": "Transaction Component Sequence Number",
+              "reason": "El campo se redefinio de 'Transaction Code Qualifier Number' a 'Transaction Component Sequence Number', cambiando su significado técnico y de negocio.",
+              "flagged": false
+            }
+          ]
+        },
+        {
+          "group_title": "TC 33 - TCR 1 BASE II Clearing and Settlement Advice",
+          "items": [
+            {
+              "location": "`21-30` — Merchant Verification Value · Ficha (description)",
+              "before": "This field will contain the merchant verification value (MVV) that was assigned to the merchant.",
+              "after": "This field will contain the merchant verification value (MVV) that was assigned to the merchant. ●Values: A-F, 0-9 ●Default value: spaces",
+              "reason": "La nueva edición añade reglas de valores (A-F, 0-9) y un valor predeterminado (espacios), modificando las reglas de negocio del campo.",
+              "flagged": false
+            },
+            {
+              "location": "`21-30` — Merchant Verification Value · Ficha (values)",
+              "before": "A-F, 0-9 l Default value: spaces l",
+              "after": "",
+              "reason": "El valor predeterminado cambió de espacios a vacío, lo que implica una redefinición del comportamiento del campo.",
+              "flagged": false
+            },
+            {
+              "location": "`31-33` — Fee Program Indicator · Ficha (note)",
+              "before": "Please see BASE II Clearing Data Codes for a listing of the fee program indicators.",
+              "after": "",
+              "reason": "El texto en la edición nueva está vacío, lo que sugiere un artefacto de extracción de PDF en lugar de un cambio real de contenido.",
+              "flagged": true
+            }
+          ]
+        },
+        {
+          "group_title": "TC 33.A - CP 01 TCR 1 Additional Data",
+          "items": [
+            {
+              "location": "`100` — Authorization Characteristics Indicator · Ficha (description)",
+              "before": "Code used by the acquirer to request CPS qualification as returned in the original authorization response.",
+              "after": "Code used by the acquirer to request CPS qualification as returned in the original authorization response. See BASE II Clearing Data Codes for a list of valid codes. Populated based on Credit Authorization.",
+              "reason": "La nueva descripción incluye información adicional sobre los códigos válidos y su población basada en la autorización crediticia, lo que modifica el significado del campo.",
+              "flagged": false
+            },
+            {
+              "location": "`100` — Authorization Characteristics Indicator · Ficha (note)",
+              "before": "Please see BASE II Clearing Data Codes for a list of valid codes. Populated based on Credit Authorization.",
+              "after": "",
+              "reason": "El texto en la edición nueva está vacío, lo que sugiere un artefacto de extracción de PDF en lugar de un cambio real de contenido.",
+              "flagged": true
+            },
+            {
+              "location": "`101` — POS Terminal Capability · Ficha (description)",
+              "before": "Indicates the capability of the point-of-sale (POS) terminal to obtain an authorization and process transaction data.",
+              "after": "Indicates the capability of the point-of-sale (POS) terminal to obtain an authorization and process transaction data. See BASE II Clearing Data Codes for a list of valid codes. Populated based on Credit Authorization.",
+              "reason": "La nueva edición añade información sobre los códigos válidos y la lógica de llenado, modificando el significado del campo.",
+              "flagged": false
+            },
+            {
+              "location": "`101` — POS Terminal Capability · Ficha (note)",
+              "before": "Please see BASE II Clearing Data Codes for a list of valid codes. Populated based on Credit Authorization.",
+              "after": "",
+              "reason": "El texto en la edición nueva está vacío, lo que sugiere un artefacto de extracción de PDF en lugar de un cambio real de contenido.",
+              "flagged": true
+            },
+            {
+              "location": "`102` — Cardholder ID Method · Ficha (description)",
+              "before": "Indicates method used to identify cardholder (e.g., signature or Personal Identification Number [PIN]).",
+              "after": "Indicates method used to identify cardholder (e.g., signature or Personal Identification Number [PIN]). See BASE II Clearing Data Codes for a list of valid codes. Space-filled for credits.",
+              "reason": "La nueva edición añade información sobre los códigos válidos y el comportamiento para créditos, lo que modifica el significado del campo.",
+              "flagged": false
+            },
+            {
+              "location": "`102` — Cardholder ID Method · Ficha (note)",
+              "before": "Please see BASE II Clearing Data Codes for a list of valid codes. Space-filled for credits.",
+              "after": "",
+              "reason": "El texto en la edición nueva está vacío, lo que sugiere un artefacto de extracción de PDF en lugar de un cambio real de contenido.",
+              "flagged": true
+            },
+            {
+              "location": "`129-130` — Electronic Commerce Goods Indicator · Ficha (note)",
+              "before": "Please see Full Service POS Online Messages Technical Specifications for a list of valid values.",
+              "after": "",
+              "reason": "El texto en la edición nueva está vacío, lo que sugiere un artefacto de extracción de PDF en lugar de un cambio real de contenido.",
+              "flagged": true
+            },
+            {
+              "location": "`131-133` — Fee Program Indicator · Ficha (note)",
+              "before": "Please see BASE II Clearing Data Codes for a list of valid codes.",
+              "after": "",
+              "reason": "El texto en la edición nueva está vacío, lo que sugiere un artefacto de extracción de PDF en lugar de un cambio real de contenido.",
+              "flagged": true
+            },
+            {
+              "location": "`134` — Service Development Field · Ficha (note)",
+              "before": "Please see BASE II Clearing Interchange Formats for a list of valid codes.",
+              "after": "",
+              "reason": "El texto en la edición nueva está vacío, lo que sugiere un artefacto de extracción de PDF en lugar de un cambio real de contenido.",
+              "flagged": true
+            },
+            {
+              "location": "`135` — Account Selection · Ficha (note)",
+              "before": "Please see Full Service POS Online Messages Technical Specifications for a list of valid values.",
+              "after": "",
+              "reason": "El texto en la edición nueva está vacío, lo que sugiere un artefacto de extracción de PDF en lugar de un cambio real de contenido.",
+              "flagged": true
+            },
+            {
+              "location": "`136` — POS Environment · Ficha (description)",
+              "before": "A recurring transaction indicator, indicating that the cardholder and merchant have agreed to periodic billing for goods and services, such as utility bills, Internet connection, and magazine subscriptions.",
+              "after": "A recurring transaction indicator, indicating that the cardholder and merchant have agreed to periodic billing for goods and services, such as utility bills, Internet connection, and magazine subscriptions. See BASE II Clearing Data Codes for a list of valid codes. Space-filled for credits.",
+              "reason": "La nueva edición añade información sobre códigos válidos y especifica que se rellena con espacios para créditos, lo que modifica el comportamiento del campo en términos de validación y uso.",
+              "flagged": false
+            },
+            {
+              "location": "`136` — POS Environment · Ficha (note)",
+              "before": "Please see BASE II Clearing Data Codes for a list of valid codes. Space-filled for credits.",
+              "after": "",
+              "reason": "El texto nuevo está vacío, lo que sugiere un artefacto de extracción de PDF en lugar de un cambio real de contenido.",
+              "flagged": true
+            },
+            {
+              "location": "`15-16` — POS Entry Mode · Ficha (description)",
+              "before": "A V.I.P. System field indicating the method by which a point-of-transaction terminal obtains and transmits the cardholder information necessary to complete a Transaction.",
+              "after": "A V.I.P. System field indicating the method by which a point-of-transaction terminal obtains and transmits the cardholder information necessary to complete a Transaction. See Full Service POS Online Messages Technical Specifications for a list of values. Populated based on Credit Authorization.",
+              "reason": "La nueva edición añade información sobre los valores válidos y el comportamiento de llenado del campo, modificando su significado en términos de negocio.",
+              "flagged": false
+            },
+            {
+              "location": "`15-16` — POS Entry Mode · Ficha (note)",
+              "before": "Please see Full Service POS Online Messages Technical Specifications for a list of values. Populated based on Credit Authorization.",
+              "after": "",
+              "reason": "El texto nuevo está vacío, lo que sugiere un artefacto de extracción de PDF en lugar de un cambio real de contenido.",
+              "flagged": true
+            },
+            {
+              "location": "`167` — Spend Qualified Indicator · Ficha (note)",
+              "before": "Please see BASE II Clearing Data Codes for a list of valid codes.",
+              "after": "",
+              "reason": "El texto en la edición nueva está vacío, lo que sugiere un artefacto de extracción de PDF en lugar de un cambio real de contenido.",
+              "flagged": true
+            },
+            {
+              "location": "`168` — CAVV Results Code · Ficha (note)",
+              "before": "Please see Full Service POS Online Messages Technical Specifications.",
+              "after": "",
+              "reason": "El texto en la edición nueva está vacío, lo que sugiere un artefacto de extracción de PDF en lugar de un cambio real de contenido.",
+              "flagged": true
+            },
+            {
+              "location": "`32-39` — Terminal ID · Ficha (note)",
+              "before": "Please see BASE II Clearing Data Codes for a list of valid",
+              "after": "",
+              "reason": "El texto en la edición nueva está vacío, lo que sugiere un artefacto de extracción de PDF en lugar de un cambio real de contenido.",
+              "flagged": true
+            },
+            {
+              "location": "`40` — Mail/Phone/Electronic Commerce and Payment Indicator · Ficha (description)",
+              "before": "Indicates transaction performed by mail order, telephone, or electronic commerce. codes.",
+              "after": "Indicates transaction performed by mail order, telephone, or electronic commerce. See BASE II Clearing Data Codes for a list of valid codes. Populated based on Credit Authorization.",
+              "reason": "La nueva descripción incluye que los códigos son válidos según BASE II Clearing Data Codes y que el campo se popula basado en la autorización de crédito, lo que modifica el significado del campo.",
+              "flagged": false
+            },
+            {
+              "location": "`40` — Mail/Phone/Electronic Commerce and Payment Indicator · Ficha (note)",
+              "before": "Populated based on Credit Authorization. Please see BASE II Clearing Data Codes for a list of valid",
+              "after": "",
+              "reason": "El texto en la edición nueva está vacío, lo que sugiere un artefacto de extracción de PDF en lugar de un cambio real de contenido.",
+              "flagged": true
+            },
+            {
+              "location": "`42` — AVS Response Code · Ficha (description)",
+              "before": "Contains the response to an Address Verification Service (AVS) request, indicating matches or discrepancies between addresses and ZIP codes.",
+              "after": "Contains the response to an Address Verification Service (AVS) request, indicating matches or discrepancies between addresses and ZIP codes. See BASE II Clearing Data Codes for a list of valid codes. Space-filled for credits.",
+              "reason": "La nueva edición añade información sobre los códigos válidos y el relleno espaciado para créditos, lo que modifica el significado del campo en términos de validación y uso.",
+              "flagged": false
+            },
+            {
+              "location": "`42` — AVS Response Code · Ficha (note)",
+              "before": "Please see BASE II Clearing Data Codes for a list of valid codes. Space-filled for credits.",
+              "after": "",
+              "reason": "El texto nuevo está vacío, lo que sugiere un artefacto de extracción de PDF en lugar de un cambio real de contenido.",
+              "flagged": true
+            },
+            {
+              "location": "`43` — Authorization Source Code · Ficha (note)",
+              "before": "Please see BASE II Clearing Data Codes for a list of valid codes.",
+              "after": "",
+              "reason": "El texto en la edición nueva está vacío, lo que sugiere un artefacto de extracción de PDF en lugar de un cambio real de contenido.",
+              "flagged": true
+            },
+            {
+              "location": "`44` — Purchase Identifier Format · Ficha (note)",
+              "before": "Please see BASE II Clearing Data Codes for a list of values.",
+              "after": "",
+              "reason": "El texto en la edición nueva está vacío, lo que sugiere un artefacto de extracción de PDF en lugar de un cambio real de contenido.",
+              "flagged": true
+            },
+            {
+              "location": "`5-8` — Capture Date · Ficha (description)",
+              "before": "The date when the merchant intends to process the capture file (MMDD) in the merchant local time.",
+              "after": "The date when the merchant intends to process the capture file (MMDD) in the merchant local time. Space-filled for credits.",
+              "reason": "La nueva edición añade que el campo está rellenado con espacios para créditos, lo que modifica el comportamiento del campo en el contexto de transacciones.",
+              "flagged": false
+            },
+            {
+              "location": "`72-73` — Point-of-Service Condition Code · Ficha (description)",
+              "before": "Code identifying transaction conditions at the point of sale or point of service. Can be used to identify a type of original, or subsequent, transaction.",
+              "after": "Code identifying transaction conditions at the point of sale or point of service. Can be used to identify a type of original, or subsequent, transaction. See Full Service POS Online Messages Technical Specifications. Populated based on Credit Authorization.",
+              "reason": "La nueva edición añade información sobre cómo se popula el campo y referencia a especificaciones técnicas, lo que modifica el significado operativo del campo.",
+              "flagged": false
+            },
+            {
+              "location": "`72-73` — Point-of-Service Condition Code · Ficha (note)",
+              "before": "Please see Full Service POS Online Messages Technical Specifications. Populated based on Credit Authorization.",
+              "after": "",
+              "reason": "El texto en la edición nueva está vacío, lo que sugiere un artefacto de extracción de PDF en lugar de un cambio real de contenido.",
+              "flagged": true
+            },
+            {
+              "location": "`74-79` — Processing Code · Ficha (note)",
+              "before": "Please see Full Service POS Online Messages Technical Specifications for a list of values. Populated based on Credit Authorization.",
+              "after": "",
+              "reason": "El texto en la edición nueva está vacío, lo que sugiere un artefacto de extracción de PDF en lugar de un cambio real de contenido.",
+              "flagged": true
+            },
+            {
+              "location": "`80-83` — Network ID · Ficha (note)",
+              "before": "Please see Full Service POS Online Messages Technical Specifications.",
+              "after": "",
+              "reason": "El texto en la edición nueva está vacío, lo que sugiere un artefacto de extracción de PDF en lugar de un cambio real de contenido.",
+              "flagged": true
+            },
+            {
+              "location": "`84-85` — Authorization Response Code · Ficha (note)",
+              "before": "Please see Full Service POS Online Messages Technical Specifications. Populated based on Credit Authorization.",
+              "after": "",
+              "reason": "El texto en la edición nueva está vacío, lo que sugiere un artefacto de extracción de PDF en lugar de un cambio real de contenido.",
+              "flagged": true
+            },
+            {
+              "location": "`9-14` — Authorization Code · Ficha (description)",
+              "before": "A code that an issuer, its authorizing processor, or Stand-In Processing (STIP) provides to indicate approval of a transaction. The code is returned in the Authorization Response and is usually recorded on the Transaction Receipt.",
+              "after": "A code that an issuer, its authorizing processor, or Stand-In Processing (STIP) provides to indicate approval of a transaction. The code is returned in the Authorization Response and is usually recorded on the Transaction Receipt. See BASE II Clearing Data Codes for a list of valid codes. Populated based on Credit Authorization. The authorization code must be managed in accordance with the requirements of the relevant card scheme.",
+              "reason": "La nueva edición añade requisitos específicos sobre la gestión del código de autorización según los requisitos del esquema de tarjeta, lo que modifica la regla de negocio.",
+              "flagged": false
+            },
+            {
+              "location": "`9-14` — Authorization Code · Ficha (note)",
+              "before": "Please see BASE II Clearing Data Codes for a list of valid codes. Populated based on Credit Authorization.",
+              "after": "",
+              "reason": "El texto en la edición nueva está vacío, lo que sugiere un artefacto de extracción de PDF en lugar de un cambio real de contenido.",
+              "flagged": true
+            },
+            {
+              "location": "`91-92` — Product ID · Ficha (description)",
+              "before": "This field will contain Product ID.",
+              "after": "This field will contain Product ID. Space-filled for credits.",
+              "reason": "La nueva edición especifica que el campo se rellena con espacios para créditos, lo que modifica el comportamiento del campo en términos de formato de datos.",
+              "flagged": false
+            },
+            {
+              "location": "`93-98` — Program ID · Ficha (description)",
+              "before": "Program identifier. Available for US domestic transactions when provided by issuer.",
+              "after": "Program identifier. Available for US domestic transactions when provided by issuer. Space-filled for credits.",
+              "reason": "La nueva edición añade que el campo se rellena con espacios para créditos, lo que modifica el comportamiento del campo en transacciones.",
+              "flagged": false
+            },
+            {
+              "location": "`99` — CVV2 Result Code · Ficha (description)",
+              "before": "Card Verification Value 2 (CVV2) is the verification result for card-not-present transactions and also for card-present CVV2 verifi­ cation-only requests.",
+              "after": "Card Verification Value 2 (CVV2) is the verification result for card-not-present transactions and also for card-present CVV2 verifi- cation-only requests. Space-filled for credits and cash disbursement transactions. See BASE II Clearing Data Codes for a list of valid codes.",
+              "reason": "La nueva edición añade información sobre transacciones de crédito y desembolso que no estaba en la versión anterior, modificando el significado del campo.",
+              "flagged": false
+            },
+            {
+              "location": "`99` — CVV2 Result Code · Ficha (note)",
+              "before": "Space-filled for credits and cash disbursement transactions. Please see BASE II Clearing Data Codes for a list of valid codes.",
+              "after": "",
+              "reason": "El texto en la edición nueva está vacío, lo que sugiere un artefacto de extracción de PDF en lugar de un cambio real de contenido.",
+              "flagged": true
+            }
+          ]
+        },
+        {
+          "group_title": "TC 33.A - CP 01 TCR 9 Intra-Country Data - Japan National Data",
+          "items": [
+            {
+              "location": "`17-18` — Payment Mode · Ficha (description)",
+              "before": "This field will contain a code indicating the type of installment payments.",
+              "after": "This field will contain a code indicating the type of installment payments. For valid values, see BASE II Clearing Data Codes.",
+              "reason": "La nueva edición añade una referencia a los códigos válidos en BASE II, lo que modifica la información sobre los valores permitidos para el campo.",
+              "flagged": false
+            },
+            {
+              "location": "`17-18` — Payment Mode · Ficha (note)",
+              "before": "For valid values,see BASE II Clearing Data Codes.",
+              "after": "",
+              "reason": "El texto en la edición nueva está vacío, lo que sugiere un artefacto de extracción de PDF en lugar de un cambio real de contenido.",
+              "flagged": true
+            },
+            {
+              "location": "`8` — Number of Bonus Payments · Ficha (note)",
+              "before": "For valid values, see BASE II Clearing Data Codes.",
+              "after": "",
+              "reason": "El texto en la edición nueva está vacío, lo que sugiere un artefacto de extracción de PDF en lugar de un cambio real de contenido.",
+              "flagged": true
+            },
+            {
+              "location": "`9` — Bonus Month Sign · Ficha (note)",
+              "before": "For valid values, see BASE II Clearing Data Codes.",
+              "after": "",
+              "reason": "El texto en la edición nueva está vacío, lo que sugiere un artefacto de extracción de PDF en lugar de un cambio real de contenido.",
+              "flagged": true
+            }
+          ]
+        },
+        {
+          "group_title": "TC 33.A - CP 04 TCR 0 Level II Data",
+          "items": [
+            {
+              "location": "`48` — Local Tax Included · Ficha (note)",
+              "before": "Please see BASE II Clearing Data Codes for a list of valid codes.",
+              "after": "",
+              "reason": "El texto en la edición nueva está vacío, lo que sugiere un artefacto de extracción de PDF en lugar de un cambio real de contenido.",
+              "flagged": true
+            },
+            {
+              "location": "`61` — National Tax Included · Ficha (note)",
+              "before": "Please see BASE II Clearing Data Codes for a list of valid codes.",
+              "after": "",
+              "reason": "El texto en la edición nueva está vacío, lo que sugiere un artefacto de extracción de PDF en lugar de un cambio real de contenido.",
+              "flagged": true
+            }
+          ]
+        },
+        {
+          "group_title": "TC 33.A - CP 09 TCR 1 Push Payment - Original Credit Transactions",
+          "items": [
+            {
+              "location": "`59-78` — Tax Document Type · Ficha (description)",
+              "before": "This field will contain the Tax Document Type in OCT transactions in Latin America. Values: Country Tax Field Comments Identifier Peru RUC Registro Tag 05- Business tax Unico de Merchant VAT identification Contrib­ Registration/ uyentes Single Business Reference Number DNI Documento Tag 06- Individual tax Nacional de Customer VAT identification Identidad Registration Number",
+              "after": "This field will contain the Tax Document Type in OCT transactions in Latin America. Values: Country Tax Field Comments Identifier Colombia NIT Numero de Tag 05- Business tax Identifi- Merchant VAT identification cacion Registration/ Tributaria Single Business Reference Number CC, CE, Cedula de Tag 06- Individual tax or PASS Ciudadania Customer VAT identification Registration Number Peru RUC Registro Tag 05- Business tax Unico de Merchant VAT identification Contrib- Registration/ uyentes Single Business Reference Number DNI Documento Tag 06- Individual tax Nacional de Customer VAT identification Identidad Registration Number",
+              "reason": "El cambio incluye nuevas identificaciones de país (Colombia y Perú) y diferentes formatos de documentos tributarios, lo que altera los valores válidos para el campo Tax Document Type.",
+              "flagged": false
+            }
+          ]
+        },
+        {
+          "group_title": "TC 33.A - CP 12 TCR 4 Gateway Data, continuation",
+          "items": [
+            {
+              "location": "`73-108` — Mastercard Transaction Link Identifier/Gateway Life Cycle Trace\nIdentifier · Grilla (Position)",
+              "before": "74-109",
+              "after": "73-108",
+              "reason": "El rango de posiciones cambió de 74-109 a 73-108, lo que afecta el tamaño del campo y su definición en el formato.",
+              "flagged": false
+            },
+            {
+              "location": "`73-108` — Mastercard Transaction Link Identifier/Gateway Life Cycle Trace\nIdentifier · Ficha (positions)",
+              "before": "74-109",
+              "after": "73-108",
+              "reason": "El rango de posiciones del campo cambió de 74-109 a 73-108, lo que afecta el tamaño y el rango válido del campo en el formato de mensaje.",
+              "flagged": false
+            }
+          ]
+        },
+        {
+          "group_title": "TC 33.B - CP 59 TCR 1 Push Payment - Original Credit Transaction",
+          "items": [
+            {
+              "location": "`61-80` — Tax Document Type · Ficha (description)",
+              "before": "This field will contain the Tax Document Type in OCT transactions in Latin America. Field Comments Identifier Peru RUC Registro Tag 05- Business tax Unico de Merchant VAT identification Contrib­ Registration/ uyentes Single Business Reference Number DNI Documento Tag 06- Individual tax Nacional de Customer VAT identification Identidad Registration Number",
+              "after": "This field will contain the Tax Document Type in OCT transactions in Latin America. Field Comments Identifier Colombia NIT Numero do Tag 05- Business tax Identifi- Merchant VAT identification cacion Registration/ Tributaria Single Business Reference Number CC, CE, Cedula de Tag 06- Individual tax or PASS Ciudadania Customer VAT identification Registration Number Peru RUC Registro Tag 05- Business tax Unico de Merchant VAT identification Contrib- Registration/ uyentes Single Business Reference Number DNI Documento Tag 06- Individual tax Nacional de Customer VAT identification Identidad Registration Number",
+              "reason": "El campo de Tax Document Type ahora incluye diferentes identificadores para Colombia (NIT) y Perú (RUC) en lugar de solo Perú, lo que cambia el significado de negocio al definir el formato de identificación fiscal según el país.",
+              "flagged": false
+            }
+          ]
+        },
+        {
+          "group_title": "TC 48 - TCR 0 Format 1 (ISO- Enriched)",
+          "items": [
+            {
+              "location": "`153-164` — Retrieval Reference Number · Ficha (description)",
+              "before": "Contains a number that is used with other data elements as a key to identify and track all messages related to a given cardholder transaction, that is, to a given transaction set. These sets are: Authorization l Purchase l Merchandise return l Cash disbursement (manual cash) l The ISO field is 37.",
+              "after": "Contains a number that is used with other data elements as a key to identify and track all messages related to a given cardholder transaction, that is, to a given transaction set. These sets are: ●Authorization ●Purchase ●Merchandise return ●Cash disbursement (manual cash) The ISO field is 37.",
+              "reason": "El texto describe lo mismo pero reemplaza los puntos con guiones circulares para los tipos de transacciones, sin cambiar el significado o valores válidos.",
+              "flagged": true
+            }
+          ]
+        }
+      ],
+      "top_items": [
+        {
+          "location": "Reserved → definido — TC 04 - TCR 9 — Posición `151-168` (Reserved) se partió",
+          "before": "`151-168` Reserved",
+          "after": "`151-153` VFC Reclassification Reason. Reserved restante: 154-168 Reserved",
+          "reason": "Confirmado en grilla y ficha.",
+          "flagged": false
+        },
+        {
+          "location": "Reserved → definido — TC 05 - TCR 2 Colombia — Posición `5-16`",
+          "before": "Reserved",
+          "after": "Tip Amount",
+          "reason": "Confirmado en grilla y ficha.",
+          "flagged": false
+        },
+        {
+          "location": "Reserved → definido — TC 33 - TCR 1 BASE II Clearing and Settlement Advice — Posición `161-168`",
+          "before": "Reserved",
+          "after": "Payment Facilitator ID",
+          "reason": "Confirmado en grilla y ficha.",
+          "flagged": false
+        }
+      ],
+      "slug": "base_ii_clearing_interchange_formats_tc_01_to_tc_49",
+      "title": "BASE II Clearing Interchange Formats, TC 01 to TC 49",
+      "is_new_since_last_publish": false
+    },
+    {
+      "edition_a": "20251018",
+      "edition_b": "20260418",
+      "headline": {
+        "label": "Cambios de negocio a revisar",
+        "value": 5
+      },
+      "secondary": [
+        {
+          "label": "Transiciones Reserved↔definido",
+          "value": 0
+        },
+        {
+          "label": "Secciones agregadas",
+          "value": 0
+        },
+        {
+          "label": "Secciones eliminadas",
+          "value": 0
+        }
+      ],
+      "groups": [
+        {
+          "group_title": "TC 50 - TCR 0 - OCT Additional Information",
+          "items": [
+            {
+              "location": "`4` — Transaction Component Sequence Number · Ficha (format)",
+              "before": "unpacked numeric",
+              "after": "alphanumeric",
+              "reason": "El formato del campo cambia de numérico a alfanumérico, lo que implica una redefinición del tipo de dato y su uso en el contexto de transacciones.",
+              "flagged": false
+            }
+          ]
+        },
+        {
+          "group_title": "TC 50 - TCR 0 - OCT Payment Detail Data",
+          "items": [
+            {
+              "location": "`4` — Transaction Component Sequence Number · Ficha (format)",
+              "before": "unpacked numeric",
+              "after": "alphanumeric",
+              "reason": "El formato del campo cambia de 'unpacked numeric' a 'alphanumeric', lo que implica una redefinición del tipo de dato válido para el campo en el contexto de transacciones.",
+              "flagged": false
+            }
+          ]
+        },
+        {
+          "group_title": "TC 50 - TCR 1 - OCT Additional Information",
+          "items": [
+            {
+              "location": "`4` — Transaction Component Sequence Number · Ficha (format)",
+              "before": "unpacked numeric",
+              "after": "alphanumeric",
+              "reason": "El formato del campo cambia de numérico a alfanumérico, lo que implica una redefinición del tipo de dato y su significado en el contexto de transacciones.",
+              "flagged": false
+            }
+          ]
+        },
+        {
+          "group_title": "TC 50 - TCR 1 - OCT Payment Detail Data",
+          "items": [
+            {
+              "location": "`4` — Transaction Component Sequence Number · Ficha (format)",
+              "before": "unpacked numeric",
+              "after": "alphanumeric",
+              "reason": "El formato del campo cambia de 'unpacked numeric' a 'alphanumeric', lo que implica una redefinición del tipo de datos permitido para la transacción.",
+              "flagged": false
+            }
+          ]
+        },
+        {
+          "group_title": "TC 50 - TCR 2 - OCT Payment Detail Data",
+          "items": [
+            {
+              "location": "`4` — Transaction Component Sequence Number · Ficha (format)",
+              "before": "unpacked numeric",
+              "after": "alphanumeric",
+              "reason": "El formato del campo cambia de 'unpacked numeric' a 'alphanumeric', lo que implica una redefinición del tipo de dato y su validez para el intercambio.",
+              "flagged": false
+            }
+          ]
+        }
+      ],
+      "top_items": [
+        {
+          "location": "TC 50 - TCR 0 - OCT Additional Information — `4` — Transaction Component Sequence Number · Ficha (format)",
+          "before": "unpacked numeric",
+          "after": "alphanumeric",
+          "reason": "El formato del campo cambia de numérico a alfanumérico, lo que implica una redefinición del tipo de dato y su uso en el contexto de transacciones.",
+          "flagged": false
+        },
+        {
+          "location": "TC 50 - TCR 0 - OCT Payment Detail Data — `4` — Transaction Component Sequence Number · Ficha (format)",
+          "before": "unpacked numeric",
+          "after": "alphanumeric",
+          "reason": "El formato del campo cambia de 'unpacked numeric' a 'alphanumeric', lo que implica una redefinición del tipo de dato válido para el campo en el contexto de transacciones.",
+          "flagged": false
+        },
+        {
+          "location": "TC 50 - TCR 1 - OCT Additional Information — `4` — Transaction Component Sequence Number · Ficha (format)",
+          "before": "unpacked numeric",
+          "after": "alphanumeric",
+          "reason": "El formato del campo cambia de numérico a alfanumérico, lo que implica una redefinición del tipo de dato y su significado en el contexto de transacciones.",
+          "flagged": false
+        }
+      ],
+      "slug": "base_ii_clearing_interchange_formats_tc_50_to_tc_92",
+      "title": "BASE II Clearing Interchange Formats, TC 50 to TC 92",
+      "is_new_since_last_publish": false
+    },
+    {
+      "edition_a": "20250412",
+      "edition_b": "20260418",
+      "headline": {
+        "label": "Cambios de TCR",
+        "value": 502
+      },
+      "secondary": [
+        {
+          "label": "TC agregados",
+          "value": 0
+        },
+        {
+          "label": "TC eliminados",
+          "value": 0
+        },
+        {
+          "label": "TC afectados",
+          "value": 15
+        }
+      ],
+      "groups": [
+        {
+          "group_title": "05 Sales Draft",
+          "items": [
+            {
+              "location": "TCR agregados/eliminados",
+              "before": "36 TCR",
+              "after": "36 TCR",
+              "reason": "Agregados: `TCR 2` — (AR) National Settlement, Argentina; `TCR 2` — (BO) National Settlement, Bolivia; `TCR 2` — (BR) National Settlement, Brazil | Eliminados: `TCR 2` — National Settlement, Argentina; `TCR 2` — National Settlement, Bolivia; `TCR 2` — National Settlement, Brazil | Cantidad neta sin cambio pero hay altas Y bajas — posible renombre no detectado.",
+              "flagged": true
+            }
+          ]
+        },
+        {
+          "group_title": "06 Credit Voucher",
+          "items": [
+            {
+              "location": "TCR agregados/eliminados",
+              "before": "23 TCR",
+              "after": "36 TCR",
+              "reason": "Agregados: `TCR 2` — (AR) National Settlement, Argentina; `TCR 2` — (BO) National Settlement, Bolivia; `TCR 2` — (BR) National Settlement, Brazil | Eliminados: `TCR 2` — National Settlement, Brazil; `TCR 2` — National Settlement, Colombia; `TCR 2` — National Settlement, Japan",
+              "flagged": false
+            }
+          ]
+        },
+        {
+          "group_title": "07 Cash Disbursement",
+          "items": [
+            {
+              "location": "TCR agregados/eliminados",
+              "before": "22 TCR",
+              "after": "17 TCR",
+              "reason": "Agregados: `TCR 2` — (AR) National Settlement, Argentina; `TCR 2` — (BR) National Settlement, Brazil; `TCR 2` — (CO) National Settlement, Colombia | Eliminados: `TCR 2` — National Settlement, Brazil; `TCR 2` — National Settlement, Colombia; `TCR 2` — National Settlement, Japan",
+              "flagged": false
+            }
+          ]
+        },
+        {
+          "group_title": "10 Fee Collection",
+          "items": [
+            {
+              "location": "TCR agregados/eliminados",
+              "before": "9 TCR",
+              "after": "9 TCR",
+              "reason": "Agregados: `TCR 2` — (AR) National Settlement, Argentina; `TCR 2` — (BR) National Settlement, Brazil; `TCR 2` — (PY) National Settlement, Paraguay | Eliminados: `TCR 2` — National Settlement, Argentina; `TCR 2` — National Settlement, Brazil; `TCR 2` — National Settlement, Paraguay | Cantidad neta sin cambio pero hay altas Y bajas — posible renombre no detectado.",
+              "flagged": true
+            }
+          ]
+        },
+        {
+          "group_title": "15 Sales Draft Dispute",
+          "items": [
+            {
+              "location": "TCR agregados/eliminados",
+              "before": "22 TCR",
+              "after": "31 TCR",
+              "reason": "Agregados: `TCR 2` — (AR) National Settlement, Argentina; `TCR 2` — (BO) National Settlement, Bolivia; `TCR 2` — (BR) National Settlement, Brazil | Eliminados: `TCR 2` — National Settlement, Brazil; `TCR 2` — National Settlement, Colombia; `TCR 2` — National Settlement, Japan",
+              "flagged": false
+            }
+          ]
+        },
+        {
+          "group_title": "16 Credit Voucher Dispute",
+          "items": [
+            {
+              "location": "TCR agregados/eliminados",
+              "before": "23 TCR",
+              "after": "31 TCR",
+              "reason": "Agregados: `TCR 2` — (AR) National Settlement, Argentina; `TCR 2` — (BO) National Settlement, Bolivia; `TCR 2` — (BR) National Settlement, Brazil | Eliminados: `TCR 2` — National Settlement, Brazil; `TCR 2` — National Settlement, Colombia; `TCR 2` — National Settlement, Japan",
+              "flagged": false
+            }
+          ]
+        },
+        {
+          "group_title": "17 Cash Disbursement Dispute",
+          "items": [
+            {
+              "location": "TCR agregados/eliminados",
+              "before": "22 TCR",
+              "after": "16 TCR",
+              "reason": "Agregados: `TCR 2` — (AR) National Settlement, Argentina; `TCR 2` — (BR) National Settlement, Brazil; `TCR 2` — (CO) National Settlement, Colombia | Eliminados: `TCR 2` — National Settlement, Brazil; `TCR 2` — National Settlement, Colombia; `TCR 2` — National Settlement, Japan",
+              "flagged": false
+            }
+          ]
+        },
+        {
+          "group_title": "20 Funds Disbursement",
+          "items": [
+            {
+              "location": "TCR agregados/eliminados",
+              "before": "9 TCR",
+              "after": "9 TCR",
+              "reason": "Agregados: `TCR 2` — (AR) National Settlement, Argentina; `TCR 2` — (BR) National Settlement, Brazil; `TCR 2` — (PY) National Settlement, Paraguay | Eliminados: `TCR 2` — National Settlement, Argentina; `TCR 2` — National Settlement, Brazil; `TCR 2` — National Settlement, Paraguay | Cantidad neta sin cambio pero hay altas Y bajas — posible renombre no detectado.",
+              "flagged": true
+            }
+          ]
+        },
+        {
+          "group_title": "25 Sales Draft Reversal",
+          "items": [
+            {
+              "location": "TCR agregados/eliminados",
+              "before": "22 TCR",
+              "after": "35 TCR",
+              "reason": "Agregados: `TCR 2` — (AR) National Settlement, Argentina; `TCR 2` — (BO) National Settlement, Bolivia; `TCR 2` — (BR) National Settlement, Brazil | Eliminados: `TCR 2` — National Settlement, Brazil; `TCR 2` — National Settlement, Colombia; `TCR 2` — National Settlement, Japan",
+              "flagged": false
+            }
+          ]
+        },
+        {
+          "group_title": "26 Credit Voucher Reversal",
+          "items": [
+            {
+              "location": "TCR agregados/eliminados",
+              "before": "23 TCR",
+              "after": "35 TCR",
+              "reason": "Agregados: `TCR 2` — (AR) National Settlement, Argentina; `TCR 2` — (BO) National Settlement, Bolivia; `TCR 2` — (BR) National Settlement, Brazil | Eliminados: `TCR 2` — National Settlement, Brazil; `TCR 2` — National Settlement, Colombia; `TCR 2` — National Settlement, Japan",
+              "flagged": false
+            }
+          ]
+        },
+        {
+          "group_title": "27 Cash Disbursement Reversal",
+          "items": [
+            {
+              "location": "TCR agregados/eliminados",
+              "before": "22 TCR",
+              "after": "17 TCR",
+              "reason": "Agregados: `TCR 2` — (AR) National Settlement, Argentina; `TCR 2` — (BR) National Settlement, Brazil; `TCR 2` — (CO) National Settlement, Colombia | Eliminados: `TCR 2` — National Settlement, Brazil; `TCR 2` — National Settlement, Colombia; `TCR 2` — National Settlement, Japan",
+              "flagged": false
+            }
+          ]
+        },
+        {
+          "group_title": "35 Sales Draft Dispute Reversal",
+          "items": [
+            {
+              "location": "TCR agregados/eliminados",
+              "before": "22 TCR",
+              "after": "31 TCR",
+              "reason": "Agregados: `TCR 2` — (AR) National Settlement, Argentina; `TCR 2` — (BO) National Settlement, Bolivia; `TCR 2` — (BR) National Settlement, Brazil | Eliminados: `TCR 2` — National Settlement, Brazil; `TCR 2` — National Settlement, Colombia; `TCR 2` — National Settlement, Japan",
+              "flagged": false
+            }
+          ]
+        },
+        {
+          "group_title": "36 Credit Voucher Dispute Reversal",
+          "items": [
+            {
+              "location": "TCR agregados/eliminados",
+              "before": "23 TCR",
+              "after": "31 TCR",
+              "reason": "Agregados: `TCR 2` — (AR) National Settlement, Argentina; `TCR 2` — (BO) National Settlement, Bolivia; `TCR 2` — (BR) National Settlement, Brazil | Eliminados: `TCR 2` — National Settlement, Brazil; `TCR 2` — National Settlement, Colombia; `TCR 2` — National Settlement, Japan",
+              "flagged": false
+            }
+          ]
+        },
+        {
+          "group_title": "37 Cash Disbursement Dispute Reversal",
+          "items": [
+            {
+              "location": "TCR agregados/eliminados",
+              "before": "27 TCR",
+              "after": "16 TCR",
+              "reason": "Agregados: `TCR 2` — (AR) National Settlement, Argentina; `TCR 2` — (BR) National Settlement, Brazil; `TCR 2` — (CO) National Settlement, Colombia | Eliminados: `TCR 0` — (sin descripción); `TCR 1` — VCRFS Nonfulfillment; `TCR 1` — VCRFS/VDAS Advice",
+              "flagged": false
+            }
+          ]
+        },
+        {
+          "group_title": "54 Table Update Record",
+          "items": [
+            {
+              "location": "TCR agregados/eliminados",
+              "before": "1 TCR",
+              "after": "2 TCR",
+              "reason": "Agregados: `TCR 0` — Edit Package Release 4.0; `TCR 0` — Visa Clearing Exchange | Eliminados: `TCR 0` — (sin descripción)",
+              "flagged": false
+            }
+          ]
+        }
+      ],
+      "top_items": [
+        {
+          "location": "05 Sales Draft — TCR agregados/eliminados",
+          "before": "36 TCR",
+          "after": "36 TCR",
+          "reason": "Agregados: `TCR 2` — (AR) National Settlement, Argentina; `TCR 2` — (BO) National Settlement, Bolivia; `TCR 2` — (BR) National Settlement, Brazil | Eliminados: `TCR 2` — National Settlement, Argentina; `TCR 2` — National Settlement, Bolivia; `TCR 2` — National Settlement, Brazil | Cantidad neta sin cambio pero hay altas Y bajas — posible renombre no detectado.",
+          "flagged": true
+        },
+        {
+          "location": "06 Credit Voucher — TCR agregados/eliminados",
+          "before": "23 TCR",
+          "after": "36 TCR",
+          "reason": "Agregados: `TCR 2` — (AR) National Settlement, Argentina; `TCR 2` — (BO) National Settlement, Bolivia; `TCR 2` — (BR) National Settlement, Brazil | Eliminados: `TCR 2` — National Settlement, Brazil; `TCR 2` — National Settlement, Colombia; `TCR 2` — National Settlement, Japan",
+          "flagged": false
+        },
+        {
+          "location": "07 Cash Disbursement — TCR agregados/eliminados",
+          "before": "22 TCR",
+          "after": "17 TCR",
+          "reason": "Agregados: `TCR 2` — (AR) National Settlement, Argentina; `TCR 2` — (BR) National Settlement, Brazil; `TCR 2` — (CO) National Settlement, Colombia | Eliminados: `TCR 2` — National Settlement, Brazil; `TCR 2` — National Settlement, Colombia; `TCR 2` — National Settlement, Japan",
+          "flagged": false
+        }
+      ],
+      "slug": "base_ii_transactions_quick_reference",
+      "title": "BASE II Transactions (Quick Reference)",
+      "is_new_since_last_publish": true
+    },
+    {
+      "edition_a": "20251015",
+      "edition_b": "20260420",
+      "headline": {
+        "label": "Cambios de negocio a revisar",
+        "value": 3
+      },
+      "secondary": [
+        {
+          "label": "Secciones agregadas",
+          "value": 0
+        },
+        {
+          "label": "Secciones eliminadas",
+          "value": 0
+        },
+        {
+          "label": "Párrafos agregados",
+          "value": 404
+        },
+        {
+          "label": "Párrafos eliminados",
+          "value": 349
+        }
+      ],
+      "groups": [
+        {
+          "group_title": "Full Service Processing Summary > Full Service Participation Requirements > Issuer Options",
+          "items": [
+            {
+              "location": "Párrafo cambiado",
+              "before": "Field 55 may contain tags that the receiving issuer or acquirer does not recognize, or does not expect. The receiver must ignore such tags and continue parsing the next tag in field 55. Country-to-Country Transactions V.I.P. maintains a Country-to-Country table that allows full service issuers to control purchase and cash transactions between countries using country-specific and issuer-specified parameters. The table is predominately used, however, to list countries in which card usage is restricted or prohibited, for instance, between Country A acquirers and Country B issuers. The country-to-country table is updated only by Visa.",
+              "after": "Field 55 may contain tags that the receiving issuer or acquirer does not recognize, or does not expect. The receiver must ignore such tags and continue parsing the next tag in field 55. Country-to-Country Transactions V.I.P. maintains a Country-to-Country table that allows full service issuers to control purchase and cash transactions between countries using country-specific and issuer-specified parameters. The table is predominately used, however, to list countries in which card usage is restricted or prohibited, for instance, between Country A acquirers and Country B issuers. The country-to-country table is updated only by Visa. These parameters are involved in establishing a V.I.P. country-to-country block:",
+              "reason": "La nueva edición añade información adicional sobre los parámetros involucrados en la creación de un bloque de país a país en V.I.P., lo que modifica la regla de negocio al especificar un requisito adicional para el procesamiento.",
+              "flagged": false
+            }
+          ]
+        },
+        {
+          "group_title": "Stand-In Processing (STIP) > Assigning a Response Code > Converting Over-Limit Codes in Acquirer Responses",
+          "items": [
+            {
+              "location": "Párrafo cambiado",
+              "before": "Converting Approval, Forward-or-Approve, Decline, or Incorrect CVV or iCVV Response Codes",
+              "after": "Converting Approval, Forward-or-Approve, Decline, or Incorrect CVV or iCVV Response Code XA",
+              "reason": "La edición nueva especifica un código específico (XA) en lugar de listar tipos de códigos, lo que indica un cambio en la regla de negocio sobre qué código se convierte.",
+              "flagged": false
+            }
+          ]
+        },
+        {
+          "group_title": "Transaction Sets > Visa POS Transaction Sets",
+          "items": [
+            {
+              "location": "Párrafo cambiado",
+              "before": "1Includes purchase with cashback, purchase with address verification (Visa POS only), quasi-cash, and key- entered purchase.",
+              "after": "Includes purchase with cashback, purchase with address verifi­ cation (Visa POS only), quasi-cash, and key- entered purchase. Adjustment",
+              "reason": "Se añadió la palabra 'Adjustment' al final, lo que sugiere un nuevo tipo de transacción o ajuste que antes no estaba incluido en la definición.",
+              "flagged": false
+            }
+          ]
+        }
+      ],
+      "top_items": [
+        {
+          "location": "Full Service Processing Summary > Full Service Participation Requirements > Issuer Options — Párrafo cambiado",
+          "before": "Field 55 may contain tags that the receiving issuer or acquirer does not recognize, or does not expect. The receiver must ignore such tags and continue parsing the next tag in field 55. Country-to-Country Transactions V.I.P. maintains a Country-to-Country table that allows full service issuers to control purchase and cash transactions between countries using country-specific and issuer-specified parameters. The table is predominately used, however, to list countries in which card usage is restricted or prohibited, for instance, between Country A acquirers and Country B issuers. The country-to-country table is updated only by Visa.",
+          "after": "Field 55 may contain tags that the receiving issuer or acquirer does not recognize, or does not expect. The receiver must ignore such tags and continue parsing the next tag in field 55. Country-to-Country Transactions V.I.P. maintains a Country-to-Country table that allows full service issuers to control purchase and cash transactions between countries using country-specific and issuer-specified parameters. The table is predominately used, however, to list countries in which card usage is restricted or prohibited, for instance, between Country A acquirers and Country B issuers. The country-to-country table is updated only by Visa. These parameters are involved in establishing a V.I.P. country-to-country block:",
+          "reason": "La nueva edición añade información adicional sobre los parámetros involucrados en la creación de un bloque de país a país en V.I.P., lo que modifica la regla de negocio al especificar un requisito adicional para el procesamiento.",
+          "flagged": false
+        },
+        {
+          "location": "Stand-In Processing (STIP) > Assigning a Response Code > Converting Over-Limit Codes in Acquirer Responses — Párrafo cambiado",
+          "before": "Converting Approval, Forward-or-Approve, Decline, or Incorrect CVV or iCVV Response Codes",
+          "after": "Converting Approval, Forward-or-Approve, Decline, or Incorrect CVV or iCVV Response Code XA",
+          "reason": "La edición nueva especifica un código específico (XA) en lugar de listar tipos de códigos, lo que indica un cambio en la regla de negocio sobre qué código se convierte.",
+          "flagged": false
+        },
+        {
+          "location": "Transaction Sets > Visa POS Transaction Sets — Párrafo cambiado",
+          "before": "1Includes purchase with cashback, purchase with address verification (Visa POS only), quasi-cash, and key- entered purchase.",
+          "after": "Includes purchase with cashback, purchase with address verifi­ cation (Visa POS only), quasi-cash, and key- entered purchase. Adjustment",
+          "reason": "Se añadió la palabra 'Adjustment' al final, lo que sugiere un nuevo tipo de transacción o ajuste que antes no estaba incluido en la definición.",
+          "flagged": false
+        }
+      ],
+      "slug": "international_full_service_pos_online_messages_processing_specifications",
+      "title": "Full Service POS Online Messages – Processing Specifications (International)",
+      "is_new_since_last_publish": false
+    },
+    {
+      "edition_a": "20250412",
+      "edition_b": "20251017",
+      "headline": {
+        "label": "Cambios de negocio a revisar",
+        "value": 0
+      },
+      "secondary": [
+        {
+          "label": "Secciones agregadas",
+          "value": 0
+        },
+        {
+          "label": "Secciones eliminadas",
+          "value": 4
+        },
+        {
+          "label": "Pares agregados",
+          "value": 0
+        },
+        {
+          "label": "Pares eliminados",
+          "value": 0
+        }
+      ],
+      "groups": [],
+      "top_items": [],
+      "slug": "visanet_settlement_service_vss_user_guide_volume_1_specifications",
+      "title": "VisaNet Settlement Service (VSS) User Guide, Volume 1, Specifications",
+      "is_new_since_last_publish": false
+    },
+    {
+      "edition_a": "20250412",
+      "edition_b": "20251017",
+      "headline": {
+        "label": "Cambios de negocio a revisar",
+        "value": 9
+      },
+      "secondary": [
+        {
+          "label": "Tablas agregadas",
+          "value": 0
+        },
+        {
+          "label": "Tablas eliminadas",
+          "value": 1
+        },
+        {
+          "label": "Filas agregadas",
+          "value": 41
+        },
+        {
+          "label": "Filas eliminadas",
+          "value": 6
+        }
+      ],
+      "groups": [
+        {
+          "group_title": "Apéndice D: SMS Reports and Raw Data — Financial Transaction Fee Record – V22261",
+          "items": [
+            {
+              "location": "Fila **filler** — columna Position",
+              "before": "62–130",
+              "after": "63–130",
+              "reason": "El rango de posiciones cambia de 62–130 a 63–130, lo que indica una modificación en la regla de negocio relacionada con los límites de posiciones.",
+              "flagged": false
+            }
+          ]
+        },
+        {
+          "group_title": "Apéndice D: SMS Reports and Raw Data — Financial Transaction Fee Record – V23210",
+          "items": [
+            {
+              "location": "Fila **filler** — columna Attribute",
+              "before": "82 AN",
+              "after": "81 AN",
+              "reason": "El código de atributo cambió de 82 a 81, lo que indica una modificación en la regla de negocio relacionada con el cálculo de tarifas.",
+              "flagged": false
+            },
+            {
+              "location": "Fila **filler** — columna Position",
+              "before": "43–130",
+              "after": "44–130",
+              "reason": "El rango de posición cambió de 43–130 a 44–130, lo que indica un cambio en la regla de negocio relacionado con los límites de posición.",
+              "flagged": false
+            }
+          ]
+        },
+        {
+          "group_title": "Apéndice D: SMS Reports and Raw Data — Financial Transaction Record 1.1 – V22201",
+          "items": [
+            {
+              "location": "Fila **filler** — columna Position",
+              "before": "79–130",
+              "after": "98–130",
+              "reason": "El rango de posiciones cambia de 79-130 a 98-130, lo que indica una modificación en la regla de negocio que define el rango válido.",
+              "flagged": false
+            }
+          ]
+        },
+        {
+          "group_title": "Apéndice D: SMS Reports and Raw Data — Financial Transaction Record 3 – V23202",
+          "items": [
+            {
+              "location": "Fila **service processing type** — columna Comments",
+              "before": "This field contains a value that identifies the deferred OCT request type. Valid Values are: 00 (Not a deferred OCT) 01 (Originator hold) 02 (Visa deferred OCT hold, default interval) 09 (Cancel pending deferred OCT request) 0Q (Query the status of the deferred OCT) Note: The values of 09 and 0Q are logged only for the originating acquirer.",
+              "after": "This field contains a value that identifies the deferred OCT request type. Valid Values are: 00 (Not a deferred OCT) 01 (Originator hold) 02 (Visa deferred OCT hold, default interval) 09 (Cancel pending deferred OCT request) 0Q (Query the status of the deferred OCT) 0R (Recycling Payout) Note: The values of 09, 0Q, and 0R are logged only for the originating acquirer.",
+              "reason": "Se agregó un nuevo valor válido '0R (Recycling Payout)' a la lista de valores del campo, lo que modifica la regla de negocio.",
+              "flagged": false
+            }
+          ]
+        },
+        {
+          "group_title": "Apéndice D: SMS Reports and Raw Data — Financial Transaction Record 4 – V23203",
+          "items": [
+            {
+              "location": "Fila **filler** — columna Position",
+              "before": "39–130",
+              "after": "58–130",
+              "reason": "El rango de posiciones cambia de 39-130 a 58-130, lo que indica una modificación en la regla de negocio que define el rango válido.",
+              "flagged": false
+            }
+          ]
+        },
+        {
+          "group_title": "Apéndice D: SMS Reports and Raw Data — Financial Transaction Record 5 – V22226",
+          "items": [
+            {
+              "location": "Fila **filler** — columna Attribute",
+              "before": "6 AN",
+              "after": "4 AN",
+              "reason": "El valor de la columna 'Attribute' cambia de '6 AN' a '4 AN', lo que indica una modificación en la regla de negocio relacionada con el valor numérico.",
+              "flagged": false
+            },
+            {
+              "location": "Fila **filler** — columna Position",
+              "before": "125–130",
+              "after": "127–130",
+              "reason": "El rango de valores cambia de 125–130 a 127–130, lo que indica un cambio en la regla de negocio sobre el rango de transacciones.",
+              "flagged": false
+            }
+          ]
+        },
+        {
+          "group_title": "Apéndice D: SMS Reports and Raw Data — Financial Transaction Record/mVisa Record – V22228",
+          "items": [
+            {
+              "location": "Fila **service processing type** — columna Comments",
+              "before": "This field will contain a value that identifies the deferred OCT request type. Valid values are: 00 (Not a deferred OCT) 01 (Originator hold) 02 (Visa deferred OCT hold, default interval) 09 (Cancel pending deferred OCT request) 0Q (Query the status of the deferred OCT) Note: The values of 09 and 0Q are logged only for the originating acquirer.",
+              "after": "This field will contain a value that identifies the deferred OCT request type. Valid values are: 00 (Not a deferred OCT) 01 (Originator hold) 02 (Visa deferred OCT hold, default interval) 09 (Cancel pending deferred OCT request) 0Q (Query the status of the deferred OCT) 0R (Recycling Payout) Note: The values of 09, 0Q, and 0R are logged only for the originating acquirer.",
+              "reason": "Se agregó un nuevo valor válido (0R) en la lista de tipos de solicitudes de OCT deferidas, lo que modifica la regla de negocio.",
+              "flagged": false
+            }
+          ]
+        }
+      ],
+      "top_items": [
+        {
+          "location": "Apéndice D: SMS Reports and Raw Data — Financial Transaction Fee Record – V22261 — Fila **filler** — columna Position",
+          "before": "62–130",
+          "after": "63–130",
+          "reason": "El rango de posiciones cambia de 62–130 a 63–130, lo que indica una modificación en la regla de negocio relacionada con los límites de posiciones.",
+          "flagged": false
+        },
+        {
+          "location": "Apéndice D: SMS Reports and Raw Data — Financial Transaction Fee Record – V23210 — Fila **filler** — columna Attribute",
+          "before": "82 AN",
+          "after": "81 AN",
+          "reason": "El código de atributo cambió de 82 a 81, lo que indica una modificación en la regla de negocio relacionada con el cálculo de tarifas.",
+          "flagged": false
+        },
+        {
+          "location": "Apéndice D: SMS Reports and Raw Data — Financial Transaction Fee Record – V23210 — Fila **filler** — columna Position",
+          "before": "43–130",
+          "after": "44–130",
+          "reason": "El rango de posición cambió de 43–130 a 44–130, lo que indica un cambio en la regla de negocio relacionado con los límites de posición.",
+          "flagged": false
+        }
+      ],
+      "slug": "visanet_settlement_service_vss_user_guide_volume_2_reports",
+      "title": "VisaNet Settlement Service (VSS) User Guide, Volume 2, Reports",
+      "is_new_since_last_publish": false
+    }
+  ]
+}

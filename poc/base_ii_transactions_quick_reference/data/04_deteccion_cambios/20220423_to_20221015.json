@@ -1,0 +1,145 @@
+{
+  "manual": "base_ii_transactions_quick_reference",
+  "edition_a": "20220423",
+  "edition_b": "20221015",
+  "summary": {
+    "section_added": 6,
+    "section_removed": 6,
+    "row_added": 7,
+    "row_removed": 2
+  },
+  "changes": [
+    {
+      "change_type": "section_added",
+      "title": "15 Sales Draft Dispute",
+      "num_rows": 22
+    },
+    {
+      "change_type": "section_added",
+      "title": "16 Credit Voucher Dispute",
+      "num_rows": 23
+    },
+    {
+      "change_type": "section_added",
+      "title": "17 Cash Disbursement Dispute",
+      "num_rows": 22
+    },
+    {
+      "change_type": "section_added",
+      "title": "35 Sales Draft Dispute Reversal",
+      "num_rows": 22
+    },
+    {
+      "change_type": "section_added",
+      "title": "36 Credit Voucher Dispute Reversal",
+      "num_rows": 23
+    },
+    {
+      "change_type": "section_added",
+      "title": "37 Cash Disbursement Dispute Reversal",
+      "num_rows": 27
+    },
+    {
+      "change_type": "section_removed",
+      "title": "15 Sales Draft Chargeback",
+      "num_rows": 22
+    },
+    {
+      "change_type": "section_removed",
+      "title": "16 Credit Voucher Chargeback",
+      "num_rows": 23
+    },
+    {
+      "change_type": "section_removed",
+      "title": "17 Cash Disbursement Chargeback",
+      "num_rows": 22
+    },
+    {
+      "change_type": "section_removed",
+      "title": "35 Sales Draft Chargeback Reversal",
+      "num_rows": 22
+    },
+    {
+      "change_type": "section_removed",
+      "title": "36 Credit Voucher Chargeback Reversal",
+      "num_rows": 23
+    },
+    {
+      "change_type": "section_removed",
+      "title": "37 Cash Disbursement Chargeback Reversal",
+      "num_rows": 27
+    },
+    {
+      "change_type": "row_added",
+      "title": "05 Sales Draft",
+      "cells": [
+        "TCR 3",
+        "Business Application Data"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "05 Sales Draft",
+      "cells": [
+        "TCR 3",
+        "Loan Detail"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "05 Sales Draft",
+      "cells": [
+        "TCR D",
+        "India Recurring Payment"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "05 Sales Draft",
+      "cells": [
+        "TCR D",
+        "Installment Payment"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "05 Sales Draft",
+      "cells": [
+        "TCR D",
+        "Original Credit Additional Data"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "07 Cash Disbursement",
+      "cells": [
+        "TCR 4",
+        "Supplemental Financial and Promotion Data"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "07 Cash Disbursement",
+      "cells": [
+        "TCR 4",
+        "Supplemental Financial Data"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "07 Cash Disbursement",
+      "cells": [
+        "TCR 4",
+        "Single Message System Interface (SMS and Promotion Data)"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "07 Cash Disbursement",
+      "cells": [
+        "TCR 4",
+        "Single Message System Interface (SMS Data)"
+      ]
+    }
+  ]
+}

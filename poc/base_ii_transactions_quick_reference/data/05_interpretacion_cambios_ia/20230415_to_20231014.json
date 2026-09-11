@@ -1,0 +1,84 @@
+{
+  "manual": "base_ii_transactions_quick_reference",
+  "edition_a": "20230415",
+  "edition_b": "20231014",
+  "summary": {
+    "row_added": 8,
+    "row_removed": 1
+  },
+  "changes": [
+    {
+      "change_type": "row_added",
+      "title": "05 Sales Draft",
+      "cells": [
+        "TCR D",
+        "(FS) Fleet Supplementary Data"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "05 Sales Draft",
+      "cells": [
+        "TCR D",
+        "Recurring Payment"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "05 Sales Draft",
+      "cells": [
+        "TCR E",
+        "Supplemental Payment Data"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "05 Sales Draft",
+      "cells": [
+        "TCR D",
+        "India Recurring Payment"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "50 Free Text Message",
+      "cells": [
+        "TCR 0",
+        "OCT Additional Information"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "50 Free Text Message",
+      "cells": [
+        "TCR 0",
+        "OCT Payment Detail Data"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "50 Free Text Message",
+      "cells": [
+        "TCR 1",
+        "OCT Additional Information"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "50 Free Text Message",
+      "cells": [
+        "TCR 1",
+        "OCT Payment Detail Data"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "50 Free Text Message",
+      "cells": [
+        "TCR 2",
+        "OCT Payment Detail Data"
+      ]
+    }
+  ],
+  "ai_summary": {}
+}

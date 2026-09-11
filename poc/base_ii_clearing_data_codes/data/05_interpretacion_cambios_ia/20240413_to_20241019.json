@@ -1,0 +1,535 @@
+{
+  "manual": "base_ii_clearing_data_codes",
+  "edition_a": "20240413",
+  "edition_b": "20241019",
+  "summary": {
+    "table_added": 1,
+    "table_removed": 1,
+    "code_added": 6,
+    "code_removed": 18,
+    "code_content_changed": 15,
+    "duplicate_code_warning": 5
+  },
+  "changes": [
+    {
+      "change_type": "table_added",
+      "table": "Maximum Credit and Debit, Prepaid, and Account Funding POS Transaction Amounts",
+      "num_rows": 32
+    },
+    {
+      "change_type": "table_removed",
+      "table": "Chapter 2 • | Country and Currency Codes\n119",
+      "num_rows": 1
+    },
+    {
+      "change_type": "code_added",
+      "table": "Authorization Characteristics Indicators",
+      "code": "D",
+      "cells": [
+        "D",
+        "EDQP transaction (Not CPS)"
+      ]
+    },
+    {
+      "change_type": "code_removed",
+      "table": "AVS Response Codes",
+      "code": "B",
+      "cells": [
+        "B",
+        "Street addresses match for international transaction. Postal code not verified due to\nincompatible formats. (Acquirer sent street address and postal code.)"
+      ]
+    },
+    {
+      "change_type": "code_removed",
+      "table": "AVS Response Codes",
+      "code": "C",
+      "cells": [
+        "C",
+        "Street address and postal code not verified for international transaction due to\nincompatible formats. (Acquirer sent street address and postal code.)"
+      ]
+    },
+    {
+      "change_type": "code_removed",
+      "table": "AVS Response Codes",
+      "code": "D",
+      "cells": [
+        "D",
+        "Street addresses and postal codes match for international transaction."
+      ]
+    },
+    {
+      "change_type": "code_removed",
+      "table": "AVS Response Codes",
+      "code": "E",
+      "cells": [
+        "E",
+        "Error response for Merchant Category Code."
+      ]
+    },
+    {
+      "change_type": "code_removed",
+      "table": "AVS Response Codes",
+      "code": "F",
+      "cells": [
+        "F",
+        "Address does compare and five-digit ZIP code does compare (UK only)."
+      ]
+    },
+    {
+      "change_type": "code_removed",
+      "table": "AVS Response Codes",
+      "code": "G",
+      "cells": [
+        "G",
+        "Address information is unavailable; international transaction; non-AVS participant."
+      ]
+    },
+    {
+      "change_type": "code_removed",
+      "table": "AVS Response Codes",
+      "code": "I",
+      "cells": [
+        "I",
+        "Address information not verified for international transaction."
+      ]
+    },
+    {
+      "change_type": "code_removed",
+      "table": "AVS Response Codes",
+      "code": "M",
+      "cells": [
+        "M",
+        "Street addresses and postal codes match for international transaction."
+      ]
+    },
+    {
+      "change_type": "code_removed",
+      "table": "AVS Response Codes",
+      "code": "P",
+      "cells": [
+        "P",
+        "Postal codes match for international transaction. Street address not verified due to\nincompatible formats. (Acquirer sent street address and postal code.)"
+      ]
+    },
+    {
+      "change_type": "code_removed",
+      "table": "AVS Response Codes",
+      "code": "S",
+      "cells": [
+        "S",
+        "n/a. If present, replace with “U” (for domestic) or “G” (for international) by V.I.P. Available\nfor U.S. issuers only."
+      ]
+    },
+    {
+      "change_type": "code_removed",
+      "table": "AVS Response Codes",
+      "code": "W",
+      "cells": [
+        "W",
+        "Nine-digit ZIP code matches, but address does not match."
+      ]
+    },
+    {
+      "change_type": "code_removed",
+      "table": "AVS Response Codes",
+      "code": "X",
+      "cells": [
+        "X",
+        "Exact match, address, and nine-digit ZIP code match."
+      ]
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "A",
+      "column": "Definition",
+      "column_index": 1,
+      "old": "Address matches, but ZIP code does not match.",
+      "new": "AVS street address only (partial match).",
+      "similarity_ratio": 0.4,
+      "table": "AVS Response Codes",
+      "ai_category": "business_rule_change",
+      "ai_reason": "El significado del código A cambió de 'Address matches, but ZIP code does not match' a 'AVS street address only (partial match)', lo que altera la interpretación del código en el contexto de los códigos AVS.",
+      "disappeared_content": [
+        "Address matches, but ZIP code does not match."
+      ],
+      "safety_net_override": false
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "N",
+      "column": "Definition",
+      "column_index": 1,
+      "old": "Address and ZIP code do not match.",
+      "new": "AVS non-match.",
+      "similarity_ratio": 0.417,
+      "table": "AVS Response Codes",
+      "ai_category": "business_rule_change",
+      "ai_reason": "El texto describe el mismo concepto pero con una redacción más corta y directa, sin cambios en el significado.",
+      "disappeared_content": [
+        "Address and ZIP code do not match."
+      ],
+      "safety_net_override": true,
+      "ai_original_category": "editorial_reword"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "R",
+      "column": "Definition",
+      "column_index": 1,
+      "old": "Retry; system unavailable or timed out.",
+      "new": "AVS indeterminate outcome (retry).\nV.I.P. converts all invalid values in field 44.2 to R.",
+      "similarity_ratio": 0.281,
+      "table": "AVS Response Codes",
+      "ai_category": "business_rule_change",
+      "ai_reason": "El significado del código R cambió de 'Retry; system unavailable or timed out' a una descripción que incluye un proceso específico de conversión por parte de V.I.P. para valores inválidos en campo 44.2.",
+      "disappeared_content": [
+        "Retry; system unavailable or timed out."
+      ],
+      "safety_net_override": false
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "U",
+      "column": "Definition",
+      "column_index": 1,
+      "old": "Address information is unavailable; domestic transaction.",
+      "new": "AVS unable to verify.\nV.I.P. converts any blank spaces in field 44.2 to U.",
+      "similarity_ratio": 0.229,
+      "table": "AVS Response Codes",
+      "ai_category": "business_rule_change",
+      "ai_reason": "El significado del código U cambió de 'Address information is unavailable; domestic transaction' a 'AVS unable to verify. V.I.P. converts any blank spaces in field 44.2 to U', lo que implica una nueva regla de negocio sobre cómo se interpreta este código.",
+      "disappeared_content": [
+        "Address information is unavailable; domestic transaction."
+      ],
+      "safety_net_override": false
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "Y",
+      "column": "Definition",
+      "column_index": 1,
+      "old": "Address and five-digit ZIP code match.",
+      "new": "AVS full match.",
+      "similarity_ratio": 0.377,
+      "table": "AVS Response Codes",
+      "ai_category": "business_rule_change",
+      "ai_reason": "El significado del código de respuesta AVS cambió de 'Address and five-digit ZIP code match' a 'AVS full match', indicando una nueva definición de coincidencia.",
+      "disappeared_content": [
+        "Address and five-digit ZIP code"
+      ],
+      "safety_net_override": false
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "Z",
+      "column": "Definition",
+      "column_index": 1,
+      "old": "Five-digit ZIP code matches, but address does not match.",
+      "new": "AVS postal/zip code only (partial match).",
+      "similarity_ratio": 0.351,
+      "table": "AVS Response Codes",
+      "ai_category": "business_rule_change",
+      "ai_reason": "El significado del código Z cambió de 'Five-digit ZIP code matches, but address does not match' a 'AVS postal/zip code only (partial match)', lo que redefine la condición de validación para este código.",
+      "disappeared_content": [
+        "matches, but address does not match."
+      ],
+      "safety_net_override": false
+    },
+    {
+      "change_type": "code_added",
+      "table": "Business Application IDs",
+      "code": "LA",
+      "cells": [
+        "LA",
+        "Liquid Assets"
+      ]
+    },
+    {
+      "change_type": "duplicate_code_warning",
+      "table": "Fee Collection/Funds Disbursement Reason Codes",
+      "duplicate_codes_a": [
+        "5510"
+      ],
+      "duplicate_codes_b": [
+        "5510"
+      ]
+    },
+    {
+      "change_type": "duplicate_code_warning",
+      "table": "Member Settlement Data-Record Type Codes",
+      "duplicate_codes_a": [
+        "01",
+        "02",
+        "03",
+        "04"
+      ],
+      "duplicate_codes_b": [
+        "01",
+        "02",
+        "03",
+        "04"
+      ]
+    },
+    {
+      "change_type": "duplicate_code_warning",
+      "table": "Member Settlement Data-Report-Level Indicator Codes",
+      "duplicate_codes_a": [
+        "1",
+        "2"
+      ],
+      "duplicate_codes_b": [
+        "1",
+        "2"
+      ]
+    },
+    {
+      "change_type": "duplicate_code_warning",
+      "table": "Member Settlement Data-Summary-Level Codes",
+      "duplicate_codes_a": [
+        "0",
+        "1",
+        "2"
+      ],
+      "duplicate_codes_b": [
+        "0",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "change_type": "code_added",
+      "table": "Product ID Values",
+      "code": "F3",
+      "cells": [
+        "F3",
+        "Visa Installment Credential Standard"
+      ]
+    },
+    {
+      "change_type": "code_removed",
+      "table": "Product ID Values",
+      "code": "AX",
+      "cells": [
+        "AX",
+        "American Express"
+      ]
+    },
+    {
+      "change_type": "code_removed",
+      "table": "Product ID Values",
+      "code": "DI",
+      "cells": [
+        "DI",
+        "Discover"
+      ]
+    },
+    {
+      "change_type": "code_removed",
+      "table": "Product ID Values",
+      "code": "DN",
+      "cells": [
+        "DN",
+        "Diners"
+      ]
+    },
+    {
+      "change_type": "code_removed",
+      "table": "Product ID Values",
+      "code": "JC",
+      "cells": [
+        "JC",
+        "JCB"
+      ]
+    },
+    {
+      "change_type": "code_removed",
+      "table": "Product ID Values",
+      "code": "M",
+      "cells": [
+        "M",
+        "Mastercard"
+      ]
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "F2",
+      "column": "Description",
+      "column_index": 1,
+      "old": "Visa Flexible Credential",
+      "new": "Visa Installment Credential",
+      "similarity_ratio": 0.706,
+      "table": "Product ID Values",
+      "ai_category": "business_rule_change",
+      "ai_reason": "El significado del código cambió de 'Flexible Credential' a 'Installment Credential', lo que altera la definición de servicio ofrecido.",
+      "disappeared_content": [],
+      "safety_net_override": false
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "D",
+      "column": "Definition",
+      "column_index": 1,
+      "old": "Tranche 3 POS Fee - Spain only\nExempted Charity transactions - UK only\nSpecific Merchant Sectors - Argentina, Bolivia, Canada, Peru, Poland, Portugal, US",
+      "new": "Tranche 3 POS Fee - Spain only\nExempted Charity Transactions - U.K. only\nSpecific Merchant Sectors - Argentina, Bolivia, Canada, Peru, Poland, Portugal, U.S.,\nBelarus",
+      "similarity_ratio": 0.953,
+      "table": "Reimbursement Attributes",
+      "ai_category": "business_rule_change",
+      "ai_reason": "Se agregó Belarus a la lista de países para 'Specific Merchant Sectors', lo que modifica el alcance geográfico de la regla.",
+      "disappeared_content": [],
+      "safety_net_override": false
+    },
+    {
+      "change_type": "code_added",
+      "table": "Return/Reclassification Reason Codes",
+      "code": "A31",
+      "cells": [
+        "A31",
+        "Cashback IRF or Tax on Cashback IRF must be zeros."
+      ]
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "4C",
+      "column": "Error Condition",
+      "column_index": 1,
+      "old": "Entity blocked from clearing and settlement activity.",
+      "new": "Invalid Enabler Verification Value.",
+      "similarity_ratio": 0.182,
+      "table": "Return/Reclassification Reason Codes",
+      "ai_category": "business_rule_change",
+      "ai_reason": "El texto describe un cambio en la condición de bloqueo de entidad que afecta el significado de negocio, pasando de bloqueo general a una verificación de valor inválido.",
+      "disappeared_content": [
+        "Entity blocked from clearing and settlement activity."
+      ],
+      "safety_net_override": false
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "A29",
+      "column": "Error Condition",
+      "column_index": 1,
+      "old": "Non-compliance of India Regulations of Recurring Payment.",
+      "new": "Reserved.",
+      "similarity_ratio": 0.212,
+      "table": "Return/Reclassification Reason Codes",
+      "ai_category": "business_rule_change",
+      "ai_reason": "El texto anterior indicaba una condición específica de cumplimiento regulatorio en India, mientras que el nuevo texto 'Reserved' indica que el código está reservado para futuras utilizaciones, cambiando el significado de negocio.",
+      "disappeared_content": [
+        "Non-compliance of India Regulations of Recurring Payment."
+      ],
+      "safety_net_override": false
+    },
+    {
+      "change_type": "code_added",
+      "table": "Type of Purchase Codes",
+      "code": "4",
+      "cells": [
+        "4",
+        "Fuel Purchase (multiple fuel codes)"
+      ]
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "1",
+      "column": "Definition",
+      "column_index": 1,
+      "old": "Fuel Purchase",
+      "new": "Fuel Purchase (single fuel code)",
+      "similarity_ratio": 0.578,
+      "table": "Type of Purchase Codes",
+      "ai_category": "business_rule_change",
+      "ai_reason": "Se agregó la especificación 'single fuel code' para clarificar el tipo de compra de combustible, modificando el significado del código.",
+      "disappeared_content": [],
+      "safety_net_override": false
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "3",
+      "column": "Definition",
+      "column_index": 1,
+      "old": "Fuel and Non-Fuel Purchase",
+      "new": "Fuel and Non-Fuel Purchase\nValue of 3 indicates that the transaction includes single or multiple fuel type codes in addition\nto any non-fuel items.\nRefer to the Visa Fleet Card 2.0 Data and Platform Guide for more information regarding\nMultiple Fuel Codes.",
+      "similarity_ratio": 0.184,
+      "table": "Type of Purchase Codes",
+      "ai_category": "business_rule_change",
+      "ai_reason": "El texto nuevo especifica que el código 3 indica transacciones con tipos de combustible y no combustible, modificando el significado de negocio del código.",
+      "disappeared_content": [],
+      "safety_net_override": false
+    },
+    {
+      "change_type": "duplicate_code_warning",
+      "table": "ISO Numeric",
+      "duplicate_codes_a": [
+        "356",
+        "978"
+      ],
+      "duplicate_codes_b": [
+        "356",
+        "978"
+      ]
+    },
+    {
+      "change_type": "code_added",
+      "table": "ISO Numeric",
+      "code": "924",
+      "cells": [
+        "924",
+        "Zimbabwe"
+      ]
+    },
+    {
+      "change_type": "code_removed",
+      "table": "ISO Numeric",
+      "code": "932",
+      "cells": [
+        "932",
+        "Zimbabwe"
+      ]
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "ZIMBABWE",
+      "column": "ISO Currency Name",
+      "column_index": 3,
+      "old": "Zimbabwe Dollar",
+      "new": "Zimbabwe Gold",
+      "similarity_ratio": 0.786,
+      "table": "Country and Currency Codes",
+      "ai_category": "business_rule_change",
+      "ai_reason": "El nombre de la moneda cambió de 'Zimbabwe Dollar' a 'Zimbabwe Gold', lo que altera el significado comercial del código.",
+      "disappeared_content": [],
+      "safety_net_override": false
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "ZIMBABWE",
+      "column": "ISO Alpha Currency Code",
+      "column_index": 4,
+      "old": "ZWL",
+      "new": "ZWG",
+      "similarity_ratio": 0.667,
+      "table": "Country and Currency Codes",
+      "ai_category": "business_rule_change",
+      "ai_reason": "El código de moneda cambió de ZWL a ZWG, lo que altera el valor de negocio para Zimbabwe.",
+      "disappeared_content": [],
+      "safety_net_override": false
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "ZIMBABWE",
+      "column": "ISO Numeric Currency Code",
+      "column_index": 5,
+      "old": "932",
+      "new": "924",
+      "similarity_ratio": 0.667,
+      "table": "Country and Currency Codes",
+      "ai_category": "business_rule_change",
+      "ai_reason": "El código numérico de moneda cambió de 932 a 924, lo que afecta el valor de negocio.",
+      "disappeared_content": [],
+      "safety_net_override": false
+    }
+  ],
+  "ai_summary": {
+    "business_rule_change": 15
+  }
+}

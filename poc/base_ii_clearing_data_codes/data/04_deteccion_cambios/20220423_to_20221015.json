@@ -1,0 +1,564 @@
+{
+  "manual": "base_ii_clearing_data_codes",
+  "edition_a": "20220423",
+  "edition_b": "20221015",
+  "summary": {
+    "duplicate_code_warning": 5,
+    "code_added": 26,
+    "code_removed": 12,
+    "code_content_changed": 11
+  },
+  "changes": [
+    {
+      "change_type": "duplicate_code_warning",
+      "table": "Fee Collection/Funds Disbursement Reason Codes",
+      "duplicate_codes_a": [
+        "5510"
+      ],
+      "duplicate_codes_b": [
+        "5510"
+      ]
+    },
+    {
+      "change_type": "duplicate_code_warning",
+      "table": "Member Settlement Data-Record Type Codes",
+      "duplicate_codes_a": [
+        "01",
+        "02",
+        "03",
+        "04"
+      ],
+      "duplicate_codes_b": [
+        "01",
+        "02",
+        "03",
+        "04"
+      ]
+    },
+    {
+      "change_type": "duplicate_code_warning",
+      "table": "Member Settlement Data-Report-Level Indicator Codes",
+      "duplicate_codes_a": [
+        "1",
+        "2"
+      ],
+      "duplicate_codes_b": [
+        "1",
+        "2"
+      ]
+    },
+    {
+      "change_type": "duplicate_code_warning",
+      "table": "Member Settlement Data-Summary-Level Codes",
+      "duplicate_codes_a": [
+        "0",
+        "1",
+        "2"
+      ],
+      "duplicate_codes_b": [
+        "0",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "change_type": "code_added",
+      "table": "Product ID Values",
+      "code": "X1",
+      "cells": [
+        "X1",
+        "Flexible Rate B2B Virtual Program"
+      ]
+    },
+    {
+      "change_type": "code_added",
+      "table": "Return/Reclassification Reason Codes",
+      "code": "39",
+      "cells": [
+        "39",
+        "UK CAT CHB W/RSN 96-AMT < MIN"
+      ]
+    },
+    {
+      "change_type": "code_added",
+      "table": "Return/Reclassification Reason Codes",
+      "code": "A22",
+      "cells": [
+        "A22",
+        "Invalid Recurring Payment Type."
+      ]
+    },
+    {
+      "change_type": "code_added",
+      "table": "Return/Reclassification Reason Codes",
+      "code": "A23",
+      "cells": [
+        "A23",
+        "Invalid Payment Amount Indicator Per Transaction."
+      ]
+    },
+    {
+      "change_type": "code_added",
+      "table": "Return/Reclassification Reason Codes",
+      "code": "A24",
+      "cells": [
+        "A24",
+        "Invalid Number of Recurring Payment."
+      ]
+    },
+    {
+      "change_type": "code_added",
+      "table": "Return/Reclassification Reason Codes",
+      "code": "A25",
+      "cells": [
+        "A25",
+        "Invalid Frequency of Recurring Payment."
+      ]
+    },
+    {
+      "change_type": "code_added",
+      "table": "Return/Reclassification Reason Codes",
+      "code": "A26",
+      "cells": [
+        "A26",
+        "Invalid Registration Reference Number."
+      ]
+    },
+    {
+      "change_type": "code_added",
+      "table": "Return/Reclassification Reason Codes",
+      "code": "A27",
+      "cells": [
+        "A27",
+        "Invalid Maximum Recurring Payment Amount."
+      ]
+    },
+    {
+      "change_type": "code_added",
+      "table": "Return/Reclassification Reason Codes",
+      "code": "A28",
+      "cells": [
+        "A28",
+        "Invalid Validation Indicator."
+      ]
+    },
+    {
+      "change_type": "code_added",
+      "table": "Return/Reclassification Reason Codes",
+      "code": "A29",
+      "cells": [
+        "A29",
+        "Non-compliance of India Regulations of Recurring Payment."
+      ]
+    },
+    {
+      "change_type": "code_added",
+      "table": "Return/Reclassification Reason Codes",
+      "code": "V32",
+      "cells": [
+        "V32",
+        "Previous Installment Risk Fee data missing."
+      ]
+    },
+    {
+      "change_type": "code_added",
+      "table": "Return/Reclassification Reason Codes",
+      "code": "V33",
+      "cells": [
+        "V33",
+        "Previous VAT on Installment Fee Risk data missing."
+      ]
+    },
+    {
+      "change_type": "duplicate_code_warning",
+      "table": "ISO Numeric",
+      "duplicate_codes_a": [
+        "356",
+        "978"
+      ],
+      "duplicate_codes_b": [
+        "356",
+        "978"
+      ]
+    },
+    {
+      "change_type": "code_added",
+      "table": "ISO Numeric",
+      "code": "188 191/978",
+      "cells": [
+        "188\n191/978",
+        "Costa Rica\nCroatia"
+      ]
+    },
+    {
+      "change_type": "code_added",
+      "table": "ISO Numeric",
+      "code": "690 694/925",
+      "cells": [
+        "690\n694/925",
+        "Seychelles\nSierra Leone"
+      ]
+    },
+    {
+      "change_type": "code_added",
+      "table": "ISO Numeric",
+      "code": "925",
+      "cells": [
+        "925",
+        "Sierra Leone"
+      ]
+    },
+    {
+      "change_type": "code_removed",
+      "table": "ISO Numeric",
+      "code": "188",
+      "cells": [
+        "188",
+        "Costa Rica"
+      ]
+    },
+    {
+      "change_type": "code_removed",
+      "table": "ISO Numeric",
+      "code": "191",
+      "cells": [
+        "191",
+        "Croatia"
+      ]
+    },
+    {
+      "change_type": "code_removed",
+      "table": "ISO Numeric",
+      "code": "690",
+      "cells": [
+        "690",
+        "Seychelles"
+      ]
+    },
+    {
+      "change_type": "code_removed",
+      "table": "ISO Numeric",
+      "code": "694",
+      "cells": [
+        "694",
+        "Sierra Leone"
+      ]
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "156",
+      "column": "Country/Territory Name",
+      "column_index": 1,
+      "old": "China",
+      "new": "Mainland China",
+      "similarity_ratio": 0.526,
+      "table": "ISO Numeric"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "901",
+      "column": "Country/Territory Name",
+      "column_index": 1,
+      "old": "Taiwan (Province of China)",
+      "new": "Taiwan",
+      "similarity_ratio": 0.375,
+      "table": "ISO Numeric"
+    },
+    {
+      "change_type": "code_added",
+      "table": "Country and Currency Codes",
+      "code": "HONG KONG",
+      "cells": [
+        "Hong Kong",
+        "HK",
+        "344",
+        "Hong Kong\nDollarS",
+        "HKD",
+        "344"
+      ]
+    },
+    {
+      "change_type": "code_added",
+      "table": "Country and Currency Codes",
+      "code": "MACAO",
+      "cells": [
+        "Macao",
+        "MO",
+        "446",
+        "Pataca",
+        "MOP",
+        "446"
+      ]
+    },
+    {
+      "change_type": "code_added",
+      "table": "Country and Currency Codes",
+      "code": "MAINLAND CHINA",
+      "cells": [
+        "Mainland China",
+        "CN",
+        "156",
+        "Yuan Renminbi",
+        "CNY",
+        "156"
+      ]
+    },
+    {
+      "change_type": "code_added",
+      "table": "Country and Currency Codes",
+      "code": "TAIWAN",
+      "cells": [
+        "Taiwan",
+        "TW",
+        "158",
+        "New Taiwan\nDollar",
+        "TWD",
+        "901"
+      ]
+    },
+    {
+      "change_type": "code_removed",
+      "table": "Country and Currency Codes",
+      "code": "CHINA, PEOPLE'S REPUBLIC OF",
+      "cells": [
+        "China, People's\nRepublic of",
+        "CN",
+        "156",
+        "Yuan Renminbi",
+        "CNY",
+        "156"
+      ]
+    },
+    {
+      "change_type": "code_removed",
+      "table": "Country and Currency Codes",
+      "code": "HONG KONG, SPECIAL ADMINIS­ TRATIVE REGION OF CHINA",
+      "cells": [
+        "Hong Kong,\nSpecial Adminis­\ntrative Region of\nChina",
+        "HK",
+        "344",
+        "Hong Kong\nDollarS",
+        "HKD",
+        "344"
+      ]
+    },
+    {
+      "change_type": "code_removed",
+      "table": "Country and Currency Codes",
+      "code": "MACAO, SPECIAL ADMINISTRATIVE REGION OF CHINA",
+      "cells": [
+        "Macao, Special\nAdministrative\nRegion of China",
+        "MO",
+        "446",
+        "Pataca",
+        "MOP",
+        "446"
+      ]
+    },
+    {
+      "change_type": "code_removed",
+      "table": "Country and Currency Codes",
+      "code": "TAIWAN, PROVINCE OF CHINA",
+      "cells": [
+        "Taiwan, Province\nof China",
+        "TW",
+        "158",
+        "New Taiwan\nDollar",
+        "TWD",
+        "901"
+      ]
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "CROATIA",
+      "column": "ISO Currency Name",
+      "column_index": 3,
+      "old": "Croatian Kuna",
+      "new": "Croatian Kuna\nEuro",
+      "similarity_ratio": 0.839,
+      "table": "Country and Currency Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "CROATIA",
+      "column": "ISO Alpha Currency Code",
+      "column_index": 4,
+      "old": "HRK",
+      "new": "HRK\nEuro",
+      "similarity_ratio": 0.545,
+      "table": "Country and Currency Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "CROATIA",
+      "column": "ISO Numeric Currency Code",
+      "column_index": 5,
+      "old": "191",
+      "new": "191\n978",
+      "similarity_ratio": 0.6,
+      "table": "Country and Currency Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "SIERRA LEONE",
+      "column": "ISO Currency Name",
+      "column_index": 3,
+      "old": "Leone",
+      "new": "Leone\nLeone",
+      "similarity_ratio": 0.625,
+      "table": "Country and Currency Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "SIERRA LEONE",
+      "column": "ISO Alpha Currency Code",
+      "column_index": 4,
+      "old": "SLL",
+      "new": "SLL\nSLE",
+      "similarity_ratio": 0.6,
+      "table": "Country and Currency Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "SIERRA LEONE",
+      "column": "ISO Numeric Currency Code",
+      "column_index": 5,
+      "old": "694",
+      "new": "694\n925",
+      "similarity_ratio": 0.6,
+      "table": "Country and Currency Codes"
+    },
+    {
+      "change_type": "code_added",
+      "table": "Settlement Currencies",
+      "code": "HUNGARY",
+      "cells": [
+        "Hungary",
+        "348",
+        "HUF"
+      ]
+    },
+    {
+      "change_type": "code_added",
+      "table": "Settlement Currencies",
+      "code": "ROMANIA",
+      "cells": [
+        "Romania",
+        "946",
+        "RON"
+      ]
+    },
+    {
+      "change_type": "code_added",
+      "table": "Settlement Currencies",
+      "code": "UNITED ARAB EMIRATES (THE)",
+      "cells": [
+        "United Arab Emirates (the)",
+        "784",
+        "AED"
+      ]
+    },
+    {
+      "change_type": "code_added",
+      "table": "Glossary",
+      "code": "DISPUTE",
+      "cells": [
+        "dispute",
+        "A sales draft or other item that has been examined by the issuer center, found to\nbe improper, and sent back to the acquirer center with other outgoing\ninterchange."
+      ]
+    },
+    {
+      "change_type": "code_added",
+      "table": "Glossary",
+      "code": "INTERCHANGE REIMBURSEMENT FEE",
+      "cells": [
+        "Interchange Reimbursement Fee",
+        "(IRF) A fee paid by issuers and acquirers to each other for transactions entered\ninto interchange (and their reversals) to balance the cost of doing business."
+      ]
+    },
+    {
+      "change_type": "code_added",
+      "table": "Glossary",
+      "code": "INTERCHANGE TRANSACTION FILE",
+      "cells": [
+        "interchange transaction file",
+        "(ITF) The standard input/output data medium for the Interchange Control System\n(ICS). All output from is delivered to the Visa client on an incoming ITF. All input\nto is sent from the member to the ICS on an outgoing ITF."
+      ]
+    },
+    {
+      "change_type": "code_added",
+      "table": "Glossary",
+      "code": "OPTIONAL ISSUER FEE",
+      "cells": [
+        "optional issuer fee",
+        "(OIF) An optional additional currency fee requested by the issuer and collected as\npart of the billing amount, if desired by the issuer. This fee is not included in the\nsettlement amount. It may be a debit or credit."
+      ]
+    },
+    {
+      "change_type": "code_removed",
+      "table": "Glossary",
+      "code": "CHARGEBACK",
+      "cells": [
+        "chargeback",
+        "A sales draft or other item that has been examined by the issuer center, found to\nbe improper, and sent back to the acquirer center with other outgoing\ninterchange. This is a deprecated term. See current, dispute financial."
+      ]
+    },
+    {
+      "change_type": "code_removed",
+      "table": "Glossary",
+      "code": "INTERCHANGE REIMBURSEMENT FEE (IRF)",
+      "cells": [
+        "Interchange Reimbursement Fee\n(IRF)",
+        "A fee paid by issuers and acquirers to each other for transactions entered into\ninterchange (and their reversals) to balance the cost of doing business."
+      ]
+    },
+    {
+      "change_type": "code_removed",
+      "table": "Glossary",
+      "code": "OPTIONAL ISSUER FEE (OIF)",
+      "cells": [
+        "optional issuer fee (OIF)",
+        "An optional additional currency fee requested by the issuer and collected as part\nof the billing amount, if desired by the issuer. This fee is not included in the\nsettlement amount. It may be a debit or credit."
+      ]
+    },
+    {
+      "change_type": "code_removed",
+      "table": "Glossary",
+      "code": "REIMBURSEMENT FEE",
+      "cells": [
+        "reimbursement fee",
+        "Amount paid by one client to another (usually by the acquirer to the issuer), and\ncan vary according to market requirements."
+      ]
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "CREDIT CARD",
+      "column": "Definition",
+      "column_index": 1,
+      "old": "In the AP, CEMEA, LAC, Europe, and US Regions: A card linked to a secured or\nunsecured open-ended credit account, including revolving or non-revolving\nconsumer, business, or commercial credit or charge accounts, or a credit account\nor equivalent as defined under applicable laws or regulations. An account is not a\ncredit account if the credit results from the incidental extension of credit, such as\noverdraft or minimum balance protection or similar services. In the Canada\nRegion: A card other than a Visa Debit Category Card.\nGlossary Definition: A physical or digital card with an account number assigned\nby an issuer to a cardholder. This card, which has a credit limit, can be used to\npurchase goods and services and to get cash. The issuing institution bills the\ncardholder every month for repayment of the credit extended. The cardholder\nrepays the issuer in full every month or on an installment basis, with a minimum\namount due.",
+      "new": "A physical or digital card with an account number assigned by an issuer to a\ncardholder. This card, which has a credit limit, can be used to purchase goods and\nservices and to get cash. The issuing institution bills the cardholder every month\nfor repayment of the credit extended. The cardholder repays the issuer in full\nevery month or on an installment basis, with a minimum amount due.",
+      "similarity_ratio": 0.014,
+      "table": "Glossary"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "ISSUER",
+      "column": "Definition",
+      "column_index": 1,
+      "old": "A client financial institution that issues Visa cards. For a given transaction, the\nissuer is the institution that issued the card used for that transaction to the\ncardholder. The issuer is responsible for maintaining the accounts of its\ncardholders, for providing authorization decisions, for cardholder billing, and for\nsettlement of transactions its cardholders have with merchants and cash\ndispensing locations of other clients. Each issuer operates or designates an issuer\ncenter to perform the functions related to clearing and settlement of interchange\ntransactions.",
+      "new": "A client financial institution that issues Visa cards. For a given transaction, the\nissuer is the institution that issued the card used for that transaction to the\naccount holder. The issuer is responsible for maintaining the accounts of its\naccount holders, for providing authorization decisions, for account holder billing,\nand for settlement of transactions its account holders have with merchants and\ncash dispensing locations of other clients. Each issuer operates or designates an\nissuer center to perform the functions related to clearing and settlement of\ninterchange transactions.",
+      "similarity_ratio": 0.959,
+      "table": "Glossary"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "ISSUER CENTER",
+      "column": "Definition",
+      "column_index": 1,
+      "old": "A BASE II processing center acting in support of one or more issuers. The\nprocessing center processes completed cardholder transactions (local and\ninterchange) for cardholder account posting and billing. For completed\ninterchange transactions, the center is also responsible for receiving and\nprocessing incoming transactions for the cardholders of the issuer or issuers.",
+      "new": "A BASE II processing center acting in support of one or more issuers. The\nprocessing center processes completed account holder transactions (local and\ninterchange) for account holder account posting and billing. For completed\ninterchange transactions, the center is also responsible for receiving and\nprocessing incoming transactions for the account holders of the issuer or issuers.",
+      "similarity_ratio": 0.952,
+      "table": "Glossary"
+    }
+  ]
+}

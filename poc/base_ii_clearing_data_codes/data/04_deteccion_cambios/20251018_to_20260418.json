@@ -1,0 +1,1624 @@
+{
+  "manual": "base_ii_clearing_data_codes",
+  "edition_a": "20251018",
+  "edition_b": "20260418",
+  "summary": {
+    "table_added": 9,
+    "table_removed": 3,
+    "code_content_changed": 114,
+    "duplicate_code_warning": 3,
+    "code_added": 15,
+    "code_removed": 19,
+    "table_renamed": 1
+  },
+  "changes": [
+    {
+      "change_type": "table_added",
+      "table": "Member Settlement Data-Record Type Codes — REPORT GROUP=SPACE",
+      "num_rows": 9
+    },
+    {
+      "change_type": "table_added",
+      "table": "Member Settlement Data-Record Type Codes — REPORT GROUP = SPACES (BASE II-5A and\n-6E Reports)—CIBLE",
+      "num_rows": 5
+    },
+    {
+      "change_type": "table_added",
+      "table": "Member Settlement Data-Record Type Codes — REPORT GROUP = I (Fee Change\nSummary)",
+      "num_rows": 4
+    },
+    {
+      "change_type": "table_added",
+      "table": "Member Settlement Data-Report-Level Indicator Codes — REPORT GROUP = SPACE",
+      "num_rows": 2
+    },
+    {
+      "change_type": "table_added",
+      "table": "Member Settlement Data-Report-Level Indicator Codes — REPORT GROUP = I (Fee Change\nSummary)",
+      "num_rows": 3
+    },
+    {
+      "change_type": "table_added",
+      "table": "Member Settlement Data-Summary-Level Codes — ALL REPORT GROUPS",
+      "num_rows": 2
+    },
+    {
+      "change_type": "table_added",
+      "table": "Member Settlement Data-Summary-Level Codes — REPORT GROUP =SPACE",
+      "num_rows": 3
+    },
+    {
+      "change_type": "table_added",
+      "table": "Member Settlement Data-Summary-Level Codes — REPORT GROUP =SPACES (BASE II-5A\nand —6E Reports)—CIBLE",
+      "num_rows": 2
+    },
+    {
+      "change_type": "table_added",
+      "table": "Member Settlement Data-Summary-Level Codes — REPORT GROUP =I (Fee Change\nSummary",
+      "num_rows": 3
+    },
+    {
+      "change_type": "table_removed",
+      "table": "Member Settlement Data-Record Type Codes",
+      "num_rows": 18
+    },
+    {
+      "change_type": "table_removed",
+      "table": "Member Settlement Data-Report-Level Indicator Codes",
+      "num_rows": 5
+    },
+    {
+      "change_type": "table_removed",
+      "table": "Member Settlement Data-Summary-Level Codes",
+      "num_rows": 10
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "30",
+      "column": "Chargeback Reason Rules",
+      "column_index": 2,
+      "old": "Services Not Provided or Merchandise Not Received\nAll Regions:\nl\nInternational:\nl\nl\nU.K. Domestic:\nl\nCanada Region:\nl\nl\nJapan Domestic:\nl\nATM is prohibited.\nFor T&E transactions the minimum amount must be equal to or\ngreater than $25.00 USD.\nNo non-T&E minimum amount.\nT&E and non-T&E, no minimum amount.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nT&E and non-T&E, no minimum amount.",
+      "new": "Services Not Provided or Merchandise Not Received\nAll Regions:\n●ATM is prohibited.\nInternational:\n●For T&E transactions the minimum amount must be equal to or greater\n●No non-T&E minimum amount.\nU.K. Domestic:\nthan $25.00 USD.\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\nthan $25.00 CAD.\ngreater than $10.00 CAD.\n●T&E and non-T&E, no minimum amount.",
+      "similarity_ratio": 0.486,
+      "table": "Retired Chargeback Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "41",
+      "column": "Chargeback Reason Rules",
+      "column_index": 2,
+      "old": "Cancelled Recurring Transaction\nAll Regions:\nl\nInternational:\nATM is prohibited.\nl\nl\nU.K. Domestic:\nFor T&E transaction, the minimum amount must be equal to or\ngreater than $25.00 USD.\nNo non-T&E minimum amount.\nl\nCanada Region:\nl\nl\nJapan Domestic:\nl\nT&E and non-T&E, no minimum amount.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nT&E and non-T&E, no minimum amount.",
+      "new": "Cancelled Recurring Transaction\nAll Regions:\n●ATM is prohibited.\nInternational:\n●For T&E transaction, the minimum amount must be equal to or greater\n●No non-T&E minimum amount.\nU.K. Domestic:\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\n●T&E and non-T&E, no minimum amount.\nthan $25.00 USD.\nthan $25.00 CAD.\ngreater than $10.00 CAD.",
+      "similarity_ratio": 0.251,
+      "table": "Retired Chargeback Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "53",
+      "column": "Chargeback Reason Rules",
+      "column_index": 2,
+      "old": "Not as Described or Defective Merchandise\nAll Regions:\nl\nInternational:\nl\nl\nU.S. Region:\nl\nU.K. Domestic:\nl\nCanada Region:\nl\nl\nJapan Domestic:\nl\nATM is prohibited.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 USD.\nNo non-T&E minimum amount.\nEPS not allowed.\nT&E and non-T&E, no minimum amount.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nT&E and non-T&E, no minimum amount.",
+      "new": "Not as Described or Defective Merchandise\nAll Regions:\n●ATM is prohibited.\nInternational:\n●For T&E transactions, the minimum amount must be equal to or greater\n●No non-T&E minimum amount.\nU.S. Region:\nthan $25.00 USD.\n●EPS not allowed.\nU.K. Domestic:\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\nthan $25.00 CAD.\ngreater than $10.00 CAD.\n●T&E and non-T&E, no minimum amount.",
+      "similarity_ratio": 0.561,
+      "table": "Retired Chargeback Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "57",
+      "column": "Chargeback Reason Rules",
+      "column_index": 2,
+      "old": "Fraudulent Multiple Transactions\nAll Regions:\nl\nl\nl\nInternational:\nATM is prohibited.\nDirect Marketing MCCs are prohibited.\nMOTO/ECI must be spaces.\nl\nl\nU.K. Domestic:\nl\nCanada Region:\nl\nl\nJapan Domestic:\nl\nFor T&E transactions, the minimum must be equal to or greater\nthan $25.00 USD.\nNo non-T&E minimum amount.\nT&E and non-T&E, no minimum amount.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD\nT&E and non-T&E, no minimum amount.",
+      "new": "Fraudulent Multiple Transactions\nAll Regions:\n●ATM is prohibited.\n●Direct Marketing MCCs are prohibited.\n●MOTO/ECI must be spaces.\nInternational:\n●For T&E transactions, the minimum must be equal to or greater than\n●No non-T&E minimum amount.\nU.K. Domestic:\n$25.00 USD.\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\nthan $25.00 CAD.\ngreater than $10.00 CAD\n●T&E and non-T&E, no minimum amount.",
+      "similarity_ratio": 0.525,
+      "table": "Retired Chargeback Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "60",
+      "column": "Chargeback Reason Rules",
+      "column_index": 2,
+      "old": "Illegible Fulfillment\nAll Regions:\nl\nInternational:\nl\nU.S. Domestic and AP Region:\nl\nCanada Region:\nATM is prohibited.\nNo T&E or non-T&E minimum amount.\nEPS is not allowed.\nl\nl\nl\nJapan Domestic:\nl\nEPS is not allowed.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nT&E and non-T&E, no minimum amount.",
+      "new": "Illegible Fulfillment\nAll Regions:\n●ATM is prohibited.\nInternational:\n●No T&E or non-T&E minimum amount.\nU.S. Domestic and AP Region:\n●EPS is not allowed.\nCanada Region:\n●EPS is not allowed.\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\n●T&E and non-T&E, no minimum amount.\nthan $25.00 CAD.\ngreater than $10.00 CAD.",
+      "similarity_ratio": 0.382,
+      "table": "Retired Chargeback Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "62",
+      "column": "Chargeback Reason Rules",
+      "column_index": 2,
+      "old": "Counterfeit Transaction\nAll Regions:\nl\nl\nInternational:\nl\nCanada Region:\nl\nl\nJapan Domestic:\nl\nDirect Marketing MCCs are prohibited.\nMOTO/ECI must be spaces.\nNo T&E or non-T&E minimum amount.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nT&E and non-T&E, no minimum amount.",
+      "new": "Counterfeit Transaction\nAll Regions:\n●Direct Marketing MCCs are prohibited.\n●MOTO/ECI must be spaces.\nInternational:\n●No T&E or non-T&E minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\nthan $25.00 CAD.\ngreater than $10.00 CAD.\n●T&E and non-T&E, no minimum amount.",
+      "similarity_ratio": 0.608,
+      "table": "Retired Chargeback Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "70",
+      "column": "Chargeback Reason Rules",
+      "column_index": 2,
+      "old": "Card Recovery Bulletin or Exception File\nAll Regions:\nl\nl\nInternational:\nATM is prohibited.\nValidate against the Card Warning Bulletin.\nl\nl\nU.K. Domestic:\nl\nCanada Region:\nl\nl\nJapan Domestic:\nl\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 USD.\nNo non-T&E minimum amount.\nT&E and non-T&E, no minimum amount.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nT&E and non-T&E, no minimum amount.",
+      "new": "Card Recovery Bulletin or Exception File\nAll Regions:\n●ATM is prohibited.\n●Validate against the Card Warning Bulletin.\nInternational:\n●For T&E transactions, the minimum amount must be equal to or greater\n●No non-T&E minimum amount.\nU.K. Domestic:\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\n●T&E and non-T&E, no minimum amount.\nthan $25.00 USD.\nthan $25.00 CAD.\ngreater than $10.00 CAD.",
+      "similarity_ratio": 0.26,
+      "table": "Retired Chargeback Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "71",
+      "column": "Chargeback Reason Rules",
+      "column_index": 2,
+      "old": "Declined Authorization\nAll Regions:\nl\nInternational:\nl\nl\nU.K. Domestic:\nl\nCanada Region:\nl\nl\nJapan Domestic:\nl\nATM is prohibited.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 USD.\nNo non-T&E minimum amount.\nT&E and non-T&E, no minimum amount.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nT&E and non-T&E, no minimum amount.",
+      "new": "Declined Authorization\nAll Regions:\n●ATM is prohibited.\nInternational:\n●For T&E transactions, the minimum amount must be equal to or greater\n●No non-T&E minimum amount.\nU.K. Domestic:\nthan $25.00 USD.\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\nthan $25.00 CAD.\ngreater than $10.00 CAD.\n●T&E and non-T&E, no minimum amount.",
+      "similarity_ratio": 0.454,
+      "table": "Retired Chargeback Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "72",
+      "column": "Chargeback Reason Rules",
+      "column_index": 2,
+      "old": "No Authorization\nAll Regions:\nl\nInternational:\nATM is prohibited.\nl\nl\nU.K. Domestic:\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 USD.\nNo non-T&E minimum amount.\nl\nCanada Region:\nl\nl\nJapan Domestic:\nl\nT&E and non-T&E, no minimum amount.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nT&E and non-T&E, no minimum amount.",
+      "new": "No Authorization\nAll Regions:\n●ATM is prohibited.\nInternational:\n●For T&E transactions, the minimum amount must be equal to or greater\n●No non-T&E minimum amount.\nU.K. Domestic:\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\n●T&E and non-T&E, no minimum amount.\nthan $25.00 USD.\nthan $25.00 CAD.\ngreater than $10.00 CAD.",
+      "similarity_ratio": 0.395,
+      "table": "Retired Chargeback Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "73",
+      "column": "Chargeback Reason Rules",
+      "column_index": 2,
+      "old": "Expired Card\nAll Regions:\nl\nInternational:\nl\nl\nU.K. Domestic:\nl\nCanada Region:\nl\nl\nJapan Domestic:\nl\nATM is prohibited.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 USD.\nNo non-T&E minimum amount.\nT&E and non-T&E, no minimum amount.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nT&E and non-T&E, no minimum amount.",
+      "new": "Expired Card\nAll Regions:\n●ATM is prohibited.\nInternational:\n●For T&E transactions, the minimum amount must be equal to or greater\n●No non-T&E minimum amount.\nU.K. Domestic:\nthan $25.00 USD.\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\nthan $25.00 CAD.\ngreater than $10.00 CAD.\n●T&E and non-T&E, no minimum amount.",
+      "similarity_ratio": 0.361,
+      "table": "Retired Chargeback Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "74",
+      "column": "Chargeback Reason Rules",
+      "column_index": 2,
+      "old": "Late Presentment\nInternational:\nl\nl\nU.S. Domestic:\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 USD.\nNo non-T&E minimum amount.\nl\nl\nU.K. Domestic:\nPlus ATM cash disbursement and alternate media transactions\nare prohibited.\nVisa ATM cash disbursement transaction is not allowed.\nl\nCanada Region:\nl\nl\nJapan Domestic:\nl\nT&E and non-T&E, no minimum amount.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nT&E and non-T&E, no minimum amount.",
+      "new": "Late Presentment\nInternational:\n●For T&E transactions, the minimum amount must be equal to or greater\n●No non-T&E minimum amount.\nU.S. Domestic:\nthan $25.00 USD.\n●Plus ATM cash disbursement and alternate media transactions are\n●Visa ATM cash disbursement transaction is not allowed.\nU.K. Domestic:\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\n●T&E and non-T&E, no minimum amount.\nprohibited.\nthan $25.00 CAD.\ngreater than $10.00 CAD.",
+      "similarity_ratio": 0.213,
+      "table": "Retired Chargeback Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "75",
+      "column": "Chargeback Reason Rules",
+      "column_index": 2,
+      "old": "Transaction Not Recognized\nAll Regions:\nl\nl\nInternational:\nl\nl\nU.S. Region:\nl\nl\nl\nU.K. Domestic\nl\nCanada Region:\nl\nl\nl\nJapan Domestic:\nl\nATM is prohibited.\nCannot be a Secure Electronic Commerce transaction.\nNo T&E minimum amount.\nNo non-T&E minimum amount.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 USD.\nNo non-T&E minimum amount.\nEPS not allowed.\nT&E and non-T&E, no minimum amount.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nNot valid for EPS/NSR Transactions\nT&E and non-T&E, no minimum amount.",
+      "new": "Transaction Not Recognized\nAll Regions:\n●ATM is prohibited.\n●Cannot be a Secure Electronic Commerce transaction.\nInternational:\n●No T&E minimum amount.\n●No non-T&E minimum amount.\nU.S. Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●No non-T&E minimum amount.\n●EPS not allowed.\nU.K. Domestic\nthan $25.00 USD.\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\n●Not valid for EPS/NSR Transactions\nJapan Domestic:\nthan $25.00 CAD.\ngreater than $10.00 CAD.\n●T&E and non-T&E, no minimum amount.",
+      "similarity_ratio": 0.346,
+      "table": "Retired Chargeback Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "76",
+      "column": "Chargeback Reason Rules",
+      "column_index": 2,
+      "old": "Incorrect Currency or Transaction Code or Domestic\nTransaction Processing Violation\nInternational:\nl\nl\nU.K. Domestic:\nl\nCanada Region:\nl\nl\nJapan Domestic:\nl\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 USD.\nNo non-T&E minimum amount.\nT&E and non-T&E, no minimum amount.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nT&E and non-T&E, no minimum amount.",
+      "new": "Incorrect Currency or Transaction Code or Domestic Transaction\nProcessing Violation\nInternational:\n●For T&E transactions, the minimum amount must be equal to or greater\n●No non-T&E minimum amount.\nU.K. Domestic:\nthan $25.00 USD.\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\nthan $25.00 CAD.\ngreater than $10.00 CAD.\n●T&E and non-T&E, no minimum amount.",
+      "similarity_ratio": 0.525,
+      "table": "Retired Chargeback Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "77",
+      "column": "Chargeback Reason Rules",
+      "column_index": 2,
+      "old": "Non-Matching Account Number\nAll Regions:\nl\nInternational:\nl\nl\nU.K. Domestic:\nl\nCanada Region:\nATM is prohibited.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 USD.\nNo non-T&E minimum amount.\nT&E and non-T&E, no minimum amount.\nl\nl\nJapan Domestic:\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nl\nT&E and non-T&E, no minimum amount.",
+      "new": "Non-Matching Account Number\nAll Regions:\n●ATM is prohibited.\nInternational:\n●For T&E transactions, the minimum amount must be equal to or greater\n●No non-T&E minimum amount.\nU.K. Domestic:\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\n●T&E and non-T&E, no minimum amount.\nthan $25.00 USD.\nthan $25.00 CAD.\ngreater than $10.00 CAD.",
+      "similarity_ratio": 0.309,
+      "table": "Retired Chargeback Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "78",
+      "column": "Chargeback Reason Rules",
+      "column_index": 2,
+      "old": "Service Code Violation\nAll Regions:\nl\nInternational:\nl\nl\nU.K. Domestic:\nl\nCanada Region:\nl\nl\nJapan Domestic:\nl\nATM is prohibited.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 USD.\nNo non-T&E minimum amount.\nT&E and non-T&E, no minimum amount.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nT&E and non-T&E, no minimum amount.",
+      "new": "Service Code Violation\nAll Regions:\n●ATM is prohibited.\nInternational:\n●For T&E transactions, the minimum amount must be equal to or greater\n●No non-T&E minimum amount.\nU.K. Domestic:\nthan $25.00 USD.\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\nthan $25.00 CAD.\ngreater than $10.00 CAD.\n●T&E and non-T&E, no minimum amount.",
+      "similarity_ratio": 0.454,
+      "table": "Retired Chargeback Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "80",
+      "column": "Chargeback Reason Rules",
+      "column_index": 2,
+      "old": "Incorrect Transaction Amount or Account Number\nAll Regions except U.S. Region:\nl\nInternational:\nATM is prohibited.\nl\nl\nU.K. Domestic:\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 USD.\nNo non-T&E minimum amount.\nl\nCanada Region:\nl\nl\nl\nJapan Domestic:\nl\nT&E and non-T&E, no minimum amount.\nEPS is not allowed.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nT&E and non-T&E, no minimum amount.",
+      "new": "Incorrect Transaction Amount or Account Number\nAll Regions except U.S. Region:\n●ATM is prohibited.\nInternational:\n●For T&E transactions, the minimum amount must be equal to or greater\n●No non-T&E minimum amount.\nU.K. Domestic:\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●EPS is not allowed.\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\n●T&E and non-T&E, no minimum amount.\nthan $25.00 USD.\nthan $25.00 CAD.\ngreater than $10.00 CAD.",
+      "similarity_ratio": 0.287,
+      "table": "Retired Chargeback Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "81",
+      "column": "Chargeback Reason Rules",
+      "column_index": 2,
+      "old": "Fraud - Card-Present Environment\nAll Regions:\nl\nl\nInternational:\nl\nl\nl\nU.S. Region:\nl\nl\nAP Region:\nl\nU.K. Domestic:\nl\nCanada Region:\nl\nl\nl\nJapan Domestic:\nl\nMOTO/ECI must be spaces.\nDirect Marketing MCCs are prohibited.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 USD.\nNo non-T&E minimum amount.\nATM is prohibited\nFor Automated Fuel Dispenser transactions, the minimum\namount must be equal to or greater than $10.00 USD.\nATM is prohibited\nEPS not allowed.\nT&E and non-T&E, no minimum amount.\nEPS is not allowed.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nT&E and non-T&E, no minimum amount.",
+      "new": "Fraud - Card-Present Environment\nAll Regions:\n●MOTO/ECI must be spaces.\n●Direct Marketing MCCs are prohibited.\nInternational:\n●For T&E transactions, the minimum amount must be equal to or greater\n●No non-T&E minimum amount.\n●ATM is prohibited\nU.S. Region:\nthan $25.00 USD.\n●For Automated Fuel Dispenser transactions, the minimum amount must be\n●ATM is prohibited\nAP Region:\nequal to or greater than $10.00 USD.\n●EPS not allowed.\nU.K. Domestic:\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●EPS is not allowed.\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\n●T&E and non-T&E, no minimum amount.\nthan $25.00 CAD.\ngreater than $10.00 CAD.",
+      "similarity_ratio": 0.579,
+      "table": "Retired Chargeback Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "82",
+      "column": "Chargeback Reason Rules",
+      "column_index": 2,
+      "old": "Duplicate Processing\nInternational:\nl\nl\nU.K. Domestic:\nl\nCanada Region:\nl\nl\nJapan Domestic:\nl\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 USD.\nNo non-T&E minimum amount.\nT&E and non-T&E, no minimum amount.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nT&E and non-T&E, no minimum amount.",
+      "new": "Duplicate Processing\nInternational:\n●For T&E transactions, the minimum amount must be equal to or greater\n●No non-T&E minimum amount.\nU.K. Domestic:\nthan $25.00 USD.\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\nthan $25.00 CAD.\ngreater than $10.00 CAD.\n●T&E and non-T&E, no minimum amount.",
+      "similarity_ratio": 0.459,
+      "table": "Retired Chargeback Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "83",
+      "column": "Chargeback Reason Rules",
+      "column_index": 2,
+      "old": "Fraud - Card-Absent Environment\nAll Regions:\nl\nl\nInternational:\nl\nl\nU.K. Domestic:\nl\nCanada Region:\nATM is prohibited.\nRestricted for use by Secure Electronic Commerce transactions,\nexcept by U.S. region.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 USD.\nNo non-T&E minimum amount.\nT&E and non-T&E, no minimum amount.\nl\nl\nJapan Domestic:\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nl\nT&E and non-T&E, no minimum amount.",
+      "new": "Fraud - Card-Absent Environment\nAll Regions:\n●ATM is prohibited.\n●Restricted for use by Secure Electronic Commerce transactions, except by\nInternational:\nU.S. region.\n●For T&E transactions, the minimum amount must be equal to or greater\n●No non-T&E minimum amount.\nU.K. Domestic:\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\n●T&E and non-T&E, no minimum amount.\nthan $25.00 USD.\nthan $25.00 CAD.\ngreater than $10.00 CAD.",
+      "similarity_ratio": 0.264,
+      "table": "Retired Chargeback Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "85",
+      "column": "Chargeback Reason Rules",
+      "column_index": 2,
+      "old": "Credit Not Processed\nAll Regions:\nl\nInternational:\nl\nl\nU.K. Domestic:\nl\nCanada Region:\nl\nl\nJapan Domestic:\nl\nATM is prohibited.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 USD.\nNo non-T&E minimum amount.\nT&E and non-T&E, no minimum amount.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nT&E and non-T&E, no minimum amount.",
+      "new": "Credit Not Processed\nAll Regions:\n●ATM is prohibited.\nInternational:\n●For T&E transactions, the minimum amount must be equal to or greater\n●No non-T&E minimum amount.\nU.K. Domestic:\nthan $25.00 USD.\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\nthan $25.00 CAD.\ngreater than $10.00 CAD.\n●T&E and non-T&E, no minimum amount.",
+      "similarity_ratio": 0.45,
+      "table": "Retired Chargeback Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "86",
+      "column": "Chargeback Reason Rules",
+      "column_index": 2,
+      "old": "Paid by Other Means\nAll Regions:\nl\nInternational:\nl\nl\nU.S. Region:\nl\nAP Region:\nl\nU.K. Domestic:\nl\nCanada Region:\nl\nl\nJapan Domestic:\nl\nATM is prohibited.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 USD.\nNo non-T&E minimum amount.\nEPS not allowed.\nEPS not allowed.\nT&E and non-T&E, no minimum amount.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nT&E and non-T&E, no minimum amount.",
+      "new": "Paid by Other Means\nAll Regions:\n●ATM is prohibited.\nInternational:\n●For T&E transactions, the minimum amount must be equal to or greater\n●No non-T&E minimum amount.\nU.S. Region:\nthan $25.00 USD.\n●EPS not allowed.\nAP Region:\n●EPS not allowed.\nU.K. Domestic:\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\nthan $25.00 CAD.\ngreater than $10.00 CAD.\n●T&E and non-T&E, no minimum amount.",
+      "similarity_ratio": 0.544,
+      "table": "Retired Chargeback Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "90",
+      "column": "Chargeback Reason Rules",
+      "column_index": 2,
+      "old": "Non-Receipt of Cash or Load Transaction Value at ATM or\nLoad Device\nInternational:\nl\nU.S. Region:\nl\nl\nU.K. Domestic:\nl\nCanada Region:\nl\nl\nJapan Domestic:\nl\nT&E and non-T&E, no minimum amount.\nT&E and Non-T&E not allowed.\nValid for ATM only.\nT&E and non-T&E, no minimum amount.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nT&E and non-T&E, no minimum amount.",
+      "new": "Non-Receipt of Cash or Load Transaction Value at ATM or Load Device\nInternational:\n●T&E and non-T&E, no minimum amount.\nU.S. Region:\n●T&E and Non-T&E not allowed.\n●Valid for ATM only.\nU.K. Domestic:\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\nthan $25.00 CAD.\ngreater than $10.00 CAD.\n●T&E and non-T&E, no minimum amount.",
+      "similarity_ratio": 0.46,
+      "table": "Retired Chargeback Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "93",
+      "column": "Chargeback Reason Rules",
+      "column_index": 2,
+      "old": "Merchant Fraud Performance\nAll Regions:\nl\nInternational:\nATM is prohibited.\nl\nU.K. Domestic:\nl\nCanada Region:\nl\nl\nJapan Domestic:\nl\nT&E and non-T&E, no minimum amount.\nT&E and non-T&E, no minimum amount.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nT&E and non-T&E, no minimum amount.",
+      "new": "Merchant Fraud Performance\nAll Regions:\n●ATM is prohibited.\nInternational:\n●T&E and non-T&E, no minimum amount.\nU.K. Domestic:\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\n●T&E and non-T&E, no minimum amount.\nthan $25.00 CAD.\ngreater than $10.00 CAD.",
+      "similarity_ratio": 0.352,
+      "table": "Retired Chargeback Reason Codes"
+    },
+    {
+      "change_type": "duplicate_code_warning",
+      "table": "Fee Collection/Funds Disbursement Reason Codes",
+      "duplicate_codes_a": [
+        "5510"
+      ],
+      "duplicate_codes_b": [
+        "5510"
+      ]
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "0100",
+      "column": "Definition",
+      "column_index": 2,
+      "old": "Telex, Telephone and Cable Charges\nl\nl\nl\nMay not be used by U.S. clients to collect from other U.S. clients.\nA Country Code is required.\nThe Account Number field must contain a valid account number.",
+      "new": "Telex, Telephone and Cable Charges\n●May not be used by U.S. clients to collect from other U.S. clients.\n●A Country Code is required.\n●The Account Number field must contain a valid account number.",
+      "similarity_ratio": 0.977,
+      "table": "Fee Collection/Funds Disbursement Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "0140",
+      "column": "Definition",
+      "column_index": 2,
+      "old": "Merchant Service Fees\nl\nl\nMay not be used by U.S. clients to collect from other U.S. clients.\nThe Account Number field must contain zeros.",
+      "new": "Merchant Service Fees\n●May not be used by U.S. clients to collect from other U.S. clients.\n●The Account Number field must contain zeros.",
+      "similarity_ratio": 0.978,
+      "table": "Fee Collection/Funds Disbursement Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "0150",
+      "column": "Definition",
+      "column_index": 2,
+      "old": "Recovered Card Handling Fees/Rewards\nl\nATM Balance Inquiry acquiring direct fee returns\nATM Balance Inquiry is available for ATM Balance Inquiry acquiring\ndirect fee participants in AP region only.\nThe Account Number field must contain a valid account number.",
+      "new": "Recovered Card Handling Fees/Rewards\n●The Account Number field must contain a valid account number.\nDomestic ATM Balance Inquiry acquiring direct access fee returns\nATM Balance Inquiry acquiring direct access fee is available for partic-\nipants in Mexico.",
+      "similarity_ratio": 0.49,
+      "table": "Fee Collection/Funds Disbursement Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "0240",
+      "column": "Definition",
+      "column_index": 2,
+      "old": "Funds Disbursement Transactions\nl\nl\nThe Account Number field must contain a valid account number.\nA Country Code field must contain spaces.",
+      "new": "Funds Disbursement Transactions\n●The Account Number field must contain a valid account number.\n●A Country Code field must contain spaces.",
+      "similarity_ratio": 0.978,
+      "table": "Fee Collection/Funds Disbursement Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "0300",
+      "column": "Definition",
+      "column_index": 2,
+      "old": "Bill Payment Service (Canada and Brazil only)\nl\nl\nA Country Code is required.\nThe Account Number field must contain a valid account number.",
+      "new": "Bill Payment Service (Canada and Brazil only)\n●A Country Code is required.\n●The Account Number field must contain a valid account number.",
+      "similarity_ratio": 0.978,
+      "table": "Fee Collection/Funds Disbursement Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "0390",
+      "column": "Definition",
+      "column_index": 2,
+      "old": "Visa TravelMoney Fees\nl\nl\nl\nThe Account Number field must contain zeros.\nThe transaction is initiated by Visa.\nThe Country Code is required.",
+      "new": "Visa TravelMoney Fees\n●The Account Number field must contain zeros.\n●The transaction is initiated by Visa.\n●The Country Code is required.",
+      "similarity_ratio": 0.968,
+      "table": "Fee Collection/Funds Disbursement Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "0402",
+      "column": "Definition",
+      "column_index": 2,
+      "old": "Prepaid Funds Collection\nl\nl\nMay not be used by U.S. clients.\nAccount Number field not required but may be present",
+      "new": "Prepaid Funds Collection\n●May not be used by U.S. clients.\n●Account Number field not required but may be present",
+      "similarity_ratio": 0.973,
+      "table": "Fee Collection/Funds Disbursement Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "5000",
+      "column": "Definition",
+      "column_index": 2,
+      "old": "Card Recovery Bulletin\nl\nl\nl\nIncoming only (transaction initiated by Visa).\nThe Account Number field must contain zeros.\nThe Country Code must be spaces.",
+      "new": "Card Recovery Bulletin\n●Incoming only (transaction initiated by Visa).\n●The Account Number field must contain zeros.\n●The Country Code must be spaces.",
+      "similarity_ratio": 0.97,
+      "table": "Fee Collection/Funds Disbursement Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "5010",
+      "column": "Definition",
+      "column_index": 2,
+      "old": "Visa Integrated Billing Statement\nl\nl\nl\nIncoming only (transaction initiated by Visa).\nThe Account Number field must contain zeros.\nThe Country Code must be spaces.",
+      "new": "Visa Integrated Billing Statement\n●Incoming only (transaction initiated by Visa).\n●The Account Number field must contain zeros.\n●The Country Code must be spaces.",
+      "similarity_ratio": 0.972,
+      "table": "Fee Collection/Funds Disbursement Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "5015",
+      "column": "Definition",
+      "column_index": 2,
+      "old": "Supermarket Incentive Program Fee\nl\nl\nl\nIncoming only (transaction initiated by Visa).\nThe Account Number field must contain zeros.\nThe Country Code must be spaces.",
+      "new": "Supermarket Incentive Program Fee\n●Incoming only (transaction initiated by Visa).\n●The Account Number field must contain zeros.\n●The Country Code must be spaces.",
+      "similarity_ratio": 0.972,
+      "table": "Fee Collection/Funds Disbursement Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "5020",
+      "column": "Definition",
+      "column_index": 2,
+      "old": "Arbitration Request/Review\nl\nl\nl\nIncoming only (transaction initiated by Visa).\nThe Account Number field must contain zeros.\nThe Country Code must be spaces.",
+      "new": "Arbitration Request/Review\n●Incoming only (transaction initiated by Visa).\n●The Account Number field must contain zeros.\n●The Country Code must be spaces.",
+      "similarity_ratio": 0.971,
+      "table": "Fee Collection/Funds Disbursement Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "5030",
+      "column": "Definition",
+      "column_index": 2,
+      "old": "BASE II Access Fee\nl\nl\nl\nIncoming only (transaction initiated by Visa).\nThe Account Number field must contain zeros.\nThe Country Code must be spaces.",
+      "new": "BASE II Access Fee\n●Incoming only (transaction initiated by Visa).\n●The Account Number field must contain zeros.\n●The Country Code must be spaces.",
+      "similarity_ratio": 0.969,
+      "table": "Fee Collection/Funds Disbursement Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "5040",
+      "column": "Definition",
+      "column_index": 2,
+      "old": "Miscellaneous Fees or Charges\nl\nl\nl\nIncoming only (transaction initiated by Visa).\nThe Account Number field must contain zeros.\nThe Country Code must be spaces.",
+      "new": "Miscellaneous Fees or Charges\n●Incoming only (transaction initiated by Visa).\n●The Account Number field must contain zeros.\n●The Country Code must be spaces.",
+      "similarity_ratio": 0.972,
+      "table": "Fee Collection/Funds Disbursement Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "5050",
+      "column": "Definition",
+      "column_index": 2,
+      "old": "Issuers' Clearinghouse Service Fee\nl\nl\nl\nIncoming only (transaction initiated by Visa).\nThe Account Number field must contain zeros.\nThe Country Code must be spaces.",
+      "new": "Issuers' Clearinghouse Service Fee\n●Incoming only (transaction initiated by Visa).\n●The Account Number field must contain zeros.\n●The Country Code must be spaces.",
+      "similarity_ratio": 0.972,
+      "table": "Fee Collection/Funds Disbursement Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "5060",
+      "column": "Definition",
+      "column_index": 2,
+      "old": "Risk Identification Service Merchant Fees\nl\nl\nl\nIncoming only (transaction initiated by Visa).\nThe Account Number field must contain zeros.\nThe Country Code must be spaces.",
+      "new": "Risk Identification Service Merchant Fees\n●Incoming only (transaction initiated by Visa).\n●The Account Number field must contain zeros.\n●The Country Code must be spaces.",
+      "similarity_ratio": 0.974,
+      "table": "Fee Collection/Funds Disbursement Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "5080",
+      "column": "Definition",
+      "column_index": 2,
+      "old": "Late Settlement Fee\nl\nl\nl\nl\nMay not be used by U.S. clients to collect from other U.S. clients.\nIncoming only (transaction initiated by Visa).\nThe Account Number field must contain zeros.\nThe Country Code must be spaces.",
+      "new": "Late Settlement Fee\n●May not be used by U.S. clients to collect from other U.S. clients.\n●Incoming only (transaction initiated by Visa).\n●The Account Number field must contain zeros.\n●The Country Code must be spaces.",
+      "similarity_ratio": 0.972,
+      "table": "Fee Collection/Funds Disbursement Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "5090",
+      "column": "Definition",
+      "column_index": 2,
+      "old": "Visa Account Tracking Service\nl\nl\nl\nIncoming only (transaction initiated by Visa).\nThe Account Number field must contain zeros.\nThe Country Code must be spaces.",
+      "new": "Visa Account Tracking Service\n●Incoming only (transaction initiated by Visa).\n●The Account Number field must contain zeros.\n●The Country Code must be spaces.",
+      "similarity_ratio": 0.972,
+      "table": "Fee Collection/Funds Disbursement Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "5100",
+      "column": "Definition",
+      "column_index": 2,
+      "old": "Emergency Travelers Cheque Refund Handling Fee\nl\nl\nl\nIncoming only (transaction initiated by Visa).\nThe Account Number field must contain zeros.\nThe Country Code must be spaces.",
+      "new": "Emergency Travelers Cheque Refund Handling Fee\n●Incoming only (transaction initiated by Visa).\n●The Account Number field must contain zeros.\n●The Country Code must be spaces.",
+      "similarity_ratio": 0.974,
+      "table": "Fee Collection/Funds Disbursement Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "5110",
+      "column": "Definition",
+      "column_index": 2,
+      "old": "Returned Guaranteed Check\nl\nl\nl\nIncoming only (transaction initiated by Visa).\nThe Account Number field must contain zeros.\nThe Country Code must be spaces.",
+      "new": "Returned Guaranteed Check\n●Incoming only (transaction initiated by Visa).\n●The Account Number field must contain zeros.\n●The Country Code must be spaces.",
+      "similarity_ratio": 0.971,
+      "table": "Fee Collection/Funds Disbursement Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "5120",
+      "column": "Definition",
+      "column_index": 2,
+      "old": "Value-Added Tax\nl\nl\nl\nl\nMay not be used by U.S. clients to collect from other U.S. clients.\nIncoming only (transaction initiated by Visa).\nThe Account Number field must contain zeros.\nThe Country Code must be spaces.",
+      "new": "Value-Added Tax\n●May not be used by U.S. clients to collect from other U.S. clients.\n●Incoming only (transaction initiated by Visa).\n●The Account Number field must contain zeros.\n●The Country Code must be spaces.",
+      "similarity_ratio": 0.972,
+      "table": "Fee Collection/Funds Disbursement Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "5130",
+      "column": "Definition",
+      "column_index": 2,
+      "old": "VSIL Fee Collection\nl\nl\nl\nl\nMay not be used by U.S. clients to collect from other U.S. clients.\nIncoming only (transaction initiated by Visa).\nThe Account Number field must contain zeros.\nThe Country Code must be spaces.",
+      "new": "VSIL Fee Collection\n●May not be used by U.S. clients to collect from other U.S. clients.\n●Incoming only (transaction initiated by Visa).\n●The Account Number field must contain zeros.\n●The Country Code must be spaces.",
+      "similarity_ratio": 0.972,
+      "table": "Fee Collection/Funds Disbursement Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "5140",
+      "column": "Definition",
+      "column_index": 2,
+      "old": "ISO/Non-Member Agent Registration Fee/Annual Fee\nl\nl\nl\nIncoming only (transaction initiated by Visa).\nThe Account Number field must contain zeros.\nThe Country Code must be spaces.",
+      "new": "ISO/Non-Member Agent Registration Fee/Annual Fee\n●Incoming only (transaction initiated by Visa).\n●The Account Number field must contain zeros.\n●The Country Code must be spaces.",
+      "similarity_ratio": 0.975,
+      "table": "Fee Collection/Funds Disbursement Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "5150",
+      "column": "Definition",
+      "column_index": 2,
+      "old": "Dispute Financial Handling Fee\nl\nl\nl\nIncoming only (transaction initiated by Visa).\nThe Account Number field must contain a valid account number.\nThe Country Code must be spaces.",
+      "new": "Dispute Financial Handling Fee\n●Incoming only (transaction initiated by Visa).\n●The Account Number field must contain a valid account number.\n●The Country Code must be spaces.",
+      "similarity_ratio": 0.975,
+      "table": "Fee Collection/Funds Disbursement Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "5160",
+      "column": "Definition",
+      "column_index": 2,
+      "old": "Fulfillment Incentive Fee\nl\nl\nl\nIncoming only (transaction initiated by Visa).\nThe Account Number field must contain zeros.\nThe Country Code must be spaces.",
+      "new": "Fulfillment Incentive Fee\n●Incoming only (transaction initiated by Visa).\n●The Account Number field must contain zeros.\n●The Country Code must be spaces.",
+      "similarity_ratio": 0.971,
+      "table": "Fee Collection/Funds Disbursement Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "5165",
+      "column": "Definition",
+      "column_index": 2,
+      "old": "VisaNet Copy Request and Fulfillment Service Monthly Access and\nActivity Charges\nl\nl\nl\nIncoming only (transaction initiated by Visa).\nThe Account Number field must contain zeros.\nThe Country Code must be spaces.",
+      "new": "VisaNet Copy Request and Fulfillment Service Monthly Access and\nActivity Charges\n●Incoming only (transaction initiated by Visa).\n●The Account Number field must contain zeros.\n●The Country Code must be spaces.",
+      "similarity_ratio": 0.979,
+      "table": "Fee Collection/Funds Disbursement Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "5170",
+      "column": "Definition",
+      "column_index": 2,
+      "old": "Nonfulfillment Incentive Fee\nl\nl\nl\nIncoming only (transaction initiated by Visa).\nThe Account Number field must contain zeros.\nThe Country Code must be spaces.",
+      "new": "Nonfulfillment Incentive Fee\n●Incoming only (transaction initiated by Visa).\n●The Account Number field must contain zeros.\n●The Country Code must be spaces.",
+      "similarity_ratio": 0.971,
+      "table": "Fee Collection/Funds Disbursement Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "5180",
+      "column": "Definition",
+      "column_index": 2,
+      "old": "Merchant Review Fee\nl\nl\nl\nThe transaction is initiated by Visa.\nThe Account Number field must contain zeros.\nThe Country Code must be spaces.",
+      "new": "Merchant Review Fee\n●The transaction is initiated by Visa.\n●The Account Number field must contain zeros.\n●The Country Code must be spaces.",
+      "similarity_ratio": 0.968,
+      "table": "Fee Collection/Funds Disbursement Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "5185",
+      "column": "Definition",
+      "column_index": 2,
+      "old": "Membership Compliance Fees and Penalties\nl\nl\nl\nThe Account Number field must contain zeros.\nThe transaction is initiated by Visa.\nThe Country Code must be spaces.",
+      "new": "Membership Compliance Fees and Penalties\n●The Account Number field must contain zeros.\n●The transaction is initiated by Visa.\n●The Country Code must be spaces.",
+      "similarity_ratio": 0.972,
+      "table": "Fee Collection/Funds Disbursement Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "5190",
+      "column": "Definition",
+      "column_index": 2,
+      "old": "Numeric Licensing and Administration Program Fees\nl\nl\nl\nThe Account Number field must contain zeros.\nThe transaction is initiated by Visa.\nThe Country Code must be spaces.",
+      "new": "Numeric Licensing and Administration Program Fees\n●The Account Number field must contain zeros.\n●The transaction is initiated by Visa.\n●The Country Code must be spaces.",
+      "similarity_ratio": 0.973,
+      "table": "Fee Collection/Funds Disbursement Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "5195",
+      "column": "Definition",
+      "column_index": 2,
+      "old": "Sponsored Member Registration Fees\nl\nl\nl\nThe Account Number field must contain zeros.\nThe transaction is initiated by Visa.\nThe Country Code must be spaces.",
+      "new": "Sponsored Member Registration Fees\n●The Account Number field must contain zeros.\n●The transaction is initiated by Visa.\n●The Country Code must be spaces.",
+      "similarity_ratio": 0.971,
+      "table": "Fee Collection/Funds Disbursement Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "5210",
+      "column": "Definition",
+      "column_index": 2,
+      "old": "Merchant Data Inaccuracy. BASE II checks only for the value.\nl\nl\nl\nThe transaction is initiated by Visa.\nThe Account Number field must contain zeros.\nThe Country Code must be spaces.",
+      "new": "Merchant Data Inaccuracy. BASE II checks only for the value.\n●The transaction is initiated by Visa.\n●The Account Number field must contain zeros.\n●The Country Code must be spaces.",
+      "similarity_ratio": 0.975,
+      "table": "Fee Collection/Funds Disbursement Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "5220",
+      "column": "Definition",
+      "column_index": 2,
+      "old": "Commercial Data Acquirer Adjustment\nl\nl\nl\nVisa initiates the transaction.\nThe Account Number field must contain a valid account number.\nThe Country Code may contain space.",
+      "new": "Commercial Data Acquirer Adjustment\n●Visa initiates the transaction.\n●The Account Number field must contain a valid account number.\n●The Country Code may contain space.",
+      "similarity_ratio": 0.973,
+      "table": "Fee Collection/Funds Disbursement Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "5230",
+      "column": "Definition",
+      "column_index": 2,
+      "old": "Commercial Data Issuer Adjustment\nl\nl\nl\nVisa initiates the transaction.\nThe Account Number field must contain a valid account number.\nThe Country Code may contain space.",
+      "new": "Commercial Data Issuer Adjustment\n●Visa initiates the transaction.\n●The Account Number field must contain a valid account number.\n●The Country Code may contain space.",
+      "similarity_ratio": 0.973,
+      "table": "Fee Collection/Funds Disbursement Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "5240",
+      "column": "Definition",
+      "column_index": 2,
+      "old": "Interchange Data Forms\nl\nl\nl\nThe Account Number field must contain zeros.\nThe transaction is initiated by Visa.\nThe Country Code must be spaces.",
+      "new": "Interchange Data Forms\n●The Account Number field must contain zeros.\n●The transaction is initiated by Visa.\n●The Country Code must be spaces.",
+      "similarity_ratio": 0.968,
+      "table": "Fee Collection/Funds Disbursement Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "5245",
+      "column": "Definition",
+      "column_index": 2,
+      "old": "Service Fees/Late Payments\nl\nl\nl\nThe Account Number field must contain zeros.\nThe transaction is initiated by Visa.\nThe Country Code must be spaces.",
+      "new": "Service Fees/Late Payments\n●The Account Number field must contain zeros.\n●The transaction is initiated by Visa.\n●The Country Code must be spaces.",
+      "similarity_ratio": 0.969,
+      "table": "Fee Collection/Funds Disbursement Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "5250",
+      "column": "Definition",
+      "column_index": 2,
+      "old": "Indemnification\nl\nl\nl\nThe Account Number field must contain zeros.\nThe transaction is initiated by Visa.\nThe Country Code must be spaces.",
+      "new": "Indemnification\n●The Account Number field must contain zeros.\n●The transaction is initiated by Visa.\n●The Country Code must be spaces.",
+      "similarity_ratio": 0.967,
+      "table": "Fee Collection/Funds Disbursement Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "5260",
+      "column": "Definition",
+      "column_index": 2,
+      "old": "Visa TravelMoney Issuer Reimbursement\nl\nl\nl\nThe Account Number field must contain zeros.\nThe transaction is initiated by Visa.\nThe Country Code is required.",
+      "new": "Visa TravelMoney Issuer Reimbursement\n●The Account Number field must contain zeros.\n●The transaction is initiated by Visa.\n●The Country Code is required.",
+      "similarity_ratio": 0.971,
+      "table": "Fee Collection/Funds Disbursement Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "5270",
+      "column": "Definition",
+      "column_index": 2,
+      "old": "Collateral Funds\nl\nl\nl\nThe Account Number field must contain zeros.\nThe transaction is initiated by Visa.\nThe Country Code must be spaces.",
+      "new": "Collateral Funds\n●The Account Number field must contain zeros.\n●The transaction is initiated by Visa.\n●The Country Code must be spaces.",
+      "similarity_ratio": 0.967,
+      "table": "Fee Collection/Funds Disbursement Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "5280",
+      "column": "Definition",
+      "column_index": 2,
+      "old": "Stored-Value Card Purchase Settlement\nl\nl\nl\nl\nThe Account Number field must contain zeros.\nThe transaction is initiated by Visa.\nThe Country Code must be spaces.\nMaximum Amount = None.",
+      "new": "Stored-Value Card Purchase Settlement\n●The Account Number field must contain zeros.\n●The transaction is initiated by Visa.\n●The Country Code must be spaces.\n●Maximum Amount = None.",
+      "similarity_ratio": 0.967,
+      "table": "Fee Collection/Funds Disbursement Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "5282",
+      "column": "Definition",
+      "column_index": 2,
+      "old": "Stored-Value Card Allocated Discrepancies\nl\nl\nl\nl\nThe Account Number field must contain zeros.\nThe transaction is initiated by Visa.\nThe Country Code must be spaces.\nMaximum Amount = None.",
+      "new": "Stored-Value Card Allocated Discrepancies\n●The Account Number field must contain zeros.\n●The transaction is initiated by Visa.\n●The Country Code must be spaces.\n●Maximum Amount = None.",
+      "similarity_ratio": 0.968,
+      "table": "Fee Collection/Funds Disbursement Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "5284",
+      "column": "Definition",
+      "column_index": 2,
+      "old": "Stored-Value Card Manual Adjustment Settlement\nl\nl\nl\nl\nThe Account Number field must contain zeros.\nThe transaction is initiated by Visa.\nThe Country Code must be spaces.\nMaximum Amount = None.",
+      "new": "Stored-Value Card Manual Adjustment Settlement\n●The Account Number field must contain zeros.\n●The transaction is initiated by Visa.\n●The Country Code must be spaces.\n●Maximum Amount = None.",
+      "similarity_ratio": 0.969,
+      "table": "Fee Collection/Funds Disbursement Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "5286",
+      "column": "Definition",
+      "column_index": 2,
+      "old": "Stored-Value Card Reserved\nl\nl\nl\nl\nThe Account Number field must contain zeros.\nThe transaction is initiated by Visa.\nThe Country Code must be spaces.\nMaximum Amount = None.",
+      "new": "Stored-Value Card Reserved\n●The Account Number field must contain zeros.\n●The transaction is initiated by Visa.\n●The Country Code must be spaces.\n●Maximum Amount = None.",
+      "similarity_ratio": 0.965,
+      "table": "Fee Collection/Funds Disbursement Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "5290",
+      "column": "Definition",
+      "column_index": 2,
+      "old": "Corporate Indemnification of Settlement Risk\nl\nl\nl\nIncoming only (transaction initiated by Visa).\nThe Account Number field must contain zeros.\nThe Country Code must be spaces.",
+      "new": "Corporate Indemnification of Settlement Risk\n●Incoming only (transaction initiated by Visa).\n●The Account Number field must contain zeros.\n●The Country Code must be spaces.",
+      "similarity_ratio": 0.974,
+      "table": "Fee Collection/Funds Disbursement Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "5300",
+      "column": "Definition",
+      "column_index": 2,
+      "old": "Promotion Credit Reward Funding\nl\nl\nl\nIncoming only (transaction initiated by Visa).\nThe Account Number field must contain zeros.\nThe Country Code must be spaces.",
+      "new": "Promotion Credit Reward Funding\n●Incoming only (transaction initiated by Visa).\n●The Account Number field must contain zeros.\n●The Country Code must be spaces.",
+      "similarity_ratio": 0.972,
+      "table": "Fee Collection/Funds Disbursement Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "5320",
+      "column": "Definition",
+      "column_index": 2,
+      "old": "Member-Provided Reimbursement Fee\nl\nl\nl\nIncoming only (transaction initiated by Visa).\nThe Account Number field must contain a valid account number.\nThe Country Code must be spaces.",
+      "new": "Member-Provided Reimbursement Fee\n●Incoming only (transaction initiated by Visa).\n●The Account Number field must contain a valid account number.\n●The Country Code must be spaces.",
+      "similarity_ratio": 0.975,
+      "table": "Fee Collection/Funds Disbursement Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "5510",
+      "column": "Definition",
+      "column_index": 2,
+      "old": "VIS Installment Funding Fee Credit\nl\nl\nl\nIncoming only (transaction initiated by Visa).\nThe Account Number field must contain zeros.\nThe Country Code must be spaces.",
+      "new": "VIS Installment Funding Fee Credit\n●Incoming only (transaction initiated by Visa).\n●The Account Number field must contain zeros.\n●The Country Code must be spaces.",
+      "similarity_ratio": 0.972,
+      "table": "Fee Collection/Funds Disbursement Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "5560",
+      "column": "Definition",
+      "column_index": 2,
+      "old": "VIS Installment Service Fee\nl\nl\nl\nIncoming only (transaction initiated by Visa).\nThe Account Number field must contain zeros.\nThe Country Code must be spaces.",
+      "new": "VIS Installment Service Fee\n●Incoming only (transaction initiated by Visa).\n●The Account Number field must contain zeros.\n●The Country Code must be spaces.",
+      "similarity_ratio": 0.971,
+      "table": "Fee Collection/Funds Disbursement Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "61",
+      "column": "Definition",
+      "column_index": 1,
+      "old": "Twice Payment or Installment Payment with Number of Installment Payments\nl\nl\nTwice Payment: number of installment payments = 0 or 2. Settlement between the acquirer\nand issuer is deferred for Twice Payment.\nInstallment Payment: number of installment payments is greater than or equal to 3.\nSettlement between the acquirer and issuer is not deferred for Installment Payment.",
+      "new": "Twice Payment or Installment Payment with Number of Installment Payments\n●Twice Payment: number of installment payments = 0 or 2. Settlement between the acquirer\n●Installment Payment: number of installment payments is greater than or equal to 3.\nand issuer is deferred for Twice Payment.\nSettlement between the acquirer and issuer is not deferred for Installment Payment.",
+      "similarity_ratio": 0.879,
+      "table": "Payment Mode Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "R",
+      "column": "Usage Used to indicate that the field is not populated.",
+      "column_index": 2,
+      "old": "Use to identify multiple transactions that:\nl\nl\nExamples of a recurring transaction include\nperiodic membership fees, subscriptions, etc.\nOccur at predetermined intervals that do not\nexceed 1 year between transactions\nRepresent an agreement between a\ncardholder and a merchant to purchase\ngoods or services over a period of time.",
+      "new": "Use to identify multiple transactions that:\n●Occur at predetermined intervals that do not\n●Represent an agreement between a\nExamples of a recurring transaction include\nperiodic membership fees, subscriptions, etc.\nexceed 1 year between transactions\ncardholder and a merchant to purchase\ngoods or services over a period of time.",
+      "similarity_ratio": 0.485,
+      "table": "POS Environment Codes"
+    },
+    {
+      "change_type": "duplicate_code_warning",
+      "table": "Product ID Values",
+      "duplicate_codes_a": [],
+      "duplicate_codes_b": [
+        "B",
+        "C",
+        "D",
+        "F",
+        "F2",
+        "F3",
+        "G",
+        "G1"
+      ]
+    },
+    {
+      "change_type": "code_added",
+      "table": "Product ID Values",
+      "code": "I3",
+      "cells": [
+        "I3",
+        "Visa Infinite Plus (Canada only)"
+      ]
+    },
+    {
+      "change_type": "code_added",
+      "table": "Product ID Values",
+      "code": "PRODUCT ID VALUES AND MAXIMUM POS AMOUNT LIMITS THIS CODE IDENTIFIES THE PRODUCT USED IN THE TRANSACTION. IT ALSO LISTS THE MAXIMUM AMOUNT LIMITS FOR CARD TYPES CREDIT/DEBIT, PREPAID POS AND ACCOUNT FUNDING POS. ONLY THE PRODUCT ID VALUES APPEAR IN DRAFT DATA: TCR 5 - PAYMENT SERVICE DATA, POSITIONS 136 -137. THE PRODUCT IDS ASSOCIATED WITH MAXIMUM LIMITS ARE SUBJECT TO THE RULES OF INDIVIDUAL JURISDICTIONS. MAXIMUM LIMITS MAY VARY BY ISSUER AND MARKET TRANSACTION PROCESSING REQUIREMENTS. TO VERIFY THE IDS AND LIMITS FOR A GIVEN JURISDICTION, PLEASE CHECK WITH YOUR VISA REPRESENTATIVE. FOR TURKEY ISSUED CARD CREDIT AND DEBIT POS TRANSACTION MAXIMUM AMOUNTS, PLEASE CHECK WITH YOUR VISA REPRESENTATIVE. MAXIMUM CREDIT AND DEBIT, PREPAID, AND ACCOUNT FUNDING POS TRANSACTION AMOUNTS",
+      "cells": [
+        "Product ID Values and Maximum POS Amount Limits\nThis code identifies the product used in the transaction. It also lists the maximum amount limits\nfor Card types Credit/Debit, Prepaid POS and Account Funding POS.\nOnly the Product ID Values appear in Draft Data: TCR 5 - Payment Service Data, Positions 136\n-137.\nThe product IDs associated with maximum limits are subject to the rules of individual\njurisdictions. Maximum limits may vary by Issuer and market transaction processing\nrequirements. To verify the IDs and limits for a given jurisdiction, please check with your Visa\nrepresentative.\nFor Turkey issued card Credit and Debit POS Transaction maximum amounts, please check with\nyour Visa representative.\nMaximum Credit and Debit, Prepaid, and Account Funding POS Transaction Amounts",
+        "Product",
+        "●",
+        "Card",
+        "A",
+        "F2 and F3 is unavailable for ATM and Interlink. These credit consumer products do not\napply to AFTs, ATM cash disbursements, cashback, manual cash disbursements, and\nmobile push payment OCTs. However, these may apply to OCTs with a BAI value of LO.",
+        "Global Product\nName\nVisa Traditional",
+        "Credit and Debit POS",
+        "Maximum Amount",
+        "USD$749,999.99",
+        "Maximum Amount",
+        "USD$99,999.99\nPrepaid POS",
+        "Account Funding",
+        "POS Maximum\nUSD$99,999.99",
+        "Amount"
+      ]
+    },
+    {
+      "change_type": "code_added",
+      "table": "Product ID Values",
+      "code": "V",
+      "cells": [
+        "V",
+        "V PAY"
+      ]
+    },
+    {
+      "change_type": "code_added",
+      "table": "Product ID Values",
+      "code": "W",
+      "cells": [
+        "W",
+        "Visa Direct Payouts to Wallets"
+      ]
+    },
+    {
+      "change_type": "code_removed",
+      "table": "Product ID Values",
+      "code": "L1",
+      "cells": [
+        "L1",
+        "Visa Value"
+      ]
+    },
+    {
+      "change_type": "code_removed",
+      "table": "Product ID Values",
+      "code": "V W^",
+      "cells": [
+        "V\nW^",
+        "V PAY\nVisa Direct Payouts W"
+      ]
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "G2",
+      "column": "Description",
+      "column_index": 1,
+      "old": "Visa Business Check Card",
+      "new": "Visa Value Business",
+      "similarity_ratio": 0.605,
+      "table": "Product ID Values"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "S1",
+      "column": "Description",
+      "column_index": 1,
+      "old": "Visa Purchasing with Fleet",
+      "new": "Visa Purchasing with Fleet\nVisa Fleet (Canada only)",
+      "similarity_ratio": 0.675,
+      "table": "Product ID Values"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "W1",
+      "column": "Description",
+      "column_index": 1,
+      "old": "Visa Direct Payouts A",
+      "new": "Visa Direct Payouts to Bank Accounts",
+      "similarity_ratio": 0.737,
+      "table": "Product ID Values"
+    },
+    {
+      "change_type": "code_added",
+      "table": "Maximum Credit and Debit, Prepaid, and Account Funding POS Transaction Amounts",
+      "code": "I3",
+      "cells": [
+        "I3",
+        "Visa Infinite Plus\nCredit",
+        "USD$1,999,999.99",
+        "USD$99,999.99",
+        "USD$499,999.99"
+      ]
+    },
+    {
+      "change_type": "code_removed",
+      "table": "Maximum Credit and Debit, Prepaid, and Account Funding POS Transaction Amounts",
+      "code": "A",
+      "cells": [
+        "A",
+        "Visa Traditional",
+        "USD$749,999.99",
+        "USD$99,999.99",
+        "USD$99,999.99"
+      ]
+    },
+    {
+      "change_type": "code_removed",
+      "table": "Maximum Credit and Debit, Prepaid, and Account Funding POS Transaction Amounts",
+      "code": "B",
+      "cells": [
+        "B",
+        "Visa Traditional\nRewards",
+        "USD$749,999.99",
+        "USD$99,999.99",
+        "USD$99,999.99"
+      ]
+    },
+    {
+      "change_type": "code_removed",
+      "table": "Maximum Credit and Debit, Prepaid, and Account Funding POS Transaction Amounts",
+      "code": "C",
+      "cells": [
+        "C",
+        "Visa Signature",
+        "USD$1,499,999.99",
+        "USD$99,999.99",
+        "USD$499,999.99"
+      ]
+    },
+    {
+      "change_type": "code_removed",
+      "table": "Maximum Credit and Debit, Prepaid, and Account Funding POS Transaction Amounts",
+      "code": "D",
+      "cells": [
+        "D",
+        "Visa Signature\nPreferred",
+        "USD$1,999,999.99",
+        "USD$99,999.99",
+        "USD$499,999.99"
+      ]
+    },
+    {
+      "change_type": "code_removed",
+      "table": "Maximum Credit and Debit, Prepaid, and Account Funding POS Transaction Amounts",
+      "code": "F",
+      "cells": [
+        "F",
+        "Visa Classic",
+        "USD749,999.99",
+        "USD$99,999.99",
+        "USD$99,999.99"
+      ]
+    },
+    {
+      "change_type": "code_removed",
+      "table": "Maximum Credit and Debit, Prepaid, and Account Funding POS Transaction Amounts",
+      "code": "F2",
+      "cells": [
+        "F2",
+        "Visa Installment\nCredential",
+        "USD$249,999.99",
+        "USD$99,999.99",
+        "NA"
+      ]
+    },
+    {
+      "change_type": "code_removed",
+      "table": "Maximum Credit and Debit, Prepaid, and Account Funding POS Transaction Amounts",
+      "code": "F3",
+      "cells": [
+        "F3",
+        "Visa Installment\nCredential Standard",
+        "USD$249,999.99",
+        "NA",
+        "NA"
+      ]
+    },
+    {
+      "change_type": "code_removed",
+      "table": "Maximum Credit and Debit, Prepaid, and Account Funding POS Transaction Amounts",
+      "code": "G",
+      "cells": [
+        "G",
+        "Visa Business",
+        "USD$1,999,999.99",
+        "USD$499,999.99",
+        "USD$499,999.99"
+      ]
+    },
+    {
+      "change_type": "code_removed",
+      "table": "Maximum Credit and Debit, Prepaid, and Account Funding POS Transaction Amounts",
+      "code": "G1",
+      "cells": [
+        "G1",
+        "Visa Signature\nBusiness",
+        "USD$1,999,999.99",
+        "USD$499,999.99",
+        "USD$499,999.99"
+      ]
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "7",
+      "column": "Definition",
+      "column_index": 1,
+      "old": "Relates to specific reduced reimbursement fees for intraregional transactions only:\nl\nl\nl\nElectronic Data Capture (EDC)—EU only\nNot valid in Asia-Pacific region for original draft transactions\nEU CNP and CVV2 fee programs",
+      "new": "Relates to specific reduced reimbursement fees for intraregional transactions only:\n●Electronic Data Capture (EDC)—EU only\n●Not valid in Asia-Pacific region for original draft transactions\n●EU CNP and CVV2 fee programs",
+      "similarity_ratio": 0.979,
+      "table": "Reimbursement Attributes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "33",
+      "column": "Reason",
+      "column_index": 1,
+      "old": "l\nl",
+      "new": "●Legal process or fraud analysis request—U.S. Domestic only\n●Fraud analysis request—Non-U.S. Domestic",
+      "similarity_ratio": 0.058,
+      "table": "Request for Copy Reason Codes-Copy/Microfilm of Original (TC 52)"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "34",
+      "column": "Reason",
+      "column_index": 1,
+      "old": "l\nl",
+      "new": "●Repeat request for copy—U.S. Domestic only\n●Legal process request—Non-U.S. Domestic",
+      "similarity_ratio": 0.046,
+      "table": "Request for Copy Reason Codes-Copy/Microfilm of Original (TC 52)"
+    },
+    {
+      "change_type": "code_added",
+      "table": "Return/Reclassification Reason Codes",
+      "code": "HZ1",
+      "cells": [
+        "HZ1",
+        "●Account Number\n●Authorized Amount\n●Authorization Characteristics Indicator\n●Authorization Code\n●Authorization Currency Code\n●Authorization Response Code\n●Cashback\n●Market-Specific Authorization Indicator\n●Merchant Category Code\n●POS Entry Mode\n●Transaction Identifier\n●Product ID\nCPS/ATM:\n●Account Number\n●Authorization Characteristics Indicator\n●Transaction Identifier\n●Authorized Amount\n●Authorization Currency Code\n●Merchant Country Code\n●ATM Account Selection\n●Acquiring Identifier\n●Surcharge Amount\nThe validation code is valid but not honored due to VFC Processing rules."
+      ]
+    },
+    {
+      "change_type": "code_added",
+      "table": "Return/Reclassification Reason Codes",
+      "code": "P7",
+      "cells": [
+        "P7",
+        "Transaction is from unverified CEDP merchant."
+      ]
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "01",
+      "column": "Error Condition",
+      "column_index": 1,
+      "old": "The Hash Total is invalid. If data is from a local tape, a problem occurred in the Edit\nPackage. The VAP checks the Hash Total while loading the file, so if the data is from one of\nthese devices or is inter-VIC, an invalid Hash Total indicates one of these issues\nl\nl\nl\nNoise on the communication line has modified the data.\nThe sending VAP or VIC is not using the same Data Structure Table that the receiving\nVIC is using, which caused the receiving VIC to incorrectly expand the transaction.\nThe file was modified after the Edit Package was executed.",
+      "new": "The Hash Total is invalid. If data is from a local tape, a problem occurred in the Edit\nPackage. The VAP checks the Hash Total while loading the file, so if the data is from one of\nthese devices or is inter-VIC, an invalid Hash Total indicates one of these issues\n●Noise on the communication line has modified the data.\n●The sending VAP or VIC is not using the same Data Structure Table that the receiving\n●The file was modified after the Edit Package was executed.\nVIC is using, which caused the receiving VIC to incorrectly expand the transaction.",
+      "similarity_ratio": 0.885,
+      "table": "Return/Reclassification Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "14",
+      "column": "Error Condition",
+      "column_index": 1,
+      "old": "The Purchase Date in a draft has these characteristics:\nl\nl\nl\nIt is non-numeric.\nIt is not a valid date.\nIt is in the future relative to the Edit Package processing date.",
+      "new": "The Purchase Date in a draft has these characteristics:\n●It is non-numeric.\n●It is not a valid date.\n●It is in the future relative to the Edit Package processing date.",
+      "similarity_ratio": 0.973,
+      "table": "Return/Reclassification Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "22",
+      "column": "Error Condition",
+      "column_index": 1,
+      "old": "The Merchant Category Code is:\nl\nl\nl\nZeros.\nNon-numeric.\nNonexistent code.",
+      "new": "The Merchant Category Code is:\n●Zeros.\n●Non-numeric.\n●Nonexistent code.",
+      "similarity_ratio": 0.938,
+      "table": "Return/Reclassification Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "80",
+      "column": "Error Condition",
+      "column_index": 1,
+      "old": "Product Reclassification has occurred.\nNote: Product Reclassification occurs in these conditions:\nl\nl\nThe product ID submitted by the acquirer does not match the product ID used to\nprocess the transaction.\nNo product ID was submitted by the acquirer, and the product ID used to process the\ntransaction does not match the product ID associated with the Account Range in the\nEdit Package ARDEF table.",
+      "new": "Product Reclassification has occurred.\nNote: Product Reclassification occurs in these conditions:\n●The product ID submitted by the acquirer does not match the product ID used to\n●No product ID was submitted by the acquirer, and the product ID used to process the\nprocess the transaction.\ntransaction does not match the product ID associated with the Account Range in the\nEdit Package ARDEF table.",
+      "similarity_ratio": 0.781,
+      "table": "Return/Reclassification Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "H0",
+      "column": "Error Condition",
+      "column_index": 1,
+      "old": "The recalculation of the validation code at the VIC showed that one of the fields listed\nbelow did not match the value in the authorization message.\nCPS—U.S.:\nl\nl\nl\nl\nl\nl\nl\nl\nl\nl\nl\nl\nCPS/ATM:\nAccount Number\nAuthorized Amount\nAuthorization Characteristics Indicator\nAuthorization Code\nAuthorization Currency Code\nAuthorization Response Code\nCashback\nMarket-Specific Authorization Indicator\nMerchant Category Code\nPOS Entry Mode\nTransaction Identifier\nProduct ID\nl\nl\nl\nl\nl\nl\nl\nl\nl\nAccount Number\nAuthorization Characteristics Indicator\nTransaction Identifier\nAuthorized Amount\nAuthorization Currency Code\nMerchant Country Code\nATM Account Selection\nAcquiring Identifier\nSurcharge Amount\nElectronic Data Quality Program (EDQP):\nl\nl\nl\nl\nl\nl\nl\nl\nl\nl\nl\nl\nl\nAccount Funding Source\nAccount Number\nAuthorized Amount\nAuthorization Characteristics Indicator\nAuthorization Code\nAuthorization Currency Code\nAuthorization Response Code\nCashback\nMarket-Specific Authorization Indicator\nMerchant Category Code\nPOS Entry Mode\nTransaction Identifier\nProduct ID",
+      "new": "The recalculation of the validation code at the VIC showed that one of the fields listed\nbelow did not match the value in the authorization message.\nCPS—U.S.:\n●Account Number\n●Authorized Amount\n●Authorization Characteristics Indicator\n●Authorization Code\n●Authorization Currency Code\n●Authorization Response Code\n●Cashback\n●Market-Specific Authorization Indicator\n●Merchant Category Code\n●POS Entry Mode\n●Transaction Identifier\n●Product ID\nCPS/ATM:\n●Account Number\n●Authorization Characteristics Indicator\n●Transaction Identifier\n●Authorized Amount\n●Authorization Currency Code\n●Merchant Country Code\n●ATM Account Selection\n●Acquiring Identifier\n●Surcharge Amount\nElectronic Data Quality Program (EDQP):\n●Account Funding Source\n●Account Number\n●Authorized Amount\n●Authorization Characteristics Indicator\n●Authorization Code\n●Authorization Currency Code\n●Authorization Response Code\n●Cashback\n●Market-Specific Authorization Indicator\n●Merchant Category Code\n●POS Entry Mode\n●Transaction Identifier\n●Product ID",
+      "similarity_ratio": 0.557,
+      "table": "Return/Reclassification Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "HZ",
+      "column": "Error Condition",
+      "column_index": 1,
+      "old": "The recalculation of the validation code at the VIC showed that one of the fields listed\nbelow did not match the value in the authorization message. Please resubmit.\nl\nl\nl\nl\nl\nl\nl\nl\nl\nl\nl\nl\nCPS/ATM:\nAccount Number\nAuthorized Amount\nAuthorization Characteristics Indicator\nAuthorization Code\nAuthorization Currency Code\nAuthorization Response Code\nCashback\nMarket-Specific Authorization Indicator\nMerchant Category Code\nPOS Entry Mode\nTransaction Identifier\nProduct ID\nl\nl\nl\nl\nl\nl\nl\nl\nl\nAccount Number\nAuthorization Characteristics Indicator\nTransaction Identifier\nAuthorized Amount\nAuthorization Currency Code\nMerchant Country Code\nATM Account Selection\nAcquiring Identifier\nSurcharge Amount",
+      "new": "The recalculation of the validation code at the VIC showed that one of the fields listed\nbelow did not match the value in the authorization message. Please resubmit.",
+      "similarity_ratio": 0.386,
+      "table": "Return/Reclassification Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "1",
+      "column": "Usage Use to indicate that the transaction does not originate at an unattended terminal.",
+      "column_index": 2,
+      "old": "Use to indicate that the transaction:\nl\nIs less than US$40, or local currency\nequivalent.\nl\nIs not authorized.\nl\nExamples of a Type A UAT transaction are:\nHas no cardholder verification performed.\nl\nl\nl\nl\nParking garage fee\nRoad toll\nMotion picture theater admission\nMagnetic stripe telephone call",
+      "new": "Use to indicate that the transaction:\n●Is less than US$40, or local currency\nequivalent.\n●Is not authorized.\n●Has no cardholder verification performed.\nExamples of a Type A UAT transaction are:\n●Parking garage fee\n●Road toll\n●Motion picture theater admission\n●Magnetic stripe telephone call",
+      "similarity_ratio": 0.518,
+      "table": "Acceptance Terminal Indicator"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "2",
+      "column": "Usage Use to indicate that the transaction does not originate at an unattended terminal.",
+      "column_index": 2,
+      "old": "Use to indicate that the transaction:\nl\nIs authorized.\nl\nExamples of a Type C UAT transaction are:\nHas PIN verification performed.\nl\nATM\nl\nFuel purchase with PIN",
+      "new": "Use to indicate that the transaction:\n●Is authorized.\n●Has PIN verification performed.\nExamples of a Type C UAT transaction are:\n●ATM\n●Fuel purchase with PIN",
+      "similarity_ratio": 0.767,
+      "table": "Acceptance Terminal Indicator"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "3",
+      "column": "Usage Use to indicate that the transaction does not originate at an unattended terminal.",
+      "column_index": 2,
+      "old": "Use to indicate that the transaction:\nl\nIs less than US$100, or local currency\nequivalent.\nl\nIs authorized.\nl\nHas no cardholder verification performed.\nExamples of a Type B UAT transaction are:\nl\nl\nl\nFuel purchase without PIN\nPrepaid card purchase\nVideo rental",
+      "new": "Use to indicate that the transaction:\n●Is less than US$100, or local currency\nequivalent.\n●Is authorized.\n●Has no cardholder verification performed.\nExamples of a Type B UAT transaction are:\n●Fuel purchase without PIN\n●Prepaid card purchase\n●Video rental",
+      "similarity_ratio": 0.965,
+      "table": "Acceptance Terminal Indicator"
+    },
+    {
+      "change_type": "duplicate_code_warning",
+      "table": "ISO Numeric",
+      "duplicate_codes_a": [
+        "356",
+        "978"
+      ],
+      "duplicate_codes_b": [
+        "356"
+      ]
+    },
+    {
+      "change_type": "code_added",
+      "table": "ISO Numeric",
+      "code": "188",
+      "cells": [
+        "188",
+        "Costa Rica"
+      ]
+    },
+    {
+      "change_type": "code_added",
+      "table": "ISO Numeric",
+      "code": "690",
+      "cells": [
+        "690",
+        "Seychelles"
+      ]
+    },
+    {
+      "change_type": "code_removed",
+      "table": "ISO Numeric",
+      "code": "188 191/978",
+      "cells": [
+        "188\n191/978",
+        "Costa Rica\nCroatia"
+      ]
+    },
+    {
+      "change_type": "code_removed",
+      "table": "ISO Numeric",
+      "code": "690 694/925",
+      "cells": [
+        "690\n694/925",
+        "Seychelles\nSierra Leone"
+      ]
+    },
+    {
+      "change_type": "code_removed",
+      "table": "ISO Numeric",
+      "code": "975",
+      "cells": [
+        "975",
+        "Bulgaria"
+      ]
+    },
+    {
+      "change_type": "code_added",
+      "table": "Country and Currency Codes",
+      "code": "BOLIVIA (PLURINA- TIONAL STATE OF)",
+      "cells": [
+        "Bolivia (Plurina-\ntional State of)",
+        "BO",
+        "068",
+        "Boliviano",
+        "BOB",
+        "068"
+      ]
+    },
+    {
+      "change_type": "code_added",
+      "table": "Country and Currency Codes",
+      "code": "UNITED NATIONS INTERIM ADMINIS- TRATION MISSION IN KOSOVO (UNMIK)",
+      "cells": [
+        "United Nations\nInterim Adminis-\ntration Mission\nin Kosovo\n(UNMIK)",
+        "QZ",
+        "900",
+        "Euro S",
+        "EUR",
+        "978"
+      ]
+    },
+    {
+      "change_type": "code_removed",
+      "table": "Country and Currency Codes",
+      "code": "BOLIVIA (PLURINA­ TIONAL STATE OF)",
+      "cells": [
+        "Bolivia (Plurina­\ntional State of)",
+        "BO",
+        "068",
+        "Boliviano",
+        "BOB",
+        "068"
+      ]
+    },
+    {
+      "change_type": "code_removed",
+      "table": "Country and Currency Codes",
+      "code": "UNITED NATIONS INTERIM ADMINIS­ TRATION MISSION IN KOSOVO (UNMIK)",
+      "cells": [
+        "United Nations\nInterim Adminis­\ntration Mission\nin Kosovo\n(UNMIK)",
+        "QZ",
+        "900",
+        "Euro S",
+        "EUR",
+        "978"
+      ]
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "BULGARIA",
+      "column": "ISO Currency Name",
+      "column_index": 3,
+      "old": "Bulgarian Lev",
+      "new": "EuroS",
+      "similarity_ratio": 0.222,
+      "table": "Country and Currency Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "BULGARIA",
+      "column": "ISO Alpha Currency Code",
+      "column_index": 4,
+      "old": "BGN",
+      "new": "EUR",
+      "similarity_ratio": 0.0,
+      "table": "Country and Currency Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "BULGARIA",
+      "column": "ISO Numeric Currency Code",
+      "column_index": 5,
+      "old": "975",
+      "new": "978",
+      "similarity_ratio": 0.667,
+      "table": "Country and Currency Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "CROATIA",
+      "column": "ISO Currency Name",
+      "column_index": 3,
+      "old": "Euro",
+      "new": "EuroS",
+      "similarity_ratio": 0.889,
+      "table": "Country and Currency Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "CROATIA",
+      "column": "ISO Alpha Currency Code",
+      "column_index": 4,
+      "old": "Euro",
+      "new": "EUR",
+      "similarity_ratio": 0.286,
+      "table": "Country and Currency Codes"
+    },
+    {
+      "change_type": "code_added",
+      "table": "Settlement Currencies",
+      "code": "QATARI RIAL",
+      "cells": [
+        "Qatari Rial",
+        "634",
+        "QAR"
+      ]
+    },
+    {
+      "change_type": "code_added",
+      "table": "Glossary",
+      "code": "COLLECTION-ONLY TRANSACTIONS",
+      "cells": [
+        "collection-only transactions",
+        "An intraprocessor transaction submitted to BASE II for collection only (not\nsettlement or delivery). Normal BASE II processing charges and interchange\nreimbursement fees do not apply to collection-only transactions."
+      ]
+    },
+    {
+      "change_type": "code_added",
+      "table": "Glossary",
+      "code": "EA SERVER",
+      "cells": [
+        "EA Server",
+        "See Visa Extended Access Server."
+      ]
+    },
+    {
+      "change_type": "code_removed",
+      "table": "Glossary",
+      "code": "COLLECTION-ONLY TRANSACTION",
+      "cells": [
+        "collection-only transaction",
+        "An intraprocessor transaction submitted to BASE II for collection only (not\nsettlement or delivery). Normal BASE II processing charges and interchange\nreimbursement fees do not apply to collection-only transactions."
+      ]
+    },
+    {
+      "change_type": "code_removed",
+      "table": "Glossary",
+      "code": "EAS",
+      "cells": [
+        "EAS",
+        "See Visa Extended Access Server."
+      ]
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "ACCOUNT FUNDING SOURCE",
+      "column": "Definition",
+      "column_index": 1,
+      "old": "Identifies the source of the funds associated with the primary account for the\ncard. For example, Charge, Credit, Debit, Deferred Debit, and Prepaid.",
+      "new": "Identifies the source of the funds associated with the primary account for the\ncard. Includes, but is not limited to, Charge, Credit, Debit, Deferred Debit, and\nPrepaid.",
+      "similarity_ratio": 0.887,
+      "table": "Glossary"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "ACCOUNT NUMBER EXTENSION",
+      "column": "Definition",
+      "column_index": 1,
+      "old": "A three-position extension of the account number that allows account\nnumbers up to 19 digits in length.",
+      "new": "A three-position extension of the account number length that allows account\nnumbers up to 19 digits.",
+      "similarity_ratio": 0.916,
+      "table": "Glossary"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "ACCOUNT PREFIX RANGE",
+      "column": "Definition",
+      "column_index": 1,
+      "old": "The set of a low-account prefix and a high-account prefix that defines the\nrange of cardholder account numbers used by an issuer. (A single issuer may\nuse more than one range.) All ranges are maintained on the ARDEF Table for\ncardholder account number and issuing identifier validation purposes.",
+      "new": "The set of a low-account prefix and a high-account prefix that defines the\nrange of cardholder account numbers used by an issuer. (A single issuer may\nuse more than one range.) All ranges are maintained on the ARDEF Table for\ncardholder account number and Issuing Identifier validation purposes.",
+      "similarity_ratio": 0.969,
+      "table": "Glossary"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "ACCOUNT SCREEN CLEARING FILE (ASCF)",
+      "column": "Definition",
+      "column_index": 1,
+      "old": "The Account Screen Clearing File (ASCF) provides global clearing transaction\nprotection for listed accounts, including below-floor-limit transactions, force-\nposted transactions and card-not-present transactions. The file is an extract\nof negatively listed accounts from the ASAF that Visa references in clearing\nwhen the issuer participates in Account Screen All Respond and Clearing\nReturn functionality.",
+      "new": "Provides global clearing transaction protection for listed accounts, including\nbelow-floor-limit transactions, force-posted transactions, and card-not-\npresent transactions. The file is an extract of negatively listed accounts from\nthe Account Screen Authorization File (ASAF) that Visa references in Clearing\nwhen the Issuer participates in Account Screen All Respond and Clearing\nReturn functionality.",
+      "similarity_ratio": 0.284,
+      "table": "Glossary"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "ACQUIRER",
+      "column": "Definition",
+      "column_index": 1,
+      "old": "A client financial institution that has agreements with merchants to accept\nVisa card transactions or offers cash disbursement services to account\nholders, or both. The acquirer is responsible for:\nl\nl\nl\nAccepting card transaction data from merchants and its own ATMs and\nbank branches\nProviding authorization decisions to those card-accepting locations\nConveying transaction information to Visa as interchange transactions",
+      "new": "A client financial institution that has agreements with merchants to accept\nVisa card transactions or offers cash disbursement services to cardholders,\nor both. The acquirer is responsible for:\n●Accepting card transaction data from merchants and its own ATMs and\n●Providing authorization decisions to those card-accepting locations.\n●Conveying transaction information to Visa as interchange transactions.\nbank branches.",
+      "similarity_ratio": 0.644,
+      "table": "Glossary"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "BASE II CENTER INFORMATION BLOCK (CIB)",
+      "column": "Definition",
+      "column_index": 1,
+      "old": "Numeric value used to define the processor/settlement entity for BASE II\nendpoints.",
+      "new": "Numeric value that defines the processor or settlement entity for BASE II\nendpoints.",
+      "similarity_ratio": 0.91,
+      "table": "Glossary"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "BASE II SYSTEM",
+      "column": "Definition",
+      "column_index": 1,
+      "old": "An electronic batch transmission system primarily used for the exchange of\nVisa interchange transaction data and for settlement of the value of those\ntransactions between acquirers and issuers. This system is also used by\ncenters to retrieve records from the Advice File and by Visa to settle various\nfees with clients.",
+      "new": "An international electronic batch transmission system primarily used for\nthe exchange of Visa interchange transaction data and for settlement of\nthe value of those transactions between acquirers and issuers. Processing\ncenters use this system to retrieve records from the Advice File. Visa uses the\nsystem to settle fees with clients.",
+      "similarity_ratio": 0.689,
+      "table": "Glossary"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "BILL PAYMENT SERVICE",
+      "column": "Definition",
+      "column_index": 1,
+      "old": "A service allowing a client to accept payment from a Visa cardholder whose\naccount belongs to another client and to credit the issuer through BASE II.\nThe issuer and the client receiving the payment must both be in the same\ncountry. Used in Canada and Brazil.",
+      "new": "A service allowing a client to accept payment from a Visa cardholder whose\naccount belongs to another client and to credit the issuer through BASE II.\nBoth the issuer and the client receiving the payment must be in the same\ncountry. Used in Canada and Brazil.",
+      "similarity_ratio": 0.977,
+      "table": "Glossary"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "CENTRAL PROCESSING DATE (CPD)",
+      "column": "Definition",
+      "column_index": 1,
+      "old": "The date (based on GMT) when the ITF or report in question was generated\nat a VIC.",
+      "new": "The date (based on GMT) on which a client enters Interchange data to, and\nthe data is accepted by, a VisaNet Interchange Center (VIC).",
+      "similarity_ratio": 0.444,
+      "table": "Glossary"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "CHIP CARD",
+      "column": "Definition",
+      "column_index": 1,
+      "old": "See Integrated Circuit Card.",
+      "new": "See",
+      "similarity_ratio": 0.194,
+      "table": "Glossary"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "DESTINATION IDENTIFIER",
+      "column": "Definition",
+      "column_index": 1,
+      "old": "See acquiring identifier and/or issuing identifier.",
+      "new": "An Identifier to which a BASE II transaction message is sent.",
+      "similarity_ratio": 0.393,
+      "table": "Glossary"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "ICC",
+      "column": "Definition",
+      "column_index": 1,
+      "old": "See Integrated Circuit Card.",
+      "new": "See",
+      "similarity_ratio": 0.194,
+      "table": "Glossary"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "ISSUER CENTER",
+      "column": "Definition",
+      "column_index": 1,
+      "old": "A BASE II processing center acting in support of one or more issuers. The\nprocessing center processes completed account holder transactions (local\nand interchange) for account holder account posting and billing. For\ncompleted interchange transactions, the center is also responsible for\nreceiving and processing incoming transactions for the account holders of\nthe issuer or issuers.",
+      "new": "A BASE II processing center acting in support of one or more issuers.\nThe processing center processes completed cardholder transactions (local\nand interchange) for cardholder account posting and billing. For completed\ninterchange transactions, the center is also responsible for receiving and\nprocessing incoming transactions for the cardholders of the issuer or issuers.",
+      "similarity_ratio": 0.952,
+      "table": "Glossary"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "ISSUING IDENTIFIER",
+      "column": "Definition",
+      "column_index": 1,
+      "old": "A numeric value used to define issuing processing. Multiple Issuing BINs can\nbe linked to the same Issuing Identifier in Visa's systems.",
+      "new": "A numeric value used to define issuing processing. It is not governed by ISO\nand does not have to start with a four (4). Multiple issuing BINs can be linked\nto the same issuing identifier within Visa systems, which can allow mirroring\nof processing or routing configurations.",
+      "similarity_ratio": 0.555,
+      "table": "Glossary"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "NONFINANCIAL TRANSACTION",
+      "column": "Definition",
+      "column_index": 1,
+      "old": "A nonmonetary transaction that supports the bankcard business. For\nexample, a request or confirmation of a photocopy, freeform message, BASE\nI Advice record, Merchant Mailing File update, data capture advice, and\nIssuers' Clearing Service inquiry or response.",
+      "new": "A nonmonetary transaction that supports the bankcard business, for\nexample, a request or confirmation of a photocopy, freeform message,\nBASE I Advice record, Merchant Mailing File update, data capture advice, and\nIssuers' Clearinghouse Service inquiry or response.",
+      "similarity_ratio": 0.979,
+      "table": "Glossary"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "PLUS IDENTIFIER FILE",
+      "column": "Definition",
+      "column_index": 1,
+      "old": "A file containing Plus table update records that is created through incoming\nEdit Package processing for all clients subscribing to the Plus ATM system.\nThe Plus Table contains identifier numbers of Plus card issuers.",
+      "new": "A file containing Plus table update records that is created through incoming\nEdit Package processing for all clients subscribing to the Plus ATM system.\nThe Plus Table contains numbers of Plus card issuers.",
+      "similarity_ratio": 0.931,
+      "table": "Glossary"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "RETURNED TRANSACTION",
+      "column": "Definition",
+      "column_index": 1,
+      "old": "A cardholder transaction record in which the VIC edit function detected an\nerror that does not violate the financial integrity of the batch. When such an\nerror is detected, the transaction is included in the outgoing batch\ninterchange totals (in a separate category), but it is not forwarded to the\nissuer center. The transaction is placed in a new BASE II transaction, with a\nnew transaction code, and returned to the originating center with incoming\ninterchange. (On the incoming reports for an originating center, the\ntransactions appear in both outgoing and incoming totals.)",
+      "new": "A cardholder transaction record in which the VIC edit function detected\nan error that does not violate the financial integrity of the batch. When\nsuch an error is detected, the transaction is included in the outgoing\nbatch interchange totals (in a separate category), but it is not forwarded\nto the issuer center. The transaction is placed in a new BASE II transaction,\nwith a new transaction code, and returned to the originating center with\nincoming interchange. (On the incoming reports for an originating center, the\ntransactions appear both in outgoing and in incoming totals.)",
+      "similarity_ratio": 0.972,
+      "table": "Glossary"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "SOURCE IDENTIFIER",
+      "column": "Definition",
+      "column_index": 1,
+      "old": "See acquiring identifier and/or issuing identifier.",
+      "new": "The Identifier from which a BASE II transaction message is sent.",
+      "similarity_ratio": 0.4,
+      "table": "Glossary"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "STIP",
+      "column": "Definition",
+      "column_index": 1,
+      "old": "See Stand-In Processor (STIP) and Stand-In Processing (STIP).",
+      "new": "See Stand-In Processor (STIP).",
+      "similarity_ratio": 0.659,
+      "table": "Glossary"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "TRANSACTION",
+      "column": "Definition",
+      "column_index": 1,
+      "old": "BASE II transaction. The record or records that make up a single financial,\nadministrative, or text message, as required for transmission between a\nprocessing center and a VIC. BASE II transactions are identified by transaction\ncodes.\nCardholder transaction. The use of a payment credential to make a payment\nor otherwise exhange value between a cardholder (or an issuer) and a\nmerchant (or an acquirer).",
+      "new": "BASE II transaction. The record or records that make up a single financial,\nadministrative, or text message, as required for transmission between a\nprocessing center and a VIC. BASE II transactions are identified by transaction\ncodes.\nCardholder transaction. The use of a card by a customer (normally assumed\nto be the cardholder) to purchase goods or services from a merchant or\nsecure cash from an ATM or financial institution.",
+      "similarity_ratio": 0.663,
+      "table": "Glossary"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "TRANSACTION CODE (TC)",
+      "column": "Definition",
+      "column_index": 1,
+      "old": "A two-digit code that identifies a specific type of BASE II transaction.",
+      "new": "A two-digit code that identifies a specific type of BASE II (Clearing)\ntransaction.",
+      "similarity_ratio": 0.929,
+      "table": "Glossary"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "TRANSACTION COMPONENT RECORD (TCR)",
+      "column": "Definition",
+      "column_index": 1,
+      "old": "A fixed-length record used to contain a component portion of a BASE II\ntransaction. A single BASE II transaction may consist of multiple TCRs.",
+      "new": "A fixed-length record used to contain a component portion of a BASE II\n(Clearing) transaction. A single BASE II transaction may consist of multiple\nTCRs.",
+      "similarity_ratio": 0.963,
+      "table": "Glossary"
+    },
+    {
+      "change_type": "table_renamed",
+      "table_a": "Market-Specific Authorization Data\nIndicator\nThe Market-Specific Authorization Data Indicator identifies the industry for which market-\nspecific authorization data was included in the transaction.\nIt is used in these interchange formats:",
+      "table_b": "The Market-Specific Authorization Data Indicator identifies the industry for which market-\nspecific authorization data was included in the transaction.\nIt is used in these interchange formats:",
+      "fuzzy_ratio": 0.895
+    },
+    {
+      "change_type": "code_added",
+      "table": "The Market-Specific Authorization Data Indicator identifies the industry for which market-\nspecific authorization data was included in the transaction.\nIt is used in these interchange formats:",
+      "code": "●",
+      "cells": [
+        "●",
+        "TC 57, Data Capture Advice: TCR 3 - Transaction Detail, Payment Service Data, Position\n42"
+      ]
+    },
+    {
+      "change_type": "code_removed",
+      "table": "The Market-Specific Authorization Data Indicator identifies the industry for which market-\nspecific authorization data was included in the transaction.\nIt is used in these interchange formats:",
+      "code": "L",
+      "cells": [
+        "l",
+        "TC 57, Data Capture Advice: TCR 3 - Transaction Detail, Payment Service Data, Position\n42"
+      ]
+    }
+  ]
+}

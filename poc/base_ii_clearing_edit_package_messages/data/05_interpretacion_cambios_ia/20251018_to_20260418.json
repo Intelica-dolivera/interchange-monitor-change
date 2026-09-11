@@ -1,0 +1,249 @@
+{
+  "manual": "base_ii_clearing_edit_package_messages",
+  "edition_a": "20251018",
+  "edition_b": "20260418",
+  "summary": {
+    "ficha_added": 4,
+    "ficha_removed": 3,
+    "ficha_content_changed": 16
+  },
+  "changes": [
+    {
+      "change_type": "ficha_added",
+      "code": "Settlement",
+      "title": "Settlement"
+    },
+    {
+      "change_type": "ficha_added",
+      "code": "V0042",
+      "title": "TIP AMOUNT MUST BE NUMERIC FOR COLOMBIA DOMESTIC TRANSACTIONS."
+    },
+    {
+      "change_type": "ficha_added",
+      "code": "V0043",
+      "title": "AIRPORT CHARGE AMOUNT MUST BE NUMERIC FOR COLOMBIA DOMESTIC TRANSACTIONS."
+    },
+    {
+      "change_type": "ficha_added",
+      "code": "V0044",
+      "title": "NUMBER OF QUOTAS MUST BE NUMERIC FOR COLOMBIA DOMESTIC TRANSACTIONS."
+    },
+    {
+      "change_type": "ficha_removed",
+      "code": "V0183",
+      "title": "CASHBACK AMOUNT IS ONLY VALID FOR CANADIAN DOMESTIC PURCHASE TRANSACTIONS"
+    },
+    {
+      "change_type": "ficha_removed",
+      "code": "V1099",
+      "title": "CASHBACK IS VALID ONLY FOR DOMESTIC PURCHASE AND CREDIT VOUCHER TRANSACTIONS"
+    },
+    {
+      "change_type": "ficha_removed",
+      "code": "settlement",
+      "title": "settlement"
+    },
+    {
+      "change_type": "ficha_content_changed",
+      "code": "Advice File",
+      "field": "description",
+      "old": "The BASE I file containing records of authorization and verification responses generated at the VIC.",
+      "new": "The V.I.P. file containing records of authorization and verification responses generated at the VIC.",
+      "similarity_ratio": 0.95,
+      "ai_category": "editorial_reword",
+      "ai_reason": "El texto describe lo mismo pero cambia 'BASE I' por 'V.I.P.' en el nombre del archivo, sin alterar el significado o la información técnica.",
+      "disappeared_content": [],
+      "safety_net_override": false
+    },
+    {
+      "change_type": "ficha_content_changed",
+      "code": "BASE II System",
+      "field": "description",
+      "old": "An electronic batch transmission system primarily used for the exchange of Visa interchange transaction data and for settlement of the value of those transactions between acquirers and issuers. This system is also used by centers to retrieve records from the Advice File and by Visa to settle various fees with clients.",
+      "new": "An international electronic batch transmission system primarily used for the exchange of Visa interchange transaction data and for settlement of the value of those transactions between acquirers and issuers. Processing centers use this system to retrieve records from the Advice File. Visa uses the system to settle fees with clients.",
+      "similarity_ratio": 0.689,
+      "ai_category": "business_rule_change",
+      "ai_reason": "El texto nuevo especifica que es un sistema internacional y modifica el uso de los centros de procesamiento y Visa para la retención de registros y cobros, lo que cambia el significado de negocio.",
+      "disappeared_content": [
+        "is also used by centers"
+      ],
+      "safety_net_override": false
+    },
+    {
+      "change_type": "ficha_content_changed",
+      "code": "V0173",
+      "field": "title",
+      "old": "CASHBACK AMOUNT MUST BE LESS THAN SOURCE AMOUNT",
+      "new": "CASHBACK AMOUNT MUST BE LESS THAN OR EQUAL TO SOURCE AMOUNT",
+      "similarity_ratio": 0.887,
+      "ai_category": "business_rule_change",
+      "ai_reason": "El mensaje original indicaba que la cantidad de cashback debe ser menor que la cantidad fuente, mientras que la nueva versión establece que debe ser menor o igual, lo que cambia la condición de validación.",
+      "disappeared_content": [],
+      "safety_net_override": false
+    },
+    {
+      "change_type": "ficha_content_changed",
+      "code": "V0173",
+      "field": "description",
+      "old": "The cashback amount must be numeric and must be less than the Source Amount for Canada domestic transactions.",
+      "new": "The cashback amount must be numeric and must be less than or equal to the Source Amount for Canada domestic transactions.",
+      "similarity_ratio": 0.948,
+      "ai_category": "business_rule_change",
+      "ai_reason": "El cambio modifica la condición de validación de que el cashback debe ser menor o igual que el Source Amount en lugar de menor, lo que altera el rango de valores permitidos.",
+      "disappeared_content": [],
+      "safety_net_override": false
+    },
+    {
+      "change_type": "ficha_content_changed",
+      "code": "V0173",
+      "field": "transaction_types",
+      "old": "Sales Draft – All",
+      "new": "Sales Draft – All | Account Funding – All",
+      "similarity_ratio": 0.586,
+      "ai_category": "business_rule_change",
+      "ai_reason": "La lista de Transaction Types se amplio para incluir 'Account Funding – All', lo que modifica la condicion de validacion para el cashback.",
+      "disappeared_content": [],
+      "safety_net_override": false
+    },
+    {
+      "change_type": "ficha_content_changed",
+      "code": "V0188",
+      "field": "title",
+      "old": "CASHBACK AMOUNT MUST BE LESS THAN SOURCE AMOUNT",
+      "new": "CASHBACK AMOUNT MUST BE LESS THAN OR EQUAL TO SOURCE AMOUNT",
+      "similarity_ratio": 0.887,
+      "ai_category": "business_rule_change",
+      "ai_reason": "El mensaje original indicaba que la cantidad de cashback debe ser menor que la cantidad fuente, mientras que la nueva versión establece que debe ser menor o igual, modificando así la condición de validación.",
+      "disappeared_content": [],
+      "safety_net_override": false
+    },
+    {
+      "change_type": "ficha_content_changed",
+      "code": "V0188",
+      "field": "description",
+      "old": "The cashback amount must be numeric, must not be less than zero, and must be less than the Source Amount for U.S. domestic transactions.",
+      "new": "The cashback amount must be numeric, must not be less than zero, and must be less than or equal to the Source Amount for U.S. domestic transactions.",
+      "similarity_ratio": 0.958,
+      "ai_category": "business_rule_change",
+      "ai_reason": "El cambio modifica la condición de validación para que el cashback amount sea menor o igual que el Source Amount, en lugar de menor, lo que altera la lógica de negocio.",
+      "disappeared_content": [],
+      "safety_net_override": false
+    },
+    {
+      "change_type": "ficha_content_changed",
+      "code": "V1098",
+      "field": "title",
+      "old": "CASHBACK MUST BE LESS THAN SOURCE AMOUNT FOR PURCHASE AND CREDIT VOUCHER TRANSACTIONS",
+      "new": "CASHBACK MUST BE LESS THAN OR EQUAL TO SOURCE AMOUNT",
+      "similarity_ratio": 0.584,
+      "ai_category": "business_rule_change",
+      "ai_reason": "El mensaje original especificaba que el cashback debe ser menor que el monto fuente, mientras que el nuevo mensaje indica que debe ser menor o igual, lo que cambia la condición de validación.",
+      "disappeared_content": [
+        "FOR PURCHASE AND CREDIT VOUCHER TRANSACTIONS"
+      ],
+      "safety_net_override": false
+    },
+    {
+      "change_type": "ficha_content_changed",
+      "code": "V1098",
+      "field": "description",
+      "old": "For AP, CEMEA, and EU transactions, the cashback amount must be less than the source amount. Europe regional transactions submitted with issuer, acquirer, or merchant from UK or Ireland are excluded from this edit. South Africa NNSS transactions are excluded from this edit.",
+      "new": "For AP, Canada, CEMEA, EU, and cross-border transactions, the cashback amount must be less than or equal to the source amount.",
+      "similarity_ratio": 0.45,
+      "ai_category": "business_rule_change",
+      "ai_reason": "El cambio modifica la condición de validación al incluir transacciones cruzadas y especificar que el cashback debe ser menor o igual que el source amount, en lugar de menor, además de excluir transacciones específicas en la versión antigua.",
+      "disappeared_content": [
+        "Europe regional transactions submitted with issuer, acquirer, or merchant from UK or Ireland are excluded from this edit. South Africa NNSS transactions are excluded from this edit."
+      ],
+      "safety_net_override": false
+    },
+    {
+      "change_type": "ficha_content_changed",
+      "code": "V1098",
+      "field": "action",
+      "old": "Verify that the Cashback amount is less than the Source amount.",
+      "new": "Verify that the Cashback amount is less than or equal to the Source amount.",
+      "similarity_ratio": 0.913,
+      "ai_category": "business_rule_change",
+      "ai_reason": "El cambio modifica la condición de validación de que el Cashback debe ser menor o igual que el Source amount, en lugar de menor, lo que altera la lógica de negocio.",
+      "disappeared_content": [],
+      "safety_net_override": false
+    },
+    {
+      "change_type": "ficha_content_changed",
+      "code": "V1180",
+      "field": "action",
+      "old": "Enter the correct value for this field. l Sales Draft – All l Account Funding – All l Credit Voucher/Account Funding CV – All l Original Credit – All l Cash Disbursements – All",
+      "new": "Enter the correct value for this field. ● Sales Draft – All ● Account Funding – All ● Credit Voucher/Account Funding CV – All ● Original Credit – All ● Cash Disbursements – All",
+      "similarity_ratio": 0.972,
+      "ai_category": "editorial_reword",
+      "ai_reason": "El cambio consiste solo en reemplazar los guiones bajos por puntos y espacios para mejorar la presentación del texto, sin alterar el significado o contenido real.",
+      "disappeared_content": [],
+      "safety_net_override": false
+    },
+    {
+      "change_type": "ficha_content_changed",
+      "code": "account funding source",
+      "field": "description",
+      "old": "Identifies the source of the funds associated with the primary account for the card. For example, Charge, Credit, Debit, Deferred Debit, and Prepaid.",
+      "new": "Identifies the source of the funds associated with the primary account for the card. Includes, but is not limited to, Charge, Credit, Debit, Deferred Debit, and Prepaid.",
+      "similarity_ratio": 0.887,
+      "ai_category": "editorial_reword",
+      "ai_reason": "El texto describe lo mismo pero añade 'Includes, but is not limited to' para aclarar que los ejemplos no son exhaustivos, sin cambiar el significado o valores de negocio.",
+      "disappeared_content": [],
+      "safety_net_override": false
+    },
+    {
+      "change_type": "ficha_content_changed",
+      "code": "account number extension",
+      "field": "description",
+      "old": "A three-position extension of the account number that allows account numbers up to 19 digits in length.",
+      "new": "A three-position extension of the account number length that allows account numbers up to 19 digits.",
+      "similarity_ratio": 0.916,
+      "ai_category": "editorial_reword",
+      "ai_reason": "El texto describe lo mismo pero cambia 'length' a 'length of the account number' para evitar ambigüedad, sin alterar el significado o reglas de negocio.",
+      "disappeared_content": [],
+      "safety_net_override": false
+    },
+    {
+      "change_type": "ficha_content_changed",
+      "code": "currency conversion rate",
+      "field": "description",
+      "old": "This rate is applied by Visa International to certain transactions (original sales drafts, representments, travel vouchers, credit vouchers, and cash disbursements) and the reversal of such transactions.",
+      "new": "This rate is applied by Visa International to certain transactions (original sales drafts, dispute response financials, travel vouchers, credit vouchers, and cash disbursements) and the reversal of such transactions.",
+      "similarity_ratio": 0.649,
+      "ai_category": "editorial_reword",
+      "ai_reason": "El texto describe lo mismo pero se agregó 'dispute response financials' en la lista de transacciones sin alterar el significado o el valor de negocio.",
+      "disappeared_content": [],
+      "safety_net_override": false
+    },
+    {
+      "change_type": "ficha_content_changed",
+      "code": "issuer",
+      "field": "description",
+      "old": "A client financial institution that issues Visa cards. For a given transaction, the institution that issued the card used for that transaction to the cardholder. The issuer is responsible for maintaining the accounts of its cardholders, for providing authorization decisions, for cardholder billing, and for settlement of transactions its cardholders have with merchants and cash dispensing locations of other clients. Each issuer operates or designates an issuer center to perform the functions related to clearing and settlement of interchange transactions.",
+      "new": "A client financial institution that issues Visa cards. For a given transaction, the issuer is the institution that issued the card used for that transaction to the account holder. The issuer is responsible for maintaining the accounts of its account holders, for providing authorization decisions, for account holder billing, and for settlement of transactions its account holders have with merchants and cash dispensing locations of other clients. Each issuer operates or designates an issuer center to perform the functions related to clearing and settlement of interchange transactions.",
+      "similarity_ratio": 0.833,
+      "ai_category": "editorial_reword",
+      "ai_reason": "El texto describe lo mismo pero con cambios menores en la redacción, como 'cardholder' a 'account holder' y 'cardholders' a 'account holders' para mantener coherencia en el uso de términos.",
+      "disappeared_content": [],
+      "safety_net_override": false
+    },
+    {
+      "change_type": "ficha_content_changed",
+      "code": "special airline fee",
+      "field": "description",
+      "old": "A fee charged on transactions from International Airlines whenever the issuer, acquirer, and transaction countries are not all the same. This fee is collected instead of the IAF fee and is paid to the transaction region.",
+      "new": "A fee charged on transactions from International Airlines when the issuer, acquirer, and transaction countries are different entities. This fee is collected instead of the IAF fee, and is paid to the transaction region.",
+      "similarity_ratio": 0.911,
+      "ai_category": "editorial_reword",
+      "ai_reason": "El texto describe la misma idea con una redacción ligeramente diferente, cambiando 'not all the same' por 'different entities' y ajustando la puntuación y conectores sin alterar el significado.",
+      "disappeared_content": [],
+      "safety_net_override": false
+    }
+  ],
+  "ai_summary": {
+    "editorial_reword": 7,
+    "business_rule_change": 9
+  }
+}

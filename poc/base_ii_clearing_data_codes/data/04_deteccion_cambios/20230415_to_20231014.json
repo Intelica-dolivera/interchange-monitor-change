@@ -1,0 +1,874 @@
+{
+  "manual": "base_ii_clearing_data_codes",
+  "edition_a": "20230415",
+  "edition_b": "20231014",
+  "summary": {
+    "table_added": 2,
+    "table_removed": 2,
+    "code_added": 17,
+    "code_content_changed": 57,
+    "duplicate_code_warning": 6,
+    "code_removed": 4
+  },
+  "changes": [
+    {
+      "change_type": "table_added",
+      "table": "Chapter 2 • | Country and Currency Codes\n120",
+      "num_rows": 1
+    },
+    {
+      "change_type": "table_added",
+      "table": "Market-Specific Authorization Data\nIndicator\nThe Market-Specific Authorization Data Indicator identifies the industry for which market-\nspecific authorization data was included in the transaction.\nIt is used in these interchange formats:",
+      "num_rows": 1
+    },
+    {
+      "change_type": "table_removed",
+      "table": "Contents",
+      "num_rows": 2
+    },
+    {
+      "change_type": "table_removed",
+      "table": "FIRST POSITION (RISK IDENTIFICATION INDICATOR)",
+      "num_rows": 3
+    },
+    {
+      "change_type": "code_added",
+      "table": "Authorization Source Codes",
+      "code": "8",
+      "cells": [
+        "8",
+        "Authorization not performed by VisaNet."
+      ]
+    },
+    {
+      "change_type": "code_added",
+      "table": "Business Application IDs",
+      "code": "CD",
+      "cells": [
+        "CD",
+        "Cash Deposit"
+      ]
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "30",
+      "column": "Chargeback Reason Rules",
+      "column_index": 2,
+      "old": "Services Not Provided or Merchandise Not Received\nAll Regions:\nl\nInternational:\nATM is prohibited.\nl\nl\nU.K. Domestic:\nFor T&E transactions the minimum amount must be equal to or\ngreater than $25.00 USD.\nNo non-T&E minimum amount.\nl\nCanada Region:\nT&E and non-T&E, no minimum amount.\nl\nl\nJapan Domestic:\nFor T&E transactions, the minimum amount must be equal to or\ngreater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal to\nor greater than $10.00 CAD.\nl\nT&E and non-T&E, no minimum amount.",
+      "new": "Services Not Provided or Merchandise Not Received\nAll Regions:\nl\nInternational:\nl\nl\nU.K. Domestic:\nl\nCanada Region:\nl\nl\nJapan Domestic:\nl\nATM is prohibited.\nFor T&E transactions the minimum amount must be equal to or\ngreater than $25.00 USD.\nNo non-T&E minimum amount.\nT&E and non-T&E, no minimum amount.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nT&E and non-T&E, no minimum amount.",
+      "similarity_ratio": 0.888,
+      "table": "Retired Chargeback Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "41",
+      "column": "Chargeback Reason Rules",
+      "column_index": 2,
+      "old": "Cancelled Recurring Transaction\nAll Regions:\nl\nInternational:\nATM is prohibited.\nl\nl\nU.K. Domestic:\nFor T&E transaction, the minimum amount must be equal to or\ngreater than $25.00 USD.\nNo non-T&E minimum amount.\nl\nCanada Region:\nT&E and non-T&E, no minimum amount.\nl\nl\nJapan Domestic:\nFor T&E transactions, the minimum amount must be equal to or\ngreater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal to\nor greater than $10.00 CAD.\nl\nT&E and non-T&E, no minimum amount.",
+      "new": "Cancelled Recurring Transaction\nAll Regions:\nl\nInternational:\nATM is prohibited.\nl\nl\nU.K. Domestic:\nFor T&E transaction, the minimum amount must be equal to or\ngreater than $25.00 USD.\nNo non-T&E minimum amount.\nl\nCanada Region:\nl\nl\nJapan Domestic:\nl\nT&E and non-T&E, no minimum amount.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nT&E and non-T&E, no minimum amount.",
+      "similarity_ratio": 0.956,
+      "table": "Retired Chargeback Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "53",
+      "column": "Chargeback Reason Rules",
+      "column_index": 2,
+      "old": "Not as Described or Defective Merchandise\nAll Regions:\nl\nInternational:\nATM is prohibited.\nl\nl\nU.S. Region:\nFor T&E transactions, the minimum amount must be equal to or\ngreater than $25.00 USD.\nNo non-T&E minimum amount.\nl\nU.K. Domestic:\nEPS not allowed.\nl\nCanada Region:\nT&E and non-T&E, no minimum amount.\nl\nl\nJapan Domestic:\nFor T&E transactions, the minimum amount must be equal to or\ngreater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal to\nor greater than $10.00 CAD.\nl\nT&E and non-T&E, no minimum amount.",
+      "new": "Not as Described or Defective Merchandise\nAll Regions:\nl\nInternational:\nl\nl\nU.S. Region:\nl\nU.K. Domestic:\nl\nCanada Region:\nl\nl\nJapan Domestic:\nl\nATM is prohibited.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 USD.\nNo non-T&E minimum amount.\nEPS not allowed.\nT&E and non-T&E, no minimum amount.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nT&E and non-T&E, no minimum amount.",
+      "similarity_ratio": 0.865,
+      "table": "Retired Chargeback Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "57",
+      "column": "Chargeback Reason Rules",
+      "column_index": 2,
+      "old": "Fraudulent Multiple Transactions\nAll Regions:\nl\nl\nl\nInternational:\nATM is prohibited.\nDirect Marketing MCCs are prohibited.\nMOTO/ECI must be spaces.\nl\nl\nU.K. Domestic:\nFor T&E transactions, the minimum must be equal to or greater\nthan $25.00 USD.\nNo non-T&E minimum amount.\nl\nCanada Region:\nT&E and non-T&E, no minimum amount.\nl\nl\nJapan Domestic:\nFor T&E transactions, the minimum amount must be equal to or\ngreater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal to\nor greater than $10.00 CAD\nl\nT&E and non-T&E, no minimum amount.",
+      "new": "Fraudulent Multiple Transactions\nAll Regions:\nl\nl\nl\nInternational:\nATM is prohibited.\nDirect Marketing MCCs are prohibited.\nMOTO/ECI must be spaces.\nl\nl\nU.K. Domestic:\nl\nCanada Region:\nl\nl\nJapan Domestic:\nl\nFor T&E transactions, the minimum must be equal to or greater\nthan $25.00 USD.\nNo non-T&E minimum amount.\nT&E and non-T&E, no minimum amount.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD\nT&E and non-T&E, no minimum amount.",
+      "similarity_ratio": 0.919,
+      "table": "Retired Chargeback Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "60",
+      "column": "Chargeback Reason Rules",
+      "column_index": 2,
+      "old": "Illegible Fulfillment\nAll Regions:\nl\nInternational:\nATM is prohibited.\nl\nU.S. Domestic and AP Region:\nNo T&E or non-T&E minimum amount.\nl\nCanada Region:\nEPS is not allowed.\nl\nl\nl\nJapan Domestic:\nEPS is not allowed.\nFor T&E transactions, the minimum amount must be equal to or\ngreater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal to\nor greater than $10.00 CAD.\nl\nT&E and non-T&E, no minimum amount.",
+      "new": "Illegible Fulfillment\nAll Regions:\nl\nInternational:\nl\nU.S. Domestic and AP Region:\nl\nCanada Region:\nATM is prohibited.\nNo T&E or non-T&E minimum amount.\nEPS is not allowed.\nl\nl\nl\nJapan Domestic:\nl\nEPS is not allowed.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nT&E and non-T&E, no minimum amount.",
+      "similarity_ratio": 0.911,
+      "table": "Retired Chargeback Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "62",
+      "column": "Chargeback Reason Rules",
+      "column_index": 2,
+      "old": "Counterfeit Transaction\nAll Regions:\nl\nl\nInternational:\nDirect Marketing MCCs are prohibited.\nMOTO/ECI must be spaces.\nl\nCanada Region:\nNo T&E or non-T&E minimum amount.\nl\nl\nJapan Domestic:\nFor T&E transactions, the minimum amount must be equal to or\ngreater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal to\nor greater than $10.00 CAD.\nl\nT&E and non-T&E, no minimum amount.",
+      "new": "Counterfeit Transaction\nAll Regions:\nl\nl\nInternational:\nl\nCanada Region:\nl\nl\nJapan Domestic:\nl\nDirect Marketing MCCs are prohibited.\nMOTO/ECI must be spaces.\nNo T&E or non-T&E minimum amount.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nT&E and non-T&E, no minimum amount.",
+      "similarity_ratio": 0.903,
+      "table": "Retired Chargeback Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "70",
+      "column": "Chargeback Reason Rules",
+      "column_index": 2,
+      "old": "Card Recovery Bulletin or Exception File\nAll Regions:\nl\nl\nInternational:\nATM is prohibited.\nValidate against the Card Warning Bulletin.\nl\nl\nU.K. Domestic:\nFor T&E transactions, the minimum amount must be equal to or\ngreater than $25.00 USD.\nNo non-T&E minimum amount.\nl\nCanada Region:\nT&E and non-T&E, no minimum amount.\nl\nl\nJapan Domestic:\nFor T&E transactions, the minimum amount must be equal to or\ngreater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal to\nor greater than $10.00 CAD.\nl\nT&E and non-T&E, no minimum amount.",
+      "new": "Card Recovery Bulletin or Exception File\nAll Regions:\nl\nl\nInternational:\nATM is prohibited.\nValidate against the Card Warning Bulletin.\nl\nl\nU.K. Domestic:\nl\nCanada Region:\nl\nl\nJapan Domestic:\nl\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 USD.\nNo non-T&E minimum amount.\nT&E and non-T&E, no minimum amount.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nT&E and non-T&E, no minimum amount.",
+      "similarity_ratio": 0.93,
+      "table": "Retired Chargeback Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "71",
+      "column": "Chargeback Reason Rules",
+      "column_index": 2,
+      "old": "Declined Authorization\nAll Regions:\nl\nInternational:\nATM is prohibited.\nl\nl\nU.K. Domestic:\nFor T&E transactions, the minimum amount must be equal to or\ngreater than $25.00 USD.\nNo non-T&E minimum amount.\nl\nCanada Region:\nT&E and non-T&E, no minimum amount.\nl\nl\nJapan Domestic:\nFor T&E transactions, the minimum amount must be equal to or\ngreater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal to\nor greater than $10.00 CAD.\nl\nT&E and non-T&E, no minimum amount.",
+      "new": "Declined Authorization\nAll Regions:\nl\nInternational:\nl\nl\nU.K. Domestic:\nl\nCanada Region:\nl\nl\nJapan Domestic:\nl\nATM is prohibited.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 USD.\nNo non-T&E minimum amount.\nT&E and non-T&E, no minimum amount.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nT&E and non-T&E, no minimum amount.",
+      "similarity_ratio": 0.869,
+      "table": "Retired Chargeback Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "72",
+      "column": "Chargeback Reason Rules",
+      "column_index": 2,
+      "old": "No Authorization\nAll Regions:\nl\nInternational:\nATM is prohibited.\nl\nl\nU.K. Domestic:\nFor T&E transactions, the minimum amount must be equal to or\ngreater than $25.00 USD.\nNo non-T&E minimum amount.\nl\nCanada Region:\nT&E and non-T&E, no minimum amount.\nl\nl\nJapan Domestic:\nFor T&E transactions, the minimum amount must be equal to or\ngreater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal to\nor greater than $10.00 CAD.\nl\nT&E and non-T&E, no minimum amount.",
+      "new": "No Authorization\nAll Regions:\nl\nInternational:\nATM is prohibited.\nl\nl\nU.K. Domestic:\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 USD.\nNo non-T&E minimum amount.\nl\nCanada Region:\nl\nl\nJapan Domestic:\nl\nT&E and non-T&E, no minimum amount.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nT&E and non-T&E, no minimum amount.",
+      "similarity_ratio": 0.921,
+      "table": "Retired Chargeback Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "73",
+      "column": "Chargeback Reason Rules",
+      "column_index": 2,
+      "old": "Expired Card\nAll Regions:\nl\nInternational:\nATM is prohibited.\nl\nl\nU.K. Domestic:\nFor T&E transactions, the minimum amount must be equal to or\ngreater than $25.00 USD.\nNo non-T&E minimum amount.\nl\nCanada Region:\nT&E and non-T&E, no minimum amount.\nl\nl\nJapan Domestic:\nFor T&E transactions, the minimum amount must be equal to or\ngreater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal to\nor greater than $10.00 CAD.\nl\nT&E and non-T&E, no minimum amount.",
+      "new": "Expired Card\nAll Regions:\nl\nInternational:\nl\nl\nU.K. Domestic:\nl\nCanada Region:\nl\nl\nJapan Domestic:\nl\nATM is prohibited.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 USD.\nNo non-T&E minimum amount.\nT&E and non-T&E, no minimum amount.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nT&E and non-T&E, no minimum amount.",
+      "similarity_ratio": 0.879,
+      "table": "Retired Chargeback Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "74",
+      "column": "Chargeback Reason Rules",
+      "column_index": 2,
+      "old": "Late Presentment\nInternational:\nl\nl\nU.S. Domestic:\nFor T&E transactions, the minimum amount must be equal to or\ngreater than $25.00 USD.\nNo non-T&E minimum amount.\nl\nl\nU.K. Domestic:\nPlus ATM cash disbursement and alternate media transactions are\nprohibited.\nVisa ATM cash disbursement transaction is not allowed.\nl\nCanada Region:\nT&E and non-T&E, no minimum amount.\nl\nl\nJapan Domestic:\nFor T&E transactions, the minimum amount must be equal to or\ngreater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal to\nor greater than $10.00 CAD.\nl\nT&E and non-T&E, no minimum amount.",
+      "new": "Late Presentment\nInternational:\nl\nl\nU.S. Domestic:\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 USD.\nNo non-T&E minimum amount.\nl\nl\nU.K. Domestic:\nPlus ATM cash disbursement and alternate media transactions\nare prohibited.\nVisa ATM cash disbursement transaction is not allowed.\nl\nCanada Region:\nl\nl\nJapan Domestic:\nl\nT&E and non-T&E, no minimum amount.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nT&E and non-T&E, no minimum amount.",
+      "similarity_ratio": 0.963,
+      "table": "Retired Chargeback Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "75",
+      "column": "Chargeback Reason Rules",
+      "column_index": 2,
+      "old": "Transaction Not Recognized\nAll Regions:\nl\nl\nInternational:\nATM is prohibited.\nCannot be a Secure Electronic Commerce transaction.\nl\nl\nU.S. Region:\nNo T&E minimum amount.\nNo non-T&E minimum amount.\nl\nl\nl\nU.K. Domestic\nFor T&E transactions, the minimum amount must be equal to or\ngreater than $25.00 USD.\nNo non-T&E minimum amount.\nEPS not allowed.\nl\nCanada Region:\nT&E and non-T&E, no minimum amount.\nl\nl\nl\nJapan Domestic:\nFor T&E transactions, the minimum amount must be equal to or\ngreater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal to\nor greater than $10.00 CAD.\nNot valid for EPS/NSR Transactions\nl\nT&E and non-T&E, no minimum amount.",
+      "new": "Transaction Not Recognized\nAll Regions:\nl\nl\nInternational:\nl\nl\nU.S. Region:\nl\nl\nl\nU.K. Domestic\nl\nCanada Region:\nl\nl\nl\nJapan Domestic:\nl\nATM is prohibited.\nCannot be a Secure Electronic Commerce transaction.\nNo T&E minimum amount.\nNo non-T&E minimum amount.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 USD.\nNo non-T&E minimum amount.\nEPS not allowed.\nT&E and non-T&E, no minimum amount.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nNot valid for EPS/NSR Transactions\nT&E and non-T&E, no minimum amount.",
+      "similarity_ratio": 0.875,
+      "table": "Retired Chargeback Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "76",
+      "column": "Chargeback Reason Rules",
+      "column_index": 2,
+      "old": "Incorrect Currency or Transaction Code or Domestic Transaction\nProcessing Violation\nInternational:\nl\nl\nU.K. Domestic:\nFor T&E transactions, the minimum amount must be equal to or\ngreater than $25.00 USD.\nNo non-T&E minimum amount.\nl\nCanada Region:\nT&E and non-T&E, no minimum amount.\nl\nl\nJapan Domestic:\nFor T&E transactions, the minimum amount must be equal to or\ngreater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal to\nor greater than $10.00 CAD.\nl\nT&E and non-T&E, no minimum amount.",
+      "new": "Incorrect Currency or Transaction Code or Domestic\nTransaction Processing Violation\nInternational:\nl\nl\nU.K. Domestic:\nl\nCanada Region:\nl\nl\nJapan Domestic:\nl\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 USD.\nNo non-T&E minimum amount.\nT&E and non-T&E, no minimum amount.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nT&E and non-T&E, no minimum amount.",
+      "similarity_ratio": 0.913,
+      "table": "Retired Chargeback Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "77",
+      "column": "Chargeback Reason Rules",
+      "column_index": 2,
+      "old": "Non-Matching Account Number\nAll Regions:\nl\nInternational:\nATM is prohibited.\nl\nl\nU.K. Domestic:\nFor T&E transactions, the minimum amount must be equal to or\ngreater than $25.00 USD.\nNo non-T&E minimum amount.\nl\nCanada Region:\nT&E and non-T&E, no minimum amount.\nl\nl\nJapan Domestic:\nFor T&E transactions, the minimum amount must be equal to or\ngreater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal to\nor greater than $10.00 CAD.\nl\nT&E and non-T&E, no minimum amount.",
+      "new": "Non-Matching Account Number\nAll Regions:\nl\nInternational:\nl\nl\nU.K. Domestic:\nl\nCanada Region:\nATM is prohibited.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 USD.\nNo non-T&E minimum amount.\nT&E and non-T&E, no minimum amount.\nl\nl\nJapan Domestic:\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nl\nT&E and non-T&E, no minimum amount.",
+      "similarity_ratio": 0.927,
+      "table": "Retired Chargeback Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "78",
+      "column": "Chargeback Reason Rules",
+      "column_index": 2,
+      "old": "Service Code Violation\nAll Regions:\nl\nInternational:\nATM is prohibited.\nl\nl\nU.K. Domestic:\nFor T&E transactions, the minimum amount must be equal to or\ngreater than $25.00 USD.\nNo non-T&E minimum amount.\nl\nCanada Region:\nT&E and non-T&E, no minimum amount.\nl\nl\nJapan Domestic:\nFor T&E transactions, the minimum amount must be equal to or\ngreater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal to\nor greater than $10.00 CAD.\nl\nT&E and non-T&E, no minimum amount.",
+      "new": "Service Code Violation\nAll Regions:\nl\nInternational:\nl\nl\nU.K. Domestic:\nl\nCanada Region:\nl\nl\nJapan Domestic:\nl\nATM is prohibited.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 USD.\nNo non-T&E minimum amount.\nT&E and non-T&E, no minimum amount.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nT&E and non-T&E, no minimum amount.",
+      "similarity_ratio": 0.869,
+      "table": "Retired Chargeback Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "80",
+      "column": "Chargeback Reason Rules",
+      "column_index": 2,
+      "old": "Incorrect Transaction Amount or Account Number\nAll Regions except U.S. Region:\nl\nInternational:\nATM is prohibited.\nl\nl\nU.K. Domestic:\nFor T&E transactions, the minimum amount must be equal to or\ngreater than $25.00 USD.\nNo non-T&E minimum amount.\nl\nCanada Region:\nT&E and non-T&E, no minimum amount.\nl\nl\nl\nJapan Domestic:\nEPS is not allowed.\nFor T&E transactions, the minimum amount must be equal to or\ngreater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal to\nor greater than $10.00 CAD.\nl\nT&E and non-T&E, no minimum amount.",
+      "new": "Incorrect Transaction Amount or Account Number\nAll Regions except U.S. Region:\nl\nInternational:\nATM is prohibited.\nl\nl\nU.K. Domestic:\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 USD.\nNo non-T&E minimum amount.\nl\nCanada Region:\nl\nl\nl\nJapan Domestic:\nl\nT&E and non-T&E, no minimum amount.\nEPS is not allowed.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nT&E and non-T&E, no minimum amount.",
+      "similarity_ratio": 0.957,
+      "table": "Retired Chargeback Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "81",
+      "column": "Chargeback Reason Rules",
+      "column_index": 2,
+      "old": "Fraud - Card-Present Environment\nAll Regions:\nl\nl\nInternational:\nMOTO/ECI must be spaces.\nDirect Marketing MCCs are prohibited.\nl\nl\nl\nU.S. Region:\nFor T&E transactions, the minimum amount must be equal to or\ngreater than $25.00 USD.\nNo non-T&E minimum amount.\nATM is prohibited\nl\nl\nAP Region:\nFor Automated Fuel Dispenser transactions, the minimum amount\nmust be equal to or greater than $10.00 USD.\nATM is prohibited\nl\nU.K. Domestic:\nEPS not allowed.\nl\nCanada Region:\nT&E and non-T&E, no minimum amount.\nl\nl\nl\nJapan Domestic:\nEPS is not allowed.\nFor T&E transactions, the minimum amount must be equal to or\ngreater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal to\nor greater than $10.00 CAD.\nl\nT&E and non-T&E, no minimum amount.",
+      "new": "Fraud - Card-Present Environment\nAll Regions:\nl\nl\nInternational:\nl\nl\nl\nU.S. Region:\nl\nl\nAP Region:\nl\nU.K. Domestic:\nl\nCanada Region:\nl\nl\nl\nJapan Domestic:\nl\nMOTO/ECI must be spaces.\nDirect Marketing MCCs are prohibited.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 USD.\nNo non-T&E minimum amount.\nATM is prohibited\nFor Automated Fuel Dispenser transactions, the minimum\namount must be equal to or greater than $10.00 USD.\nATM is prohibited\nEPS not allowed.\nT&E and non-T&E, no minimum amount.\nEPS is not allowed.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nT&E and non-T&E, no minimum amount.",
+      "similarity_ratio": 0.879,
+      "table": "Retired Chargeback Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "82",
+      "column": "Chargeback Reason Rules",
+      "column_index": 2,
+      "old": "Duplicate Processing\nInternational:\nl\nl\nU.K. Domestic:\nFor T&E transactions, the minimum amount must be equal to or\ngreater than $25.00 USD.\nNo non-T&E minimum amount.\nl\nCanada Region:\nT&E and non-T&E, no minimum amount.\nl\nl\nJapan Domestic:\nFor T&E transactions, the minimum amount must be equal to or\ngreater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal to\nor greater than $10.00 CAD.\nl\nT&E and non-T&E, no minimum amount.",
+      "new": "Duplicate Processing\nInternational:\nl\nl\nU.K. Domestic:\nl\nCanada Region:\nl\nl\nJapan Domestic:\nl\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 USD.\nNo non-T&E minimum amount.\nT&E and non-T&E, no minimum amount.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nT&E and non-T&E, no minimum amount.",
+      "similarity_ratio": 0.901,
+      "table": "Retired Chargeback Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "83",
+      "column": "Chargeback Reason Rules",
+      "column_index": 2,
+      "old": "Fraud - Card-Absent Environment\nAll Regions:\nl\nl\nInternational:\nATM is prohibited.\nRestricted for use by Secure Electronic Commerce transactions,\nexcept by U.S. region.\nl\nl\nU.K. Domestic:\nFor T&E transactions, the minimum amount must be equal to or\ngreater than $25.00 USD.\nNo non-T&E minimum amount.\nl\nCanada Region:\nT&E and non-T&E, no minimum amount.\nl\nl\nJapan Domestic:\nFor T&E transactions, the minimum amount must be equal to or\ngreater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal to\nor greater than $10.00 CAD.\nl\nT&E and non-T&E, no minimum amount.",
+      "new": "Fraud - Card-Absent Environment\nAll Regions:\nl\nl\nInternational:\nl\nl\nU.K. Domestic:\nl\nCanada Region:\nATM is prohibited.\nRestricted for use by Secure Electronic Commerce transactions,\nexcept by U.S. region.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 USD.\nNo non-T&E minimum amount.\nT&E and non-T&E, no minimum amount.\nl\nl\nJapan Domestic:\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nl\nT&E and non-T&E, no minimum amount.",
+      "similarity_ratio": 0.939,
+      "table": "Retired Chargeback Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "85",
+      "column": "Chargeback Reason Rules",
+      "column_index": 2,
+      "old": "Credit Not Processed\nAll Regions:\nl\nInternational:\nATM is prohibited.\nl\nl\nU.K. Domestic:\nFor T&E transactions, the minimum amount must be equal to or\ngreater than $25.00 USD.\nNo non-T&E minimum amount.\nl\nCanada Region:\nT&E and non-T&E, no minimum amount.\nl\nl\nJapan Domestic:\nFor T&E transactions, the minimum amount must be equal to or\ngreater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal to\nor greater than $10.00 CAD.\nl\nT&E and non-T&E, no minimum amount.",
+      "new": "Credit Not Processed\nAll Regions:\nl\nInternational:\nl\nl\nU.K. Domestic:\nl\nCanada Region:\nl\nl\nJapan Domestic:\nl\nATM is prohibited.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 USD.\nNo non-T&E minimum amount.\nT&E and non-T&E, no minimum amount.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nT&E and non-T&E, no minimum amount.",
+      "similarity_ratio": 0.881,
+      "table": "Retired Chargeback Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "86",
+      "column": "Chargeback Reason Rules",
+      "column_index": 2,
+      "old": "Paid by Other Means\nAll Regions:\nl\nInternational:\nATM is prohibited.\nl\nl\nU.S. Region:\nFor T&E transactions, the minimum amount must be equal to or\ngreater than $25.00 USD.\nNo non-T&E minimum amount.\nl\nAP Region:\nEPS not allowed.\nl\nU.K. Domestic:\nEPS not allowed.\nl\nCanada Region:\nT&E and non-T&E, no minimum amount.\nl\nl\nJapan Domestic:\nFor T&E transactions, the minimum amount must be equal to or\ngreater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal to\nor greater than $10.00 CAD.\nl\nT&E and non-T&E, no minimum amount.",
+      "new": "Paid by Other Means\nAll Regions:\nl\nInternational:\nl\nl\nU.S. Region:\nl\nAP Region:\nl\nU.K. Domestic:\nl\nCanada Region:\nl\nl\nJapan Domestic:\nl\nATM is prohibited.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 USD.\nNo non-T&E minimum amount.\nEPS not allowed.\nEPS not allowed.\nT&E and non-T&E, no minimum amount.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nT&E and non-T&E, no minimum amount.",
+      "similarity_ratio": 0.843,
+      "table": "Retired Chargeback Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "90",
+      "column": "Chargeback Reason Rules",
+      "column_index": 2,
+      "old": "Non-Receipt of Cash or Load Transaction Value at ATM or Load\nDevice\nInternational:\nl\nU.S. Region:\nT&E and non-T&E, no minimum amount.\nl\nl\nU.K. Domestic:\nT&E and Non-T&E not allowed.\nValid for ATM only.\nl\nCanada Region:\nT&E and non-T&E, no minimum amount.\nl\nl\nJapan Domestic:\nFor T&E transactions, the minimum amount must be equal to or\ngreater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal to\nor greater than $10.00 CAD.\nl\nT&E and non-T&E, no minimum amount.",
+      "new": "Non-Receipt of Cash or Load Transaction Value at ATM or\nLoad Device\nInternational:\nl\nU.S. Region:\nl\nl\nU.K. Domestic:\nl\nCanada Region:\nl\nl\nJapan Domestic:\nl\nT&E and non-T&E, no minimum amount.\nT&E and Non-T&E not allowed.\nValid for ATM only.\nT&E and non-T&E, no minimum amount.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nT&E and non-T&E, no minimum amount.",
+      "similarity_ratio": 0.881,
+      "table": "Retired Chargeback Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "93",
+      "column": "Chargeback Reason Rules",
+      "column_index": 2,
+      "old": "Merchant Fraud Performance\nAll Regions:\nl\nInternational:\nATM is prohibited.\nl\nU.K. Domestic:\nT&E and non-T&E, no minimum amount.\nl\nCanada Region:\nT&E and non-T&E, no minimum amount.\nl\nl\nJapan Domestic:\nFor T&E transactions, the minimum amount must be equal to or\ngreater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal to\nor greater than $10.00 CAD.\nl\nT&E and non-T&E, no minimum amount.",
+      "new": "Merchant Fraud Performance\nAll Regions:\nl\nInternational:\nATM is prohibited.\nl\nU.K. Domestic:\nl\nCanada Region:\nl\nl\nJapan Domestic:\nl\nT&E and non-T&E, no minimum amount.\nT&E and non-T&E, no minimum amount.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nT&E and non-T&E, no minimum amount.",
+      "similarity_ratio": 0.906,
+      "table": "Retired Chargeback Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "N",
+      "column": "Definition Card Bulletin validation not performed.",
+      "column_index": 1,
+      "old": "Account number was not listed in merchant's CRB region or Exception File on purchase\ndate.",
+      "new": "Account number was not listed in merchant's CRB region on purchase date.",
+      "similarity_ratio": 0.889,
+      "table": "CRB/Exception File Indicators"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "Y",
+      "column": "Definition Card Bulletin validation not performed.",
+      "column_index": 1,
+      "old": "Account number was listed in merchant's CRB region or Exception File on purchase date.",
+      "new": "Account number was listed in merchant's CRB region on purchase date.",
+      "similarity_ratio": 0.883,
+      "table": "CRB/Exception File Indicators"
+    },
+    {
+      "change_type": "duplicate_code_warning",
+      "table": "Fee Collection/Funds Disbursement Reason Codes",
+      "duplicate_codes_a": [
+        "5510"
+      ],
+      "duplicate_codes_b": [
+        "5510"
+      ]
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "0150",
+      "column": "Definition",
+      "column_index": 2,
+      "old": "Recovered Card Handling Fees/Rewards\nl\nThe Account Number field must contain a valid account number.\nATM Balance Inquiry acquiring direct fee returns\nNote:   This code is available for ATM Balance Inquiry acquiring\ndirect fee participants in AP region only.",
+      "new": "Recovered Card Handling Fees/Rewards\nl\nThe Account Number field must contain a valid account number.",
+      "similarity_ratio": 0.563,
+      "table": "Fee Collection/Funds Disbursement Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "0160",
+      "column": "Definition",
+      "column_index": 2,
+      "old": "Invalid Cab Dispute Financial Handling Fee\nl\nThe Account Number field must contain a valid account number.",
+      "new": "ATM Balance Inquiry acquiring direct fee returns\nInvalid Cab Dispute Financial Handling Fee\nl\nThe Account Number field must contain a valid account number.",
+      "similarity_ratio": 0.812,
+      "table": "Fee Collection/Funds Disbursement Reason Codes"
+    },
+    {
+      "change_type": "duplicate_code_warning",
+      "table": "Member Settlement Data-Record Type Codes",
+      "duplicate_codes_a": [
+        "01",
+        "02",
+        "03",
+        "04"
+      ],
+      "duplicate_codes_b": [
+        "01",
+        "02",
+        "03",
+        "04"
+      ]
+    },
+    {
+      "change_type": "duplicate_code_warning",
+      "table": "Member Settlement Data-Report-Level Indicator Codes",
+      "duplicate_codes_a": [
+        "1",
+        "2"
+      ],
+      "duplicate_codes_b": [
+        "1",
+        "2"
+      ]
+    },
+    {
+      "change_type": "duplicate_code_warning",
+      "table": "Member Settlement Data-Summary-Level Codes",
+      "duplicate_codes_a": [
+        "0",
+        "1",
+        "2"
+      ],
+      "duplicate_codes_b": [
+        "0",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "J3",
+      "column": "Description",
+      "column_index": 1,
+      "old": "Visa Healthcare",
+      "new": "Visa Healthcare (U.S. Region only)\nVisa Workplace Benefits",
+      "similarity_ratio": 0.411,
+      "table": "Product ID Values"
+    },
+    {
+      "change_type": "code_added",
+      "table": "Maximum Credit and Debit, Prepaid, and Account Funding POS Transaction Amounts",
+      "code": "S2",
+      "cells": [
+        "S2",
+        "Visa Government\nPurchasing",
+        "USD$749,999.99",
+        "USD$499,999.99",
+        "USD$499,999.99"
+      ]
+    },
+    {
+      "change_type": "code_removed",
+      "table": "Maximum Credit and Debit, Prepaid, and Account Funding POS Transaction Amounts",
+      "code": "S2 PURCHASING",
+      "cells": [
+        "S2\nPurchasing",
+        "USD$749,999.99",
+        "USD$499,999.99",
+        "USD$499,999.99"
+      ]
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "J3",
+      "column": "Prepaid POS Maximum Amount",
+      "column_index": 1,
+      "old": "Visa Healthcare",
+      "new": "Visa Healthcare (U.S.\nRegion only)\nVisa Workplace\nBenefits",
+      "similarity_ratio": 0.411,
+      "table": "Maximum Credit and Debit, Prepaid, and Account Funding POS Transaction Amounts"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "9",
+      "column": "Definition",
+      "column_index": 1,
+      "old": "VPAY Large-Market Petrol - VE only (valid as of Nov 2012)",
+      "new": "VPAY Large-Market Petrol - VE only (valid as of November 2012)",
+      "similarity_ratio": 0.958,
+      "table": "Reimbursement Attributes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "D",
+      "column": "Definition",
+      "column_index": 1,
+      "old": "Tranche 3 POS Fee - Spain only\nExempted Charity transactions - UK only\nSpecific Merchant Sectors - Argentina NNSS only\nSpecific Merchant Sectors - Poland only\nSpecific Merchants - Portugal only\nSpecific Merchants - US only\nSpecific Merchants - Peru Domestic\nStrategic Merchant - Canada\nMicro Merchants - Bolivia NNSS only",
+      "new": "Tranche 3 POS Fee - Spain only\nExempted Charity transactions - UK only\nSpecific Merchant Sectors - Argentina, Bolivia, Canada, Peru, Poland, Portugal, US",
+      "similarity_ratio": 0.561,
+      "table": "Reimbursement Attributes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "E",
+      "column": "Definition",
+      "column_index": 1,
+      "old": "VPAY Large Merchant Transport - VE only (valid as of Nov 2012)",
+      "new": "VPAY Large Merchant Transport - VE only (valid as of November 2012)",
+      "similarity_ratio": 0.961,
+      "table": "Reimbursement Attributes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "O",
+      "column": "Definition",
+      "column_index": 1,
+      "old": "VPAY Large Supermarket/Department Stores - VE only (valid as of Nov 2012)",
+      "new": "VPAY Large Supermarket/Department Stores - VE only (valid as of November 2012)",
+      "similarity_ratio": 0.967,
+      "table": "Reimbursement Attributes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "R",
+      "column": "Definition",
+      "column_index": 1,
+      "old": "VPAY Large Merchant - Electronic Stores - VE only (valid as of Nov 2012)",
+      "new": "VPAY Large Merchant - Electronic Stores - VE only (valid as of November 2012)",
+      "similarity_ratio": 0.966,
+      "table": "Reimbursement Attributes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "S",
+      "column": "Definition",
+      "column_index": 1,
+      "old": "VPAY Large Merchant - Fashion/Shoes - VE only (valid as of Nov 2012)",
+      "new": "VPAY Large Merchant - Fashion/Shoes - VE only (valid as of November 2012)",
+      "similarity_ratio": 0.965,
+      "table": "Reimbursement Attributes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "V",
+      "column": "Definition",
+      "column_index": 1,
+      "old": "VPAY Large Merchant - Furniture - VE only (valid as of Nov 2012)",
+      "new": "VPAY Large Merchant - Furniture - VE only (valid as of November 2012)",
+      "similarity_ratio": 0.962,
+      "table": "Reimbursement Attributes"
+    },
+    {
+      "change_type": "code_added",
+      "table": "Return/Reclassification Reason Codes",
+      "code": "55",
+      "cells": [
+        "55",
+        "Account Range/Transaction not allowed for Clearing Only Service."
+      ]
+    },
+    {
+      "change_type": "code_added",
+      "table": "Return/Reclassification Reason Codes",
+      "code": "A30",
+      "cells": [
+        "A30",
+        "BAI is invalid for Argentina Domestic Transactions."
+      ]
+    },
+    {
+      "change_type": "code_removed",
+      "table": "Return/Reclassification Reason Codes",
+      "code": "AD",
+      "cells": [
+        "AD",
+        "The original draft (TC 05) transaction account number was listed in the Exception File on the\npurchase date, and the amount was below the floor limit without authorization."
+      ]
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "38",
+      "column": "Error Condition",
+      "column_index": 1,
+      "old": "UK Cat Dispute Financial with reason 23 or 83, and the account is not listed on Exception File.",
+      "new": "UK Cat Dispute Financial with reason 23 or 83, and the account is not listed on Account\nScreen Authorization File (ASAF).",
+      "similarity_ratio": 0.852,
+      "table": "Return/Reclassification Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "AA",
+      "column": "Error Condition",
+      "column_index": 1,
+      "old": "A Force Post transaction has the account number listed in the Card Recovery Bulletin.",
+      "new": "An unauthorized transaction was received that was either above floor limit or where floor\nlimit could not be determined, and the account was listed on ASCF or CRB on the\npurchase date.",
+      "similarity_ratio": 0.387,
+      "table": "Return/Reclassification Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "AB",
+      "column": "Error Condition",
+      "column_index": 1,
+      "old": "The original draft (TC 05) transaction account number was listed in the Card Recovery Bulletin\non the purchase date, and the amount was below the floor limit without authorization.",
+      "new": "An unauthorized transaction was received that was below the floor limit and the account\nwas listed on ASCF or CRB on the purchase date.",
+      "similarity_ratio": 0.463,
+      "table": "Return/Reclassification Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "C7",
+      "column": "Error Condition",
+      "column_index": 1,
+      "old": "The Chargeback Reason Code is invalid for automated fuel dispenser transactions if the\naccount is not on the exception file.",
+      "new": "The Chargeback Reason Code is invalid for automated fuel dispenser transactions if the\naccount is not Account Screen Authorization file (ASAF).",
+      "similarity_ratio": 0.876,
+      "table": "Return/Reclassification Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "H0",
+      "column": "Error Condition",
+      "column_index": 1,
+      "old": "The recalculation of the validation code at the VIC showed that one of the fields listed below\ndid not match the value in the authorization message.\nCPS—U.S.:\nl\nl\nl\nl\nl\nl\nl\nl\nl\nl\nl\nl\nCPS/ATM:\nAccount Number\nAuthorized Amount\nAuthorization Characteristics Indicator\nAuthorization Code\nAuthorization Currency Code\nAuthorization Response Code\nCashback\nMarket-Specific Authorization Indicator\nMerchant Category Code\nPOS Entry Mode\nTransaction Identifier\nProduct ID\nl\nl\nl\nl\nl\nl\nl\nl\nl\nAccount Number\nAuthorization Characteristics Indicator\nTransaction Identifier\nAuthorized Amount\nAuthorization Currency Code\nMerchant Country Code\nATM Account Selection\nAcquiring Identifier\nSurcharge Amount",
+      "new": "The recalculation of the validation code at the VIC showed that one of the fields listed\nbelow did not match the value in the authorization message.\nCPS—U.S.:\nl\nl\nl\nl\nl\nl\nl\nl\nl\nl\nl\nl\nCPS/ATM:\nl\nl\nl\nl\nl\nl\nl\nl\nl\nAccount Number\nAuthorized Amount\nAuthorization Characteristics Indicator\nAuthorization Code\nAuthorization Currency Code\nAuthorization Response Code\nCashback\nMarket-Specific Authorization Indicator\nMerchant Category Code\nPOS Entry Mode\nTransaction Identifier\nProduct ID\nAccount Number\nAuthorization Characteristics Indicator\nTransaction Identifier\nAuthorized Amount\nAuthorization Currency Code\nMerchant Country Code\nATM Account Selection\nAcquiring Identifier\nSurcharge Amount",
+      "similarity_ratio": 0.974,
+      "table": "Return/Reclassification Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "HZ",
+      "column": "Error Condition",
+      "column_index": 1,
+      "old": "The recalculation of the validation code at the VIC showed that one of the fields listed below\ndid not match the value in the authorization message. Please resubmit.\nl\nl\nl\nl\nl\nl\nl\nl\nl\nl\nl\nl\nCPS/ATM:\nAccount Number\nAuthorized Amount\nAuthorization Characteristics Indicator\nAuthorization Code\nAuthorization Currency Code\nAuthorization Response Code\nCashback\nMarket-Specific Authorization Indicator\nMerchant Category Code\nPOS Entry Mode\nTransaction Identifier\nProduct ID\nl\nl\nl\nl\nl\nl\nl\nl\nl\nAccount Number\nAuthorization Characteristics Indicator\nTransaction Identifier\nAuthorized Amount\nAuthorization Currency Code\nMerchant Country Code\nATM Account Selection\nAcquiring Identifier\nSurcharge Amount",
+      "new": "The recalculation of the validation code at the VIC showed that one of the fields listed\nbelow did not match the value in the authorization message. Please resubmit.\nl\nl\nl\nl\nl\nl\nl\nl\nl\nl\nl\nl\nCPS/ATM:\nl\nl\nl\nl\nl\nl\nl\nl\nl\nAccount Number\nAuthorized Amount\nAuthorization Characteristics Indicator\nAuthorization Code\nAuthorization Currency Code\nAuthorization Response Code\nCashback\nMarket-Specific Authorization Indicator\nMerchant Category Code\nPOS Entry Mode\nTransaction Identifier\nProduct ID\nAccount Number\nAuthorization Characteristics Indicator\nTransaction Identifier\nAuthorized Amount\nAuthorization Currency Code\nMerchant Country Code\nATM Account Selection\nAcquiring Identifier\nSurcharge Amount",
+      "similarity_ratio": 0.974,
+      "table": "Return/Reclassification Reason Codes"
+    },
+    {
+      "change_type": "code_added",
+      "table": "Service Type Codes",
+      "code": "H",
+      "cells": [
+        "H",
+        "High Speed Dispense"
+      ]
+    },
+    {
+      "change_type": "code_added",
+      "table": "Settlement Flags",
+      "code": "4",
+      "cells": [
+        "4",
+        "Clearing only national net settlement"
+      ]
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "3",
+      "column": "Definition",
+      "column_index": 1,
+      "old": "Clearing-only service for TC 05, 06, 07, 15, 16, 17, 25, 26, 27, 35, 36, and 37 (currently valid only\nfor Sweden and U.S.).\nNote:  A code 3 may be used only if the client's country has registered for clearing-\nonly service with Visa for domestic interchange.",
+      "new": "Clearing only international settlement",
+      "similarity_ratio": 0.149,
+      "table": "Settlement Flags"
+    },
+    {
+      "change_type": "code_added",
+      "table": "SECOND POSITION (MERCHANT TRANSACTION INDICATOR)",
+      "code": "8",
+      "cells": [
+        "8",
+        "Quasi-cash/Online gambling. (See Visa Core Rules and Visa Product and Service Rules for\na list of quasi-cash items.)"
+      ]
+    },
+    {
+      "change_type": "code_added",
+      "table": "SECOND POSITION (MERCHANT TRANSACTION INDICATOR)",
+      "code": "9",
+      "cells": [
+        "9",
+        "Existing Debt Indicator"
+      ]
+    },
+    {
+      "change_type": "code_added",
+      "table": "Special Condition Indicators",
+      "code": "1",
+      "cells": [
+        "1",
+        "Zero floor limit required."
+      ]
+    },
+    {
+      "change_type": "code_added",
+      "table": "Special Condition Indicators",
+      "code": "2",
+      "cells": [
+        "2",
+        "Terminal capable of reading and transmitting the full unaltered contents of the magnetic\nstripe."
+      ]
+    },
+    {
+      "change_type": "code_added",
+      "table": "Special Condition Indicators",
+      "code": "3",
+      "cells": [
+        "3",
+        "Zero floor limit and terminal capable of reading and transmitting the full unaltered\ncontents of the magnetic stripe."
+      ]
+    },
+    {
+      "change_type": "code_removed",
+      "table": "Special Condition Indicators",
+      "code": "8",
+      "cells": [
+        "8",
+        "Quasi-cash/Online gambling. (See Visa Core Rules and Visa Product and Service Rules for a list\nof quasi-cash items.)"
+      ]
+    },
+    {
+      "change_type": "code_removed",
+      "table": "Special Condition Indicators",
+      "code": "9",
+      "cells": [
+        "9",
+        "Existing Debt Indicator"
+      ]
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "1",
+      "column": "Usage Use to indicate that the transaction does not originate at an unattended terminal.",
+      "column_index": 2,
+      "old": "Use to indicate that the transaction:\nl\nIs less than US$40, or local currency equivalent.\nl\nIs not authorized.\nl\nHas no cardholder verification performed.\nExamples of a Type A UAT transaction are:\nl\nl\nl\nl\nParking garage fee\nRoad toll\nMotion picture theater admission\nMagnetic stripe telephone call",
+      "new": "Use to indicate that the transaction:\nl\nIs less than US$40, or local currency\nequivalent.\nl\nIs not authorized.\nl\nExamples of a Type A UAT transaction are:\nHas no cardholder verification performed.\nl\nl\nl\nl\nParking garage fee\nRoad toll\nMotion picture theater admission\nMagnetic stripe telephone call",
+      "similarity_ratio": 0.859,
+      "table": "Acceptance Terminal Indicator"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "2",
+      "column": "Acceptance Terminal Type Not applicable to this transaction",
+      "column_index": 1,
+      "old": "Unattended chip and PIN transactions (VE",
+      "new": "Unattended chip and PIN transactions\n(VE u\nse only)",
+      "similarity_ratio": 0.879,
+      "table": "Acceptance Terminal Indicator"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "2",
+      "column": "Usage Use to indicate that the transaction does not originate at an unattended terminal.",
+      "column_index": 2,
+      "old": "use only)",
+      "new": "Use to indicate that the transaction:\nl\nIs authorized.\nl\nExamples of a Type C UAT transaction are:\nHas PIN verification performed.\nl\nATM\nl\nFuel purchase with PIN",
+      "similarity_ratio": 0.082,
+      "table": "Acceptance Terminal Indicator"
+    },
+    {
+      "change_type": "code_added",
+      "table": "Unit of Measure Code",
+      "code": "C",
+      "cells": [
+        "C",
+        "(CM) Charging Minutes"
+      ]
+    },
+    {
+      "change_type": "code_added",
+      "table": "Unit of Measure Code",
+      "code": "W",
+      "cells": [
+        "W",
+        "(kWh) Kilowatt Per Hour"
+      ]
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "G",
+      "column": "Definition",
+      "column_index": 1,
+      "old": "Gallon",
+      "new": "U.S. Gallon",
+      "similarity_ratio": 0.706,
+      "table": "Unit of Measure Code"
+    },
+    {
+      "change_type": "duplicate_code_warning",
+      "table": "ISO Numeric",
+      "duplicate_codes_a": [
+        "356",
+        "978"
+      ],
+      "duplicate_codes_b": [
+        "356",
+        "978"
+      ]
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "CHRISTMAS ISLAND",
+      "column": "ISO Currency Name",
+      "column_index": 3,
+      "old": "Australian DollarS AUD",
+      "new": "Australian\nDollarS",
+      "similarity_ratio": 0.9,
+      "table": "Country and Currency Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "CHRISTMAS ISLAND",
+      "column": "ISO Alpha Currency Code",
+      "column_index": 4,
+      "old": "036",
+      "new": "AUD",
+      "similarity_ratio": 0.0,
+      "table": "Country and Currency Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "KIRIBATI",
+      "column": "ISO Currency Name",
+      "column_index": 3,
+      "old": "Australian DollarS AUD",
+      "new": "Australian\nDollarS",
+      "similarity_ratio": 0.9,
+      "table": "Country and Currency Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "KIRIBATI",
+      "column": "ISO Alpha Currency Code",
+      "column_index": 4,
+      "old": "036",
+      "new": "AUD",
+      "similarity_ratio": 0.0,
+      "table": "Country and Currency Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "PERU",
+      "column": "ISO Currency Name",
+      "column_index": 3,
+      "old": "Sol",
+      "new": "mml",
+      "similarity_ratio": 0.333,
+      "table": "Country and Currency Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "RUSSIAN FEDERATION (THE)",
+      "column": "ISO Currency Name",
+      "column_index": 3,
+      "old": "Russian Ruble",
+      "new": "Russian RubleS",
+      "similarity_ratio": 0.963,
+      "table": "Country and Currency Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "SINGAPORE",
+      "column": "ISO Currency Name",
+      "column_index": 3,
+      "old": "Singapore DollarS SGD",
+      "new": "Singapore\nDollarS",
+      "similarity_ratio": 0.895,
+      "table": "Country and Currency Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "SINGAPORE",
+      "column": "ISO Alpha Currency Code",
+      "column_index": 4,
+      "old": "702",
+      "new": "SGD",
+      "similarity_ratio": 0.0,
+      "table": "Country and Currency Codes"
+    },
+    {
+      "change_type": "code_added",
+      "table": "Settlement Currencies",
+      "code": "RUSSIAN RUBLE",
+      "cells": [
+        "Russian Ruble",
+        "643",
+        "RUB"
+      ]
+    },
+    {
+      "change_type": "duplicate_code_warning",
+      "table": "Glossary",
+      "duplicate_codes_a": [
+        "INTERCHANGE TRANSACTION FILE (ITF)"
+      ],
+      "duplicate_codes_b": [
+        "INTERCHANGE TRANSACTION FILE (ITF)"
+      ]
+    },
+    {
+      "change_type": "code_added",
+      "table": "Glossary",
+      "code": "ACCOUNT SCREEN AUTHORIZATION FILE (ASAF)",
+      "cells": [
+        "Account Screen Authorization\nFile (ASAF)",
+        "The Account Screen Authorization File (ASAF) is an online file that contains data\nfor an issuer's cardholder accounts that require nonstandard responses to\nauthorization requests. It is an issuer-maintained file that includes both\npositive and negative action codes and special instructions for listed\naccounts, and allows Visa to respond to an authorization request on behalf\nof an issuer. V.I.P. has the ability to access the file during both Stand-In (STIP)\nprocessing as well as when the issuer is available, depending on issuer\nconfiguration."
+      ]
+    },
+    {
+      "change_type": "code_added",
+      "table": "Glossary",
+      "code": "ACCOUNT SCREEN CLEARING FILE (ASCF)",
+      "cells": [
+        "Account Screen Clearing File\n(ASCF)",
+        "The Account Screen Clearing File (ASCF) provides global clearing transaction\nprotection for listed accounts, including below-floor-limit transactions, force-\nposted transactions and card-not-present transactions. The file is an extract\nof negatively listed accounts from the ASAF that Visa references in clearing\nwhen the issuer participates in Account Screen All Respond and Clearing\nReturn functionality."
+      ]
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "VISA RESOLVE ONLINE (VROL)",
+      "column": "Definition",
+      "column_index": 1,
+      "old": "Visa Resolve Online provides dispute management services, including transaction\nresearch, e.g. for cardholder queries, dispute questionnaires to collect relevant\ncustomer information and documentation, financial transaction processing (both\nBASE II and SMS) for disputes, fraud reporting, exception file maintenance, stop\npayments, and case filing (arbitration and compliance) capabilities. Visa Resolve\nOnline identifies associated transactions, e.g. credits, adjustments, and\nconsolidates the dispute history in case folders. To access Visa Resolve Online a\nclient may use either the VROL user interface accessed through Visa Online or a\nweb-service-API system interface (Real Time System Interface - RTSI).",
+      "new": "Visa Resolve Online provides dispute management services, including\ntransaction research, e.g. for cardholder queries, dispute questionnaires to\ncollect relevant customer information and documentation, financial\ntransaction processing (both BASE II and SMS) for disputes, fraud reporting,\nAccount Screen Authorization file (ASAF), stop payments, and case filing\n(arbitration and compliance) capabilities. Visa Resolve Online identifies\nassociated transactions, e.g. credits, adjustments, and consolidates the\ndispute history in case folders. To access Visa Resolve Online a client may use\neither the VROL user interface accessed through Visa Online or a web-\nservice-API system interface (Real Time System Interface - RTSI).",
+      "similarity_ratio": 0.953,
+      "table": "Glossary"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "VISANET INTERCHANGE CENTER (VIC)",
+      "column": "Definition",
+      "column_index": 1,
+      "old": "The computers and all associated peripheral devices and telecommunications\nsupport facilities needed for the V.I.P. System, the BASE II System, related systems\n(such as CRB and CWB), and backup for these systems.",
+      "new": "The computers and all associated peripheral devices and\ntelecommunications support facilities needed for the V.I.P. System, the BASE\nII System, related systems, and backup for these systems.",
+      "similarity_ratio": 0.945,
+      "table": "Glossary"
+    }
+  ]
+}

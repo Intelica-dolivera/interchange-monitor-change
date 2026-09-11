@@ -1,0 +1,4025 @@
+{
+  "manual": "base_ii_transactions_quick_reference",
+  "edition_a": "20250412",
+  "edition_b": "20260418",
+  "summary": {
+    "row_added": 274,
+    "row_removed": 228
+  },
+  "changes": [
+    {
+      "change_type": "row_added",
+      "title": "05 Sales Draft",
+      "cells": [
+        "TCR 2",
+        "(AR) National Settlement, Argentina"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "05 Sales Draft",
+      "cells": [
+        "TCR 2",
+        "(BO) National Settlement, Bolivia"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "05 Sales Draft",
+      "cells": [
+        "TCR 2",
+        "(BR) National Settlement, Brazil"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "05 Sales Draft",
+      "cells": [
+        "TCR 2",
+        "(CL) National Settlement, Chile"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "05 Sales Draft",
+      "cells": [
+        "TCR 2",
+        "(CO) National Settlement, Colombia"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "05 Sales Draft",
+      "cells": [
+        "TCR 2",
+        "(JP) National Settlement, Japan"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "05 Sales Draft",
+      "cells": [
+        "TCR 2",
+        "(KR) National Settlement, South Korea"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "05 Sales Draft",
+      "cells": [
+        "TCR 2",
+        "(MX) National Settlement, Mexico"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "05 Sales Draft",
+      "cells": [
+        "TCR 2",
+        "(PY) National Settlement, Paraguay"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "05 Sales Draft",
+      "cells": [
+        "TCR 2",
+        "(RU) National Settlement, Russia"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "05 Sales Draft",
+      "cells": [
+        "TCR 2",
+        "(SE) National Settlement, Sweden"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "05 Sales Draft",
+      "cells": [
+        "TCR 2",
+        "(TU) National Settlement, Turkey"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "05 Sales Draft",
+      "cells": [
+        "TCR 2",
+        "(UY) National Settlement, Uruguay"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "05 Sales Draft",
+      "cells": [
+        "TCR 3",
+        "(AI) Passenger Itinerary Data"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "05 Sales Draft",
+      "cells": [
+        "TCR 3",
+        "(AN) Passenger Transport Ancillary Data"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "05 Sales Draft",
+      "cells": [
+        "TCR 3",
+        "(CA) Car Rental"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "05 Sales Draft",
+      "cells": [
+        "TCR 3",
+        "(CR) Business Application Data"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "05 Sales Draft",
+      "cells": [
+        "TCR 3",
+        "(FL) Fleet Service"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "05 Sales Draft",
+      "cells": [
+        "TCR 3",
+        "(FT) EMV Fleet Service"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "05 Sales Draft",
+      "cells": [
+        "TCR 3",
+        "(LD) Loan Detail"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "05 Sales Draft",
+      "cells": [
+        "TCR 3",
+        "(LG) Lodging"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "05 Sales Draft",
+      "cells": [
+        "TCR 4",
+        "(DF) Supplemental Visa Claims Resolution Financial Data Record"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "05 Sales Draft",
+      "cells": [
+        "TCR 4",
+        "(PD) Promotion Data"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "05 Sales Draft",
+      "cells": [
+        "TCR 4",
+        "(SD) Supplemental Financial Data"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "05 Sales Draft",
+      "cells": [
+        "TCR 4",
+        "(SP) Supplemental Financial and Promotion Data"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "05 Sales Draft",
+      "cells": [
+        "TCR D",
+        "(IP) Installment Payment"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "05 Sales Draft",
+      "cells": [
+        "TCR D",
+        "(OC) Original Credit Additional Data"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "05 Sales Draft",
+      "cells": [
+        "TCR D",
+        "(RP) Recurring Payment"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "05 Sales Draft",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Argentina"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "05 Sales Draft",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Bolivia"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "05 Sales Draft",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Brazil"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "05 Sales Draft",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Chile"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "05 Sales Draft",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Colombia"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "05 Sales Draft",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Japan"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "05 Sales Draft",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Mexico"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "05 Sales Draft",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Paraguay"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "05 Sales Draft",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Russia"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "05 Sales Draft",
+      "cells": [
+        "TCR 2",
+        "National Settlement, South Korea"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "05 Sales Draft",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Sweden"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "05 Sales Draft",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Turkey"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "05 Sales Draft",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Uruguay"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "05 Sales Draft",
+      "cells": [
+        "TCR 3",
+        "Business Application Data"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "05 Sales Draft",
+      "cells": [
+        "TCR 3",
+        "Car Rental"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "05 Sales Draft",
+      "cells": [
+        "TCR 3",
+        "EMV Fleet Service"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "05 Sales Draft",
+      "cells": [
+        "TCR 3",
+        "Fleet Service"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "05 Sales Draft",
+      "cells": [
+        "TCR 3",
+        "Loan Detail"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "05 Sales Draft",
+      "cells": [
+        "TCR 3",
+        "Lodging"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "05 Sales Draft",
+      "cells": [
+        "TCR 3",
+        "Passenger Itinerary Data"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "05 Sales Draft",
+      "cells": [
+        "TCR 3",
+        "Passenger Transport Ancillary Data"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "05 Sales Draft",
+      "cells": [
+        "TCR 4",
+        "Promotion Data"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "05 Sales Draft",
+      "cells": [
+        "TCR 4",
+        "Supplemental Financial and Promotion Data"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "05 Sales Draft",
+      "cells": [
+        "TCR 4",
+        "Supplemental Financial Data"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "05 Sales Draft",
+      "cells": [
+        "TCR 4",
+        "Supplemental Visa Claims Resolution Financial Data Record"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "05 Sales Draft",
+      "cells": [
+        "TCR D",
+        "Installment Payment"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "05 Sales Draft",
+      "cells": [
+        "TCR D",
+        "Original Credit Additional Data"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "05 Sales Draft",
+      "cells": [
+        "TCR D",
+        "Recurring Payment"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "06 Credit Voucher",
+      "cells": [
+        "TCR 2",
+        "(AR) National Settlement, Argentina"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "06 Credit Voucher",
+      "cells": [
+        "TCR 2",
+        "(BO) National Settlement, Bolivia"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "06 Credit Voucher",
+      "cells": [
+        "TCR 2",
+        "(BR) National Settlement, Brazil"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "06 Credit Voucher",
+      "cells": [
+        "TCR 2",
+        "(CL) National Settlement, Chile"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "06 Credit Voucher",
+      "cells": [
+        "TCR 2",
+        "(CO) National Settlement, Colombia"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "06 Credit Voucher",
+      "cells": [
+        "TCR 2",
+        "(JP) National Settlement, Japan"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "06 Credit Voucher",
+      "cells": [
+        "TCR 2",
+        "(KR) National Settlement, South Korea"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "06 Credit Voucher",
+      "cells": [
+        "TCR 2",
+        "(MX) National Settlement, Mexico"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "06 Credit Voucher",
+      "cells": [
+        "TCR 2",
+        "(PY) National Settlement, Paraguay"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "06 Credit Voucher",
+      "cells": [
+        "TCR 2",
+        "(RU) National Settlement, Russia"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "06 Credit Voucher",
+      "cells": [
+        "TCR 2",
+        "(SE) National Settlement, Sweden"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "06 Credit Voucher",
+      "cells": [
+        "TCR 2",
+        "(TU) National Settlement, Turkey"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "06 Credit Voucher",
+      "cells": [
+        "TCR 2",
+        "(UY) National Settlement, Uruguay"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "06 Credit Voucher",
+      "cells": [
+        "TCR 3",
+        "(AI) Passenger Itinerary Data"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "06 Credit Voucher",
+      "cells": [
+        "TCR 3",
+        "(AN) Passenger Transport Ancillary Data"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "06 Credit Voucher",
+      "cells": [
+        "TCR 3",
+        "(CA) Car Rental"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "06 Credit Voucher",
+      "cells": [
+        "TCR 3",
+        "(CR) Business Application Data"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "06 Credit Voucher",
+      "cells": [
+        "TCR 3",
+        "(FL) Fleet Service"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "06 Credit Voucher",
+      "cells": [
+        "TCR 3",
+        "(FT) EMV Fleet Service"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "06 Credit Voucher",
+      "cells": [
+        "TCR 3",
+        "(LD) Loan Detail"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "06 Credit Voucher",
+      "cells": [
+        "TCR 3",
+        "(LG) Lodging"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "06 Credit Voucher",
+      "cells": [
+        "TCR 4",
+        "(DF) Supplemental Visa Claims Resolution Financial Data Record"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "06 Credit Voucher",
+      "cells": [
+        "TCR 4",
+        "(PD) Promotion Data"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "06 Credit Voucher",
+      "cells": [
+        "TCR 4",
+        "(SD) Supplemental Financial Data"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "06 Credit Voucher",
+      "cells": [
+        "TCR 4",
+        "(SP) Supplemental Financial and Promotion Data"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "06 Credit Voucher",
+      "cells": [
+        "TCR D",
+        "(FS) Fleet Supplementary Data"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "06 Credit Voucher",
+      "cells": [
+        "TCR D",
+        "(IP) Installment Payment"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "06 Credit Voucher",
+      "cells": [
+        "TCR D",
+        "(OC) Original Credit Additional Data"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "06 Credit Voucher",
+      "cells": [
+        "TCR D",
+        "(RP) Recurring Payment"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "06 Credit Voucher",
+      "cells": [
+        "TCR E",
+        "Supplemental Payment Data"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "06 Credit Voucher",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Brazil"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "06 Credit Voucher",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Colombia"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "06 Credit Voucher",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Japan"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "06 Credit Voucher",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Mexico"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "06 Credit Voucher",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Paraguay"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "06 Credit Voucher",
+      "cells": [
+        "TCR 2",
+        "National Settlement, South Korea"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "06 Credit Voucher",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Sweden"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "06 Credit Voucher",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Turkey"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "06 Credit Voucher",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Uruguay"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "06 Credit Voucher",
+      "cells": [
+        "TCR 3",
+        "Car Rental"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "06 Credit Voucher",
+      "cells": [
+        "TCR 3",
+        "Fleet Service"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "06 Credit Voucher",
+      "cells": [
+        "TCR 3",
+        "Lodging"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "06 Credit Voucher",
+      "cells": [
+        "TCR 3",
+        "Original Credit"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "06 Credit Voucher",
+      "cells": [
+        "TCR 3",
+        "Passenger Itinerary Data"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "06 Credit Voucher",
+      "cells": [
+        "TCR 4",
+        "Promotion Data"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "06 Credit Voucher",
+      "cells": [
+        "TCR 4",
+        "Supplemental Financial and Promotion Data"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "06 Credit Voucher",
+      "cells": [
+        "TCR 4",
+        "Supplemental Financial Data"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "07 Cash Disbursement",
+      "cells": [
+        "TCR 2",
+        "(AR) National Settlement, Argentina"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "07 Cash Disbursement",
+      "cells": [
+        "TCR 2",
+        "(BR) National Settlement, Brazil"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "07 Cash Disbursement",
+      "cells": [
+        "TCR 2",
+        "(CO) National Settlement, Colombia"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "07 Cash Disbursement",
+      "cells": [
+        "TCR 2",
+        "(JP) National Settlement, Japan"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "07 Cash Disbursement",
+      "cells": [
+        "TCR 2",
+        "(KR) National Settlement, South Korea"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "07 Cash Disbursement",
+      "cells": [
+        "TCR 2",
+        "(PY) National Settlement, Paraguay"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "07 Cash Disbursement",
+      "cells": [
+        "TCR 2",
+        "(RU) National Settlement, Russia"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "07 Cash Disbursement",
+      "cells": [
+        "TCR 2",
+        "(SE) National Settlement, Sweden"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "07 Cash Disbursement",
+      "cells": [
+        "TCR 2",
+        "(TU) National Settlement, Turkey"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "07 Cash Disbursement",
+      "cells": [
+        "TCR 2",
+        "(UY) National Settlement, Uruguay"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "07 Cash Disbursement",
+      "cells": [
+        "TCR 4",
+        "(DF) Supplemental Visa Claims Resolution Financial Data Record"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "07 Cash Disbursement",
+      "cells": [
+        "TCR 4",
+        "(SD) Supplemental Financial Data"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "07 Cash Disbursement",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Brazil"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "07 Cash Disbursement",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Colombia"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "07 Cash Disbursement",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Japan"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "07 Cash Disbursement",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Mexico"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "07 Cash Disbursement",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Paraguay"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "07 Cash Disbursement",
+      "cells": [
+        "TCR 2",
+        "National Settlement, South Korea"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "07 Cash Disbursement",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Sweden"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "07 Cash Disbursement",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Turkey"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "07 Cash Disbursement",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Uruguay"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "07 Cash Disbursement",
+      "cells": [
+        "TCR 3",
+        "Car Rental"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "07 Cash Disbursement",
+      "cells": [
+        "TCR 3",
+        "Fleet Service"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "07 Cash Disbursement",
+      "cells": [
+        "TCR 3",
+        "Industry-Specific Data"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "07 Cash Disbursement",
+      "cells": [
+        "TCR 3",
+        "Lodging"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "07 Cash Disbursement",
+      "cells": [
+        "TCR 3",
+        "Passenger Itinerary Data"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "07 Cash Disbursement",
+      "cells": [
+        "TCR 4",
+        "Promotion Data"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "07 Cash Disbursement",
+      "cells": [
+        "TCR 4",
+        "Supplemental Financial and Promotion Data"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "07 Cash Disbursement",
+      "cells": [
+        "TCR 4",
+        "Supplemental Financial Data"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "10 Fee Collection",
+      "cells": [
+        "TCR 2",
+        "(AR) National Settlement, Argentina"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "10 Fee Collection",
+      "cells": [
+        "TCR 2",
+        "(BR) National Settlement, Brazil"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "10 Fee Collection",
+      "cells": [
+        "TCR 2",
+        "(PY) National Settlement, Paraguay"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "10 Fee Collection",
+      "cells": [
+        "TCR 2",
+        "(UY) National Settlement, Uruguay"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "10 Fee Collection",
+      "cells": [
+        "TCR 4",
+        "(PD) Promotion Data"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "10 Fee Collection",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Argentina"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "10 Fee Collection",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Brazil"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "10 Fee Collection",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Paraguay"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "10 Fee Collection",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Uruguay"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "10 Fee Collection",
+      "cells": [
+        "TCR 4",
+        "Promotion Data"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "15 Sales Draft Dispute",
+      "cells": [
+        "TCR 2",
+        "(AR) National Settlement, Argentina"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "15 Sales Draft Dispute",
+      "cells": [
+        "TCR 2",
+        "(BO) National Settlement, Bolivia"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "15 Sales Draft Dispute",
+      "cells": [
+        "TCR 2",
+        "(BR) National Settlement, Brazil"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "15 Sales Draft Dispute",
+      "cells": [
+        "TCR 2",
+        "(CL) National Settlement, Chile"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "15 Sales Draft Dispute",
+      "cells": [
+        "TCR 2",
+        "(CO) National Settlement, Colombia"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "15 Sales Draft Dispute",
+      "cells": [
+        "TCR 2",
+        "(KR) National Settlement, South Korea"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "15 Sales Draft Dispute",
+      "cells": [
+        "TCR 2",
+        "(MX) National Settlement, Mexico"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "15 Sales Draft Dispute",
+      "cells": [
+        "TCR 2",
+        "(PY) National Settlement, Paraguay"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "15 Sales Draft Dispute",
+      "cells": [
+        "TCR 2",
+        "(RU) National Settlement, Russia"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "15 Sales Draft Dispute",
+      "cells": [
+        "TCR 2",
+        "(SE) National Settlement, Sweden"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "15 Sales Draft Dispute",
+      "cells": [
+        "TCR 2",
+        "(TU) National Settlement, Turkey"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "15 Sales Draft Dispute",
+      "cells": [
+        "TCR 2",
+        "(UY) National Settlement, Uruguay"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "15 Sales Draft Dispute",
+      "cells": [
+        "TCR 3",
+        "(AI) Passenger Itinerary Data"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "15 Sales Draft Dispute",
+      "cells": [
+        "TCR 3",
+        "(AN) Passenger Transport Ancillary Data"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "15 Sales Draft Dispute",
+      "cells": [
+        "TCR 3",
+        "(CA) Car Rental"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "15 Sales Draft Dispute",
+      "cells": [
+        "TCR 3",
+        "(CR) Business Application Data"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "15 Sales Draft Dispute",
+      "cells": [
+        "TCR 3",
+        "(FL) Fleet Service"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "15 Sales Draft Dispute",
+      "cells": [
+        "TCR 3",
+        "(FT) EMV Fleet Service"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "15 Sales Draft Dispute",
+      "cells": [
+        "TCR 3",
+        "(LD) Loan Detail"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "15 Sales Draft Dispute",
+      "cells": [
+        "TCR 3",
+        "(LG) Lodging"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "15 Sales Draft Dispute",
+      "cells": [
+        "TCR 4",
+        "(DF) Supplemental Visa Claims Resolution Financial Data Record"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "15 Sales Draft Dispute",
+      "cells": [
+        "TCR 4",
+        "(PD) Promotion Data"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "15 Sales Draft Dispute",
+      "cells": [
+        "TCR 4",
+        "(SD) Supplemental Financial Data"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "15 Sales Draft Dispute",
+      "cells": [
+        "TCR 4",
+        "(SP) Supplemental Financial and Promotion Data"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "15 Sales Draft Dispute",
+      "cells": [
+        "TCR E",
+        "Supplemental Payment Data"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "15 Sales Draft Dispute",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Brazil"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "15 Sales Draft Dispute",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Colombia"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "15 Sales Draft Dispute",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Japan"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "15 Sales Draft Dispute",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Mexico"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "15 Sales Draft Dispute",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Paraguay"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "15 Sales Draft Dispute",
+      "cells": [
+        "TCR 2",
+        "National Settlement, South Korea"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "15 Sales Draft Dispute",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Sweden"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "15 Sales Draft Dispute",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Turkey"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "15 Sales Draft Dispute",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Uruguay"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "15 Sales Draft Dispute",
+      "cells": [
+        "TCR 3",
+        "Car Rental"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "15 Sales Draft Dispute",
+      "cells": [
+        "TCR 3",
+        "Fleet Service"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "15 Sales Draft Dispute",
+      "cells": [
+        "TCR 3",
+        "Lodging"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "15 Sales Draft Dispute",
+      "cells": [
+        "TCR 3",
+        "Passenger Itinerary Data"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "15 Sales Draft Dispute",
+      "cells": [
+        "TCR 4",
+        "Promotion Data"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "15 Sales Draft Dispute",
+      "cells": [
+        "TCR 4",
+        "Supplemental Financial and Promotion Data"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "15 Sales Draft Dispute",
+      "cells": [
+        "TCR 4",
+        "Supplemental Financial Data"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "16 Credit Voucher Dispute",
+      "cells": [
+        "TCR 2",
+        "(AR) National Settlement, Argentina"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "16 Credit Voucher Dispute",
+      "cells": [
+        "TCR 2",
+        "(BO) National Settlement, Bolivia"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "16 Credit Voucher Dispute",
+      "cells": [
+        "TCR 2",
+        "(BR) National Settlement, Brazil"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "16 Credit Voucher Dispute",
+      "cells": [
+        "TCR 2",
+        "(CL) National Settlement, Chile"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "16 Credit Voucher Dispute",
+      "cells": [
+        "TCR 2",
+        "(CO) National Settlement, Colombia"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "16 Credit Voucher Dispute",
+      "cells": [
+        "TCR 2",
+        "(KR) National Settlement, South Korea"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "16 Credit Voucher Dispute",
+      "cells": [
+        "TCR 2",
+        "(MX) National Settlement, Mexico"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "16 Credit Voucher Dispute",
+      "cells": [
+        "TCR 2",
+        "(PY) National Settlement, Paraguay"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "16 Credit Voucher Dispute",
+      "cells": [
+        "TCR 2",
+        "(RU) National Settlement, Russia"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "16 Credit Voucher Dispute",
+      "cells": [
+        "TCR 2",
+        "(SE) National Settlement, Sweden"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "16 Credit Voucher Dispute",
+      "cells": [
+        "TCR 2",
+        "(TU) National Settlement, Turkey"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "16 Credit Voucher Dispute",
+      "cells": [
+        "TCR 2",
+        "(UY) National Settlement, Uruguay"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "16 Credit Voucher Dispute",
+      "cells": [
+        "TCR 3",
+        "(AI) Passenger Itinerary Data"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "16 Credit Voucher Dispute",
+      "cells": [
+        "TCR 3",
+        "(AN) Passenger Transport Ancillary Data"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "16 Credit Voucher Dispute",
+      "cells": [
+        "TCR 3",
+        "(CA) Car Rental"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "16 Credit Voucher Dispute",
+      "cells": [
+        "TCR 3",
+        "(CR) Business Application Data"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "16 Credit Voucher Dispute",
+      "cells": [
+        "TCR 3",
+        "(FL) Fleet Service"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "16 Credit Voucher Dispute",
+      "cells": [
+        "TCR 3",
+        "(FT) EMV Fleet Service"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "16 Credit Voucher Dispute",
+      "cells": [
+        "TCR 3",
+        "(LD) Loan Detail"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "16 Credit Voucher Dispute",
+      "cells": [
+        "TCR 3",
+        "(LG) Lodging"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "16 Credit Voucher Dispute",
+      "cells": [
+        "TCR 4",
+        "(DF) Supplemental Visa Claims Resolution Financial Data Record"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "16 Credit Voucher Dispute",
+      "cells": [
+        "TCR 4",
+        "(PD) Promotion Data"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "16 Credit Voucher Dispute",
+      "cells": [
+        "TCR 4",
+        "(SD) Supplemental Financial Data"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "16 Credit Voucher Dispute",
+      "cells": [
+        "TCR 4",
+        "(SP) Supplemental Financial and Promotion Data"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "16 Credit Voucher Dispute",
+      "cells": [
+        "TCR E",
+        "Supplemental Payment Data"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "16 Credit Voucher Dispute",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Brazil"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "16 Credit Voucher Dispute",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Colombia"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "16 Credit Voucher Dispute",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Japan"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "16 Credit Voucher Dispute",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Mexico"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "16 Credit Voucher Dispute",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Paraguay"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "16 Credit Voucher Dispute",
+      "cells": [
+        "TCR 2",
+        "National Settlement, South Korea"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "16 Credit Voucher Dispute",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Sweden"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "16 Credit Voucher Dispute",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Turkey"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "16 Credit Voucher Dispute",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Uruguay"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "16 Credit Voucher Dispute",
+      "cells": [
+        "TCR 3",
+        "Car Rental"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "16 Credit Voucher Dispute",
+      "cells": [
+        "TCR 3",
+        "Fleet Service"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "16 Credit Voucher Dispute",
+      "cells": [
+        "TCR 3",
+        "Lodging"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "16 Credit Voucher Dispute",
+      "cells": [
+        "TCR 3",
+        "Original Credit"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "16 Credit Voucher Dispute",
+      "cells": [
+        "TCR 3",
+        "Passenger Itinerary Data"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "16 Credit Voucher Dispute",
+      "cells": [
+        "TCR 4",
+        "Promotion Data"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "16 Credit Voucher Dispute",
+      "cells": [
+        "TCR 4",
+        "Supplemental Financial and Promotion Data"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "16 Credit Voucher Dispute",
+      "cells": [
+        "TCR 4",
+        "Supplemental Financial Data"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "17 Cash Disbursement Dispute",
+      "cells": [
+        "TCR 2",
+        "(AR) National Settlement, Argentina"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "17 Cash Disbursement Dispute",
+      "cells": [
+        "TCR 2",
+        "(BR) National Settlement, Brazil"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "17 Cash Disbursement Dispute",
+      "cells": [
+        "TCR 2",
+        "(CO) National Settlement, Colombia"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "17 Cash Disbursement Dispute",
+      "cells": [
+        "TCR 2",
+        "(KR) National Settlement, South Korea"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "17 Cash Disbursement Dispute",
+      "cells": [
+        "TCR 2",
+        "(PY) National Settlement, Paraguay"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "17 Cash Disbursement Dispute",
+      "cells": [
+        "TCR 2",
+        "(RU) National Settlement, Russia"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "17 Cash Disbursement Dispute",
+      "cells": [
+        "TCR 2",
+        "(SE) National Settlement, Sweden"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "17 Cash Disbursement Dispute",
+      "cells": [
+        "TCR 2",
+        "(TU) National Settlement, Turkey"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "17 Cash Disbursement Dispute",
+      "cells": [
+        "TCR 2",
+        "(UY) National Settlement, Uruguay"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "17 Cash Disbursement Dispute",
+      "cells": [
+        "TCR 4",
+        "(DF) Supplemental Visa Claims Resolution Financial Data Record"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "17 Cash Disbursement Dispute",
+      "cells": [
+        "TCR 4",
+        "(SD) Supplemental Financial Data"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "17 Cash Disbursement Dispute",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Brazil"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "17 Cash Disbursement Dispute",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Colombia"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "17 Cash Disbursement Dispute",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Japan"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "17 Cash Disbursement Dispute",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Mexico"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "17 Cash Disbursement Dispute",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Paraguay"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "17 Cash Disbursement Dispute",
+      "cells": [
+        "TCR 2",
+        "National Settlement, South Korea"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "17 Cash Disbursement Dispute",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Sweden"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "17 Cash Disbursement Dispute",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Turkey"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "17 Cash Disbursement Dispute",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Uruguay"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "17 Cash Disbursement Dispute",
+      "cells": [
+        "TCR 3",
+        "Car Rental"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "17 Cash Disbursement Dispute",
+      "cells": [
+        "TCR 3",
+        "Fleet Service"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "17 Cash Disbursement Dispute",
+      "cells": [
+        "TCR 3",
+        "Industry-Specific Data"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "17 Cash Disbursement Dispute",
+      "cells": [
+        "TCR 3",
+        "Lodging"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "17 Cash Disbursement Dispute",
+      "cells": [
+        "TCR 3",
+        "Passenger Itinerary Data"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "17 Cash Disbursement Dispute",
+      "cells": [
+        "TCR 4",
+        "Promotion Data"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "17 Cash Disbursement Dispute",
+      "cells": [
+        "TCR 4",
+        "Supplemental Financial and Promotion Data"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "17 Cash Disbursement Dispute",
+      "cells": [
+        "TCR 4",
+        "Supplemental Financial Data"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "20 Funds Disbursement",
+      "cells": [
+        "TCR 2",
+        "(AR) National Settlement, Argentina"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "20 Funds Disbursement",
+      "cells": [
+        "TCR 2",
+        "(BR) National Settlement, Brazil"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "20 Funds Disbursement",
+      "cells": [
+        "TCR 2",
+        "(PY) National Settlement, Paraguay"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "20 Funds Disbursement",
+      "cells": [
+        "TCR 2",
+        "(UY) National Settlement, Uruguay"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "20 Funds Disbursement",
+      "cells": [
+        "TCR 4",
+        "(PD) Promotion Data"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "20 Funds Disbursement",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Argentina"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "20 Funds Disbursement",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Brazil"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "20 Funds Disbursement",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Paraguay"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "20 Funds Disbursement",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Uruguay"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "20 Funds Disbursement",
+      "cells": [
+        "TCR 4",
+        "Promotion Data"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "25 Sales Draft Reversal",
+      "cells": [
+        "TCR 2",
+        "(AR) National Settlement, Argentina"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "25 Sales Draft Reversal",
+      "cells": [
+        "TCR 2",
+        "(BO) National Settlement, Bolivia"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "25 Sales Draft Reversal",
+      "cells": [
+        "TCR 2",
+        "(BR) National Settlement, Brazil"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "25 Sales Draft Reversal",
+      "cells": [
+        "TCR 2",
+        "(CL) National Settlement, Chile"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "25 Sales Draft Reversal",
+      "cells": [
+        "TCR 2",
+        "(CO) National Settlement, Colombia"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "25 Sales Draft Reversal",
+      "cells": [
+        "TCR 2",
+        "(JP) National Settlement, Japan"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "25 Sales Draft Reversal",
+      "cells": [
+        "TCR 2",
+        "(KR) National Settlement, South Korea"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "25 Sales Draft Reversal",
+      "cells": [
+        "TCR 2",
+        "(MX) National Settlement, Mexico"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "25 Sales Draft Reversal",
+      "cells": [
+        "TCR 2",
+        "(PY) National Settlement, Paraguay"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "25 Sales Draft Reversal",
+      "cells": [
+        "TCR 2",
+        "(RU) National Settlement, Russia"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "25 Sales Draft Reversal",
+      "cells": [
+        "TCR 2",
+        "(SE) National Settlement, Sweden"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "25 Sales Draft Reversal",
+      "cells": [
+        "TCR 2",
+        "(TU) National Settlement, Turkey"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "25 Sales Draft Reversal",
+      "cells": [
+        "TCR 2",
+        "(UY) National Settlement, Uruguay"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "25 Sales Draft Reversal",
+      "cells": [
+        "TCR 3",
+        "(AI) Passenger Itinerary Data"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "25 Sales Draft Reversal",
+      "cells": [
+        "TCR 3",
+        "(AN) Passenger Transport Ancillary Data"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "25 Sales Draft Reversal",
+      "cells": [
+        "TCR 3",
+        "(CA) Car Rental"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "25 Sales Draft Reversal",
+      "cells": [
+        "TCR 3",
+        "(CR) Business Application Data"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "25 Sales Draft Reversal",
+      "cells": [
+        "TCR 3",
+        "(FL) Fleet Service"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "25 Sales Draft Reversal",
+      "cells": [
+        "TCR 3",
+        "(FT) EMV Fleet Service"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "25 Sales Draft Reversal",
+      "cells": [
+        "TCR 3",
+        "(LD) Loan Detail"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "25 Sales Draft Reversal",
+      "cells": [
+        "TCR 3",
+        "(LG) Lodging"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "25 Sales Draft Reversal",
+      "cells": [
+        "TCR 4",
+        "(DF) Supplemental Visa Claims Resolution Financial Data Record"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "25 Sales Draft Reversal",
+      "cells": [
+        "TCR 4",
+        "(PD) Promotion Data"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "25 Sales Draft Reversal",
+      "cells": [
+        "TCR 4",
+        "(SD) Supplemental Financial Data"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "25 Sales Draft Reversal",
+      "cells": [
+        "TCR 4",
+        "(SP) Supplemental Financial and Promotion Data"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "25 Sales Draft Reversal",
+      "cells": [
+        "TCR D",
+        "(FS) Fleet Supplementary Data"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "25 Sales Draft Reversal",
+      "cells": [
+        "TCR D",
+        "(IP) Installment Payment"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "25 Sales Draft Reversal",
+      "cells": [
+        "TCR D",
+        "(RP) Recurring Payment"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "25 Sales Draft Reversal",
+      "cells": [
+        "TCR E",
+        "Supplemental Payment Data"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "25 Sales Draft Reversal",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Brazil"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "25 Sales Draft Reversal",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Colombia"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "25 Sales Draft Reversal",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Japan"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "25 Sales Draft Reversal",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Mexico"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "25 Sales Draft Reversal",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Paraguay"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "25 Sales Draft Reversal",
+      "cells": [
+        "TCR 2",
+        "National Settlement, South Korea"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "25 Sales Draft Reversal",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Sweden"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "25 Sales Draft Reversal",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Turkey"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "25 Sales Draft Reversal",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Uruguay"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "25 Sales Draft Reversal",
+      "cells": [
+        "TCR 3",
+        "Car Rental"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "25 Sales Draft Reversal",
+      "cells": [
+        "TCR 3",
+        "Fleet Service"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "25 Sales Draft Reversal",
+      "cells": [
+        "TCR 3",
+        "Lodging"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "25 Sales Draft Reversal",
+      "cells": [
+        "TCR 3",
+        "Passenger Itinerary Data"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "25 Sales Draft Reversal",
+      "cells": [
+        "TCR 4",
+        "Promotion Data"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "25 Sales Draft Reversal",
+      "cells": [
+        "TCR 4",
+        "Supplemental Financial and Promotion Data"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "25 Sales Draft Reversal",
+      "cells": [
+        "TCR 4",
+        "Supplemental Financial Data"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "26 Credit Voucher Reversal",
+      "cells": [
+        "TCR 2",
+        "(AR) National Settlement, Argentina"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "26 Credit Voucher Reversal",
+      "cells": [
+        "TCR 2",
+        "(BO) National Settlement, Bolivia"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "26 Credit Voucher Reversal",
+      "cells": [
+        "TCR 2",
+        "(BR) National Settlement, Brazil"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "26 Credit Voucher Reversal",
+      "cells": [
+        "TCR 2",
+        "(CL) National Settlement, Chile"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "26 Credit Voucher Reversal",
+      "cells": [
+        "TCR 2",
+        "(CO) National Settlement, Colombia"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "26 Credit Voucher Reversal",
+      "cells": [
+        "TCR 2",
+        "(JP) National Settlement, Japan"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "26 Credit Voucher Reversal",
+      "cells": [
+        "TCR 2",
+        "(KR) National Settlement, South Korea"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "26 Credit Voucher Reversal",
+      "cells": [
+        "TCR 2",
+        "(MX) National Settlement, Mexico"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "26 Credit Voucher Reversal",
+      "cells": [
+        "TCR 2",
+        "(PY) National Settlement, Paraguay"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "26 Credit Voucher Reversal",
+      "cells": [
+        "TCR 2",
+        "(RU) National Settlement, Russia"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "26 Credit Voucher Reversal",
+      "cells": [
+        "TCR 2",
+        "(SE) National Settlement, Sweden"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "26 Credit Voucher Reversal",
+      "cells": [
+        "TCR 2",
+        "(TU) National Settlement, Turkey"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "26 Credit Voucher Reversal",
+      "cells": [
+        "TCR 2",
+        "(UY) National Settlement, Uruguay"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "26 Credit Voucher Reversal",
+      "cells": [
+        "TCR 3",
+        "(AI) Passenger Itinerary Data"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "26 Credit Voucher Reversal",
+      "cells": [
+        "TCR 3",
+        "(AN) Passenger Transport Ancillary Data"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "26 Credit Voucher Reversal",
+      "cells": [
+        "TCR 3",
+        "(CA) Car Rental"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "26 Credit Voucher Reversal",
+      "cells": [
+        "TCR 3",
+        "(CR) Business Application Data"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "26 Credit Voucher Reversal",
+      "cells": [
+        "TCR 3",
+        "(FL) Fleet Service"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "26 Credit Voucher Reversal",
+      "cells": [
+        "TCR 3",
+        "(FT) EMV Fleet Service"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "26 Credit Voucher Reversal",
+      "cells": [
+        "TCR 3",
+        "(LD) Loan Detail"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "26 Credit Voucher Reversal",
+      "cells": [
+        "TCR 3",
+        "(LG) Lodging"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "26 Credit Voucher Reversal",
+      "cells": [
+        "TCR 4",
+        "(DF) Supplemental Visa Claims Resolution Financial Data Record"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "26 Credit Voucher Reversal",
+      "cells": [
+        "TCR 4",
+        "(PD) Promotion Data"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "26 Credit Voucher Reversal",
+      "cells": [
+        "TCR 4",
+        "(SD) Supplemental Financial Data"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "26 Credit Voucher Reversal",
+      "cells": [
+        "TCR 4",
+        "(SP) Supplemental Financial and Promotion Data"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "26 Credit Voucher Reversal",
+      "cells": [
+        "TCR D",
+        "(FS) Fleet Supplementary Data"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "26 Credit Voucher Reversal",
+      "cells": [
+        "TCR D",
+        "(IP) Installment Payment"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "26 Credit Voucher Reversal",
+      "cells": [
+        "TCR D",
+        "(RP) Recurring Payment"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "26 Credit Voucher Reversal",
+      "cells": [
+        "TCR E",
+        "Supplemental Payment Data"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "26 Credit Voucher Reversal",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Brazil"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "26 Credit Voucher Reversal",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Colombia"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "26 Credit Voucher Reversal",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Japan"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "26 Credit Voucher Reversal",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Mexico"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "26 Credit Voucher Reversal",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Paraguay"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "26 Credit Voucher Reversal",
+      "cells": [
+        "TCR 2",
+        "National Settlement, South Korea"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "26 Credit Voucher Reversal",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Sweden"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "26 Credit Voucher Reversal",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Turkey"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "26 Credit Voucher Reversal",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Uruguay"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "26 Credit Voucher Reversal",
+      "cells": [
+        "TCR 3",
+        "Car Rental"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "26 Credit Voucher Reversal",
+      "cells": [
+        "TCR 3",
+        "Fleet Service"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "26 Credit Voucher Reversal",
+      "cells": [
+        "TCR 3",
+        "Lodging"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "26 Credit Voucher Reversal",
+      "cells": [
+        "TCR 3",
+        "Original Credit"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "26 Credit Voucher Reversal",
+      "cells": [
+        "TCR 3",
+        "Passenger Itinerary Data"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "26 Credit Voucher Reversal",
+      "cells": [
+        "TCR 4",
+        "Promotion Data"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "26 Credit Voucher Reversal",
+      "cells": [
+        "TCR 4",
+        "Supplemental Financial and Promotion Data"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "26 Credit Voucher Reversal",
+      "cells": [
+        "TCR 4",
+        "Supplemental Financial Data"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "27 Cash Disbursement Reversal",
+      "cells": [
+        "TCR 2",
+        "(AR) National Settlement, Argentina"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "27 Cash Disbursement Reversal",
+      "cells": [
+        "TCR 2",
+        "(BR) National Settlement, Brazil"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "27 Cash Disbursement Reversal",
+      "cells": [
+        "TCR 2",
+        "(CO) National Settlement, Colombia"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "27 Cash Disbursement Reversal",
+      "cells": [
+        "TCR 2",
+        "(JP) National Settlement, Japan"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "27 Cash Disbursement Reversal",
+      "cells": [
+        "TCR 2",
+        "(KR) National Settlement, South Korea"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "27 Cash Disbursement Reversal",
+      "cells": [
+        "TCR 2",
+        "(PY) National Settlement, Paraguay"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "27 Cash Disbursement Reversal",
+      "cells": [
+        "TCR 2",
+        "(RU) National Settlement, Russia"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "27 Cash Disbursement Reversal",
+      "cells": [
+        "TCR 2",
+        "(SE) National Settlement, Sweden"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "27 Cash Disbursement Reversal",
+      "cells": [
+        "TCR 2",
+        "(TU) National Settlement, Turkey"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "27 Cash Disbursement Reversal",
+      "cells": [
+        "TCR 2",
+        "(UY) National Settlement, Uruguay"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "27 Cash Disbursement Reversal",
+      "cells": [
+        "TCR 4",
+        "(DF) Supplemental Visa Claims Resolution Financial Data Record"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "27 Cash Disbursement Reversal",
+      "cells": [
+        "TCR 4",
+        "(SD) Supplemental Financial Data"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "27 Cash Disbursement Reversal",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Brazil"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "27 Cash Disbursement Reversal",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Colombia"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "27 Cash Disbursement Reversal",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Japan"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "27 Cash Disbursement Reversal",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Mexico"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "27 Cash Disbursement Reversal",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Paraguay"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "27 Cash Disbursement Reversal",
+      "cells": [
+        "TCR 2",
+        "National Settlement, South Korea"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "27 Cash Disbursement Reversal",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Sweden"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "27 Cash Disbursement Reversal",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Turkey"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "27 Cash Disbursement Reversal",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Uruguay"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "27 Cash Disbursement Reversal",
+      "cells": [
+        "TCR 3",
+        "Car Rental"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "27 Cash Disbursement Reversal",
+      "cells": [
+        "TCR 3",
+        "Fleet Service"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "27 Cash Disbursement Reversal",
+      "cells": [
+        "TCR 3",
+        "Industry-Specific Data"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "27 Cash Disbursement Reversal",
+      "cells": [
+        "TCR 3",
+        "Lodging"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "27 Cash Disbursement Reversal",
+      "cells": [
+        "TCR 3",
+        "Passenger Itinerary Data"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "27 Cash Disbursement Reversal",
+      "cells": [
+        "TCR 4",
+        "Promotion Data"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "27 Cash Disbursement Reversal",
+      "cells": [
+        "TCR 4",
+        "Supplemental Financial and Promotion Data"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "27 Cash Disbursement Reversal",
+      "cells": [
+        "TCR 4",
+        "Supplemental Financial Data"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "35 Sales Draft Dispute Reversal",
+      "cells": [
+        "TCR 2",
+        "(AR) National Settlement, Argentina"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "35 Sales Draft Dispute Reversal",
+      "cells": [
+        "TCR 2",
+        "(BO) National Settlement, Bolivia"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "35 Sales Draft Dispute Reversal",
+      "cells": [
+        "TCR 2",
+        "(BR) National Settlement, Brazil"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "35 Sales Draft Dispute Reversal",
+      "cells": [
+        "TCR 2",
+        "(CL) National Settlement, Chile"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "35 Sales Draft Dispute Reversal",
+      "cells": [
+        "TCR 2",
+        "(CO) National Settlement, Colombia"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "35 Sales Draft Dispute Reversal",
+      "cells": [
+        "TCR 2",
+        "(KR) National Settlement, South Korea"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "35 Sales Draft Dispute Reversal",
+      "cells": [
+        "TCR 2",
+        "(MX) National Settlement, Mexico"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "35 Sales Draft Dispute Reversal",
+      "cells": [
+        "TCR 2",
+        "(PY) National Settlement, Paraguay"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "35 Sales Draft Dispute Reversal",
+      "cells": [
+        "TCR 2",
+        "(RU) National Settlement, Russia"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "35 Sales Draft Dispute Reversal",
+      "cells": [
+        "TCR 2",
+        "(SE) National Settlement, Sweden"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "35 Sales Draft Dispute Reversal",
+      "cells": [
+        "TCR 2",
+        "(TU) National Settlement, Turkey"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "35 Sales Draft Dispute Reversal",
+      "cells": [
+        "TCR 2",
+        "(UY) National Settlement, Uruguay"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "35 Sales Draft Dispute Reversal",
+      "cells": [
+        "TCR 3",
+        "(AI) Passenger Itinerary Data"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "35 Sales Draft Dispute Reversal",
+      "cells": [
+        "TCR 3",
+        "(AN) Passenger Transport Ancillary Data"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "35 Sales Draft Dispute Reversal",
+      "cells": [
+        "TCR 3",
+        "(CA) Car Rental"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "35 Sales Draft Dispute Reversal",
+      "cells": [
+        "TCR 3",
+        "(CR) Business Application Data"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "35 Sales Draft Dispute Reversal",
+      "cells": [
+        "TCR 3",
+        "(FL) Fleet Service"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "35 Sales Draft Dispute Reversal",
+      "cells": [
+        "TCR 3",
+        "(FT) EMV Fleet Service"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "35 Sales Draft Dispute Reversal",
+      "cells": [
+        "TCR 3",
+        "(LD) Loan Detail"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "35 Sales Draft Dispute Reversal",
+      "cells": [
+        "TCR 3",
+        "(LG) Lodging"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "35 Sales Draft Dispute Reversal",
+      "cells": [
+        "TCR 4",
+        "(DF) Supplemental Visa Claims Resolution Financial Data Record"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "35 Sales Draft Dispute Reversal",
+      "cells": [
+        "TCR 4",
+        "(PD) Promotion Data"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "35 Sales Draft Dispute Reversal",
+      "cells": [
+        "TCR 4",
+        "(SD) Supplemental Financial Data"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "35 Sales Draft Dispute Reversal",
+      "cells": [
+        "TCR 4",
+        "(SP) Supplemental Financial and Promotion Data"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "35 Sales Draft Dispute Reversal",
+      "cells": [
+        "TCR E",
+        "Supplemental Payment Data"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "35 Sales Draft Dispute Reversal",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Brazil"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "35 Sales Draft Dispute Reversal",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Colombia"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "35 Sales Draft Dispute Reversal",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Japan"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "35 Sales Draft Dispute Reversal",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Mexico"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "35 Sales Draft Dispute Reversal",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Paraguay"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "35 Sales Draft Dispute Reversal",
+      "cells": [
+        "TCR 2",
+        "National Settlement, South Korea"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "35 Sales Draft Dispute Reversal",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Sweden"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "35 Sales Draft Dispute Reversal",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Turkey"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "35 Sales Draft Dispute Reversal",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Uruguay"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "35 Sales Draft Dispute Reversal",
+      "cells": [
+        "TCR 3",
+        "Car Rental"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "35 Sales Draft Dispute Reversal",
+      "cells": [
+        "TCR 3",
+        "Fleet Service"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "35 Sales Draft Dispute Reversal",
+      "cells": [
+        "TCR 3",
+        "Lodging"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "35 Sales Draft Dispute Reversal",
+      "cells": [
+        "TCR 3",
+        "Passenger Itinerary Data"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "35 Sales Draft Dispute Reversal",
+      "cells": [
+        "TCR 4",
+        "Promotion Data"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "35 Sales Draft Dispute Reversal",
+      "cells": [
+        "TCR 4",
+        "Supplemental Financial and Promotion Data"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "35 Sales Draft Dispute Reversal",
+      "cells": [
+        "TCR 4",
+        "Supplemental Financial Data"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "36 Credit Voucher Dispute Reversal",
+      "cells": [
+        "TCR 2",
+        "(AR) National Settlement, Argentina"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "36 Credit Voucher Dispute Reversal",
+      "cells": [
+        "TCR 2",
+        "(BO) National Settlement, Bolivia"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "36 Credit Voucher Dispute Reversal",
+      "cells": [
+        "TCR 2",
+        "(BR) National Settlement, Brazil"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "36 Credit Voucher Dispute Reversal",
+      "cells": [
+        "TCR 2",
+        "(CL) National Settlement, Chile"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "36 Credit Voucher Dispute Reversal",
+      "cells": [
+        "TCR 2",
+        "(CO) National Settlement, Colombia"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "36 Credit Voucher Dispute Reversal",
+      "cells": [
+        "TCR 2",
+        "(KR) National Settlement, South Korea"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "36 Credit Voucher Dispute Reversal",
+      "cells": [
+        "TCR 2",
+        "(MX) National Settlement, Mexico"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "36 Credit Voucher Dispute Reversal",
+      "cells": [
+        "TCR 2",
+        "(PY) National Settlement, Paraguay"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "36 Credit Voucher Dispute Reversal",
+      "cells": [
+        "TCR 2",
+        "(RU) National Settlement, Russia"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "36 Credit Voucher Dispute Reversal",
+      "cells": [
+        "TCR 2",
+        "(SE) National Settlement, Sweden"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "36 Credit Voucher Dispute Reversal",
+      "cells": [
+        "TCR 2",
+        "(TU) National Settlement, Turkey"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "36 Credit Voucher Dispute Reversal",
+      "cells": [
+        "TCR 2",
+        "(UY) National Settlement, Uruguay"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "36 Credit Voucher Dispute Reversal",
+      "cells": [
+        "TCR 3",
+        "(AI) Passenger Itinerary Data"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "36 Credit Voucher Dispute Reversal",
+      "cells": [
+        "TCR 3",
+        "(AN) Passenger Transport Ancillary Data"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "36 Credit Voucher Dispute Reversal",
+      "cells": [
+        "TCR 3",
+        "(CA) Car Rental"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "36 Credit Voucher Dispute Reversal",
+      "cells": [
+        "TCR 3",
+        "(CR) Business Application Data"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "36 Credit Voucher Dispute Reversal",
+      "cells": [
+        "TCR 3",
+        "(FL) Fleet Service"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "36 Credit Voucher Dispute Reversal",
+      "cells": [
+        "TCR 3",
+        "(FT) EMV Fleet Service"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "36 Credit Voucher Dispute Reversal",
+      "cells": [
+        "TCR 3",
+        "(LD) Loan Detail"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "36 Credit Voucher Dispute Reversal",
+      "cells": [
+        "TCR 3",
+        "(LG) Lodging"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "36 Credit Voucher Dispute Reversal",
+      "cells": [
+        "TCR 4",
+        "(DF) Supplemental Visa Claims Resolution Financial Data Record"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "36 Credit Voucher Dispute Reversal",
+      "cells": [
+        "TCR 4",
+        "(PD) Promotion Data"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "36 Credit Voucher Dispute Reversal",
+      "cells": [
+        "TCR 4",
+        "(SD) Supplemental Financial Data"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "36 Credit Voucher Dispute Reversal",
+      "cells": [
+        "TCR 4",
+        "(SP) Supplemental Financial and Promotion Data"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "36 Credit Voucher Dispute Reversal",
+      "cells": [
+        "TCR E",
+        "Supplemental Payment Data"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "36 Credit Voucher Dispute Reversal",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Brazil"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "36 Credit Voucher Dispute Reversal",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Colombia"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "36 Credit Voucher Dispute Reversal",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Japan"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "36 Credit Voucher Dispute Reversal",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Mexico"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "36 Credit Voucher Dispute Reversal",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Paraguay"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "36 Credit Voucher Dispute Reversal",
+      "cells": [
+        "TCR 2",
+        "National Settlement, South Korea"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "36 Credit Voucher Dispute Reversal",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Sweden"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "36 Credit Voucher Dispute Reversal",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Turkey"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "36 Credit Voucher Dispute Reversal",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Uruguay"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "36 Credit Voucher Dispute Reversal",
+      "cells": [
+        "TCR 3",
+        "Car Rental"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "36 Credit Voucher Dispute Reversal",
+      "cells": [
+        "TCR 3",
+        "Fleet Service"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "36 Credit Voucher Dispute Reversal",
+      "cells": [
+        "TCR 3",
+        "Lodging"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "36 Credit Voucher Dispute Reversal",
+      "cells": [
+        "TCR 3",
+        "Original Credit"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "36 Credit Voucher Dispute Reversal",
+      "cells": [
+        "TCR 3",
+        "Passenger Itinerary Data"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "36 Credit Voucher Dispute Reversal",
+      "cells": [
+        "TCR 4",
+        "Promotion Data"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "36 Credit Voucher Dispute Reversal",
+      "cells": [
+        "TCR 4",
+        "Supplemental Financial and Promotion Data"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "36 Credit Voucher Dispute Reversal",
+      "cells": [
+        "TCR 4",
+        "Supplemental Financial Data"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "37 Cash Disbursement Dispute Reversal",
+      "cells": [
+        "TCR 2",
+        "(AR) National Settlement, Argentina"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "37 Cash Disbursement Dispute Reversal",
+      "cells": [
+        "TCR 2",
+        "(BR) National Settlement, Brazil"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "37 Cash Disbursement Dispute Reversal",
+      "cells": [
+        "TCR 2",
+        "(CO) National Settlement, Colombia"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "37 Cash Disbursement Dispute Reversal",
+      "cells": [
+        "TCR 2",
+        "(KR) National Settlement, South Korea"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "37 Cash Disbursement Dispute Reversal",
+      "cells": [
+        "TCR 2",
+        "(PY) National Settlement, Paraguay"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "37 Cash Disbursement Dispute Reversal",
+      "cells": [
+        "TCR 2",
+        "(RU) National Settlement, Russia"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "37 Cash Disbursement Dispute Reversal",
+      "cells": [
+        "TCR 2",
+        "(SE) National Settlement, Sweden"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "37 Cash Disbursement Dispute Reversal",
+      "cells": [
+        "TCR 2",
+        "(TU) National Settlement, Turkey"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "37 Cash Disbursement Dispute Reversal",
+      "cells": [
+        "TCR 2",
+        "(UY) National Settlement, Uruguay"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "37 Cash Disbursement Dispute Reversal",
+      "cells": [
+        "TCR 4",
+        "(DF) Supplemental Visa Claims Resolution Financial Data Record"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "37 Cash Disbursement Dispute Reversal",
+      "cells": [
+        "TCR 4",
+        "(SD) Supplemental Financial Data"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "37 Cash Disbursement Dispute Reversal",
+      "cells": [
+        "TCR 0"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "37 Cash Disbursement Dispute Reversal",
+      "cells": [
+        "TCR 1",
+        "VCRFS Nonfulfillment"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "37 Cash Disbursement Dispute Reversal",
+      "cells": [
+        "TCR 1",
+        "VCRFS/VDAS Advice"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "37 Cash Disbursement Dispute Reversal",
+      "cells": [
+        "TCR 1–7",
+        "VCRFS Nonfulfillment Message"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "37 Cash Disbursement Dispute Reversal",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Brazil"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "37 Cash Disbursement Dispute Reversal",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Colombia"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "37 Cash Disbursement Dispute Reversal",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Japan"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "37 Cash Disbursement Dispute Reversal",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Mexico"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "37 Cash Disbursement Dispute Reversal",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Paraguay"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "37 Cash Disbursement Dispute Reversal",
+      "cells": [
+        "TCR 2",
+        "National Settlement, South Korea"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "37 Cash Disbursement Dispute Reversal",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Sweden"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "37 Cash Disbursement Dispute Reversal",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Turkey"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "37 Cash Disbursement Dispute Reversal",
+      "cells": [
+        "TCR 2",
+        "National Settlement, Uruguay"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "37 Cash Disbursement Dispute Reversal",
+      "cells": [
+        "TCR 2",
+        "VCRFS Advice"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "37 Cash Disbursement Dispute Reversal",
+      "cells": [
+        "TCR 3",
+        "Car Rental"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "37 Cash Disbursement Dispute Reversal",
+      "cells": [
+        "TCR 3",
+        "Fleet Service"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "37 Cash Disbursement Dispute Reversal",
+      "cells": [
+        "TCR 3",
+        "Industry-Specific Data"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "37 Cash Disbursement Dispute Reversal",
+      "cells": [
+        "TCR 3",
+        "Lodging"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "37 Cash Disbursement Dispute Reversal",
+      "cells": [
+        "TCR 3",
+        "Passenger Itinerary Data"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "37 Cash Disbursement Dispute Reversal",
+      "cells": [
+        "TCR 4",
+        "Promotion Data"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "37 Cash Disbursement Dispute Reversal",
+      "cells": [
+        "TCR 4",
+        "Supplemental Financial and Promotion Data"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "37 Cash Disbursement Dispute Reversal",
+      "cells": [
+        "TCR 4",
+        "Supplemental Financial Data"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "54 Table Update Record",
+      "cells": [
+        "TCR 0",
+        "Edit Package Release 4.0"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "54 Table Update Record",
+      "cells": [
+        "TCR 0",
+        "Visa Clearing Exchange"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "54 Table Update Record",
+      "cells": [
+        "TCR 0"
+      ]
+    }
+  ]
+}

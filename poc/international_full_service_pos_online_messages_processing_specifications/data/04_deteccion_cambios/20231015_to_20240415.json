@@ -1,0 +1,1641 @@
+{
+  "manual": "international_full_service_pos_online_messages_processing_specifications",
+  "edition_a": "20231015",
+  "edition_b": "20240415",
+  "summary": {
+    "duplicate_path_warning": 1,
+    "paragraph_added": 34,
+    "paragraph_removed": 23,
+    "duplicate_paragraph_warning": 46,
+    "paragraph_reflowed": 1,
+    "paragraph_content_changed": 6
+  },
+  "changes": [
+    {
+      "change_type": "duplicate_path_warning",
+      "duplicate_paths_a": [
+        [
+          "v.i.p. services",
+          "online request services",
+          "mobile location confirmation service"
+        ]
+      ],
+      "duplicate_paths_b": [
+        [
+          "v.i.p. services",
+          "online request services",
+          "mobile location confirmation service"
+        ]
+      ]
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "VisaNet Systems",
+        "Full Service Processing"
+      ],
+      "text": "See Full Service ATM Online Messages Processing Specifications and Full Service Interlink Online Messages Technical Specifications."
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "VisaNet Systems",
+        "Full Service Processing"
+      ],
+      "text": "See Full Service ATM Online Messages Processing Specifications and SMS Interlink Technical Specifications."
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "V.I.P. Services",
+        "Online Request Services",
+        "Verification-Only Messages"
+      ],
+      "text": "Field 25 25—Point-of-Service Condition Code contains 51 (zero amount account verification). Field 123—Verification Data is present, or Field 126.10—CVV2 Authorization Request Data is present. These fields maybe present but not required."
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "V.I.P. Services",
+        "Online Request Services",
+        "Verification-Only Messages"
+      ],
+      "text": "Additionally, Field 4 can be zero in 0302 file update requests or 9620 fraud advice requests."
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "V.I.P. Services",
+        "Online Request Services",
+        "Verification-Only Messages"
+      ],
+      "text": "Field 3—Pr 3—Processing Code, positions 1–2, contains 39 (eligibility message). Field 25 25—Point-of-Service Condition Code contains 51 (zero amount account verification). Field 52—PIN Data and Field 53—Security-Related Control Information are present, or Field 123—Verification Data is present, or Field 126.10—CVV2 Authorization Request Data is present."
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "V.I.P. Services",
+        "Online Request Services",
+        "Verification-Only Messages"
+      ],
+      "text": "Also, field 4 can be zero in 0302 file update requests or 9620 fraud advice requests. If the request meets all the verification-only field requirements, and field 4 contains an amount other than zero, STIP ignores the amount and, if the request is successful, responds with a value of 85 (no reason to decline) in field 39."
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "V.I.P. Services",
+        "Online Request Services",
+        "MIT Categories"
+      ],
+      "duplicate_texts_a": [
+        "any merchant category.",
+        "description",
+        "maximum",
+        "original transaction and mit relevant merchant",
+        "rules.",
+        "segments",
+        "the timeframe is governed by a contract between the cardholder and the merchant",
+        "timeframe between",
+        "timeframe between original transaction and mit relevant merchant"
+      ],
+      "duplicate_texts_b": [
+        "and mit",
+        "any merchant category.",
+        "description",
+        "maximum",
+        "original transaction",
+        "original transaction and mit relevant merchant",
+        "rules.",
+        "segments",
+        "the timeframe is governed by a contract between the cardholder and the merchant",
+        "timeframe between",
+        "timeframe between original transaction and mit relevant merchant"
+      ]
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "V.I.P. Services",
+        "Online Request Services",
+        "MIT Categories"
+      ],
+      "text": "period of the original estimated authorization. For more details, please refer to Visa"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "V.I.P. Services",
+        "Online Request Services",
+        "MIT Categories"
+      ],
+      "text": "Original Transaction"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "V.I.P. Services",
+        "Online Request Services",
+        "MIT Categories"
+      ],
+      "text": "Rules (Transaction and Processing Timeframes)."
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "V.I.P. Services",
+        "Online Request Services",
+        "MIT Categories"
+      ],
+      "text": "and MIT"
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "V.I.P. Services",
+        "Online Request Services",
+        "MIT Categories"
+      ],
+      "text": "period of the original estimated/initial authorization. For more details, see Visa Rules."
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "V.I.P. Services",
+        "Online Request Services",
+        "MIT Categories"
+      ],
+      "text": "Original Transaction and MIT Relevant Merchant"
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "V.I.P. Services",
+        "Online Request Services",
+        "MIT Categories"
+      ],
+      "text": "Incremental transactions are limited to certain merchant categories. For a complete"
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "V.I.P. Services",
+        "Online Request Services",
+        "MIT Categories"
+      ],
+      "text": "Segments"
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "V.I.P. Services",
+        "Online Request Services",
+        "MIT Categories"
+      ],
+      "text": "list of eligible MCCs, see Visa Rules."
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "V.I.P. Services",
+        "Online Request Services",
+        "Visa Cashback Processing: VisaNet Cashback Service"
+      ],
+      "duplicate_texts_a": [
+        "visa"
+      ],
+      "duplicate_texts_b": [
+        "defined by regions, countries",
+        "visa, visa electron"
+      ]
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "V.I.P. Services",
+        "Online Request Services",
+        "Visa Cashback Processing: VisaNet Cashback Service"
+      ],
+      "text": "Cards"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "V.I.P. Services",
+        "Online Request Services",
+        "Visa Cashback Processing: VisaNet Cashback Service"
+      ],
+      "text": "Maximum Amounts"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "V.I.P. Services",
+        "Online Request Services",
+        "Visa Cashback Processing: VisaNet Cashback Service"
+      ],
+      "text": "VisaNet Cashback Service Asia-Pacific, CEMEA,"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "V.I.P. Services",
+        "Online Request Services",
+        "Visa Cashback Processing: VisaNet Cashback Service"
+      ],
+      "text": "Visa, Visa Electron"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "V.I.P. Services",
+        "Online Request Services",
+        "Visa Cashback Processing: VisaNet Cashback Service"
+      ],
+      "text": "Europe, Canada, and LAC"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "V.I.P. Services",
+        "Online Request Services",
+        "Visa Cashback Processing: VisaNet Cashback Service"
+      ],
+      "text": "U.S. Cashback Service"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "V.I.P. Services",
+        "Online Request Services",
+        "Visa Cashback Processing: VisaNet Cashback Service"
+      ],
+      "text": "U.S. only"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "V.I.P. Services",
+        "Online Request Services",
+        "Visa Cashback Processing: VisaNet Cashback Service"
+      ],
+      "text": "Visa, Visa Electron, and"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "V.I.P. Services",
+        "Online Request Services",
+        "Visa Cashback Processing: VisaNet Cashback Service"
+      ],
+      "text": "Defined by regions, countries"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "V.I.P. Services",
+        "Online Request Services",
+        "Visa Cashback Processing: VisaNet Cashback Service"
+      ],
+      "text": "Interlink"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "V.I.P. Services",
+        "Online Request Services",
+        "Visa Cashback Processing: VisaNet Cashback Service"
+      ],
+      "text": "Visa, Visa Electron"
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "V.I.P. Services",
+        "Online Request Services",
+        "Visa Cashback Processing: VisaNet Cashback Service"
+      ],
+      "text": "Cards Maximum Amounts"
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "V.I.P. Services",
+        "Online Request Services",
+        "Visa Cashback Processing: VisaNet Cashback Service"
+      ],
+      "text": "VisaNet Cashback Service Asia-Pacific, CEMEA, Visa VE (in"
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "V.I.P. Services",
+        "Online Request Services",
+        "Visa Cashback Processing: VisaNet Cashback Service"
+      ],
+      "text": "Visa"
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "V.I.P. Services",
+        "Online Request Services",
+        "Visa Cashback Processing: VisaNet Cashback Service"
+      ],
+      "text": "progress), Visa Canada (CAN)"
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "V.I.P. Services",
+        "Online Request Services",
+        "Visa Cashback Processing: VisaNet Cashback Service"
+      ],
+      "text": "Visa"
+    },
+    {
+      "change_type": "paragraph_reflowed",
+      "path": [
+        "V.I.P. Services",
+        "Online Request Services",
+        "Visa Smart Debit/Smart Credit (VSDC) Service"
+      ],
+      "text_a": [
+        "Visa Smart Debit/Smart Credit (VSDC) is a chip-based Visa card product supporting offline and online transactions, including Plus ATM transactions. VSDC cards work in conjunction with special chip-read terminals to approve or to decline transactions. VSDC offline transactions occur only between the cardholder's chip card and the terminal and do not go through VisaNet. VisaNet processes transactions online when processing triggers predetermined offline risk management procedures, or because of random selection parameters established by the issuer. For purchase transactions, the issuer may determine whether a cardholder signature or a PIN is required for cardholder verification. ATM transactions require a PIN. VSDC cards rely on cryptograms to ensure their security and the integrity of their offline and online transactions. Issuers selecting the Full Data implementation option verify the cryptogram submitted by Full Data acquirers in the 0100 authorization request. The card terminal authenticates the issuer's cryptogram in the 0110 authorization response to ensure the issuer that created the card is the issuer that approved the transaction. If V.I.P. performs processing for the Card Authentication feature on behalf of the issuer, V.I.P. validates the Authorization Request Cryptogram (ARQC) and provides the Authorization Response Cryptogram (ARPC) in the response. If the issuer participates in the Issuer Authentication feature, the issuer or V.I.P. generates a cryptogram (Authorization Response Cryptogram) sent to the card in the response so the card can validate the authorization response came from the correct issuer. Issuer participation is optional in the VSDC Card Authentication feature and in the Issuer Authentication feature.",
+        "V.I.P. identifies a VSDC-based authorization request by the value in Field 22—Point-of-Service Entry Mode Code indicating a chip card was read at a VSDC terminal (05 or 95) and the service restriction code in the magnetic stripe is 2 (international card, alternate technology) or is"
+      ],
+      "text_b": [
+        "Visa Smart Debit/Smart Credit (VSDC) is a chip-based Visa card product supporting offline and online transactions, including Plus ATM transactions. VSDC cards work in conjunction with special chip-read terminals to approve or to decline transactions. VSDC offline transactions occur only between the cardholder's chip card and the terminal and do not go through VisaNet. VisaNet processes transactions online when processing triggers predetermined offline risk management procedures, or because of random selection parameters established by the issuer. For purchase transactions, the issuer may determine whether a cardholder signature or a PIN is required for cardholder verification. ATM transactions require a PIN. VSDC cards rely on cryptograms to ensure their security and the integrity of their offline and online transactions. Issuers selecting the Full Data implementation option verify the cryptogram submitted by Full Data acquirers in the 0100 authorization request. The card terminal authenticates the issuer's cryptogram in the 0110 authorization response to ensure the issuer that created the card is the issuer that approved the transaction. If V.I.P. performs processing for the Card Authentication feature on behalf of the issuer, V.I.P. validates the Authorization Request Cryptogram (ARQC) and provides the Authorization Response Cryptogram (ARPC) in the response. If the issuer participates in the Issuer Authentication feature, the issuer or V.I.P. generates a cryptogram (Authorization Response Cryptogram) sent to the card in the response so the card can validate the authorization response came from the correct issuer.",
+        "Issuer participation is optional in the VSDC Card Authentication feature and in the Issuer Authentication feature. V.I.P. identifies a VSDC-based authorization request by the value in Field 22—Point-of-Service Entry Mode Code indicating a chip card was read at a VSDC terminal (05 or 95) and the service restriction code in the magnetic stripe is 2 (international card, alternate technology) or is"
+      ]
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "Transaction Types"
+      ],
+      "duplicate_texts_a": [
+        "(can be submitted using visa resolve online [vrol])",
+        "0100",
+        "0200",
+        "0220",
+        "0400/0420",
+        "0422",
+        "0600",
+        "full service transaction types",
+        "interlink",
+        "message type",
+        "network management transactions",
+        "online file maintenance",
+        "transaction type",
+        "visa",
+        "x"
+      ],
+      "duplicate_texts_b": [
+        "(can be submitted using visa resolve online [vrol])",
+        "0100",
+        "0200",
+        "0220",
+        "0400/0420",
+        "0422",
+        "0600",
+        "full service transaction types",
+        "interlink",
+        "message type",
+        "network management transactions",
+        "online file maintenance",
+        "transaction type",
+        "visa",
+        "x"
+      ]
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "Transaction Types"
+      ],
+      "text": "0100"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "Transaction Types"
+      ],
+      "text": "X"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "Transaction Types"
+      ],
+      "text": "Estimated Authorization"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "Transaction Types"
+      ],
+      "text": "0100"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "Transaction Types"
+      ],
+      "text": "X"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "Transaction Types"
+      ],
+      "text": "Incremental Authorization"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "Transaction Types"
+      ],
+      "text": "Full Service Transaction Types"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "Transaction Types"
+      ],
+      "text": "Transaction Type"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "Transaction Types"
+      ],
+      "text": "Message Type"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "Transaction Types"
+      ],
+      "text": "Visa"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "Transaction Types"
+      ],
+      "text": "Interlink"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "Transaction Types"
+      ],
+      "text": "File Maintenance Transactions"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "Transaction Types"
+      ],
+      "text": "Online File Maintenance"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "Transaction Types"
+      ],
+      "text": "0120"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "Transaction Types"
+      ],
+      "text": "X"
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "Transaction Types"
+      ],
+      "text": "Full Service Transaction Types"
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "Transaction Types"
+      ],
+      "text": "Transaction Type"
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "Transaction Types"
+      ],
+      "text": "Message Type"
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "Transaction Types"
+      ],
+      "text": "Visa"
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "Transaction Types"
+      ],
+      "text": "Interlink"
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "Transaction Types"
+      ],
+      "text": "File Maintenance Transactions"
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "Transaction Types"
+      ],
+      "text": "Online File Maintenance"
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "Transaction Types"
+      ],
+      "text": "0120"
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "Transaction Types"
+      ],
+      "text": "X"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "Transaction Types",
+        "Cardholder Transactions"
+      ],
+      "text": "Account Funding Transaction – This transaction is used to fund accounts such as brokerage accounts and online stored value cards, from a Visa debit or credit card. Original Credit Transaction – This transaction enables funds to be credited to Visa account numbers for a purpose other than refunding a Visa purchase. Deferred Clearing Purchase Transaction – This transaction is used by such merchants as hotels and car rental agencies when the full purchase amount is not known at the time of transaction authorization. This transaction, used only by Visa POS acquirers, involves an authorization request followed by a deferred clearing advice message. Merchandise Return – A merchandise return transaction enables merchants to credit the account of a Visa POS cardholder who returns merchandise. Balance Inquiry – Balance inquiry transactions enable cardholders to check their balances at stand-alone merchant terminals and at the point of sale. If the issuer system cannot be reached, V.I.P. stand-in processing responds that issuer is not available. If the issuer is available and supports balance inquiries, VisaNet returns the account balance to the acquirer for display or for printing in the currency of the merchant or of the ATM. Issuers can optionally provide balance information in Visa POS purchase transaction responses. However, for an 0200 POS eFunds transactions (network 0029), the acquirer receives balance information in Field 54 – Additional Amounts regardless of the issuer's selected response options. (This processing does not apply to stand-alone balance inquiries.) ATM acquirers in the U.S. region must support balance inquiries; support of this transaction is optional for all other participants. PINs are required for full service 0200 POS balance inquiries. PINs may not be required if a chip card is being used in a full service 0100 POS balance inquiries. Address Verification Only (Visa POS) – This transaction is used by merchants like direct marketing firms and airlines to verify a cardholder's address before submitting a purchase transaction. Incremental Authorizations – Merchants use incremental authorization transactions when final purchase amounts are unknown. Incremental authorizations enable merchants to obtain approval on additional amount, after the merchant uses an estimated amount to initiate and authorize the original transaction. Merchants can only do an incremental authorization in conjunction with an estimated authorization. When merchants determine final amounts, they submit supplemental, incremental authorization, or authorization reversal for cancelled purchases. Endpoints must not decline incremental authorizations by treating them as duplicate. In incremental authorization requests and their reversals, field 11 and field 37 values matches corresponding values in original authorization requests and the Transaction identifier (TID) value matches corresponding values in original authorization responses. Acquirers perform clearing using a single clearing transaction for the final amount, the issuer can match the incremental authorizations to the original estimated amount. Participating CPS POS Acquirers must include the TID from the initial authorization in any subsequent incremental authorization request or reversal."
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "Transaction Types",
+        "Cardholder Transactions"
+      ],
+      "text": "Account Funding Transaction – This transaction is used to fund accounts such as brokerage accounts and online stored value cards, from a Visa debit or credit card. Original Credit Transaction – This transaction enables funds to be credited to Visa account numbers for a purpose other than refunding a Visa purchase. Deferred Clearing Purchase Transaction – This transaction is used by such merchants as hotels and car rental agencies when the full purchase amount is not known at the time of transaction authorization. This transaction, used only by Visa POS acquirers, involves an authorization request followed by a deferred clearing advice message. Merchandise Return – A merchandise return transaction enables merchants to credit the account of a Visa POS cardholder who returns merchandise. Balance Inquiry – Balance inquiry transactions enable cardholders to check their balances at stand-alone merchant terminals and at the point of sale. If the issuer system cannot be reached, V.I.P. stand-in processing responds that issuer is not available. If the issuer is available and supports balance inquiries, VisaNet returns the account balance to the acquirer for display or for printing in the currency of the merchant or of the ATM. Issuers can optionally provide balance information in Visa POS purchase transaction responses. However, for an 0200 POS eFunds transactions (network 0029), the acquirer receives balance information in Field 54 – Additional Amounts regardless of the issuer's selected response options. (This processing does not apply to stand-alone balance inquiries.) ATM acquirers in the U.S. region must support balance inquiries; support of this transaction is optional for all other participants. PINs are required for full service 0200 POS balance inquiries. PINs may not be required if a chip card is being used in a full service 0100 POS balance inquiries. Address Verification Only (Visa POS) – This transaction is used by merchants like direct marketing firms and airlines to verify a cardholder's address before submitting a purchase transaction. Incremental Authorizations – Certain merchants, such as hotels, car rental companies, and airlines, initiate incremental authorization transactions when the final amount of the purchase is unknown. The incremental authorization contains an estimated amount that may vary significantly from the final transaction amount. When the merchant determines the final amount, it submits a supplemental, or incremental, authorization or a single authorization reversal if the purchase is cancelled. Endpoints must not decline incremental authorizations by treating them as duplicate transactions. In incremental authorization requests and their reversals, the field 11 and field 37 values match the corresponding values in the original authorization request message, and the field 62.2 value matches the corresponding value in the original authorization response message."
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "Transaction Types",
+        "Portfolio File",
+        "File Content"
+      ],
+      "duplicate_texts_a": [
+        "r1"
+      ],
+      "duplicate_texts_b": [
+        "r1"
+      ]
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "Transaction Types",
+        "Administrative Transactions"
+      ],
+      "duplicate_texts_a": [
+        "pos and visa electron."
+      ],
+      "duplicate_texts_b": [
+        "pos and visa electron."
+      ]
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "Transaction Sets",
+        "Visa POS Transaction Sets"
+      ],
+      "duplicate_texts_a": [
+        "adjustment",
+        "allowable",
+        "allowable transactions",
+        "dispute",
+        "dispute response",
+        "financial",
+        "request",
+        "reversal",
+        "transactions",
+        "x"
+      ],
+      "duplicate_texts_b": [
+        "adjustment",
+        "allowable",
+        "allowable transactions",
+        "dispute",
+        "dispute response",
+        "financial",
+        "request",
+        "reversal",
+        "transactions",
+        "x"
+      ]
+    },
+    {
+      "change_type": "paragraph_content_changed",
+      "path": [
+        "Message Integrity",
+        "Message Matching Table – Key Data Fields",
+        "Transaction Identifier (TID)"
+      ],
+      "old": "assigns a TID to all transactions. V.I.P. assigns a TID to all 0100 authorizations, 0200 full financial requests, 0120 and 0220 STIP advices. V.I.P. returns the TID to acquirers in 0110, 0130, 0210, and 0230 responses. Field 62.2 is mandatory in 0400 reversals (including partial reversals) and 0420 reversal advices. V.I.P. returns this field in 0410 and 0430 responses even if the issuer does not include it in the response. This field is also present in 0220 dispute response financials, 0282 dispute response financial status advices, 0422 dispute financials, 0432 dispute financial responses, and in dispute financial reversals and their responses. V.I.P. does not send field 62.2 to gateway issuers. V.I.P. returns this field to acquirers in gateway response messages.",
+      "new": "assigns a TID to all transactions. V.I.P. assigns a TID to all 0100 authorizations, 0200 full financial requests, 0120 and 0220 STIP advices. V.I.P. returns the TID to acquirers in 0110, 0130, 0210, and 0230 responses. Field 62.2 is mandatory in 0400 reversals (including partial reversals of 0100 authorization requests) and 0420 reversal advices. V.I.P. returns this field in 0410 and 0430 responses even if the issuer does not include it in the response. This field is also present in 0220 dispute response financials, 0282 dispute response financial status advices, 0422 dispute financials, 0432 dispute financial responses, and in dispute financial reversals and their responses. V.I.P. does not send field 62.2 to gateway issuers. V.I.P. returns this field to acquirers in gateway response messages.",
+      "similarity_ratio": 0.98,
+      "section_new_paragraphs": [
+        "Field 62.2 – Transaction",
+        "Identifier is a key field for message identification and matching. V.I.P.",
+        "assigns a TID to all transactions. V.I.P. assigns a TID to all 0100 authorizations, 0200 full financial requests, 0120 and 0220 STIP advices. V.I.P. returns the TID to acquirers in 0110, 0130, 0210, and 0230 responses. Field 62.2 is mandatory in 0400 reversals (including partial reversals of 0100 authorization requests) and 0420 reversal advices. V.I.P. returns this field in 0410 and 0430 responses even if the issuer does not include it in the response. This field is also present in 0220 dispute response financials, 0282 dispute response financial status advices, 0422 dispute financials, 0432 dispute financial responses, and in dispute financial reversals and their responses. V.I.P. does not send field 62.2 to gateway issuers. V.I.P. returns this field to acquirers in gateway response messages."
+      ]
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "Acquirer System Requirements",
+        "Online Transaction Processing"
+      ],
+      "duplicate_texts_a": [
+        "x"
+      ],
+      "duplicate_texts_b": [
+        "x"
+      ]
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "Acquirer Options"
+      ],
+      "duplicate_texts_a": [
+        "acquirer options",
+        "options",
+        "references",
+        "see the chapter on client to visa connection options.",
+        "v.i.p. system services",
+        "x"
+      ],
+      "duplicate_texts_b": [
+        "acquirer options",
+        "options",
+        "references",
+        "see the chapter on client to visa connection options.",
+        "v.i.p. system services",
+        "x"
+      ]
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "Issuer System Requirements",
+        "Transaction Processing"
+      ],
+      "duplicate_texts_a": [
+        "can be submitted by using visa resolve online (vrol)",
+        "online file maintenance",
+        "required visa issuer transactions",
+        "responses to each of these transactions",
+        "transaction type",
+        "visa",
+        "x"
+      ],
+      "duplicate_texts_b": [
+        "can be submitted by using visa resolve online (vrol)",
+        "online file maintenance",
+        "required visa issuer transactions",
+        "responses to each of these transactions",
+        "transaction type",
+        "visa",
+        "x"
+      ]
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "Issuer Options"
+      ],
+      "duplicate_texts_a": [
+        "issuer options",
+        "options",
+        "references",
+        "see the chapter on client to visa connection options.",
+        "see the chapter on settlement and reconcilliation.",
+        "see the chapter on stip.",
+        "see the chapter on stip. v.i.p. system services",
+        "service",
+        "v.i.p. system services"
+      ],
+      "duplicate_texts_b": [
+        "issuer options",
+        "options",
+        "references",
+        "see the chapter on client to visa connection options.",
+        "see the chapter on settlement and reconcilliation.",
+        "see the chapter on stip.",
+        "see the chapter on stip. v.i.p. system services",
+        "service",
+        "v.i.p. system services"
+      ]
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "Standard Processing",
+        "Cardholder Transactions",
+        "Purchase and Cash Disbursement"
+      ],
+      "duplicate_texts_a": [
+        "0200 request",
+        "0210 response",
+        "purchase",
+        "with",
+        "x"
+      ],
+      "duplicate_texts_b": [
+        "0200 request",
+        "0210 response",
+        "purchase",
+        "with",
+        "x"
+      ]
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "Standard Processing",
+        "Cardholder Transactions",
+        "Online Deferred Clearing"
+      ],
+      "duplicate_texts_a": [
+        "0100 request",
+        "0110 response",
+        "0220 advice",
+        "0230 advice",
+        "response"
+      ],
+      "duplicate_texts_b": [
+        "0100 request",
+        "0110 response",
+        "0220 advice",
+        "0230 advice",
+        "response"
+      ]
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "Standard Processing",
+        "Cardholder Transactions",
+        "Merchandise Return and Merchandise Credit"
+      ],
+      "duplicate_texts_a": [
+        "0200 request",
+        "0210 response",
+        "day x – merchandise return"
+      ],
+      "duplicate_texts_b": [
+        "0200 request",
+        "0210 response",
+        "day x – merchandise return"
+      ]
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "Standard Processing",
+        "Cardholder Transactions",
+        "Balance Inquiry"
+      ],
+      "duplicate_texts_a": [
+        "0200 request",
+        "0210 response"
+      ],
+      "duplicate_texts_b": [
+        "0200 request",
+        "0210 response"
+      ]
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "Standard Processing",
+        "Exception Transactions",
+        "Adjustments Including Adjusting Duplicates"
+      ],
+      "duplicate_texts_a": [
+        "0220 advice",
+        "0230 advice",
+        "response"
+      ],
+      "duplicate_texts_b": [
+        "0220 advice",
+        "0230 advice",
+        "response"
+      ]
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "Standard Processing",
+        "Exception Transactions",
+        "Dispute Financial"
+      ],
+      "duplicate_texts_a": [
+        "0422 advice",
+        "0432 advice",
+        "response"
+      ],
+      "duplicate_texts_b": [
+        "0422 advice",
+        "0432 advice",
+        "response"
+      ]
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "Standard Processing",
+        "Exception Transactions",
+        "Dispute Financial Reversal"
+      ],
+      "duplicate_texts_a": [
+        "0422 advice",
+        "0432 advice",
+        "response"
+      ],
+      "duplicate_texts_b": [
+        "0422 advice",
+        "0432 advice",
+        "response"
+      ]
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "Standard Processing",
+        "Exception Transactions",
+        "Dispute Response Financial"
+      ],
+      "duplicate_texts_a": [
+        "0220 advice",
+        "0230 advice",
+        "response"
+      ],
+      "duplicate_texts_b": [
+        "0220 advice",
+        "0230 advice",
+        "response"
+      ]
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "Standard Processing",
+        "Exception Transactions",
+        "Fee-Related Transaction"
+      ],
+      "duplicate_texts_a": [
+        "0220 advice",
+        "0230 advice",
+        "0422 advice",
+        "0432 advice",
+        "acquirer",
+        "issuer",
+        "response",
+        "v.i.p."
+      ],
+      "duplicate_texts_b": [
+        "0220 advice",
+        "0230 advice",
+        "0422 advice",
+        "0432 advice",
+        "acquirer",
+        "issuer",
+        "response",
+        "v.i.p."
+      ]
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "Standard Processing",
+        "Reconciliation Transactions",
+        "Reconciliation Advice"
+      ],
+      "duplicate_texts_a": [
+        "0520 advice",
+        "0530 advice",
+        "response"
+      ],
+      "duplicate_texts_b": [
+        "0520 advice",
+        "0530 advice",
+        "response"
+      ]
+    },
+    {
+      "change_type": "paragraph_content_changed",
+      "path": [
+        "Standard Processing",
+        "File Maintenance Transactions",
+        "Automatic Cardholder Database Update"
+      ],
+      "old": "The Automatic Cardholder Database Update (Auto-CDB) Service allows V.I.P. to update the Account Screen Authorization File (ASAF) when issuers return pick-up response codes in authorization response messages. Issuers receive advices of ASAF additions or updates. Participation in the Auto-CDB Service is mandatory for issuers of all regions (except for LAC). This figure illustrates the flow of an Auto-CDB file maintenance transaction.",
+      "new": "The Automatic Cardholder Database Update (Auto-CDB) Service allows V.I.P. to update the Account Screen Authorization File (ASAF) when issuers return pick-up response codes in authorization response messages. Issuers receive advices of ASAF additions or updates. Participation in the Auto-CDB Service is mandatory for issuers of all regions. This figure illustrates the flow of an Auto-CDB file maintenance transaction.",
+      "similarity_ratio": 0.98,
+      "section_new_paragraphs": [
+        "Auto-CDB File Maintenance Transaction Flow (Visa Only)",
+        "V.I.P.",
+        "Issuer",
+        "0322 Advice",
+        "0332 Response",
+        "The Automatic Cardholder Database Update (Auto-CDB) Service allows V.I.P. to update the Account Screen Authorization File (ASAF) when issuers return pick-up response codes in authorization response messages. Issuers receive advices of ASAF additions or updates. Participation in the Auto-CDB Service is mandatory for issuers of all regions. This figure illustrates the flow of an Auto-CDB file maintenance transaction."
+      ]
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "Standard Processing",
+        "Administrative Transactions",
+        "Free-Text Message"
+      ],
+      "duplicate_texts_a": [
+        "0600 request",
+        "0610 response",
+        "acquirer",
+        "issuer",
+        "v.i.p."
+      ],
+      "duplicate_texts_b": [
+        "0600 request",
+        "0610 response",
+        "acquirer",
+        "issuer",
+        "v.i.p."
+      ]
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "Standard Processing",
+        "Administrative Transactions",
+        "Copy Request"
+      ],
+      "duplicate_texts_a": [
+        "0600 request",
+        "0610 response"
+      ],
+      "duplicate_texts_b": [
+        "0600 request",
+        "0610 response"
+      ]
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "Standard Processing",
+        "Administrative Transactions",
+        "Collection-Only"
+      ],
+      "duplicate_texts_a": [
+        "v.i.p."
+      ],
+      "duplicate_texts_b": [
+        "v.i.p."
+      ]
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "Standard Processing",
+        "Network Management Transactions",
+        "Sign-On and Sign-Off Message"
+      ],
+      "duplicate_texts_a": [
+        "0800 request",
+        "0810 response"
+      ],
+      "duplicate_texts_b": [
+        "0800 request",
+        "0810 response"
+      ]
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "Standard Processing",
+        "Network Management Transactions",
+        "Echo Test Message"
+      ],
+      "duplicate_texts_a": [
+        "0800 request",
+        "0810 response",
+        "echo test"
+      ],
+      "duplicate_texts_b": [
+        "0800 request",
+        "0810 response",
+        "echo test"
+      ]
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "Standard Processing",
+        "Network Management Transactions",
+        "Recovery Sign-On and Sign-Off Message"
+      ],
+      "duplicate_texts_a": [
+        "0800 request",
+        "0810 response"
+      ],
+      "duplicate_texts_b": [
+        "0800 request",
+        "0810 response"
+      ]
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "Standard Processing",
+        "Network Management Transactions",
+        "Dynamic Key Exchange"
+      ],
+      "duplicate_texts_a": [
+        "0810 response"
+      ],
+      "duplicate_texts_b": [
+        "0810 response"
+      ]
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "Exception Conditions",
+        "Financial Transactions",
+        "Issuer Fails to Respond"
+      ],
+      "duplicate_texts_a": [
+        "0200 request"
+      ],
+      "duplicate_texts_b": [
+        "0200 request"
+      ]
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "Exception Conditions",
+        "Financial Transactions",
+        "Issuer Responds Late"
+      ],
+      "duplicate_texts_a": [
+        "0200 request",
+        "0210 response"
+      ],
+      "duplicate_texts_b": [
+        "0200 request",
+        "0210 response"
+      ]
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "Exception Conditions",
+        "Financial Transactions",
+        "Approval Response Cannot Be Delivered to the Acquirer"
+      ],
+      "duplicate_texts_a": [
+        "0200 request",
+        "0420 advice",
+        "0430 advice response"
+      ],
+      "duplicate_texts_b": [
+        "0200 request",
+        "0420 advice",
+        "0430 advice response"
+      ]
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "Exception Conditions",
+        "Financial Transactions",
+        "Decline Response Cannot Be Delivered to the Acquirer"
+      ],
+      "duplicate_texts_a": [
+        "0200 request",
+        "0210 response"
+      ],
+      "duplicate_texts_b": [
+        "0200 request",
+        "0210 response"
+      ]
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "Exception Conditions",
+        "Reversals",
+        "Reversal—Advice Response Cannot Be Delivered to the Acquirer"
+      ],
+      "duplicate_texts_a": [
+        "0420 advice",
+        "0430 advice response"
+      ],
+      "duplicate_texts_b": [
+        "0420 advice",
+        "0430 advice response"
+      ]
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "Exception Conditions",
+        "Exception Transactions",
+        "Adjustment or Dispute Response Financial—Issuer Unavailable"
+      ],
+      "duplicate_texts_a": [
+        "0220 advice",
+        "0230 advice response"
+      ],
+      "duplicate_texts_b": [
+        "0220 advice",
+        "0230 advice response"
+      ]
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "Exception Conditions",
+        "Exception Transactions",
+        "Adjustment or Dispute Response Financial—Acquirer Unavailable After Advice"
+      ],
+      "duplicate_texts_a": [
+        "0220 advice",
+        "0230 advice response"
+      ],
+      "duplicate_texts_b": [
+        "0220 advice",
+        "0230 advice response"
+      ]
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "Exception Conditions",
+        "Exception Transactions",
+        "Dispute Financial—Acquirer Unavailable"
+      ],
+      "duplicate_texts_a": [
+        "0422 advice",
+        "0432 advice response"
+      ],
+      "duplicate_texts_b": [
+        "0422 advice",
+        "0432 advice response"
+      ]
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "Exception Conditions",
+        "Exception Transactions",
+        "Dispute Financial—Issuer Unavailable After Dispute Financial"
+      ],
+      "duplicate_texts_a": [
+        "0422 advice",
+        "0432 advice response"
+      ],
+      "duplicate_texts_b": [
+        "0422 advice",
+        "0432 advice response"
+      ]
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "Multicurrency Field Flows"
+      ],
+      "duplicate_texts_a": [
+        "01 (total)",
+        "02 (available)",
+        "0200 request",
+        "0200 request or",
+        "0200 request or 0220",
+        "0210 or 0230",
+        "0210 response",
+        "0220 advice",
+        "0230 response",
+        "036 (au $)",
+        "0400 request or",
+        "0410 or 0430",
+        "0420 advice",
+        "0422 advice",
+        "0432 response",
+        "1an 0230 message",
+        "20 (checking)",
+        "4 to billing currency",
+        "4 to settlement",
+        "acquirer",
+        "add fld 6",
+        "advice",
+        "an advice message.",
+        "and include oif if",
+        "au$500.00",
+        "c (positive)",
+        "calculated; use to",
+        "converted",
+        "currency; use to add",
+        "does not contain fld 4",
+        "fields1",
+        "fld 10",
+        "fld 10 = .012625",
+        "fld 16 = 09/28",
+        "fld 16 = 10/15",
+        "fld 4 = au$252.50",
+        "fld 4 = ¥1000",
+        "fld 4 = ¥10000",
+        "fld 4 = ¥20000",
+        "fld 41 = ¥20000",
+        "fld 49 = 036",
+        "fld 49 = 392",
+        "fld 491 = 392",
+        "fld 5",
+        "fld 5 = au$250.00",
+        "fld 5 = us$10.00",
+        "fld 5 = us$200.00",
+        "fld 50 = 036",
+        "fld 50 = 840",
+        "fld 51 = 036",
+        "fld 54a =",
+        "fld 54a = au$5000.00",
+        "fld 54a-converted =",
+        "fld 54b =",
+        "fld 6 = au$252.50",
+        "fld 9 = .01",
+        "fld 9 = .0125",
+        "for reversal of 02xx settled",
+        "for settlement:",
+        "for this example, ¥100 = usd$1.00 and au$1.25 = usd$1.00.",
+        "if transaction qualifies",
+        "include oif if",
+        "issuer",
+        "no multicurrency",
+        "or fld 49 because it is",
+        "processing",
+        "receives:",
+        "response",
+        "sends:",
+        "transactions:",
+        "v.i.p.",
+        "v.i.p. processing:",
+        "v.i.p. processing: · add fld 5",
+        "v.i.p. processing: · convert value in fld",
+        "· add fld 16",
+        "· add fld 5",
+        "· add fld 50",
+        "· add fld 51",
+        "· add fld 9",
+        "· calculate and add",
+        "· convert value in fld"
+      ],
+      "duplicate_texts_b": [
+        "01 (total)",
+        "02 (available)",
+        "0200 request",
+        "0200 request or",
+        "0200 request or 0220",
+        "0210 or 0230",
+        "0210 response",
+        "0220 advice",
+        "0230 response",
+        "036 (au $)",
+        "0400 request or",
+        "0410 or 0430",
+        "0420 advice",
+        "0422 advice",
+        "0432 response",
+        "1an 0230 message",
+        "20 (checking)",
+        "4 to billing currency",
+        "4 to settlement",
+        "acquirer",
+        "add fld 6",
+        "advice",
+        "an advice message.",
+        "and include oif if",
+        "au$500.00",
+        "c (positive)",
+        "calculated; use to",
+        "converted",
+        "currency; use to add",
+        "does not contain fld 4",
+        "fields1",
+        "fld 10",
+        "fld 10 = .012625",
+        "fld 16 = 09/28",
+        "fld 16 = 10/15",
+        "fld 4 = au$252.50",
+        "fld 4 = ¥1000",
+        "fld 4 = ¥10000",
+        "fld 4 = ¥20000",
+        "fld 41 = ¥20000",
+        "fld 49 = 036",
+        "fld 49 = 392",
+        "fld 491 = 392",
+        "fld 5",
+        "fld 5 = au$250.00",
+        "fld 5 = us$10.00",
+        "fld 5 = us$200.00",
+        "fld 50 = 036",
+        "fld 50 = 840",
+        "fld 51 = 036",
+        "fld 54a =",
+        "fld 54a = au$5000.00",
+        "fld 54a-converted =",
+        "fld 54b =",
+        "fld 6 = au$252.50",
+        "fld 9 = .01",
+        "fld 9 = .0125",
+        "for reversal of 02xx settled",
+        "for settlement:",
+        "for this example, ¥100 = usd$1.00 and au$1.25 = usd$1.00.",
+        "if transaction qualifies",
+        "include oif if",
+        "issuer",
+        "no multicurrency",
+        "or fld 49 because it is",
+        "processing",
+        "receives:",
+        "response",
+        "sends:",
+        "transactions:",
+        "v.i.p.",
+        "v.i.p. processing:",
+        "v.i.p. processing: · add fld 5",
+        "v.i.p. processing: · convert value in fld",
+        "· add fld 16",
+        "· add fld 5",
+        "· add fld 50",
+        "· add fld 51",
+        "· add fld 9",
+        "· calculate and add",
+        "· convert value in fld"
+      ]
+    },
+    {
+      "change_type": "paragraph_content_changed",
+      "path": [
+        "Stand-In Processing (STIP)",
+        "V.I.P. Functions in Support of STIP",
+        "Invalid Transaction Class"
+      ],
+      "old": "All non-domestic transactions All key-entered non-domestic transactions All POS transactions if the card is not present All Visa Secure Electronic Commerce (VSEC) POS transactions if the processor control record (PCR) has not successfully completed testing for VSEC.",
+      "new": "All non-domestic transactions All key-entered non-domestic transactions All POS transactions if the card is not present All Visa Secure Electronic Commerce (VSEC) POS transactions if the processor center record (PCR) has not successfully completed testing for VSEC.",
+      "similarity_ratio": 0.979,
+      "section_new_paragraphs": [
+        "Clients can specify invalid classes of transactions at the issuing or acquiring identifier level. V.I.P. forwards transactions that are not permitted to STIP for response code assignment. STIP responds with response code 57 (transaction not permitted to cardholder) if:",
+        "The transaction is a balance inquiry and the default response code is 57 for balance inquiries. The transaction contains an invalid service code or the card product is not valid for the service code. The transaction is processed as an PIN Debit Gateway Service (PDGS) transaction or is a preauthorization or a preauthorization completion that contains dispute financial. The acquirer in an PIN Debit Gateway Service (PDGS) transaction is in the U.S. region, but the issuer is not in the U.S. The transaction is an e-commerce transaction and Field 18—Merchant Type contains code 7995 (gambling) and the transaction does not contain a valid MVV. VisaNet sends online gambling transactions originating from a merchant with a valid MVV, indicating that the merchant is legitimate, to the issuer for processing, even if the issuer has specified that VisaNet is to decline all gambling transactions. The transaction is one of the following Interlink transactions:",
+        "Adjustments Dispute financials Dispute response financials Requests for copies",
+        "The transaction is one of the following e-commerce person-to-person (P2P) transactions:",
+        "Dispute financials or dispute response financials Non-U.S. domestic transactions",
+        "The transaction is an original credit transaction with merchant category code (MCC) 6011 or is a transaction that involves a restricted country). The transaction is one of the following Electronic Benefits Transfer (EBT) transactions:",
+        "Dispute financial transactions from food stamp accounts Preauthorizations from food stamp accounts",
+        "A PIN is present in a POS transaction, PIN verification was not performed, or the issuer does not participate in PIN Verification Service (PVS) and cannot accept PINs. A PIN is required, but is not present in an initial Visa Electron POS transaction.",
+        "STIP declines the following Visa Electron transactions with response code 57 (transaction not permitted to cardholder), depending on the issuer setting:",
+        "STIP rejects all Visa Electron transactions with PINs that do not contain track 2 data with reject code 291.",
+        "All non-domestic transactions All key-entered non-domestic transactions All POS transactions if the card is not present All Visa Secure Electronic Commerce (VSEC) POS transactions if the processor center record (PCR) has not successfully completed testing for VSEC."
+      ]
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "Stand-In Processing (STIP)",
+        "Assigning a Response Code",
+        "Converting Over-Limit Codes in Acquirer Responses"
+      ],
+      "duplicate_texts_a": [
+        "approval code 00",
+        "condition",
+        "converted to...",
+        "decline code 05",
+        "not declined, code 85",
+        "response code"
+      ],
+      "duplicate_texts_b": [
+        "approval code 00",
+        "condition",
+        "converted to...",
+        "decline code 05",
+        "not declined, code 85",
+        "response code"
+      ]
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "Stand-In Processing (STIP)",
+        "Reversal Processing",
+        "Stand-In Processing Advices"
+      ],
+      "duplicate_texts_a": [
+        "no-advice stip decline response codes"
+      ],
+      "duplicate_texts_b": [
+        "no-advice stip decline response codes"
+      ]
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "Stand-In Processing (STIP)",
+        "Acquirer Stand-In Processing"
+      ],
+      "duplicate_texts_a": [
+        "acquirer advices",
+        "dispute financial (0422)",
+        "dispute financial reversal (0422)",
+        "issuer-generated request",
+        "no longer supported.",
+        "stip advice to acquirer"
+      ],
+      "duplicate_texts_b": [
+        "acquirer advices",
+        "dispute financial (0422)",
+        "dispute financial reversal (0422)",
+        "issuer-generated request",
+        "no longer supported.",
+        "stip advice to acquirer"
+      ]
+    },
+    {
+      "change_type": "paragraph_content_changed",
+      "path": [
+        "Advice File",
+        "File Content"
+      ],
+      "old": "0120 authorization and preauthorization advices, including those for account number or address verifications. 0420 reversal advices. 0120 and 0322 advices of Account Screen Authorization File (ASAF) additions and changes processed by VisaNet for the following services:",
+      "new": "0120 authorization and preauthorization advices, including those for account number or address verifications. 0420 reversal advices. 0120 or 0322 advices of Account Screen Authorization File (ASAF) additions and changes processed by VisaNet for the following services:",
+      "similarity_ratio": 0.991,
+      "section_new_paragraphs": [
+        "The Advice File can contain:",
+        "Chargeback Reduction Service (travel and entertainment dispute processing). Automatic Cardholder Database Update (Auto-CDB) Service.",
+        "0120 authorization and preauthorization advices, including those for account number or address verifications. 0420 reversal advices. 0120 or 0322 advices of Account Screen Authorization File (ASAF) additions and changes processed by VisaNet for the following services:",
+        "0120 or 0322 account number verification request advices. 0220 financial transaction advices, STIP advices, and BASE II fee transaction advices. 0282 dispute response financial status advices. 0480 dispute financial status advices. 0520 reconciliation advices. 0620 administrative advices. 06xx token advices 9620 fraud notification advices."
+      ]
+    },
+    {
+      "change_type": "paragraph_content_changed",
+      "path": [
+        "Advice File",
+        "File Content"
+      ],
+      "old": "0120 and 0322 account number verification request advices. 0220 financial transaction advices, STIP advices, and BASE II fee transaction advices. 0282 dispute response financial status advices. 0480 dispute financial status advices. 0520 reconciliation advices. 0620 administrative advices. 06xx token advices 9620 fraud notification advices.",
+      "new": "0120 or 0322 account number verification request advices. 0220 financial transaction advices, STIP advices, and BASE II fee transaction advices. 0282 dispute response financial status advices. 0480 dispute financial status advices. 0520 reconciliation advices. 0620 administrative advices. 06xx token advices 9620 fraud notification advices.",
+      "similarity_ratio": 0.993,
+      "section_new_paragraphs": [
+        "The Advice File can contain:",
+        "Chargeback Reduction Service (travel and entertainment dispute processing). Automatic Cardholder Database Update (Auto-CDB) Service.",
+        "0120 authorization and preauthorization advices, including those for account number or address verifications. 0420 reversal advices. 0120 or 0322 advices of Account Screen Authorization File (ASAF) additions and changes processed by VisaNet for the following services:",
+        "0120 or 0322 account number verification request advices. 0220 financial transaction advices, STIP advices, and BASE II fee transaction advices. 0282 dispute response financial status advices. 0480 dispute financial status advices. 0520 reconciliation advices. 0620 administrative advices. 06xx token advices 9620 fraud notification advices."
+      ]
+    },
+    {
+      "change_type": "paragraph_content_changed",
+      "path": [
+        "Advice File",
+        "Maintenance and Update"
+      ],
+      "old": "Advice records are kept on file at the Visa data processing center for 30 days. V.I.P. stores advices online for 30 days. Issuers that want to retrieve their advices need to retrieve them within this 30-day period. An issuer processing center recovers its advice records online through V.I.P..",
+      "new": "Advice records are kept on file at the Visa data processing center for 30 days. V.I.P. stores advices online for 30 days. Issuers that want to retrieve their advices need to retrieve them within this 30-day period. An issuer processing center recovers its advice records online through V.I.P.",
+      "similarity_ratio": 0.998,
+      "section_new_paragraphs": [
+        "Advice records are kept on file at the Visa data processing center for 30 days. V.I.P. stores advices online for 30 days. Issuers that want to retrieve their advices need to retrieve them within this 30-day period. An issuer processing center recovers its advice records online through V.I.P."
+      ]
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "Advice File",
+        "Recovering Advices"
+      ],
+      "duplicate_texts_a": [
+        "field 70"
+      ],
+      "duplicate_texts_b": [
+        "field 70"
+      ]
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "Transaction Routing"
+      ],
+      "duplicate_texts_a": [
+        "0200",
+        "0220",
+        "0600"
+      ],
+      "duplicate_texts_b": [
+        "0200",
+        "0220",
+        "0600"
+      ]
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "Routing Options, Tables, and Services",
+        "Routing Options",
+        "Visa POS Routing Options"
+      ],
+      "duplicate_texts_a": [
+        "n/a",
+        "optional"
+      ],
+      "duplicate_texts_b": [
+        "n/a",
+        "optional"
+      ]
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "duplicate_texts_a": [
+        "1000",
+        "1100",
+        "1500",
+        "1600",
+        "fri",
+        "mon",
+        "sat",
+        "sun",
+        "thu",
+        "tue",
+        "wed"
+      ],
+      "duplicate_texts_b": [
+        "1000",
+        "1100",
+        "1500",
+        "1600",
+        "fri",
+        "mon",
+        "sat",
+        "sun",
+        "thu",
+        "tue",
+        "wed"
+      ]
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "VisaNet Connection Options",
+        "VisaNet Connection Files",
+        "VisaNet Connection File Types"
+      ],
+      "duplicate_texts_a": [
+        "messages"
+      ],
+      "duplicate_texts_b": [
+        "messages"
+      ]
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "Additional Considerations",
+        "Deferred Clearing and Settlement Considerations",
+        "Automated Reconciliation Considerations"
+      ],
+      "duplicate_texts_a": [
+        "purchases and merchandise returns from full service acquirers with a settlement date of 23 september. base ii deferred clearing advices with a settlement date of"
+      ],
+      "duplicate_texts_b": [
+        "purchases and merchandise returns from full service acquirers with a settlement date of 23 september. base ii deferred clearing advices with a settlement date of"
+      ]
+    }
+  ]
+}

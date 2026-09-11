@@ -1,0 +1,1422 @@
+{
+  "manual": "base_ii_clearing_data_codes",
+  "edition_a": "20250412",
+  "edition_b": "20251018",
+  "summary": {
+    "table_added": 2,
+    "table_removed": 2,
+    "code_content_changed": 117,
+    "code_added": 11,
+    "code_removed": 4,
+    "duplicate_code_warning": 5
+  },
+  "changes": [
+    {
+      "change_type": "table_added",
+      "table": "Request for Copy Reason Codes-Copy/Microfilm of Original (TC 52)",
+      "num_rows": 5
+    },
+    {
+      "change_type": "table_added",
+      "table": "FIRST POSITION (RISK IDENTIFICATION INDICATOR)",
+      "num_rows": 3
+    },
+    {
+      "change_type": "table_removed",
+      "table": "Request for Copy Reason Codes",
+      "num_rows": 5
+    },
+    {
+      "change_type": "table_removed",
+      "table": "Special Condition Indicators",
+      "num_rows": 3
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "L",
+      "column": "Definition",
+      "column_index": 1,
+      "old": "Late clearing - authorization previously obtained (clearing beyond 30 days).",
+      "new": "Late clearing - authorization previously obtained (clearing beyond 30 days).\nNote: This is optional value and it is not required at the time of the October 2020\nrelease.",
+      "similarity_ratio": 0.62,
+      "table": "Authorization Source Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "N",
+      "column": "Definition",
+      "column_index": 1,
+      "old": "No authorization required: Below floor limit",
+      "new": "No authorization required: Below floor limit\nNote: This is optional value and it is not required at the time of the October 2020\nrelease.",
+      "similarity_ratio": 0.486,
+      "table": "Authorization Source Codes"
+    },
+    {
+      "change_type": "code_added",
+      "table": "Business Application IDs",
+      "code": "VA",
+      "cells": [
+        "VA",
+        "Visa Accept"
+      ]
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "MI",
+      "column": "Description",
+      "column_index": 1,
+      "old": "Merchant Initiated Money Transfer",
+      "new": "Merchant Initiated Faster Refund",
+      "similarity_ratio": 0.708,
+      "table": "Business Application IDs"
+    },
+    {
+      "change_type": "code_added",
+      "table": "Dispute Ruling Reason Codes - Copy Request and Fulfillment Service",
+      "code": "2",
+      "cells": [
+        "2",
+        "Dispute ruled in favor of issuer."
+      ]
+    },
+    {
+      "change_type": "code_removed",
+      "table": "Dispute Ruling Reason Codes - Copy Request and Fulfillment Service",
+      "code": "2 NOTE: WITH THE IMPLEMENTATION OF RED CHANGES IN OCTOBER 2003, OCTOBER 2004, AND APRIL 2005, TC 38 TYPE D (DISPUTE) STOPPED BEING VALID. THIS INFORMATION IS RETAINED FOR REFERENCE PURPOSES ONLY.",
+      "cells": [
+        "2\nNote:\nWith the implementation of RED changes in October 2003, October 2004, and April\n2005, TC 38 Type D (Dispute) stopped being valid. This information is retained for\nreference purposes only.",
+        "Dispute ruled in favor of issuer."
+      ]
+    },
+    {
+      "change_type": "duplicate_code_warning",
+      "table": "Fee Collection/Funds Disbursement Reason Codes",
+      "duplicate_codes_a": [
+        "5510"
+      ],
+      "duplicate_codes_b": [
+        "5510"
+      ]
+    },
+    {
+      "change_type": "code_added",
+      "table": "Fee Collection/Funds Disbursement Reason Codes",
+      "code": "5220",
+      "cells": [
+        "5220",
+        "None",
+        "Commercial Data Acquirer Adjustment\nl\nl\nl\nVisa initiates the transaction.\nThe Account Number field must contain a valid account number.\nThe Country Code may contain space."
+      ]
+    },
+    {
+      "change_type": "code_added",
+      "table": "Fee Collection/Funds Disbursement Reason Codes",
+      "code": "5230",
+      "cells": [
+        "5230",
+        "None",
+        "Commercial Data Issuer Adjustment\nl\nl\nl\nVisa initiates the transaction.\nThe Account Number field must contain a valid account number.\nThe Country Code may contain space."
+      ]
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "0150",
+      "column": "Definition",
+      "column_index": 2,
+      "old": "Recovered Card Handling Fees/Rewards\nl\nThe Account Number field must contain a valid account number.",
+      "new": "Recovered Card Handling Fees/Rewards\nl\nATM Balance Inquiry acquiring direct fee returns\nATM Balance Inquiry is available for ATM Balance Inquiry acquiring\ndirect fee participants in AP region only.\nThe Account Number field must contain a valid account number.",
+      "similarity_ratio": 0.557,
+      "table": "Fee Collection/Funds Disbursement Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "0160",
+      "column": "Definition",
+      "column_index": 2,
+      "old": "ATM Balance Inquiry acquiring direct fee returns\nInvalid Cab Dispute Financial Handling Fee\nl\nThe Account Number field must contain a valid account number.",
+      "new": "Invalid Cab Dispute Financial Handling Fee\nl\nThe Account Number field must contain a valid account number.",
+      "similarity_ratio": 0.812,
+      "table": "Fee Collection/Funds Disbursement Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "L",
+      "column": "Draft Data: TCR 5 - Payment Service Data, Position 49 TC 48, BASE I Advice: TCR 2 - ISO-Enriched, Position 61",
+      "column_index": 1,
+      "old": "TC 57, Data Capture Advice: TCR 3 - Transaction Detail, Payment Service Data, Position\n42\nNote:\nIf the format is VML and the code is a space or zero, special attention must be paid\nbecause the code could have two different meanings: 1) in VML, the space or zero can\nmean not applicable, in which case the field should not be present in the transaction, or\n2) if the space or zero has a business meaning, the field should be present in the\ntransaction, (for example, a space may indicate eligibility for a particular fee type).",
+      "new": "TC 57, Data Capture Advice: TCR 3 - Transaction Detail, Payment Service Data, Position\n42",
+      "similarity_ratio": 0.289,
+      "table": "Market-Specific Authorization Data\nIndicator\nThe Market-Specific Authorization Data Indicator identifies the industry for which market-\nspecific authorization data was included in the transaction.\nIt is used in these interchange formats:"
+    },
+    {
+      "change_type": "duplicate_code_warning",
+      "table": "Member Settlement Data-Record Type Codes",
+      "duplicate_codes_a": [
+        "01",
+        "02",
+        "03",
+        "04"
+      ],
+      "duplicate_codes_b": [
+        "01",
+        "02",
+        "03",
+        "04"
+      ]
+    },
+    {
+      "change_type": "duplicate_code_warning",
+      "table": "Member Settlement Data-Report-Level Indicator Codes",
+      "duplicate_codes_a": [
+        "1",
+        "2"
+      ],
+      "duplicate_codes_b": [
+        "1",
+        "2"
+      ]
+    },
+    {
+      "change_type": "duplicate_code_warning",
+      "table": "Member Settlement Data-Summary-Level Codes",
+      "duplicate_codes_a": [
+        "0",
+        "1",
+        "2"
+      ],
+      "duplicate_codes_b": [
+        "0",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "change_type": "code_added",
+      "table": "Product ID Values",
+      "code": "G2",
+      "cells": [
+        "G2",
+        "Visa Business Check Card"
+      ]
+    },
+    {
+      "change_type": "code_added",
+      "table": "Product ID Values",
+      "code": "L1",
+      "cells": [
+        "L1",
+        "Visa Value"
+      ]
+    },
+    {
+      "change_type": "code_added",
+      "table": "Maximum Credit and Debit, Prepaid, and Account Funding POS Transaction Amounts",
+      "code": "X",
+      "cells": [
+        "X",
+        "Visa Commercial\nChoice Travel",
+        "USD$2,999,999.99",
+        "USD$499,999.99",
+        "USD$499,999.99"
+      ]
+    },
+    {
+      "change_type": "code_added",
+      "table": "Maximum Credit and Debit, Prepaid, and Account Funding POS Transaction Amounts",
+      "code": "X1",
+      "cells": [
+        "X1",
+        "Visa Commercial\nChoice Omni",
+        "USD$2,999,999.99",
+        "USD$499,999.99\nUSD$499,999.99"
+      ]
+    },
+    {
+      "change_type": "code_removed",
+      "table": "Maximum Credit and Debit, Prepaid, and Account Funding POS Transaction Amounts",
+      "code": "X X11, 3",
+      "cells": [
+        "X\nX11, 3",
+        "Visa Commercial\nChoice Travel\nVisa Commercial\nChoice Omni",
+        "USD$749,999.99\nUSD$749,999.99",
+        "USD$499,999.99\nUSD$499,999.99",
+        "USD$499,999.99\nUSD$499,999.99"
+      ]
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "A",
+      "column": "Credit and Debit POS Maximum Amount",
+      "column_index": 2,
+      "old": "USD$249,999.99",
+      "new": "USD$749,999.99",
+      "similarity_ratio": 0.929,
+      "table": "Maximum Credit and Debit, Prepaid, and Account Funding POS Transaction Amounts"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "B",
+      "column": "Credit and Debit POS Maximum Amount",
+      "column_index": 2,
+      "old": "USD$249,999.99",
+      "new": "USD$749,999.99",
+      "similarity_ratio": 0.929,
+      "table": "Maximum Credit and Debit, Prepaid, and Account Funding POS Transaction Amounts"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "C",
+      "column": "Credit and Debit POS Maximum Amount",
+      "column_index": 2,
+      "old": "USD$749,999.99",
+      "new": "USD$1,499,999.99",
+      "similarity_ratio": 0.867,
+      "table": "Maximum Credit and Debit, Prepaid, and Account Funding POS Transaction Amounts"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "D",
+      "column": "Credit and Debit POS Maximum Amount",
+      "column_index": 2,
+      "old": "USD$999,999.99",
+      "new": "USD$1,999,999.99",
+      "similarity_ratio": 0.933,
+      "table": "Maximum Credit and Debit, Prepaid, and Account Funding POS Transaction Amounts"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "F",
+      "column": "Credit and Debit POS Maximum Amount",
+      "column_index": 2,
+      "old": "USD$249,999.99",
+      "new": "USD749,999.99",
+      "similarity_ratio": 0.889,
+      "table": "Maximum Credit and Debit, Prepaid, and Account Funding POS Transaction Amounts"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "G",
+      "column": "Credit and Debit POS Maximum Amount",
+      "column_index": 2,
+      "old": "USD$749,999.99",
+      "new": "USD$1,999,999.99",
+      "similarity_ratio": 0.8,
+      "table": "Maximum Credit and Debit, Prepaid, and Account Funding POS Transaction Amounts"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "G1",
+      "column": "Credit and Debit POS Maximum Amount",
+      "column_index": 2,
+      "old": "USD$749,999.99",
+      "new": "USD$1,999,999.99",
+      "similarity_ratio": 0.8,
+      "table": "Maximum Credit and Debit, Prepaid, and Account Funding POS Transaction Amounts"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "G3",
+      "column": "Credit and Debit POS Maximum Amount",
+      "column_index": 2,
+      "old": "USD$749,999.99",
+      "new": "USD$1,999,999.99",
+      "similarity_ratio": 0.8,
+      "table": "Maximum Credit and Debit, Prepaid, and Account Funding POS Transaction Amounts"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "G4",
+      "column": "Credit and Debit POS Maximum Amount",
+      "column_index": 2,
+      "old": "USD$1,499,999.99",
+      "new": "USD$1,999,999.99",
+      "similarity_ratio": 0.938,
+      "table": "Maximum Credit and Debit, Prepaid, and Account Funding POS Transaction Amounts"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "G5",
+      "column": "Credit and Debit POS Maximum Amount",
+      "column_index": 2,
+      "old": "USD$749,999.99",
+      "new": "USD$1,999,999.99",
+      "similarity_ratio": 0.8,
+      "table": "Maximum Credit and Debit, Prepaid, and Account Funding POS Transaction Amounts"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "I",
+      "column": "Credit and Debit POS Maximum Amount",
+      "column_index": 2,
+      "old": "USD$999,999.99",
+      "new": "USD$1,999,999.99",
+      "similarity_ratio": 0.933,
+      "table": "Maximum Credit and Debit, Prepaid, and Account Funding POS Transaction Amounts"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "I1",
+      "column": "Credit and Debit POS Maximum Amount",
+      "column_index": 2,
+      "old": "USD$1,499,999.99",
+      "new": "USD$2,999,999.99",
+      "similarity_ratio": 0.875,
+      "table": "Maximum Credit and Debit, Prepaid, and Account Funding POS Transaction Amounts"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "I2",
+      "column": "Credit and Debit POS Maximum Amount",
+      "column_index": 2,
+      "old": "USD$1,499,999.99",
+      "new": "USD$2,999,999.99",
+      "similarity_ratio": 0.875,
+      "table": "Maximum Credit and Debit, Prepaid, and Account Funding POS Transaction Amounts"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "K",
+      "column": "Credit and Debit POS Maximum Amount",
+      "column_index": 2,
+      "old": "USD$749,999.99",
+      "new": "USD$2,999,999.99",
+      "similarity_ratio": 0.8,
+      "table": "Maximum Credit and Debit, Prepaid, and Account Funding POS Transaction Amounts"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "K1",
+      "column": "Credit and Debit POS Maximum Amount",
+      "column_index": 2,
+      "old": "USD$749,999.99",
+      "new": "USD$2,999,999.99",
+      "similarity_ratio": 0.8,
+      "table": "Maximum Credit and Debit, Prepaid, and Account Funding POS Transaction Amounts"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "L",
+      "column": "Credit and Debit POS Maximum Amount",
+      "column_index": 2,
+      "old": "USD$249,999.99",
+      "new": "USD$749,999.99",
+      "similarity_ratio": 0.929,
+      "table": "Maximum Credit and Debit, Prepaid, and Account Funding POS Transaction Amounts"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "N",
+      "column": "Credit and Debit POS Maximum Amount",
+      "column_index": 2,
+      "old": "USD$249,999.99",
+      "new": "USD$749,999.99",
+      "similarity_ratio": 0.929,
+      "table": "Maximum Credit and Debit, Prepaid, and Account Funding POS Transaction Amounts"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "N1",
+      "column": "Credit and Debit POS Maximum Amount",
+      "column_index": 2,
+      "old": "USD$249,999.99",
+      "new": "USD$749,999.99",
+      "similarity_ratio": 0.929,
+      "table": "Maximum Credit and Debit, Prepaid, and Account Funding POS Transaction Amounts"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "N2",
+      "column": "Credit and Debit POS Maximum Amount",
+      "column_index": 2,
+      "old": "USD$249,999.99",
+      "new": "USD$749,999.99",
+      "similarity_ratio": 0.929,
+      "table": "Maximum Credit and Debit, Prepaid, and Account Funding POS Transaction Amounts"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "P",
+      "column": "Credit and Debit POS Maximum Amount",
+      "column_index": 2,
+      "old": "USD$249,999.99",
+      "new": "USD$749,999.99",
+      "similarity_ratio": 0.929,
+      "table": "Maximum Credit and Debit, Prepaid, and Account Funding POS Transaction Amounts"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "S",
+      "column": "Credit and Debit POS Maximum Amount",
+      "column_index": 2,
+      "old": "USD$749,999.99",
+      "new": "USD$2,999,999.99",
+      "similarity_ratio": 0.8,
+      "table": "Maximum Credit and Debit, Prepaid, and Account Funding POS Transaction Amounts"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "S1",
+      "column": "Credit and Debit POS Maximum Amount",
+      "column_index": 2,
+      "old": "USD$749,999.99",
+      "new": "USD$2,999,999.99",
+      "similarity_ratio": 0.8,
+      "table": "Maximum Credit and Debit, Prepaid, and Account Funding POS Transaction Amounts"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "S2",
+      "column": "Credit and Debit POS Maximum Amount",
+      "column_index": 2,
+      "old": "USD$749,999.99",
+      "new": "USD$2,999,999.99",
+      "similarity_ratio": 0.8,
+      "table": "Maximum Credit and Debit, Prepaid, and Account Funding POS Transaction Amounts"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "S3",
+      "column": "Credit and Debit POS Maximum Amount",
+      "column_index": 2,
+      "old": "USD$749,999.99",
+      "new": "USD$2,999,999.99",
+      "similarity_ratio": 0.8,
+      "table": "Maximum Credit and Debit, Prepaid, and Account Funding POS Transaction Amounts"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "S4",
+      "column": "Credit and Debit POS Maximum Amount",
+      "column_index": 2,
+      "old": "USD$749,999.99",
+      "new": "USD$2,999,999.99",
+      "similarity_ratio": 0.8,
+      "table": "Maximum Credit and Debit, Prepaid, and Account Funding POS Transaction Amounts"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "S5",
+      "column": "Credit and Debit POS Maximum Amount",
+      "column_index": 2,
+      "old": "USD$749,999.99",
+      "new": "USD$2,999,999.99",
+      "similarity_ratio": 0.8,
+      "table": "Maximum Credit and Debit, Prepaid, and Account Funding POS Transaction Amounts"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "S6",
+      "column": "Credit and Debit POS Maximum Amount",
+      "column_index": 2,
+      "old": "USD$749,999.99",
+      "new": "USD$2,999,999.99",
+      "similarity_ratio": 0.8,
+      "table": "Maximum Credit and Debit, Prepaid, and Account Funding POS Transaction Amounts"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "KS",
+      "column": "Error Condition",
+      "column_index": 1,
+      "old": "Invalid Service Code.",
+      "new": "Reserved",
+      "similarity_ratio": 0.345,
+      "table": "Return/Reclassification Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "L1",
+      "column": "Error Condition",
+      "column_index": 1,
+      "old": "Invalid Transaction Type in a TC 09 or TC 19.",
+      "new": "Reserved",
+      "similarity_ratio": 0.075,
+      "table": "Return/Reclassification Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "L2",
+      "column": "Error Condition",
+      "column_index": 1,
+      "old": "Invalid Usage Code.",
+      "new": "Reserved",
+      "similarity_ratio": 0.148,
+      "table": "Return/Reclassification Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "L3",
+      "column": "Error Condition",
+      "column_index": 1,
+      "old": "Invalid Account Number Format Code.",
+      "new": "Reserved",
+      "similarity_ratio": 0.14,
+      "table": "Return/Reclassification Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "L4",
+      "column": "Error Condition",
+      "column_index": 1,
+      "old": "Invalid Origination Date.",
+      "new": "Reserved",
+      "similarity_ratio": 0.121,
+      "table": "Return/Reclassification Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "L7",
+      "column": "Error Condition",
+      "column_index": 1,
+      "old": "Invalid Test Transaction Indicator.",
+      "new": "Reserved",
+      "similarity_ratio": 0.186,
+      "table": "Return/Reclassification Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "L8",
+      "column": "Error Condition",
+      "column_index": 1,
+      "old": "Missing authorization from a service provider.",
+      "new": "Reserved",
+      "similarity_ratio": 0.222,
+      "table": "Return/Reclassification Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "L9",
+      "column": "Error Condition",
+      "column_index": 1,
+      "old": "Invalid Transaction ID extension.",
+      "new": "Reserved",
+      "similarity_ratio": 0.098,
+      "table": "Return/Reclassification Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "LA",
+      "column": "Error Condition",
+      "column_index": 1,
+      "old": "Invalid Customer ID Number.",
+      "new": "Reserved",
+      "similarity_ratio": 0.229,
+      "table": "Return/Reclassification Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "LB",
+      "column": "Error Condition",
+      "column_index": 1,
+      "old": "Customer Name must not be blank.",
+      "new": "Reserved",
+      "similarity_ratio": 0.2,
+      "table": "Return/Reclassification Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "LC",
+      "column": "Error Condition",
+      "column_index": 1,
+      "old": "Invalid Terminal Type.",
+      "new": "Reserved",
+      "similarity_ratio": 0.2,
+      "table": "Return/Reclassification Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "LD",
+      "column": "Error Condition",
+      "column_index": 1,
+      "old": "Invalid Terminal Capability.",
+      "new": "Reserved",
+      "similarity_ratio": 0.111,
+      "table": "Return/Reclassification Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "LE",
+      "column": "Error Condition",
+      "column_index": 1,
+      "old": "Invalid Entry Mode.",
+      "new": "Reserved",
+      "similarity_ratio": 0.148,
+      "table": "Return/Reclassification Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "LF",
+      "column": "Error Condition",
+      "column_index": 1,
+      "old": "Invalid Biller Country.",
+      "new": "Reserved",
+      "similarity_ratio": 0.129,
+      "table": "Return/Reclassification Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "LG",
+      "column": "Error Condition",
+      "column_index": 1,
+      "old": "Invalid Amount Due.",
+      "new": "Reserved",
+      "similarity_ratio": 0.148,
+      "table": "Return/Reclassification Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "LH",
+      "column": "Error Condition",
+      "column_index": 1,
+      "old": "Invalid Amount Due Currency.",
+      "new": "Reserved",
+      "similarity_ratio": 0.111,
+      "table": "Return/Reclassification Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "LI",
+      "column": "Error Condition",
+      "column_index": 1,
+      "old": "Invalid Due Date.",
+      "new": "Reserved",
+      "similarity_ratio": 0.16,
+      "table": "Return/Reclassification Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "LJ",
+      "column": "Error Condition",
+      "column_index": 1,
+      "old": "Invalid Authorization Date.",
+      "new": "Reserved",
+      "similarity_ratio": 0.114,
+      "table": "Return/Reclassification Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "LK",
+      "column": "Error Condition",
+      "column_index": 1,
+      "old": "Payment application amount must be numeric.",
+      "new": "Reserved",
+      "similarity_ratio": 0.157,
+      "table": "Return/Reclassification Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "LM",
+      "column": "Error Condition",
+      "column_index": 1,
+      "old": "Invalid Customer Mailing Address.",
+      "new": "Reserved",
+      "similarity_ratio": 0.195,
+      "table": "Return/Reclassification Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "LO",
+      "column": "Error Condition",
+      "column_index": 1,
+      "old": "Invalid Sendback Reason Code.",
+      "new": "Reserved",
+      "similarity_ratio": 0.216,
+      "table": "Return/Reclassification Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "LP",
+      "column": "Error Condition",
+      "column_index": 1,
+      "old": "Invalid Originator's Reference Number.",
+      "new": "Reserved",
+      "similarity_ratio": 0.217,
+      "table": "Return/Reclassification Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "LQ",
+      "column": "Error Condition",
+      "column_index": 1,
+      "old": "Account number does not match a valid account number mask for the biller.",
+      "new": "Reserved",
+      "similarity_ratio": 0.074,
+      "table": "Return/Reclassification Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "LR",
+      "column": "Error Condition",
+      "column_index": 1,
+      "old": "Invalid Change Code.",
+      "new": "Reserved",
+      "similarity_ratio": 0.143,
+      "table": "Return/Reclassification Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "LT",
+      "column": "Error Condition",
+      "column_index": 1,
+      "old": "Invalid Customer City.",
+      "new": "Reserved",
+      "similarity_ratio": 0.2,
+      "table": "Return/Reclassification Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "LU",
+      "column": "Error Condition",
+      "column_index": 1,
+      "old": "Invalid Customer State/Province/Region.",
+      "new": "Reserved",
+      "similarity_ratio": 0.17,
+      "table": "Return/Reclassification Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "LV",
+      "column": "Error Condition",
+      "column_index": 1,
+      "old": "Source Identifier is not a valid Biller Financial Institution.",
+      "new": "Reserved",
+      "similarity_ratio": 0.143,
+      "table": "Return/Reclassification Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "LW",
+      "column": "Error Condition",
+      "column_index": 1,
+      "old": "Invalid Beneficiary Reference Number.",
+      "new": "Reserved",
+      "similarity_ratio": 0.222,
+      "table": "Return/Reclassification Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "LX",
+      "column": "Error Condition",
+      "column_index": 1,
+      "old": "Invalid Customer Postal Code.",
+      "new": "Reserved",
+      "similarity_ratio": 0.216,
+      "table": "Return/Reclassification Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "LY",
+      "column": "Error Condition",
+      "column_index": 1,
+      "old": "Invalid Customer Country.",
+      "new": "Reserved",
+      "similarity_ratio": 0.182,
+      "table": "Return/Reclassification Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "M3",
+      "column": "Error Condition",
+      "column_index": 1,
+      "old": "Invalid Customer Account Type Indicator.",
+      "new": "Reserved",
+      "similarity_ratio": 0.208,
+      "table": "Return/Reclassification Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "M5",
+      "column": "Error Condition",
+      "column_index": 1,
+      "old": "Customer ID Number not found.",
+      "new": "Reserved",
+      "similarity_ratio": 0.27,
+      "table": "Return/Reclassification Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "M7",
+      "column": "Error Condition",
+      "column_index": 1,
+      "old": "Old data not found.",
+      "new": "Reserved",
+      "similarity_ratio": 0.074,
+      "table": "Return/Reclassification Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "M8",
+      "column": "Error Condition",
+      "column_index": 1,
+      "old": "Invalid Active Mark.",
+      "new": "Reserved",
+      "similarity_ratio": 0.143,
+      "table": "Return/Reclassification Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "M9",
+      "column": "Error Condition",
+      "column_index": 1,
+      "old": "Invalid Destination Identifier for Biller Financial Institution.",
+      "new": "Reserved",
+      "similarity_ratio": 0.139,
+      "table": "Return/Reclassification Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "MA",
+      "column": "Error Condition",
+      "column_index": 1,
+      "old": "Invalid Service Type Code.",
+      "new": "Reserved",
+      "similarity_ratio": 0.294,
+      "table": "Return/Reclassification Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "MC",
+      "column": "Error Condition",
+      "column_index": 1,
+      "old": "Invalid Confirmation Message Code.",
+      "new": "Reserved",
+      "similarity_ratio": 0.19,
+      "table": "Return/Reclassification Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "MD",
+      "column": "Error Condition",
+      "column_index": 1,
+      "old": "Invalid Effective Date.",
+      "new": "Reserved",
+      "similarity_ratio": 0.194,
+      "table": "Return/Reclassification Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "ME",
+      "column": "Error Condition",
+      "column_index": 1,
+      "old": "Invalid Customer Name.",
+      "new": "Reserved",
+      "similarity_ratio": 0.267,
+      "table": "Return/Reclassification Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "MF",
+      "column": "Error Condition",
+      "column_index": 1,
+      "old": "Invalid Frequency of Invoice Value.",
+      "new": "Reserved",
+      "similarity_ratio": 0.093,
+      "table": "Return/Reclassification Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "MG",
+      "column": "Error Condition",
+      "column_index": 1,
+      "old": "Invalid Detail Invoice Option.",
+      "new": "Reserved",
+      "similarity_ratio": 0.105,
+      "table": "Return/Reclassification Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "MH",
+      "column": "Error Condition",
+      "column_index": 1,
+      "old": "Invalid Beginning Statement Date.",
+      "new": "Reserved",
+      "similarity_ratio": 0.098,
+      "table": "Return/Reclassification Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "MI",
+      "column": "Error Condition",
+      "column_index": 1,
+      "old": "Invalid Ending Statement Date.",
+      "new": "Reserved",
+      "similarity_ratio": 0.105,
+      "table": "Return/Reclassification Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "MJ",
+      "column": "Error Condition",
+      "column_index": 1,
+      "old": "Invalid Balance Due.",
+      "new": "Reserved",
+      "similarity_ratio": 0.143,
+      "table": "Return/Reclassification Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "MK",
+      "column": "Error Condition",
+      "column_index": 1,
+      "old": "Invalid Balance Due Sign.",
+      "new": "Reserved",
+      "similarity_ratio": 0.121,
+      "table": "Return/Reclassification Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "ML",
+      "column": "Error Condition",
+      "column_index": 1,
+      "old": "Invalid Balance Due Currency Code.",
+      "new": "Reserved",
+      "similarity_ratio": 0.095,
+      "table": "Return/Reclassification Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "MM",
+      "column": "Error Condition",
+      "column_index": 1,
+      "old": "Invalid Minimum Amount Due.",
+      "new": "Reserved",
+      "similarity_ratio": 0.114,
+      "table": "Return/Reclassification Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "MN",
+      "column": "Error Condition",
+      "column_index": 1,
+      "old": "Invalid Past Due Amount.",
+      "new": "Reserved",
+      "similarity_ratio": 0.125,
+      "table": "Return/Reclassification Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "MP",
+      "column": "Error Condition",
+      "column_index": 1,
+      "old": "Invalid Beginning Balance.",
+      "new": "Reserved",
+      "similarity_ratio": 0.118,
+      "table": "Return/Reclassification Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "MQ",
+      "column": "Error Condition",
+      "column_index": 1,
+      "old": "Invalid Beginning Balance Sign.",
+      "new": "Reserved",
+      "similarity_ratio": 0.103,
+      "table": "Return/Reclassification Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "MR",
+      "column": "Error Condition",
+      "column_index": 1,
+      "old": "Invalid Total Biller Credits.",
+      "new": "Reserved",
+      "similarity_ratio": 0.216,
+      "table": "Return/Reclassification Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "MS",
+      "column": "Error Condition",
+      "column_index": 1,
+      "old": "Invalid Total Biller Debits.",
+      "new": "Reserved",
+      "similarity_ratio": 0.167,
+      "table": "Return/Reclassification Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "MT",
+      "column": "Error Condition",
+      "column_index": 1,
+      "old": "Invalid Total Customer Credits.",
+      "new": "Reserved",
+      "similarity_ratio": 0.256,
+      "table": "Return/Reclassification Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "MU",
+      "column": "Error Condition",
+      "column_index": 1,
+      "old": "Invalid Total Customer Debits.",
+      "new": "Reserved",
+      "similarity_ratio": 0.211,
+      "table": "Return/Reclassification Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "MV",
+      "column": "Error Condition",
+      "column_index": 1,
+      "old": "Invalid Additional Amount Due.",
+      "new": "Reserved",
+      "similarity_ratio": 0.105,
+      "table": "Return/Reclassification Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "MW",
+      "column": "Error Condition",
+      "column_index": 1,
+      "old": "Invalid Amount Subject to Finance Charge.",
+      "new": "Reserved",
+      "similarity_ratio": 0.082,
+      "table": "Return/Reclassification Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "MX",
+      "column": "Error Condition",
+      "column_index": 1,
+      "old": "Invalid Interest Rate.",
+      "new": "Reserved",
+      "similarity_ratio": 0.2,
+      "table": "Return/Reclassification Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "MY",
+      "column": "Error Condition",
+      "column_index": 1,
+      "old": "Invalid Interest Rate Code.",
+      "new": "Reserved",
+      "similarity_ratio": 0.229,
+      "table": "Return/Reclassification Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "MZ",
+      "column": "Error Condition",
+      "column_index": 1,
+      "old": "Invalid Late Due Date.",
+      "new": "Reserved",
+      "similarity_ratio": 0.133,
+      "table": "Return/Reclassification Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "N0",
+      "column": "Error Condition",
+      "column_index": 1,
+      "old": "Invalid New Data.",
+      "new": "Reserved",
+      "similarity_ratio": 0.16,
+      "table": "Return/Reclassification Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "N1",
+      "column": "Error Condition",
+      "column_index": 1,
+      "old": "Biller Financial Institution, Customer Financial Institution (Issuer), and Service Provider are\nnot in the same country.",
+      "new": "Reserved",
+      "similarity_ratio": 0.109,
+      "table": "Return/Reclassification Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "N11",
+      "column": "Error Condition",
+      "column_index": 1,
+      "old": "Interest Accrual Days must be numeric.",
+      "new": "Reserved",
+      "similarity_ratio": 0.13,
+      "table": "Return/Reclassification Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "N12",
+      "column": "Error Condition",
+      "column_index": 1,
+      "old": "Interest Accrual Amount must be numeric.",
+      "new": "Reserved",
+      "similarity_ratio": 0.125,
+      "table": "Return/Reclassification Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "N2",
+      "column": "Error Condition",
+      "column_index": 1,
+      "old": "Invalid Customer Province.",
+      "new": "Reserved",
+      "similarity_ratio": 0.294,
+      "table": "Return/Reclassification Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "N3",
+      "column": "Error Condition",
+      "column_index": 1,
+      "old": "Summary Invoice Presentment not supported by biller.",
+      "new": "Reserved",
+      "similarity_ratio": 0.2,
+      "table": "Return/Reclassification Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "N4",
+      "column": "Error Condition",
+      "column_index": 1,
+      "old": "Invalid Destination Currency Code.",
+      "new": "Reserved",
+      "similarity_ratio": 0.238,
+      "table": "Return/Reclassification Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "N5",
+      "column": "Error Condition",
+      "column_index": 1,
+      "old": "Invalid Biller Mailing Address.",
+      "new": "Reserved",
+      "similarity_ratio": 0.154,
+      "table": "Return/Reclassification Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "N6",
+      "column": "Error Condition",
+      "column_index": 1,
+      "old": "Invalid Market Indicator Code.",
+      "new": "Reserved",
+      "similarity_ratio": 0.105,
+      "table": "Return/Reclassification Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "N7",
+      "column": "Error Condition",
+      "column_index": 1,
+      "old": "Account Verification Transaction not supported by biller.",
+      "new": "Reserved",
+      "similarity_ratio": 0.123,
+      "table": "Return/Reclassification Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "N8",
+      "column": "Error Condition",
+      "column_index": 1,
+      "old": "Invalid Source Amount in Account Verification Transaction.",
+      "new": "Reserved",
+      "similarity_ratio": 0.091,
+      "table": "Return/Reclassification Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "N9",
+      "column": "Error Condition",
+      "column_index": 1,
+      "old": "Invalid Amount Due in Account Verification Transaction.",
+      "new": "Reserved",
+      "similarity_ratio": 0.095,
+      "table": "Return/Reclassification Reason Codes"
+    },
+    {
+      "change_type": "code_added",
+      "table": "SECOND POSITION (MERCHANT TRANSACTION INDICATOR)",
+      "code": "4",
+      "cells": [
+        "4",
+        "Purchase of non-fungible token (NFT)."
+      ]
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "7",
+      "column": "Description None of the specified conditions is present.",
+      "column_index": 1,
+      "old": "Purchase of cryptocurrency",
+      "new": "Purchase of cryptocurrency\nNote: For OCT/AFT also includes sale or conversion of crypto currency to fiat.",
+      "similarity_ratio": 0.397,
+      "table": "SECOND POSITION (MERCHANT TRANSACTION INDICATOR)"
+    },
+    {
+      "change_type": "duplicate_code_warning",
+      "table": "ISO Numeric",
+      "duplicate_codes_a": [
+        "356",
+        "978"
+      ],
+      "duplicate_codes_b": [
+        "356",
+        "978"
+      ]
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "CURACAO",
+      "column": "ISO Currency Name",
+      "column_index": 3,
+      "old": "Netherlands\nAntillean Guilder",
+      "new": "Caribbean\nGuilder",
+      "similarity_ratio": 0.565,
+      "table": "Country and Currency Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "CURACAO",
+      "column": "ISO Alpha Currency Code",
+      "column_index": 4,
+      "old": "ANG",
+      "new": "XCG",
+      "similarity_ratio": 0.333,
+      "table": "Country and Currency Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "HUNGARY",
+      "column": "ISO Currency Name",
+      "column_index": 3,
+      "old": "ForintS",
+      "new": "Hungarian\nForintS",
+      "similarity_ratio": 0.583,
+      "table": "Country and Currency Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "QATAR",
+      "column": "ISO Currency Name",
+      "column_index": 3,
+      "old": "Qatari Rial",
+      "new": "Qatari RialS",
+      "similarity_ratio": 0.957,
+      "table": "Country and Currency Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "ROMANIA",
+      "column": "ISO Currency Name",
+      "column_index": 3,
+      "old": "LEUS",
+      "new": "Romanian LEUS",
+      "similarity_ratio": 0.471,
+      "table": "Country and Currency Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "SIERRA LEONE",
+      "column": "ISO Currency Name",
+      "column_index": 3,
+      "old": "Leone\nLeone",
+      "new": "Leone",
+      "similarity_ratio": 0.625,
+      "table": "Country and Currency Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "SIERRA LEONE",
+      "column": "ISO Alpha Currency Code",
+      "column_index": 4,
+      "old": "SLL\nSLE",
+      "new": "SLE",
+      "similarity_ratio": 0.6,
+      "table": "Country and Currency Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "SIERRA LEONE",
+      "column": "ISO Numeric Currency Code",
+      "column_index": 5,
+      "old": "694\n925",
+      "new": "925",
+      "similarity_ratio": 0.6,
+      "table": "Country and Currency Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "SINT MAARTEN (DUTCH PART)",
+      "column": "ISO Currency Name",
+      "column_index": 3,
+      "old": "Netherlands\nAntillean Guilder",
+      "new": "Caribbean\nGuilder",
+      "similarity_ratio": 0.565,
+      "table": "Country and Currency Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "SINT MAARTEN (DUTCH PART)",
+      "column": "ISO Alpha Currency Code",
+      "column_index": 4,
+      "old": "ANG",
+      "new": "XCG",
+      "similarity_ratio": 0.333,
+      "table": "Country and Currency Codes"
+    },
+    {
+      "change_type": "code_added",
+      "table": "Retained and Returned Data Elements - International",
+      "code": "TRANSACTION IDENTIFIER NOTE: MAIL/PHONE/ELECTRONIC COMMERCE AND PAYMENT INDICATOR IS REQUIRED ONLY IF PRESENT IN ORIGINAL PRESENTMENT.",
+      "cells": [
+        "Transaction Identifier\nNote: Mail/Phone/Electronic Commerce and Payment Indicator is required only if present in\noriginal presentment.",
+        "X",
+        "X",
+        "X",
+        "X"
+      ]
+    },
+    {
+      "change_type": "code_removed",
+      "table": "Retained and Returned Data Elements - International",
+      "code": "TRANSACTION IDENTIFIER",
+      "cells": [
+        "Transaction Identifier",
+        "X",
+        "X",
+        "X",
+        "X"
+      ]
+    },
+    {
+      "change_type": "code_added",
+      "table": "Retained and Returned Data Elements - U.S. National",
+      "code": "ACCEPTANCE TERMINAL INDICATOR NOTE: SOURCE AMOUNT AND SOURCE CURRENCY CODE ARE OPTIONAL FOR TRANSACTION AMOUNT/ TRANSACTION CURRENCY CODE ON THE RETRIEVAL REQUEST.",
+      "cells": [
+        "Acceptance Terminal Indicator\nNote: Source Amount and Source Currency Code are optional for Transaction Amount/\nTransaction Currency Code on the Retrieval Request.",
+        "X",
+        "X"
+      ]
+    },
+    {
+      "change_type": "code_removed",
+      "table": "Retained and Returned Data Elements - U.S. National",
+      "code": "ACCEPTANCE TERMINAL INDICATOR",
+      "cells": [
+        "Acceptance Terminal Indicator",
+        "X",
+        "X"
+      ]
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "CARD ACCEPTOR ID CARDHOLDER ACTIVATED TERMINAL INDICATOR",
+      "column": "Dispute Financial",
+      "column_index": 1,
+      "old": "X\nSee Acceptance Terminal Indicator.",
+      "new": "X\nTerminal Indicator.\nSee Acceptance",
+      "similarity_ratio": 0.583,
+      "table": "Retained and Returned Data Elements - U.S. National"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "CARD ACCEPTOR ID CARDHOLDER ACTIVATED TERMINAL INDICATOR",
+      "column": "Dispute Response Financial",
+      "column_index": 2,
+      "old": "X",
+      "new": "X\nTerminal Indicator.\nSee Acceptance\nSee Acceptance\nIndicator.\nTerminal\nSee Acceptance\nIndicator.\nTerminal",
+      "similarity_ratio": 0.019,
+      "table": "Retained and Returned Data Elements - U.S. National"
+    }
+  ]
+}

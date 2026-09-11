@@ -1,0 +1,1334 @@
+{
+  "manual": "visanet_settlement_service_vss_user_guide_volume_2_reports",
+  "edition_a": "20250412",
+  "edition_b": "20251017",
+  "appendices": {
+    "appendix_a": [
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "VSS-115 Field Descriptions",
+        "duplicate_keys_a": [
+          "business transaction type",
+          "dispute resp fin",
+          "reimbursement fees",
+          "representment",
+          "total interchange",
+          "visa charges"
+        ],
+        "duplicate_keys_b": [
+          "business transaction type",
+          "dispute resp fin",
+          "reimbursement fees",
+          "representment",
+          "total interchange",
+          "visa charges"
+        ]
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "VSS-215 Field Descriptions",
+        "duplicate_keys_a": [
+          "interchange amount",
+          "international service assessment charges"
+        ],
+        "duplicate_keys_b": [
+          "interchange amount",
+          "international service assessment charges"
+        ]
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "VSS-900-PS Field Descriptions",
+        "duplicate_keys_a": [
+          "received from visa",
+          "sent to visa"
+        ],
+        "duplicate_keys_b": [
+          "received from visa",
+          "sent to visa"
+        ]
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "VSS-140 Field Descriptions",
+        "duplicate_keys_a": [
+          "visa eu"
+        ],
+        "duplicate_keys_b": [
+          "visa eu"
+        ]
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "Available VSS Reports Transaction Dispositions (VSS-900-Reconciliation Report)",
+        "duplicate_keys_a": [
+          ""
+        ],
+        "duplicate_keys_b": [
+          ""
+        ]
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "VSS-110-C Field Descriptions",
+        "duplicate_keys_a": [
+          "total acquirer",
+          "total acquirer ssid name ftsre1",
+          "total acquirer ssid name ftsre2",
+          "total acquirer ssid name ftsre3",
+          "total issuer",
+          "total issuer ssid name ftsre1",
+          "total issuer ssid name ftsre2",
+          "total issuer ssid name ftsre3",
+          "total other",
+          "total other ssid name ftsre1",
+          "total other ssid name ftsre2",
+          "total other ssid name ftsre3"
+        ],
+        "duplicate_keys_b": [
+          "total acquirer",
+          "total acquirer ssid name ftsre1",
+          "total acquirer ssid name ftsre2",
+          "total acquirer ssid name ftsre3",
+          "total issuer",
+          "total issuer ssid name ftsre1",
+          "total issuer ssid name ftsre2",
+          "total issuer ssid name ftsre3",
+          "total other",
+          "total other ssid name ftsre1",
+          "total other ssid name ftsre2",
+          "total other ssid name ftsre3"
+        ]
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "VSS-110 Field Descriptions",
+        "duplicate_keys_a": [
+          "total acquirer",
+          "total issuer",
+          "total other"
+        ],
+        "duplicate_keys_b": [
+          "total acquirer",
+          "total issuer",
+          "total other"
+        ]
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "VSS-600 Field Descriptions",
+        "duplicate_keys_a": [
+          "total 01-day defer"
+        ],
+        "duplicate_keys_b": [
+          "total 01-day defer"
+        ]
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "VSS-300 Field Descriptions Note: Deferred settlement is currently available only in Brazil, Japan, Argentina, and Chile.",
+        "duplicate_keys_a": [
+          "net settlement amount"
+        ],
+        "duplicate_keys_b": [
+          "net settlement amount"
+        ]
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "VSS-116 Field Descriptions",
+        "duplicate_keys_a": [
+          "business transaction type",
+          "dispute resp fin",
+          "reimbursement fees",
+          "representment",
+          "total interchange",
+          "visa charges"
+        ],
+        "duplicate_keys_b": [
+          "business transaction type",
+          "dispute resp fin",
+          "reimbursement fees",
+          "representment",
+          "total interchange",
+          "visa charges"
+        ]
+      }
+    ],
+    "appendix_b": [
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "VSS 120–135 Report Count/Amount Fields Mapped to TCR 1 VSS 140–230 Report Count/Amount Fields Mapped to TCR 1",
+        "duplicate_keys_a": [
+          "fifth amount",
+          "fourth amount",
+          "sixth amount"
+        ],
+        "duplicate_keys_b": [
+          "fifth amount",
+          "fourth amount",
+          "sixth amount"
+        ]
+      }
+    ],
+    "appendix_c": [
+      {
+        "change_type": "table_removed",
+        "table_title": "Fee Collection/Funds Disbursement Business Transaction Cycle Codes",
+        "num_rows": 21
+      },
+      {
+        "change_type": "row_added",
+        "table_title": "Charge Types",
+        "key": "061",
+        "row": {
+          "type": "grid_row",
+          "page": 270,
+          "table_title": "Charge Types",
+          "anchor_column": "Code",
+          "columns": {
+            "Code": "061",
+            "Charge Type": "NETWORK POS ASSESSMENT CHARGE"
+          }
+        }
+      },
+      {
+        "change_type": "row_added",
+        "table_title": "Charge Types",
+        "key": "181",
+        "row": {
+          "type": "grid_row",
+          "page": 274,
+          "table_title": "Charge Types",
+          "anchor_column": "Code",
+          "columns": {
+            "Code": "181",
+            "Charge Type": "ENHANCED DATA PROGRAM"
+          }
+        }
+      },
+      {
+        "change_type": "row_added",
+        "table_title": "Charge Types",
+        "key": "182",
+        "row": {
+          "type": "grid_row",
+          "page": 274,
+          "table_title": "Charge Types",
+          "anchor_column": "Code",
+          "columns": {
+            "Code": "182",
+            "Charge Type": "ALLOC ENHANCED DATA PROGRAM"
+          }
+        }
+      },
+      {
+        "change_type": "row_added",
+        "table_title": "Charge Types",
+        "key": "183",
+        "row": {
+          "type": "grid_row",
+          "page": 274,
+          "table_title": "Charge Types",
+          "anchor_column": "Code",
+          "columns": {
+            "Code": "183",
+            "Charge Type": "LAGGING INTERCHANGE"
+          }
+        }
+      },
+      {
+        "change_type": "row_added",
+        "table_title": "Charge Types",
+        "key": "185",
+        "row": {
+          "type": "grid_row",
+          "page": 274,
+          "table_title": "Charge Types",
+          "anchor_column": "Code",
+          "columns": {
+            "Code": "185",
+            "Charge Type": "ISA TIER 01"
+          }
+        }
+      },
+      {
+        "change_type": "row_added",
+        "table_title": "Charge Types",
+        "key": "187",
+        "row": {
+          "type": "grid_row",
+          "page": 274,
+          "table_title": "Charge Types",
+          "anchor_column": "Code",
+          "columns": {
+            "Code": "187",
+            "Charge Type": "ISA TIER 02"
+          }
+        }
+      },
+      {
+        "change_type": "row_added",
+        "table_title": "Charge Types",
+        "key": "189",
+        "row": {
+          "type": "grid_row",
+          "page": 274,
+          "table_title": "Charge Types",
+          "anchor_column": "Code",
+          "columns": {
+            "Code": "189",
+            "Charge Type": "ISA TIER 03"
+          }
+        }
+      },
+      {
+        "change_type": "row_added",
+        "table_title": "Charge Types",
+        "key": "191",
+        "row": {
+          "type": "grid_row",
+          "page": 274,
+          "table_title": "Charge Types",
+          "anchor_column": "Code",
+          "columns": {
+            "Code": "191",
+            "Charge Type": "ISA TIER 04"
+          }
+        }
+      },
+      {
+        "change_type": "row_added",
+        "table_title": "Charge Types",
+        "key": "193",
+        "row": {
+          "type": "grid_row",
+          "page": 274,
+          "table_title": "Charge Types",
+          "anchor_column": "Code",
+          "columns": {
+            "Code": "193",
+            "Charge Type": "ISA TIER 05"
+          }
+        }
+      },
+      {
+        "change_type": "row_added",
+        "table_title": "Business Transaction Types Fee Collection/Funds Disbursement",
+        "key": "875",
+        "row": {
+          "type": "grid_row",
+          "page": 264,
+          "table_title": "Business Transaction Types Fee Collection/Funds Disbursement",
+          "anchor_column": "Reason Code",
+          "columns": {
+            "Reason Code": "875",
+            "VSS Business Transaction Code": "",
+            "Funds Disbursement": "",
+            "Business Transaction TypeFee Collection": "FEE INQUIRY"
+          }
+        }
+      },
+      {
+        "change_type": "row_removed",
+        "table_title": "Business Transaction Types Fee Collection/Funds Disbursement",
+        "key": "867",
+        "row": {
+          "type": "grid_row",
+          "page": 264,
+          "table_title": "Business Transaction Types Fee Collection/Funds Disbursement",
+          "anchor_column": "Reason Code",
+          "columns": {
+            "Reason Code": "867",
+            "VSS Business Transaction Code": "",
+            "Funds Disbursement": "",
+            "Business Transaction TypeFee Collection": "Visa ePay Transfer"
+          }
+        }
+      },
+      {
+        "change_type": "row_added",
+        "table_title": "Business Transaction Cycle Codes",
+        "key": "1",
+        "row": {
+          "type": "grid_row",
+          "page": 268,
+          "table_title": "Business Transaction Cycle Codes",
+          "anchor_column": "Code",
+          "columns": {
+            "Code": "1",
+            "Cycle": "Originals"
+          }
+        }
+      },
+      {
+        "change_type": "row_added",
+        "table_title": "Business Transaction Cycle Codes",
+        "key": "2",
+        "row": {
+          "type": "grid_row",
+          "page": 268,
+          "table_title": "Business Transaction Cycle Codes",
+          "anchor_column": "Code",
+          "columns": {
+            "Code": "2",
+            "Cycle": "Chargebacks"
+          }
+        }
+      },
+      {
+        "change_type": "row_added",
+        "table_title": "Fee Collection/Funds Disbursement",
+        "key": "5220",
+        "row": {
+          "type": "grid_row",
+          "page": 266,
+          "table_title": "Fee Collection/Funds Disbursement",
+          "anchor_column": "Reason Code",
+          "columns": {
+            "Fee Collection": "580",
+            "Funds Disbursement": "680",
+            "Reason Code": "5220"
+          }
+        }
+      },
+      {
+        "change_type": "row_added",
+        "table_title": "Fee Collection/Funds Disbursement",
+        "key": "5230",
+        "row": {
+          "type": "grid_row",
+          "page": 266,
+          "table_title": "Fee Collection/Funds Disbursement",
+          "anchor_column": "Reason Code",
+          "columns": {
+            "Fee Collection": "581",
+            "Funds Disbursement": "681",
+            "Reason Code": "5230"
+          }
+        }
+      },
+      {
+        "change_type": "row_added",
+        "table_title": "Fee Collection/Funds Disbursement",
+        "key": "5300",
+        "row": {
+          "type": "grid_row",
+          "page": 267,
+          "table_title": "Fee Collection/Funds Disbursement",
+          "anchor_column": "Reason Code",
+          "columns": {
+            "Fee Collection": "552",
+            "Funds Disbursement": "652",
+            "Reason Code": "5300"
+          }
+        }
+      },
+      {
+        "change_type": "row_added",
+        "table_title": "Fee Collection/Funds Disbursement",
+        "key": "5310",
+        "row": {
+          "type": "grid_row",
+          "page": 267,
+          "table_title": "Fee Collection/Funds Disbursement",
+          "anchor_column": "Reason Code",
+          "columns": {
+            "Fee Collection": "559",
+            "Funds Disbursement": "659",
+            "Reason Code": "5310"
+          }
+        }
+      },
+      {
+        "change_type": "row_added",
+        "table_title": "Fee Collection/Funds Disbursement",
+        "key": "5320",
+        "row": {
+          "type": "grid_row",
+          "page": 267,
+          "table_title": "Fee Collection/Funds Disbursement",
+          "anchor_column": "Reason Code",
+          "columns": {
+            "Fee Collection": "558",
+            "Funds Disbursement": "658",
+            "Reason Code": "5320"
+          }
+        }
+      },
+      {
+        "change_type": "row_added",
+        "table_title": "Fee Collection/Funds Disbursement",
+        "key": "5330",
+        "row": {
+          "type": "grid_row",
+          "page": 267,
+          "table_title": "Fee Collection/Funds Disbursement",
+          "anchor_column": "Reason Code",
+          "columns": {
+            "Fee Collection": "560",
+            "Funds Disbursement": "660",
+            "Reason Code": "5330"
+          }
+        }
+      },
+      {
+        "change_type": "row_added",
+        "table_title": "Fee Collection/Funds Disbursement",
+        "key": "5340",
+        "row": {
+          "type": "grid_row",
+          "page": 267,
+          "table_title": "Fee Collection/Funds Disbursement",
+          "anchor_column": "Reason Code",
+          "columns": {
+            "Fee Collection": "561",
+            "Funds Disbursement": "661",
+            "Reason Code": "5340"
+          }
+        }
+      },
+      {
+        "change_type": "row_added",
+        "table_title": "Fee Collection/Funds Disbursement",
+        "key": "5350",
+        "row": {
+          "type": "grid_row",
+          "page": 267,
+          "table_title": "Fee Collection/Funds Disbursement",
+          "anchor_column": "Reason Code",
+          "columns": {
+            "Fee Collection": "562",
+            "Funds Disbursement": "662",
+            "Reason Code": "5350"
+          }
+        }
+      },
+      {
+        "change_type": "row_added",
+        "table_title": "Fee Collection/Funds Disbursement",
+        "key": "5360",
+        "row": {
+          "type": "grid_row",
+          "page": 267,
+          "table_title": "Fee Collection/Funds Disbursement",
+          "anchor_column": "Reason Code",
+          "columns": {
+            "Fee Collection": "563",
+            "Funds Disbursement": "663",
+            "Reason Code": "5360"
+          }
+        }
+      },
+      {
+        "change_type": "row_added",
+        "table_title": "Fee Collection/Funds Disbursement",
+        "key": "6140",
+        "row": {
+          "type": "grid_row",
+          "page": 267,
+          "table_title": "Fee Collection/Funds Disbursement",
+          "anchor_column": "Reason Code",
+          "columns": {
+            "Fee Collection": "584",
+            "Funds Disbursement": "684",
+            "Reason Code": "6140"
+          }
+        }
+      },
+      {
+        "change_type": "row_added",
+        "table_title": "Fee Collection/Funds Disbursement",
+        "key": "6150",
+        "row": {
+          "type": "grid_row",
+          "page": 267,
+          "table_title": "Fee Collection/Funds Disbursement",
+          "anchor_column": "Reason Code",
+          "columns": {
+            "Fee Collection": "585",
+            "Funds Disbursement": "685",
+            "Reason Code": "6150"
+          }
+        }
+      },
+      {
+        "change_type": "row_added",
+        "table_title": "Fee Collection/Funds Disbursement",
+        "key": "6160",
+        "row": {
+          "type": "grid_row",
+          "page": 267,
+          "table_title": "Fee Collection/Funds Disbursement",
+          "anchor_column": "Reason Code",
+          "columns": {
+            "Fee Collection": "586",
+            "Funds Disbursement": "686",
+            "Reason Code": "6160"
+          }
+        }
+      },
+      {
+        "change_type": "row_added",
+        "table_title": "Fee Collection/Funds Disbursement",
+        "key": "6170",
+        "row": {
+          "type": "grid_row",
+          "page": 267,
+          "table_title": "Fee Collection/Funds Disbursement",
+          "anchor_column": "Reason Code",
+          "columns": {
+            "Fee Collection": "587",
+            "Funds Disbursement": "687",
+            "Reason Code": "6170"
+          }
+        }
+      },
+      {
+        "change_type": "row_added",
+        "table_title": "Fee Collection/Funds Disbursement",
+        "key": "6181",
+        "row": {
+          "type": "grid_row",
+          "page": 267,
+          "table_title": "Fee Collection/Funds Disbursement",
+          "anchor_column": "Reason Code",
+          "columns": {
+            "Fee Collection": "591",
+            "Funds Disbursement": "691",
+            "Reason Code": "6181"
+          }
+        }
+      },
+      {
+        "change_type": "row_added",
+        "table_title": "Fee Collection/Funds Disbursement",
+        "key": "6182",
+        "row": {
+          "type": "grid_row",
+          "page": 267,
+          "table_title": "Fee Collection/Funds Disbursement",
+          "anchor_column": "Reason Code",
+          "columns": {
+            "Fee Collection": "592",
+            "Funds Disbursement": "692",
+            "Reason Code": "6182"
+          }
+        }
+      },
+      {
+        "change_type": "row_added",
+        "table_title": "Fee Collection/Funds Disbursement",
+        "key": "6183",
+        "row": {
+          "type": "grid_row",
+          "page": 267,
+          "table_title": "Fee Collection/Funds Disbursement",
+          "anchor_column": "Reason Code",
+          "columns": {
+            "Fee Collection": "593",
+            "Funds Disbursement": "693",
+            "Reason Code": "6183"
+          }
+        }
+      },
+      {
+        "change_type": "row_added",
+        "table_title": "Fee Collection/Funds Disbursement",
+        "key": "6184",
+        "row": {
+          "type": "grid_row",
+          "page": 267,
+          "table_title": "Fee Collection/Funds Disbursement",
+          "anchor_column": "Reason Code",
+          "columns": {
+            "Fee Collection": "594",
+            "Funds Disbursement": "694",
+            "Reason Code": "6184"
+          }
+        }
+      },
+      {
+        "change_type": "row_added",
+        "table_title": "Fee Collection/Funds Disbursement",
+        "key": "6185",
+        "row": {
+          "type": "grid_row",
+          "page": 267,
+          "table_title": "Fee Collection/Funds Disbursement",
+          "anchor_column": "Reason Code",
+          "columns": {
+            "Fee Collection": "595",
+            "Funds Disbursement": "695",
+            "Reason Code": "6185"
+          }
+        }
+      },
+      {
+        "change_type": "row_added",
+        "table_title": "Fee Collection/Funds Disbursement",
+        "key": "6186",
+        "row": {
+          "type": "grid_row",
+          "page": 267,
+          "table_title": "Fee Collection/Funds Disbursement",
+          "anchor_column": "Reason Code",
+          "columns": {
+            "Fee Collection": "596",
+            "Funds Disbursement": "696",
+            "Reason Code": "6186"
+          }
+        }
+      },
+      {
+        "change_type": "row_added",
+        "table_title": "Fee Collection/Funds Disbursement",
+        "key": "6187",
+        "row": {
+          "type": "grid_row",
+          "page": 267,
+          "table_title": "Fee Collection/Funds Disbursement",
+          "anchor_column": "Reason Code",
+          "columns": {
+            "Fee Collection": "597",
+            "Funds Disbursement": "697",
+            "Reason Code": "6187"
+          }
+        }
+      },
+      {
+        "change_type": "row_added",
+        "table_title": "Fee Collection/Funds Disbursement",
+        "key": "other",
+        "row": {
+          "type": "grid_row",
+          "page": 267,
+          "table_title": "Fee Collection/Funds Disbursement",
+          "anchor_column": "Reason Code",
+          "columns": {
+            "Fee Collection": "599",
+            "Funds Disbursement": "699",
+            "Reason Code": "Other"
+          }
+        }
+      },
+      {
+        "change_type": "paragraph_added",
+        "text": "This table contains the VSS Codes for charge types."
+      },
+      {
+        "change_type": "paragraph_added",
+        "text": "This table contains the VSS Codes for business transaction cycles. This table contains the VSS Codes for business mode types."
+      },
+      {
+        "change_type": "paragraph_added",
+        "text": "This table contains the VSS Codes for regions."
+      },
+      {
+        "change_type": "paragraph_added",
+        "text": "This table contains the VSS Codes for settlement services."
+      },
+      {
+        "change_type": "paragraph_removed",
+        "text": "This table contains the VSS Codes for business mode types. This table contains the VSS Codes for charge types."
+      },
+      {
+        "change_type": "paragraph_removed",
+        "text": "This table contains the VSS Codes for regions. This table contains the VSS Codes for settlement services."
+      },
+      {
+        "change_type": "paragraph_removed",
+        "text": "This table contains the VSS Codes for business transaction cycles."
+      }
+    ],
+    "appendix_d": [
+      {
+        "change_type": "row_added",
+        "table_title": "Financial Transaction Record/Visa Payment Service-Specific – V22230",
+        "key": "purchase identifier format purchase id number",
+        "row": {
+          "type": "grid_row",
+          "page": 382,
+          "table_title": "Financial Transaction Record/Visa Payment Service-Specific – V22230",
+          "anchor_column": "Field Name",
+          "columns": {
+            "Comments": "Not applicable Not applicable",
+            "Field Sources": "Field 62.7, Position 1 Field 62.7, Position 2–17",
+            "Attribute": "1 AN 16 AN",
+            "Position": "8 9–24",
+            "Field Name": "Purchase Identifier Format Purchase ID Number"
+          }
+        }
+      },
+      {
+        "change_type": "row_removed",
+        "table_title": "Financial Transaction Record/Visa Payment Service-Specific – V22230",
+        "key": "purchase id number",
+        "row": {
+          "type": "grid_row",
+          "page": 382,
+          "table_title": "Financial Transaction Record/Visa Payment Service-Specific – V22230",
+          "anchor_column": "Field Name",
+          "columns": {
+            "Comments": "Not applicable",
+            "Field Sources": "Field 62.7, Position 2–17",
+            "Attribute": "16 AN",
+            "Position": "9–24",
+            "Field Name": "Purchase ID Number"
+          }
+        }
+      },
+      {
+        "change_type": "row_removed",
+        "table_title": "Financial Transaction Record/Visa Payment Service-Specific – V22230",
+        "key": "purchase identifier format",
+        "row": {
+          "type": "grid_row",
+          "page": 381,
+          "table_title": "Financial Transaction Record/Visa Payment Service-Specific – V22230",
+          "anchor_column": "Field Name",
+          "columns": {
+            "Comments": "Not applicable",
+            "Field Sources": "Field 62.7, Position 1",
+            "Attribute": "1 AN",
+            "Position": "8",
+            "Field Name": "Purchase Identifier Format"
+          }
+        }
+      },
+      {
+        "change_type": "row_added",
+        "table_title": "Financial Transaction Record 1.1 – V22201",
+        "key": "secondary credential",
+        "row": {
+          "type": "grid_row",
+          "page": 368,
+          "table_title": "Financial Transaction Record 1.1 – V22201",
+          "anchor_column": "Field Name",
+          "columns": {
+            "Comments": "Populated only in Issuer record. Acquirer record will have spaces.",
+            "Field Sources": "",
+            "Attribute": "19 AN",
+            "Position": "79–97",
+            "Field Name": "Secondary Credential"
+          }
+        }
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Attribute",
+        "old": "52 AN",
+        "new": "33 AN",
+        "similarity_ratio": 0.6,
+        "table_title": "Financial Transaction Record 1.1 – V22201",
+        "key": "filler",
+        "ai_category": "extraction_noise",
+        "ai_reason": "El cambio de '52 AN' a '33 AN' es un artefacto de extracción de PDF, ya que los códigos de 2 dígitos seguidos de 'AN' son estándar en el contexto de Visa, pero el valor específico cambia sin motivo real.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Position",
+        "old": "79–130",
+        "new": "98–130",
+        "similarity_ratio": 0.833,
+        "table_title": "Financial Transaction Record 1.1 – V22201",
+        "key": "filler",
+        "ai_category": "business_rule_change",
+        "ai_reason": "El rango de posiciones cambia de 79-130 a 98-130, lo que indica una modificación en la regla de negocio que define el rango válido.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "Trailer Record – V22900",
+        "duplicate_keys_a": [
+          "filler"
+        ],
+        "duplicate_keys_b": [
+          "filler"
+        ]
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "V.I.P. Release 2.2 Format Record Summary",
+        "duplicate_keys_a": [
+          "administrative message",
+          "file maintenance",
+          "financial transaction"
+        ],
+        "duplicate_keys_b": [
+          "administrative message",
+          "file maintenance",
+          "financial transaction"
+        ]
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "Financial Transaction Record/National Net Data – V22275",
+        "duplicate_keys_a": [
+          "reserved"
+        ],
+        "duplicate_keys_b": [
+          "reserved"
+        ]
+      },
+      {
+        "change_type": "row_added",
+        "table_title": "Financial Transaction Fee Record – V23210",
+        "key": "applied special service",
+        "row": {
+          "type": "grid_row",
+          "page": 422,
+          "table_title": "Financial Transaction Fee Record – V23210",
+          "anchor_column": "Field Name",
+          "columns": {
+            "Comments": "Values : 1 = VDCAP Space = Default",
+            "Field Sources": "F111.56.89",
+            "Attribute": "1 AN",
+            "Position": "43",
+            "Field Name": "Applied Special Service"
+          }
+        }
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Attribute",
+        "old": "82 AN",
+        "new": "81 AN",
+        "similarity_ratio": 0.8,
+        "table_title": "Financial Transaction Fee Record – V23210",
+        "key": "filler",
+        "ai_category": "business_rule_change",
+        "ai_reason": "El código de atributo cambió de 82 a 81, lo que indica una modificación en la regla de negocio relacionada con el cálculo de tarifas.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Position",
+        "old": "43–130",
+        "new": "44–130",
+        "similarity_ratio": 0.833,
+        "table_title": "Financial Transaction Fee Record – V23210",
+        "key": "filler",
+        "ai_category": "business_rule_change",
+        "ai_reason": "El rango de posición cambió de 43–130 a 44–130, lo que indica un cambio en la regla de negocio relacionado con los límites de posición.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_added",
+        "table_title": "Financial Transaction Record 4 – V23203",
+        "key": "secondary credential",
+        "row": {
+          "type": "grid_row",
+          "page": 421,
+          "table_title": "Financial Transaction Record 4 – V23203",
+          "anchor_column": "Field Name",
+          "columns": {
+            "Comments": "Populate only Issuer record.  Acquirer record will have spaces. Space filled.",
+            "Field Sources": "",
+            "Attribute": "19 AN",
+            "Position": "39–57",
+            "Field Name": "Secondary Credential"
+          }
+        }
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Attribute",
+        "old": "92 AN",
+        "new": "73 AN",
+        "similarity_ratio": 0.6,
+        "table_title": "Financial Transaction Record 4 – V23203",
+        "key": "filler",
+        "ai_category": "extraction_noise",
+        "ai_reason": "El cambio de '92 AN' a '73 AN' es un artefacto de extracción de PDF, ya que los valores numéricos cambian sin motivo real en el contexto del reporte.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Position",
+        "old": "39–130",
+        "new": "58–130",
+        "similarity_ratio": 0.667,
+        "table_title": "Financial Transaction Record 4 – V23203",
+        "key": "filler",
+        "ai_category": "business_rule_change",
+        "ai_reason": "El rango de posiciones cambia de 39-130 a 58-130, lo que indica una modificación en la regla de negocio que define el rango válido.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Comments",
+        "old": "Space filled.",
+        "new": "",
+        "similarity_ratio": 0.0,
+        "table_title": "Financial Transaction Record 4 – V23203",
+        "key": "pan reference identifier",
+        "ai_category": "extraction_noise",
+        "ai_reason": "El valor en la edición nueva es un texto vacío o artefacto de extracción de PDF, no un cambio real de contenido.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_added",
+        "table_title": "Financial Transaction Record 5 – V22226",
+        "key": "scheme identifier",
+        "row": {
+          "type": "grid_row",
+          "page": 379,
+          "table_title": "Financial Transaction Record 5 – V22226",
+          "anchor_column": "Field Name",
+          "columns": {
+            "Comments": "01: Visa 02: Other Space: Default",
+            "Field Sources": "F104, DSI 57, Tag 84",
+            "Attribute": "2 AN",
+            "Position": "125-126",
+            "Field Name": "Scheme Identifier"
+          }
+        }
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Attribute",
+        "old": "6 AN",
+        "new": "4 AN",
+        "similarity_ratio": 0.75,
+        "table_title": "Financial Transaction Record 5 – V22226",
+        "key": "filler",
+        "ai_category": "business_rule_change",
+        "ai_reason": "El valor de la columna 'Attribute' cambia de '6 AN' a '4 AN', lo que indica una modificación en la regla de negocio relacionada con el valor numérico.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Position",
+        "old": "125–130",
+        "new": "127–130",
+        "similarity_ratio": 0.857,
+        "table_title": "Financial Transaction Record 5 – V22226",
+        "key": "filler",
+        "ai_category": "business_rule_change",
+        "ai_reason": "El rango de valores cambia de 125–130 a 127–130, lo que indica un cambio en la regla de negocio sobre el rango de transacciones.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "Financial Transaction Record 5 – V22226",
+        "duplicate_keys_a": [
+          "reserved"
+        ],
+        "duplicate_keys_b": [
+          "reserved"
+        ]
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "Administrative Message 2 Transaction Record – V22401",
+        "duplicate_keys_a": [
+          "filler"
+        ],
+        "duplicate_keys_b": [
+          "filler"
+        ]
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "Administrative Message 1 Transaction Record – V22400",
+        "duplicate_keys_a": [
+          "filler"
+        ],
+        "duplicate_keys_b": [
+          "filler"
+        ]
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "Financial Transaction Record/Money Transfer and Personal Payments-Specific – V22276",
+        "duplicate_keys_a": [
+          "reserved"
+        ],
+        "duplicate_keys_b": [
+          "reserved"
+        ]
+      },
+      {
+        "change_type": "row_added",
+        "table_title": "Financial Transaction Fee Record – V22261",
+        "key": "applied special service",
+        "row": {
+          "type": "grid_row",
+          "page": 391,
+          "table_title": "Financial Transaction Fee Record – V22261",
+          "anchor_column": "Field Name",
+          "columns": {
+            "Comments": "Values : 1 = VDCAP Space = Default",
+            "Field Sources": "F111.56.89",
+            "Attribute": "1 AN",
+            "Position": "62",
+            "Field Name": "Applied Special Service"
+          }
+        }
+      },
+      {
+        "change_type": "row_added",
+        "table_title": "Financial Transaction Fee Record – V22261",
+        "key": "b2b program id enabler verification value (evv)",
+        "row": {
+          "type": "grid_row",
+          "page": 390,
+          "table_title": "Financial Transaction Fee Record – V22261",
+          "anchor_column": "Field Name",
+          "columns": {
+            "Comments": "This field contains the B2B program identifier. 5-alphanumeric character (A-Z, 0-9) – no special characters allowed.",
+            "Field Sources": "Not applicable Not applicable",
+            "Attribute": "2 AN 5 AN",
+            "Position": "55–56 57–61",
+            "Field Name": "B2B Program ID Enabler Verification Value (EVV)"
+          }
+        }
+      },
+      {
+        "change_type": "row_added",
+        "table_title": "Financial Transaction Fee Record – V22261",
+        "key": "transaction integrity fee debit/credit indicator selected program id",
+        "row": {
+          "type": "grid_row",
+          "page": 390,
+          "table_title": "Financial Transaction Fee Record – V22261",
+          "anchor_column": "Field Name",
+          "columns": {
+            "Comments": "C for Credit, D for Debit, Space when Fee is zero This field will contain the selected program ID associated with the agreed fee rate.",
+            "Field Sources": "Not applicable TLV Field 111, Dataset ID 02, Tag C0",
+            "Attribute": "1 AN 4 AN",
+            "Position": "49 50–53",
+            "Field Name": "Transaction Integrity Fee Debit/Credit Indicator Selected Program ID"
+          }
+        }
+      },
+      {
+        "change_type": "row_removed",
+        "table_title": "Financial Transaction Fee Record – V22261",
+        "key": "b2b program id",
+        "row": {
+          "type": "grid_row",
+          "page": 390,
+          "table_title": "Financial Transaction Fee Record – V22261",
+          "anchor_column": "Field Name",
+          "columns": {
+            "Comments": "This field contains the B2B program identifier.",
+            "Field Sources": "Not applicable",
+            "Attribute": "2 AN",
+            "Position": "55–56",
+            "Field Name": "B2B Program ID"
+          }
+        }
+      },
+      {
+        "change_type": "row_removed",
+        "table_title": "Financial Transaction Fee Record – V22261",
+        "key": "enabler verification value (evv)",
+        "row": {
+          "type": "grid_row",
+          "page": 391,
+          "table_title": "Financial Transaction Fee Record – V22261",
+          "anchor_column": "Field Name",
+          "columns": {
+            "Comments": "5-alphanumeric character (A-Z, 0-9) – no special characters allowed.",
+            "Field Sources": "Not applicable",
+            "Attribute": "5 AN",
+            "Position": "57–61",
+            "Field Name": "Enabler Verification Value (EVV)"
+          }
+        }
+      },
+      {
+        "change_type": "row_removed",
+        "table_title": "Financial Transaction Fee Record – V22261",
+        "key": "transaction integrity fee debit/credit indicator agreement id",
+        "row": {
+          "type": "grid_row",
+          "page": 390,
+          "table_title": "Financial Transaction Fee Record – V22261",
+          "anchor_column": "Field Name",
+          "columns": {
+            "Comments": "C for Credit, D for Debit, Space when Fee is zero This field will contain the agreement ID associated with the agreed fee rate.",
+            "Field Sources": "Not applicable TLV Field 111, Dataset ID 02, Tag C0",
+            "Attribute": "1 AN 4 AN",
+            "Position": "49 50–53",
+            "Field Name": "Transaction Integrity Fee Debit/Credit Indicator Agreement ID"
+          }
+        }
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Attribute",
+        "old": "69 AN",
+        "new": "68 AN",
+        "similarity_ratio": 0.8,
+        "table_title": "Financial Transaction Fee Record – V22261",
+        "key": "filler",
+        "ai_category": "extraction_noise",
+        "ai_reason": "El cambio en el valor de la columna 'Attribute' (de '69 AN' a '68 AN') parece ser un artefacto de extracción de PDF, ya que el número cambia sin una explicación lógica en el contexto del reporte.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Position",
+        "old": "62–130",
+        "new": "63–130",
+        "similarity_ratio": 0.833,
+        "table_title": "Financial Transaction Fee Record – V22261",
+        "key": "filler",
+        "ai_category": "business_rule_change",
+        "ai_reason": "El rango de posiciones cambia de 62–130 a 63–130, lo que indica una modificación en la regla de negocio relacionada con los límites de posiciones.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "Advice Notification Transaction Record/Interlink-Specific – V22600",
+        "duplicate_keys_a": [
+          "filler"
+        ],
+        "duplicate_keys_b": [
+          "filler"
+        ]
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Comments",
+        "old": "This field will contain a value that identifies the deferred OCT request type. Valid values are: 00 (Not a deferred OCT) 01 (Originator hold) 02 (Visa deferred OCT hold, default interval) 09 (Cancel pending deferred OCT request) 0Q (Query the status of the deferred OCT) Note: The values of 09 and 0Q are logged only for the originating acquirer.",
+        "new": "This field will contain a value that identifies the deferred OCT request type. Valid values are: 00 (Not a deferred OCT) 01 (Originator hold) 02 (Visa deferred OCT hold, default interval) 09 (Cancel pending deferred OCT request) 0Q (Query the status of the deferred OCT) 0R (Recycling Payout) Note: The values of 09, 0Q, and 0R are logged only for the originating acquirer.",
+        "similarity_ratio": 0.951,
+        "table_title": "Financial Transaction Record/mVisa Record – V22228",
+        "key": "service processing type",
+        "ai_category": "business_rule_change",
+        "ai_reason": "Se agregó un nuevo valor válido (0R) en la lista de tipos de solicitudes de OCT deferidas, lo que modifica la regla de negocio.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Comments",
+        "old": "This field contains a value that identifies the deferred OCT request type. Valid Values are: 00 (Not a deferred OCT) 01 (Originator hold) 02 (Visa deferred OCT hold, default interval) 09 (Cancel pending deferred OCT request) 0Q (Query the status of the deferred OCT) Note: The values of 09 and 0Q are logged only for the originating acquirer.",
+        "new": "This field contains a value that identifies the deferred OCT request type. Valid Values are: 00 (Not a deferred OCT) 01 (Originator hold) 02 (Visa deferred OCT hold, default interval) 09 (Cancel pending deferred OCT request) 0Q (Query the status of the deferred OCT) 0R (Recycling Payout) Note: The values of 09, 0Q, and 0R are logged only for the originating acquirer.",
+        "similarity_ratio": 0.951,
+        "table_title": "Financial Transaction Record 3 – V23202",
+        "key": "service processing type",
+        "ai_category": "business_rule_change",
+        "ai_reason": "Se agregó un nuevo valor válido '0R (Recycling Payout)' a la lista de valores del campo, lo que modifica la regla de negocio.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "Financial Maintenance Transaction Record – V22300",
+        "duplicate_keys_a": [
+          "filler"
+        ],
+        "duplicate_keys_b": [
+          "filler"
+        ]
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "Financial Transaction Record/Multicurrency-Specific – V22260",
+        "duplicate_keys_a": [
+          "filler"
+        ],
+        "duplicate_keys_b": [
+          "filler"
+        ]
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "V.I.P. Release 2.2 Format Record Summary Header Record – V22000",
+        "duplicate_keys_a": [
+          "filler"
+        ],
+        "duplicate_keys_b": [
+          "filler"
+        ]
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "File Maintenance–Address Verification File Update – V22310",
+        "duplicate_keys_a": [
+          "filler"
+        ],
+        "duplicate_keys_b": [
+          "filler"
+        ]
+      },
+      {
+        "change_type": "paragraph_added",
+        "text": "l"
+      },
+      {
+        "change_type": "paragraph_added",
+        "text": "l"
+      }
+    ],
+    "appendix_e": [
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "SMS (Including Interlink) Transactions Cross-Reference to VSS Business Transaction Types",
+        "duplicate_keys_a": [
+          "reversal"
+        ],
+        "duplicate_keys_b": [
+          "reversal"
+        ]
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "SMS (Excluding Interlink) Transactions Cross-Reference to VSS Business Transaction Types",
+        "duplicate_keys_a": [
+          "adjustment",
+          "adjustment (back office)",
+          "atm",
+          "atm transfer",
+          "cash disbursement adjustment",
+          "dispute financial",
+          "dispute financial reversal",
+          "dispute response financial",
+          "pos",
+          "pos balance inquiry",
+          "pos payment order",
+          "purchase",
+          "reversal",
+          "teller-originated"
+        ],
+        "duplicate_keys_b": [
+          "adjustment",
+          "adjustment (back office)",
+          "atm",
+          "atm transfer",
+          "cash disbursement adjustment",
+          "dispute financial",
+          "dispute financial reversal",
+          "dispute response financial",
+          "pos",
+          "pos balance inquiry",
+          "pos payment order",
+          "purchase",
+          "reversal",
+          "teller-originated"
+        ]
+      }
+    ]
+  },
+  "ai_summary": {
+    "extraction_noise": 4,
+    "business_rule_change": 9
+  }
+}

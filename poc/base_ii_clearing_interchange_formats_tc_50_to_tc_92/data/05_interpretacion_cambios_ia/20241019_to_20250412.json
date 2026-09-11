@@ -1,0 +1,36 @@
+{
+  "manual": "base_ii_clearing_interchange_formats_tc_50_to_tc_92",
+  "edition_a": "20241019",
+  "edition_b": "20250412",
+  "summary": {
+    "section_added": 2,
+    "section_removed": 1
+  },
+  "changes": [
+    {
+      "change_type": "section_added",
+      "title": "TC 54 - TCR 0 Edit Package Release 4.0 Table Update Record Transactions",
+      "signature": "Record Hash Total",
+      "signature_position": "3-4",
+      "num_rows": 11,
+      "num_cards": 18
+    },
+    {
+      "change_type": "section_added",
+      "title": "TC 54 - TCR 0 Visa Clearing Exchange Table Update Record Transactions",
+      "signature": "Record Hash Total",
+      "signature_position": "3-4",
+      "num_rows": 11,
+      "num_cards": 16
+    },
+    {
+      "change_type": "section_removed",
+      "title": "TC 54 - TCR 0",
+      "signature": "Record Hash Total",
+      "signature_position": "3-4",
+      "num_rows": 11,
+      "num_cards": 18
+    }
+  ],
+  "ai_summary": {}
+}

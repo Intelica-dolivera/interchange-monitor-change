@@ -1,0 +1,1829 @@
+{
+  "manual": "visanet_settlement_service_vss_user_guide_volume_1_specifications",
+  "edition_a": "20231013",
+  "edition_b": "20250412",
+  "summary": {
+    "section_added": 4,
+    "duplicate_paragraph_warning": 18,
+    "paragraph_added": 36,
+    "paragraph_removed": 45,
+    "paragraph_content_changed": 8,
+    "paragraph_reflowed": 20,
+    "duplicate_pair_key_warning": 1
+  },
+  "changes": [
+    {
+      "change_type": "section_added",
+      "path": [
+        "VSS Report Delivery",
+        "VSS Reports on Visa Access"
+      ],
+      "num_paragraphs": 1,
+      "num_pairs": 0
+    },
+    {
+      "change_type": "section_added",
+      "path": [
+        "VSS Report Delivery",
+        "VSS Reports on Visa Access",
+        "Available Reports"
+      ],
+      "num_paragraphs": 2,
+      "num_pairs": 0
+    },
+    {
+      "change_type": "section_added",
+      "path": [
+        "VSS Report Delivery",
+        "VSS Reports on Visa Access",
+        "Accessing Visa Access and VisaNet Settlement Service"
+      ],
+      "num_paragraphs": 3,
+      "num_pairs": 0
+    },
+    {
+      "change_type": "section_added",
+      "path": [
+        "VSS Report Delivery",
+        "VSS Reports on Visa Access",
+        "Reports Access"
+      ],
+      "num_paragraphs": 7,
+      "num_pairs": 0
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "Settlement Hierarchies",
+        "Settlement Hierarchy Examples",
+        "Custom Client-Level Settlement"
+      ],
+      "duplicate_texts_a": [
+        "b and c."
+      ],
+      "duplicate_texts_b": []
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "Settlement Hierarchies",
+        "Settlement Hierarchy Examples",
+        "Custom Client-Level Settlement"
+      ],
+      "text": "Bank A has its own funds transfer, while funds transfer for banks B and C is performed by the processor. A summary-level settlmenet reporting entity (SRE) (SRE 5) is defined as the funds transfer SRE for banks B and C. All three banks use Processor A to send and receive transactions to and from VisaNet. To receive settlement reports for all three banks, Processor A is defined with an SRE in the settlement hierarchy. SRE 1 represents the client-level funds transfer for Bank A, and SRE 5 represents the funds transfer for banks B and C."
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "Settlement Hierarchies",
+        "Settlement Hierarchy Examples",
+        "Custom Client-Level Settlement"
+      ],
+      "text": "B and C."
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "Settlement Hierarchies",
+        "Settlement Hierarchy Examples",
+        "Custom Client-Level Settlement"
+      ],
+      "text": "B and C."
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "Settlement Hierarchies",
+        "Settlement Hierarchy Examples",
+        "Custom Client-Level Settlement"
+      ],
+      "text": "All three banks use Processor A to send and receive transactions to and from VisaNet. To receive settlement reports for all three banks, Processor A is defined with an SRE in the settlement hierarchy. SRE 1 represents the client-level funds transfer for Bank A, and SRE 5 represents the funds transfer for banks"
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "Settlement Hierarchies",
+        "Settlement Hierarchy Examples",
+        "Custom Client-Level Settlement"
+      ],
+      "text": "Bank A has its own funds transfer, while funds transfer for banks B and C is performed by the processor. A summary-level settlmenet reporting entity (SRE) (SRE 5) is defined as the funds transfer SRE for banks"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "Settlement Hierarchies",
+        "Settlement Hierarchy Examples",
+        "BASE II- and SMS-Connected Activity"
+      ],
+      "text": "The settlement reports requested for settlement reporting entity (SRE) 5 provide SMS and BASE II consolidated information. Settlement reports requested for SRE 1 provide BASE II-connected settlement information. Settlement reports requested for SREs 2, 3, and 4 provide SMS- connected settlement information for Visa, Plus, and Interlink transactions, respectively. SRE 5 is defined as the funds transfer SRE."
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "Settlement Hierarchies",
+        "Settlement Hierarchy Examples",
+        "BASE II- and SMS-Connected Activity"
+      ],
+      "text": "2, 3, and 4 provide SMS-"
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "Settlement Hierarchies",
+        "Settlement Hierarchy Examples",
+        "BASE II- and SMS-Connected Activity"
+      ],
+      "text": "connected settlement information for Visa, Plus, and Interlink transactions, respectively. SRE 5 is defined as the funds transfer SRE."
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "Settlement Hierarchies",
+        "Settlement Hierarchy Examples",
+        "BASE II- and SMS-Connected Activity"
+      ],
+      "text": "The settlement reports requested for settlement reporting entity (SRE) 5 provide SMS and BASE II consolidated information. Settlement reports requested for SRE 1 provide BASE II-connected settlement information. Settlement reports requested for SREs"
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "VSS Settlement Cutoff Times"
+      ],
+      "duplicate_texts_a": [
+        "1000",
+        "1100"
+      ],
+      "duplicate_texts_b": [
+        "1000",
+        "1100"
+      ]
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "VSS Fees and Charges Reports",
+        "National Settlement Charges"
+      ],
+      "duplicate_texts_a": [
+        "not applicable"
+      ],
+      "duplicate_texts_b": [
+        "not applicable"
+      ]
+    },
+    {
+      "change_type": "paragraph_content_changed",
+      "path": [
+        "VSS Fees and Charges Reports",
+        "Currency Conversion Fees"
+      ],
+      "old": "The Currency Conversion Fees Report (VSS–210) and Monthly Currency Conversion Fees Report (VSS–210–M) list currency-conversion information for issuers. These reports list Visa currency-conversion fees and associated interchange in both the settlement and clearing currency (cardholder billing currency). The optional issuer fee is also listed in the clearing currency.",
+      "new": "The Currency Conversion Fees Report (VSS–210) and Monthly Currency Conversion Fees Report (VSS–210–M) list currency-conversion information for issuers. These reports list Visa currency-conversion fees and associated interchange in both the settlement and clearing currency (cardholder billing currency). The Visa Issuer FX Calculator amount is also listed in the clearing currency.",
+      "similarity_ratio": 0.932
+    },
+    {
+      "change_type": "paragraph_content_changed",
+      "path": [
+        "VSS Fees and Charges Reports",
+        "Other VSS Processing and Nonfinancial Charges – U.S. Only"
+      ],
+      "old": "U.S. clients that do not have their own VisaNet Access Point (VAP) endpoint (that decide to settle for themselves) are billed a monthly charge for funds transfers. The charge is intended to offset the added expense for Visa to send settlement wires to those that want to settle directly with Visa. The monthly charge is billed through the Billing Statement. There is no charge for the primary VisaNet funds transfer point (usually the VAP-connected processor if the processor is a funds transfer point). Clients that settle for themselves should also expect to receive wire charges from their settlement banks. All U.S. clients are billed monthly for nonfinancial transaction processing charges, which include a charge for each report generation record and for each item of clients settlement data. These charges also apply to report generation records and each item of client settlement data for any summary-level settlement reporting entities (SREs) that the client establishes. See Visa U.S.A. Inc. Operating Regulations, Volume 1— 1—General Rules",
+      "new": "U.S. clients that do not have their own VisaNet Access Point (VAP) endpoint (that decide to settle for themselves) are billed a monthly charge for funds transfers. The charge is intended to offset the added expense for Visa to send settlement wires to those that want to settle directly with Visa. The monthly charge is billed through the Billing Statement. There is no charge for the primary VisaNet funds transfer point (usually the VAP-connected processor if the processor is a funds transfer point). Clients that settle for themselves should also expect to receive wire charges from their settlement banks. All U.S. clients are billed monthly for nonfinancial transaction processing charges, which include a charge for each report generation record and for each item of clients settlement data. These charges also apply to report generation records and each item of client settlement data for any summary-level settlement reporting entities (SREs) that the client establishes. See Visa U.S.A. Inc. Operating Regulations, Volume 1—General Rules",
+      "similarity_ratio": 0.986
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "VSS Reports",
+        "Daily VSS Settlement Reports"
+      ],
+      "duplicate_texts_a": [
+        "contains a summary of all transactions grouped:",
+        "daily vss settlement reports",
+        "provides summarized totals of the interchange values, reimbursement",
+        "reimbursement fees",
+        "report",
+        "report description",
+        "report id report title",
+        "sre settlement recap"
+      ],
+      "duplicate_texts_b": [
+        "contains a summary of all transactions grouped:",
+        "daily vss settlement reports",
+        "provides summarized totals of the interchange values, reimbursement",
+        "reimbursement fees",
+        "report",
+        "report description",
+        "report id report title",
+        "sre settlement recap"
+      ]
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "VSS Reports",
+        "Daily VSS Settlement Reports"
+      ],
+      "text": "conversion fees and Visa Issuer FX Calculator amounts."
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "VSS Reports",
+        "Daily VSS Settlement Reports"
+      ],
+      "text": "conversion fees and optional issuer fees."
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "VSS Reports",
+        "Daily VSS Processor Reports"
+      ],
+      "duplicate_texts_a": [
+        "provides summarized totals of transaction counts and values by"
+      ],
+      "duplicate_texts_b": [
+        "provides summarized totals of transaction counts and values by"
+      ]
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "Mandatory and Recommended VSS Reports",
+        "Recommended VSS Reports"
+      ],
+      "duplicate_texts_a": [
+        "consolidated settlement summary report (vss–111)",
+        "international service assessment report (vss–215)",
+        "recommended vss reports",
+        "settlement summary report (vss–110)",
+        "sms client"
+      ],
+      "duplicate_texts_b": [
+        "base ii client",
+        "consolidated settlement summary report (vss–111)",
+        "international service assessment report (vss–215)",
+        "recommended vss reports",
+        "settlement summary report (vss–110)",
+        "sms client"
+      ]
+    },
+    {
+      "change_type": "paragraph_reflowed",
+      "path": [
+        "Mandatory and Recommended VSS Reports",
+        "Recommended VSS Reports"
+      ],
+      "text_a": [
+        "BASE",
+        "II Client"
+      ],
+      "text_b": [
+        "BASE II Client"
+      ]
+    },
+    {
+      "change_type": "paragraph_reflowed",
+      "path": [
+        "Acquiring or Issuing Identifier Identification"
+      ],
+      "text_a": [
+        "Processors that want to distribute VisaNet Settlement Service (VSS) reports directly to clients can have the acquiring or issuing identifier identified in their report records. When this option is selected, the acquiring or issuing identifier of the lowest-level SRE is placed in the Destination Identifier field of the machine-readable (TC 46) and print-ready (TC 47) report records. This destination identifier identifies the report records of the client that owns the acquiring or issuing identifier. Reports are grouped under the acquiring or issuing identifier. The Edit Package strips the header information from reports, which includes the Destination Identifier field on print-ready (TC 47) records. Processors that choose the Destination Identifier field to facilitate report distribution must pull the TC 47 records from the original delivery file (ITF). If the acquiring or issuing identifier identification option is not used, the processor identifier is placed in the Destination Identifier field. The processor is always in the report records for summary-level SREs. The acquiring or issuing identifier identification option can be used to affect the sequence that report records are received. If the acquiring or issuing identifier is identified in report records, the records are received in acquiring or issuing identifier sequence."
+      ],
+      "text_b": [
+        "Processors that want to distribute VisaNet Settlement Service (VSS) reports directly to clients can have the acquiring or issuing identifier identified in their report records. When this option is selected, the acquiring or issuing identifier of the lowest-level SRE is placed in the Destination Identifier field of the machine-readable (TC 46) and print-ready (TC 47) report records. This destination identifier identifies the report records of the client that owns the acquiring or issuing identifier. Reports are grouped under the acquiring or issuing identifier. The Edit Package strips the header information from reports, which includes the Destination Identifier field on print-ready (TC 47) records. Processors that choose the Destination Identifier field to facilitate report distribution must pull the TC 47 records from the original delivery file (ITF). If the acquiring or issuing identifier identification option is not used, the processor identifier is placed in the Destination Identifier field. The processor is always in the report records for summary-level SREs.",
+        "The acquiring or issuing identifier identification option can be used to affect the sequence that report records are received. If the acquiring or issuing identifier is identified in report records, the records are received in acquiring or issuing identifier sequence."
+      ]
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "SMS Reports Descriptions",
+        "Available SMS Reports"
+      ],
+      "duplicate_texts_a": [
+        "a, c, r",
+        "c, i, r",
+        "c, r",
+        "lists messages rejected by visanet due to edit errors and late responses.",
+        "report",
+        "report sort order1",
+        "report title and function",
+        "shows exception items returned by the exception manager due to chargeback reduction service errors.",
+        "sms reports",
+        "t"
+      ],
+      "duplicate_texts_b": [
+        "a, c, r",
+        "c, i, r",
+        "c, r",
+        "lists messages rejected by visanet due to edit errors and late responses.",
+        "report",
+        "report sort order1",
+        "report title and function",
+        "shows exception items returned by the exception manager due to chargeback reduction service errors.",
+        "sms reports",
+        "t"
+      ]
+    },
+    {
+      "change_type": "duplicate_pair_key_warning",
+      "path": [
+        "SMS Raw Data Description"
+      ],
+      "duplicate_keys_a": [
+        [
+          "example 10: reconciliation of ep-110e report to vss–900–ps report",
+          "[accepted count]"
+        ],
+        [
+          "example 10: reconciliation of ep-110e report to vss–900–ps report",
+          "[total non-financial]"
+        ],
+        [
+          "example 10: reconciliation of ep-110e report to vss–900–ps report",
+          "accepted count"
+        ],
+        [
+          "example 10: reconciliation of ep-110e report to vss–900–ps report",
+          "any bank processing"
+        ],
+        [
+          "example 10: reconciliation of ep-110e report to vss–900–ps report",
+          "column"
+        ],
+        [
+          "example 10: reconciliation of ep-110e report to vss–900–ps report",
+          "row"
+        ],
+        [
+          "example 10: reconciliation of ep-110e report to vss–900–ps report",
+          "total non-financial"
+        ],
+        [
+          "example 1: reconciliation of sms600c report to vss–900–s report",
+          "column"
+        ],
+        [
+          "example 1: reconciliation of sms600c report to vss–900–s report",
+          "proc date"
+        ],
+        [
+          "example 1: reconciliation of sms600c report to vss–900–s report",
+          "reporting for"
+        ],
+        [
+          "example 1: reconciliation of sms600c report to vss–900–s report",
+          "row"
+        ],
+        [
+          "example 1: reconciliation of sms600c report to vss–900–s report",
+          "to crs"
+        ],
+        [
+          "example 1: reconciliation of sms600c report to vss–900–s report",
+          "total count"
+        ],
+        [
+          "example 1: reconciliation of sms600c report to vss–900–s report",
+          "total issuer transactions"
+        ],
+        [
+          "example 2: reconciliation of sms601c report to vss–900–s report",
+          "column"
+        ],
+        [
+          "example 2: reconciliation of sms601c report to vss–900–s report",
+          "proc date"
+        ],
+        [
+          "example 2: reconciliation of sms601c report to vss–900–s report",
+          "reporting for"
+        ],
+        [
+          "example 2: reconciliation of sms601c report to vss–900–s report",
+          "row"
+        ],
+        [
+          "example 2: reconciliation of sms601c report to vss–900–s report",
+          "to crs"
+        ],
+        [
+          "example 2: reconciliation of sms601c report to vss–900–s report",
+          "total acquirer transactions"
+        ],
+        [
+          "example 3: reconciliation of vss–120 report to vss–900–s report",
+          "clearing currency"
+        ],
+        [
+          "example 3: reconciliation of vss–120 report to vss–900–s report",
+          "column"
+        ],
+        [
+          "example 3: reconciliation of vss–120 report to vss–900–s report",
+          "international settlement service"
+        ],
+        [
+          "example 3: reconciliation of vss–120 report to vss–900–s report",
+          "reporting for"
+        ],
+        [
+          "example 3: reconciliation of vss–120 report to vss–900–s report",
+          "row"
+        ],
+        [
+          "example 4: reconciliation of sms600c report to vss–900–ps report",
+          "acq/iss id"
+        ],
+        [
+          "example 4: reconciliation of sms600c report to vss–900–ps report",
+          "column"
+        ],
+        [
+          "example 4: reconciliation of sms600c report to vss–900–ps report",
+          "con / stip"
+        ],
+        [
+          "example 4: reconciliation of sms600c report to vss–900–ps report",
+          "proc date"
+        ],
+        [
+          "example 4: reconciliation of sms600c report to vss–900–ps report",
+          "processor"
+        ],
+        [
+          "example 4: reconciliation of sms600c report to vss–900–ps report",
+          "row"
+        ],
+        [
+          "example 4: reconciliation of sms600c report to vss–900–ps report",
+          "sre"
+        ],
+        [
+          "example 4: reconciliation of sms600c report to vss–900–ps report",
+          "to crs"
+        ],
+        [
+          "example 4: reconciliation of sms600c report to vss–900–ps report",
+          "total"
+        ],
+        [
+          "example 4: reconciliation of sms600c report to vss–900–ps report",
+          "total issuer transactions"
+        ],
+        [
+          "example 5: reconciliation of sms600c report to vss–120 report",
+          "[interchange value debits]"
+        ],
+        [
+          "example 5: reconciliation of sms600c report to vss–120 report",
+          "[settlement amount (usd)]"
+        ],
+        [
+          "example 5: reconciliation of sms600c report to vss–120 report",
+          "[total issuer interchange]"
+        ],
+        [
+          "example 5: reconciliation of sms600c report to vss–120 report",
+          "column"
+        ],
+        [
+          "example 5: reconciliation of sms600c report to vss–120 report",
+          "interchange value debits"
+        ],
+        [
+          "example 5: reconciliation of sms600c report to vss–120 report",
+          "row"
+        ],
+        [
+          "example 5: reconciliation of sms600c report to vss–120 report",
+          "total"
+        ],
+        [
+          "example 5: reconciliation of sms600c report to vss–120 report",
+          "total issuer interchange"
+        ],
+        [
+          "example 6: reconciliation of sms600c report to vss–130 report",
+          "column"
+        ],
+        [
+          "example 6: reconciliation of sms600c report to vss–130 report",
+          "row"
+        ],
+        [
+          "example 7: reconciliation of ep-111e report to vss–900–s report",
+          "column"
+        ],
+        [
+          "example 7: reconciliation of ep-111e report to vss–900–s report",
+          "international settlement service"
+        ],
+        [
+          "example 7: reconciliation of ep-111e report to vss–900–s report",
+          "row"
+        ],
+        [
+          "example 8: reconciliation of ep-110e report to vss–900–s report",
+          "column"
+        ],
+        [
+          "example 8: reconciliation of ep-110e report to vss–900–s report",
+          "row"
+        ],
+        [
+          "example 9: reconciliation of ep-111e report to vss–900–ps report",
+          "[sent to visa]"
+        ],
+        [
+          "example 9: reconciliation of ep-111e report to vss–900–ps report",
+          "column"
+        ],
+        [
+          "example 9: reconciliation of ep-111e report to vss–900–ps report",
+          "international settlement service"
+        ],
+        [
+          "example 9: reconciliation of ep-111e report to vss–900–ps report",
+          "row"
+        ],
+        [
+          "example 9: reconciliation of ep-111e report to vss–900–ps report",
+          "sent to visa"
+        ]
+      ],
+      "duplicate_keys_b": [
+        [
+          "example 10: reconciliation of ep-110e report to vss–900–ps report",
+          "[accepted count]"
+        ],
+        [
+          "example 10: reconciliation of ep-110e report to vss–900–ps report",
+          "[total non-financial]"
+        ],
+        [
+          "example 10: reconciliation of ep-110e report to vss–900–ps report",
+          "accepted count"
+        ],
+        [
+          "example 10: reconciliation of ep-110e report to vss–900–ps report",
+          "any bank processing"
+        ],
+        [
+          "example 10: reconciliation of ep-110e report to vss–900–ps report",
+          "column"
+        ],
+        [
+          "example 10: reconciliation of ep-110e report to vss–900–ps report",
+          "row"
+        ],
+        [
+          "example 10: reconciliation of ep-110e report to vss–900–ps report",
+          "total non-financial"
+        ],
+        [
+          "example 1: reconciliation of sms600c report to vss–900–s report",
+          "column"
+        ],
+        [
+          "example 1: reconciliation of sms600c report to vss–900–s report",
+          "proc date"
+        ],
+        [
+          "example 1: reconciliation of sms600c report to vss–900–s report",
+          "reporting for"
+        ],
+        [
+          "example 1: reconciliation of sms600c report to vss–900–s report",
+          "row"
+        ],
+        [
+          "example 1: reconciliation of sms600c report to vss–900–s report",
+          "to crs"
+        ],
+        [
+          "example 1: reconciliation of sms600c report to vss–900–s report",
+          "total count"
+        ],
+        [
+          "example 1: reconciliation of sms600c report to vss–900–s report",
+          "total issuer transactions"
+        ],
+        [
+          "example 2: reconciliation of sms601c report to vss–900–s report",
+          "column"
+        ],
+        [
+          "example 2: reconciliation of sms601c report to vss–900–s report",
+          "proc date"
+        ],
+        [
+          "example 2: reconciliation of sms601c report to vss–900–s report",
+          "reporting for"
+        ],
+        [
+          "example 2: reconciliation of sms601c report to vss–900–s report",
+          "row"
+        ],
+        [
+          "example 2: reconciliation of sms601c report to vss–900–s report",
+          "to crs"
+        ],
+        [
+          "example 2: reconciliation of sms601c report to vss–900–s report",
+          "total acquirer transactions"
+        ],
+        [
+          "example 3: reconciliation of vss–120 report to vss–900–s report",
+          "clearing currency"
+        ],
+        [
+          "example 3: reconciliation of vss–120 report to vss–900–s report",
+          "column"
+        ],
+        [
+          "example 3: reconciliation of vss–120 report to vss–900–s report",
+          "international settlement service"
+        ],
+        [
+          "example 3: reconciliation of vss–120 report to vss–900–s report",
+          "reporting for"
+        ],
+        [
+          "example 3: reconciliation of vss–120 report to vss–900–s report",
+          "row"
+        ],
+        [
+          "example 4: reconciliation of sms600c report to vss–900–ps report",
+          "acq/iss id"
+        ],
+        [
+          "example 4: reconciliation of sms600c report to vss–900–ps report",
+          "column"
+        ],
+        [
+          "example 4: reconciliation of sms600c report to vss–900–ps report",
+          "con / stip"
+        ],
+        [
+          "example 4: reconciliation of sms600c report to vss–900–ps report",
+          "proc date"
+        ],
+        [
+          "example 4: reconciliation of sms600c report to vss–900–ps report",
+          "processor"
+        ],
+        [
+          "example 4: reconciliation of sms600c report to vss–900–ps report",
+          "row"
+        ],
+        [
+          "example 4: reconciliation of sms600c report to vss–900–ps report",
+          "sre"
+        ],
+        [
+          "example 4: reconciliation of sms600c report to vss–900–ps report",
+          "to crs"
+        ],
+        [
+          "example 4: reconciliation of sms600c report to vss–900–ps report",
+          "total"
+        ],
+        [
+          "example 4: reconciliation of sms600c report to vss–900–ps report",
+          "total issuer transactions"
+        ],
+        [
+          "example 5: reconciliation of sms600c report to vss–120 report",
+          "[interchange value debits]"
+        ],
+        [
+          "example 5: reconciliation of sms600c report to vss–120 report",
+          "[settlement amount (usd)]"
+        ],
+        [
+          "example 5: reconciliation of sms600c report to vss–120 report",
+          "[total issuer interchange]"
+        ],
+        [
+          "example 5: reconciliation of sms600c report to vss–120 report",
+          "column"
+        ],
+        [
+          "example 5: reconciliation of sms600c report to vss–120 report",
+          "interchange value debits"
+        ],
+        [
+          "example 5: reconciliation of sms600c report to vss–120 report",
+          "row"
+        ],
+        [
+          "example 5: reconciliation of sms600c report to vss–120 report",
+          "total"
+        ],
+        [
+          "example 5: reconciliation of sms600c report to vss–120 report",
+          "total issuer interchange"
+        ],
+        [
+          "example 6: reconciliation of sms600c report to vss–130 report",
+          "column"
+        ],
+        [
+          "example 6: reconciliation of sms600c report to vss–130 report",
+          "row"
+        ],
+        [
+          "example 7: reconciliation of ep-111e report to vss–900–s report",
+          "column"
+        ],
+        [
+          "example 7: reconciliation of ep-111e report to vss–900–s report",
+          "international settlement service"
+        ],
+        [
+          "example 7: reconciliation of ep-111e report to vss–900–s report",
+          "row"
+        ],
+        [
+          "example 8: reconciliation of ep-110e report to vss–900–s report",
+          "column"
+        ],
+        [
+          "example 8: reconciliation of ep-110e report to vss–900–s report",
+          "row"
+        ],
+        [
+          "example 9: reconciliation of ep-111e report to vss–900–ps report",
+          "[sent to visa]"
+        ],
+        [
+          "example 9: reconciliation of ep-111e report to vss–900–ps report",
+          "column"
+        ],
+        [
+          "example 9: reconciliation of ep-111e report to vss–900–ps report",
+          "international settlement service"
+        ],
+        [
+          "example 9: reconciliation of ep-111e report to vss–900–ps report",
+          "row"
+        ],
+        [
+          "example 9: reconciliation of ep-111e report to vss–900–ps report",
+          "sent to visa"
+        ]
+      ]
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "VSS Implementation Worksheets"
+      ],
+      "duplicate_texts_a": [
+        "description",
+        "vss implementation worksheets worksheet name"
+      ],
+      "duplicate_texts_b": [
+        "description",
+        "vss implementation worksheets worksheet name"
+      ]
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "VSS Reporting Option Considerations",
+        "VSS Settlement Report Selection",
+        "VSS Customized File Delivery"
+      ],
+      "duplicate_texts_a": [
+        "tc 46",
+        "tc 47",
+        "vss reports—machine-readable",
+        "vss reports—print-ready"
+      ],
+      "duplicate_texts_b": [
+        "tc 46",
+        "tc 47",
+        "vss reports—machine-readable",
+        "vss reports—print-ready"
+      ]
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "VSS Reporting Option Considerations",
+        "VSS Settlement Report Selection",
+        "VSS Customized File Delivery"
+      ],
+      "text": "Note: Clients that request both TC 46 (SETLM) and TC 47 (SETLP) file types for their VSS reports can elect to have either file (or both) set up for Customized File Delivery. The setup depends on a client's processing requirements and time frames. Clients cannot choose Customized File Delivery and Consolidated File Delivery simultaneously."
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "VSS Reporting Option Considerations",
+        "VSS Settlement Report Selection",
+        "VSS Customized File Delivery"
+      ],
+      "text": "Note: Clients that request both TC"
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "VSS Reporting Option Considerations",
+        "VSS Settlement Report Selection",
+        "VSS Customized File Delivery"
+      ],
+      "text": "46 (SETLM) and TC 47 (SETLP) file types for their VSS reports"
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "VSS Reporting Option Considerations",
+        "VSS Settlement Report Selection",
+        "VSS Customized File Delivery"
+      ],
+      "text": "can elect to have either file (or both) set up for Customized File Delivery. The setup depends on a client's processing requirements and time frames. Clients cannot choose Customized File Delivery and Consolidated File Delivery simultaneously."
+    },
+    {
+      "change_type": "paragraph_content_changed",
+      "path": [
+        "VSS Reporting Option Considerations",
+        "VSS Report Format Considerations"
+      ],
+      "old": "After deciding which VisaNet Settlement Service (VSS) reports are needed, clients must decide the report format. All VSS reports are available in machine-readable (TC 46), print-ready (TC 47), or both formats. Clients must also review the decisions regarding their reconciliation procedures as this may determine if the machine-readable (TC 46) format is required. If the machine-readable (TC 46) format is to be requested, clients must test the receipt of the data. Record this report format information in the VSS Reporting Options Worksheet, the VSS Reports —BASE II II-Connected Worksheet, and the VSS Reports—SMS-Connected Worksheet:",
+      "new": "After deciding which VisaNet Settlement Service (VSS) reports are needed, clients must decide the report format. All VSS reports are available in machine-readable (TC 46), print-ready (TC 47), or both formats. Clients must also review the decisions regarding their reconciliation procedures as this may determine if the machine-readable (TC 46) format is required. If the machine-readable (TC 46) format is to be requested, clients must test the receipt of the data. Record this report format information in the VSS Reporting Options Worksheet, the VSS Reports —BASE II-Connected Worksheet, and the VSS Reports—SMS-Connected Worksheet:",
+      "similarity_ratio": 0.998
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "VSS Implementation Timelines",
+        "VSS Advance Notice Guidelines"
+      ],
+      "duplicate_texts_a": [
+        "3 weeks"
+      ],
+      "duplicate_texts_b": [
+        "3 weeks"
+      ]
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "Internal Plans – All Clients Worksheet"
+      ],
+      "duplicate_texts_a": [
+        "1–8",
+        "es",
+        "internal plans",
+        "internal plans – all clients worksheet",
+        "no",
+        "page",
+        "y",
+        "yes",
+        "☐",
+        "✓"
+      ],
+      "duplicate_texts_b": [
+        "1–8",
+        "es",
+        "internal plans",
+        "internal plans – all clients worksheet",
+        "no",
+        "page",
+        "y",
+        "yes",
+        "☐",
+        "✓"
+      ]
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "Hierarchy Considerations Worksheet"
+      ],
+      "duplicate_texts_a": [
+        "n",
+        "y",
+        "☐"
+      ],
+      "duplicate_texts_b": [
+        "n",
+        "y",
+        "☐"
+      ]
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "Reporting Options Worksheet"
+      ],
+      "duplicate_texts_a": [
+        "n",
+        "y",
+        "☐"
+      ],
+      "duplicate_texts_b": [
+        "n",
+        "y",
+        "☐"
+      ]
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "VSS Reports – BASE II-Connected Worksheet"
+      ],
+      "duplicate_texts_a": [
+        "(recommended",
+        "and number",
+        "both",
+        "ready (tc 47)",
+        "recap report monthly",
+        "report format: machine-readable (tc 46) print-",
+        "report name",
+        "tc 46",
+        "tc 47",
+        "vss reports – base ii-connected worksheet"
+      ],
+      "duplicate_texts_b": [
+        "(recommended",
+        "and number",
+        "both",
+        "ready (tc 47)",
+        "recap report monthly",
+        "report format: machine-readable (tc 46) print-",
+        "report name",
+        "tc 46",
+        "tc 47",
+        "vss reports – base ii-connected worksheet"
+      ]
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "VSS Reports – SMS-Connected Worksheet"
+      ],
+      "duplicate_texts_a": [
+        "(recommended",
+        "(tc 46) print-ready (tc 47)",
+        "and number",
+        "both",
+        "recap report monthly",
+        "report format: machine-readable",
+        "report name",
+        "tc 46",
+        "tc 47",
+        "vss reports – sms-connected worksheet"
+      ],
+      "duplicate_texts_b": [
+        "(recommended",
+        "(tc 46) print-ready (tc 47)",
+        "and number",
+        "both",
+        "recap report monthly",
+        "report format: machine-readable",
+        "report name",
+        "tc 46",
+        "tc 47",
+        "vss reports – sms-connected worksheet"
+      ]
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "SMS Options Worksheet"
+      ],
+      "duplicate_texts_a": [
+        "n",
+        "page",
+        "sms options",
+        "sms options worksheet",
+        "y",
+        "☐",
+        "✓"
+      ],
+      "duplicate_texts_b": [
+        "n",
+        "page",
+        "sms options",
+        "sms options worksheet",
+        "y",
+        "☐",
+        "✓"
+      ]
+    },
+    {
+      "change_type": "paragraph_reflowed",
+      "path": [
+        "SMS Options Worksheet"
+      ],
+      "text_a": [
+        "☐",
+        "☐"
+      ],
+      "text_b": [
+        "☐ ☐"
+      ]
+    },
+    {
+      "change_type": "paragraph_reflowed",
+      "path": [
+        "SMS Options Worksheet"
+      ],
+      "text_a": [
+        "☐ ☐"
+      ],
+      "text_b": [
+        "☐",
+        "☐"
+      ]
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "SMS-Connected Reports Worksheet"
+      ],
+      "duplicate_texts_a": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "a",
+        "all",
+        "c",
+        "detail",
+        "i",
+        "lines",
+        "merchandise credit detail",
+        "not applicable",
+        "r",
+        "reversal",
+        "sms transaction detail reports number",
+        "sms-connected reports worksheet",
+        "sort1",
+        "summary",
+        "t",
+        "✓"
+      ],
+      "duplicate_texts_b": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "a",
+        "all",
+        "c",
+        "detail",
+        "i",
+        "lines",
+        "merchandise credit detail",
+        "not applicable",
+        "r",
+        "reversal",
+        "sms transaction detail reports number",
+        "sms-connected reports worksheet",
+        "sort1",
+        "summary",
+        "t",
+        "✓"
+      ]
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "Glossary"
+      ],
+      "duplicate_texts_a": [
+        "(sre)",
+        "reporting entity (sre)",
+        "see acquiring identifier and/or issuing identifier."
+      ],
+      "duplicate_texts_b": [
+        "reporting entity",
+        "see acquiring identifier and/or issuing identifier.",
+        "service"
+      ]
+    },
+    {
+      "change_type": "paragraph_reflowed",
+      "path": [
+        "Glossary"
+      ],
+      "text_a": [
+        "Any business entity for which Visa performs settlement, provides settlement",
+        "reporting, or does both."
+      ],
+      "text_b": [
+        "Any business entity for which Visa performs settlement, provides settlement reporting, or does both."
+      ]
+    },
+    {
+      "change_type": "paragraph_reflowed",
+      "path": [
+        "Glossary"
+      ],
+      "text_a": [
+        "Banking instructions, such as the settlement bank and account information, that provide Visa with information required to pay to, or collect funds from, a client."
+      ],
+      "text_b": [
+        "Banking instructions, such as the settlement bank and account information,",
+        "that provide Visa with information required to pay to, or collect funds from, a client."
+      ]
+    },
+    {
+      "change_type": "paragraph_reflowed",
+      "path": [
+        "Glossary"
+      ],
+      "text_a": [
+        "Identifies the organization that establishes the rules about the card as a whole. The services defined by the individual marks on a card may be governed by other organizations."
+      ],
+      "text_b": [
+        "Identifies the organization that establishes the rules about the card as a",
+        "whole. The services defined by the individual marks on a card may be governed by other organizations."
+      ]
+    },
+    {
+      "change_type": "paragraph_reflowed",
+      "path": [
+        "Glossary"
+      ],
+      "text_a": [
+        "Allows clients to distinguish between consumer and commercial usage. Clients may need to make this distinction because different services are often provided to consumer cardholders than to commercial cardholders."
+      ],
+      "text_b": [
+        "Allows clients to distinguish between consumer and commercial usage.",
+        "Clients may need to make this distinction because different services are often provided to consumer cardholders than to commercial cardholders."
+      ]
+    },
+    {
+      "change_type": "paragraph_reflowed",
+      "path": [
+        "Glossary"
+      ],
+      "text_a": [
+        "All of the functions required to collect a transaction from an acquirer in the merchant's currency and deliver it to the issuer in the cardholder's currency."
+      ],
+      "text_b": [
+        "All of the functions required to collect a transaction from an acquirer in the",
+        "merchant's currency and deliver it to the issuer in the cardholder's currency."
+      ]
+    },
+    {
+      "change_type": "paragraph_reflowed",
+      "path": [
+        "Glossary"
+      ],
+      "text_a": [
+        "The currency used in the clearing process (for acquirers, it is the transaction currency; for issuers, it is the cardholder billing currency)."
+      ],
+      "text_b": [
+        "The currency used in the clearing process (for acquirers, it is the transaction",
+        "currency; for issuers, it is the cardholder billing currency)."
+      ]
+    },
+    {
+      "change_type": "paragraph_reflowed",
+      "path": [
+        "Glossary"
+      ],
+      "text_a": [
+        "The entity used by the clearing systems to determine processing rules. In BASE II clearing, a clearing entity is a 6-digit, Visa-assigned acquiring or issuing identifier or an ISO-assigned card range. In the Single Message System (SMS), a clearing entity is the 6-digit, Visa-assigned acquiring or issuing identifier contained in the affiliate ID. The clearing entity is always included in the definition of a lowest-level settlement reporting entity (SRE)."
+      ],
+      "text_b": [
+        "The entity used by the clearing systems to determine processing rules. In",
+        "BASE II clearing, a clearing entity is a 6-digit, Visa-assigned acquiring or issuing identifier or an ISO-assigned card range. In the Single Message System (SMS), a clearing entity is the 6-digit, Visa-assigned acquiring or issuing identifier contained in the affiliate ID. The clearing entity is always included in the definition of a lowest-level settlement reporting entity (SRE)."
+      ]
+    },
+    {
+      "change_type": "paragraph_reflowed",
+      "path": [
+        "Glossary"
+      ],
+      "text_a": [
+        "A business practice where a client uses a processor, but handles its own funds transfer."
+      ],
+      "text_b": [
+        "A business practice where a client uses a processor, but handles its own",
+        "funds transfer."
+      ]
+    },
+    {
+      "change_type": "paragraph_reflowed",
+      "path": [
+        "Glossary"
+      ],
+      "text_a": [
+        "partnership with another corporation. These cards feature value-added benefits, such as airline mileage, reduced telephone rates, automobile purchase rebates, or other free or discounted products."
+      ],
+      "text_b": [
+        "partnership with another corporation. These cards feature value-added",
+        "benefits, such as airline mileage, reduced telephone rates, automobile purchase rebates, or other free or discounted products."
+      ]
+    },
+    {
+      "change_type": "paragraph_reflowed",
+      "path": [
+        "Glossary"
+      ],
+      "text_a": [
+        "A bank located in the country of the settlement currency that acts as a settlement bank when the settlement bank is located outside the country of the designated settlement currency."
+      ],
+      "text_b": [
+        "A bank located in the country of the settlement currency that acts as a",
+        "settlement bank when the settlement bank is located outside the country of the designated settlement currency."
+      ]
+    },
+    {
+      "change_type": "paragraph_reflowed",
+      "path": [
+        "Glossary"
+      ],
+      "text_a": [
+        "A physical or digital card with an account number assigned by an issuer to a cardholder. This card, which has a credit limit, can be used to purchase goods and services and to get cash. The issuing institution bills the cardholder every month for repayment of the credit extended. The cardholder repays the issuer in full every month or on an installment basis, with a minimum amount due."
+      ],
+      "text_b": [
+        "A physical or digital card with an account number assigned by an issuer to a",
+        "cardholder. This card, which has a credit limit, can be used to purchase goods and services and to get cash. The issuing institution bills the cardholder every month for repayment of the credit extended. The cardholder repays the issuer in full every month or on an installment basis, with a minimum amount due."
+      ]
+    },
+    {
+      "change_type": "paragraph_reflowed",
+      "path": [
+        "Glossary"
+      ],
+      "text_a": [
+        "to allocate to the clients part of the currency conversion fees received. The fees may be allocated to the issuer, the acquirer, or both."
+      ],
+      "text_b": [
+        "to allocate to the clients part of the currency conversion fees received. The",
+        "fees may be allocated to the issuer, the acquirer, or both."
+      ]
+    },
+    {
+      "change_type": "paragraph_reflowed",
+      "path": [
+        "Glossary"
+      ],
+      "text_a": [
+        "A card linked to a demand deposit account, checking account, current account, negotiable order of withdrawal account, or savings account held at a financial institution, or a debit account or equivalent, as defined under applicable laws or regulations."
+      ],
+      "text_b": [
+        "A card linked to a demand deposit account, checking account, current",
+        "account, negotiable order of withdrawal account, or savings account held at a financial institution, or a debit account or equivalent, as defined under applicable laws or regulations."
+      ]
+    },
+    {
+      "change_type": "paragraph_reflowed",
+      "path": [
+        "Glossary"
+      ],
+      "text_a": [
+        "The BIN to which a BASE II transaction message is sent. DEPRECATED TERM: See destination identifier."
+      ],
+      "text_b": [
+        "The BIN to which a BASE II transaction message is sent. DEPRECATED TERM:",
+        "See destination identifier."
+      ]
+    },
+    {
+      "change_type": "paragraph_reflowed",
+      "path": [
+        "Glossary"
+      ],
+      "text_a": [
+        "A number or other credential that identifies an account of a cardholder for use in a transaction."
+      ],
+      "text_b": [
+        "A number or other credential that identifies an account of a cardholder for",
+        "use in a transaction."
+      ]
+    },
+    {
+      "change_type": "paragraph_reflowed",
+      "path": [
+        "Glossary"
+      ],
+      "text_a": [
+        "A card linked to a reloadable or nonreloadable prefunded account, or a prepaid account or equivalent as defined under applicable laws or regulations."
+      ],
+      "text_b": [
+        "A card linked to a reloadable or nonreloadable prefunded account, or a",
+        "prepaid account or equivalent as defined under applicable laws or regulations."
+      ]
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "Glossary"
+      ],
+      "text": "(formerly known as OIF)"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "Glossary"
+      ],
+      "text": "A consolidation of lowest-level settlement reporting entities. In addition to"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "Glossary"
+      ],
+      "text": "A group of related business entities for which Visa performs settlement, provides settlement reporting, or does both, that have financial responsibility for the settlement of a given group of payment transactions. (The financial responsibility of each superior entity in a given hierarchy is the total of the subordinate entities.)"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "Glossary"
+      ],
+      "text": "An American Bank Association (ABA) number assigned to U.S. banks by the Federal Reserve System. This number is used to advise of funds movement through the Federal Reserve FEDWIRE system."
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "Glossary"
+      ],
+      "text": "An identification code provided by the Society for Worldwide Interbank Financial Telecommunications (SWIFT). The code is used to advise of funds movement outside the Federal Reserve FEDWIRE system, primarily outside the U.S.A."
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "Glossary"
+      ],
+      "text": "and V.I.P. full financial clearing transactions in which the issuer country is different from the merchant country."
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "Glossary"
+      ],
+      "text": "and/or cross-border transactions if requested by the issuer. This value is calculated based on the percentage rate specified by the issuer and added to the billing amount. The value is informational only and not included in the settlement amount."
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "Glossary"
+      ],
+      "text": "Classifies charges on VisaNet Settlement Service reports."
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "Glossary"
+      ],
+      "text": "Edit Package"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "Glossary"
+      ],
+      "text": "Entity"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "Glossary"
+      ],
+      "text": "Fee"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "Glossary"
+      ],
+      "text": "Greenwich Mean Time"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "Glossary"
+      ],
+      "text": "Identifies which presentment is being reported. The cycle descriptions used are based on the business transaction type according to their business purpose."
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "Glossary"
+      ],
+      "text": "Interchange Transaction File"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "Glossary"
+      ],
+      "text": "Management Service"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "Glossary"
+      ],
+      "text": "Mean solar time for the meridian at Greenwich, London. Greenwich Mean Time (GMT) has been replaced by Coordinated Universal Time (UTC) as the basis for calculating time internationally."
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "Glossary"
+      ],
+      "text": "Optional Issuer Fee"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "Glossary"
+      ],
+      "text": "Reporting Entity"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "Glossary"
+      ],
+      "text": "Reporting Entity"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "Glossary"
+      ],
+      "text": "Reporting Entity"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "Glossary"
+      ],
+      "text": "reporting, a summary-level SRE can be established as a fund transfer point."
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "Glossary"
+      ],
+      "text": "See Visa Issuer FX Calculator"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "Glossary"
+      ],
+      "text": "Service"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "Glossary"
+      ],
+      "text": "settlement reports and can be a funds transfer SRE ."
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "Glossary"
+      ],
+      "text": "SWIFT address"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "Glossary"
+      ],
+      "text": "The highest-level settlement reporting entity that contains the parameters"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "Glossary"
+      ],
+      "text": "The lowest level at which VisaNet Settlement Service (VSS) produces"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "Glossary"
+      ],
+      "text": "The standard input/output data medium for the BASE II Interchange Control System (ICS). All output from BASE II is delivered to the Visa client on an incoming ITF. All input to BASE II is sent from the member to the ICS on an outgoing ITF."
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "Glossary"
+      ],
+      "text": "Top Settlement Reporting"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "Glossary"
+      ],
+      "text": "Visa calculates an optional issuer-determined amount for multicurrency"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "Glossary"
+      ],
+      "text": "Visa Issuer FX Calculator"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "Glossary"
+      ],
+      "text": "Written authority provided by a client to its settlement bank and Visa. This authorization directs the client's settlement bank to act for the client to accept funds from, and transfer funds to, Visa."
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "Glossary"
+      ],
+      "text": "(SRE)"
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "Glossary"
+      ],
+      "text": "(SRE)"
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "Glossary"
+      ],
+      "text": "(U.S. Dollar)"
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "Glossary"
+      ],
+      "text": "Classifies charges on VSS reports."
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "Glossary"
+      ],
+      "text": "Dollar)"
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "Glossary"
+      ],
+      "text": "Edit Package (EP)"
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "Glossary"
+      ],
+      "text": "Fee (IRF)"
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "Glossary"
+      ],
+      "text": "funds transfer SRE."
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "Glossary"
+      ],
+      "text": "Greenwich Mean Time (GMT)"
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "Glossary"
+      ],
+      "text": "level SRE can be established as a fund transfer point."
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "Glossary"
+      ],
+      "text": "Management Service (VCMS)"
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "Glossary"
+      ],
+      "text": "Mean solar time for the meridian at Greenwich, London."
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "Glossary"
+      ],
+      "text": "optional issuer fee (OIF)"
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "Glossary"
+      ],
+      "text": "reimbursement fee"
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "Glossary"
+      ],
+      "text": "reporting entity (FTSRE)"
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "Glossary"
+      ],
+      "text": "reporting entity (SRE)"
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "Glossary"
+      ],
+      "text": "reporting entity (SRE)"
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "Glossary"
+      ],
+      "text": "S.W.I.F.T. address (non-U.S."
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "Glossary"
+      ],
+      "text": "Service (NNSS)"
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "Glossary"
+      ],
+      "text": "top settlement report entity"
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "Glossary"
+      ],
+      "text": "A consolidation of lowest-level SREs. In addition to reporting, a summary-"
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "Glossary"
+      ],
+      "text": "A group of related settlement reporting entities (SREs) that have financial responsibility for the settlement of a given group of payment transactions. (The financial responsibility of each superior entity in a given hierarchy is the total of the subordinate entities.)"
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "Glossary"
+      ],
+      "text": "Amount paid by one client to another (usually by the acquirer to the issuer), and can vary according to market requirements."
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "Glossary"
+      ],
+      "text": "An American Bank Association (ABA) number assigned to American banks by"
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "Glossary"
+      ],
+      "text": "An identification code provided by the Society for Worldwide Interbank"
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "Glossary"
+      ],
+      "text": "An optional additional currency fee requested by the issuer and collected as part of the billing amount, if desired by the issuer. This fee is not included in the settlement amount. It may be a debit or credit."
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "Glossary"
+      ],
+      "text": "and SMS clearing transactions in which the issuer country is different from the merchant country."
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "Glossary"
+      ],
+      "text": "Financial Telecommunications (S.W.I.F.T.). The code is used to advise of funds movement outside the Federal Reserve FEDWIRE system, primarily outside the U.S.A."
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "Glossary"
+      ],
+      "text": "Identifies which presentment is being reported. The cycle descriptions used are based on the business transaction type."
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "Glossary"
+      ],
+      "text": "Note:  Greenwich Mean Time (GMT) has been replaced by Coordinated Universal Time (UTC) as the basis for calculating time internationally."
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "Glossary"
+      ],
+      "text": "the Federal Reserve System. This number is used to advise of funds movement through the Federal Reserve FEDWIRE system."
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "Glossary"
+      ],
+      "text": "The highest-level settlement reporting entity (SRE) that contains the"
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "Glossary"
+      ],
+      "text": "The lowest level at which VSS produces settlement reports and can be a"
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "Glossary"
+      ],
+      "text": "Written authority provided by a member to both its settlement bank and Visa. This authorization directs the member's settlement bank to act for the member to accept funds from, and transfer funds to, Visa."
+    },
+    {
+      "change_type": "paragraph_content_changed",
+      "path": [
+        "Glossary"
+      ],
+      "old": "A client financial institution that has agreements with merchants to accept Visa card transactions or offers cash disbursement services to cardholders, or both. The acquirer is responsible for: Accepting card transaction data from merchants and its own ATMs and bank branches Providing authorization decisions to those card-accepting locations Conveying transaction information to Visa as interchange transactions",
+      "new": "A client financial institution that has agreements with merchants to accept Visa card transactions or offers cash disbursement services to account holders, or both. The acquirer is responsible for: Accepting card transaction data from merchants and its own ATMs and bank branches Providing authorization decisions to those card-accepting locations Conveying transaction information to Visa as interchange transactions",
+      "similarity_ratio": 0.986
+    },
+    {
+      "change_type": "paragraph_content_changed",
+      "path": [
+        "Glossary"
+      ],
+      "old": "A service provided by Visa to report net settlement amounts for clients. (The types of settlement services are International Settlement Service and National Net Settlement Service.) Settlement service is always included in the definition of a lowest-level settlement reporting entity (SRE).",
+      "new": "A service provided by Visa to report net settlement amounts for clients. (The types of settlement services are international settlement service and national net settlement service.) Settlement service is always included in the definition of a lowest-level SRE.",
+      "similarity_ratio": 0.938
+    },
+    {
+      "change_type": "paragraph_content_changed",
+      "path": [
+        "Glossary"
+      ],
+      "old": "Designates whether the amounts on VisaNet Settlement System (VSS) reports are for issuer, acquirer, or other.",
+      "new": "Designates whether the amounts on VisaNet Settlement Service (VSS) reports are for issuer, acquirer, or other.",
+      "similarity_ratio": 0.959
+    },
+    {
+      "change_type": "paragraph_content_changed",
+      "path": [
+        "Glossary"
+      ],
+      "old": "outside the issuer's country. It may be assessed for Sales Draft (TC 05) original and dispute response financial, Cash Disbursement (TC 07) original and dispute response financial, TC 05 and TC 07 reversals and their SMS Visa or Plus Network equivalent transactions.",
+      "new": "outside the issuer's country. It may be assessed for Sales Draft (TC 05) original and dispute response financial, Cash Disbursement (TC 07) original and dispute response financial, TC 05 and TC 07 reversals and their V.I.P. full financial Visa or Plus Network equivalent transactions.",
+      "similarity_ratio": 0.956
+    },
+    {
+      "change_type": "paragraph_content_changed",
+      "path": [
+        "Glossary"
+      ],
+      "old": "parameters that define the entire hierarchy. A top SRE can function as a summary-level SRE.",
+      "new": "that define the entire hierarchy. A top SRE can function as a summary-level SRE.",
+      "similarity_ratio": 0.936
+    }
+  ]
+}

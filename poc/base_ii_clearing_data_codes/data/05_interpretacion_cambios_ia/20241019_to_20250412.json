@@ -1,0 +1,174 @@
+{
+  "manual": "base_ii_clearing_data_codes",
+  "edition_a": "20241019",
+  "edition_b": "20250412",
+  "summary": {
+    "duplicate_code_warning": 5,
+    "code_added": 6,
+    "code_removed": 1,
+    "code_content_changed": 2
+  },
+  "changes": [
+    {
+      "change_type": "duplicate_code_warning",
+      "table": "Fee Collection/Funds Disbursement Reason Codes",
+      "duplicate_codes_a": [
+        "5510"
+      ],
+      "duplicate_codes_b": [
+        "5510"
+      ]
+    },
+    {
+      "change_type": "duplicate_code_warning",
+      "table": "Member Settlement Data-Record Type Codes",
+      "duplicate_codes_a": [
+        "01",
+        "02",
+        "03",
+        "04"
+      ],
+      "duplicate_codes_b": [
+        "01",
+        "02",
+        "03",
+        "04"
+      ]
+    },
+    {
+      "change_type": "duplicate_code_warning",
+      "table": "Member Settlement Data-Report-Level Indicator Codes",
+      "duplicate_codes_a": [
+        "1",
+        "2"
+      ],
+      "duplicate_codes_b": [
+        "1",
+        "2"
+      ]
+    },
+    {
+      "change_type": "duplicate_code_warning",
+      "table": "Member Settlement Data-Summary-Level Codes",
+      "duplicate_codes_a": [
+        "0",
+        "1",
+        "2"
+      ],
+      "duplicate_codes_b": [
+        "0",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "change_type": "code_added",
+      "table": "Product ID Values",
+      "code": "V W^",
+      "cells": [
+        "V\nW^",
+        "V PAY\nVisa Direct Payouts W"
+      ]
+    },
+    {
+      "change_type": "code_added",
+      "table": "Product ID Values",
+      "code": "W1",
+      "cells": [
+        "W1",
+        "Visa Direct Payouts A"
+      ]
+    },
+    {
+      "change_type": "code_removed",
+      "table": "Product ID Values",
+      "code": "V",
+      "cells": [
+        "V",
+        "V PAY"
+      ]
+    },
+    {
+      "change_type": "code_added",
+      "table": "SECOND POSITION (MERCHANT TRANSACTION INDICATOR)",
+      "code": "1",
+      "cells": [
+        "1",
+        "Purchase of Central Bank Digital Currency (CBDC) or Tokenized Deposits."
+      ]
+    },
+    {
+      "change_type": "code_added",
+      "table": "SECOND POSITION (MERCHANT TRANSACTION INDICATOR)",
+      "code": "2",
+      "cells": [
+        "2",
+        "Purchase of Stablecoin (fiat-backed)."
+      ]
+    },
+    {
+      "change_type": "code_added",
+      "table": "SECOND POSITION (MERCHANT TRANSACTION INDICATOR)",
+      "code": "3",
+      "cells": [
+        "3",
+        "Purchase of Blockchain Native Token/Coin."
+      ]
+    },
+    {
+      "change_type": "duplicate_code_warning",
+      "table": "ISO Numeric",
+      "duplicate_codes_a": [
+        "356",
+        "978"
+      ],
+      "duplicate_codes_b": [
+        "356",
+        "978"
+      ]
+    },
+    {
+      "change_type": "code_added",
+      "table": "Glossary",
+      "code": "VISA ISSUER FX CALCULATOR (FORMERLY KNOWN AS OIF):",
+      "cells": [
+        "Visa Issuer FX Calculator\n(formerly known as OIF):",
+        "Visa calculates an optional issuer-determined amount for multicurrency\nand/or cross-border transactions if requested by the issuer. This value is\ncalculated based on the percentage rate specified by the issuer and added to\nthe billing amount. The value is informational only and not included in the\nsettlement amount."
+      ]
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "OPTIONAL ISSUER FEE",
+      "column": "Definition",
+      "column_index": 1,
+      "old": "An optional additional currency fee requested by the issuer and collected as\npart of the billing amount, if desired by the issuer. This fee is not included in\nthe settlement amount. It may be a debit or credit.",
+      "new": "See Visa Issuer FX Calculator",
+      "similarity_ratio": 0.142,
+      "table": "Glossary",
+      "ai_category": "business_rule_change",
+      "ai_reason": "El texto nuevo elimina la descripción detallada y apunta a una herramienta específica, cambiando el significado de negocio del código.",
+      "disappeared_content": [
+        "An optional additional currency fee requested by the issuer and collected as part of the billing amount, if desired by the issuer. This fee is not included in the settlement amount. It may be a debit or credit."
+      ],
+      "safety_net_override": false
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "VISA RESOLVE ONLINE (VROL)",
+      "column": "Definition",
+      "column_index": 1,
+      "old": "Visa Resolve Online provides dispute management services, including\ntransaction research, e.g. for cardholder queries, dispute questionnaires to\ncollect relevant customer information and documentation, financial\ntransaction processing (both BASE II and V.I.P. full financial) for disputes,\nfraud reporting, Account Screen Authorization file (ASAF), stop payments,\nand case filing (arbitration and compliance) capabilities. Visa Resolve Online\nidentifies associated transactions, e.g. credits, adjustments, and consolidates\nthe dispute history in case folders. To access Visa Resolve Online a client may\nuse either the VROL user interface accessed through Visa Online or a web-\nservice-API system interface (Real Time System Interface - RTSI).",
+      "new": "Visa Resolve Online provides dispute management services, including\ntransaction research, for example, for cardholder queries, dispute\nquestionnaires to collect relevant customer information and documentation,\nfinancial transaction processing (both BASE II and V.I.P. full-financial) for\ndisputes, fraud reporting, Account Screen Authorization file (ASAF), stop\npayments, and case filing (arbitration and compliance) capabilities. Visa\nResolve Online identifies associated transactions, for example, credits,\nadjustments, and consolidates the dispute history in case folders. To access\nVisa Resolve Online a client may use either the VROL user interface accessed\nthrough Visa Access or a web-service-API system interface (Real Time System\nInterface - RTSI).",
+      "similarity_ratio": 0.969,
+      "table": "Glossary",
+      "ai_category": "editorial_reword",
+      "ai_reason": "El texto describe lo mismo pero con cambios menores en la redacción, como 'e.g.' a 'for example' y 'Visa Online' a 'Visa Access'.",
+      "disappeared_content": [],
+      "safety_net_override": false
+    }
+  ],
+  "ai_summary": {
+    "business_rule_change": 1,
+    "editorial_reword": 1
+  }
+}

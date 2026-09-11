@@ -1,0 +1,421 @@
+{
+  "manual": "base_ii_clearing_data_codes",
+  "edition_a": "20231014",
+  "edition_b": "20240413",
+  "summary": {
+    "table_added": 1,
+    "table_removed": 1,
+    "duplicate_code_warning": 6,
+    "code_added": 7,
+    "code_content_changed": 22,
+    "code_removed": 4,
+    "table_renamed": 1
+  },
+  "changes": [
+    {
+      "change_type": "table_added",
+      "table": "Valid Account Funding Source Values",
+      "num_rows": 5
+    },
+    {
+      "change_type": "table_removed",
+      "table": "Maximum Credit and Debit, Prepaid, and Account Funding POS Transaction Amounts",
+      "num_rows": 45
+    },
+    {
+      "change_type": "duplicate_code_warning",
+      "table": "Fee Collection/Funds Disbursement Reason Codes",
+      "duplicate_codes_a": [
+        "5510"
+      ],
+      "duplicate_codes_b": [
+        "5510"
+      ]
+    },
+    {
+      "change_type": "code_added",
+      "table": "Market-Specific Authorization Data Indicator",
+      "code": "X",
+      "cells": [
+        "X",
+        "Valid Extended Authorization data received."
+      ]
+    },
+    {
+      "change_type": "duplicate_code_warning",
+      "table": "Member Settlement Data-Record Type Codes",
+      "duplicate_codes_a": [
+        "01",
+        "02",
+        "03",
+        "04"
+      ],
+      "duplicate_codes_b": [
+        "01",
+        "02",
+        "03",
+        "04"
+      ]
+    },
+    {
+      "change_type": "duplicate_code_warning",
+      "table": "Member Settlement Data-Report-Level Indicator Codes",
+      "duplicate_codes_a": [
+        "1",
+        "2"
+      ],
+      "duplicate_codes_b": [
+        "1",
+        "2"
+      ]
+    },
+    {
+      "change_type": "duplicate_code_warning",
+      "table": "Member Settlement Data-Summary-Level Codes",
+      "duplicate_codes_a": [
+        "0",
+        "1",
+        "2"
+      ],
+      "duplicate_codes_b": [
+        "0",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "X",
+      "column": "Description",
+      "column_index": 1,
+      "old": "Visa B2B Virtual Payments",
+      "new": "Visa Commercial Choice Travel",
+      "similarity_ratio": 0.407,
+      "table": "Product ID Values"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "X1",
+      "column": "Description",
+      "column_index": 1,
+      "old": "Flexible Rate B2B Virtual Program",
+      "new": "Visa Commercial Choice Omni",
+      "similarity_ratio": 0.267,
+      "table": "Product ID Values"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "B",
+      "column": "Definition",
+      "column_index": 1,
+      "old": "Interregional Pre-PS2000\nAsia-Pacific Electronic Issuer's Reimbursement Fee\nLatin America Electronic Issuer's Reimbursement Fee\nUK CVV2 fee programs\nUK Card-Not-Present ’94.\nUK EMV\nCEMEA Electronic .\nEA (Electronic Authorized)—EU only\nCANADA—Chip Fee Processing\nTranche 2 POS Fee — Spain only",
+      "new": "Interregional Electronic\nAsia-Pacific Electronic Issuer's Reimbursement Fee\nLatin America Electronic Issuer's Reimbursement Fee\nUK CVV2 fee programs\nUK Card-Not-Present ’94.\nUK EMV\nCEMEA Electronic .\nEA (Electronic Authorized)—EU only\nCANADA—Chip Fee Processing\nTranche 2 POS Fee — Spain only",
+      "similarity_ratio": 0.966,
+      "table": "Reimbursement Attributes"
+    },
+    {
+      "change_type": "code_added",
+      "table": "Return/Reclassification Reason Codes",
+      "code": "82",
+      "cells": [
+        "82",
+        "Account Funding Source reclassification has occurred."
+      ]
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "H0",
+      "column": "Error Condition",
+      "column_index": 1,
+      "old": "The recalculation of the validation code at the VIC showed that one of the fields listed\nbelow did not match the value in the authorization message.\nCPS—U.S.:\nl\nl\nl\nl\nl\nl\nl\nl\nl\nl\nl\nl\nCPS/ATM:\nl\nl\nl\nl\nl\nl\nl\nl\nl\nAccount Number\nAuthorized Amount\nAuthorization Characteristics Indicator\nAuthorization Code\nAuthorization Currency Code\nAuthorization Response Code\nCashback\nMarket-Specific Authorization Indicator\nMerchant Category Code\nPOS Entry Mode\nTransaction Identifier\nProduct ID\nAccount Number\nAuthorization Characteristics Indicator\nTransaction Identifier\nAuthorized Amount\nAuthorization Currency Code\nMerchant Country Code\nATM Account Selection\nAcquiring Identifier\nSurcharge Amount",
+      "new": "The recalculation of the validation code at the VIC showed that one of the fields listed\nbelow did not match the value in the authorization message.\nCPS—U.S.:\nl\nl\nl\nl\nl\nl\nl\nl\nl\nl\nl\nl\nCPS/ATM:\nl\nl\nl\nl\nl\nl\nl\nl\nl\nAccount Number\nAuthorized Amount\nAuthorization Characteristics Indicator\nAuthorization Code\nAuthorization Currency Code\nAuthorization Response Code\nCashback\nMarket-Specific Authorization Indicator\nMerchant Category Code\nPOS Entry Mode\nTransaction Identifier\nProduct ID\nAccount Number\nAuthorization Characteristics Indicator\nTransaction Identifier\nAuthorized Amount\nAuthorization Currency Code\nMerchant Country Code\nATM Account Selection\nAcquiring Identifier\nSurcharge Amount\nElectronic Data Quality Program (EDQP):\nl\nl\nl\nl\nl\nl\nl\nl\nl\nl\nl\nl\nl\nAccount Funding Source\nAccount Number\nAuthorized Amount\nAuthorization Characteristics Indicator\nAuthorization Code\nAuthorization Currency Code\nAuthorization Response Code\nCashback\nMarket-Specific Authorization Indicator\nMerchant Category Code\nPOS Entry Mode\nTransaction Identifier\nProduct ID",
+      "similarity_ratio": 0.793,
+      "table": "Return/Reclassification Reason Codes"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "HZ",
+      "column": "Error Condition",
+      "column_index": 1,
+      "old": "The recalculation of the validation code at the VIC showed that one of the fields listed\nbelow did not match the value in the authorization message. Please resubmit.\nl\nl\nl\nl\nl\nl\nl\nl\nl\nl\nl\nl\nCPS/ATM:\nl\nl\nl\nl\nl\nl\nl\nl\nl\nAccount Number\nAuthorized Amount\nAuthorization Characteristics Indicator\nAuthorization Code\nAuthorization Currency Code\nAuthorization Response Code\nCashback\nMarket-Specific Authorization Indicator\nMerchant Category Code\nPOS Entry Mode\nTransaction Identifier\nProduct ID\nAccount Number\nAuthorization Characteristics Indicator\nTransaction Identifier\nAuthorized Amount\nAuthorization Currency Code\nMerchant Country Code\nATM Account Selection\nAcquiring Identifier\nSurcharge Amount",
+      "new": "The recalculation of the validation code at the VIC showed that one of the fields listed\nbelow did not match the value in the authorization message. Please resubmit.\nl\nl\nl\nl\nl\nl\nl\nl\nl\nl\nl\nl\nCPS/ATM:\nAccount Number\nAuthorized Amount\nAuthorization Characteristics Indicator\nAuthorization Code\nAuthorization Currency Code\nAuthorization Response Code\nCashback\nMarket-Specific Authorization Indicator\nMerchant Category Code\nPOS Entry Mode\nTransaction Identifier\nProduct ID\nl\nl\nl\nl\nl\nl\nl\nl\nl\nAccount Number\nAuthorization Characteristics Indicator\nTransaction Identifier\nAuthorized Amount\nAuthorization Currency Code\nMerchant Country Code\nATM Account Selection\nAcquiring Identifier\nSurcharge Amount",
+      "similarity_ratio": 0.974,
+      "table": "Return/Reclassification Reason Codes"
+    },
+    {
+      "change_type": "duplicate_code_warning",
+      "table": "ISO Numeric",
+      "duplicate_codes_a": [
+        "356",
+        "978"
+      ],
+      "duplicate_codes_b": [
+        "356",
+        "978"
+      ]
+    },
+    {
+      "change_type": "duplicate_code_warning",
+      "table": "Glossary",
+      "duplicate_codes_a": [
+        "INTERCHANGE TRANSACTION FILE (ITF)"
+      ],
+      "duplicate_codes_b": []
+    },
+    {
+      "change_type": "code_added",
+      "table": "Glossary",
+      "code": "EDIT PACKAGE",
+      "cells": [
+        "Edit Package",
+        "The BASE II software Visa supplies to processors to validate interchange data,\nproduce the file containing interchange data to be sent from the processor to\nVisa, and process incoming transactions received from Visa. The Edit Package\nis the interface between a processing center’s internal processing systems\nand its Extended Access Server (EAS)."
+      ]
+    },
+    {
+      "change_type": "code_added",
+      "table": "Glossary",
+      "code": "INTERCHANGE REIMBURSEMENT FEE",
+      "cells": [
+        "Interchange Reimbursement\nFee",
+        "A fee paid by issuers and acquirers to each other for transactions entered\ninto interchange (and their reversals) to balance the cost of doing business."
+      ]
+    },
+    {
+      "change_type": "code_added",
+      "table": "Glossary",
+      "code": "INTERCHANGE TRANSACTION FILE",
+      "cells": [
+        "Interchange Transaction File",
+        "The standard input/output data medium for the BASE II Interchange Control\nSystem (ICS). All output from BASE II is delivered to the Visa client on an\nincoming ITF. All input to BASE II is sent from the member to the ICS on an\noutgoing ITF."
+      ]
+    },
+    {
+      "change_type": "code_added",
+      "table": "Glossary",
+      "code": "OPTIONAL ISSUER FEE",
+      "cells": [
+        "Optional Issuer Fee",
+        "An optional additional currency fee requested by the issuer and collected as\npart of the billing amount, if desired by the issuer. This fee is not included in\nthe settlement amount. It may be a debit or credit."
+      ]
+    },
+    {
+      "change_type": "code_removed",
+      "table": "Glossary",
+      "code": "EDIT PACKAGE (EP)",
+      "cells": [
+        "Edit Package (EP)",
+        "The BASE II software Visa supplies to processors to validate interchange data,\nproduce the file containing interchange data to be sent from the processor to\nVisa, and process incoming transactions received from Visa. The Edit Package\nis the interface between a processing center’s internal processing systems\nand its Extended Access Server (EAS)."
+      ]
+    },
+    {
+      "change_type": "code_removed",
+      "table": "Glossary",
+      "code": "INTERCHANGE REIMBURSEMENT FEE (IRF)",
+      "cells": [
+        "Interchange Reimbursement\nFee (IRF)",
+        "A fee paid by s and s to each other for transactions entered into (and their\nreversals) to balance the cost of doing business."
+      ]
+    },
+    {
+      "change_type": "code_removed",
+      "table": "Glossary",
+      "code": "OPTIONAL ISSUER FEE (OIF)",
+      "cells": [
+        "Optional Issuer Fee (OIF)",
+        "An optional additional currency fee requested by the and collected as part of\nthe billing amount, if desired by the issuer. This fee is not included in the\nsettlement amount. It may be a debit or credit."
+      ]
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "ACCOUNT FUNDING SOURCE",
+      "column": "Definition",
+      "column_index": 1,
+      "old": "Identifies the source of the funds associated with the primary account for the\ncard. For example, Credit, Debit, Prepaid, and Charge.",
+      "new": "Identifies the source of the funds associated with the primary account for the\ncard. For example, Charge, Credit, Debit, Deferred Debit, and Prepaid.",
+      "similarity_ratio": 0.858,
+      "table": "Glossary"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "ACCOUNT NUMBER",
+      "column": "Definition",
+      "column_index": 1,
+      "old": "An issuer-assigned that identifies an account in order to post a transaction.",
+      "new": "An issuer-assigned payment credential that identifies an account in order to\npost a transaction.",
+      "similarity_ratio": 0.89,
+      "table": "Glossary"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "ACQUIRER",
+      "column": "Definition",
+      "column_index": 1,
+      "old": "A client financial institution that has agreements with merchants to accept\nVisa card transactions or offers cash disbursement services to account\nholders, or both. The acquirer is responsible for:\nl\nl\nl\nAccepting card transaction data from merchants and its own ATMs and\nbank branches\nProviding decisions to those card-accepting locations\nConveying transaction information to Visa as transactions",
+      "new": "A client financial institution that has agreements with merchants to accept\nVisa card transactions or offers cash disbursement services to account\nholders, or both. The acquirer is responsible for:\nl\nl\nl\nAccepting card transaction data from merchants and its own ATMs and\nbank branches\nProviding authorization decisions to those card-accepting locations\nConveying transaction information to Visa as interchange transactions",
+      "similarity_ratio": 0.939,
+      "table": "Glossary"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "ADVICE FILE",
+      "column": "Definition",
+      "column_index": 1,
+      "old": "The BASE I file containing records of authorization and verification responses\ngenerated at the VIC.",
+      "new": "The V.I.P. file containing records of authorization and verification responses\ngenerated at the VIC.",
+      "similarity_ratio": 0.95,
+      "table": "Glossary"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "CARD",
+      "column": "Definition",
+      "column_index": 1,
+      "old": "A payment card, digital application, or other device or solution that provides\naccess to a and that is capable of conducting a transaction, is issued by an ,\nand may bear one of the Visa-owned s.",
+      "new": "A payment card, digital application, or other device or solution that provides\naccess to a payment credential and that is capable of conducting a\ntransaction, is issued by an issuer, and may bear one of the Visa-owned\nmarks.",
+      "similarity_ratio": 0.931,
+      "table": "Glossary"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "HOST COMPUTER(S)",
+      "column": "Definition",
+      "column_index": 1,
+      "old": "The computer system used at the processing center to process BASE II\ninterchange or BASE I inquiries, or both, and other authorization-related\nmessages.",
+      "new": "The computer system used at the processing center to process BASE II\ninterchange or V.I.P. inquiries, or both, and other authorization-related\nmessages.",
+      "similarity_ratio": 0.967,
+      "table": "Glossary"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "INTERCHANGE TRANSACTION FILE (ITF)",
+      "column": "Definition",
+      "column_index": 1,
+      "old": "The standard input/output data medium for the Interchange Control System\n(ICS). All output from BASE II is delivered to the Visa client on an incoming ITF.\nAll input to BASE II is sent from the member to the ICS on an outgoing ITF.",
+      "new": "The outgoing Interchange Transaction File contains transactions sent to\nVisaNet by an endpoint. This file may be created by the outgoing Edit\nPackage after the endpoint's pre-edit processing, or it may be sent directly to\nVisaNet.\nThe incoming Interchange Transaction File contains transactions delivered to\nan endpoint by VisaNet. This file may be read by the Edit Package prior to the\ntransaction being processed by the endpoint's post-edit processing, or it may\nbe directly processed by the endpoint.",
+      "similarity_ratio": 0.044,
+      "table": "Glossary"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "INTERNATIONAL ACQUIRING FEE (IAF)",
+      "column": "Definition",
+      "column_index": 1,
+      "old": "An optional regional fee paid by the acquirer when a transaction occurs\noutside the issuer's country. It may be assessed for Sales Draft (TC 05)\noriginal and dispute response financial, Cash Disbursement (TC 07) original\nand dispute response financial, TC 05 and TC 07 reversals and their SMS Visa\nor Plus Network equivalent transactions.",
+      "new": "An optional regional fee paid by the acquirer when a transaction occurs\noutside the issuer's country. It may be assessed for Sales Draft (TC 05)\noriginal and dispute response financial, Cash Disbursement (TC 07) original\nand dispute response financial, TC 05 and TC 07 reversals and their V.I.P. full\nfinancial Visa or Plus Network equivalent transactions.",
+      "similarity_ratio": 0.942,
+      "table": "Glossary"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "INTERNATIONAL SERVICE ASSESSMENT (ISA)",
+      "column": "Definition",
+      "column_index": 1,
+      "old": "The International Service Assessment (ISA) fee applies to international BASE II\nand SMS clearing transactions in which the issuer country is different from\nthe merchant country.",
+      "new": "The International Service Assessment (ISA) fee applies to international BASE II\nand V.I.P. full financial clearing transactions in which the issuer country is\ndifferent from the merchant country.",
+      "similarity_ratio": 0.935,
+      "table": "Glossary"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "ISSUER",
+      "column": "Definition",
+      "column_index": 1,
+      "old": "A client financial institution that issues Visa cards. For a given transaction, the\nissuer is the institution that issued the card used for that transaction to the .\nThe issuer is responsible for maintaining the accounts of its account holders,\nfor providing authorization decisions, for account holder billing, and for\nsettlement of transactions its account holders have with merchants and cash\ndispensing locations of other clients. Each issuer operates or designates an\nissuer center to perform the functions related to and of transactions.",
+      "new": "A client financial institution that issues Visa cards. For a given transaction, the\nissuer is the institution that issued the card used for that transaction to the\naccount holder. The issuer is responsible for maintaining the accounts of its\naccount holders, for providing authorization decisions, for account holder\nbilling, and for settlement of transactions its account holders have with\nmerchants and cash dispensing locations of other clients. Each issuer\noperates or designates an issuer center to perform the functions related to\nclearing and settlement of interchange transactions.",
+      "similarity_ratio": 0.949,
+      "table": "Glossary"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "REGIONAL CARD RECOVERY FILE (RCRF)",
+      "column": "Definition",
+      "column_index": 1,
+      "old": "A file of cardholder account records, created by Visa every week for\ninternational users, that contains all BASE I Exception File pickup accounts\ncoded for a given CRB region, plus specified \"Region 0\" accounts listed by\nissuers in that CRB region. Users receive an RCRF as part of the incoming\nBASE II interchange transaction file.",
+      "new": "A file of cardholder account records, created by Visa every week for\ninternational users, that contains all V.I.P. Exception File pickup accounts\ncoded for a given CRB region, plus specified \"Region 0\" accounts listed by\nissuers in that CRB region. Users receive an RCRF as part of the incoming\nBASE II interchange transaction file.",
+      "similarity_ratio": 0.346,
+      "table": "Glossary"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "SETTLEMENT",
+      "column": "Definition",
+      "column_index": 1,
+      "old": "The actual transfer of funds from the issuing bank to the acquiring bank\nthrough a wire transfer to a settlement account, and the total amount owed\nby one Visa client to another. See also .",
+      "new": "The actual transfer of funds from the issuing bank to the acquiring bank\nthrough a wire transfer to a settlement account, and the total amount owed\nby one Visa client to another. See also net settlement amount.",
+      "similarity_ratio": 0.947,
+      "table": "Glossary"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "SPECIAL AIRLINE FEE",
+      "column": "Definition",
+      "column_index": 1,
+      "old": "A fee charged on transactions from International Airlines when the , , and\ntransaction countries are different entities. This fee is collected instead of the\nIAF fee, and is paid to the transaction region.",
+      "new": "A fee charged on transactions from International Airlines when the issuer,\nacquirer, and transaction countries are different entities. This fee is collected\ninstead of the IAF fee, and is paid to the transaction region.",
+      "similarity_ratio": 0.967,
+      "table": "Glossary"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "STAND-IN PROCESSOR (STIP)",
+      "column": "Definition",
+      "column_index": 1,
+      "old": "For BASE I processing. The function operating at all VICs that provides\nauthorization decisions on behalf of BASE I card issuers. It acts for\ntransactions in amounts below the issuer limit, when the issuer center is\nunavailable, when a request sent to the issuer center times out, or when a\nlocal switch request STIP processing.\nFor SMS processing. The function that makes authorization decisions for\nauthorization and financial requests on behalf of issuer centers. It acts only\nwhen the issuer center is unavailable or when a request has timed out.",
+      "new": "For V.I.P. processing. The function operating at all VICs that provides\nauthorization decisions on behalf of card issuers. It acts for transactions in\namounts below the issuer limit, when the issuer center is unavailable, when a\nrequest sent to the issuer center times out, or when a local switch request\nSTIP processing.",
+      "similarity_ratio": 0.726,
+      "table": "Glossary"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "STORED CREDENTIAL",
+      "column": "Definition",
+      "column_index": 1,
+      "old": "Information (including, but not limited to, a ) stored by a merchant or its\nagent, a payment facilitator, or a staged digital wallet operator to process\nfuture transactions.",
+      "new": "Information (including, but not limited to, a payment credential) stored by a\nmerchant or its agent, a payment facilitator, or a staged digital wallet\noperator to process future transactions.",
+      "similarity_ratio": 0.951,
+      "table": "Glossary"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "TOKEN",
+      "column": "Definition",
+      "column_index": 1,
+      "old": "A type of issued in accordance with the EMV Payment Tokenization\nSpecification.",
+      "new": "A type of payment credential issued in accordance with the EMV Payment\nTokenization Specification.",
+      "similarity_ratio": 0.893,
+      "table": "Glossary"
+    },
+    {
+      "change_type": "code_content_changed",
+      "code": "VISA CARD",
+      "column": "Definition",
+      "column_index": 1,
+      "old": "A that bears the Visa .",
+      "new": "A card that bears the Visa brand mark.",
+      "similarity_ratio": 0.754,
+      "table": "Glossary"
+    },
+    {
+      "change_type": "table_renamed",
+      "table_a": "Chapter 2 • | Country and Currency Codes\n120",
+      "table_b": "Chapter 2 • | Country and Currency Codes\n119",
+      "fuzzy_ratio": 0.955
+    },
+    {
+      "change_type": "code_added",
+      "table": "Chapter 2 • | Country and Currency Codes\n119",
+      "code": "133 135 CHAPTER 3 • RETAINED AND RETURNED DATA ELEMENTS",
+      "cells": [
+        "133\n135\nChapter 3 •\nRetained and Returned Data Elements"
+      ]
+    },
+    {
+      "change_type": "code_removed",
+      "table": "Chapter 2 • | Country and Currency Codes\n119",
+      "code": "136 134 CHAPTER 3 • RETAINED AND RETURNED DATA ELEMENTS",
+      "cells": [
+        "136\n134\nChapter 3 •\nRetained and Returned Data Elements"
+      ]
+    }
+  ]
+}

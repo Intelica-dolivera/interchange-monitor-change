@@ -1,0 +1,2168 @@
+{
+  "manual": "international_full_service_pos_online_messages_processing_specifications",
+  "edition_a": "20250414",
+  "edition_b": "20251015",
+  "summary": {
+    "duplicate_paragraph_warning": 43,
+    "paragraph_added": 71,
+    "paragraph_removed": 44,
+    "paragraph_reflowed": 9,
+    "paragraph_content_changed": 1
+  },
+  "changes": [
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "Full Service Processing Summary",
+        "Full Service Participation Requirements",
+        "Acquirer System Requirements"
+      ],
+      "duplicate_texts_a": [
+        "no response is received from visanet. a late response is received from visanet. the transaction is cancelled at the point of sale. the transaction response cannot be successfully delivered to the terminal.",
+        "online transaction processing",
+        "transaction type",
+        "visa",
+        "x"
+      ],
+      "duplicate_texts_b": [
+        "no response is received from visanet. a late response is received from visanet. the transaction is cancelled at the point of sale. the transaction response cannot be successfully delivered to the terminal.",
+        "online transaction processing",
+        "transaction type",
+        "visa",
+        "x"
+      ]
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "Full Service Processing Summary",
+        "Full Service Participation Requirements",
+        "Acquirer Options"
+      ],
+      "duplicate_texts_a": [
+        "acquirer options",
+        "options",
+        "references",
+        "see the chapter on client to visa connection options.",
+        "v.i.p. system overview and services",
+        "x"
+      ],
+      "duplicate_texts_b": [
+        "acquirer options",
+        "options",
+        "references",
+        "see the chapter on client to visa connection options.",
+        "v.i.p. system overview and services",
+        "x"
+      ]
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "Full Service Processing Summary",
+        "Full Service Participation Requirements",
+        "Issuer System Requirements"
+      ],
+      "duplicate_texts_a": [
+        "can be submitted by using visa resolve online (vrol)",
+        "online file maintenance",
+        "required visa issuer transactions",
+        "responses to each of these transactions",
+        "transaction type",
+        "visa",
+        "x"
+      ],
+      "duplicate_texts_b": [
+        "can be submitted by using visa resolve online (vrol)",
+        "online file maintenance",
+        "required visa issuer transactions",
+        "responses to each of these transactions",
+        "transaction type",
+        "visa",
+        "x"
+      ]
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "Full Service Processing Summary",
+        "Full Service Participation Requirements",
+        "Issuer Options"
+      ],
+      "duplicate_texts_a": [
+        "issuer options",
+        "options",
+        "references",
+        "see the chapter on client to visa connection options.",
+        "see the chapter on settlement and reconcilliation.",
+        "see the chapter on stip.",
+        "see the chapter on stip. v.i.p. system overview and services",
+        "v.i.p. system overview and services"
+      ],
+      "duplicate_texts_b": [
+        "issuer options",
+        "options",
+        "references",
+        "see the chapter on client to visa connection options.",
+        "see the chapter on settlement and reconcilliation.",
+        "see the chapter on stip.",
+        "see the chapter on stip. v.i.p. system overview and services",
+        "v.i.p. system overview and services"
+      ]
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "Full Service Processing Summary",
+        "V.I.P. System Functions",
+        "Message Routing"
+      ],
+      "duplicate_texts_a": [
+        "0200",
+        "0220",
+        "0600",
+        "message type",
+        "n/a",
+        "optional",
+        "routing decision based on...",
+        "transaction",
+        "transaction routing"
+      ],
+      "duplicate_texts_b": [
+        "0200",
+        "0220",
+        "0600",
+        "message type",
+        "n/a",
+        "optional",
+        "routing decision based on...",
+        "transaction",
+        "transaction routing"
+      ]
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "Summary of V.I.P. Full Service Processing Services and Capabilities",
+        "Online Request Services",
+        "MIT Categories"
+      ],
+      "duplicate_texts_a": [
+        "and mit",
+        "any merchant category.",
+        "description",
+        "maximum",
+        "original transaction",
+        "original transaction and mit relevant merchant",
+        "reauthorization transaction-message reason code 3903",
+        "rules.",
+        "segments",
+        "the timeframe is governed by a contract between the cardholder and the merchant",
+        "timeframe between",
+        "timeframe between original transaction and mit relevant merchant"
+      ],
+      "duplicate_texts_b": [
+        "and mit",
+        "any merchant category.",
+        "description",
+        "maximum",
+        "original transaction",
+        "original transaction and mit relevant merchant",
+        "reauthorization transaction-message reason code 3903",
+        "rules.",
+        "segments",
+        "the timeframe is governed by a contract between the cardholder and the merchant",
+        "timeframe between",
+        "timeframe between original transaction and mit relevant merchant"
+      ]
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "Summary of V.I.P. Full Service Processing Services and Capabilities",
+        "Online Request Services",
+        "Visa Cashback Processing: VisaNet Cashback Service"
+      ],
+      "duplicate_texts_a": [
+        "defined by regions, countries",
+        "visa, visa electron"
+      ],
+      "duplicate_texts_b": [
+        "defined by regions, countries",
+        "visa, visa electron"
+      ]
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "Summary of V.I.P. Full Service Processing Services and Capabilities",
+        "Online Request Services",
+        "Merchant Verification Value (MVV) Processing"
+      ],
+      "text": "V.I.P. uses Field 62.20 - Merchant Verification Value (MVV) to identify and authenticate merchants in authorization and reversal requests. It also validates the relationship between the merchant and its Visa client. Acquirers and issuers must successfully complete testing to send and receive this field. To be able to send and receive field 62.20, acquirers and issuers must be able to send field 62 in bitmap format. Visa assigns MVVs to specific merchants, and each MVV is unique. Visa assigns the first six positions and helps the acquirer assign the last four. If the MVV field format is invalid in requests, V.I.P. drops the field. U.S. tax payment transactions must include an MVV. MVVs can also be used to allow individual clients to process transactions while belonging to an otherwise blocked merchant category such as 7995 (online gambling)."
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "Summary of V.I.P. Full Service Processing Services and Capabilities",
+        "Online Request Services",
+        "Merchant Verification Value (MVV) Processing"
+      ],
+      "text": "V.I.P. uses Field 62.20—Merchant Verification Value (MVV) to identify and authenticate merchants in authorization and reversal requests. It also validates the relationship between the merchant and its Visa client. V.I.P. uses a Merchant Verification Value (MVV) to identify merchants and track the volume of transactions processed by individual global merchants. V.I.P. also uses the MVV ID for transaction processing such as online gambling, merchant risk scoring, and other services based on MVV ID flags. Visa assigns MVVs to specific merchants, and each MVV is unique. Visa assigns the first six positions and helps the acquirer assign the last four. If the MVV field format is invalid in requests, V.I.P. drops the field. The MVV is not necessarily a component of the Custom Payment Service. U.S. tax payment transactions must include an MVV. MVVs can also be used to allow individual clients to process transactions while belonging to an otherwise blocked merchant category such as 7995 (online gambling). MVVs are stored in the cardholder database (CDB) and are maintained by the client. Acquirers must provide the MVV in all authorization, clearing, and exception item messages if the merchant has an MVV assigned. Issuers must retain and return the MVV in all exception items. To be able to send and receive field 62.20, acquirers and issuers must be able to send field 62 in bitmap format. Acquirers and issuers must successfully complete testing to send and receive this field."
+    },
+    {
+      "change_type": "paragraph_reflowed",
+      "path": [
+        "Summary of V.I.P. Full Service Processing Services and Capabilities",
+        "Online Request Services",
+        "Visa Smarter Posting Service"
+      ],
+      "text_a": [
+        "0100 preauthorization request",
+        "0120 completion advice 0400 and 0420 reversal"
+      ],
+      "text_b": [
+        "0100 preauthorization request 0120 completion advice 0400 and 0420 reversal"
+      ]
+    },
+    {
+      "change_type": "paragraph_reflowed",
+      "path": [
+        "Summary of V.I.P. Full Service Processing Services and Capabilities",
+        "Risk Services",
+        "Card Recovery Bulletin (CRB) Service"
+      ],
+      "text_a": [
+        "The Card Recovery Bulletin (CRB) Service is an international risk control service maintaining card recovery files containing account numbers of cards reported as lost, stolen, or misused. It maintains card recovery files (including the CD-ROM bulletin) for most acquirers, and merchant",
+        "mailing files for all acquirers. It also helps control fraud on below-floor-limit transactions outside of the U.S. region. The CRB Service protects cardholders from fraudulent use of their lost or stolen cards. It also supports dispute rights of issuers, acquirers, merchants, and cardholders."
+      ],
+      "text_b": [
+        "The Card Recovery Bulletin (CRB) Service is an international risk control service maintaining card recovery files containing account numbers of cards reported as lost, stolen, or misused. It maintains card recovery files (including the CD-ROM bulletin) for most acquirers, and merchant mailing files for all acquirers. It also helps control fraud on below-floor-limit transactions outside of the U.S. region. The CRB Service protects cardholders from fraudulent use of their lost or stolen cards. It also supports dispute rights of issuers, acquirers, merchants, and cardholders."
+      ]
+    },
+    {
+      "change_type": "paragraph_reflowed",
+      "path": [
+        "Summary of V.I.P. Full Service Processing Services and Capabilities",
+        "Additional Services",
+        "Account Funding Service"
+      ],
+      "text_a": [
+        "The Account Funding Service allows Visa cardholders to fund accounts such as brokerage accounts and accounts associated with stored value cards. The Account Funding Service uses CVV2s as a cardholder risk control measure, which is one of the requirements for an electronic commerce (e-commerce) stored-value card transaction to qualify for the CPS/Account Funding",
+        "Program. For stored-value cards to be refilled more than once, the CVV2 is required only in the initial funding request for the request to qualify; subsequent transactions can also qualify for the CPS program without the CVV2 being present. Interlink issuers must support AFT transactions for U.S. issued (including applicable U.S. territories), non-Visa branded card absent Interlink debit and prepaid products."
+      ],
+      "text_b": [
+        "The Account Funding Service allows Visa cardholders to fund accounts such as brokerage accounts and accounts associated with stored value cards. The Account Funding Service uses CVV2s as a cardholder risk control measure, which is one of the requirements for an electronic commerce (e-commerce) stored-value card transaction to qualify for the CPS/Account Funding Program. For stored-value cards to be refilled more than once, the CVV2 is required only in the initial funding request for the request to qualify; subsequent transactions can also qualify for the CPS program without the CVV2 being present. Interlink issuers must support AFT transactions for U.S. issued (including applicable U.S. territories), non-Visa branded card absent Interlink debit and prepaid products."
+      ]
+    },
+    {
+      "change_type": "paragraph_reflowed",
+      "path": [
+        "Summary of V.I.P. Full Service Processing Services and Capabilities",
+        "Additional Services",
+        "Visa Mobile Prepaid (VMP) Service"
+      ],
+      "text_a": [
+        "Agent Cash In: Cash in transactions enable the addition of money to a mobile money account using OCTs. Agent Cash Out: Cash out transactions enable withdrawal of funds from a mobile money account. Agent Cash Claim: Cash claim transactions enable withdrawal of funds from a mobile money account using a manual cash transaction. Agent Bill Pay: Bill pay transactions enable withdrawal of funds from a mobile money account using AFTs to pay bills or make airtime top up purchases.",
+        "Person-to-Person (P2P) Money Transfer: P2P money transfer enable sending and receiving of funds to a mobile money account using an OCT. Purchase and ATM: VMP accounts can be used for retail purchases, including electronic commerce. Transactions can be initiated at ATMs. Bulk Business-to-Consumer (B2C) Funds Disbursement Transactions."
+      ],
+      "text_b": [
+        "Agent Cash In: Cash in transactions enable the addition of money to a mobile money account using OCTs. Agent Cash Out: Cash out transactions enable withdrawal of funds from a mobile money account. Agent Cash Claim: Cash claim transactions enable withdrawal of funds from a mobile money account using a manual cash transaction. Agent Bill Pay: Bill pay transactions enable withdrawal of funds from a mobile money account using AFTs to pay bills or make airtime top up purchases. Person-to-Person (P2P) Money Transfer: P2P money transfer enable sending and receiving of funds to a mobile money account using an OCT. Purchase and ATM: VMP accounts can be used for retail purchases, including electronic commerce. Transactions can be initiated at ATMs. Bulk Business-to-Consumer (B2C) Funds Disbursement Transactions."
+      ]
+    },
+    {
+      "change_type": "paragraph_reflowed",
+      "path": [
+        "Summary of V.I.P. Full Service Processing Services and Capabilities",
+        "Additional Services",
+        "Visa Token Service"
+      ],
+      "text_a": [
+        "The Visa Token Service provides clients enhanced protection against counterfeit, account misuse, and other forms of fraud in card-not-present and hybrid transaction environments. This service helps to minimize unauthorized use of cardholder account data in a transaction. The Visa Token Service uses the EMV Payment Tokenization Specification–Technical Framework (payment token framework) published by EMVCo addressing processing considerations and use of payment tokens to protect cardholder payment credentials. Visa Token Service allows acquirers, merchants, and digital wallet providers to request for tokens. Tokens are surrogate values which replace the PAN in transaction processing. Token vaults generate and store tokens along with their associated PANs and issue them when requested. Token service providers operate token vaults. Token requestors can request tokens at different stages of the transaction including authorization, capture, clearing, and exception processing. The PAN is never passed in the transaction when a token is requested, this enhances the security during transaction processing.",
+        "VisaNet supports token provisioning, payment processing, and lifecycle management for:"
+      ],
+      "text_b": [
+        "The Visa Token Service provides clients enhanced protection against counterfeit, account misuse, and other forms of fraud in card-not-present and hybrid transaction environments. This service helps to minimize unauthorized use of cardholder account data in a transaction. The Visa Token Service uses the EMV Payment Tokenization Specification–Technical Framework (payment token framework) published by EMVCo addressing processing considerations and use of payment tokens to protect cardholder payment credentials. Visa Token Service allows acquirers, merchants, and digital wallet providers to request for tokens. Tokens are surrogate values which replace the PAN in transaction processing. Token vaults generate and store tokens along with their associated PANs and issue them when requested. Token service providers operate token vaults. Token requestors can request tokens at different stages of the transaction including authorization, capture, clearing, and exception processing. The PAN is never passed in the transaction when a token is requested, this enhances the security during transaction processing. VisaNet supports token provisioning, payment processing, and lifecycle management for:"
+      ]
+    },
+    {
+      "change_type": "paragraph_reflowed",
+      "path": [
+        "Full Service POS Products"
+      ],
+      "text_a": [
+        "VisaNet allows Visa POS and Interlink cardholders to purchase goods and services at participating merchant locations. To support these POS transactions, a client bank has the option to participate as a full service issuer, a full service acquirer, or as a full service issuer and acquirer.",
+        "In the online financial environment, full service clients use a single exchange of messages between the acquirer (or the directly connected merchant) and the issuer to:"
+      ],
+      "text_b": [
+        "VisaNet allows Visa POS and Interlink cardholders to purchase goods and services at participating merchant locations. To support these POS transactions, a client bank has the option to participate as a full service issuer, a full service acquirer, or as a full service issuer and acquirer. In the online financial environment, full service clients use a single exchange of messages between the acquirer (or the directly connected merchant) and the issuer to:"
+      ]
+    },
+    {
+      "change_type": "paragraph_reflowed",
+      "path": [
+        "Full Service POS Products",
+        "Full Service POS Products for Acquirers"
+      ],
+      "text_a": [
+        "Full service allows acquirers to consistently process Visa, V PAY, and Interlink transactions for their merchants. If a client participates in multiple POS services, full service acquirers can use one message format and one connection to VisaNet. They can also use the same connection to support their full service ATM services. Full service POS acquirers can process a full financial transaction in two ways:"
+      ],
+      "text_b": [
+        "Full service allows acquirers to consistently process Visa, V PAY, and Interlink transactions for their merchants. If a client participates in multiple POS services, full service acquirers can use one message format and one connection to VisaNet. They can also use the same connection to support their full service ATM services.",
+        "Full service POS acquirers can process a full financial transaction in two ways:"
+      ]
+    },
+    {
+      "change_type": "paragraph_reflowed",
+      "path": [
+        "Full Service POS Products",
+        "Full Service POS Products for Acquirers"
+      ],
+      "text_a": [
+        "Support the acquirer transaction set. Log all financial and non-financial transactions (approved or declined) and all postings to merchant accounts. Forward responses to the POS device and determine successful delivery of responses.",
+        "Assure total system security of cardholders' PINs. PIN usage is conditional for Visa POS, Visa Electron, Card Absent Interlink, and required for Card-Present Interlink. See Payment Technology Standards Manual for information about PIN security and conditional usage. Process exception transactions (initiate adjustments and dispute response financials and receive dispute financial responses.) Send and receive administrative messages."
+      ],
+      "text_b": [
+        "Support the acquirer transaction set. Log all financial and non-financial transactions (approved or declined) and all postings to merchant accounts. Forward responses to the POS device and determine successful delivery of responses. Assure total system security of cardholders' PINs. PIN usage is conditional for Visa POS, Visa Electron, Card Absent Interlink, and required for Card-Present Interlink. See Payment Technology Standards Manual for information about PIN security and conditional usage. Process exception transactions (initiate adjustments and dispute response financials and receive dispute financial responses.) Send and receive administrative messages."
+      ]
+    },
+    {
+      "change_type": "paragraph_reflowed",
+      "path": [
+        "Full Service POS Products",
+        "Full Service POS Products for Issuers"
+      ],
+      "text_a": [
+        "Participating issuers can process Visa POS and Interlink transactions using one message format and one connection to the V.I.P. system. They can also use the same connection to support their full service ATM services. Full service POS issuers can immediately authorize and post online financial transactions received from full service POS acquirers. In addition, Visa POS issuers must have the ability to authorize transactions online and to receive online deferred clearing transactions through V.I.P. at a later time. For batch-deferred clearing transactions from authorization-only/BASE II Visa POS acquirers or for online-deferred clearing transactions from full service acquirers, issuers receive the authorization message at the time of purchase and the clearing message later. VisaNet delivers the authorization and clearing messages through the issuer's full service VisaNet connection, enabling the issuer to maintain one consistent method for processing all Visa-branded products. The main function of issuers' systems is to accurately respond, based on cardholders' accounts and PINs, to messages received from the V.I.P. System. Issuers also must send dispute financials, administrative messages, and network management messages. Issuers receive transaction requests and approve or decline them based on predefined parameters. Visa requires issuers:"
+      ],
+      "text_b": [
+        "Participating issuers can process Visa POS and Interlink transactions using one message format and one connection to the V.I.P. system. They can also use the same connection to support their full service ATM services. Full service POS issuers can immediately authorize and post online financial transactions received from full service POS acquirers. In addition, Visa POS issuers must have the ability to authorize transactions online and to receive online deferred clearing transactions through V.I.P. at a later time.",
+        "For batch-deferred clearing transactions from authorization-only/BASE II Visa POS acquirers or for online-deferred clearing transactions from full service acquirers, issuers receive the authorization message at the time of purchase and the clearing message later. VisaNet delivers the authorization and clearing messages through the issuer's full service VisaNet connection, enabling the issuer to maintain one consistent method for processing all Visa-branded products. The main function of issuers' systems is to accurately respond, based on cardholders' accounts and PINs, to messages received from the V.I.P. System. Issuers also must send dispute financials, administrative messages, and network management messages. Issuers receive transaction requests and approve or decline them based on predefined parameters. Visa requires issuers:"
+      ]
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "Transaction Types"
+      ],
+      "duplicate_texts_a": [
+        "(can be submitted using visa resolve online [vrol])",
+        "0100",
+        "0200",
+        "0220",
+        "0400/0420",
+        "0422",
+        "0600",
+        "full service transaction types",
+        "interlink",
+        "message type",
+        "network management transactions",
+        "online file maintenance",
+        "transaction type",
+        "visa",
+        "x"
+      ],
+      "duplicate_texts_b": [
+        "(can be submitted using visa resolve online [vrol])",
+        "0100",
+        "0200",
+        "0220",
+        "0400/0420",
+        "0422",
+        "0600",
+        "full service transaction types",
+        "interlink",
+        "message type",
+        "network management transactions",
+        "online file maintenance",
+        "transaction type",
+        "visa",
+        "x"
+      ]
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "Transaction Types",
+        "Portfolio File",
+        "File Content"
+      ],
+      "duplicate_texts_a": [
+        "r1"
+      ],
+      "duplicate_texts_b": [
+        "r1"
+      ]
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "Transaction Sets",
+        "Visa POS Transaction Sets"
+      ],
+      "duplicate_texts_a": [
+        "adjustment",
+        "allowable",
+        "allowable transactions",
+        "dispute",
+        "dispute response",
+        "financial",
+        "request",
+        "reversal",
+        "transactions",
+        "x"
+      ],
+      "duplicate_texts_b": [
+        "adjustment",
+        "allowable",
+        "allowable transactions",
+        "dispute",
+        "dispute response",
+        "financial",
+        "request",
+        "reversal",
+        "transactions",
+        "x"
+      ]
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "Standard Processing",
+        "Cardholder Transactions",
+        "Purchase and Cash Disbursement"
+      ],
+      "duplicate_texts_a": [
+        "0200 request",
+        "0210 response",
+        "purchase",
+        "with",
+        "x"
+      ],
+      "duplicate_texts_b": [
+        "0200 request",
+        "0210 response",
+        "purchase",
+        "with",
+        "x"
+      ]
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "Standard Processing",
+        "Cardholder Transactions",
+        "Online Deferred Clearing"
+      ],
+      "duplicate_texts_a": [
+        "0100 request",
+        "0110 response",
+        "0220 advice",
+        "0230 advice",
+        "response"
+      ],
+      "duplicate_texts_b": [
+        "0100 request",
+        "0110 response",
+        "0220 advice",
+        "0230 advice",
+        "response"
+      ]
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "Standard Processing",
+        "Cardholder Transactions",
+        "Merchandise Return and Merchandise Credit"
+      ],
+      "duplicate_texts_a": [
+        "0100 request",
+        "0110 response",
+        "0200 request",
+        "0210 response",
+        "acquirer",
+        "day 1 – original transaction",
+        "day x – merchandise return",
+        "issuer",
+        "v.i.p."
+      ],
+      "duplicate_texts_b": [
+        "0100 request",
+        "0110 response",
+        "0200 request",
+        "0210 response",
+        "acquirer",
+        "day 1 – original transaction",
+        "day x – merchandise return",
+        "issuer",
+        "v.i.p."
+      ]
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "Standard Processing",
+        "Cardholder Transactions",
+        "Balance Inquiry"
+      ],
+      "duplicate_texts_a": [
+        "0200 request",
+        "0210 response"
+      ],
+      "duplicate_texts_b": [
+        "0200 request",
+        "0210 response"
+      ]
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "Standard Processing",
+        "Exception Transactions",
+        "Adjustments Including Adjusting Duplicates"
+      ],
+      "duplicate_texts_a": [
+        "0220 advice",
+        "0230 advice",
+        "response"
+      ],
+      "duplicate_texts_b": [
+        "0220 advice",
+        "0230 advice",
+        "response"
+      ]
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "Standard Processing",
+        "Exception Transactions",
+        "Dispute Financial"
+      ],
+      "duplicate_texts_a": [
+        "0422 advice",
+        "0432 advice",
+        "response"
+      ],
+      "duplicate_texts_b": [
+        "0422 advice",
+        "0432 advice",
+        "response"
+      ]
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "Standard Processing",
+        "Exception Transactions",
+        "Dispute Financial Reversal"
+      ],
+      "duplicate_texts_a": [
+        "0422 advice",
+        "0432 advice",
+        "response"
+      ],
+      "duplicate_texts_b": [
+        "0422 advice",
+        "0432 advice",
+        "response"
+      ]
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "Standard Processing",
+        "Exception Transactions",
+        "Dispute Response Financial"
+      ],
+      "duplicate_texts_a": [
+        "0220 advice",
+        "0230 advice",
+        "response"
+      ],
+      "duplicate_texts_b": [
+        "0220 advice",
+        "0230 advice",
+        "response"
+      ]
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "Standard Processing",
+        "Exception Transactions",
+        "Fee-Related Transaction"
+      ],
+      "duplicate_texts_a": [
+        "0220 advice",
+        "0230 advice",
+        "0422 advice",
+        "0432 advice",
+        "acquirer",
+        "issuer",
+        "response",
+        "v.i.p."
+      ],
+      "duplicate_texts_b": [
+        "0220 advice",
+        "0230 advice",
+        "0422 advice",
+        "0432 advice",
+        "acquirer",
+        "issuer",
+        "response",
+        "v.i.p."
+      ]
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "Standard Processing",
+        "Reconciliation Transactions",
+        "Reconciliation Advice"
+      ],
+      "duplicate_texts_a": [
+        "0520 advice",
+        "0530 advice",
+        "response"
+      ],
+      "duplicate_texts_b": [
+        "0520 advice",
+        "0530 advice",
+        "response"
+      ]
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "Standard Processing",
+        "Administrative Transactions",
+        "Free-Text Message"
+      ],
+      "duplicate_texts_a": [
+        "0600 request",
+        "0610 response",
+        "acquirer",
+        "issuer",
+        "v.i.p."
+      ],
+      "duplicate_texts_b": [
+        "0600 request",
+        "0610 response",
+        "acquirer",
+        "issuer",
+        "v.i.p."
+      ]
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "Standard Processing",
+        "Administrative Transactions",
+        "Copy Request"
+      ],
+      "duplicate_texts_a": [
+        "0600 request",
+        "0610 response"
+      ],
+      "duplicate_texts_b": [
+        "0600 request",
+        "0610 response"
+      ]
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "Standard Processing",
+        "Administrative Transactions",
+        "Collection-Only"
+      ],
+      "duplicate_texts_a": [
+        "v.i.p."
+      ],
+      "duplicate_texts_b": [
+        "v.i.p."
+      ]
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "Standard Processing",
+        "Network Management Transactions",
+        "Sign-On and Sign-Off Message"
+      ],
+      "duplicate_texts_a": [
+        "0800 request",
+        "0810 response"
+      ],
+      "duplicate_texts_b": [
+        "0800 request",
+        "0810 response"
+      ]
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "Standard Processing",
+        "Network Management Transactions",
+        "Echo Test Message"
+      ],
+      "duplicate_texts_a": [
+        "0800 request",
+        "0810 response",
+        "echo test"
+      ],
+      "duplicate_texts_b": [
+        "0800 request",
+        "0810 response",
+        "echo test"
+      ]
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "Standard Processing",
+        "Network Management Transactions",
+        "Recovery Sign-On and Sign-Off Message"
+      ],
+      "duplicate_texts_a": [
+        "0800 request",
+        "0810 response"
+      ],
+      "duplicate_texts_b": [
+        "0800 request",
+        "0810 response"
+      ]
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "Standard Processing",
+        "Network Management Transactions",
+        "Dynamic Key Exchange"
+      ],
+      "duplicate_texts_a": [
+        "0810 response"
+      ],
+      "duplicate_texts_b": [
+        "0810 response"
+      ]
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "Exception Conditions",
+        "Financial Transactions",
+        "Issuer Fails to Respond"
+      ],
+      "duplicate_texts_a": [
+        "0200 request"
+      ],
+      "duplicate_texts_b": [
+        "0200 request"
+      ]
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "Exception Conditions",
+        "Financial Transactions",
+        "Issuer Responds Late"
+      ],
+      "duplicate_texts_a": [
+        "0200 request",
+        "0210 response"
+      ],
+      "duplicate_texts_b": [
+        "0200 request",
+        "0210 response"
+      ]
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "Exception Conditions",
+        "Financial Transactions",
+        "Approval Response Cannot Be Delivered to the Acquirer"
+      ],
+      "duplicate_texts_a": [
+        "0200 request",
+        "0420 advice",
+        "0430 advice response"
+      ],
+      "duplicate_texts_b": [
+        "0200 request",
+        "0420 advice",
+        "0430 advice response"
+      ]
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "Exception Conditions",
+        "Financial Transactions",
+        "Decline Response Cannot Be Delivered to the Acquirer"
+      ],
+      "duplicate_texts_a": [
+        "0200 request",
+        "0210 response"
+      ],
+      "duplicate_texts_b": [
+        "0200 request",
+        "0210 response"
+      ]
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "Exception Conditions",
+        "Reversals",
+        "Reversal—Advice Response Cannot Be Delivered to the Acquirer"
+      ],
+      "duplicate_texts_a": [
+        "0420 advice",
+        "0430 advice response"
+      ],
+      "duplicate_texts_b": [
+        "0420 advice",
+        "0430 advice response"
+      ]
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "Exception Conditions",
+        "Exception Transactions",
+        "Adjustment or Dispute Response Financial—Issuer Unavailable"
+      ],
+      "duplicate_texts_a": [
+        "0220 advice",
+        "0230 advice response"
+      ],
+      "duplicate_texts_b": [
+        "0220 advice",
+        "0230 advice response"
+      ]
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "Exception Conditions",
+        "Exception Transactions",
+        "Adjustment or Dispute Response Financial—Acquirer Unavailable After Advice"
+      ],
+      "duplicate_texts_a": [
+        "0220 advice",
+        "0230 advice response"
+      ],
+      "duplicate_texts_b": [
+        "0220 advice",
+        "0230 advice response"
+      ]
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "Exception Conditions",
+        "Exception Transactions",
+        "Dispute Financial—Acquirer Unavailable"
+      ],
+      "duplicate_texts_a": [
+        "0422 advice",
+        "0432 advice response"
+      ],
+      "duplicate_texts_b": [
+        "0422 advice",
+        "0432 advice response"
+      ]
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "Exception Conditions",
+        "Exception Transactions",
+        "Dispute Financial—Issuer Unavailable After Dispute Financial"
+      ],
+      "duplicate_texts_a": [
+        "0422 advice",
+        "0432 advice response"
+      ],
+      "duplicate_texts_b": [
+        "0422 advice",
+        "0432 advice response"
+      ]
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "Multicurrency Field Flows"
+      ],
+      "duplicate_texts_a": [
+        "01 (total)",
+        "02 (available)",
+        "0200 request",
+        "0200 request or",
+        "0200 request or 0220",
+        "0210 or 0230",
+        "0210 response",
+        "0220 advice",
+        "0230 response",
+        "036 (au $)",
+        "0400 request or",
+        "0410 or 0430",
+        "0420 advice",
+        "0422 advice",
+        "0432 response",
+        "1an 0230 message",
+        "20 (checking)",
+        "4 to billing currency",
+        "4 to settlement",
+        "acquirer",
+        "add fld 6",
+        "advice",
+        "amount and",
+        "amount, if",
+        "an advice message.",
+        "and include visa",
+        "au$500.00",
+        "c (positive)",
+        "calculated; use to",
+        "converted",
+        "currency; use to add",
+        "does not contain fld 4",
+        "fields1",
+        "fld 10",
+        "fld 10 = .012625",
+        "fld 16 = 09/28",
+        "fld 16 = 10/15",
+        "fld 4 = au$252.50",
+        "fld 4 = ¥1000",
+        "fld 4 = ¥10000",
+        "fld 4 = ¥20000",
+        "fld 41 = ¥20000",
+        "fld 49 = 036",
+        "fld 49 = 392",
+        "fld 491 = 392",
+        "fld 5",
+        "fld 5 = au$250.00",
+        "fld 5 = us$10.00",
+        "fld 5 = us$200.00",
+        "fld 50 = 036",
+        "fld 50 = 840",
+        "fld 51 = 036",
+        "fld 54a =",
+        "fld 54a = au$5000.00",
+        "fld 54a-converted =",
+        "fld 54b =",
+        "fld 6 = au$252.50",
+        "fld 9 = .01",
+        "fld 9 = .0125",
+        "for reversal of 02xx settled",
+        "for settlement:",
+        "for this example, ¥100 = usd$1.00 and au$1.25 = usd$1.00.",
+        "fx calculator",
+        "if transaction qualifies",
+        "issuer",
+        "issuer fx calculator",
+        "no multicurrency",
+        "or fld 49 because it is",
+        "processing",
+        "receives:",
+        "response",
+        "sends:",
+        "subtract from value",
+        "transactions:",
+        "v.i.p.",
+        "v.i.p. processing:",
+        "v.i.p. processing: · add fld 5",
+        "· add fld 16",
+        "· add fld 5",
+        "· add fld 50",
+        "· add fld 51",
+        "· add fld 9",
+        "· calculate and add",
+        "· convert value in fld",
+        "· convert value in fld 4 to billing currency"
+      ],
+      "duplicate_texts_b": [
+        "01 (total)",
+        "02 (available)",
+        "0200 request",
+        "0200 request or",
+        "0200 request or 0220",
+        "0210 or 0230",
+        "0210 response",
+        "0220 advice",
+        "0230 response",
+        "036 (au $)",
+        "0400 request or",
+        "0410 or 0430",
+        "0420 advice",
+        "0422 advice",
+        "0432 response",
+        "1an 0230 message",
+        "20 (checking)",
+        "4 to billing currency",
+        "4 to settlement",
+        "acquirer",
+        "add fld 6",
+        "advice",
+        "amount and",
+        "amount, if",
+        "an advice message.",
+        "and include visa",
+        "au$500.00",
+        "c (positive)",
+        "calculated; use to",
+        "converted",
+        "currency; use to add",
+        "does not contain fld 4",
+        "fields1",
+        "fld 10",
+        "fld 10 = .012625",
+        "fld 16 = 09/28",
+        "fld 16 = 10/15",
+        "fld 4 = au$252.50",
+        "fld 4 = ¥1000",
+        "fld 4 = ¥10000",
+        "fld 4 = ¥20000",
+        "fld 41 = ¥20000",
+        "fld 49 = 036",
+        "fld 49 = 392",
+        "fld 491 = 392",
+        "fld 5",
+        "fld 5 = au$250.00",
+        "fld 5 = us$10.00",
+        "fld 5 = us$200.00",
+        "fld 50 = 036",
+        "fld 50 = 840",
+        "fld 51 = 036",
+        "fld 54a =",
+        "fld 54a = au$5000.00",
+        "fld 54a-converted =",
+        "fld 54b =",
+        "fld 6 = au$252.50",
+        "fld 9 = .01",
+        "fld 9 = .0125",
+        "for reversal of 02xx settled",
+        "for settlement:",
+        "for this example, ¥100 = usd$1.00 and au$1.25 = usd$1.00.",
+        "fx calculator",
+        "if transaction qualifies",
+        "issuer",
+        "issuer fx calculator",
+        "no multicurrency",
+        "or fld 49 because it is",
+        "processing",
+        "receives:",
+        "response",
+        "sends:",
+        "subtract from value",
+        "transactions:",
+        "v.i.p.",
+        "v.i.p. processing:",
+        "v.i.p. processing: · add fld 5",
+        "· add fld 16",
+        "· add fld 5",
+        "· add fld 50",
+        "· add fld 51",
+        "· add fld 9",
+        "· calculate and add",
+        "· convert value in fld",
+        "· convert value in fld 4 to billing currency"
+      ]
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "Stand-In Processing (STIP)",
+        "Assigning a Response Code",
+        "Converting Over-Limit Codes in Acquirer Responses"
+      ],
+      "duplicate_texts_a": [
+        "approval code 00",
+        "condition",
+        "converted to...",
+        "decline code 05",
+        "not declined, code 85",
+        "response code"
+      ],
+      "duplicate_texts_b": [
+        "approval code 00",
+        "condition",
+        "converted to...",
+        "decline code 05",
+        "not declined, code 85",
+        "response code"
+      ]
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "Stand-In Processing (STIP)",
+        "Reversal Processing",
+        "Stand-In Processing Advices"
+      ],
+      "duplicate_texts_a": [
+        "no-advice stip decline response codes"
+      ],
+      "duplicate_texts_b": [
+        "no-advice stip decline response codes"
+      ]
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "Stand-In Processing (STIP)",
+        "Reversal Processing",
+        "Stand-In Processing Advices"
+      ],
+      "text": "No-Advice STIP Decline Response Codes"
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "Stand-In Processing (STIP)",
+        "Reversal Processing",
+        "Stand-In Processing Advices"
+      ],
+      "text": "No-Advice STIP Decline Response Codes"
+    },
+    {
+      "change_type": "paragraph_content_changed",
+      "path": [
+        "Stand-In Processing (STIP)",
+        "Reversal Processing",
+        "Stand-In Processing Advices"
+      ],
+      "old": "ATM mini statement POS card activation Load ATM PIN change ATM PIN unblock Mastercard or American Express transactions",
+      "new": "ATM mini statement POS card activation ATM PIN change ATM PIN unblock Mastercard or American Express transactions",
+      "similarity_ratio": 0.978,
+      "section_new_paragraphs": [
+        "Creating an Advice Under normal conditions, when STIP responds to an authorization or a financial transaction, it creates an advice for the issuer (unless the issuer participates in the Preauthorization Stand-In Service). Advice message types are:",
+        "0120 for an 0100 request 0220 for an 0200 request",
+        "A STIP advice contains all of the data from the acquirer's request, except the PIN, security- related control information, and track data. In addition to the data from the acquirer's request, a STIP advice contains:",
+        "The STIP response code (in Field 39-Response Code). The reason STIP processed the request (in Subfield 63.4-STIP/Switch Reason Code). Code 1 in the Advices-Created-By flag in the message header. (This code indicates that STIP created the advice while standing in for the issuer.) Settlement flags in the message header of the advice. (STIP sets these flags as needed to indicate the settlement impact.) For more information, see the Message Structure and Header Field Specifications chapter of the pertinent V.I.P. System technical specifications manuals.",
+        "Advices remain on file until the issuer signs on to Advice Recovery mode using an 0800 network management message. STIP does not create advices for:",
+        "Account transfer Product eligibility inquiry Balance inquiry",
+        "Transactions receiving response codes in the table below.",
+        "No-Advice STIP Decline Response Codes",
+        "Response Code",
+        "Description",
+        "06",
+        "Error",
+        "12",
+        "Invalid transaction",
+        "13",
+        "Either: Invalid amount Currency conversion field overflow",
+        "14",
+        "Invalid account number (no such number): No modulus-10 check Not a valid length for issuer Not in positive PIN Verification File Separator in wrong position",
+        "15",
+        "No such issuer (first 8 digits of account number do not relate to an issuing identifier)",
+        "57",
+        "Transaction not permitted to cardholder Used by switch when function requested is not allowed for product or card type",
+        "58",
+        "Transaction not allowed at terminal",
+        "62",
+        "Restricted card (card invalid in region or country)",
+        "74",
+        "Different value than that used for PIN encryption errors",
+        "76",
+        "Unsolicited reversal-reversal with no original transaction in history. V.I.P. unable to match reversal request to an original message",
+        "79",
+        "Reversed (by switch)",
+        "80",
+        "No financial impact (used in reversal responses to declined originals)",
+        "931",
+        "Transaction cannot be completed—violation of law",
+        "94",
+        "Duplicate transmission. Transaction submitted containing values in tracing data fields that duplicate values in a previously submitted transaction.",
+        "96",
+        "System malfunction",
+        "N3",
+        "Cash service not available",
+        "N4",
+        "Cash request exceeds issuer or approved limit",
+        "1 V.I.P. creates advice for India issued recurring payments, declined with reason code 93 and STIP Switch Reason Code 9229 (Declined due to Domestic Regulations).",
+        "V.I.P. ensures a response code 57 (declined) is always returned for a recurring or installment payments purchase, product eligibility or account verification message, occurring on a non- reloadable prepaid card and create a 0120 or 0220 advice for the issuer. Creating a Reversal Advice When STIP responds to a reversal, it creates an 0420 advice for the issuer to recover. V.I.P. stores advices online for 30 days. Issuers that want to retrieve their advices need to retrieve them within this 30-day period. The 0420 advice contains data from the undeliverable reversal and the STIP response. The Advice-Created-By flag of the 0420 message header contains code 1, indicating that STIP created the advice while standing in for the issuer. STIP also sets the settlement flags in the message header of the advice as needed, to indicate the settlement impact. In addition, the 0420 advice contains a reason code in Subfield 63.4-STIP/Switch Reason Code.",
+        "ATM mini statement POS card activation ATM PIN change ATM PIN unblock Mastercard or American Express transactions",
+        "No-Advice STIP Decline Response Codes"
+      ]
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "Stand-In Processing (STIP)",
+        "Acquirer Stand-In Processing"
+      ],
+      "duplicate_texts_a": [
+        "acquirer advices",
+        "dispute financial (0422)",
+        "dispute financial reversal (0422)",
+        "issuer-generated request",
+        "no longer supported.",
+        "stip advice to acquirer"
+      ],
+      "duplicate_texts_b": [
+        "acquirer advices",
+        "dispute financial (0422)",
+        "dispute financial reversal (0422)",
+        "issuer-generated request",
+        "no longer supported.",
+        "stip advice to acquirer"
+      ]
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "Stand-In Processing (STIP)",
+        "Acquirer Stand-In Processing"
+      ],
+      "text": "Acquirer Advices"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "Stand-In Processing (STIP)",
+        "Acquirer Stand-In Processing"
+      ],
+      "text": "Issuer-Generated Request"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "Stand-In Processing (STIP)",
+        "Acquirer Stand-In Processing"
+      ],
+      "text": "STIP Advice to Acquirer"
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "Stand-In Processing (STIP)",
+        "Acquirer Stand-In Processing"
+      ],
+      "text": "Acquirer Advices"
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "Stand-In Processing (STIP)",
+        "Acquirer Stand-In Processing"
+      ],
+      "text": "Issuer-Generated Request"
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "Stand-In Processing (STIP)",
+        "Acquirer Stand-In Processing"
+      ],
+      "text": "STIP Advice to Acquirer"
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "Advice File",
+        "Recovering Advices"
+      ],
+      "duplicate_texts_a": [
+        "field 70"
+      ],
+      "duplicate_texts_b": [
+        "field 70"
+      ]
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "duplicate_texts_a": [
+        "1000",
+        "1100",
+        "1500",
+        "1600",
+        "fri",
+        "mon",
+        "sat",
+        "sun",
+        "thu",
+        "tue",
+        "wed"
+      ],
+      "duplicate_texts_b": [
+        "1000",
+        "1100",
+        "1500",
+        "1600",
+        "fri",
+        "mon",
+        "sat",
+        "settlement day",
+        "sun",
+        "thu",
+        "thur",
+        "tue",
+        "wed",
+        "work day"
+      ]
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "These tables summarize the relative timing of these events."
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "For SMS Detail reports and raw data delivery (7 days a week)"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "Work Day"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "Settlement Day"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "Mon"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "Thur"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "Thu"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "Fri"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "Fri"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "Sat"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "Sat"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "Sun"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "Sun"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "Mon"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "For VSS summary reports preparation and delivery (7 days a week)"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "Work Day"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "Settlement Day"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "Mon"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "Tue"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "Tue"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "Wed"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "Thur"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "Thu"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "Fri"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "Fri"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "Sat"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "Sat"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "Sun"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "Sun"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "Mon"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "For funds transfers for USD$ settlement"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "Work Day"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "Settlement Day"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "Mon"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "Tue"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "Tue"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "Wed"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "Wed"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "Thur"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "Thu"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "Fri"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "Fri"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "Mon"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "Sat"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "Mon"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "Sun"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "Mon"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "For funds transfers for non-USD$ settlement"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "Work Day"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "Settlement Day"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "Mon"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "Thu"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "Tue"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "Fri"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "Wed"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "Mon"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "Thu"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "Tue"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "Fri"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "Wed"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "Sat"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "Wed"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "Sun"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "Wed"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "Clients that settle with the International Settlement Service now receive a single, consolidated funds transfer for settlement amounts for Saturday, Sunday, and Monday, rather than three separate funds transfers. Transfer occurs on Monday. Additionally, settlement amounts (In United States [U.S.] dollar settlement only) for holidays observed by the United States Federal"
+    },
+    {
+      "change_type": "paragraph_added",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "Reserve Bank are now consolidated into a single funds transfer that occurs on the next business day."
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "This table summarizes the relative timing of these events."
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "Timing of Settlement Process"
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "For work of Mon"
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "Wed"
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "Thu"
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "Fri"
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "Sat"
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "Sun"
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "SMS detail reports and"
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "Tue"
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "Wed"
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "Thu"
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "Fri"
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "Sat"
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "Sun"
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "Mon"
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "raw data delivered seven days a week VSS summary reports"
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "Tue"
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "Wed"
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "Thu"
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "Fri"
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "Sat"
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "Sun"
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "Mon"
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "prepared and delivered seven days a week Funds transfers for USD$"
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "Tue"
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "Wed"
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "Thu"
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "Fri"
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "Mon"
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "Mon"
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "Mon"
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "settlement Funds transfers for non-"
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "Thu"
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "Fri"
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "Mon"
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "USD$ settlement"
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "Clients that settle with the International Settlement Service now receive a single, consolidated funds transfer for settlement amounts for Saturday, Sunday, and Monday, rather than three"
+    },
+    {
+      "change_type": "paragraph_removed",
+      "path": [
+        "VisaNet Settlement Service (VSS)",
+        "Settlement Schedule"
+      ],
+      "text": "separate funds transfers. Transfer occurs on Monday. Additionally, settlement amounts (In United States [U.S.] dollar settlement only) for holidays observed by the United States Federal Reserve Bank are now consolidated into a single funds transfer that occurs on the next business day."
+    },
+    {
+      "change_type": "duplicate_paragraph_warning",
+      "path": [
+        "VisaNet Connection Options",
+        "VisaNet Connection Files",
+        "VisaNet Connection File Types"
+      ],
+      "duplicate_texts_a": [
+        "messages"
+      ],
+      "duplicate_texts_b": [
+        "messages"
+      ]
+    }
+  ]
+}

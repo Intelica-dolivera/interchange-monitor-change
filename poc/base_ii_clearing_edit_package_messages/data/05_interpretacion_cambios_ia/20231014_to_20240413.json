@@ -1,0 +1,121 @@
+{
+  "manual": "base_ii_clearing_edit_package_messages",
+  "edition_a": "20231014",
+  "edition_b": "20240413",
+  "summary": {
+    "ficha_removed": 1,
+    "ficha_content_changed": 8
+  },
+  "changes": [
+    {
+      "change_type": "ficha_removed",
+      "code": "V0442",
+      "title": "MERCHANT CATEGORY CODE IS INVALID FOR ORIGINALS AND THEIR REVERSALS. MCC IS: XXXX"
+    },
+    {
+      "change_type": "ficha_content_changed",
+      "code": "International Acquiring Fee (IAF)",
+      "field": "description",
+      "old": "An optional regional fee paid by the acquirer when a transaction occurs outside the issuer's country. It may be assessed for Sales Draft (TC 05) original and representment, Cash Disbursement (TC 07) original and representment, TC 05 and TC 07 reversals and their SMS Visa or Plus Network equivalent transactions.",
+      "new": "An optional regional fee paid by the acquirer when a transaction occurs outside the issuer's country. It may be assessed for Sales Draft (TC 05) original and representment, Cash Disbursement (TC 07) original and representment, TC 05 and TC 07 reversals and their V.I.P. full financial Visa or Plus Network equivalent transactions.",
+      "similarity_ratio": 0.938,
+      "ai_category": "editorial_reword",
+      "ai_reason": "El texto describe lo mismo pero cambia 'SMS Visa' por 'V.I.P. full financial Visa' en la lista de transacciones.",
+      "disappeared_content": [],
+      "safety_net_override": false
+    },
+    {
+      "change_type": "ficha_content_changed",
+      "code": "International Service Assessment (ISA)",
+      "field": "description",
+      "old": "The International Service Assessment (ISA) fee applies to international BASE II and SMS clearing transactions in which the issuer country is different from the merchant country.",
+      "new": "The International Service Assessment (ISA) fee applies to international BASE II and V.I.P. full financial clearing transactions in which the issuer country is different from the merchant country.",
+      "similarity_ratio": 0.935,
+      "ai_category": "business_rule_change",
+      "ai_reason": "El cambio especifica que las transacciones son 'V.I.P. full financial clearing' en lugar de 'SMS clearing', lo que modifica la condición de validación para las transacciones internacionales.",
+      "disappeared_content": [],
+      "safety_net_override": false
+    },
+    {
+      "change_type": "ficha_content_changed",
+      "code": "Stand-In Processor (STIP)",
+      "field": "description",
+      "old": "For BASE I processing. The function operating at all VICs that provides authorization decisions on behalf of BASE I card issuers. It acts for transactions in amounts below the issuer limit, when the issuer center is unavailable, when a request sent to the issuer center times out, or when a local switch requests STIP processing. For SMS processing. The function that makes authorization decisions for authorization and financial requests on behalf of issuer centers. It acts only when the issuer center is unavailable or when a request has timed out.",
+      "new": "For V.I.P. processing. The function operating at all VICs that provides authorization decisions on behalf of card issuers. It acts for transactions in amounts below the issuer limit, when the issuer center is unavailable, when a request sent to the issuer center times out, or when a local switch requests STIP processing.",
+      "similarity_ratio": 0.726,
+      "ai_category": "business_rule_change",
+      "ai_reason": "El texto antiguo menciona 'BASE I processing' y 'issuer center', mientras que el nuevo texto indica 'V.I.P. processing' y elimina la referencia a 'issuer center', lo que cambia el significado de negocio.",
+      "disappeared_content": [
+        "For SMS processing. The function that makes authorization decisions for authorization and financial requests on behalf of issuer centers. It acts only when the issuer center is unavailable or when a request has timed out."
+      ],
+      "safety_net_override": false
+    },
+    {
+      "change_type": "ficha_content_changed",
+      "code": "V.I.P. System",
+      "field": "description",
+      "old": "An electronic data transmission system for the real-time delivery and processing of messages related to authorization of bank, T&E, private label, and proprietary card and check acceptance transactions. It accepts authorization requests from acquirer and merchant authorization centers and either provides authorization decisions or secures authorization decisions from the issuer authorization centers. The V.I.P. System is made up of the Single Message System (SMS) and BASE I System.",
+      "new": "An electronic data transmission system for the real-time delivery and processing of messages related to authorization of bank, T&E, private label, and proprietary card and check acceptance transactions. It accepts authorization requests from acquirer and merchant authorization centers and either provides authorization decisions or secures authorization decisions from the issuer authorization centers.",
+      "similarity_ratio": 0.907,
+      "ai_category": "business_rule_change",
+      "ai_reason": "El texto nuevo elimina la parte 'The V.I.P. System is made up of the Single Message System (SMS) and BASE I System.' sin alterar el significado, solo se ajustó la redacción para eliminar un fragmento redundante.",
+      "disappeared_content": [
+        "The V.I.P. System is made up of the Single Message System (SMS) and BASE I System."
+      ],
+      "safety_net_override": true,
+      "ai_original_category": "editorial_reword"
+    },
+    {
+      "change_type": "ficha_content_changed",
+      "code": "V0582",
+      "field": "transaction_types",
+      "old": "All Financial Drafts | Request for Copy (V0584 in Release 3)",
+      "new": "All Financial Drafts | Request for Copy",
+      "similarity_ratio": 0.788,
+      "ai_category": "editorial_reword",
+      "ai_reason": "El texto solo elimina el código de ficha V0584 en Release 3, manteniendo el mismo significado sin cambios en la lógica de validación.",
+      "disappeared_content": [],
+      "safety_net_override": false
+    },
+    {
+      "change_type": "ficha_content_changed",
+      "code": "V1084",
+      "field": "title",
+      "old": "POS ENVIRONMENT MUST BE C, I, M, R OR SPACE. POS ENVIRONMENT IS: X",
+      "new": "POS ENVIRONMENT MUST BE A, C, I, M, R, OR SPACE. POS ENVIRONMENT IS: X",
+      "similarity_ratio": 0.971,
+      "ai_category": "editorial_reword",
+      "ai_reason": "El texto solo cambió la lista de caracteres válidos de 'C, I, M, R' a 'A, C, I, M, R', sin alterar el significado o la validación del mensaje.",
+      "disappeared_content": [],
+      "safety_net_override": false
+    },
+    {
+      "change_type": "ficha_content_changed",
+      "code": "V1084",
+      "field": "description",
+      "old": "POS Environment field on TCR 1 Draft Transactions must be C, I, M, R or space.",
+      "new": "POS Environment field on TCR 1 Draft Transactions must be A, C, I, M, R, or space.",
+      "similarity_ratio": 0.975,
+      "ai_category": "business_rule_change",
+      "ai_reason": "El rango de valores validos para el POS Environment ha cambiado de C, I, M, R a A, C, I, M, R, lo que modifica la condicion de validacion.",
+      "disappeared_content": [],
+      "safety_net_override": false
+    },
+    {
+      "change_type": "ficha_content_changed",
+      "code": "account funding source",
+      "field": "description",
+      "old": "Identifies the source of the funds associated with the primary account for the card. For example, credit, debit, prepaid, and charge.",
+      "new": "Identifies the source of the funds associated with the primary account for the card. For example, Charge, Credit, Debit, Deferred Debit, and Prepaid.",
+      "similarity_ratio": 0.837,
+      "ai_category": "business_rule_change",
+      "ai_reason": "El cambio incluye la adición de nuevos valores válidos (Deferred Debit) y el orden de los ejemplos se modificó, lo que altera el significado de los valores permitidos para el campo.",
+      "disappeared_content": [],
+      "safety_net_override": false
+    }
+  ],
+  "ai_summary": {
+    "editorial_reword": 3,
+    "business_rule_change": 5
+  }
+}

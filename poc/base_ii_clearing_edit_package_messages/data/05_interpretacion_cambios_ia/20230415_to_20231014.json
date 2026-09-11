@@ -1,0 +1,123 @@
+{
+  "manual": "base_ii_clearing_edit_package_messages",
+  "edition_a": "20230415",
+  "edition_b": "20231014",
+  "summary": {
+    "ficha_added": 5,
+    "ficha_removed": 4,
+    "ficha_content_changed": 5
+  },
+  "changes": [
+    {
+      "change_type": "ficha_added",
+      "code": "V0008",
+      "title": "SETTLEMNT FLAG IS INVALID"
+    },
+    {
+      "change_type": "ficha_added",
+      "code": "V0010",
+      "title": "TRANSACTION NOT ALLOWED FOR CLEARING-ONLY SERVICE"
+    },
+    {
+      "change_type": "ficha_added",
+      "code": "V0027",
+      "title": "BUSINESS APPLICATION ID IS INVALID FOR ARGENTINA DOMESTIC TRANSACTIONS"
+    },
+    {
+      "change_type": "ficha_added",
+      "code": "V9003",
+      "title": "SETTLEMENT FLAG VALID VALUES FOR CLEARING-ONLY ARE 3 OR 4"
+    },
+    {
+      "change_type": "ficha_added",
+      "code": "international airline transactions",
+      "title": "international airline transactions"
+    },
+    {
+      "change_type": "ficha_removed",
+      "code": "V0357",
+      "title": "SETTLEMENT FLAG MUST BE EQUAL TO 0, 3, 8, OR 9 FOR SWEDEN"
+    },
+    {
+      "change_type": "ficha_removed",
+      "code": "V0474",
+      "title": "SETTLEMENT FLAG CANNOT BE 3. ONLY DOMESTIC SWEDISH DRAFTS CAN HAVE A SETTLEMENT FLAG OF 3"
+    },
+    {
+      "change_type": "ficha_removed",
+      "code": "international airline transactions International Airline Program transactions in which the issuer and merchant are",
+      "title": "international airline transactions International Airline Program transactions in which the issuer and merchant are"
+    },
+    {
+      "change_type": "ficha_removed",
+      "code": "merchant batch header record",
+      "title": "merchant batch header record"
+    },
+    {
+      "change_type": "ficha_content_changed",
+      "code": "V0197",
+      "field": "transaction_types",
+      "old": "All Financial Drafts | Request for Copy",
+      "new": "All Financial Drafts | Sales Draft – Originals and Reversals Clearing-Only | Credit Voucher – Originals and Reversals Clearing-Only | Original Credit – Originals and Reversals Clearing-Only",
+      "similarity_ratio": 0.298,
+      "ai_category": "business_rule_change",
+      "ai_reason": "El texto antiguo y nuevo describen diferentes tipos de transacciones, lo que implica un cambio en la definición de los tipos de transacción válidos para el contexto del país.",
+      "disappeared_content": [],
+      "safety_net_override": false
+    },
+    {
+      "change_type": "ficha_content_changed",
+      "code": "V0299",
+      "field": "description",
+      "old": "A Settlement Flag of 8 was entered for transaction that cannot participate in the National Net or Area Net Settlement Service or VE Cross-Border Acquiring. The National Net Settlement Service requires that the source, destination identifiers and merchant must be in the same National or Area Net Settlement Service. VE Cross-Border Acquiring requires that ARDEF country, Merchant country and Acquirer country are in VE Region, and ARDEF and Merchant must be the same Country and Source currency as the default currency for the merchant.",
+      "new": "A Settlement Flag of 8 (Financial Drafts) or 4 (Clearing-Only Drafts) was entered for transaction that cannot participate in the National Net or Area Net Settlement Service or VE Cross-Border Acquiring. The National Net Settlement Service requires that the source, destination identifiers, and merchant must be in the same National or Area Net Settlement Service. VE Cross-Border Acquiring requires that ARDEF country, Merchant country, and Acquirer country are in VE Region, and ARDEF and Merchant must be the same Country and Source currency as the default currency for the merchant.",
+      "similarity_ratio": 0.956,
+      "ai_category": "business_rule_change",
+      "ai_reason": "El texto nuevo especifica que el Settlement Flag 8 corresponde a Financial Drafts y 4 a Clearing-Only Drafts, lo que modifica la interpretación del valor de negocio para estos flags.",
+      "disappeared_content": [],
+      "safety_net_override": false
+    },
+    {
+      "change_type": "ficha_content_changed",
+      "code": "V0299",
+      "field": "transaction_types",
+      "old": "All Financial Drafts | Request for Copy",
+      "new": "All Financial Drafts | Sales Draft – Originals and Reversals Clearing-Only | Credit Voucher – Originals and Reversals Clearing-Only | Original Credit – Originals and Reversals Clearing-Only",
+      "similarity_ratio": 0.298,
+      "ai_category": "business_rule_change",
+      "ai_reason": "El cambio en la lista de Transaction Types incluye nuevas categorías específicas de transacciones que afectan la validación de mensajes en el contexto de la red de pagos, lo que implica una modificación en las reglas de negocio para las transacciones.",
+      "disappeared_content": [],
+      "safety_net_override": false
+    },
+    {
+      "change_type": "ficha_content_changed",
+      "code": "V0452",
+      "field": "description",
+      "old": "The Reimbursement Attribute entered must be use with supermarket transactions (Merchant Category Code = 5411). Hong Kong and New Zealand domestic transactions are excluded. US domestic credit voucher and original credit transactions are excluded.",
+      "new": "The Reimbursement Attribute entered must be use with supermarket transactions (Merchant Category Code = 5411). Hong Kong, New Zealand domestic, and Europe Intra-Regional transactions are excluded. US domestic credit voucher and original credit transactions are excluded.",
+      "similarity_ratio": 0.938,
+      "ai_category": "business_rule_change",
+      "ai_reason": "El cambio incluye la adición de 'Europe Intra-Regional transactions' como transacciones excluidas, lo que modifica la condición de validación para transacciones.",
+      "disappeared_content": [],
+      "safety_net_override": false
+    },
+    {
+      "change_type": "ficha_content_changed",
+      "code": "VisaNet Interchange Center (VIC)",
+      "field": "description",
+      "old": "The computers and all associated peripheral devices and telecommunications support facilities needed for the V.I.P. System, the BASE II System, related systems (such as CRB and CWB), and backup for these systems.",
+      "new": "The computers and all associated peripheral devices and telecommunications support facilities needed for the V.I.P. System, the BASE II System, related systems, and backup for these systems.",
+      "similarity_ratio": 0.945,
+      "ai_category": "business_rule_change",
+      "ai_reason": "El texto describe lo mismo pero elimina 'CRB and CWB' para simplificar la lista de sistemas relacionados.",
+      "disappeared_content": [
+        "systems (such as CRB and CWB),"
+      ],
+      "safety_net_override": true,
+      "ai_original_category": "editorial_reword"
+    }
+  ],
+  "ai_summary": {
+    "business_rule_change": 5
+  }
+}

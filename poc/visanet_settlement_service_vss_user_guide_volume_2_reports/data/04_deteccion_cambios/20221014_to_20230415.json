@@ -1,0 +1,719 @@
+{
+  "manual": "visanet_settlement_service_vss_user_guide_volume_2_reports",
+  "edition_a": "20221014",
+  "edition_b": "20230415",
+  "appendices": {
+    "appendix_a": [
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "Available VSS Reports Transaction Dispositions (VSS-900-Reconciliation Report)",
+        "duplicate_keys_a": [
+          ""
+        ],
+        "duplicate_keys_b": [
+          ""
+        ]
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "VSS-110 Field Descriptions",
+        "duplicate_keys_a": [
+          "total acquirer",
+          "total issuer",
+          "total other"
+        ],
+        "duplicate_keys_b": [
+          "total acquirer",
+          "total issuer",
+          "total other"
+        ]
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "VSS-110-C Field Descriptions",
+        "duplicate_keys_a": [
+          "total acquirer",
+          "total acquirer ssid name ftsre1",
+          "total acquirer ssid name ftsre2",
+          "total acquirer ssid name ftsre3",
+          "total issuer",
+          "total issuer ssid name ftsre1",
+          "total issuer ssid name ftsre2",
+          "total issuer ssid name ftsre3",
+          "total other",
+          "total other ssid name ftsre1",
+          "total other ssid name ftsre2",
+          "total other ssid name ftsre3"
+        ],
+        "duplicate_keys_b": [
+          "total acquirer",
+          "total acquirer ssid name ftsre1",
+          "total acquirer ssid name ftsre2",
+          "total acquirer ssid name ftsre3",
+          "total issuer",
+          "total issuer ssid name ftsre1",
+          "total issuer ssid name ftsre2",
+          "total issuer ssid name ftsre3",
+          "total other",
+          "total other ssid name ftsre1",
+          "total other ssid name ftsre2",
+          "total other ssid name ftsre3"
+        ]
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "VSS-115 Field Descriptions",
+        "duplicate_keys_a": [
+          "business transaction type",
+          "dispute resp fin",
+          "reimbursement fees",
+          "representment",
+          "total interchange",
+          "visa charges"
+        ],
+        "duplicate_keys_b": [
+          "business transaction type",
+          "dispute resp fin",
+          "reimbursement fees",
+          "representment",
+          "total interchange",
+          "visa charges"
+        ]
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "VSS-116 Field Descriptions",
+        "duplicate_keys_a": [
+          "business transaction type",
+          "dispute resp fin",
+          "reimbursement fees",
+          "representment",
+          "total interchange",
+          "visa charges"
+        ],
+        "duplicate_keys_b": [
+          "business transaction type",
+          "dispute resp fin",
+          "reimbursement fees",
+          "representment",
+          "total interchange",
+          "visa charges"
+        ]
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "VSS-140 Field Descriptions",
+        "duplicate_keys_a": [
+          "visa eu"
+        ],
+        "duplicate_keys_b": [
+          "visa eu"
+        ]
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "VSS-215 Field Descriptions",
+        "duplicate_keys_a": [
+          "interchange amount",
+          "international service assessment charges"
+        ],
+        "duplicate_keys_b": [
+          "interchange amount",
+          "international service assessment charges"
+        ]
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "VSS-300 Field Descriptions Note:",
+        "duplicate_keys_a": [
+          "net settlement amount"
+        ],
+        "duplicate_keys_b": [
+          "net settlement amount"
+        ]
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "VSS-600 Field Descriptions",
+        "duplicate_keys_a": [
+          "total 01-day defer"
+        ],
+        "duplicate_keys_b": [
+          "total 01-day defer"
+        ]
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "VSS-900-PS Field Descriptions",
+        "duplicate_keys_a": [
+          "received from visa",
+          "sent to visa"
+        ],
+        "duplicate_keys_b": [
+          "received from visa",
+          "sent to visa"
+        ]
+      }
+    ],
+    "appendix_b": [
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "record map. When the No Data Indicator on the TCR 0 = Y, no TCR 1 record is created. VSS 120–135 Report Count/Amount Fields Mapped to TCR 1 VSS 140–230 Report Count/Amount Fields Mapped to TCR 1",
+        "duplicate_keys_a": [
+          "first amount",
+          "first count",
+          "second amount",
+          "second count",
+          "third amount"
+        ],
+        "duplicate_keys_b": [
+          "first amount",
+          "first count",
+          "second amount",
+          "second count",
+          "third amount"
+        ]
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "VSS 140–230 Report Count/Amount Fields Mapped to TCR 1 VSS-215, VSS-215-M, and VSS-640 Report Count/Amount Fields Mapped to TCR 1",
+        "duplicate_keys_a": [
+          "fifth amount",
+          "fourth amount",
+          "sixth amount"
+        ],
+        "duplicate_keys_b": [
+          "fifth amount",
+          "fourth amount",
+          "sixth amount"
+        ]
+      }
+    ],
+    "appendix_c": [
+      {
+        "change_type": "row_added",
+        "table_title": "Charge Types",
+        "key": "041",
+        "row": {
+          "type": "grid_row",
+          "page": 262,
+          "table_title": "Charge Types",
+          "anchor_column": "Code",
+          "columns": {
+            "Code": "041",
+            "Charge Type": "NETWORK GAMBLING CHARGE"
+          }
+        }
+      }
+    ],
+    "appendix_d": [
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "Administrative Message 1 Transaction Record—V22400",
+        "duplicate_keys_a": [
+          "filler"
+        ],
+        "duplicate_keys_b": [
+          "filler"
+        ]
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "Administrative Message 2 Transaction Record—V22401",
+        "duplicate_keys_a": [
+          "filler"
+        ],
+        "duplicate_keys_b": [
+          "filler"
+        ]
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "Advice Notification Transaction Record/Interlink-Specific—V22600",
+        "duplicate_keys_a": [
+          "filler"
+        ],
+        "duplicate_keys_b": [
+          "filler"
+        ]
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "File Maintenance–Address Verification File Update—V22310",
+        "duplicate_keys_a": [
+          "filler"
+        ],
+        "duplicate_keys_b": [
+          "filler"
+        ]
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "Financial Maintenance Transaction Record—V22300",
+        "duplicate_keys_a": [
+          "filler"
+        ],
+        "duplicate_keys_b": [
+          "filler"
+        ]
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Field Sources",
+        "old": "Field 28, Positions 2– 9",
+        "new": "Field 28, Positions 2– 2– 9",
+        "similarity_ratio": 0.941,
+        "table_title": "Financial Transaction Record/ATM-Specific—V22250",
+        "key": "surcharge amount"
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "Financial Transaction Record/Money Transfer and Personal Payments-Specific—V22276",
+        "duplicate_keys_a": [
+          "reserved"
+        ],
+        "duplicate_keys_b": [
+          "reserved"
+        ]
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "Financial Transaction Record/Multicurrency-Specific—V22260",
+        "duplicate_keys_a": [
+          "filler"
+        ],
+        "duplicate_keys_b": [
+          "filler"
+        ]
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "Financial Transaction Record/National Net Data—V22275",
+        "duplicate_keys_a": [
+          "reserved"
+        ],
+        "duplicate_keys_b": [
+          "reserved"
+        ]
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Field Sources",
+        "old": "Field 95, Positions 1– 12",
+        "new": "Field 95 95, Positions 1– 12",
+        "similarity_ratio": 0.943,
+        "table_title": "Financial Transaction Record/Visa Payment Service-Specific—V22230",
+        "key": "replacement amount"
+      },
+      {
+        "change_type": "row_added",
+        "table_title": "Financial Transaction Record–5—V22226",
+        "key": "__unassigned_prefix__",
+        "row": {
+          "type": "grid_row",
+          "page": 367,
+          "table_title": "Financial Transaction Record–5—V22226",
+          "anchor_column": "Field Name",
+          "columns": {
+            "__unassigned_prefix__": "This field is reserved for future use."
+          }
+        }
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Comments",
+        "old": "Signed with two implied decimal positions This field is reserved for future use.",
+        "new": "Signed with two implied decimal positions",
+        "similarity_ratio": 0.678,
+        "table_title": "Financial Transaction Record–5—V22226",
+        "key": "pre-currency conversion amount"
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Comments",
+        "old": "0: Low value exemption does not apply. 1: Transaction exempt from SCA as a low value payment.",
+        "new": "0: Low value exemption not claimed/requested.. 1: Low value exemption claimed/requested. 2: Low value exemption validated/honored. 3: Low value exemption failed validation/not honored.",
+        "similarity_ratio": 0.354,
+        "table_title": "Financial Transaction Record–5—V22226",
+        "key": "sca - low value exemption indicator"
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Comments",
+        "old": "0: Secure Corporate Payment (SCP) exemption does not apply. 1: Transaction exempt from SCA as a secure corporate payment.",
+        "new": "0: Secure corporate payment exemption not claimed/ requested. 1: Secure corporate payment exemption claimed/requested. 2: Secure corporate payment exemption validated/honored. 3: Secure corporate payment exemption failed validation/not honored.",
+        "similarity_ratio": 0.11,
+        "table_title": "Financial Transaction Record–5—V22226",
+        "key": "sca - secure corporate payment exemption indicator"
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "Financial Transaction Record–5—V22226",
+        "duplicate_keys_a": [
+          "reserved"
+        ],
+        "duplicate_keys_b": [
+          "reserved"
+        ]
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "Trailer Record—V22900",
+        "duplicate_keys_a": [
+          "filler"
+        ],
+        "duplicate_keys_b": [
+          "filler"
+        ]
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "V.I.P. Release 2.2 Format Record Summary",
+        "duplicate_keys_a": [
+          "administrative message",
+          "advice notification",
+          "file maintenance",
+          "financial transaction"
+        ],
+        "duplicate_keys_b": [
+          "administrative message",
+          "advice notification",
+          "file maintenance",
+          "financial transaction"
+        ]
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "V.I.P. Release 2.2 Format Record Summary Header Record—V22000",
+        "duplicate_keys_a": [
+          "filler"
+        ],
+        "duplicate_keys_b": [
+          "filler"
+        ]
+      }
+    ],
+    "appendix_e": [
+      {
+        "change_type": "table_removed",
+        "table_title": "BASE II Transaction Cross-Reference to VSS Business Transaction Types SMS (Excluding Interlink) Transactions Cross-Reference to VSS Business Transaction Types",
+        "num_rows": 8
+      },
+      {
+        "change_type": "row_added",
+        "table_title": "BASE II Transaction Cross-Reference to VSS Business Transaction Types",
+        "key": "currency conversion rate update",
+        "row": {
+          "type": "grid_row",
+          "page": 417,
+          "table_title": "BASE II Transaction Cross-Reference to VSS Business Transaction Types",
+          "anchor_column": "Transaction Description",
+          "columns": {
+            "TC": "56",
+            "Additional Data": "Not applicable",
+            "Outgoing": "Not applicable",
+            "Incoming": "Other",
+            "Transaction Description": "Currency Conversion Rate Update",
+            "VSS Business Transaction Type": "Currency Conversion Rate Update"
+          }
+        }
+      },
+      {
+        "change_type": "row_added",
+        "table_title": "BASE II Transaction Cross-Reference to VSS Business Transaction Types",
+        "key": "data capture advice",
+        "row": {
+          "type": "grid_row",
+          "page": 417,
+          "table_title": "BASE II Transaction Cross-Reference to VSS Business Transaction Types",
+          "anchor_column": "Transaction Description",
+          "columns": {
+            "TC": "57",
+            "Additional Data": "Not applicable",
+            "Outgoing": "Not applicable",
+            "Incoming": "Other",
+            "Transaction Description": "Data Capture Advice",
+            "VSS Business Transaction Type": "Data Capture Advice"
+          }
+        }
+      },
+      {
+        "change_type": "row_added",
+        "table_title": "BASE II Transaction Cross-Reference to VSS Business Transaction Types",
+        "key": "interface advice",
+        "row": {
+          "type": "grid_row",
+          "page": 417,
+          "table_title": "BASE II Transaction Cross-Reference to VSS Business Transaction Types",
+          "anchor_column": "Transaction Description",
+          "columns": {
+            "TC": "59",
+            "Additional Data": "Not applicable",
+            "Outgoing": "Other",
+            "Incoming": "n/a",
+            "Transaction Description": "Interface Advice",
+            "VSS Business Transaction Type": "Interface Advice"
+          }
+        }
+      },
+      {
+        "change_type": "row_added",
+        "table_title": "BASE II Transaction Cross-Reference to VSS Business Transaction Types",
+        "key": "national settlement",
+        "row": {
+          "type": "grid_row",
+          "page": 417,
+          "table_title": "BASE II Transaction Cross-Reference to VSS Business Transaction Types",
+          "anchor_column": "Transaction Description",
+          "columns": {
+            "TC": "58",
+            "Additional Data": "Not applicable",
+            "Outgoing": "Other",
+            "Incoming": "Other",
+            "Transaction Description": "National Settlement",
+            "VSS Business Transaction Type": "National Settlement Advice"
+          }
+        }
+      },
+      {
+        "change_type": "row_added",
+        "table_title": "BASE II Transaction Cross-Reference to VSS Business Transaction Types",
+        "key": "original credit",
+        "row": {
+          "type": "grid_row",
+          "page": 411,
+          "table_title": "BASE II Transaction Cross-Reference to VSS Business Transaction Types",
+          "anchor_column": "Transaction Description",
+          "columns": {
+            "TC": "06",
+            "Additional Data": "Usage Code = 1 Transaction Code Qualifier = 2",
+            "Outgoing": "Acquirer",
+            "Incoming": "Issuer",
+            "Transaction Description": "Original Credit",
+            "VSS Business Transaction Type": "Original Credit"
+          }
+        }
+      },
+      {
+        "change_type": "row_added",
+        "table_title": "BASE II Transaction Cross-Reference to VSS Business Transaction Types",
+        "key": "sales draft first presentment (account funding transaction)",
+        "row": {
+          "type": "grid_row",
+          "page": 411,
+          "table_title": "BASE II Transaction Cross-Reference to VSS Business Transaction Types",
+          "anchor_column": "Transaction Description",
+          "columns": {
+            "TC": "05",
+            "Additional Data": "Usage Code = 1 Transaction Code Qualifier = 1",
+            "Outgoing": "Acquirer",
+            "Incoming": "Issuer",
+            "Transaction Description": "Sales Draft First Presentment (Account Funding Transaction)",
+            "VSS Business Transaction Type": "Purchase Original Sale"
+          }
+        }
+      },
+      {
+        "change_type": "row_added",
+        "table_title": "SMS (Excluding Interlink) Transactions Cross-Reference to VSS Business Transaction Types",
+        "key": "adjustment (back office)",
+        "row": {
+          "type": "grid_row",
+          "page": 418,
+          "table_title": "SMS (Excluding Interlink) Transactions Cross-Reference to VSS Business Transaction Types",
+          "anchor_column": "Transaction Type",
+          "columns": {
+            "Transaction Type": "Adjustment (Back office)",
+            "Messages and Codes": "Response Code = 00",
+            "Business Transaction Type": ""
+          }
+        }
+      },
+      {
+        "change_type": "row_added",
+        "table_title": "SMS (Excluding Interlink) Transactions Cross-Reference to VSS Business Transaction Types",
+        "key": "atm",
+        "row": {
+          "type": "grid_row",
+          "page": 419,
+          "table_title": "SMS (Excluding Interlink) Transactions Cross-Reference to VSS Business Transaction Types",
+          "anchor_column": "Transaction Type",
+          "columns": {
+            "Transaction Type": "ATM",
+            "Messages and Codes": "Message Type = 0422",
+            "Business Transaction Type": "ATM Cash"
+          }
+        }
+      },
+      {
+        "change_type": "row_added",
+        "table_title": "SMS (Excluding Interlink) Transactions Cross-Reference to VSS Business Transaction Types",
+        "key": "cash disbursement",
+        "row": {
+          "type": "grid_row",
+          "page": 418,
+          "table_title": "SMS (Excluding Interlink) Transactions Cross-Reference to VSS Business Transaction Types",
+          "anchor_column": "Transaction Type",
+          "columns": {
+            "Transaction Type": "Cash Disbursement",
+            "Messages and Codes": "Message Type = 0200, 0220 Processing Code = 01 POS Condition Code ≠ 13 Merchant's Type = 6011 Response Code = 00",
+            "Business Transaction Type": "ATM Cash Original Withdrawal"
+          }
+        }
+      },
+      {
+        "change_type": "row_added",
+        "table_title": "SMS (Excluding Interlink) Transactions Cross-Reference to VSS Business Transaction Types",
+        "key": "cash disbursement adjustment",
+        "row": {
+          "type": "grid_row",
+          "page": 418,
+          "table_title": "SMS (Excluding Interlink) Transactions Cross-Reference to VSS Business Transaction Types",
+          "anchor_column": "Transaction Type",
+          "columns": {
+            "Transaction Type": "Cash Disbursement Adjustment",
+            "Messages and Codes": "Processing Code = 02 Merchant's Type = 6011",
+            "Business Transaction Type": "Debit Adjustment"
+          }
+        }
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Messages and Codes",
+        "old": "Message Type = 0422",
+        "new": "Message Type = 0220",
+        "similarity_ratio": 0.947,
+        "table_title": "SMS (Excluding Interlink) Transactions Cross-Reference to VSS Business Transaction Types",
+        "key": "atm"
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Messages and Codes",
+        "old": "Message Type = 0400, 0420",
+        "new": "Message Type = 0422",
+        "similarity_ratio": 0.818,
+        "table_title": "SMS (Excluding Interlink) Transactions Cross-Reference to VSS Business Transaction Types",
+        "key": "atm"
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Messages and Codes",
+        "old": "Message Type = 0422",
+        "new": "Message Type = 0400, 0420",
+        "similarity_ratio": 0.818,
+        "table_title": "SMS (Excluding Interlink) Transactions Cross-Reference to VSS Business Transaction Types",
+        "key": "atm"
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Business Transaction Type",
+        "old": "Debit Adjustment",
+        "new": "Credit Adjustment",
+        "similarity_ratio": 0.848,
+        "table_title": "SMS (Excluding Interlink) Transactions Cross-Reference to VSS Business Transaction Types",
+        "key": "cash disbursement adjustment"
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Messages and Codes",
+        "old": "Processing Code = 02 Merchant's Type = 6011",
+        "new": "Processing Code = 22 Merchant's Type = 6011",
+        "similarity_ratio": 0.977,
+        "table_title": "SMS (Excluding Interlink) Transactions Cross-Reference to VSS Business Transaction Types",
+        "key": "cash disbursement adjustment"
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "SMS (Excluding Interlink) Transactions Cross-Reference to VSS Business Transaction Types",
+        "duplicate_keys_a": [
+          "adjustment",
+          "atm",
+          "atm transfer",
+          "dispute financial",
+          "dispute financial reversal",
+          "dispute response financial",
+          "pos",
+          "pos balance inquiry",
+          "pos payment order",
+          "purchase",
+          "reversal",
+          "teller-originated"
+        ],
+        "duplicate_keys_b": [
+          "adjustment",
+          "adjustment (back office)",
+          "atm",
+          "atm transfer",
+          "cash disbursement adjustment",
+          "dispute financial",
+          "dispute financial reversal",
+          "dispute response financial",
+          "pos",
+          "pos balance inquiry",
+          "pos payment order",
+          "purchase",
+          "reversal",
+          "teller-originated"
+        ]
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Business Transaction Type",
+        "old": "POS Preauthorization",
+        "new": "POS Preauthorization 63.0 is set to 1)",
+        "similarity_ratio": 0.69,
+        "table_title": "SMS (Including Interlink) Transactions Cross-Reference to VSS Business Transaction Types",
+        "key": "preauthorization"
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Messages and Codes",
+        "old": "Message Type = 0100 Processing Code = 00, 17 Response code = 00 or 10 Time (Preauthorization Time Limit) Field 63.2 is present (bit 2 byte 1 for Field 63.0 is set to 1)",
+        "new": "Message Type = 0100 Processing Code = 00, 17 Response code = 00 or 10 Time (Preauthorization Time Limit) Field 63.2 is present (bit 2 byte 1 for Field",
+        "similarity_ratio": 0.943,
+        "table_title": "SMS (Including Interlink) Transactions Cross-Reference to VSS Business Transaction Types",
+        "key": "preauthorization"
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Business Transaction Type",
+        "old": "POS Preauthorization reversal",
+        "new": "POS Preauthorization reversal 63.0 is set to 1)",
+        "similarity_ratio": 0.763,
+        "table_title": "SMS (Including Interlink) Transactions Cross-Reference to VSS Business Transaction Types",
+        "key": "preauthorization reversal"
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Messages and Codes",
+        "old": "Message Type = 0400,0420 Response code = 00 Original Message type (Field 90, Positions 1–4) = 0100 Time (Preauthorization Time Limit) Field 63.2 is present (bit 2 byte 1 for Field 63.0 is set to 1)",
+        "new": "Message Type = 0400,0420 Response code = 00 Original Message type (Field 90, Positions 1–4) = 0100 Time (Preauthorization Time Limit) Field 63.2 is present (bit 2 byte 1 for Field",
+        "similarity_ratio": 0.952,
+        "table_title": "SMS (Including Interlink) Transactions Cross-Reference to VSS Business Transaction Types",
+        "key": "preauthorization reversal"
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "SMS (Including Interlink) Transactions Cross-Reference to VSS Business Transaction Types",
+        "duplicate_keys_a": [
+          "reversal"
+        ],
+        "duplicate_keys_b": [
+          "reversal"
+        ]
+      },
+      {
+        "change_type": "paragraph_added",
+        "text": "1. Returned items: In VSS, transactions returned by BASE II retain the returned item's transaction code. 2. TC 10 and TC 20: For Fee Collection and Funds Disbursement transactions, the VSS Transaction Type contains the Reason Code (see Appendix C, VSS Codes)"
+      },
+      {
+        "change_type": "paragraph_added",
+        "text": "This table provides a cross-reference between SMS (excluding Interlink) transactions and VSS business transaction types."
+      },
+      {
+        "change_type": "paragraph_removed",
+        "text": "1. Returned items: In VSS, transactions returned by BASE II retain the returned item's transaction code. 2. TC 10 and TC 20: For Fee Collection and Funds Disbursement transactions, the VSS Transaction Type contains the Reason Code (see Appendix C, VSS Codes) This table provides a cross-reference between SMS (excluding Interlink) transactions and VSS business transaction types."
+      }
+    ]
+  }
+}

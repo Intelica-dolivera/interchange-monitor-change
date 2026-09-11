@@ -1,0 +1,808 @@
+{
+  "manual": "visanet_settlement_service_vss_user_guide_volume_2_reports",
+  "edition_a": "20231013",
+  "edition_b": "20240413",
+  "appendices": {
+    "appendix_a": [
+      {
+        "change_type": "table_added",
+        "table_title": "VSS Report Field Names Other Reports (1 of 5)",
+        "num_rows": 9
+      },
+      {
+        "change_type": "table_added",
+        "table_title": "Other Reports (2 of 5)",
+        "num_rows": 11
+      },
+      {
+        "change_type": "table_added",
+        "table_title": "Other Reports (3 of 5)",
+        "num_rows": 12
+      },
+      {
+        "change_type": "table_added",
+        "table_title": "Other Reports (4 of 5)",
+        "num_rows": 11
+      },
+      {
+        "change_type": "table_added",
+        "table_title": "Other Reports (5 of 5)",
+        "num_rows": 3
+      },
+      {
+        "change_type": "table_removed",
+        "table_title": "VSS Report Field Names",
+        "num_rows": 7
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "VSS-110-C Field Descriptions",
+        "duplicate_keys_a": [
+          "total acquirer",
+          "total acquirer ssid name ftsre1",
+          "total acquirer ssid name ftsre2",
+          "total acquirer ssid name ftsre3",
+          "total issuer",
+          "total issuer ssid name ftsre1",
+          "total issuer ssid name ftsre2",
+          "total issuer ssid name ftsre3",
+          "total other",
+          "total other ssid name ftsre1",
+          "total other ssid name ftsre2",
+          "total other ssid name ftsre3"
+        ],
+        "duplicate_keys_b": [
+          "total acquirer",
+          "total acquirer ssid name ftsre1",
+          "total acquirer ssid name ftsre2",
+          "total acquirer ssid name ftsre3",
+          "total issuer",
+          "total issuer ssid name ftsre1",
+          "total issuer ssid name ftsre2",
+          "total issuer ssid name ftsre3",
+          "total other",
+          "total other ssid name ftsre1",
+          "total other ssid name ftsre2",
+          "total other ssid name ftsre3"
+        ]
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "VSS-215 Field Descriptions",
+        "duplicate_keys_a": [
+          "interchange amount",
+          "international service assessment charges"
+        ],
+        "duplicate_keys_b": [
+          "interchange amount",
+          "international service assessment charges"
+        ]
+      },
+      {
+        "change_type": "row_added",
+        "table_title": "Available VSS Reports",
+        "key": "vss-116 – sre settlement recap report (fee by jurisdiction)",
+        "row": {
+          "type": "grid_row",
+          "page": 25,
+          "table_title": "Available VSS Reports",
+          "anchor_column": "Report ID and Report Title",
+          "columns": {
+            "Reconciliation Process": "The totals for interchange value reconcile to the totals by business mode shown on the VSS-120 report. The totals for reimbursement fees reconcile to the totals by business mode shown on the VSS-130 report. The totals for Visa charges reconcile to the totals by business mode shown on the VSS-140 report. This report can also be reconciled back to the VSS-110 Settlement Summary report.",
+            "Totals Provided": "By: Interchange value, reimbursement fees, and Visa charges Business mode The net settlement amount for the reporting entity is also provided.",
+            "Page Break": "On page overflow.",
+            "Description, Highlights, and Frequency": "This daily report provides the summarized totals of the interchange value, reimbursement fees, and Visa charges for the Reporting for SRE. This report contains a summarization of all transactions grouped as: Original transactions by business transaction type (includes returns) Reversals Chargebacks Dispute Financials Representments Dispute Response Financials Adjustments Fees and charges are also summarized on this report. Information on this report is summarized by business mode: acquirer, issuer, other.",
+            "Report ID and Report Title": "VSS-116 – SRE Settlement Recap Report (Fee by Jurisdiction)"
+          }
+        }
+      },
+      {
+        "change_type": "row_added",
+        "table_title": "Available VSS Reports",
+        "key": "vss-116-m – monthly sre settlement recap report (fee by jurisdiction)",
+        "row": {
+          "type": "grid_row",
+          "page": 26,
+          "table_title": "Available VSS Reports",
+          "anchor_column": "Report ID and Report Title",
+          "columns": {
+            "Reconciliation Process": "The totals for interchange value reconcile to the totals by business mode shown on the VSS-120-M report. The totals for reimbursement fees reconcile to the totals by business mode shown on the VSS-130-M report. The totals for Visa charges reconcile to the totals by business mode shown on the VSS-140-M report. This report can also be reconciled back to the VSS-110-M report.",
+            "Totals Provided": "By: Interchange value, reimbursement fees, and Visa charges Business mode The net settlement amount for the reporting entity is also provided.",
+            "Page Break": "N/A",
+            "Description, Highlights, and Frequency": "This report is the monthly version of the VSS-116 report. The fields on this report are the same as those shown on the VSS-116 report. The “from” and “to” dates in the report heading indicate the first and the last days of the month for which the data was accumulated.",
+            "Report ID and Report Title": "VSS-116-M – Monthly SRE Settlement Recap Report (Fee by Jurisdiction)"
+          }
+        }
+      },
+      {
+        "change_type": "row_removed",
+        "table_title": "Available VSS Reports",
+        "key": "vss-116 – sre settlement recap report",
+        "row": {
+          "type": "grid_row",
+          "page": 21,
+          "table_title": "Available VSS Reports",
+          "anchor_column": "Report ID and Report Title",
+          "columns": {
+            "Reconciliation Process": "The totals for interchange value reconcile to the totals by business mode shown on the VSS-120 report. The totals for reimbursement fees reconcile to the totals by business mode shown on the VSS-130 report. The totals for Visa charges reconcile to the totals by business mode shown on the VSS-140 report. This report can also be reconciled back to the VSS-110 Settlement Summary report.",
+            "Totals Provided": "By: Interchange value, reimbursement fees, and Visa charges Business mode The net settlement amount for the reporting entity is also provided.",
+            "Page Break": "On page overflow.",
+            "Description, Highlights, and Frequency": "This daily report provides the summarized totals of the interchange value, reimbursement fees, and Visa charges for the Reporting for SRE. This report contains a summarization of all transactions grouped as: Original transactions by business transaction type (includes returns) Reversals Chargebacks Dispute Financials Representments Dispute Response Financials Adjustments Fees and charges are also summarized on this report. Information on this report is summarized by business mode: acquirer, issuer, other.",
+            "Report ID and Report Title": "VSS-116 – SRE Settlement Recap Report"
+          }
+        }
+      },
+      {
+        "change_type": "row_removed",
+        "table_title": "Available VSS Reports",
+        "key": "vss-116-m – monthly sre settlement recap report",
+        "row": {
+          "type": "grid_row",
+          "page": 22,
+          "table_title": "Available VSS Reports",
+          "anchor_column": "Report ID and Report Title",
+          "columns": {
+            "Reconciliation Process": "The totals for interchange value reconcile to the totals by business mode shown on the VSS-120-M report. The totals for reimbursement fees reconcile to the totals by business mode shown on the VSS-130-M report. The totals for Visa charges reconcile to the totals by business mode shown on the VSS-140-M report. This report can also be reconciled back to the VSS-110-M report.",
+            "Totals Provided": "By: Interchange value, reimbursement fees, and Visa charges Business mode The net settlement amount for the reporting entity is also provided.",
+            "Page Break": "N/A",
+            "Description, Highlights, and Frequency": "This report is the monthly version of the VSS-116 report. The fields on this report are the same as those shown on the VSS-116 report. The “from” and “to” dates in the report heading indicate the first and the last days of the month for which the data was accumulated.",
+            "Report ID and Report Title": "VSS-116-M – Monthly SRE Settlement Recap Report"
+          }
+        }
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "VSS-110 Field Descriptions",
+        "duplicate_keys_a": [
+          "total acquirer",
+          "total issuer",
+          "total other"
+        ],
+        "duplicate_keys_b": [
+          "total acquirer",
+          "total issuer",
+          "total other"
+        ]
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "VSS-900-PS Field Descriptions",
+        "duplicate_keys_a": [
+          "received from visa",
+          "sent to visa"
+        ],
+        "duplicate_keys_b": [
+          "received from visa",
+          "sent to visa"
+        ]
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "VSS-600 Field Descriptions",
+        "duplicate_keys_a": [
+          "total 01-day defer"
+        ],
+        "duplicate_keys_b": [
+          "total 01-day defer"
+        ]
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "VSS-115 Field Descriptions",
+        "duplicate_keys_a": [
+          "business transaction type",
+          "dispute resp fin",
+          "reimbursement fees",
+          "representment",
+          "total interchange",
+          "visa charges"
+        ],
+        "duplicate_keys_b": [
+          "business transaction type",
+          "dispute resp fin",
+          "reimbursement fees",
+          "representment",
+          "total interchange",
+          "visa charges"
+        ]
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "Available VSS Reports Transaction Dispositions (VSS-900-Reconciliation Report)",
+        "duplicate_keys_a": [
+          ""
+        ],
+        "duplicate_keys_b": [
+          ""
+        ]
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "VSS-116 Field Descriptions",
+        "duplicate_keys_a": [
+          "business transaction type",
+          "dispute resp fin",
+          "reimbursement fees",
+          "representment",
+          "total interchange",
+          "visa charges"
+        ],
+        "duplicate_keys_b": [
+          "business transaction type",
+          "dispute resp fin",
+          "reimbursement fees",
+          "representment",
+          "total interchange",
+          "visa charges"
+        ]
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "VSS-140 Field Descriptions",
+        "duplicate_keys_a": [
+          "visa eu"
+        ],
+        "duplicate_keys_b": [
+          "visa eu"
+        ]
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "VSS-300 Field Descriptions Note: Deferred settlement is currently available only in Brazil, Japan, Argentina, and Chile.",
+        "duplicate_keys_a": [
+          "net settlement amount"
+        ],
+        "duplicate_keys_b": [
+          "net settlement amount"
+        ]
+      },
+      {
+        "change_type": "paragraph_added",
+        "text": "This table lists other settlement-related reports. Some of these are for either specific settlement services (non-international),"
+      },
+      {
+        "change_type": "paragraph_added",
+        "text": "selected client specific, or Visa internal that are available but are not described in this manual."
+      },
+      {
+        "change_type": "paragraph_added",
+        "text": "Other Settlement Related Reports"
+      }
+    ],
+    "appendix_b": [
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "VSS 120–135 Report Count/Amount Fields Mapped to TCR 1 VSS 140–230 Report Count/Amount Fields Mapped to TCR 1",
+        "duplicate_keys_a": [
+          "fifth amount",
+          "fourth amount",
+          "sixth amount"
+        ],
+        "duplicate_keys_b": [
+          "fifth amount",
+          "fourth amount",
+          "sixth amount"
+        ]
+      }
+    ],
+    "appendix_c": [
+      {
+        "change_type": "row_added",
+        "table_title": "Charge Types",
+        "key": "180",
+        "row": {
+          "type": "grid_row",
+          "page": 273,
+          "table_title": "Charge Types",
+          "anchor_column": "Code",
+          "columns": {
+            "Code": "180",
+            "Charge Type": "VAT CASHBACK IRF"
+          }
+        }
+      },
+      {
+        "change_type": "paragraph_added",
+        "text": "This table contains the VSS Codes for jurisdictions."
+      },
+      {
+        "change_type": "paragraph_added",
+        "text": "This table contains the VSS Codes for regions. This table contains the VSS Codes for settlement services."
+      },
+      {
+        "change_type": "paragraph_removed",
+        "text": "This table contains the VSS Codes for settlement services."
+      },
+      {
+        "change_type": "paragraph_removed",
+        "text": "This table contains the VSS Codes for jurisdictions. This table contains the VSS Codes for regions."
+      }
+    ],
+    "appendix_d": [
+      {
+        "change_type": "row_added",
+        "table_title": "Financial Transaction Record/Visa Payment Service-Specific – V22230",
+        "key": "service date",
+        "row": {
+          "type": "grid_row",
+          "page": 382,
+          "table_title": "Financial Transaction Record/Visa Payment Service-Specific – V22230",
+          "anchor_column": "Field Name",
+          "columns": {
+            "Comments": "Not applicable",
+            "Field Sources": "Field 62.8",
+            "Attribute": "6 N",
+            "Position": "25–30",
+            "Field Name": "Service Date"
+          }
+        }
+      },
+      {
+        "change_type": "row_removed",
+        "table_title": "Financial Transaction Record/Visa Payment Service-Specific – V22230",
+        "key": "check in/check out",
+        "row": {
+          "type": "grid_row",
+          "page": 377,
+          "table_title": "Financial Transaction Record/Visa Payment Service-Specific – V22230",
+          "anchor_column": "Field Name",
+          "columns": {
+            "Comments": "Not applicable",
+            "Field Sources": "Field 62.8",
+            "Attribute": "6 N",
+            "Position": "25–30",
+            "Field Name": "Check In/Check Out"
+          }
+        }
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "V.I.P. Release 2.2 Format Record Summary Header Record – V22000",
+        "duplicate_keys_a": [
+          "filler"
+        ],
+        "duplicate_keys_b": [
+          "filler"
+        ]
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "Financial Maintenance Transaction Record – V22300",
+        "duplicate_keys_a": [
+          "filler"
+        ],
+        "duplicate_keys_b": [
+          "filler"
+        ]
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "Administrative Message 1 Transaction Record – V22400",
+        "duplicate_keys_a": [
+          "filler"
+        ],
+        "duplicate_keys_b": [
+          "filler"
+        ]
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "Financial Transaction Record/Multicurrency-Specific – V22260",
+        "duplicate_keys_a": [
+          "filler"
+        ],
+        "duplicate_keys_b": [
+          "filler"
+        ]
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "Administrative Message 2 Transaction Record – V22401",
+        "duplicate_keys_a": [
+          "filler"
+        ],
+        "duplicate_keys_b": [
+          "filler"
+        ]
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "File Maintenance–Address Verification File Update – V22310",
+        "duplicate_keys_a": [
+          "filler"
+        ],
+        "duplicate_keys_b": [
+          "filler"
+        ]
+      },
+      {
+        "change_type": "row_added",
+        "table_title": "Financial Transaction Fee Record – V22261",
+        "key": "enabler verification value (evv)",
+        "row": {
+          "type": "grid_row",
+          "page": 391,
+          "table_title": "Financial Transaction Fee Record – V22261",
+          "anchor_column": "Field Name",
+          "columns": {
+            "Comments": "5-alphanumeric character (A-Z, 0-9) – no special characters allowed.",
+            "Field Sources": "Not applicable",
+            "Attribute": "5 AN",
+            "Position": "57–61",
+            "Field Name": "Enabler Verification Value (EVV)"
+          }
+        }
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Attribute",
+        "old": "74 AN",
+        "new": "69 AN",
+        "similarity_ratio": 0.6,
+        "table_title": "Financial Transaction Fee Record – V22261",
+        "key": "filler",
+        "ai_category": "extraction_noise",
+        "ai_reason": "El cambio en el valor de la columna 'Attribute' (de '74 AN' a '69 AN') parece ser un artefacto de extracción de PDF, ya que el número cambia sin una explicación lógica y el formato es similar.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Position",
+        "old": "57–130",
+        "new": "62–130",
+        "similarity_ratio": 0.667,
+        "table_title": "Financial Transaction Fee Record – V22261",
+        "key": "filler",
+        "ai_category": "business_rule_change",
+        "ai_reason": "El rango de posiciones cambia de 57-130 a 62-130, lo que indica una modificación en la regla de negocio relacionada con los límites de posiciones.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Field Sources",
+        "old": "",
+        "new": "Not applicable",
+        "similarity_ratio": 0.0,
+        "table_title": "Financial Transaction Record/VSDC-Specific, Continuation Record – V22282",
+        "key": "filler",
+        "ai_category": "extraction_noise",
+        "ai_reason": "El valor vacío en la edición vieja y 'Not applicable' en la nueva son artefactos de extracción de PDF, ya que no representan un cambio real en el significado o regla de negocio.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Field SourcesComments",
+        "old": "Not applicable",
+        "new": "",
+        "similarity_ratio": 0.0,
+        "table_title": "Financial Transaction Record/VSDC-Specific, Continuation Record – V22282",
+        "key": "filler",
+        "ai_category": "extraction_noise",
+        "ai_reason": "El valor vacío en la columna 'Field SourcesComments' es un artefacto de extracción de PDF, ya que no tiene sentido en el contexto y se indica como 'Not applicable' en la edición vieja.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "Financial Transaction Record/Money Transfer and Personal Payments-Specific – V22276",
+        "duplicate_keys_a": [
+          "reserved"
+        ],
+        "duplicate_keys_b": [
+          "reserved"
+        ]
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "V.I.P. Release 2.2 Format Record Summary",
+        "duplicate_keys_a": [
+          "administrative message",
+          "file maintenance",
+          "financial transaction"
+        ],
+        "duplicate_keys_b": [
+          "administrative message",
+          "file maintenance",
+          "financial transaction"
+        ]
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "Advice Notification Transaction Record/Interlink-Specific – V22600",
+        "duplicate_keys_a": [
+          "filler"
+        ],
+        "duplicate_keys_b": [
+          "filler"
+        ]
+      },
+      {
+        "change_type": "row_added",
+        "table_title": "Financial Transaction Record/National Net Data – V22275",
+        "key": "reimbursement fee vat national reimbursement fee reserved",
+        "row": {
+          "type": "grid_row",
+          "page": 392,
+          "table_title": "Financial Transaction Record/National Net Data – V22275",
+          "anchor_column": "Field Name",
+          "columns": {
+            "Comments": "Two decimal places implied. Zero-filled.",
+            "Field Sources": "F119, Usage 5, Positions 60–64",
+            "Attribute": "12 N 10 N 2 N",
+            "Position": "10–21 22–31 32–33",
+            "Field Name": "Reimbursement Fee VAT National Reimbursement Fee Reserved"
+          }
+        }
+      },
+      {
+        "change_type": "row_removed",
+        "table_title": "Financial Transaction Record/National Net Data – V22275",
+        "key": "reimbursement fee vat national reimbursement fee",
+        "row": {
+          "type": "grid_row",
+          "page": 386,
+          "table_title": "Financial Transaction Record/National Net Data – V22275",
+          "anchor_column": "Field Name",
+          "columns": {
+            "Comments": "Two decimal places implied.",
+            "Field Sources": "F119, Usage 5, Positions 60–64",
+            "Attribute": "12 N 10 N",
+            "Position": "10–21 22–31",
+            "Field Name": "Reimbursement Fee VAT National Reimbursement Fee"
+          }
+        }
+      },
+      {
+        "change_type": "row_removed",
+        "table_title": "Financial Transaction Record/National Net Data – V22275",
+        "key": "reserved",
+        "row": {
+          "type": "grid_row",
+          "page": 387,
+          "table_title": "Financial Transaction Record/National Net Data – V22275",
+          "anchor_column": "Field Name",
+          "columns": {
+            "Comments": "",
+            "Field Sources": "",
+            "Attribute": "12 N",
+            "Position": "48–59",
+            "Field Name": "Reserved"
+          }
+        }
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Attribute",
+        "old": "2 N",
+        "new": "1 AN",
+        "similarity_ratio": 0.571,
+        "table_title": "Financial Transaction Record/National Net Data – V22275",
+        "key": "reserved",
+        "ai_category": "business_rule_change",
+        "ai_reason": "El valor de la columna 'Attribute' cambia de '2 N' a '1 AN', lo que indica una modificación en la regla de negocio o significado del dato.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Comments",
+        "old": "Zero-filled.",
+        "new": "",
+        "similarity_ratio": 0.0,
+        "table_title": "Financial Transaction Record/National Net Data – V22275",
+        "key": "reserved",
+        "ai_category": "extraction_noise",
+        "ai_reason": "El valor en la columna Comments cambia de 'Zero-filled.' a un valor vacío, lo que sugiere un artefacto de extracción de PDF en lugar de un cambio real en el contenido.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Position",
+        "old": "32–33",
+        "new": "35",
+        "similarity_ratio": 0.286,
+        "table_title": "Financial Transaction Record/National Net Data – V22275",
+        "key": "reserved",
+        "ai_category": "extraction_noise",
+        "ai_reason": "El cambio de '32–33' a '35' es un artefacto de extracción de PDF, ya que los valores numéricos no siguen un patrón lógico y no representan una regla de negocio o redacción diferente.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Attribute",
+        "old": "1 AN",
+        "new": "12 N",
+        "similarity_ratio": 0.75,
+        "table_title": "Financial Transaction Record/National Net Data – V22275",
+        "key": "reserved",
+        "ai_category": "extraction_noise",
+        "ai_reason": "El cambio en el valor de la columna 'Attribute' (de '1 AN' a '12 N') parece ser un artefacto de extracción de PDF, ya que el valor numérico y la abreviatura no siguen un patrón lógico o estándar.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Position",
+        "old": "35",
+        "new": "48–59",
+        "similarity_ratio": 0.286,
+        "table_title": "Financial Transaction Record/National Net Data – V22275",
+        "key": "reserved",
+        "ai_category": "extraction_noise",
+        "ai_reason": "El valor cambió de un número específico a un rango de números, lo que sugiere un artefacto de extracción de PDF, ya que no representa un cambio real en la regla de negocio o redacción.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "Financial Transaction Record/National Net Data – V22275",
+        "duplicate_keys_a": [
+          "reserved"
+        ],
+        "duplicate_keys_b": [
+          "reserved"
+        ]
+      },
+      {
+        "change_type": "row_added",
+        "table_title": "Financial Transaction Fee Record – V23210",
+        "key": "enabler verification value (evv)",
+        "row": {
+          "type": "grid_row",
+          "page": 422,
+          "table_title": "Financial Transaction Fee Record – V23210",
+          "anchor_column": "Field Name",
+          "columns": {
+            "Comments": "allowed.",
+            "Field Sources": "",
+            "Attribute": "5 AN",
+            "Position": "38–42",
+            "Field Name": "Enabler Verification Value (EVV)"
+          }
+        }
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Comments",
+        "old": "",
+        "new": "5-alphanumeric character (A-Z, 0-9) – no special characters",
+        "similarity_ratio": 0.0,
+        "table_title": "Financial Transaction Fee Record – V23210",
+        "key": "b2b program id",
+        "ai_category": "business_rule_change",
+        "ai_reason": "El cambio especifica que los comentarios deben ser 5 caracteres alfanuméricos sin caracteres especiales, modificando la regla de negocio para los comentarios.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Field Sources",
+        "old": "",
+        "new": "Not applicable",
+        "similarity_ratio": 0.0,
+        "table_title": "Financial Transaction Fee Record – V23210",
+        "key": "b2b program id",
+        "ai_category": "extraction_noise",
+        "ai_reason": "El valor vacío en la edición vieja y 'Not applicable' en la nueva son artefactos de extracción de PDF, ya que no representan un cambio real en la regla de negocio o redacción.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Attribute",
+        "old": "88 AN",
+        "new": "82 AN",
+        "similarity_ratio": 0.8,
+        "table_title": "Financial Transaction Fee Record – V23210",
+        "key": "filler",
+        "ai_category": "business_rule_change",
+        "ai_reason": "El valor de la columna 'Attribute' cambia de '88 AN' a '82 AN', lo que indica una modificación en la regla de negocio relacionada con los códigos de tarjeta.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Position",
+        "old": "38–130",
+        "new": "43–130",
+        "similarity_ratio": 0.833,
+        "table_title": "Financial Transaction Fee Record – V23210",
+        "key": "filler",
+        "ai_category": "business_rule_change",
+        "ai_reason": "El rango de posiciones cambia de 38–130 a 43–130, lo que indica una modificación en la regla de negocio relacionada con los límites de posiciones.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "Trailer Record – V22900",
+        "duplicate_keys_a": [
+          "filler"
+        ],
+        "duplicate_keys_b": [
+          "filler"
+        ]
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Field Sources",
+        "old": "Field 54.4",
+        "new": "Field 54.2",
+        "similarity_ratio": 0.9,
+        "table_title": "Financial Transaction Record 5 – V22226",
+        "key": "amount type",
+        "ai_category": "business_rule_change",
+        "ai_reason": "El cambio en el campo de origen de la transacción de 'Field 54.4' a 'Field 5:2' indica una modificación en la regla de negocio relacionada con la identificación de campos financieros.",
+        "disappeared_content": [],
+        "safety_net_override": false
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "Financial Transaction Record 5 – V22226",
+        "duplicate_keys_a": [
+          "reserved"
+        ],
+        "duplicate_keys_b": [
+          "reserved"
+        ]
+      }
+    ],
+    "appendix_e": [
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "SMS (Excluding Interlink) Transactions Cross-Reference to VSS Business Transaction Types",
+        "duplicate_keys_a": [
+          "adjustment",
+          "adjustment (back office)",
+          "atm",
+          "atm transfer",
+          "cash disbursement adjustment",
+          "dispute financial",
+          "dispute financial reversal",
+          "dispute response financial",
+          "pos",
+          "pos balance inquiry",
+          "pos payment order",
+          "purchase",
+          "reversal",
+          "teller-originated"
+        ],
+        "duplicate_keys_b": [
+          "adjustment",
+          "adjustment (back office)",
+          "atm",
+          "atm transfer",
+          "cash disbursement adjustment",
+          "dispute financial",
+          "dispute financial reversal",
+          "dispute response financial",
+          "pos",
+          "pos balance inquiry",
+          "pos payment order",
+          "purchase",
+          "reversal",
+          "teller-originated"
+        ]
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "SMS (Including Interlink) Transactions Cross-Reference to VSS Business Transaction Types",
+        "duplicate_keys_a": [
+          "reversal"
+        ],
+        "duplicate_keys_b": [
+          "reversal"
+        ]
+      }
+    ]
+  },
+  "ai_summary": {
+    "extraction_noise": 8,
+    "business_rule_change": 6
+  }
+}

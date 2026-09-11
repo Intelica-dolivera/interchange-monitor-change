@@ -1,0 +1,299 @@
+{
+  "manual": "base_ii_transactions_quick_reference",
+  "edition_a": "20240413",
+  "edition_b": "20241019",
+  "summary": {
+    "row_added": 18,
+    "row_removed": 18
+  },
+  "changes": [
+    {
+      "change_type": "row_added",
+      "title": "15 Sales Draft Dispute",
+      "cells": [
+        "TCR 4",
+        "Supplemental Financial and Promotion Data"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "15 Sales Draft Dispute",
+      "cells": [
+        "TCR 4",
+        "Supplemental Financial Data"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "15 Sales Draft Dispute",
+      "cells": [
+        "TCR 4",
+        "Single Message System Interface (SMS and Promotion Data)"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "15 Sales Draft Dispute",
+      "cells": [
+        "TCR 4",
+        "Single Message System Interface (SMS Data)"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "16 Credit Voucher Dispute",
+      "cells": [
+        "TCR 4",
+        "Supplemental Financial and Promotion Data"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "16 Credit Voucher Dispute",
+      "cells": [
+        "TCR 4",
+        "Supplemental Financial Data"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "16 Credit Voucher Dispute",
+      "cells": [
+        "TCR 4",
+        "Single Message System Interface (SMS and Promotion Data)"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "16 Credit Voucher Dispute",
+      "cells": [
+        "TCR 4",
+        "Single Message System Interface (SMS Data)"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "17 Cash Disbursement Dispute",
+      "cells": [
+        "TCR 4",
+        "Supplemental Financial and Promotion Data"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "17 Cash Disbursement Dispute",
+      "cells": [
+        "TCR 4",
+        "Supplemental Financial Data"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "17 Cash Disbursement Dispute",
+      "cells": [
+        "TCR 4",
+        "Single Message System Interface (SMS and Promotion Data)"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "17 Cash Disbursement Dispute",
+      "cells": [
+        "TCR 4",
+        "Single Message System Interface (SMS Data)"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "25 Sales Draft Reversal",
+      "cells": [
+        "TCR 4",
+        "Supplemental Financial and Promotion Data"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "25 Sales Draft Reversal",
+      "cells": [
+        "TCR 4",
+        "Supplemental Financial Data"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "25 Sales Draft Reversal",
+      "cells": [
+        "TCR 4",
+        "Single Message System Interface (SMS and Promotion Data)"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "25 Sales Draft Reversal",
+      "cells": [
+        "TCR 4",
+        "Single Message System Interface (SMS Data)"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "26 Credit Voucher Reversal",
+      "cells": [
+        "TCR 4",
+        "Supplemental Financial and Promotion Data"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "26 Credit Voucher Reversal",
+      "cells": [
+        "TCR 4",
+        "Supplemental Financial Data"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "26 Credit Voucher Reversal",
+      "cells": [
+        "TCR 4",
+        "Single Message System Interface (SMS and Promotion Data)"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "26 Credit Voucher Reversal",
+      "cells": [
+        "TCR 4",
+        "Single Message System Interface (SMS Data)"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "27 Cash Disbursement Reversal",
+      "cells": [
+        "TCR 4",
+        "Supplemental Financial and Promotion Data"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "27 Cash Disbursement Reversal",
+      "cells": [
+        "TCR 4",
+        "Supplemental Financial Data"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "27 Cash Disbursement Reversal",
+      "cells": [
+        "TCR 4",
+        "Single Message System Interface (SMS and Promotion Data)"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "27 Cash Disbursement Reversal",
+      "cells": [
+        "TCR 4",
+        "Single Message System Interface (SMS Data)"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "35 Sales Draft Dispute Reversal",
+      "cells": [
+        "TCR 4",
+        "Supplemental Financial and Promotion Data"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "35 Sales Draft Dispute Reversal",
+      "cells": [
+        "TCR 4",
+        "Supplemental Financial Data"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "35 Sales Draft Dispute Reversal",
+      "cells": [
+        "TCR 4",
+        "Single Message System Interface (SMS and Promotion Data)"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "35 Sales Draft Dispute Reversal",
+      "cells": [
+        "TCR 4",
+        "Single Message System Interface (SMS Data)"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "36 Credit Voucher Dispute Reversal",
+      "cells": [
+        "TCR 4",
+        "Supplemental Financial and Promotion Data"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "36 Credit Voucher Dispute Reversal",
+      "cells": [
+        "TCR 4",
+        "Supplemental Financial Data"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "36 Credit Voucher Dispute Reversal",
+      "cells": [
+        "TCR 4",
+        "Single Message System Interface (SMS and Promotion Data)"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "36 Credit Voucher Dispute Reversal",
+      "cells": [
+        "TCR 4",
+        "Single Message System Interface (SMS Data)"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "37 Cash Disbursement Dispute Reversal",
+      "cells": [
+        "TCR 4",
+        "Supplemental Financial and Promotion Data"
+      ]
+    },
+    {
+      "change_type": "row_added",
+      "title": "37 Cash Disbursement Dispute Reversal",
+      "cells": [
+        "TCR 4",
+        "Supplemental Financial Data"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "37 Cash Disbursement Dispute Reversal",
+      "cells": [
+        "TCR 4",
+        "Single Message System Interface (SMS and Promotion Data)"
+      ]
+    },
+    {
+      "change_type": "row_removed",
+      "title": "37 Cash Disbursement Dispute Reversal",
+      "cells": [
+        "TCR 4",
+        "Single Message System Interface (SMS Data)"
+      ]
+    }
+  ]
+}

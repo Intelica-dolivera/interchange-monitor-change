@@ -1,0 +1,562 @@
+{
+  "manual": "visanet_settlement_service_vss_user_guide_volume_2_reports",
+  "edition_a": "20240413",
+  "edition_b": "20250412",
+  "appendices": {
+    "appendix_a": [
+      {
+        "change_type": "row_content_changed",
+        "column": "Description, Highlights, and Frequency",
+        "old": "This daily report provides reconciliation information to issuers for the currency conversion fees and optional issuer fees for incoming transactions. Transactions are summarized by clearing currency, business transaction, and jurisdiction. This report provides conversion fees by clearing currency. The interchange amounts are shown in both settlement currency and clearing currency. The optional issuer fee is shown in clearing currency (if applicable).",
+        "new": "This daily report provides reconciliation information to issuers for the currency conversion fees and Visa Issuer FX Calculator amounts for incoming transactions. Transactions are summarized by clearing currency, business transaction, and jurisdiction. This report provides conversion fees by clearing currency. The interchange amounts are shown in both settlement currency and clearing currency. The Visa Issuer FX Calculator amount is shown in clearing currency (if applicable).",
+        "similarity_ratio": 0.891,
+        "table_title": "Available VSS Reports",
+        "key": "vss-210 – currency conversion fees report"
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "Available VSS Reports Transaction Dispositions (VSS-900-Reconciliation Report)",
+        "duplicate_keys_a": [
+          ""
+        ],
+        "duplicate_keys_b": [
+          ""
+        ]
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "VSS-110 Field Descriptions",
+        "duplicate_keys_a": [
+          "total acquirer",
+          "total issuer",
+          "total other"
+        ],
+        "duplicate_keys_b": [
+          "total acquirer",
+          "total issuer",
+          "total other"
+        ]
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "VSS-110-C Field Descriptions",
+        "duplicate_keys_a": [
+          "total acquirer",
+          "total acquirer ssid name ftsre1",
+          "total acquirer ssid name ftsre2",
+          "total acquirer ssid name ftsre3",
+          "total issuer",
+          "total issuer ssid name ftsre1",
+          "total issuer ssid name ftsre2",
+          "total issuer ssid name ftsre3",
+          "total other",
+          "total other ssid name ftsre1",
+          "total other ssid name ftsre2",
+          "total other ssid name ftsre3"
+        ],
+        "duplicate_keys_b": [
+          "total acquirer",
+          "total acquirer ssid name ftsre1",
+          "total acquirer ssid name ftsre2",
+          "total acquirer ssid name ftsre3",
+          "total issuer",
+          "total issuer ssid name ftsre1",
+          "total issuer ssid name ftsre2",
+          "total issuer ssid name ftsre3",
+          "total other",
+          "total other ssid name ftsre1",
+          "total other ssid name ftsre2",
+          "total other ssid name ftsre3"
+        ]
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "VSS-115 Field Descriptions",
+        "duplicate_keys_a": [
+          "business transaction type",
+          "dispute resp fin",
+          "reimbursement fees",
+          "representment",
+          "total interchange",
+          "visa charges"
+        ],
+        "duplicate_keys_b": [
+          "business transaction type",
+          "dispute resp fin",
+          "reimbursement fees",
+          "representment",
+          "total interchange",
+          "visa charges"
+        ]
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "VSS-116 Field Descriptions",
+        "duplicate_keys_a": [
+          "business transaction type",
+          "dispute resp fin",
+          "reimbursement fees",
+          "representment",
+          "total interchange",
+          "visa charges"
+        ],
+        "duplicate_keys_b": [
+          "business transaction type",
+          "dispute resp fin",
+          "reimbursement fees",
+          "representment",
+          "total interchange",
+          "visa charges"
+        ]
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Description",
+        "old": "The clearing amount for the issuer transactions is the cardholder’s billing amount. The cardholder billing amount includes the transaction amount, currency conversion fees (if applicable), and the optional issuer fees (if applicable). The clearing amount for other transactions is the transaction amount.",
+        "new": "The clearing amount for the issuer transactions is the cardholder’s billing amount. The cardholder billing amount includes the transaction amount, currency conversion fees (if applicable), and the Visa Issuer FX Calculator amounts (if applicable). The clearing amount for other transactions is the transaction amount.",
+        "similarity_ratio": 0.918,
+        "table_title": "VSS-120 Field Descriptions",
+        "key": "clearing amount"
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "VSS-140 Field Descriptions",
+        "duplicate_keys_a": [
+          "visa eu"
+        ],
+        "duplicate_keys_b": [
+          "visa eu"
+        ]
+      },
+      {
+        "change_type": "row_added",
+        "table_title": "VSS-210 Field Descriptions",
+        "key": "iss fx calc amt",
+        "row": {
+          "type": "grid_row",
+          "page": 113,
+          "table_title": "VSS-210 Field Descriptions",
+          "anchor_column": "Field Name",
+          "columns": {
+            "Description": "Visa Issuer FX Calculator amount in clearing currency.",
+            "Field Name": "ISS FX CALC AMT"
+          }
+        }
+      },
+      {
+        "change_type": "row_removed",
+        "table_title": "VSS-210 Field Descriptions",
+        "key": "opt issuer fee",
+        "row": {
+          "type": "grid_row",
+          "page": 113,
+          "table_title": "VSS-210 Field Descriptions",
+          "anchor_column": "Field Name",
+          "columns": {
+            "Description": "Optional Issuer Fee in clearing currency.",
+            "Field Name": "OPT ISSUER FEE"
+          }
+        }
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "VSS-215 Field Descriptions",
+        "duplicate_keys_a": [
+          "interchange amount",
+          "international service assessment charges"
+        ],
+        "duplicate_keys_b": [
+          "interchange amount",
+          "international service assessment charges"
+        ]
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "VSS-300 Field Descriptions Note: Deferred settlement is currently available only in Brazil, Japan, Argentina, and Chile.",
+        "duplicate_keys_a": [
+          "net settlement amount"
+        ],
+        "duplicate_keys_b": [
+          "net settlement amount"
+        ]
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "VSS-600 Field Descriptions",
+        "duplicate_keys_a": [
+          "total 01-day defer"
+        ],
+        "duplicate_keys_b": [
+          "total 01-day defer"
+        ]
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "VSS-900-PS Field Descriptions",
+        "duplicate_keys_a": [
+          "received from visa",
+          "sent to visa"
+        ],
+        "duplicate_keys_b": [
+          "received from visa",
+          "sent to visa"
+        ]
+      }
+    ],
+    "appendix_b": [
+      {
+        "change_type": "row_content_changed",
+        "column": "VSS-210",
+        "old": "Optional Issuer Fee (Clearing Curr)",
+        "new": "Visa Issuer FX Calculator (Clearing Curr)",
+        "similarity_ratio": 0.711,
+        "table_title": "VSS 120–135 Report Count/Amount Fields Mapped to TCR 1 VSS 140–230 Report Count/Amount Fields Mapped to TCR 1",
+        "key": "fifth amount"
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "VSS 120–135 Report Count/Amount Fields Mapped to TCR 1 VSS 140–230 Report Count/Amount Fields Mapped to TCR 1",
+        "duplicate_keys_a": [
+          "fifth amount",
+          "fourth amount",
+          "sixth amount"
+        ],
+        "duplicate_keys_b": [
+          "fifth amount",
+          "fourth amount",
+          "sixth amount"
+        ]
+      }
+    ],
+    "appendix_c": [],
+    "appendix_d": [
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "Administrative Message 1 Transaction Record – V22400",
+        "duplicate_keys_a": [
+          "filler"
+        ],
+        "duplicate_keys_b": [
+          "filler"
+        ]
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "Administrative Message 2 Transaction Record – V22401",
+        "duplicate_keys_a": [
+          "filler"
+        ],
+        "duplicate_keys_b": [
+          "filler"
+        ]
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "Advice Notification Transaction Record/Interlink-Specific – V22600",
+        "duplicate_keys_a": [
+          "filler"
+        ],
+        "duplicate_keys_b": [
+          "filler"
+        ]
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "File Maintenance–Address Verification File Update – V22310",
+        "duplicate_keys_a": [
+          "filler"
+        ],
+        "duplicate_keys_b": [
+          "filler"
+        ]
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "Financial Maintenance Transaction Record – V22300",
+        "duplicate_keys_a": [
+          "filler"
+        ],
+        "duplicate_keys_b": [
+          "filler"
+        ]
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "Financial Transaction Record 5 – V22226",
+        "duplicate_keys_a": [
+          "reserved"
+        ],
+        "duplicate_keys_b": [
+          "reserved"
+        ]
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Field Sources",
+        "old": "Field 28, Positions 2– 2–9",
+        "new": "Field 28, Positions 2–9",
+        "similarity_ratio": 0.939,
+        "table_title": "Financial Transaction Record/ATM-Specific – V22250",
+        "key": "surcharge amount"
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "Financial Transaction Record/Money Transfer and Personal Payments-Specific – V22276",
+        "duplicate_keys_a": [
+          "reserved"
+        ],
+        "duplicate_keys_b": [
+          "reserved"
+        ]
+      },
+      {
+        "change_type": "row_added",
+        "table_title": "Financial Transaction Record/Multicurrency-Specific – V22260",
+        "key": "visa issuer fx calculator – cardholder billing currency",
+        "row": {
+          "type": "grid_row",
+          "page": 389,
+          "table_title": "Financial Transaction Record/Multicurrency-Specific – V22260",
+          "anchor_column": "Field Name",
+          "columns": {
+            "Comments": "Expressed in Cardholder Billing Currency",
+            "Field Sources": "Field 63.14, Positions 55–722",
+            "Attribute": "",
+            "Position": "95–103",
+            "Field Name": "Visa Issuer FX Calculator – Cardholder Billing Currency"
+          }
+        }
+      },
+      {
+        "change_type": "row_added",
+        "table_title": "Financial Transaction Record/Multicurrency-Specific – V22260",
+        "key": "visa issuer fx calculator – settlement currency",
+        "row": {
+          "type": "grid_row",
+          "page": 389,
+          "table_title": "Financial Transaction Record/Multicurrency-Specific – V22260",
+          "anchor_column": "Field Name",
+          "columns": {
+            "Comments": "Expressed in Settlement Currency",
+            "Field Sources": "Calculated by Visa",
+            "Attribute": "9 N1",
+            "Position": "86–94",
+            "Field Name": "Visa Issuer FX Calculator – Settlement Currency"
+          }
+        }
+      },
+      {
+        "change_type": "row_removed",
+        "table_title": "Financial Transaction Record/Multicurrency-Specific – V22260",
+        "key": "optional issuer fee – cardholder billing currency",
+        "row": {
+          "type": "grid_row",
+          "page": 389,
+          "table_title": "Financial Transaction Record/Multicurrency-Specific – V22260",
+          "anchor_column": "Field Name",
+          "columns": {
+            "Comments": "Expressed in Cardholder Billing Currency",
+            "Field Sources": "Field 63.14, Positions 55–722",
+            "Attribute": "",
+            "Position": "95–103",
+            "Field Name": "Optional Issuer Fee – Cardholder Billing Currency"
+          }
+        }
+      },
+      {
+        "change_type": "row_removed",
+        "table_title": "Financial Transaction Record/Multicurrency-Specific – V22260",
+        "key": "optional issuer fee – settlement currency",
+        "row": {
+          "type": "grid_row",
+          "page": 389,
+          "table_title": "Financial Transaction Record/Multicurrency-Specific – V22260",
+          "anchor_column": "Field Name",
+          "columns": {
+            "Comments": "Expressed in Settlement Currency",
+            "Field Sources": "Calculated by Visa",
+            "Attribute": "9 N1",
+            "Position": "86–94",
+            "Field Name": "Optional Issuer Fee – Settlement Currency"
+          }
+        }
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "Financial Transaction Record/Multicurrency-Specific – V22260",
+        "duplicate_keys_a": [
+          "filler"
+        ],
+        "duplicate_keys_b": [
+          "filler"
+        ]
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "Financial Transaction Record/National Net Data – V22275",
+        "duplicate_keys_a": [
+          "reserved"
+        ],
+        "duplicate_keys_b": [
+          "reserved"
+        ]
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "Trailer Record – V22900",
+        "duplicate_keys_a": [
+          "filler"
+        ],
+        "duplicate_keys_b": [
+          "filler"
+        ]
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "V.I.P. Release 2.2 Format Record Summary",
+        "duplicate_keys_a": [
+          "administrative message",
+          "file maintenance",
+          "financial transaction"
+        ],
+        "duplicate_keys_b": [
+          "administrative message",
+          "file maintenance",
+          "financial transaction"
+        ]
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "V.I.P. Release 2.2 Format Record Summary Header Record – V22000",
+        "duplicate_keys_a": [
+          "filler"
+        ],
+        "duplicate_keys_b": [
+          "filler"
+        ]
+      }
+    ],
+    "appendix_e": [
+      {
+        "change_type": "row_added",
+        "table_title": "BASE II Transaction Cross-Reference to VSS Business Transaction Types",
+        "key": "request confir­ mation",
+        "row": {
+          "type": "grid_row",
+          "page": 432,
+          "table_title": "BASE II Transaction Cross-Reference to VSS Business Transaction Types",
+          "anchor_column": "Transaction Description",
+          "columns": {
+            "TC": "53",
+            "Additional Data": "Not applicable",
+            "Outgoing": "Acquirer",
+            "Incoming": "Issuer",
+            "Transaction Description": "Request Confir­ mation",
+            "VSS Business Transaction Type": "Not applicable"
+          }
+        }
+      },
+      {
+        "change_type": "row_removed",
+        "table_title": "BASE II Transaction Cross-Reference to VSS Business Transaction Types",
+        "key": "request confir mation",
+        "row": {
+          "type": "grid_row",
+          "page": 432,
+          "table_title": "BASE II Transaction Cross-Reference to VSS Business Transaction Types",
+          "anchor_column": "Transaction Description",
+          "columns": {
+            "TC": "53",
+            "Additional Data": "Not applicable",
+            "Outgoing": "Acquirer",
+            "Incoming": "Issuer",
+            "Transaction Description": "Request Confir mation",
+            "VSS Business Transaction Type": "Not applicable"
+          }
+        }
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "SMS (Excluding Interlink) Transactions Cross-Reference to VSS Business Transaction Types",
+        "duplicate_keys_a": [
+          "adjustment",
+          "adjustment (back office)",
+          "atm",
+          "atm transfer",
+          "cash disbursement adjustment",
+          "dispute financial",
+          "dispute financial reversal",
+          "dispute response financial",
+          "pos",
+          "pos balance inquiry",
+          "pos payment order",
+          "purchase",
+          "reversal",
+          "teller-originated"
+        ],
+        "duplicate_keys_b": [
+          "adjustment",
+          "adjustment (back office)",
+          "atm",
+          "atm transfer",
+          "cash disbursement adjustment",
+          "dispute financial",
+          "dispute financial reversal",
+          "dispute response financial",
+          "pos",
+          "pos balance inquiry",
+          "pos payment order",
+          "purchase",
+          "reversal",
+          "teller-originated"
+        ]
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Business Transaction Type",
+        "old": "POS Preauthorization 63.0 is set to 1)",
+        "new": "POS Preauthorization",
+        "similarity_ratio": 0.69,
+        "table_title": "SMS (Including Interlink) Transactions Cross-Reference to VSS Business Transaction Types",
+        "key": "preauthorization"
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Messages and Codes",
+        "old": "Message Type = 0100 Processing Code = 00, 17 Response code = 00 or 10 Time (Preauthorization Time Limit) Field 63.2 is present (bit 2 byte 1 for Field",
+        "new": "Message Type = 0100 Processing Code = 00, 17 Response code = 00 or 10 Time (Preauthorization Time Limit) Field 63.2 is present (bit 2 byte 1 for Field 63.0 is set to 1)",
+        "similarity_ratio": 0.943,
+        "table_title": "SMS (Including Interlink) Transactions Cross-Reference to VSS Business Transaction Types",
+        "key": "preauthorization"
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Business Transaction Type",
+        "old": "POS Preauthorization reversal 63.0 is set to 1)",
+        "new": "POS Preauthorization reversal",
+        "similarity_ratio": 0.763,
+        "table_title": "SMS (Including Interlink) Transactions Cross-Reference to VSS Business Transaction Types",
+        "key": "preauthorization reversal"
+      },
+      {
+        "change_type": "row_content_changed",
+        "column": "Messages and Codes",
+        "old": "Message Type = 0400,0420 Response code = 00 Original Message type (Field 90, Positions 1–4) = 0100 Time (Preauthorization Time Limit) Field 63.2 is present (bit 2 byte 1 for Field",
+        "new": "Message Type = 0400,0420 Response code = 00 Original Message type (Field 90, Positions 1–4) = 0100 Time (Preauthorization Time Limit) Field 63.2 is present (bit 2 byte 1 for Field 63.0 is set to 1)",
+        "similarity_ratio": 0.952,
+        "table_title": "SMS (Including Interlink) Transactions Cross-Reference to VSS Business Transaction Types",
+        "key": "preauthorization reversal"
+      },
+      {
+        "change_type": "duplicate_row_key_warning",
+        "table_title": "SMS (Including Interlink) Transactions Cross-Reference to VSS Business Transaction Types",
+        "duplicate_keys_a": [
+          "reversal"
+        ],
+        "duplicate_keys_b": [
+          "reversal"
+        ]
+      }
+    ]
+  }
+}

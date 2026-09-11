@@ -1,0 +1,16 @@
+# PDFs de los manuales (no se suben por tamaño/confidencialidad de origen)
+*.pdf
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# Entornos / secretos
+.env
+.env.*
+
+# Sistema
+.DS_Store

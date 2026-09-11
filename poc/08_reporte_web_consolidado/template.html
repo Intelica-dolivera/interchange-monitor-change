@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Reporte consolidado — Interchange Change Monitor</title>
+<style>
+  :root {
+    --bg: #f5f6f8;
+    --panel: #ffffff;
+    --border: #dde1e6;
+    --text: #1c2128;
+    --muted: #5b6472;
+    --accent: #2f5fd6;
+    --accent-bg: #eaf0ff;
+    --warn-bg: #fff6e5;
+    --warn-border: #f0c36d;
+    --before: #b3251f;
+    --after: #157a3d;
+    --chip-bg: #eef1f5;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+  }
+  header {
+    padding: 20px 24px 12px;
+    border-bottom: 1px solid var(--border);
+    background: var(--panel);
+  }
+  header h1 { margin: 0 0 4px; font-size: 20px; }
+  header .muted { color: var(--muted); font-size: 13px; }
+  nav#tabs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    padding: 10px 24px;
+    background: var(--panel);
+    border-bottom: 1px solid var(--border);
+    position: sticky;
+    top: 0;
+  }
+  nav#tabs button {
+    border: 1px solid var(--border);
+    background: var(--chip-bg);
+    color: var(--text);
+    padding: 6px 12px;
+    border-radius: 999px;
+    font-size: 13px;
+    cursor: pointer;
+  }
+  nav#tabs button.active {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: #fff;
+  }
+  main {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 20px 24px 60px;
+  }
+  .muted { color: var(--muted); }
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+  .card {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 16px 18px;
+    margin-bottom: 16px;
+  }
+  .card h2 { margin: 0 0 4px; font-size: 17px; }
+  .chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin: 10px 0 4px;
+  }
+  .chip {
+    background: var(--chip-bg);
+    border-radius: 6px;
+    padding: 3px 9px;
+    font-size: 12.5px;
+    white-space: nowrap;
+  }
+  .chip.headline {
+    background: var(--accent-bg);
+    color: var(--accent);
+    font-weight: 600;
+  }
+  .top-list, .group-items { list-style: none; margin: 10px 0 0; padding: 0; }
+  .top-list li { margin-bottom: 8px; }
+  h3 {
+    font-size: 14.5px;
+    margin: 18px 0 8px;
+    padding-bottom: 4px;
+    border-bottom: 1px solid var(--border);
+  }
+  .item {
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 8px 10px;
+    margin-bottom: 8px;
+    font-size: 13px;
+    background: var(--panel);
+  }
+  .item.flagged {
+    background: var(--warn-bg);
+    border-color: var(--warn-border);
+  }
+  .item-loc { font-weight: 600; margin-bottom: 4px; }
+  .item .before, .item .after, .item .reason {
+    white-space: pre-wrap;
+    margin-top: 2px;
+    line-height: 1.4;
+  }
+  .item .before { color: var(--before); }
+  .item .after { color: var(--after); }
+  .item .reason { color: var(--muted); font-style: italic; }
+  code {
+    background: var(--chip-bg);
+    padding: 1px 4px;
+    border-radius: 4px;
+    font-size: 12px;
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>Reporte consolidado de cambios</h1>
+  <div class="muted" id="generated-at"></div>
+</header>
+<nav id="tabs"></nav>
+<main id="content"></main>
+
+<script>
+const DATA_B64 = "__DATA_B64__";
+
+function b64ToUtf8(b64) {
+  const binary = atob(b64);
+  const bytes = Uint8Array.from(binary, c => c.charCodeAt(0));
+  return new TextDecoder("utf-8").decode(bytes);
+}
+
+const DATA = JSON.parse(b64ToUtf8(DATA_B64));
+
+function el(tag, opts, children) {
+  opts = opts || {};
+  children = children || [];
+  const e = document.createElement(tag);
+  if (opts.class) e.className = opts.class;
+  if (opts.text !== undefined) e.textContent = opts.text;
+  for (const child of children) e.appendChild(child);
+  return e;
+}
+
+function fmtDate(edition) {
+  if (!edition || edition.length < 8) return edition;
+  return `${edition.slice(6, 8)}/${edition.slice(4, 6)}/${edition.slice(0, 4)}`;
+}
+
+function chip(label, value, isHeadline) {
+  return el("span", { class: "chip" + (isHeadline ? " headline" : ""), text: `${label}: ${value}` });
+}
+
+function renderItem(item) {
+  const wrap = el("div", { class: "item" + (item.flagged ? " flagged" : "") });
+  wrap.appendChild(el("div", { class: "item-loc", text: (item.flagged ? "⚠️ " : "") + item.location }));
+  if (item.before !== null && item.before !== undefined) {
+    wrap.appendChild(el("div", { class: "before", text: "Antes: " + item.before }));
+  }
+  if (item.after !== null && item.after !== undefined) {
+    wrap.appendChild(el("div", { class: "after", text: "Ahora: " + item.after }));
+  }
+  if (item.reason) {
+    wrap.appendChild(el("div", { class: "reason", text: "Razón: " + item.reason }));
+  }
+  return wrap;
+}
+
+function renderGroups(groups) {
+  const wrap = el("div");
+  if (!groups.length) {
+    wrap.appendChild(el("p", { class: "muted", text: "Sin cambios de negocio en este par de ediciones." }));
+    return wrap;
+  }
+  for (const g of groups) {
+    wrap.appendChild(el("h3", { text: `${g.group_title} (${g.items.length})` }));
+    const list = el("div", { class: "group-items" });
+    for (const item of g.items) list.appendChild(renderItem(item));
+    wrap.appendChild(list);
+  }
+  return wrap;
+}
+
+function renderManualCard(m, opts) {
+  const card = el("div", { class: "card" });
+  card.appendChild(el("h2", { text: m.title }));
+  card.appendChild(el("div", { class: "muted", text: `Edición ${fmtDate(m.edition_a)} → ${fmtDate(m.edition_b)}` }));
+
+  const chips = el("div", { class: "chips" });
+  chips.appendChild(chip(m.headline.label, m.headline.value, true));
+  for (const s of m.secondary) chips.appendChild(chip(s.label, s.value, false));
+  card.appendChild(chips);
+
+  if (opts && opts.compact) {
+    if (m.top_items.length) {
+      const ul = el("ul", { class: "top-list" });
+      for (const item of m.top_items) {
+        const li = el("li");
+        li.appendChild(renderItem(item));
+        ul.appendChild(li);
+      }
+      card.appendChild(ul);
+    } else {
+      card.appendChild(el("p", { class: "muted", text: "Sin destacados en este par de ediciones." }));
+    }
+  }
+  return card;
+}
+
+function renderGeneralTab() {
+  const wrap = el("div");
+  const grid = el("div", { class: "grid" });
+  for (const m of DATA.manuals) grid.appendChild(renderManualCard(m, { compact: true }));
+  wrap.appendChild(grid);
+  return wrap;
+}
+
+function renderManualTab(m) {
+  const wrap = el("div");
+  wrap.appendChild(renderManualCard(m, { compact: false }));
+  wrap.appendChild(el("h2", { text: "Detalle completo de cambios de negocio" }));
+  wrap.appendChild(renderGroups(m.groups));
+  return wrap;
+}
+
+function renderRecentTab() {
+  const wrap = el("div");
+  const recent = DATA.manuals.filter(m => m.is_new_since_last_publish);
+  if (!recent.length) {
+    wrap.appendChild(el("p", { class: "muted", text: "Ningun manual tiene una edicion nueva desde la ultima publicacion." }));
+    return wrap;
+  }
+  for (const m of recent) {
+    wrap.appendChild(renderManualCard(m, { compact: false }));
+    wrap.appendChild(el("h2", { text: "Detalle completo de cambios de negocio" }));
+    wrap.appendChild(renderGroups(m.groups));
+  }
+  return wrap;
+}
+
+const recentCount = DATA.manuals.filter(m => m.is_new_since_last_publish).length;
+const tabsDef = [
+  { id: "recent", label: `Cambios recientes (${recentCount})`, render: renderRecentTab },
+  { id: "general", label: "Resumen general", render: renderGeneralTab },
+].concat(
+  DATA.manuals.map((m, i) => ({ id: "m" + i, label: m.title, render: () => renderManualTab(m) }))
+);
+
+const tabsEl = document.getElementById("tabs");
+const contentEl = document.getElementById("content");
+
+function selectTab(id) {
+  contentEl.innerHTML = "";
+  contentEl.appendChild(tabsDef.find(t => t.id === id).render());
+  for (const btn of tabsEl.children) btn.classList.toggle("active", btn.dataset.tab === id);
+}
+
+for (const t of tabsDef) {
+  const btn = el("button", { text: t.label });
+  btn.dataset.tab = t.id;
+  btn.addEventListener("click", () => selectTab(t.id));
+  tabsEl.appendChild(btn);
+}
+
+document.getElementById("generated-at").textContent = "Generado " + DATA.generated_at;
+selectTab("recent");
+</script>
+</body>
+</html>

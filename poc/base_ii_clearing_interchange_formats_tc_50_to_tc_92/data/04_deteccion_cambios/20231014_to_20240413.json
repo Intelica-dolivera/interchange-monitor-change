@@ -1,0 +1,68 @@
+{
+  "manual": "base_ii_clearing_interchange_formats_tc_50_to_tc_92",
+  "edition_a": "20231014",
+  "edition_b": "20240413",
+  "summary": {
+    "card_content_changed": 4,
+    "duplicate_position_warning": 1
+  },
+  "changes": [
+    {
+      "change_type": "card_content_changed",
+      "position": "17-20",
+      "field": "description",
+      "old": "Indicates debit product used. The entry must be numeric and may be zeros. This field is mapped to the SMS Network ID field. 0002 = Visa (this is the default if the TCR 4 is not included) 0004 = Plus This field is included in all non-Visa presentments acquired by the Single Message System. This field is included in all non-Visa presentments acquired by the VisaNet Debit System. Plus Issuers are required to retain and return the Network Identification Code in subsequent U.S. domestic dispute financials and retrieval requests if this field was received in the original transaction.",
+      "new": "Indicates debit product used. The entry must be numeric and may be zeros. This field is mapped to the V.I.P. Network ID field. 0002 = Visa (this is the default if the TCR 4 is not included) 0004 = Plus This field is included in all non-Visa original full financial transactions acquired by V.I.P. This field is included in all non-Visa presentments acquired by the VisaNet Debit System. Plus Issuers are required to retain and return the Network Identification Code in subsequent U.S. domestic dispute financials and retrieval requests if this field was received in the original transaction.",
+      "similarity_ratio": 0.526,
+      "title": "TC 52 - TCR 4",
+      "signature": "Network Identification Code",
+      "signature_position": "17-20"
+    },
+    {
+      "change_type": "duplicate_position_warning",
+      "title": "TC 54 - TCR 0",
+      "kind": "card",
+      "duplicate_positions_a": [
+        "30-169"
+      ],
+      "duplicate_positions_b": [
+        "30-169"
+      ],
+      "signature": "Record Hash Total",
+      "signature_position": "3-4"
+    },
+    {
+      "change_type": "card_content_changed",
+      "position": "20-24",
+      "field": "note",
+      "old": "In SMS, the settlement date in field 15 has the format mmdd and not yymmdd. The field contains the VIC settlement date (YYDDD) of the run.",
+      "new": "In V.I.P. full financial transactions, the settlement date in field 15 has the format mmdd and not yymmdd. The field contains the VIC settlement date (YYDDD) of the run.",
+      "similarity_ratio": 0.879,
+      "title": "TC 90 - TCR 0 - Incoming CTF",
+      "signature": "Center Information Block (CIB)",
+      "signature_position": "3-8"
+    },
+    {
+      "change_type": "card_content_changed",
+      "position": "22-26",
+      "field": "note",
+      "old": "In SMS, the settlement date in field 15 has the format mmdd and not yymmdd. The field must be numeric in the format of YYDDD. The field is for Visa use. For client endpoints that send files directly to VisaNet without an Edit Package, this field is not used and must be set to spaces.",
+      "new": "In V.I.P. full financial transactions, the settlement date in field 15 has the format mmdd and not yymmdd. The field must be numeric in the format of YYDDD. The field is for Visa use. For client endpoints that send files directly to VisaNet without an Edit Package, this field is not used and must be set to spaces.",
+      "similarity_ratio": 0.938,
+      "title": "TC 90 - TCR 0 - Outgoing ITF",
+      "signature": "Record Hash Total",
+      "signature_position": "3-4"
+    },
+    {
+      "change_type": "card_content_changed",
+      "position": "22-26",
+      "field": "note",
+      "old": "In SMS, the settlement date in field 15 has the format mmdd and not yymmdd. The field must be numeric in the format of YYDDD. The field is for the VIC Settlement Date.",
+      "new": "In V.I.P. full financial transactions, the settlement date in field 15 has the format mmdd and not yymmdd. The field must be numeric in the format of YYDDD. The field is for the VIC Settlement Date.",
+      "similarity_ratio": 0.899,
+      "title": "TC 90 - TCR 0 - Incoming ITF",
+      "signature": "Record Hash Total",
+      "signature_position": "3-4"
+    }
+  ]
+}

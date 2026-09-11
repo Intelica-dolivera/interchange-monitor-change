@@ -1,0 +1,59 @@
+{
+  "manual": "base_ii_clearing_edit_package_messages",
+  "edition_a": "20241019",
+  "edition_b": "20250412",
+  "summary": {
+    "ficha_added": 1,
+    "ficha_content_changed": 3
+  },
+  "changes": [
+    {
+      "change_type": "ficha_added",
+      "code": "Visa Issuer FX Calculator (formerly known as OIF):",
+      "title": "Visa Issuer FX Calculator (formerly known as OIF):"
+    },
+    {
+      "change_type": "ficha_content_changed",
+      "code": "V0005",
+      "field": "action",
+      "old": "Verify that the transaction does not contain the RPS/ACI combination of F and E with the specified values for Account Funding.",
+      "new": "Verify that the transaction does not contain the RPS/ACI combination of F and E with the specified values for Sales Draft and Account Funding.",
+      "similarity_ratio": 0.94,
+      "ai_category": "business_rule_change",
+      "ai_reason": "El cambio modifica el campo que se valida, pasando de 'Account Funding' a 'Sales Draft and Account Funding', lo que altera la condición de validación para transacciones de quasi cash o criptomonedas.",
+      "disappeared_content": [],
+      "safety_net_override": false
+    },
+    {
+      "change_type": "ficha_content_changed",
+      "code": "V0005",
+      "field": "transaction_types",
+      "old": "Account Funding — Originals and Reversals",
+      "new": "Sales Draft — Originals and Reversals | Account Funding — Originals and Reversals",
+      "similarity_ratio": 0.672,
+      "ai_category": "editorial_reword",
+      "ai_reason": "El texto describe lo mismo pero se agregó un nuevo elemento en la lista de tipos de transacciones con formato y separador, sin cambiar el significado o reglas de negocio.",
+      "disappeared_content": [],
+      "safety_net_override": false
+    },
+    {
+      "change_type": "ficha_content_changed",
+      "code": "optional issuer fee",
+      "field": "description",
+      "old": "An optional additional currency fee that is requested by the issuer and collected as part of the billing amount, if desired by the issuer. This fee is not included in the settlement amount. It may be a debit or a credit.",
+      "new": "See Visa Issuer FX Calculator",
+      "similarity_ratio": 0.145,
+      "ai_category": "business_rule_change",
+      "ai_reason": "El texto nuevo es una referencia a un recurso específico en lugar de describir el concepto, pero mantiene el mismo significado general sin cambios en el contenido real.",
+      "disappeared_content": [
+        "An optional additional currency fee that is requested by the issuer and collected as part of the billing amount, if desired by the issuer. This fee is not included in the settlement amount. It may be a debit or a credit."
+      ],
+      "safety_net_override": true,
+      "ai_original_category": "editorial_reword"
+    }
+  ],
+  "ai_summary": {
+    "business_rule_change": 2,
+    "editorial_reword": 1
+  }
+}

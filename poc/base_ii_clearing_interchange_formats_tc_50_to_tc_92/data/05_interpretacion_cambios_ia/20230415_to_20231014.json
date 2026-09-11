@@ -1,0 +1,124 @@
+{
+  "manual": "base_ii_clearing_interchange_formats_tc_50_to_tc_92",
+  "edition_a": "20230415",
+  "edition_b": "20231014",
+  "summary": {
+    "section_added": 2,
+    "card_content_changed": 5,
+    "duplicate_position_warning": 1
+  },
+  "changes": [
+    {
+      "change_type": "section_added",
+      "title": "TC 50 - TCR 0 - OCT Additional Information",
+      "signature": "Destination Identifier",
+      "signature_position": "5-10",
+      "num_rows": 13,
+      "num_cards": 13
+    },
+    {
+      "change_type": "section_added",
+      "title": "TC 50 - TCR 1 - OCT Additional Information",
+      "signature": "Recipient First Name",
+      "signature_position": "5-39",
+      "num_rows": 7,
+      "num_cards": 7
+    },
+    {
+      "change_type": "card_content_changed",
+      "position": "114-153",
+      "field": "name",
+      "old": "Free Form Error Message - Miscel­ laneous",
+      "new": "Free Form Error Message - Miscellaneous",
+      "similarity_ratio": 0.975,
+      "title": "TC 50 - TCR 0 - AMMF - VMSG - Record Reject",
+      "signature": "Destination Identifier",
+      "signature_position": "5-10",
+      "field_name": "Free Form Error Message - Miscellaneous",
+      "ai_category": "editorial_reword",
+      "ai_reason": "El texto cambia de 'Miscel­ laneous' a 'Miscellaneous' sin alterar el significado, solo se corrigió el espacio y la escritura del término.",
+      "disappeared_content": [],
+      "safety_net_override": false
+    },
+    {
+      "change_type": "card_content_changed",
+      "position": "47-48",
+      "field": "description",
+      "old": "Value is ID. This VMSG contains Visa-assigned AMMF Identifi­ cation Number.",
+      "new": "Value is ID. This VMSG contains Visa-assigned AMMF Identi­ fication Number.",
+      "similarity_ratio": 0.973,
+      "title": "TC 50 - TCR 0 - AMMF - VMSG - AMMF ID",
+      "signature": "Destination Identifier",
+      "signature_position": "5-10",
+      "field_name": "VMSG Message Type",
+      "ai_category": "editorial_reword",
+      "ai_reason": "El texto describe lo mismo, solo se cambió el término 'Identification' a 'Identi­fication' para corregir un posible error de extracción de PDF.",
+      "disappeared_content": [],
+      "safety_net_override": false
+    },
+    {
+      "change_type": "card_content_changed",
+      "position": "40",
+      "field": "description",
+      "old": "Code designating whether the fulfillment method is to be manual or automated. No edit occurs. For TC 52 with a requested Fulfillment Method of 1: If the acquirer is automated, the VIC will overlay a 1 in the field. l If the acquirer is not automated, the VIC will overlay a 0 (zero). in the field. l Otherwise, the VIC will insert a 0 (zero). in the field.",
+      "new": "Code designating whether the fulfillment method is to be manual or automated. No edit occurs. For TC 52 with a requested Fulfillment Method of 1: If the acquirer is automated, the VIC will overlay a 1 in the field. l If the acquirer is not automated, the VIC will overlay a 0 (zero). in the l field. Otherwise, the VIC will insert a 0 (zero). in the field.",
+      "similarity_ratio": 0.978,
+      "title": "TC 52 - TCR 1",
+      "signature": "Fax Number",
+      "signature_position": "17-32",
+      "field_name": "Established Fulfillment Method",
+      "ai_category": "editorial_reword",
+      "ai_reason": "El texto describe lo mismo pero con una corrección en el espacio y formato de la palabra 'field' para mejorar la claridad.",
+      "disappeared_content": [],
+      "safety_net_override": false
+    },
+    {
+      "change_type": "card_content_changed",
+      "position": "41-51",
+      "field": "description",
+      "old": "This field identifies the BASE II endpoint to which automated fulfillments and nonfulfillments should be routed. VIC Edit: For TC 52 with a Requested Fulfillment Method of 1: If this field is not zeros, it must be either a valid CRM Routing ID or must l be the Routing ID of Public Network Gateway. If this field is zeros, the VIC will overlay the primary RFC Routing ID for the l issuer. For all other TC 52s, no edit occurs; the VIC will overlay the field with zeros.",
+      "new": "This field identifies the BASE II endpoint to which automated fulfillments and nonfulfillments should be routed. VIC Edit: For TC 52 with a Requested Fulfillment Method of 1: If this field is not zeros, it must be either a valid CRM Routing ID or l must be the Routing ID of Public Network Gateway. If this field is zeros, the VIC will overlay the primary RFC Routing ID for l the issuer. For all other TC 52s, no edit occurs; the VIC will overlay the field with zeros.",
+      "similarity_ratio": 0.977,
+      "title": "TC 52 - TCR 1",
+      "signature": "Fax Number",
+      "signature_position": "17-32",
+      "field_name": "Issuer RFC Routing ID",
+      "ai_category": "editorial_reword",
+      "ai_reason": "El texto describe lo mismo pero con pequeñas correcciones de espacios y mayúsculas en 'l' que se convierten en 'I' para mantener la coherencia del texto.",
+      "disappeared_content": [],
+      "safety_net_override": false
+    },
+    {
+      "change_type": "duplicate_position_warning",
+      "title": "TC 54 - TCR 0",
+      "kind": "card",
+      "duplicate_positions_a": [
+        "30-169"
+      ],
+      "duplicate_positions_b": [
+        "30-169"
+      ],
+      "signature": "Record Hash Total",
+      "signature_position": "3-4"
+    },
+    {
+      "change_type": "card_content_changed",
+      "position": "19-28",
+      "field": "description",
+      "old": "ID number of the insurance policy. VIC Edit: The field cannot be space-filled. For policy numbers greater than 10 positions in length, the remaining digits are placed in the Miscellaneous 1 field.",
+      "new": "ID number of the insurance policy. VIC Edit: The field cannot be space-filled. For policy numbers greater than 10 positions in length, the remaining digits are placed in the Miscel­ laneous Description 1 field.",
+      "similarity_ratio": 0.931,
+      "title": "TC 59 - TCR 2 - American Express Transaction Detail, Insurance Part 1",
+      "signature": "Format Code",
+      "signature_position": "17-18",
+      "field_name": "Policy Number",
+      "ai_category": "editorial_reword",
+      "ai_reason": "El texto describe el mismo concepto pero cambia 'Miscellaneous 1 field' por 'Miscel­ laneous Description 1 field' con un espacio en la palabra y una mayúscula en 'D', lo que es un ajuste de redacción sin cambios de significado.",
+      "disappeared_content": [],
+      "safety_net_override": false
+    }
+  ],
+  "ai_summary": {
+    "editorial_reword": 5
+  }
+}
