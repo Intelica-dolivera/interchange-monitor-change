@@ -75,7 +75,7 @@
       "title": "TC 05 - TCR 0",
       "field_name": "Transaction Code",
       "ai_category": "business_rule_change",
-      "ai_reason": "Se agregó 'or dispute response financial' a los códigos de transacción 05, 06 y 07, modificando la definición de los códigos para incluir transacciones de respuesta financiera en disputa.",
+      "ai_reason": "Se agregó 'or dispute response financial' a los códigos de transacción 05, 06 y 07, modificando la definición de los códigos para incluir transacciones de respuesta a disputas financieras.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -89,7 +89,7 @@
       "title": "TC 05 - TCR 1 Additional Data",
       "field_name": "Token Assurance Method",
       "ai_category": "business_rule_change",
-      "ai_reason": "El campo se redefinio de 'Token Assurance Level' a 'Token Assurance Method', cambiando el significado técnico del campo.",
+      "ai_reason": "El campo se redefinio de 'Token Assurance Level' a 'Token Assurance Method', cambiando el significado técnico del valor de negocio.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -117,7 +117,7 @@
       "title": "TC 05 - TCR 3 Business Application Data",
       "field_name": "Service Processing Type",
       "ai_category": "business_rule_change",
-      "ai_reason": "El campo se redefinio de 'Deferred OCT Request Type' a 'Service Processing Type', cambiando el significado técnico y el valor de negocio.",
+      "ai_reason": "El campo se redefinio de 'Deferred OCT Request Type' a 'Service Processing Type', cambiando el significado comercial del mensaje.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -159,7 +159,7 @@
       "title": "TC 05 - TCR 4 Supplemental Financial Data",
       "field_name": "Message Reason Code",
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto se reescribe añadiendo una referencia a la especificación técnica sin cambiar el significado o los valores validos del campo.",
+      "ai_reason": "El texto describe lo mismo pero añade una referencia a especificaciones técnicas sin cambiar el significado o reglas de negocio.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -220,7 +220,7 @@
       "title": "TC 20 - TCR 1 Additional Data",
       "field_name": "Transaction Code",
       "ai_category": "business_rule_change",
-      "ai_reason": "El valor mínimo de la longitud del campo cambió de 10 a 20 bytes, lo que afecta la validación del formato.",
+      "ai_reason": "El cambio de '10' a '20' en la longitud del código de transacción modifica la regla de negocio, indicando que ahora debe contener 20 caracteres en lugar de 10.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -234,7 +234,7 @@
       "title": "TC 33.A - CP 01 TCR 0 Transaction Data",
       "field_name": "Message Reason Code",
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto describe la misma información pero con una redacción diferente, eliminando referencias específicas y redefiniendo el nombre del sistema para ser más general.",
+      "ai_reason": "El texto describe el mismo contenido pero con una redacción diferente, eliminando referencias específicas y redefiniendo el nombre del sistema para ser más general.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -248,7 +248,7 @@
       "title": "TC 33.A - CP 01 TCR 1 Additional Data",
       "field_name": "POS Entry Mode",
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto describe lo mismo pero con una redacción diferente y corrección de un error tipográfico en el nombre del documento.",
+      "ai_reason": "El texto describe lo mismo pero con una redacción diferente y corrección de un error de escritura en 'Technical Specifications'.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -262,7 +262,7 @@
       "title": "TC 33.A - CP 01 TCR 1 Additional Data",
       "field_name": "Point-of-Service Condition Code",
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto describe lo mismo pero con una reordenación de palabras y un cambio en la escritura del nombre del documento para mejorar la claridad.",
+      "ai_reason": "El texto describe lo mismo pero con una reordenación de palabras y corrección de un error de escritura en el nombre del documento.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -290,7 +290,7 @@
       "title": "TC 33.A - CP 01 TCR 1 Additional Data",
       "field_name": "Network ID",
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto describe lo mismo pero con una redacción diferente y corrección de un carácter en el texto.",
+      "ai_reason": "El texto describe el mismo contenido pero con una redacción diferente y corrección de un carácter en el texto.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -318,7 +318,7 @@
       "title": "TC 33.A - CP 01 TCR 1 Additional Data",
       "field_name": "Electronic Commerce Goods Indicator",
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto describe lo mismo pero con una redacción diferente y corrección de un carácter en el texto.",
+      "ai_reason": "El texto describe lo mismo pero con una reordenación de palabras y corrección de un error de escritura en el nombre del documento.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -332,7 +332,7 @@
       "title": "TC 33.A - CP 01 TCR 1 Additional Data",
       "field_name": "Account Selection",
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto describe lo mismo pero con una redacción diferente y corrección de un carácter en 'Specifi­ cations' a 'Specifications' para evitar el fragmento de texto en PDF.",
+      "ai_reason": "El texto describe lo mismo pero con una reordenación de palabras y corrección de un error de escritura en el nombre del documento.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -346,7 +346,7 @@
       "title": "TC 33.A - CP 01 TCR 1 Additional Data",
       "field_name": "CAVV Results Code",
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto describe lo mismo pero con una redacción diferente y corrección de un carácter en 'Specifi­ cations' a 'Specifications' para evitar el fragmento de texto en PDF.",
+      "ai_reason": "El texto describe el mismo documento técnico pero con una reordenación de palabras y un cambio en el nombre del documento para reflejar el contexto actual.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -560,7 +560,7 @@
       "title": "TC 33.A - CP 05 TCR 1 Passenger Itinerary Data (Cont'd)",
       "field_name": "Credit Reason Indicator",
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto describe el mismo contenido pero con una redacción diferente y corrección de un error tipográfico en el nombre del documento.",
+      "ai_reason": "El texto describe el mismo contenido pero con una reordenación de palabras y corrección de un error tipográfico en el nombre del documento.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -574,7 +574,7 @@
       "title": "TC 33.A - CP 05 TCR 1 Passenger Itinerary Data (Cont'd)",
       "field_name": "Ticket Change Indicator",
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto describe lo mismo pero con una redacción diferente y corrección de un error tipográfico en el nombre del documento.",
+      "ai_reason": "El texto describe lo mismo pero con una redacción diferente y corrección de un carácter en el texto.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -588,7 +588,7 @@
       "title": "TC 33.A - CP 05 TCR 6 Passenger Transport",
       "field_name": "Ancillary Credit Reason Indicator",
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto describe lo mismo pero con una redacción diferente y corrección de un error tipográfico en la palabra 'Technical Specifications'.",
+      "ai_reason": "El texto describe el mismo contenido pero con una reordenación de palabras y corrección de un error tipográfico en el nombre del documento.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -845,7 +845,7 @@
       "title": "TC 33.B - CP 51 TCR 1 Additional Data",
       "field_name": "POS Entry Mode",
       "ai_category": "business_rule_change",
-      "ai_reason": "El texto nuevo menciona 'Full Service POS Online Messages Technical Specifications' en lugar de 'V.I.P. System SMS POS (Visa & Visa Electron) Technical Specifications, Volume 1', indicando un cambio en los documentos de referencia para valores válidos.",
+      "ai_reason": "El texto nuevo menciona 'Full Service POS Online Messages Technical Specifications' en lugar de 'V.I.P. System SMS POS (Visa & Visa Electron) Technical Specifications', indicando un cambio en los documentos de referencia para valores válidos.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -859,7 +859,7 @@
       "title": "TC 33.B - CP 51 TCR 1 Additional Data",
       "field_name": "Point-of-Service Condition Code",
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto describe el mismo contenido pero cambia la referencia a la especificación técnica de la fuente, sin alterar el significado o valores válidos del campo.",
+      "ai_reason": "El texto describe lo mismo pero cambia la referencia a la especificación técnica de la fuente (V.I.P. System SMS POS) por Full Service POS Online Messages Technical Specifications, sin alterar el significado o valores válidos.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -873,7 +873,7 @@
       "title": "TC 33.B - CP 51 TCR 1 Additional Data",
       "field_name": "Processing Code",
       "ai_category": "business_rule_change",
-      "ai_reason": "El texto nuevo menciona 'Full Service POS Online Messages Technical Specifications' en lugar de 'V.I.P. System SMS POS (Visa & Visa Electron) Technical Specifications', indicando un cambio en la fuente de validación de valores para el código de procesamiento.",
+      "ai_reason": "El texto nuevo menciona 'Full Service POS Online Messages Technical Specifications' en lugar de 'V.I.P. System SMS POS (Visa & Visa Electron) Technical Specifications', indicando un cambio en los documentos de referencia para valores válidos.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -887,7 +887,7 @@
       "title": "TC 33.B - CP 51 TCR 1 Additional Data",
       "field_name": "Network ID",
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto describe el mismo contenido pero cambia la fuente de referencia de 'V.I.P. System SMS POS (Visa & Visa Electron) Technical Specifications, Volume 1' a 'Full Service POS Online Messages Technical Specifications' sin alterar el significado o valores validos.",
+      "ai_reason": "El texto describe el mismo concepto pero cambia la fuente de referencia de 'V.I.P. System SMS POS (Visa & Visa Electron) Technical Specifications, Volume 1' a 'Full Service POS Online Messages Technical Specifications' sin alterar el significado o valores válidos.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -901,7 +901,7 @@
       "title": "TC 33.B - CP 51 TCR 1 Additional Data",
       "field_name": "Authorization Response Code",
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto describe el mismo contenido pero cambia la fuente referencial de la especificación técnica a otro documento sin alterar el significado o valores válidos.",
+      "ai_reason": "El texto describe el mismo contenido pero cambia la fuente referencial de la especificación técnica a otro documento sin alterar el significado.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -915,7 +915,7 @@
       "title": "TC 33.B - CP 51 TCR 1 Additional Data",
       "field_name": "Electronic Commerce Goods Indicator",
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto describe el mismo contenido pero cambia la fuente de referencia de 'V.I.P. System SMS POS' a 'Full Service POS Online Messages Technical Specifications' sin alterar el significado o valores válidos.",
+      "ai_reason": "El texto describe el mismo contenido pero cambia la fuente referencial de la especificación técnica a 'Full Service POS Online Messages Technical Specifications' en lugar de 'V.I.P. System SMS POS (Visa & Visa Electron) Technical Specifications, Volume 1'.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -928,8 +928,8 @@
       "similarity_ratio": 0.837,
       "title": "TC 33.B - CP 51 TCR 1 Additional Data",
       "field_name": "Account Selection",
-      "ai_category": "editorial_reword",
-      "ai_reason": "El texto describe el mismo contenido pero cambia la fuente referencial de la especificación técnica a otro documento sin alterar el significado o valores válidos.",
+      "ai_category": "business_rule_change",
+      "ai_reason": "El texto nuevo apunta a una especificación diferente (Full Service POS Online Messages) en lugar de V.I.P. System SMS POS, lo que implica un cambio en la fuente de validación de valores.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -982,7 +982,7 @@
       "title": "TC 38 - TCR 1 VCRFS/VDAS Advice",
       "field_name": "Authorized Amount",
       "ai_category": "business_rule_change",
-      "ai_reason": "El cambio modifica el contexto de 'chargeback or representment' a 'dispute or dispute response', lo que altera el significado de negocio.",
+      "ai_reason": "El cambio modifica el contexto de 'chargeback or representment' a 'dispute or dispute response', lo que altera el significado de negocio al referirse a diferentes tipos de transacciones.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -995,8 +995,8 @@
       "similarity_ratio": 0.866,
       "title": "TC 38 - TCR 1 VCRFS/VDAS Advice",
       "field_name": "Authorization Currency Code",
-      "ai_category": "editorial_reword",
-      "ai_reason": "El texto describe el mismo concepto pero cambia 'chargeback or representment' por 'dispute or dispute response' para mantener consistencia con el contexto de los mensajes de Visa.",
+      "ai_category": "business_rule_change",
+      "ai_reason": "El cambio indica que el campo proviene de 'chargeback o representment' en la edición vieja y ahora es 'dispute o dispute response' en la edición nueva, lo que altera el contexto de uso del campo en el proceso de disputa.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1038,7 +1038,7 @@
       "title": "TC 38 - TCR 1 VCRFS/VDAS Advice",
       "field_name": "Total Authorized Amount",
       "ai_category": "business_rule_change",
-      "ai_reason": "El cambio modifica el origen del Total Authorized Amount de 'chargeback or representment' a 'dispute or dispute response', lo que altera el contexto de negocio y la definición del campo.",
+      "ai_reason": "El cambio modifica el origen del Total Authorized Amount de 'chargeback or representment' a 'dispute or dispute response', lo que altera el significado comercial del campo.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1066,7 +1066,7 @@
       "title": "TC 38 - TCR 2 VDAS Advice",
       "field_name": "Destination Workstation Identifier",
       "ai_category": "business_rule_change",
-      "ai_reason": "El cambio modifica el contexto de 'chargeback or representment' a 'dispute or dispute response', lo que altera el significado comercial del campo.",
+      "ai_reason": "El cambio modifica el contexto de 'chargeback or representment' a 'dispute or dispute response', alterando el significado comercial del campo.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1080,7 +1080,7 @@
       "title": "TC 38 - TCR 2 VDAS Advice",
       "field_name": "Reserved",
       "ai_category": "business_rule_change",
-      "ai_reason": "El texto describe el propósito del campo de manera diferente, cambiando 'chargeback or representment' por 'dispute or dispute response', lo que altera el significado comercial del campo.",
+      "ai_reason": "El campo describe el propósito del mensaje de manera diferente, pasando de 'chargeback or representment' a 'dispute or dispute response', lo que cambia el significado comercial.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1108,7 +1108,7 @@
       "title": "TC 38 - TCR 2 VDAS Advice",
       "field_name": "Source Workstation Identifier",
       "ai_category": "business_rule_change",
-      "ai_reason": "El campo cambia de 'chargeback or representment' a 'dispute or dispute response', lo que modifica el significado del contexto de uso del identificador de workstation.",
+      "ai_reason": "El texto cambia de 'chargeback or representment' a 'dispute or dispute response', lo que modifica el significado del campo en el contexto de negocios.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1122,7 +1122,7 @@
       "title": "TC 38 - TCR 2 VDAS Advice",
       "field_name": "Draft Transaction Code",
       "ai_category": "business_rule_change",
-      "ai_reason": "El cambio modifica el tipo de disputa desde 'chargeback o representment' a 'dispute o dispute response', alterando el significado del campo de negocio.",
+      "ai_reason": "El cambio modifica el tipo de disputa desde 'chargeback o representment' a 'dispute o dispute response', lo que altera la condición de validación del campo.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1136,7 +1136,7 @@
       "title": "TC 38 - TCR 2 VDAS Advice",
       "field_name": "Floor Limit Indicator",
       "ai_category": "business_rule_change",
-      "ai_reason": "El campo cambia de 'chargeback or representment' a 'dispute or dispute response', lo que altera el contexto de uso del campo en el proceso de disputa.",
+      "ai_reason": "El campo se redefinio de 'chargeback or representment' a 'dispute or dispute response', cambiando el significado de negocio.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1164,7 +1164,7 @@
       "title": "TC 38 - TCR 2 VDAS Advice",
       "field_name": "Acquirer's Business ID",
       "ai_category": "business_rule_change",
-      "ai_reason": "El cambio modifica el contexto de 'chargeback or representment' a 'dispute or dispute response', alterando la definición de los casos en los que se debe incluir el Acquirer's Business ID.",
+      "ai_reason": "El cambio modifica el contexto de 'chargeback or representment' a 'dispute or dispute response', alterando la condición de validación del campo.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1178,7 +1178,7 @@
       "title": "TC 38 - TCR 2 VDAS Advice",
       "field_name": "Destination Amount",
       "ai_category": "business_rule_change",
-      "ai_reason": "El cambio modifica el contexto de 'chargeback or representment' a 'dispute or dispute response', alterando la definición de negocio del campo.",
+      "ai_reason": "El cambio modifica el contexto de 'chargeback or representment' a 'dispute or dispute response', lo que altera la definición de negocio del campo.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1206,7 +1206,7 @@
       "title": "TC 38 - TCR 2 VDAS Advice",
       "field_name": "Requested Payment Service",
       "ai_category": "business_rule_change",
-      "ai_reason": "El cambio modifica el término 'chargeback or representment' por 'dispute or dispute response', lo que altera el significado del servicio de pago requerido según el contexto del proceso.",
+      "ai_reason": "El cambio modifica el nombre del proceso desde 'chargeback or representment' a 'dispute or dispute response', lo que altera el significado de negocio.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1234,7 +1234,7 @@
       "title": "TC 38 - TCR 2 VDAS Advice",
       "field_name": "Authorization Characteristics Indicator",
       "ai_category": "business_rule_change",
-      "ai_reason": "El cambio modifica el campo de referencia de 'chargeback or representment' a 'dispute or dispute response', alterando la condición de validación del campo.",
+      "ai_reason": "El campo cambia de 'chargeback or representment' a 'dispute or dispute response', alterando el significado del contexto de uso del indicador.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1248,7 +1248,7 @@
       "title": "TC 38 - TCR 2 VDAS Advice",
       "field_name": "Authorization Code",
       "ai_category": "business_rule_change",
-      "ai_reason": "El campo cambia de 'chargeback or representment' a 'dispute or dispute response', alterando el contexto de uso del código de autorización.",
+      "ai_reason": "El campo cambia de 'chargeback or representment' a 'dispute or dispute response', alterando el significado del contexto de uso del código de autorización.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1276,7 +1276,7 @@
       "title": "TC 38 - TCR 2 VDAS Advice",
       "field_name": "Cardholder ID Method",
       "ai_category": "business_rule_change",
-      "ai_reason": "El cambio de 'chargeback o representment' a 'dispute o dispute response' modifica el contexto de uso del campo, afectando la lógica de negocio.",
+      "ai_reason": "El cambio de 'chargeback o representment' a 'dispute o dispute response' modifica el contexto de uso del campo, alterando la regla de negocio.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1304,7 +1304,7 @@
       "title": "TC 38 - TCR 2 VDAS Advice",
       "field_name": "Exception Item Central Processing Date (YDDD)",
       "ai_category": "business_rule_change",
-      "ai_reason": "El cambio modifica el significado del mensaje de 'chargeback o representment' a 'dispute o dispute response', lo que altera el contexto de negocio y la definición del campo.",
+      "ai_reason": "El cambio modifica el tipo de evento desde 'chargeback o representment' a 'dispute o dispute response', lo que altera el significado comercial del campo.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1332,7 +1332,7 @@
       "title": "TC 38 - TCR 2 VDAS Advice",
       "field_name": "Network",
       "ai_category": "business_rule_change",
-      "ai_reason": "El cambio de 'chargeback or representment' a 'dispute or dispute response' modifica el significado comercial del campo, ya que se refiere a diferentes tipos de disputas en el proceso de Visa.",
+      "ai_reason": "El cambio de 'chargeback or representment' a 'dispute or dispute response' modifica el significado comercial del campo, ya que se refiere a diferentes tipos de disputas en el proceso de visas.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1360,7 +1360,7 @@
       "title": "TC 38 - TCR 2 VDAS Advice",
       "field_name": "Interface Trace Number",
       "ai_category": "business_rule_change",
-      "ai_reason": "El cambio modifica el origen del número de seguimiento de 'chargeback o representment' a 'dispute o dispute response', lo que altera el significado comercial del campo.",
+      "ai_reason": "El cambio modifica el origen del 'Trace Number' de 'chargeback o representment' a 'dispute o dispute response', lo que altera el significado comercial del campo.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1401,8 +1401,8 @@
       "similarity_ratio": 0.837,
       "title": "TC 38 - TCR 3 VCRFS/VDAS Chargeback Documentation Data",
       "field_name": "Member Message Text",
-      "ai_category": "editorial_reword",
-      "ai_reason": "El texto describe el mismo contenido pero cambia 'chargeback or representment' por 'dispute or dispute response' para ser más preciso en el contexto de Visa.",
+      "ai_category": "business_rule_change",
+      "ai_reason": "El cambio modifica el contexto de 'chargeback o representment' a 'dispute o dispute response', alterando el significado comercial del campo.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1416,7 +1416,7 @@
       "title": "TC 38 - TCR 3 VCRFS/VDAS Chargeback Documentation Data",
       "field_name": "Special Condition Indicators",
       "ai_category": "business_rule_change",
-      "ai_reason": "El cambio modifica el término 'chargeback or representment' por 'dispute or dispute response', lo que altera el significado comercial del campo.",
+      "ai_reason": "El cambio modifica el término 'chargeback or representment' por 'dispute or dispute response', lo que altera el significado técnico del campo en el contexto de las transacciones.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1430,7 +1430,7 @@
       "title": "TC 38 - TCR 3 VCRFS/VDAS Chargeback Documentation Data",
       "field_name": "Card Acceptor ID",
       "ai_category": "business_rule_change",
-      "ai_reason": "El cambio de 'chargeback o representment' a 'dispute o dispute response' modifica el significado comercial del campo, ya que se refiere a diferentes tipos de transacciones en el proceso de disputas.",
+      "ai_reason": "El cambio de 'chargeback o representment' a 'dispute o dispute response' modifica el contexto de uso del campo, indicando que el ID proviene de un proceso de disputa en lugar de un proceso de chargeback.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1444,7 +1444,7 @@
       "title": "TC 38 - TCR 3 VCRFS/VDAS Chargeback Documentation Data",
       "field_name": "Terminal ID",
       "ai_category": "business_rule_change",
-      "ai_reason": "El cambio modifica el contexto de 'chargeback' a 'dispute' en el campo TCR 1, lo que altera el significado comercial del mensaje.",
+      "ai_reason": "El cambio modifica el contexto de 'chargeback' a 'dispute' en el mensaje, lo que altera el significado comercial del campo.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1458,7 +1458,7 @@
       "title": "TC 38 - TCR 3 VCRFS/VDAS Chargeback Documentation Data",
       "field_name": "Mail/Telephone Indicator",
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto describe el mismo concepto pero cambia 'chargeback or representment' por 'dispute or dispute response' para mantener consistencia con el contexto del mensaje.",
+      "ai_reason": "El texto describe lo mismo pero cambia 'chargeback or representment' por 'dispute or dispute response' para ser más preciso en el contexto de Visa.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1472,7 +1472,7 @@
       "title": "TC 38 - TCR 3 VCRFS/VDAS Chargeback Documentation Data",
       "field_name": "Special Chargeback Indicator",
       "ai_category": "business_rule_change",
-      "ai_reason": "El cambio modifica el término 'chargeback or representment' por 'dispute or dispute response', lo que altera el significado técnico del campo en el contexto de las transacciones.",
+      "ai_reason": "El cambio modifica el término 'chargeback or representment' por 'dispute or dispute response', lo que altera el significado técnico del campo en el contexto de Visa.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1514,7 +1514,7 @@
       "title": "TC 38 - TCR 3 VCRFS/VDAS Chargeback Documentation Data",
       "field_name": "AVS Response Code",
       "ai_category": "business_rule_change",
-      "ai_reason": "El cambio modifica el contexto de 'chargeback' a 'dispute' y 'representment' a 'dispute response', lo que altera el significado comercial del campo.",
+      "ai_reason": "El cambio modifica el contexto de 'chargeback o representment' a 'dispute o dispute response', alterando el significado comercial del campo.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1527,8 +1527,8 @@
       "similarity_ratio": 0.863,
       "title": "TC 38 - TCR 3 VCRFS/VDAS Chargeback Documentation Data",
       "field_name": "Authorization Source Code",
-      "ai_category": "business_rule_change",
-      "ai_reason": "El cambio de 'chargeback or representment' a 'dispute or dispute response' modifica el significado comercial del campo, ya que se refiere a diferentes tipos de transacciones en el flujo de negocio.",
+      "ai_category": "editorial_reword",
+      "ai_reason": "El texto describe lo mismo pero cambia 'chargeback or representment' por 'dispute or dispute response' para ser más preciso en el contexto de Visa.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1555,8 +1555,8 @@
       "similarity_ratio": 0.776,
       "title": "TC 38 - TCR 3 VCRFS/VDAS Chargeback Documentation Data",
       "field_name": "ATM Account Selection",
-      "ai_category": "editorial_reword",
-      "ai_reason": "El texto describe el mismo concepto pero cambia 'chargeback or representment' por 'dispute or dispute response' para mayor claridad en el contexto de disputas.",
+      "ai_category": "business_rule_change",
+      "ai_reason": "El cambio modifica el término 'chargeback or representment' por 'dispute or dispute response', lo que altera el significado técnico del proceso de disputa.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1584,7 +1584,7 @@
       "title": "TC 38 - TCR 3 VCRFS/VDAS Chargeback Documentation Data",
       "field_name": "Cashback",
       "ai_category": "business_rule_change",
-      "ai_reason": "El cambio modifica el término 'chargeback or representment' por 'dispute or dispute response', lo que altera el significado técnico del proceso de disputa.",
+      "ai_reason": "El cambio modifica el término 'chargeback' por 'dispute' en el contexto de la documentación, lo que altera el significado técnico del proceso de disputa.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1598,7 +1598,7 @@
       "title": "TC 38 - TCR 5 VDAS Industry-Specific Data - Lodging",
       "field_name": "Business Format Code",
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto describe el mismo concepto pero cambia 'chargeback or representment' por 'dispute or dispute response' para mayor precisión en el contexto de la industria de alojamiento.",
+      "ai_reason": "El texto describe el mismo concepto pero cambia 'chargeback or representment' por 'dispute or dispute response' para ser más preciso en el contexto de la transacción.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1611,8 +1611,8 @@
       "similarity_ratio": 0.902,
       "title": "TC 38 - TCR 5 VDAS Industry-Specific Data - Lodging",
       "field_name": "Lodging No-Show Indicator",
-      "ai_category": "editorial_reword",
-      "ai_reason": "El texto describe lo mismo pero cambia 'chargeback or representment' por 'dispute or dispute response' para mantener consistencia con el contexto de los mensajes de Visa.",
+      "ai_category": "business_rule_change",
+      "ai_reason": "El cambio de 'chargeback or representment' a 'dispute or dispute response' modifica el contexto de uso del campo, indicando una diferencia en el proceso de disputa o representación.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1625,8 +1625,8 @@
       "similarity_ratio": 0.896,
       "title": "TC 38 - TCR 5 VDAS Industry-Specific Data - Lodging",
       "field_name": "Lodging Extra Charges",
-      "ai_category": "editorial_reword",
-      "ai_reason": "El texto describe el mismo concepto pero cambia 'chargeback or representment' por 'dispute or dispute response' para mejorar la precisión en el contexto de Visa.",
+      "ai_category": "business_rule_change",
+      "ai_reason": "El cambio de 'chargeback or representment' a 'dispute or dispute response' modifica el significado técnico del campo, ya que 'representment' y 'dispute response' son conceptos distintos en el contexto de Visa.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1640,7 +1640,7 @@
       "title": "TC 38 - TCR 5 VDAS Industry-Specific Data - Lodging",
       "field_name": "Lodging Check-In Date",
       "ai_category": "business_rule_change",
-      "ai_reason": "El cambio de 'chargeback' a 'dispute' y 'representment' a 'dispute response' modifica el significado comercial del campo, ya que se refiere a un tipo de transacción diferente en el contexto de disputas.",
+      "ai_reason": "El cambio de 'chargeback' a 'dispute' modifica el significado comercial del campo, ya que 'dispute' se refiere a un conflicto de pago mientras que 'chargeback' es un proceso específico de reembolso.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1654,7 +1654,7 @@
       "title": "TC 39 - TCR 0 VCRFS/VDAS Message Transactions",
       "field_name": "Settlement Flag",
       "ai_category": "business_rule_change",
-      "ai_reason": "El campo cambia de 'chargeback or representment' a 'dispute or dispute response', alterando el significado de negocio en el contexto de las transacciones de disputa.",
+      "ai_reason": "El campo cambia de 'chargeback or representment' a 'dispute or dispute response', alterando el significado de negocio.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1668,7 +1668,7 @@
       "title": "TC 39 - TCR 0 VCRFS/VDAS Message Transactions",
       "field_name": "Acquirer Reference Number",
       "ai_category": "business_rule_change",
-      "ai_reason": "El texto antiguo menciona 'chargeback or representment' mientras que el nuevo dice 'dispute or dispute response', cambiando el contexto de transacciones que se consideran válidas para el ARN.",
+      "ai_reason": "El texto antiguo menciona 'chargeback or representment' mientras que el nuevo dice 'dispute or dispute response', lo que cambia el significado del campo en el contexto de transacciones.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1682,7 +1682,7 @@
       "title": "TC 39 - TCR 0 VCRFS/VDAS Message Transactions",
       "field_name": "Account Number",
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto describe el mismo contenido pero cambia 'chargeback or representment' por 'dispute or dispute response' para reflejar una diferencia de terminología en el contexto de las transacciones.",
+      "ai_reason": "El texto describe el mismo contenido pero cambia 'chargeback or representment' por 'dispute or dispute response' para mantener consistencia con el contexto de las transacciones de disputas.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1696,7 +1696,7 @@
       "title": "TC 39 - TCR 0 VCRFS/VDAS Message Transactions",
       "field_name": "Transaction Identifier",
       "ai_category": "business_rule_change",
-      "ai_reason": "El texto menciona que el campo debe contener el Transaction Identifier del 'chargeback o representment' en la edición vieja y del 'dispute o dispute response' en la nueva, lo que cambia el significado del campo en términos de transacciones específicas.",
+      "ai_reason": "El texto nuevo cambia 'chargeback' por 'dispute' en la descripción del campo, lo que altera el significado de negocio al referirse a un tipo de transacción diferente.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1710,7 +1710,7 @@
       "title": "TC 39 - TCR 0 VCRFS/VDAS Message Transactions",
       "field_name": "Multiple Clearing Sequence Number",
       "ai_category": "business_rule_change",
-      "ai_reason": "El texto modifica 'chargeback or representment' por 'dispute or dispute response', lo que cambia el significado del campo en términos de contexto de transacciones.",
+      "ai_reason": "El texto modifica el contexto de las transacciones desde 'chargeback or representment' a 'dispute or dispute response', lo que cambia el significado de negocio para las transacciones.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1724,7 +1724,7 @@
       "title": "TC 39 - TCR 0 VCRFS/VDAS Message Transactions",
       "field_name": "Chargeback Reference Number",
       "ai_category": "business_rule_change",
-      "ai_reason": "El campo se redefinio de 'chargeback' a 'dispute' en el contexto de la fuente de datos, lo que cambia el significado de negocio.",
+      "ai_reason": "El campo se redefinio de 'chargeback' a 'dispute' en el contexto del origen del número, cambiando el significado de negocio.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1738,7 +1738,7 @@
       "title": "TC 39 - TCR 0 VCRFS/VDAS Message Transactions",
       "field_name": "Transaction Amount",
       "ai_category": "business_rule_change",
-      "ai_reason": "El campo cambia de 'chargeback or representment' a 'dispute or dispute response', lo que altera el significado de negocio.",
+      "ai_reason": "El campo cambia de 'chargeback or representment' a 'dispute or dispute response', lo que altera el significado de negocio para el contexto de transacciones.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1752,7 +1752,7 @@
       "title": "TC 39 - TCR 0 VCRFS/VDAS Message Transactions",
       "field_name": "Purchase Date (MMDD)",
       "ai_category": "business_rule_change",
-      "ai_reason": "El campo ahora especifica que debe contener la fecha de la disputa o respuesta de disputa en lugar de la fecha de reclamación o representación.",
+      "ai_reason": "El campo debe contener la fecha de disputa en lugar de la fecha de chargeback o representment, lo que cambia la condición de validación.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1766,7 +1766,7 @@
       "title": "TC 39 - TCR 1 VDAS Forms Data, Exhibit E or Exhibit 2E",
       "field_name": "Chargeback Reference Number",
       "ai_category": "business_rule_change",
-      "ai_reason": "El campo cambia de 'chargeback' a 'dispute' en la descripción, lo que altera el significado del valor de negocio.",
+      "ai_reason": "El campo se redefinio de 'chargeback' a 'dispute' en el contexto de la fuente de datos para el Chargeback Reference Number.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1807,8 +1807,8 @@
       "similarity_ratio": 0.714,
       "title": "TC 39 - TCR 1 VDAS Forms Data, Exhibit E or Exhibit 2E",
       "field_name": "Documentation Indicator",
-      "ai_category": "editorial_reword",
-      "ai_reason": "El cambio solo reemplaza 'chargeback or representment' por 'dispute or dispute response' en la descripción sin alterar el significado o valores válidos del campo.",
+      "ai_category": "business_rule_change",
+      "ai_reason": "El cambio indica que el campo debe contener el Documentation Indicator de 'dispute or dispute response' en lugar de 'chargeback or representment', lo que modifica el contexto de uso del campo.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1836,7 +1836,7 @@
       "title": "TC 39 - TCR 4 VDAS Forms Data, Exhibit Q or Exhibit 3D",
       "field_name": "Transaction Central Processing Date (YDDD)",
       "ai_category": "business_rule_change",
-      "ai_reason": "El campo cambia de 'chargeback or representment' a 'dispute or dispute response', lo que modifica el contexto de la fecha de procesamiento.",
+      "ai_reason": "El campo cambia de 'chargeback o representment' a 'dispute o dispute response', modificando el contexto de la fecha de procesamiento.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1922,7 +1922,7 @@
       "title": "TC 39 - TCR 4 VDAS Forms Data, Exhibit Y or Exhibit 3C",
       "field_name": "Currency Code",
       "ai_category": "business_rule_change",
-      "ai_reason": "El texto cambia 'chargeback or representment' por 'dispute or dispute response', lo que altera el significado de negocio en el contexto de tipos de moneda.",
+      "ai_reason": "El texto cambia 'chargeback or representment' por 'dispute or dispute response', lo que modifica el significado de los valores válidos para el código de moneda.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1964,7 +1964,7 @@
       "title": "TC 42, 43 - TCR 0 Record 1",
       "field_name": "Transaction Data",
       "ai_category": "business_rule_change",
-      "ai_reason": "El texto antiguo y nuevo expresan la misma información pero el nuevo está vacío, lo que indica una reordenación o eliminación editorial sin cambio de contenido real.",
+      "ai_reason": "El texto antiguo y nuevo expresan la misma información pero el nuevo está vacío, lo que indica una reescritura editorial para eliminar contenido.",
       "disappeared_content": [
         "See Card Recovery Bulletin User's Guide for specific transaction data information."
       ],
@@ -1981,7 +1981,7 @@
       "title": "TC 42, 43 - TCR 0 Record 1",
       "field_name": "Transaction Data",
       "ai_category": "business_rule_change",
-      "ai_reason": "El texto se simplificó eliminando la referencia a la guía de usuario, pero mantiene el mismo significado.",
+      "ai_reason": "El texto describe lo mismo sin añadir información adicional, solo se eliminó la referencia a la guía de usuario.",
       "disappeared_content": [
         "See Card Recovery Bulletin User's Guide for specific transaction data information."
       ],
@@ -2021,7 +2021,7 @@
       "title": "TC 38 - TCR 5 VDAS Industry-Specific Data - Car Rental",
       "field_name": "Business Format Code",
       "ai_category": "business_rule_change",
-      "ai_reason": "El cambio modifica el campo de referencia de 'chargeback o representment' a 'dispute o dispute response', lo que altera la definición de negocio.",
+      "ai_reason": "El cambio modifica el campo de referencia de 'chargeback o representment' a 'dispute o dispute response', alterando la definición del valor válido para el Business Format Code.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -2035,7 +2035,7 @@
       "title": "TC 38 - TCR 5 VDAS Industry-Specific Data - Car Rental",
       "field_name": "Car Rental No-Show Indicator",
       "ai_category": "business_rule_change",
-      "ai_reason": "El cambio modifica el contexto de 'chargeback' a 'dispute' en el campo TCR 3, lo que altera la definición de negocio del campo.",
+      "ai_reason": "El texto cambia 'chargeback or representment' por 'dispute or dispute response', lo que altera el contexto de uso del campo según el flujo de procesamiento en Visa.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -2049,7 +2049,7 @@
       "title": "TC 38 - TCR 5 VDAS Industry-Specific Data - Car Rental",
       "field_name": "Car Rental Extra Charges",
       "ai_category": "business_rule_change",
-      "ai_reason": "El campo debe contener las cargos de TCR 3 del disputa en lugar de chargeback o representment, lo que cambia la condición de negocio.",
+      "ai_reason": "El campo se redefinio de 'chargeback or representment' a 'dispute or dispute response', cambiando el contexto de uso del campo en el flujo de negocio.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -2063,13 +2063,13 @@
       "title": "TC 38 - TCR 5 VDAS Industry-Specific Data - Car Rental",
       "field_name": "Car Rental Check-Out Date",
       "ai_category": "business_rule_change",
-      "ai_reason": "El campo cambia de 'chargeback' a 'dispute' en el contexto de la fuente de datos, lo que altera la definición de negocio para el cálculo de la fecha de check-out.",
+      "ai_reason": "El campo se redefinio de 'chargeback o representment' a 'dispute o dispute response', cambiando el contexto de uso y el significado en el flujo de negocio.",
       "disappeared_content": [],
       "safety_net_override": false
     }
   ],
   "ai_summary": {
-    "business_rule_change": 73,
-    "editorial_reword": 30
+    "business_rule_change": 79,
+    "editorial_reword": 24
   }
 }

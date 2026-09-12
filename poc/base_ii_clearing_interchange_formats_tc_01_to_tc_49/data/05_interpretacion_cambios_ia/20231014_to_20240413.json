@@ -261,7 +261,7 @@
       "title": "TC 04 - TCR 9",
       "field_name": "Interchange Fee Amount",
       "ai_category": "business_rule_change",
-      "ai_reason": "El formato del campo cambia de texto plano a un valor numérico desempaquetado, lo que implica una redefinición del significado del campo para representar un valor numérico en lugar de texto.",
+      "ai_reason": "El formato del campo cambia de texto simple a un valor numérico desempaquetado, lo que implica una redefinición del significado del campo en términos de cómo se representa el valor.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -275,7 +275,7 @@
       "title": "TC 04 - TCR 9",
       "field_name": "Interchange Fee Amount",
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto describe el mismo concepto con una redacción ligeramente modificada, añadiendo detalles sin cambiar el significado o los valores comerciales.",
+      "ai_reason": "El texto describe el mismo concepto con una redacción ligeramente modificada, añadiendo detalles sin cambiar el significado o los valores de negocio.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -288,8 +288,8 @@
       "similarity_ratio": 0.0,
       "title": "TC 04 - TCR 9",
       "field_name": "Interchange Fee Sign",
-      "ai_category": "business_rule_change",
-      "ai_reason": "El formato del campo cambia de 'AN' a 'alphanumeric', lo que redefine el tipo de datos permitido para el campo de tarjeta de intercambio.",
+      "ai_category": "editorial_reword",
+      "ai_reason": "El texto cambia de 'AN' a 'alphanumeric' pero describe el mismo concepto sin alterar el significado o valor de negocio.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -303,7 +303,7 @@
       "title": "TC 04 - TCR 9",
       "field_name": "Interchange Fee Sign",
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto describe lo mismo pero añade 'interchange or client-to-client fee amount' para mayor claridad sin cambiar el significado.",
+      "ai_reason": "El texto describe lo mismo pero con una redacción más detallada que incluye el término 'interchange' y 'client-to-client fee amount' para especificar el contexto del monto de tarjeta.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -317,7 +317,7 @@
       "title": "TC 04 - TCR 9",
       "field_name": "Transaction Integrity Fee Reclassification Reason",
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto cambia de 'AN' a 'alphanumeric', pero describe el mismo concepto sin alterar el significado o valores de negocio.",
+      "ai_reason": "El texto cambia de 'AN' a 'alphanumeric' pero describe el mismo concepto sin alterar el significado o valores validos.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -331,7 +331,7 @@
       "title": "TC 04 - TCR 9",
       "field_name": "Spend Qualified Indicator Reclassification Reason",
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto cambia de 'AN' a 'alphanumeric', pero describe el mismo concepto sin alterar el significado o valores de negocio.",
+      "ai_reason": "El texto cambia de 'AN' a 'alphanumeric', pero describe el mismo concepto sin alterar el significado o valores validos.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -372,7 +372,7 @@
       "title": "TC 05 - TCR 1 Additional Data",
       "field_name": "Cashback",
       "ai_category": "business_rule_change",
-      "ai_reason": "La nueva edición especifica que para transacciones parciales donde el cashback no fue autorizado, el campo debe contener ceros, mientras que la vieja edición no mencionaba este caso, modificando la regla de negocio.",
+      "ai_reason": "La nueva edición especifica que para transacciones parciales donde el monto de cashback no fue autorizado, el campo debe contener ceros, mientras que la vieja edición no mencionaba este caso.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -400,7 +400,7 @@
       "title": "TC 05 - TCR 4 Supplemental Financial Data",
       "field_name": "Contact for Information",
       "ai_category": "business_rule_change",
-      "ai_reason": "La nueva edición menciona que 'V.I.P.' dropa el campo para transacciones financieras completas no Plus, mientras que la vieja solo decía que Single Message System lo hace, cambiando el sistema responsable y el tipo de transacción.",
+      "ai_reason": "La nueva edición menciona que V.I.P. (posiblemente un sistema específico) descartará transacciones no Plus full financial, mientras que la antigua solo decía que Single Message System lo haría, lo que cambia el sistema responsable y el tipo de transacción validado.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -414,7 +414,7 @@
       "title": "TC 05 - TCR 4 Supplemental Financial and Promotion Data",
       "field_name": "Network Identification Code",
       "ai_category": "business_rule_change",
-      "ai_reason": "El campo se redefinio desde 'SMS Network ID' a 'V.I.P. Network ID' y el contexto de transacciones cambia de 'all non-Visa presentments' a 'all non-Vis. original full financial transactions', alterando el significado de negocio.",
+      "ai_reason": "El campo se redefinio de 'SMS Network ID' a 'V.I.P. Network ID' y especifica que solo se incluye en transacciones originales de V.I.P. no Visa, cambiando el significado de negocio.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -428,7 +428,7 @@
       "title": "TC 05 - TCR 4 Supplemental Financial and Promotion Data",
       "field_name": "Contact for Information",
       "ai_category": "business_rule_change",
-      "ai_reason": "La nueva edición menciona que V.I.P. (posiblemente un sistema específico) descartará transacciones no Plus full financial, mientras que la antigua solo decía que Single Message System lo haría, cambiando el sistema responsable y el tipo de transacción.",
+      "ai_reason": "La nueva edición menciona que 'V.I.P. will drop the field for non-Plus full financial transactions' en lugar de 'Single Message System will drop the field for non-Plus transactions', lo que cambia el sistema responsable y el tipo de transacciones afectadas.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -542,7 +542,7 @@
       "title": "TC 05 - TCR 5 Payment Service Data",
       "field_name": "Validation Code",
       "ai_category": "business_rule_change",
-      "ai_reason": "La nueva edición incluye una nueva condición para transacciones de Electronic Data Quality Program que antes no estaban especificadas, modificando el comportamiento del campo.",
+      "ai_reason": "La nueva edición incluye un nuevo programa (Electronic Data Quality) en las condiciones para que el campo no sea espacios, modificando las reglas de negocio para transacciones específicas.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -556,7 +556,7 @@
       "title": "TC 05 - TCR 5 Payment Service Data",
       "field_name": "Multiple Clearing Sequence Number",
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto se reescribió con pequeños cambios en el formato y espaciado, pero mantiene el mismo significado y contenido.",
+      "ai_reason": "El texto se reescribió para corregir un error de formato en la palabra 'authorization' y 'authori­ zation', manteniendo el mismo significado y contenido.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -598,7 +598,7 @@
       "title": "TC 05 - TCR 5 Payment Service Data",
       "field_name": "Spend Qualified Indicator",
       "ai_category": "business_rule_change",
-      "ai_reason": "La nueva edición agrega valores adicionales (1-5) para indicar niveles de spend assessment, lo que amplía los valores validos y redefine el comportamiento del campo.",
+      "ai_reason": "La nueva edición añade valores adicionales (1-5) para indicar niveles de tier en el contexto de spend assessment, lo que modifica el rango de valores válidos y las reglas de negocio.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -637,7 +637,7 @@
       "title": "TC 05 - TCR D Recurring Payment",
       "field_name": "Business Format Code (RP)",
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto describe el mismo concepto, solo se añadió la abreviatura (RP) en paréntesis para claridad sin alterar el significado.",
+      "ai_reason": "El texto describe el mismo concepto pero añade la abreviatura (RP) en los parámetros del campo, sin alterar el significado o valor de negocio.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -651,7 +651,7 @@
       "title": "TC 05 - TCR D Recurring Payment",
       "field_name": "Business Format Code (RP)",
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto cambia de 'Business Format Code' a 'Business Format Code (RP)' sin alterar el significado, solo se añade un paréntesis con la abreviatura RP para claridad.",
+      "ai_reason": "El texto describe el mismo concepto, solo se añadió el abreviatura (RP) en paréntesis para claridad sin alterar el significado.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -721,7 +721,7 @@
       "title": "TC 05 - TCR E Supplemental Payment Data",
       "field_name": "Business Format Code (FA)",
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto describe el mismo concepto, solo se añadió el abreviatura en paréntesis para claridad sin alterar el significado.",
+      "ai_reason": "El texto describe el mismo concepto, solo se añadió el abreviatura (FA) en paréntesis para claridad sin alterar el significado.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -735,7 +735,7 @@
       "title": "TC 05 - TCR E Supplemental Payment Data",
       "field_name": "VFC Payment Credential",
       "ai_category": "business_rule_change",
-      "ai_reason": "El cambio de 'Multi-Account Payment Credential' a 'VFC Payment Credential' redefine el significado del campo, indicando una nueva especificación de credencial de pago (VFC) en lugar de múltiples cuentas.",
+      "ai_reason": "El campo se redefinio de 'Multi-Account Payment Credential' a 'VFC Payment Credential', cambiando el significado técnico y el valor de negocio.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -763,7 +763,7 @@
       "title": "TC 05 - TCR E Supplemental Payment Data",
       "field_name": "VFC Payment Credential",
       "ai_category": "business_rule_change",
-      "ai_reason": "El cambio redefine el nombre del campo de pago de manera que ahora se refiere específicamente a VFC Payment Credential en lugar de Multi-Account Payment Credential, alterando el significado técnico del campo.",
+      "ai_reason": "El campo se redefinio de 'Multi-Account Payment Credential' a 'VFC Payment Credential', cambiando el significado técnico y el valor de negocio.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -777,7 +777,7 @@
       "title": "TC 05 - TCR E Supplemental Payment Data",
       "field_name": "VFC Payment Credential",
       "ai_category": "business_rule_change",
-      "ai_reason": "El texto describe un cambio en el tipo de transacción (de Multi-Account a Visa Flexible Credential Managed), lo que altera el significado de negocio del campo.",
+      "ai_reason": "El texto nuevo especifica que el campo es para transacciones de Visa Flexible Credential Managed, mientras que el texto viejo menciona Multi-Account (Flex), lo que cambia el contexto de uso del campo.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -791,7 +791,7 @@
       "title": "TC 05 - TCR E Supplemental Payment Data",
       "field_name": "Account Rule Identifier",
       "ai_category": "business_rule_change",
-      "ai_reason": "El texto describe ahora una regla específica de Visa Flexible Credential Managed en lugar de Multi-Account (Flex), lo que cambia el significado de negocio.",
+      "ai_reason": "El texto describe un cambio en la regla de negocio al especificar que el identificador gestiona 'Visa Flexible Credential Managed rules' en lugar de 'Multi-Account (Flex) rules', lo que implica una redefinición del propósito del campo.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -827,7 +827,7 @@
       "title": "TC 33 - TCR 0 BASE II Clearing and Settlement Advice",
       "field_name": "Card Acceptor ID",
       "ai_category": "business_rule_change",
-      "ai_reason": "El texto describe el mismo contenido sin añadir o eliminar información relevante, solo se eliminó una frase que no afecta el significado técnico del campo.",
+      "ai_reason": "El texto describe el mismo contenido sin añadir o eliminar información relevante, solo se eliminó una frase que no afecta el significado.",
       "disappeared_content": [
         "Unless provided by different entities, the Card Acceptor Identification code must be the same alphanumeric code in both the Authorization and Clearing messages."
       ],
@@ -858,7 +858,7 @@
       "title": "TC 33 - TCR 1 BASE II Clearing and Settlement Advice",
       "field_name": "Interchange Fee Sign",
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto describe el mismo concepto con una pequeña modificación en la redacción, añadiendo 'or client-to-client' sin cambiar el significado o los valores válidos.",
+      "ai_reason": "El texto describe el mismo concepto pero añade 'or client-to-client' para mayor claridad sin cambiar el significado.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1034,7 +1034,7 @@
       "title": "TC 33.A - CP 03 TCR 0 Lodging Summary",
       "field_name": "Event Date",
       "ai_category": "business_rule_change",
-      "ai_reason": "El campo se redefinio de 'Check-In-Date' a 'Event Date', cambiando el significado comercial del mensaje.",
+      "ai_reason": "El campo se redefinio de 'Check-In-Date' a 'Event Date', cambiando el significado comercial del campo.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1048,7 +1048,7 @@
       "title": "TC 33.A - CP 03 TCR 0 Lodging Summary",
       "field_name": "Event Date",
       "ai_category": "business_rule_change",
-      "ai_reason": "El campo se redefinio de 'Check-In-Date' a 'Event Date', cambiando el significado comercial del campo en el contexto del mensaje de intercambio.",
+      "ai_reason": "El campo se redefinio de 'Check-In-Date' a 'Event Date', cambiando el significado comercial del mensaje.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1062,7 +1062,7 @@
       "title": "TC 33.A - CP 03 TCR 0 Lodging Summary",
       "field_name": "Event Date",
       "ai_category": "business_rule_change",
-      "ai_reason": "El texto antiguo especificaba que el campo contiene la fecha de check-in (MMDDYY), mientras que el nuevo texto indica que la fecha debe indicar la fecha de check-in, lo que cambia la definición del campo y su formato de fecha.",
+      "ai_reason": "El texto nuevo redefine el significado del campo, indicando que la fecha debe representar la fecha de check-in, en lugar de simplemente contener una fecha de check-in.",
       "disappeared_content": [
         "a date of check-in. MMDDYY."
       ],
@@ -1078,7 +1078,7 @@
       "title": "TC 33.A - CP 04 TCR 1 Level II Data - American Express",
       "field_name": "American Express - Charge Descriptor 3",
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto describe lo mismo, solo se añadió la palabra 'character' al inicio para clarificar el formato del campo.",
+      "ai_reason": "El texto describe el mismo contenido pero añade la palabra 'character' al inicio, lo que es un cambio en la redacción sin alterar el significado real.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1106,7 +1106,7 @@
       "title": "TC 33.A - CP 04 TCR 2 Level III Data - Purchasing Transaction Summary",
       "field_name": "Mastercard - Card Acceptor VAT Number",
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto describe el mismo contenido pero añade 'character' al inicio para especificar el formato de los datos.",
+      "ai_reason": "El texto solo añade la palabra 'character' al inicio sin alterar el significado o contenido del campo.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1193,7 +1193,7 @@
       "matched_by": "position_shift",
       "field_name": "Free Form Text",
       "ai_category": "business_rule_change",
-      "ai_reason": "El rango de posiciones del campo Free Form Text cambia de 5-168 a 8-168, lo que modifica el inicio del campo y afecta el layout de bytes.",
+      "ai_reason": "El rango de posiciones del campo Free Form Text cambia de 5-168 a 8-168, lo que modifica la longitud efectiva del campo y su posición en el mensaje.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1428,7 +1428,7 @@
       "title": "TC 33.A - CP 12 TCR 2 Merchant Data",
       "field_name": "Mastercard - Acceptor Customer Service Phone Number",
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto describe el mismo concepto pero añade la palabra 'character' al inicio, lo que solo modifica la redacción sin cambiar el significado o valor de negocio.",
+      "ai_reason": "El texto solo añade la palabra 'character' al inicio sin alterar el significado o contenido del campo.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1442,7 +1442,7 @@
       "title": "TC 33.A - CP 12 TCR 2 Merchant Data",
       "field_name": "Mastercard - Service Location State/Province Code",
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto cambia de 'character Mastercard - Service Location State/Province Code' a 'Mastercard - Service Location State/Province Code', eliminando la palabra 'character' sin alterar el significado o contenido del campo.",
+      "ai_reason": "El texto se reescribe sin cambiar el significado, eliminando la palabra 'character' que era redundante en el contexto.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1558,7 +1558,7 @@
       "title": "TC 33.B - TCR 0 Capture- File Header - Acquirer",
       "field_name": "Merchant PCR",
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto describe el mismo concepto pero cambia 'processor control record' por 'Processor Center Record' sin alterar el significado o valores de negocio.",
+      "ai_reason": "El texto describe el mismo concepto pero cambia 'processor control record' por 'Processor Center Record' sin alterar el significado o valores validos.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1633,7 +1633,7 @@
     }
   ],
   "ai_summary": {
-    "business_rule_change": 30,
-    "editorial_reword": 23
+    "business_rule_change": 29,
+    "editorial_reword": 24
   }
 }

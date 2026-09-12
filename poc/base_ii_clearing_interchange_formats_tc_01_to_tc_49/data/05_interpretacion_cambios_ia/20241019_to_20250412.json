@@ -37,7 +37,7 @@
       "title": "TC 05 - TCR 0",
       "field_name": "Acquirer's Business ID",
       "ai_category": "business_rule_change",
-      "ai_reason": "El texto nuevo especifica que para transacciones con marketplace, payment facilitator o ramp ID, el campo contiene el ID del payment facilitator, marketplace o ramp ID, mientras que el texto viejo solo mencionaba payment facilitator o marketplace ID, lo que indica un cambio en la definición de los valores válidos.",
+      "ai_reason": "El texto nuevo incluye 'ramp ID' en la descripción de los valores válidos, mientras que el texto viejo no mencionaba este elemento, lo que indica un cambio en los valores permitidos para el campo.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -153,7 +153,7 @@
       "title": "TC 05 - TCR 2 Argentina",
       "field_name": "Payment Indicator",
       "ai_category": "business_rule_change",
-      "ai_reason": "El campo CC cambia de 'Merchant installments' a 'Cuota a Cuota Installment Plans' y el campo CO cambia de 'Sale to Sale/Cash Disbursement' a 'Sale/Cash Disbursement', lo que modifica los valores validos para el campo Payment Indicator.",
+      "ai_reason": "El campo CC cambia de 'Merchant installments' a 'Cuota a Cuota Installment Plans' y el campo CO cambia de 'Sale to Sale/Cash Disbursement' a 'Sale/Cash Disbursement', lo que modifica los valores validos para el Payment Indicator.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -402,7 +402,7 @@
       "title": "TC 05 - TCR D Original Credit Additional Data",
       "field_name": "Transaction Code Qualifier",
       "ai_category": "business_rule_change",
-      "ai_reason": "El texto actualiza los valores validos del campo desde solo '2' a '0', '1' y '2', modificando la regla de negocio.",
+      "ai_reason": "El texto actualiza los valores validos del campo de manera que ahora incluye 0, 1 y 2 en lugar de solo 2, lo que cambia la regla de negocio.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -416,7 +416,7 @@
       "title": "TC 05 - TCR D Original Credit Additional Data",
       "field_name": "Payment Facilitator Name",
       "ai_category": "business_rule_change",
-      "ai_reason": "El texto nuevo incluye 'ramp ID' en lugar de 'payment facilitator name', lo que modifica la definición del campo y su uso en transacciones.",
+      "ai_reason": "El texto nuevo incluye 'ramp ID' en lugar de 'payment facilitator name', lo que modifica la condición de requisito y el valor válido del campo.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -986,7 +986,7 @@
       "title": "TC 33.A - CP 01 TCR 6 Gateway Data",
       "field_name": "Payment Facilitator ID",
       "ai_category": "business_rule_change",
-      "ai_reason": "El campo se redefinio de 'Marketplace Identifier/Payment Facilitator ID' a 'Payment Facilitator ID', eliminando la referencia a 'Marketplace Identifier' y cambiando el significado de negocio.",
+      "ai_reason": "El campo se redefinio desde 'Marketplace Identifier/Payment Facilitator ID' a 'Payment Facilitator ID', eliminando la referencia a 'Marketplace Identifier' y cambiando el significado del campo.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1000,7 +1000,7 @@
       "title": "TC 33.A - CP 01 TCR 6 Gateway Data",
       "field_name": "Mastercard Interchange Structure Indicator",
       "ai_category": "business_rule_change",
-      "ai_reason": "El campo se redefinio desde 'Mastercard Transaction Integrity Classification' a 'Mastercard Interchange Structure Indicator', cambiando el significado técnico y el valor de negocio del campo.",
+      "ai_reason": "El campo se redefinio desde 'Mastercard Transaction Integrity Classification' a 'Mastercard Interchange Structure Indicator', cambiando el significado técnico del campo.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1013,8 +1013,8 @@
       "similarity_ratio": 0.657,
       "title": "TC 33.A - CP 01 TCR 6 Gateway Data",
       "field_name": "Payment Facilitator ID",
-      "ai_category": "editorial_reword",
-      "ai_reason": "El texto describe el mismo concepto pero elimina la parte redundante 'Marketplace Identifier/' para ser más directo.",
+      "ai_category": "business_rule_change",
+      "ai_reason": "El campo se redefinio de 'Marketplace Identifier/Payment Facilitator ID' a 'Payment Facilitator ID', eliminando la referencia a 'Marketplace Identifier' y cambiando el significado del campo en el contexto del manual técnico.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1028,7 +1028,7 @@
       "title": "TC 33.A - CP 01 TCR 6 Gateway Data",
       "field_name": "Payment Facilitator ID",
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto describe el mismo contenido pero cambia la redacción para indicar que el campo contendrá el ID en lugar de contener el Marketplace Identifier/Payment Facilitator ID.",
+      "ai_reason": "El texto describe el mismo campo pero cambia la redacción para indicar que el campo contendrá el identificador en el futuro, sin alterar el significado o valores válidos.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1084,7 +1084,7 @@
       "title": "TC 33.A - CP07 TCR 9 EU and CEMEA Specific Processing",
       "field_name": "Low Value Exemption Indicator",
       "ai_category": "business_rule_change",
-      "ai_reason": "El valor hexadecimal del campo de indicador de excepción de bajo valor cambió de 56 a 4A, lo que implica un cambio en la lógica de procesamiento específico para EU y CEMEA.",
+      "ai_reason": "El valor del campo Low Value Exemption Indicator cambia de T9F7C a T87, lo que implica una modificación en el formato de código de excepción para valores bajos, afectando la lógica de procesamiento específico para EU y CEMEA.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1098,7 +1098,7 @@
       "title": "TC 33.A - CP07 TCR 9 EU and CEMEA Specific Processing",
       "field_name": "Transaction Risk Analysis Exemption Indicator",
       "ai_category": "business_rule_change",
-      "ai_reason": "El valor del campo 'mapping' cambia de '56' a '4A', lo que indica una modificación en el formato de identificación de transacciones para el procesamiento específico de EU y CEMEA.",
+      "ai_reason": "El valor del campo 'mapping' cambia de 'F34 DSID 56 T9F7D' a 'F34 DSID 4A T89', lo que indica una modificación en el formato de identificación de transacciones y el código de riesgo.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1112,7 +1112,7 @@
       "title": "TC 33.A - CP07 TCR 9 EU and CEMEA Specific Processing",
       "field_name": "Trusted Merchant Exemption Indicator",
       "ai_category": "business_rule_change",
-      "ai_reason": "El valor del campo Trusted Merchant Exemption Indicator cambia de T9F7E a T84, lo que implica una redefinición del formato de código para este indicador.",
+      "ai_reason": "El valor del campo Trusted Merchant Exemption Indicator cambia de 56 a 4A, lo que indica una modificación en el formato de datos que afecta el procesamiento específico para EU y CEMEA.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1126,7 +1126,7 @@
       "title": "TC 33.A - CP07 TCR 9 EU and CEMEA Specific Processing",
       "field_name": "Secure Corporate Payment Indicator",
       "ai_category": "business_rule_change",
-      "ai_reason": "El valor hexadecimal del DSID cambia de 56 a 4A y el código de mensaje de T9F7F a T88, lo que indica un cambio en los valores validos para el campo.",
+      "ai_reason": "El valor del DSID cambió de 56 a 4A, lo que indica un cambio en la configuración específica para el procesamiento en EU y CEMEA.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1335,7 +1335,7 @@
       "title": "TC 33.A - CP 12 TCR 4 Gateway Data, continuation",
       "field_name": "Acceptor Business Registration ID",
       "ai_category": "extraction_noise",
-      "ai_reason": "El texto 'ANS' se reduce a 'AN' debido a un artefacto de extracción de PDF, probablemente un corte o fragmento incorrecto en la nueva edición.",
+      "ai_reason": "El texto cortado en la edición vieja ('ANS') y la edición nueva ('AN') sugiere un artefacto de extracción de PDF, ya que el campo se reduce de 35 a 34 caracteres sin cambios en el significado.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1363,7 +1363,7 @@
       "title": "TC 33.A - CP 12 TCR 4 Gateway Data, continuation",
       "field_name": "Acceptor Business Registration ID",
       "ai_category": "business_rule_change",
-      "ai_reason": "El campo se redefinio de 'character Mastercard - Acceptor Tax ID' a 'Acceptor Business Registration ID', cambiando el significado técnico y el contenido del campo.",
+      "ai_reason": "El campo se redefinio desde 'character Mastercard - Acceptor Tax ID' a 'Acceptor Business Registration ID', cambiando el significado técnico y el contenido del campo.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1377,7 +1377,7 @@
       "title": "TC 33.A - CP 12 TCR 4 Gateway Data, continuation",
       "field_name": "Acceptor Business Registration ID",
       "ai_category": "business_rule_change",
-      "ai_reason": "El cambio de 'alphanumeric special' a 'alphanumeric' modifica el rango de valores válidos para el identificador de negocio del aceptor, eliminando la permitida de caracteres especiales.",
+      "ai_reason": "El cambio de 'alphanumeric special' a 'alphanumeric' modifica el rango de valores válidos para el identificador de negocio del aceptor, restringiendo la inclusión de caracteres especiales.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1391,7 +1391,7 @@
       "title": "TC 33.A - CP 12 TCR 4 Gateway Data, continuation",
       "field_name": "Acceptor Business Registration ID",
       "ai_category": "business_rule_change",
-      "ai_reason": "El texto actualiza el contenido del campo de la descripción, indicando que ahora se refiere a 'Acceptor Business Registration ID' en lugar de 'Acceptor Tax ID', lo que implica un cambio en la definición del campo de negocio.",
+      "ai_reason": "El texto antiguo definía el campo como 'Acceptor Tax ID' mientras que el nuevo define el campo como 'Acceptor Business Registration ID', lo que indica un cambio en el significado del campo.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1488,7 +1488,7 @@
       "title": "TC 48 - TCR 0 Format 1 (ISO- Enriched)",
       "field_name": "Cardholder Billing Conversion Rate",
       "ai_category": "business_rule_change",
-      "ai_reason": "La nueva descripción especifica que el campo incluye el Visa Issuer FX Calculator y define la relación entre el monto de la transacción (field 4) y el monto de facturación del titular (field 6), mientras que la antigua descripción mencionaba conversiones adicionales como cargos de Visa y posibles cargos del emisor, lo que cambia el significado técnico del campo.",
+      "ai_reason": "La descripción nueva especifica que el campo incluye el Visa Issuer FX Calculator y define la relación entre el monto de transacción (field 4) y el monto de facturación del titular (field 6), mientras que la antigua descripción mencionaba conversiones adicionales como cargos de Visa y posibles comisiones issuer, lo que cambia el significado técnico del campo.",
       "disappeared_content": [
         "amount. The value is the conversion rate plus",
         "conversion charge, plus or minus any optional issuer fee.",
@@ -1498,8 +1498,8 @@
     }
   ],
   "ai_summary": {
-    "business_rule_change": 18,
-    "editorial_reword": 5,
+    "business_rule_change": 19,
+    "editorial_reword": 4,
     "extraction_noise": 1
   }
 }

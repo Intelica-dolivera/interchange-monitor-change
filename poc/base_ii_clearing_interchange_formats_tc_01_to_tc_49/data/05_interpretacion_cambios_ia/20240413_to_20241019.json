@@ -42,7 +42,7 @@
       "title": "TC 05 - TCR 0",
       "field_name": "Authorization Characteristics Indicator",
       "ai_category": "business_rule_change",
-      "ai_reason": "La nueva edición añade que las transacciones del Electronic Data Quality Program usan el valor D en el Authorization Characteristics Indicator, modificando la regla de validación para este campo.",
+      "ai_reason": "La nueva edición añade que las transacciones de Electronic Data Quality Program usan el valor D en el Authorization Characteristics Indicator, modificando la definición de valores válidos para este campo.",
       "disappeared_content": [
         "For manual cash transactions, BASE II will insert an N in this field. l For purchase transactions and credit vouchers occurring at non-CPS l participating countries, BASE II will insert N in this field."
       ],
@@ -58,7 +58,7 @@
       "title": "TC 05 - TCR 1 Additional Data",
       "field_name": "Card Acceptor ID",
       "ai_category": "business_rule_change",
-      "ai_reason": "El texto nuevo elimina la parte sobre Merchant Integrity Control sin alterar el significado, solo se reorganizó la redacción.",
+      "ai_reason": "El texto nuevo elimina la parte sobre Merchant Integrity Control que estaba en la edición vieja, pero mantiene el mismo significado y requisitos del campo.",
       "disappeared_content": [
         "Merchant Integrity Control: Acquirers must assign a unique card acceptor ID (CAID) in this field for merchants categorized under high-risk designated merchant category codes (MCCs), or to card not present (CNP) sub-merchants operating under a payment facilitator that generates a payment volume of $1M or more annually for any MCCs."
       ],
@@ -75,7 +75,7 @@
       "title": "TC 05 - TCR 1 Additional Data",
       "field_name": "Service Development Field",
       "ai_category": "business_rule_change",
-      "ai_reason": "El texto nuevo está vacío, lo que sugiere un artefacto de extracción de PDF en lugar de un cambio real de contenido.",
+      "ai_reason": "El texto nuevo está vacío, lo que indica un artefacto de extracción de PDF en lugar de un cambio real de contenido.",
       "disappeared_content": [
         "Effective 14 April 2007, Canadian Acquirers participating in the Address Verification Service populated the Address Verifi cation Service results code received in the V.I.P. Authorization Response message in a Transaction's corresponding BASE II Clearing Record."
       ],
@@ -204,7 +204,7 @@
       "title": "TC 05 - TCR 3 Business Application Data",
       "field_name": "Service Processing Type",
       "ai_category": "business_rule_change",
-      "ai_reason": "Se agregaron nuevos valores de negocio (03, 0B) y se redefinieron los valores existentes para especificar intervalos y condiciones de transacciones.",
+      "ai_reason": "Se agregaron nuevos valores y descripciones para el campo Service Processing Type, incluyendo 0B (Back-to-Back) con una explicación detallada, lo que modifica los valores válidos y su significado comercial.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -218,7 +218,7 @@
       "title": "TC 05 - TCR 4 Supplemental Financial Data",
       "field_name": "Enabler Verification Value",
       "ai_category": "business_rule_change",
-      "ai_reason": "El campo se redefinio de 'Agent Unique ID' a 'Enabler Verification Value', cambiando el significado comercial del campo.",
+      "ai_reason": "El campo se redefinio desde 'Agent Unique ID' a 'Enabler Verification Value', cambiando el significado comercial del dato.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -232,7 +232,7 @@
       "title": "TC 05 - TCR 4 Supplemental Financial Data",
       "field_name": "Enabler Verification Value",
       "ai_category": "business_rule_change",
-      "ai_reason": "El campo se redefinio de 'Agent Unique ID' a 'Enabler Verification Value', cambiando el significado técnico y el valor de negocio del campo.",
+      "ai_reason": "El campo se redefinio desde 'Agent Unique ID' a 'Enabler Verification Value', cambiando el significado técnico y de negocio del campo.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -246,7 +246,7 @@
       "title": "TC 05 - TCR 4 Supplemental Financial Data",
       "field_name": "Enabler Verification Value",
       "ai_category": "business_rule_change",
-      "ai_reason": "El nuevo texto especifica que solo se permiten caracteres alfanuméricos (A-Z, 0-9) y espacios, excluyendo valores no alfanuméricos, lo que redefine explícitamente los valores válidos del campo.",
+      "ai_reason": "El nuevo texto especifica que solo se permiten caracteres alfanuméricos (A-Z, 0-9) y espacios, excluyendo valores no alfanuméricos, mientras que el antiguo permitía valores únicos de agente o espacios, lo que cambia las reglas de validación.",
       "disappeared_content": [
         "the agent unique ID value"
       ],
@@ -290,7 +290,7 @@
       "title": "TC 05 - TCR 4 Supplemental Financial and Promotion Data",
       "field_name": "Enabler Verification Value",
       "ai_category": "business_rule_change",
-      "ai_reason": "La descripción cambia de permitir solo el ID único del agente o espacios a permitir solo caracteres alfanuméricos (A-Z, 0-9) y espacios, excluyendo valores no alfanuméricos, lo que redefine las reglas de validación del campo.",
+      "ai_reason": "El nuevo texto especifica que solo se permiten caracteres alfanuméricos (A-Z, 0-9) y espacios, excluyendo valores no alfanuméricos, mientras que el antiguo permitía valores únicos de agente o espacios, lo que cambia las reglas de validación.",
       "disappeared_content": [
         "the agent unique ID value"
       ],
@@ -320,7 +320,7 @@
       "title": "TC 05 - TCR 4 Supplemental Visa Resolve Online (VROL) Financial Data Record",
       "field_name": "Enabler Verification Value",
       "ai_category": "business_rule_change",
-      "ai_reason": "El campo se redefinio desde 'Agent Unique ID' a 'Enabler Verification Value', cambiando el significado de negocio y el propósito del campo.",
+      "ai_reason": "El campo se redefinio desde 'Agent Unique ID' a 'Enabler Verification Value', cambiando el significado técnico y el propósito del campo en el contexto del sistema VROL.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -334,7 +334,7 @@
       "title": "TC 05 - TCR 4 Supplemental Visa Resolve Online (VROL) Financial Data Record",
       "field_name": "Enabler Verification Value",
       "ai_category": "business_rule_change",
-      "ai_reason": "El nuevo texto especifica que solo se permiten caracteres alfanuméricos (A-Z, 0-9) y espacios, excluyendo valores no alfanuméricos, mientras que el antiguo permitía cualquier valor o espacios.",
+      "ai_reason": "El nuevo texto especifica que solo se permiten caracteres alfanuméricos (A-Z, 0-9) y espacios, excluyendo valores no alfanuméricos, lo que redefine los valores válidos del campo.",
       "disappeared_content": [
         "the agent unique ID value"
       ],
@@ -350,7 +350,7 @@
       "title": "TC 05 - TCR 5 Payment Service Data",
       "field_name": "Transaction Identifier",
       "ai_category": "business_rule_change",
-      "ai_reason": "La nueva edición añade que si el Transaction Identifier no está presente o es inválido en transacciones originales recibidas del acquirer, BASE II asigna un nuevo valor que debe ser retentido en transacciones posteriores, y modifica las condiciones para que el campo no sea ceros en transacciones de Electronic Data Quality Program.",
+      "ai_reason": "La nueva edición añade que si el Transaction Identifier no está presente o tiene formato inválido en transacciones originales recibidas del acquirer, BASE II asigna un nuevo valor que debe ser retornado en transacciones posteriores, modificando la regla de negocio sobre la gestión del Transaction Identifier.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -377,8 +377,8 @@
       "similarity_ratio": 0.611,
       "title": "TC 05 - TCR 5 Payment Service Data",
       "field_name": "Authorized Amount",
-      "ai_category": "business_rule_change",
-      "ai_reason": "Se agregó la condición de que las transacciones de Electronic Data Quality Program también pueden contener este campo, lo que modifica la regla de negocio original.",
+      "ai_category": "editorial_reword",
+      "ai_reason": "El texto describe lo mismo que antes, solo se agregó la parte 'including Electronic Data Quality Program transactions' para aclarar el tipo de transacciones no CPS.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -392,7 +392,7 @@
       "title": "TC 05 - TCR 5 Payment Service Data",
       "field_name": "Authorization Currency Code",
       "ai_category": "business_rule_change",
-      "ai_reason": "La nueva edición agrega una nueva condición para las transacciones de Electronic Data Quality Program, lo que modifica el comportamiento requerido para este campo.",
+      "ai_reason": "La edición nueva añade una nueva condición para transacciones de Electronic Data Quality Program, lo que modifica el comportamiento requerido para este campo.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -406,7 +406,7 @@
       "title": "TC 05 - TCR 5 Payment Service Data",
       "field_name": "Authorization Currency Code",
       "ai_category": "business_rule_change",
-      "ai_reason": "El cambio añade una nueva condición de transacciones (Electronic Data Quality Program) que antes no estaba incluida en el texto, modificando el alcance de las transacciones que pueden contener el campo.",
+      "ai_reason": "El texto nuevo incluye una condición adicional (Electronic Data Quality Program transactions) que modifica el alcance de las transacciones que pueden contener el campo, cambiando la regla de negocio.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -434,7 +434,7 @@
       "title": "TC 05 - TCR 5 Payment Service Data",
       "field_name": "Market-Specific Authorization Data Indicator",
       "ai_category": "business_rule_change",
-      "ai_reason": "El texto nuevo incluye una condición adicional (Electronic Data Quality Program transactions) que modifica el rango de transacciones válidas para las que puede contener el campo.",
+      "ai_reason": "El texto nuevo incluye una condición adicional (Electronic Data Quality Program transactions) que modifica el alcance de las transacciones que pueden contener el campo, cambiando la regla de negocio.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -448,7 +448,7 @@
       "title": "TC 05 - TCR 5 Payment Service Data",
       "field_name": "Product ID",
       "ai_category": "business_rule_change",
-      "ai_reason": "La nueva edición añade que para transacciones de Electronic Data Quality Data Program también debe contener los Card-Level Results, ampliando el alcance de las transacciones que deben cumplir la regla.",
+      "ai_reason": "La nueva edición añade que para transacciones de Electronic Data Quality Data Program también debe contener los Card-Level Results, ampliando el alcance de las transacciones que requieren el campo.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -509,7 +509,7 @@
       "title": "TC 33 - TCR 1 Additional Biller Master Data",
       "field_name": "Official Notification Flag",
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto solo tiene una diferencia de un caracter en el espacio entre 'notifi' y 'cation' que no afecta el significado.",
+      "ai_reason": "El texto solo tiene una diferencia de un caracter en el espacio entre 'notifi' y 'cation' que es un artefacto de extracción PDF.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -635,7 +635,7 @@
       "title": "TC 33 - TCR 1 BASE II Clearing and Settlement Advice",
       "field_name": "Agreement ID",
       "ai_category": "business_rule_change",
-      "ai_reason": "La nueva edición añade una condición específica que el campo debe contener una 'D', lo que modifica el significado o valor de negocio del campo.",
+      "ai_reason": "La nueva edición añade una regla de que el campo debe contener una 'D', lo que modifica el valor válido del campo.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -737,7 +737,7 @@
       "title": "TC 33.A - CP 01 TCR 8 Supplemental Data",
       "field_name": "Multiple Clearing Sequence Number",
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto solo añade la palabra 'character' al inicio sin cambiar el significado o el contenido del campo.",
+      "ai_reason": "El texto describe el mismo concepto, solo se añadió la palabra 'character' al inicio para especificar el tipo de dato.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -751,7 +751,7 @@
       "title": "TC 33.A - CP 01 TCR B Gateway Data (Cont'd)",
       "field_name": "American Express Seller ID",
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto describe el mismo concepto pero reescribe la redacción para incluir la palabra 'character' al inicio, sin alterar el significado o el valor de negocio.",
+      "ai_reason": "El texto describe el mismo concepto pero añade 'character' al inicio para especificar el tipo de dato, sin alterar el significado o valor de negocio.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -864,7 +864,7 @@
       "title": "TC 33.A - CP 09 TCR 1 Push Payment - Original Credit Transactions",
       "field_name": "Tax Document Type",
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto describe lo mismo pero con un orden de palabras y ajustes menores en la redacción.",
+      "ai_reason": "El texto describe lo mismo pero con un orden de palabras y ajustes menores en la redacción, sin cambios en el significado o valores válidos.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -878,7 +878,7 @@
       "title": "TC 33.A - CP 09 TCR 1 Push Payment - Original Credit Transactions",
       "field_name": "Tax Document Type",
       "ai_category": "extraction_noise",
-      "ai_reason": "El texto vacío en la nueva edición indica un artefacto de extracción de PDF, ya que el campo Tax Document Type no debería estar vacío en un mensaje válido.",
+      "ai_reason": "El campo 'Tax Document Type' en la edición nueva está vacío, lo que sugiere un artefacto de extracción de PDF en lugar de un cambio real de contenido.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -980,7 +980,7 @@
       "title": "TC 33.A - CP 12 TCR 1 Merchant Data",
       "field_name": "Agent Unique ID and Enabler Verification Value",
       "ai_category": "extraction_noise",
-      "ai_reason": "El texto cortado en la edición vieja ('ANS') y la edición nueva ('AN') sugiere un artefacto de extracción de PDF, ya que el campo debería tener 10 caracteres pero se muestra como 3 en ambas ediciones.",
+      "ai_reason": "El texto cortado en la edición vieja ('ANS') y la edición nueva ('AN') sugiere un artefacto de extracción de PDF, ya que el campo debería tener una longitud fija de 10 bytes pero se muestra con 3 y 2 caracteres respectivamente.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1022,7 +1022,7 @@
       "title": "TC 33.A - CP 12 TCR 1 Merchant Data",
       "field_name": "Agent Unique ID and Enabler Verification Value",
       "ai_category": "business_rule_change",
-      "ai_reason": "El campo ahora incluye información adicional sobre la estructura (EVV y Open) y redefine el significado del campo desde 'VIP Field's 126.18 data' a 'Agent Unique ID and Enabler Verification Value'.",
+      "ai_reason": "El campo ahora incluye información adicional sobre la estructura (posiciones 6-10 para EVV y 11 para Open) y redefine el contenido del campo, no solo el Agent Unique ID.",
       "disappeared_content": [
         "the VIP Field's 126.18 data, which includes the",
         "Verification. This is the field's layout:"
@@ -1079,7 +1079,7 @@
       "matched_by": "position_shift",
       "field_name": "Mastercard - Service Location Postal Code",
       "ai_category": "business_rule_change",
-      "ai_reason": "El rango de posiciones del campo cambia de 64-72 a 64-73, lo que implica un cambio en la longitud del campo y por ende en el significado técnico del mensaje.",
+      "ai_reason": "El rango de posiciones del campo Mastercard - Service Location Postal Code cambia de 64-72 a 64-73, lo que implica un cambio en la longitud del campo y por ende en el significado de negocio.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1094,7 +1094,7 @@
       "matched_by": "position_shift",
       "field_name": "Mastercard - Service Location Postal Code",
       "ai_category": "business_rule_change",
-      "ai_reason": "El campo de longitud cambia de 9 a 10 bytes, lo que implica un cambio en la definición del rango de valores válidos para el código postal.",
+      "ai_reason": "El campo de longitud cambia de 9 a 10 bytes, lo que implica un cambio en la definición del formato de datos para el código postal postal de ubicación de servicio de Mastercard.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1109,7 +1109,7 @@
       "matched_by": "position_shift",
       "field_name": "Mastercard Transaction Link Identifier/Gateway Life Cycle Trace\nIdentifier",
       "ai_category": "business_rule_change",
-      "ai_reason": "El rango de posiciones del campo cambia de 73-108 a 74-109, lo que implica un cambio real en la definición del campo para el formato de mensaje.",
+      "ai_reason": "El rango de posiciones del campo cambia de 73-108 a 74-109, lo que implica un cambio en la definición del campo y su uso en el mensaje.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1124,7 +1124,7 @@
       "matched_by": "position_shift",
       "field_name": "Mastercard Transaction Link Identifier/Gateway Life Cycle Trace\nIdentifier",
       "ai_category": "extraction_noise",
-      "ai_reason": "El texto 'ANS' se reduce a 'AN' debido a un artefacto de extracción de PDF, probablemente un corte o fragmento incorrecto.",
+      "ai_reason": "El texto 'ANS' se reduce a 'AN' debido a un artefacto de extracción de PDF, probablemente un corte o fragmento en el texto original.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1173,7 +1173,7 @@
       "matched_by": "position_shift",
       "field_name": "Mastercard - Service Location Postal Code",
       "ai_category": "business_rule_change",
-      "ai_reason": "El rango de posiciones del campo Mastercard - Service Location Postal Code cambió de 64-72 a 64-73, lo que implica un cambio en la longitud del campo y por ende en el significado técnico del mensaje.",
+      "ai_reason": "El rango de posiciones del campo Mastercard - Service Location Postal Code cambia de 64-72 a 64-73, lo que implica un cambio en la longitud del campo y por ende en el significado técnico del mensaje.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1188,7 +1188,7 @@
       "matched_by": "position_shift",
       "field_name": "Mastercard - Service Location Postal Code",
       "ai_category": "business_rule_change",
-      "ai_reason": "El campo de longitud cambia de 9 a 10 bytes, lo que implica un cambio en la validación de datos y el rango de valores permitidos para el código postal.",
+      "ai_reason": "El campo de longitud cambia de 9 a 10 bytes, lo que implica un cambio en la estructura de datos y el rango de valores validos para el código postal.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1203,7 +1203,7 @@
       "matched_by": "position_shift",
       "field_name": "Mastercard - Service Location Postal Code",
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto describe el mismo contenido pero con una reordenación de palabras y un cambio en la forma de expresión para ser más claro o actualizado.",
+      "ai_reason": "El texto describe el mismo contenido pero con una redacción ligeramente diferente, cambiando 'Server Location Postal Code' a 'service location postal code' y ajustando la estructura de la oración.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1218,7 +1218,7 @@
       "matched_by": "position_shift",
       "field_name": "Mastercard Transaction Link Identifier/Gateway Life Cycle Trace\nIdentifier",
       "ai_category": "business_rule_change",
-      "ai_reason": "El rango de posiciones del campo cambia de 73-108 a 74-109, lo que implica un cambio en la definición del campo para el formato de mensajes.",
+      "ai_reason": "El rango de posiciones del campo cambia de 73-108 a 74-109, lo que implica un cambio en la definición del campo y su uso en el mensaje.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1233,7 +1233,7 @@
       "matched_by": "position_shift",
       "field_name": "Mastercard Transaction Link Identifier/Gateway Life Cycle Trace\nIdentifier",
       "ai_category": "business_rule_change",
-      "ai_reason": "El campo se redefinio de 'alphanumeric special' a 'alphanumeric', cambiando el significado técnico de los caracteres permitidos.",
+      "ai_reason": "El campo de identificador cambia de 'alphanumeric special' a 'alphanumeric', lo que redefine el conjunto de caracteres permitidos para el identificador.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1272,7 +1272,7 @@
       "title": "TC 38 - TCR 2 VDAS Advice",
       "field_name": "Enabler Verification Value",
       "ai_category": "business_rule_change",
-      "ai_reason": "El campo se redefinio desde 'Agent Unique ID' a 'Enabler Verification Value', cambiando el significado de negocio.",
+      "ai_reason": "El campo se redefinio desde 'Agent Unique ID' a 'Enabler Verification Value', cambiando su significado y propósito en el contexto del sistema.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1286,7 +1286,7 @@
       "title": "TC 38 - TCR 2 VDAS Advice",
       "field_name": "Enabler Verification Value",
       "ai_category": "business_rule_change",
-      "ai_reason": "El campo se redefinio de 'Agent Unique ID' a 'Enabler Verification Value', cambiando el significado técnico y el valor de negocio.",
+      "ai_reason": "El campo se redefinio desde 'Agent Unique ID' a 'Enabler Verification Value', cambiando el significado técnico y el valor de negocio.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1300,7 +1300,7 @@
       "title": "TC 38 - TCR 2 VDAS Advice",
       "field_name": "Enabler Verification Value",
       "ai_category": "business_rule_change",
-      "ai_reason": "El texto antiguo especificaba que debe contener un ID único válido, mientras que el nuevo define explícitamente los caracteres permitidos (A-Z, 0-9, espacios) y prohíbe valores no alfanuméricos, modificando las reglas de validación.",
+      "ai_reason": "La descripción cambia de requerir un ID válido a permitir solo caracteres alfanuméricos o espacios, excluyendo valores no alfanuméricos, lo que redefine los valores permitidos.",
       "disappeared_content": [
         "a valid Agent Unique ID."
       ],
@@ -1484,8 +1484,8 @@
     }
   ],
   "ai_summary": {
-    "business_rule_change": 37,
-    "editorial_reword": 6,
+    "business_rule_change": 36,
+    "editorial_reword": 7,
     "extraction_noise": 3
   }
 }

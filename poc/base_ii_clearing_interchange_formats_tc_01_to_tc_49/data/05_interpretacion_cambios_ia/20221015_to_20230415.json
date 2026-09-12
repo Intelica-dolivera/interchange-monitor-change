@@ -165,7 +165,7 @@
       "title": "TC 05 - TCR 2 Argentina",
       "field_name": "Installment Payment Total Amount",
       "ai_category": "business_rule_change",
-      "ai_reason": "Se cambia el nombre del campo de 'Installment Payment Indicator' a 'Payment Indicator' y se agrega una condicion para transacciones de efectivo.",
+      "ai_reason": "El cambio modifica el nombre del campo de indicador de pago de 'Installment Payment Indicator' a 'Payment Indicator', lo que afecta la condición de validación para el campo.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -179,7 +179,7 @@
       "title": "TC 05 - TCR 2 Argentina",
       "field_name": "Payment Indicator",
       "ai_category": "business_rule_change",
-      "ai_reason": "El campo se redefinio desde 'Installment Payment Indicator' a 'Payment Indicator', cambiando el significado específico de negocio.",
+      "ai_reason": "El campo se redefinio desde 'Installment Payment Indicator' a 'Payment Indicator', cambiando el significado de negocio.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -193,7 +193,7 @@
       "title": "TC 05 - TCR 2 Argentina",
       "field_name": "Payment Indicator",
       "ai_category": "business_rule_change",
-      "ai_reason": "Se agregó el valor 'CO (Sale to Sale/Cash Disbursement)' a la lista de valores válidos, modificando el rango de valores permitidos para el campo Payment Indicator.",
+      "ai_reason": "El valor CO ahora incluye 'to Sale/Cash Disbursement' en lugar de solo 'Sale', modificando el rango de valores válidos.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -207,7 +207,7 @@
       "title": "TC 05 - TCR 2 Argentina",
       "field_name": "Number of Installment Payments",
       "ai_category": "business_rule_change",
-      "ai_reason": "La nueva edición añade una condición adicional para transacciones en efectivo, modificando el comportamiento del campo en situaciones específicas.",
+      "ai_reason": "La nueva edición añade una condición adicional para pagos en efectivo, modificando el comportamiento del campo en situaciones específicas.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -221,7 +221,7 @@
       "title": "TC 05 - TCR 2 Argentina",
       "field_name": "Installment Payment Number",
       "ai_category": "business_rule_change",
-      "ai_reason": "La nueva edición añade una condición adicional para transacciones de efectivo, especificando que Visa asignará ceros por defecto, lo que modifica el comportamiento del campo.",
+      "ai_reason": "La nueva edición añade una condición adicional para transacciones de efectivo, modificando el comportamiento del campo en casos específicos.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -235,7 +235,7 @@
       "title": "TC 05 - TCR 2 Argentina",
       "field_name": "Installment Payment Interest Amount",
       "ai_category": "business_rule_change",
-      "ai_reason": "La nueva edición añade una condición adicional para el campo de intereses de pago por cuotas, especificando que Visa asignará ceros por defecto para desembolsos en efectivo, lo que modifica el comportamiento del campo.",
+      "ai_reason": "La nueva edición añade una condición adicional para cuando se trata de pagos en efectivo, modificando el comportamiento del campo.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -249,7 +249,7 @@
       "title": "TC 05 - TCR 2 Argentina",
       "field_name": "VAT for Installment Payment Interest Amount",
       "ai_category": "business_rule_change",
-      "ai_reason": "La nueva edición añade una condición adicional para transacciones en efectivo, modificando el comportamiento del campo en casos específicos.",
+      "ai_reason": "La nueva edición añade una condición adicional para transacciones en efectivo, modificando el comportamiento del campo en caso de desembolso en efectivo.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -263,7 +263,7 @@
       "title": "TC 05 - TCR 2 Argentina",
       "field_name": "Installment Payment Risk Fee Amount",
       "ai_category": "business_rule_change",
-      "ai_reason": "La nueva edición modifica la condición de validación al referirse a 'Payment Indicator' en lugar de 'Installment Payment Indicator', lo que cambia la lógica de negocio para determinar si el campo debe ser mayor que cero o cero.",
+      "ai_reason": "El texto nuevo menciona que para pagos en efectivo Visa asignará por defecto ceros, lo que modifica la condición de negocio original que solo especificaba el comportamiento en casos específicos.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -277,7 +277,7 @@
       "title": "TC 05 - TCR 2 Argentina",
       "field_name": "VAT for Installment Payment Risk Fee Amount",
       "ai_category": "business_rule_change",
-      "ai_reason": "La nueva edición añade una condición adicional para transacciones en efectivo, indicando que Visa asignará ceros por defecto, lo que modifica el comportamiento del campo en situaciones específicas.",
+      "ai_reason": "La nueva edición añade una condición adicional para transacciones en efectivo, indicando que Visa establece por defecto ceros en este campo, lo que modifica el comportamiento del campo.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -361,7 +361,7 @@
       "title": "TC 05 - TCR 2 Argentina",
       "field_name": "Deferred Settlement Date",
       "ai_category": "business_rule_change",
-      "ai_reason": "La nueva edición añade una condición adicional para transacciones de efectivo, especificando que Visa asignará ceros por defecto, lo que modifica el comportamiento esperado del campo.",
+      "ai_reason": "La nueva edición añade una condición adicional para el caso de desembolso en efectivo, indicando que Visa asignará ceros por defecto, lo que modifica el comportamiento esperado del campo.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -375,7 +375,7 @@
       "title": "TC 05 - TCR 2 Argentina",
       "field_name": "Tip Amount",
       "ai_category": "business_rule_change",
-      "ai_reason": "La nueva edición añade una condición adicional sobre el comportamiento de Visa para desembolsos en efectivo, modificando el comportamiento del campo.",
+      "ai_reason": "La nueva edición añade una condición adicional sobre el comportamiento de Visa para desembolsos en efectivo, modificando el comportamiento del sistema.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -389,7 +389,7 @@
       "title": "TC 05 - TCR 2 Argentina",
       "field_name": "Deferred Settlement Date of the Original",
       "ai_category": "business_rule_change",
-      "ai_reason": "La nueva edición añade una regla adicional para transacciones de efectivo que ahora se comportan con ceros por defecto, modificando el comportamiento del campo.",
+      "ai_reason": "La nueva edición añade una regla adicional para transacciones de efectivo que ahora se define como 'Visa will default to zeros', lo que modifica el comportamiento del campo en el contexto de transacciones específicas.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -557,7 +557,7 @@
       "title": "TC 33.A - CP 01 TCR 8 Supplemental Data",
       "field_name": "Merchant Volume Indicator",
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto describe el mismo contenido sin cambios significativos, solo se eliminó la parte 'Value value: 01 (requested)' para una redacción más limpia.",
+      "ai_reason": "El texto describe el mismo contenido sin cambios en el significado, solo se eliminó la parte 'Value value: 01 (requested)' para mejorar la claridad.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -704,7 +704,7 @@
       "title": "TC 33.A - CP 04 TCR 1 Level II Data - American Express",
       "field_name": "American Express - Charge Descriptor 3",
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto cambió de 'character American Express - Charge Descriptor 3' a 'American Express - Charge Descriptor 3', eliminando la palabra 'character' sin alterar el significado.",
+      "ai_reason": "El texto cambia de 'character American Express - Charge Descriptor 3' a 'American Express - Charge Descriptor 3', eliminando la palabra 'character' sin alterar el significado.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -746,7 +746,7 @@
       "title": "TC 33.A - CP 05 TCR 1 Passenger Itinerary Data (Cont'd)",
       "field_name": "Ticket Change Indicator",
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto describe lo mismo que antes, solo se añadió la palabra 'character' para especificar el tipo de dato, sin cambiar el significado o valor de negocio.",
+      "ai_reason": "El texto describe lo mismo, solo se añadió la palabra 'character' para especificar el tipo de dato sin cambiar el significado o valores de negocio.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -760,7 +760,7 @@
       "title": "TC 33.A - CP 05 TCR 3 Passenger Itinerary Data (Cont'd)",
       "field_name": "Conjunction Ticket_Leg 2",
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto cambia de 'character Conjunctions Ticket_Leg 2' a 'Conjunctions Ticket_Leg .2' sin alterar el significado, solo se ajustó la redacción y el formato.",
+      "ai_reason": "El texto cambia de 'character Conjunctions Ticket_Leg 2' a 'Conjunctions Ticket_Leg : 2' sin alterar el significado, solo se ajustó la redacción para eliminar el término 'character' y corregir un error de formato.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -774,7 +774,7 @@
       "title": "TC 33.A - CP 05 TCR 5 Passenger Itinerary Data (Cont'd)",
       "field_name": "Conjunction Ticket_Leg 4",
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto describe lo mismo que antes, solo se añadió la palabra 'character' para especificar el tipo de dato, sin cambiar el significado o contenido real.",
+      "ai_reason": "El texto describe lo mismo, solo se añadió la palabra 'character' al inicio para clarificar el formato del campo.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -925,7 +925,7 @@
       "title": "TC 33.A - CP 12 TCR 0 Transaction Data",
       "field_name": "Transaction Code",
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto cambió de 'unpacked numeric' a 'Unpacked Numeric' sin alterar el significado, solo se capitalizó la primera letra y se ajustó el formato de escritura.",
+      "ai_reason": "El texto cambia de 'unpacked numeric' a 'Unpacked Numeric' sin alterar el significado, solo hay una diferencia en mayúsculas y formato de escritura.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1041,7 +1041,7 @@
       "title": "TC 33.A - CP 12 TCR 1 Merchant Data",
       "field_name": "Transaction Code",
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto cambió de 'unpacked numeric' a 'Unpacked Numeric' sin alterar el significado, solo se capitalizó la primera letra y se ajustó el formato de escritura.",
+      "ai_reason": "El texto cambia de 'unpacked numeric' a 'Unpacked Numeric' sin alterar el significado, solo hay una diferencia en mayúsculas y formato de escritura.",
       "disappeared_content": [],
       "safety_net_override": false
     },
