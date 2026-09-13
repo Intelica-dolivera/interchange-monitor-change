@@ -334,28 +334,32 @@ misma sesión posterior)** — ver sección propia de ese manual más abajo (ite
   (cont.) — Investigación del problema chain-shift..." (contexto original) y "2026-09-05 —
   Chain-shift extendido a fichas" (cierre).
 
-## 9. Edición `20260418` del manual 3 le faltan ~57 etiquetas "Note:" en la capa de texto del PDF
-- **Prioridad: baja.** No afecta el dato central del proyecto (Position/Length/Format/Contents),
-  solo la prosa complementaria de `Note:`. No es un bug de código, es una limitación del PDF fuente.
+## 9. RESUELTO (2026-09-12) — Edición `20260418` del manual 3 le faltan ~57 etiquetas "Note:" en la capa de texto del PDF
 - **Dónde**: `base_ii_clearing_interchange_formats_tc_01_to_tc_49`, edición `20260418`
-  específicamente (la más nueva). Módulo 1/2 (extracción), no arreglable ahí.
+  específicamente (la más nueva). Módulo 4 (`detect.py`), no Módulo 1/2.
 - **Qué pasa**: el span en negrita que renderiza la palabra "Note:" está directamente ausente de la
   capa de texto extraída por PyMuPDF en esta edición puntual -el resto del texto (itálica+regular)
-  se extrae bien, pero sin la etiqueta no hay forma de que Módulo 2 lo capture como campo `note`
-  separado; queda fusionado como continuación de `description`. Confirmado contando `"Note:"` en
-  las 9 ediciones completas: 274/274/274/274/274/272/273/273 en las primeras 8, **216 en
-  `20260418`** -caída de ~57 casos (~21%), única de esa edición.
-- **Por qué no se arregló**: no hay nada arreglable en el pipeline de extracción de texto -haría
-  falta OCR (fuera de alcance) para recuperar un span que simplemente no está en la capa de texto
-  del PDF. La red de seguridad de Módulo 5 ya compensa el efecto práctico (marca el contenido
-  desaparecido para revisión humana en vez de perderlo silenciosamente).
-- Ref: NOTES.md, sección "2026-08-13 (cont.) — Módulo 5 implementado... con 2 patrones de
-  safety_net_override alto investigados".
-- **Único item que sigue genuinamente abierto en todo el proyecto (2026-09-05).** El resto de
-  los residuos de baja prioridad ya se cerraron esta sesión (ver items 3b/7/8/10). Este NO se
-  tocó a propósito — el usuario lo anotó explícitamente como mejora futura, distinto en
-  categoría de esfuerzo al resto (necesita infraestructura nueva -OCR-, no un fix de código
-  acotado). Revisitar si/cuando se justifique agregar OCR al pipeline.
+  se extrae bien, pero sin la etiqueta Módulo 2 lo captura como continuación de `description` en
+  vez de como `note` separado. Confirmado contando `"Note:"` en las 9 ediciones completas:
+  274/274/274/274/274/272/273/273 en las primeras 8, **216 en `20260418`** -caída de ~57 casos
+  (~21%), única de esa edición.
+- **Diagnóstico anterior (2026-08-13/2026-09-05) INCOMPLETO, corregido esta sesión**: se había
+  concluido "no arreglable sin OCR" y "la red de seguridad de Módulo 5 ya compensa el efecto
+  práctico". Lo segundo era falso en la práctica: la red de seguridad SÍ marcaba estos casos, pero
+  como `business_rule_change` con una razón enganosa ("el texto nuevo está vacío, artefacto de
+  extracción") -no "compensaba" el efecto, generaba ~59 falsos positivos indistinguibles de un
+  cambio real sin leer el PDF. El usuario los encontró todos a mano comparando el reporte contra
+  el manual real (ver `revision_manual_2026-09-12.md`).
+- **Fix real, sin necesidad de OCR**: en `_diff_card_fields` (Módulo 4), reportar UN solo
+  `card_content_changed` con `field: "contenido"` (combinado de `description+note+values+mapping`)
+  en vez de diffear cada columna por separado -el corrimiento de rótulo entre ediciones deja de
+  verse como "un campo se vació, otro creció" cuando en realidad es el mismo texto reordenado.
+  `name`/`length`/`format` se excluyeron del combinado (se siguen diffeando por separado siempre),
+  lo cual de paso destapó 2 bugs más de Módulo 2 que estaban escondidos detrás del gate combinado
+  del primer intento (ver NOTES.md).
+- Ref completa (6 bugs relacionados encontrados y arreglados en la misma sesión, con evidencia y
+  números): NOTES.md, sección "2026-09-12 — Revisión manual guiada por el usuario de
+  `tc_01_to_tc_49`...".
 
 ## 10. RESUELTO COMPLETO (2026-08-25, residuo cerrado 2026-09-05) — Sección `TC 57` con 2 layouts distintos bajo el mismo título (manual 4)
 - **Dónde**: `base_ii_clearing_interchange_formats_tc_50_to_tc_92`, sección
@@ -1450,3 +1454,41 @@ dashboard o una Provisioning API Key separada).
 (contenido propietario Visa/Mastercard saliendo a una API cloud) y costo por token (real, a
 diferencia de Ollama local que es gratis) siguen siendo los puntos abiertos del item 23 si en algún
 momento se evalúa una migración real.
+
+## 25. RESUELTO (2026-09-12) — 5 bugs más de `tc_01_to_tc_49` encontrados en una revisión manual guiada por el usuario contra el PDF real (además del item 9)
+
+Sesión distinta a todas las anteriores: por primera vez el **usuario** (no el asistente) revisó el
+reporte web línea por línea contra los 2 PDFs reales y pasó ~99 hallazgos en un archivo de
+revisión (`revision_manual_2026-09-12.md`, en el repo). Detalle completo, evidencia y números en
+NOTES.md, sección "2026-09-12 — Revisión manual...". Resumen:
+
+- **`_detect_reserved_splits` solo capturaba el 1er campo de un split múltiple** (Recipient Name:
+  eran 3 campos nuevos, solo se veía 1). Fix: la condición de "arranca al inicio del rango" pasa a
+  ser solo el disparador, no el filtro final de `new_fields`.
+- **Nuevo `_detect_reserved_merges`** para cuando un campo definido pasa a Reserved con el rango
+  CORRIDO por un vecino (no detectable con el mecanismo existente, que exige mismo rango). Destapó
+  2 casos más en ediciones históricas previas, nunca vistos.
+- **Módulo 2: `Note:`/`Values:`/`Mapping:` de un campo con nombre de 3+ líneas se atribuía al
+  campo ANTERIOR** (mismo problema de fondo que items 13/14 en otros manuales, versión propia de
+  este). Fix: se generalizó el buffer de columna derecha (antes solo cubría `Description:`
+  compartiendo fila con el nombre).
+- **Módulo 2: "Format: ... character" (wrap de 2 líneas) se pegaba como prefijo del nombre del
+  PRÓXIMO campo** -afectaba 90-96 campos por edición. Fix: se usa `source_block` de Módulo 1 (señal
+  exacta) en vez de un umbral de hueco en Y (ya se sabía frágil).
+- **Viñetas `"l"` (edición vieja, a veces después del ítem) vs `"●"` (edición nueva) se
+  neutralizan para el cálculo de similitud en Módulo 4** -mismo patrón que el item 5 (ya resuelto
+  en `base_ii_clearing_data_codes`, nunca portado acá), pero resuelto con un mecanismo distinto
+  (Módulo 4 en vez de la red de seguridad de Módulo 5).
+
+**Resultado**: "Cambios de negocio a revisar" del par `20251018→20260418` bajó de 91 a 27. Se
+re-corrieron Módulos 02→03→04→05→07 completos para los 8 pares históricos (los bugs de Módulo 2
+afectan a todas las ediciones). Commit `d7eb95f`.
+
+**Pendiente para otra sesión, NO bug conocido, solo una pregunta abierta**: ¿los otros manuales
+que comparten el patrón de "fix no portado" del item 21 (viñetas del item 5, u otros) se
+beneficiarían del mismo tratamiento a nivel de Módulo 4 (neutralizar en el cálculo de similitud)
+en vez de/además de la red de seguridad de Módulo 5? No investigado, no se tocó nada fuera de
+`tc_01_to_tc_49` esta sesión.
+
+**Próximo paso indicado por el usuario**: repetir esta misma dinámica de revisión manual con otro
+de los 7 manuales del proyecto en la próxima sesión (todavía sin elegir cuál).

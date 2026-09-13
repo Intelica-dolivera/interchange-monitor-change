@@ -3725,3 +3725,124 @@ openrouter.ai/keys — el asistente no tiene acceso a esa cuenta para revocarla 
 migración real más adelante siguen siendo los mismos que ya estaban anotados: confidencialidad
 (contenido propietario Visa/Mastercard saliendo a una API cloud) y costo real por token (Ollama
 local es gratis).
+
+## 2026-09-12 — Revisión manual guiada por el usuario de `tc_01_to_tc_49`, par `20251018→20260418`: 6 causas raíz nuevas encontradas y arregladas, item 9 del TODO cerrado (y su diagnóstico anterior corregido)
+
+Primera vez que se prueba un flujo de QA distinto: en vez de que el asistente audite el pipeline,
+el **usuario** revisó el reporte web línea por línea contra los 2 PDFs reales (ediciones
+`18/10/2025` y `18/04/2026`) y fue pasando sus hallazgos en un archivo
+`poc/base_ii_clearing_interchange_formats_tc_01_to_tc_49/data/revision_manual_2026-09-12.md`
+(convención: `Caso N: <ubicación tal como aparece en el reporte> / Antes / Ahora / Razón (de la
+IA) / Obs (del usuario)`), acumulando ~99 casos antes de pasarlo. El asistente lo leyó completo,
+clasificó cada caso por causa raíz probable, y solo después fue a cruzar cada patrón contra los
+datos crudos de Módulos 01-04 (no contra el reporte final) para confirmar antes de tocar código.
+Metodología a repetir: pedir el archivo completo de una sola vez en vez de ir caso por caso (con
+~99 items, iterar 1 a 1 hubiera sido carísimo en turnos) y usar los JSON intermedios de cada etapa
+como evidencia, no solo el `.md`/`index.html` final.
+
+**Bug A — `_detect_reserved_splits` (Módulo 4) solo capturaba el primer campo de un split
+múltiple.** La condición `new_fields` exigía que el campo arrancara justo en el inicio del rango
+`Reserved` original; los demás campos recién definidos en el MISMO split (ej. "TC 33.A - CP 09
+TCR 4 - Recipient Name": `110-168 Reserved` se partió en 3 campos nuevos —`Payee Date of Birth`,
+`Payee Phone Number`, `Recipient State`— más `140-168 Reserved`) quedaban mal etiquetados como
+"Reserved restante" junto con el resto verdaderamente reservado. Fix: la condición de arranque en
+el inicio del rango se mantiene solo como DISPARADOR (confirma que es un split real, patrón Visa
+ya documentado), pero una vez confirmado, TODOS los `contained` que no sean literalmente
+`Reserved` pasan a ser `new_fields`.
+
+**Bug B — nuevo mecanismo `_detect_reserved_merges` (Módulo 4), inverso al split, para el caso
+con el rango CORRIDO.** Cuando un campo definido se retira a `Reserved` pero el límite no es el
+mismo rango exacto (porque un campo vecino también cambió de posición en la misma edición —ej.
+"Mastercard - Service Location Postal Code" `64-73` se retira justo cuando el campo vecino
+"Mastercard Transaction Link Identifier/..." se corre de `74-109` a `73-108`, dejando el
+`Reserved` nuevo en `64-72`, 1 byte más chico—), Módulo 3 ya lo tenía bien separado en
+`rows_removed`/`rows_added`, pero Módulo 4 no tenía forma de conectarlos (el mecanismo existente,
+`_reserved_transition`, exige el MISMO rango ya emparejado por posición). Se agregó
+`_detect_reserved_merges`: busca superposición de rango entre un `removed` no-Reserved y
+`added` Reserved, y lo reporta como `field_became_reserved` con `subtype: "shifted"` (nuevo, junto
+al ya existente `"renamed_in_place"`). Al arreglarlo se destaparon **2 casos más** en ediciones
+históricas previas que nunca se habían visto (2023-04→2023-10, 2024-04→2024-10).
+
+**Bug C — Módulo 2 (`normalize.py`): el `Note:`/`Values:`/`Mapping:` de un campo cuyo NOMBRE
+envuelve en 3+ líneas se atribuía al campo ANTERIOR.** Caso confirmado con datos crudos:
+"Mail/Phone/Electronic Commerce and Payment Indicator" (nombre de 3 líneas) corre su
+`Positions:` varios puntos hacia abajo, pero su `Note:` (columna derecha) mantiene su posición Y
+fija; al reordenar todo por `(y0, x0)` (Módulo 2 no respeta el orden de extracción real de Módulo
+1), ese `Note:` terminaba ANTES que el `Positions:` que confirma la ficha correcta, y se pegaba a
+la ficha anterior (`Terminal ID`, todavía "activa" en el parser). La condición existente
+(`same_row_as_next_name`, tolerancia de banda Y de 3.0pt) solo cubría el caso de `Description:`
+compartiendo fila con el nombre; se generalizó a un `next_name_pending` sin tolerancia de Y
+(alcanza con que haya un `active_paragraph` pendiente en la misma página) para Note/Values/Mapping
+también. Efecto real verificado: `Terminal ID` (32-39) queda sin nota (correcto, nunca la tuvo),
+y "Mail/Phone/..." (40) y "Unattended Acceptance Terminal Indicator" (41) recuperan sus propias
+notas completas.
+
+**Bug D — Módulo 2 (`normalize.py`): "Format: ... character" (wrap de 2 líneas) se pegaba como
+prefijo del NOMBRE del próximo campo.** Hallazgo colateral al arreglar el Bug F de abajo (dejar de
+esconder cambios de `name`/`length`/`format` detrás de un gate combinado reveló esto). El valor
+real de `Format` en varias fichas es "alphanumeric special **character**" (3 palabras), partido en
+2 líneas por ancho de columna; Módulo 2 solo capturaba la 1ra línea de `Format:` (sin mecanismo de
+continuación, a diferencia de `Note`/`Description`), así que la palabra suelta "character" caía en
+el catch-all genérico de párrafo/nombre-de-próximo-campo, dando `"character Sender Name"` en vez
+de `"Sender Name"` (y `format` truncado a `"alphanumeric special"`, sin "character"). Afectaba
+**90-96 campos por edición** (todos con este format value). Fix: se agregó `active_card_left_label`
++ `active_card_left_block` (mismo mecanismo que ya existía para columna derecha, pero para
+izquierda) usando `source_block` de Módulo 1 —no un umbral de hueco en Y, que ya se sabía frágil
+por el Bug C— para distinguir "es wrap de Format" (mismo `source_block` que la línea `Format:`) de
+"es el nombre del próximo campo" (`source_block` nuevo). Verificado: 0 nombres con prefijo
+`"character "` restantes en las 9 ediciones tras el fix, formato ahora completo
+(`"alphanumeric special character"`).
+
+**Bug E — item 9 del TODO ("~57 `Note:` faltantes en `20260418`"), CERRADO — su diagnóstico
+anterior (2026-08-13/2026-09-05) estaba incompleto.** El item decía "no es arreglable sin OCR" y
+"la red de seguridad de Módulo 5 ya compensa el efecto práctico". Lo segundo resultó ser
+literalmente lo que el usuario tuvo que encontrar a mano: la red de seguridad SÍ marcaba estos
+casos para revisión, pero como `business_rule_change` con una razón engañosa ("el texto nuevo está
+vacío, artefacto de extracción") en vez de descartarlos — no "compensaba", generaba ~59 falsos
+positivos que alguien tenía que revisar uno por uno para darse cuenta de que no eran nada. El fix
+real no necesitaba OCR: en `_diff_card_fields` (Módulo 4), cuando Visa saca el rótulo `Note:` entre
+ediciones sin cambiar el contenido, el texto se corre a `description` pero el CONTENIDO total del
+campo (concatenando `description+note+values+mapping`) es casi idéntico entre ediciones. El primer
+intento (2026-09-12, sesión misma) solo comparaba el combinado como GATE antes de diffear cada
+columna por separado —insuficiente cuando además del corrimiento hay una edición real mínima en el
+texto migrado (ej. se le sacó la palabra "Please" a "Please see BASE II Clearing Data Codes...",
+ratio combinado 0.9758 < 0.98, dispara el diff de todos modos)—: seguía mostrando `note`
+"vaciándose" y `description` "creciendo", el mismo relato falso con una excusa real para no
+filtrarlo del todo. Fix definitivo: si el combinado difiere de verdad, se reporta **un solo**
+`card_content_changed` con `field: "contenido"` y el combinado completo de cada lado, en vez de
+atribuirlo a una columna específica -se pierde la etiqueta fina pero se gana no mentir sobre qué
+columna "perdió"/"ganó" contenido. `name`/`length`/`format` (`CARD_STRUCTURAL_FIELDS`) se sacaron
+del combinado y se siguen diffeando por separado siempre (esto es lo que reveló el Bug D).
+
+**Bug F — viñetas extraídas como letra suelta `"l"` (a veces DESPUÉS del ítem, no antes) en la
+edición vieja vs `"●"` en la nueva, mismo contenido, glifo/orden distinto.** Emparentado con el
+**item 5 de este TODO** (ya resuelto 2026-08-25, pero en `base_ii_clearing_data_codes` —manual
+1—, `_find_disappeared_content` de SU `classify.py`; nunca portado al `classify.py` propio de
+`tc_01_to_tc_49` —mismo patrón de fix-no-portado ya documentado en el item 21 para "5 de 7
+manuales"—). Acá se resolvió distinto: en vez de portar el filtro de la red de seguridad de Módulo
+5, se neutralizó el glifo de viñeta (`BULLET_TOKEN_PATTERN`, token aislado `l`/`●`) para el CÁLCULO
+DE SIMILITUD en Módulo 4 (`_similarity_text`, aplicado tanto en `_diff_fields` como en el combinado
+del Bug E) —más robusto porque ataja el problema antes de que el cambio llegue siquiera a Módulo
+5, en vez de depender de que el LLM clasifique bien o de que la red de seguridad no se equivoque.
+Validado con 10 casos al azar de los 42 afectados en el par actual: los 10 eran ruido puro de
+formato (confirmado palabra por palabra sin viñetas, texto 100% idéntico). **Pendiente para otra
+sesión**: evaluar si conviene el mismo tratamiento en Módulo 4 para los otros manuales que
+comparten el patrón del item 21 (no se tocó nada fuera de `tc_01_to_tc_49` esta sesión).
+
+**Resultado**: "Cambios de negocio a revisar" del par `20251018→20260418` bajó de **91 a 27**
+(pasando por 40 y 38 en pasadas intermedias de la misma sesión), sin perder ninguno de los
+cambios genuinos que el usuario confirmó como reales durante la revisión manual (spot-checks
+puntuales: rangos de posición Colombia, VDCAP→DCAP, renombres "Acquirer Reference Number—X",
+"Message Text", "Transaction Component Sequence Number" — todos siguen presentes y bien
+clasificados tras cada fix). Se re-corrieron Módulos 02→03→04→05→07 completos para los 8 pares
+históricos del manual (no solo el par actual) porque los bugs C y D son de Módulo 2, afectan a
+TODAS las ediciones por igual, no solo a la más nueva. Archivos tocados: `02_normalizacion_bloques/
+normalize.py`, `04_deteccion_cambios/detect.py`, `07_reporte_cambios/report.py`,
+`08_reporte_web_consolidado/adapters/interchange_formats_grid.py`. Commit `d7eb95f`. El archivo
+`revision_manual_2026-09-12.md` queda en el repo como registro de la revisión (incluye 1 caso
+ambiguo -Caso 32- donde el usuario pegó mal la Obs de otro caso, corregido en el chat, y 1 caso
+-Caso 70- que en un principio parecía no encontrarse en el manual pero terminó siendo parte del
+Bug C, ya resuelto).
+
+**Próximo paso (indicado por el usuario)**: seguir con la misma revisión manual, próxima sesión,
+para otro de los 7 manuales del proyecto (todavía sin elegir cuál).
