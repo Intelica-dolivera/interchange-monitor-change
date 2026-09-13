@@ -1810,12 +1810,12 @@
           "cells_a": [
             "30",
             "All",
-            "Services Not Provided or Merchandise Not Received\nAll Regions:\nl\nInternational:\nl\nl\nU.K. Domestic:\nl\nCanada Region:\nl\nl\nJapan Domestic:\nl\nATM is prohibited.\nFor T&E transactions the minimum amount must be equal to or\ngreater than $25.00 USD.\nNo non-T&E minimum amount.\nT&E and non-T&E, no minimum amount.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nT&E and non-T&E, no minimum amount."
+            "Services Not Provided or Merchandise Not Received\nAll Regions:\nATM is prohibited.\nl\nInternational:\nFor T&E transactions the minimum amount must be equal to or\nl\ngreater than $25.00 USD.\nNo non-T&E minimum amount.\nl\nU.K. Domestic:\nT&E and non-T&E, no minimum amount.\nl\nCanada Region:\nFor T&E transactions, the minimum amount must be equal to\nl\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nl\nto or greater than $10.00 CAD.\nJapan Domestic:\nT&E and non-T&E, no minimum amount.\nl"
           ],
           "cells_b": [
             "30",
             "All",
-            "Services Not Provided or Merchandise Not Received\nAll Regions:\n●ATM is prohibited.\nInternational:\n●For T&E transactions the minimum amount must be equal to or greater\n●No non-T&E minimum amount.\nU.K. Domestic:\nthan $25.00 USD.\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\nthan $25.00 CAD.\ngreater than $10.00 CAD.\n●T&E and non-T&E, no minimum amount."
+            "Services Not Provided or Merchandise Not Received\nAll Regions:\n●ATM is prohibited.\nInternational:\n●For T&E transactions the minimum amount must be equal to or greater\nthan $25.00 USD.\n●No non-T&E minimum amount.\nU.K. Domestic:\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\nthan $25.00 CAD.\n●For non-T&E transactions, the minimum amount must be equal to or\ngreater than $10.00 CAD.\nJapan Domestic:\n●T&E and non-T&E, no minimum amount."
           ]
         },
         {
@@ -1823,12 +1823,12 @@
           "cells_a": [
             "41",
             "All",
-            "Cancelled Recurring Transaction\nAll Regions:\nl\nInternational:\nATM is prohibited.\nl\nl\nU.K. Domestic:\nFor T&E transaction, the minimum amount must be equal to or\ngreater than $25.00 USD.\nNo non-T&E minimum amount.\nl\nCanada Region:\nl\nl\nJapan Domestic:\nl\nT&E and non-T&E, no minimum amount.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nT&E and non-T&E, no minimum amount."
+            "Cancelled Recurring Transaction\nAll Regions:\nATM is prohibited.\nl\nInternational:\nFor T&E transaction, the minimum amount must be equal to or\nl\ngreater than $25.00 USD.\nNo non-T&E minimum amount.\nl\nU.K. Domestic:\nT&E and non-T&E, no minimum amount.\nl\nCanada Region:\nFor T&E transactions, the minimum amount must be equal to\nl\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nl\nto or greater than $10.00 CAD.\nJapan Domestic:\nT&E and non-T&E, no minimum amount.\nl"
           ],
           "cells_b": [
             "41",
             "All",
-            "Cancelled Recurring Transaction\nAll Regions:\n●ATM is prohibited.\nInternational:\n●For T&E transaction, the minimum amount must be equal to or greater\n●No non-T&E minimum amount.\nU.K. Domestic:\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\n●T&E and non-T&E, no minimum amount.\nthan $25.00 USD.\nthan $25.00 CAD.\ngreater than $10.00 CAD."
+            "Cancelled Recurring Transaction\nAll Regions:\n●ATM is prohibited.\nInternational:\n●For T&E transaction, the minimum amount must be equal to or greater\nthan $25.00 USD.\n●No non-T&E minimum amount.\nU.K. Domestic:\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\nthan $25.00 CAD.\n●For non-T&E transactions, the minimum amount must be equal to or\ngreater than $10.00 CAD.\nJapan Domestic:\n●T&E and non-T&E, no minimum amount."
           ]
         },
         {
@@ -1836,12 +1836,12 @@
           "cells_a": [
             "53",
             "All",
-            "Not as Described or Defective Merchandise\nAll Regions:\nl\nInternational:\nl\nl\nU.S. Region:\nl\nU.K. Domestic:\nl\nCanada Region:\nl\nl\nJapan Domestic:\nl\nATM is prohibited.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 USD.\nNo non-T&E minimum amount.\nEPS not allowed.\nT&E and non-T&E, no minimum amount.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nT&E and non-T&E, no minimum amount."
+            "Not as Described or Defective Merchandise\nAll Regions:\nATM is prohibited.\nl\nInternational:\nFor T&E transactions, the minimum amount must be equal to\nl\nor greater than $25.00 USD.\nNo non-T&E minimum amount.\nl\nU.S. Region:\nEPS not allowed.\nl\nU.K. Domestic:\nT&E and non-T&E, no minimum amount.\nl\nCanada Region:\nFor T&E transactions, the minimum amount must be equal to\nl\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nl\nto or greater than $10.00 CAD.\nJapan Domestic:\nT&E and non-T&E, no minimum amount.\nl"
           ],
           "cells_b": [
             "53",
             "All",
-            "Not as Described or Defective Merchandise\nAll Regions:\n●ATM is prohibited.\nInternational:\n●For T&E transactions, the minimum amount must be equal to or greater\n●No non-T&E minimum amount.\nU.S. Region:\nthan $25.00 USD.\n●EPS not allowed.\nU.K. Domestic:\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\nthan $25.00 CAD.\ngreater than $10.00 CAD.\n●T&E and non-T&E, no minimum amount."
+            "Not as Described or Defective Merchandise\nAll Regions:\n●ATM is prohibited.\nInternational:\n●For T&E transactions, the minimum amount must be equal to or greater\nthan $25.00 USD.\n●No non-T&E minimum amount.\nU.S. Region:\n●EPS not allowed.\nU.K. Domestic:\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\nthan $25.00 CAD.\n●For non-T&E transactions, the minimum amount must be equal to or\ngreater than $10.00 CAD.\nJapan Domestic:\n●T&E and non-T&E, no minimum amount."
           ]
         },
         {
@@ -1849,12 +1849,12 @@
           "cells_a": [
             "57",
             "All",
-            "Fraudulent Multiple Transactions\nAll Regions:\nl\nl\nl\nInternational:\nATM is prohibited.\nDirect Marketing MCCs are prohibited.\nMOTO/ECI must be spaces.\nl\nl\nU.K. Domestic:\nl\nCanada Region:\nl\nl\nJapan Domestic:\nl\nFor T&E transactions, the minimum must be equal to or greater\nthan $25.00 USD.\nNo non-T&E minimum amount.\nT&E and non-T&E, no minimum amount.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD\nT&E and non-T&E, no minimum amount."
+            "Fraudulent Multiple Transactions\nAll Regions:\nATM is prohibited.\nl\nDirect Marketing MCCs are prohibited.\nl\nMOTO/ECI must be spaces.\nl\nInternational:\nFor T&E transactions, the minimum must be equal to or greater\nl\nthan $25.00 USD.\nNo non-T&E minimum amount.\nl\nU.K. Domestic:\nT&E and non-T&E, no minimum amount.\nl\nCanada Region:\nFor T&E transactions, the minimum amount must be equal to\nl\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nl\nto or greater than $10.00 CAD\nJapan Domestic:\nT&E and non-T&E, no minimum amount.\nl"
           ],
           "cells_b": [
             "57",
             "All",
-            "Fraudulent Multiple Transactions\nAll Regions:\n●ATM is prohibited.\n●Direct Marketing MCCs are prohibited.\n●MOTO/ECI must be spaces.\nInternational:\n●For T&E transactions, the minimum must be equal to or greater than\n●No non-T&E minimum amount.\nU.K. Domestic:\n$25.00 USD.\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\nthan $25.00 CAD.\ngreater than $10.00 CAD\n●T&E and non-T&E, no minimum amount."
+            "Fraudulent Multiple Transactions\nAll Regions:\n●ATM is prohibited.\n●Direct Marketing MCCs are prohibited.\n●MOTO/ECI must be spaces.\nInternational:\n●For T&E transactions, the minimum must be equal to or greater than\n$25.00 USD.\n●No non-T&E minimum amount.\nU.K. Domestic:\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\nthan $25.00 CAD.\n●For non-T&E transactions, the minimum amount must be equal to or\ngreater than $10.00 CAD\nJapan Domestic:\n●T&E and non-T&E, no minimum amount."
           ]
         },
         {
@@ -1862,12 +1862,12 @@
           "cells_a": [
             "60",
             "All",
-            "Illegible Fulfillment\nAll Regions:\nl\nInternational:\nl\nU.S. Domestic and AP Region:\nl\nCanada Region:\nATM is prohibited.\nNo T&E or non-T&E minimum amount.\nEPS is not allowed.\nl\nl\nl\nJapan Domestic:\nl\nEPS is not allowed.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nT&E and non-T&E, no minimum amount."
+            "Illegible Fulfillment\nAll Regions:\nATM is prohibited.\nl\nInternational:\nNo T&E or non-T&E minimum amount.\nl\nU.S. Domestic and AP Region:\nEPS is not allowed.\nl\nCanada Region:\nEPS is not allowed.\nl\nFor T&E transactions, the minimum amount must be equal to\nl\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nl\nto or greater than $10.00 CAD.\nJapan Domestic:\nT&E and non-T&E, no minimum amount.\nl"
           ],
           "cells_b": [
             "60",
             "All",
-            "Illegible Fulfillment\nAll Regions:\n●ATM is prohibited.\nInternational:\n●No T&E or non-T&E minimum amount.\nU.S. Domestic and AP Region:\n●EPS is not allowed.\nCanada Region:\n●EPS is not allowed.\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\n●T&E and non-T&E, no minimum amount.\nthan $25.00 CAD.\ngreater than $10.00 CAD."
+            "Illegible Fulfillment\nAll Regions:\n●ATM is prohibited.\nInternational:\n●No T&E or non-T&E minimum amount.\nU.S. Domestic and AP Region:\n●EPS is not allowed.\nCanada Region:\n●EPS is not allowed.\n●For T&E transactions, the minimum amount must be equal to or greater\nthan $25.00 CAD.\n●For non-T&E transactions, the minimum amount must be equal to or\ngreater than $10.00 CAD.\nJapan Domestic:\n●T&E and non-T&E, no minimum amount."
           ]
         },
         {
@@ -1875,12 +1875,12 @@
           "cells_a": [
             "62",
             "All",
-            "Counterfeit Transaction\nAll Regions:\nl\nl\nInternational:\nl\nCanada Region:\nl\nl\nJapan Domestic:\nl\nDirect Marketing MCCs are prohibited.\nMOTO/ECI must be spaces.\nNo T&E or non-T&E minimum amount.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nT&E and non-T&E, no minimum amount."
+            "Counterfeit Transaction\nAll Regions:\nDirect Marketing MCCs are prohibited.\nl\nMOTO/ECI must be spaces.\nl\nInternational:\nNo T&E or non-T&E minimum amount.\nl\nCanada Region:\nFor T&E transactions, the minimum amount must be equal to\nl\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nl\nto or greater than $10.00 CAD.\nJapan Domestic:\nT&E and non-T&E, no minimum amount.\nl"
           ],
           "cells_b": [
             "62",
             "All",
-            "Counterfeit Transaction\nAll Regions:\n●Direct Marketing MCCs are prohibited.\n●MOTO/ECI must be spaces.\nInternational:\n●No T&E or non-T&E minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\nthan $25.00 CAD.\ngreater than $10.00 CAD.\n●T&E and non-T&E, no minimum amount."
+            "Counterfeit Transaction\nAll Regions:\n●Direct Marketing MCCs are prohibited.\n●MOTO/ECI must be spaces.\nInternational:\n●No T&E or non-T&E minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\nthan $25.00 CAD.\n●For non-T&E transactions, the minimum amount must be equal to or\ngreater than $10.00 CAD.\nJapan Domestic:\n●T&E and non-T&E, no minimum amount."
           ]
         },
         {
@@ -1888,12 +1888,12 @@
           "cells_a": [
             "70",
             "All",
-            "Card Recovery Bulletin or Exception File\nAll Regions:\nl\nl\nInternational:\nATM is prohibited.\nValidate against the Card Warning Bulletin.\nl\nl\nU.K. Domestic:\nl\nCanada Region:\nl\nl\nJapan Domestic:\nl\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 USD.\nNo non-T&E minimum amount.\nT&E and non-T&E, no minimum amount.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nT&E and non-T&E, no minimum amount."
+            "Card Recovery Bulletin or Exception File\nAll Regions:\nATM is prohibited.\nl\nValidate against the Card Warning Bulletin.\nl\nInternational:\nFor T&E transactions, the minimum amount must be equal to\nl\nor greater than $25.00 USD.\nNo non-T&E minimum amount.\nl\nU.K. Domestic:\nT&E and non-T&E, no minimum amount.\nl\nCanada Region:\nFor T&E transactions, the minimum amount must be equal to\nl\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nl\nto or greater than $10.00 CAD.\nJapan Domestic:\nT&E and non-T&E, no minimum amount.\nl"
           ],
           "cells_b": [
             "70",
             "All",
-            "Card Recovery Bulletin or Exception File\nAll Regions:\n●ATM is prohibited.\n●Validate against the Card Warning Bulletin.\nInternational:\n●For T&E transactions, the minimum amount must be equal to or greater\n●No non-T&E minimum amount.\nU.K. Domestic:\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\n●T&E and non-T&E, no minimum amount.\nthan $25.00 USD.\nthan $25.00 CAD.\ngreater than $10.00 CAD."
+            "Card Recovery Bulletin or Exception File\nAll Regions:\n●ATM is prohibited.\n●Validate against the Card Warning Bulletin.\nInternational:\n●For T&E transactions, the minimum amount must be equal to or greater\nthan $25.00 USD.\n●No non-T&E minimum amount.\nU.K. Domestic:\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\nthan $25.00 CAD.\n●For non-T&E transactions, the minimum amount must be equal to or\ngreater than $10.00 CAD.\nJapan Domestic:\n●T&E and non-T&E, no minimum amount."
           ]
         },
         {
@@ -1901,12 +1901,12 @@
           "cells_a": [
             "71",
             "All",
-            "Declined Authorization\nAll Regions:\nl\nInternational:\nl\nl\nU.K. Domestic:\nl\nCanada Region:\nl\nl\nJapan Domestic:\nl\nATM is prohibited.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 USD.\nNo non-T&E minimum amount.\nT&E and non-T&E, no minimum amount.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nT&E and non-T&E, no minimum amount."
+            "Declined Authorization\nAll Regions:\nATM is prohibited.\nl\nInternational:\nFor T&E transactions, the minimum amount must be equal to\nl\nor greater than $25.00 USD.\nNo non-T&E minimum amount.\nl\nU.K. Domestic:\nT&E and non-T&E, no minimum amount.\nl\nCanada Region:\nFor T&E transactions, the minimum amount must be equal to\nl\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nl\nto or greater than $10.00 CAD.\nJapan Domestic:\nT&E and non-T&E, no minimum amount.\nl"
           ],
           "cells_b": [
             "71",
             "All",
-            "Declined Authorization\nAll Regions:\n●ATM is prohibited.\nInternational:\n●For T&E transactions, the minimum amount must be equal to or greater\n●No non-T&E minimum amount.\nU.K. Domestic:\nthan $25.00 USD.\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\nthan $25.00 CAD.\ngreater than $10.00 CAD.\n●T&E and non-T&E, no minimum amount."
+            "Declined Authorization\nAll Regions:\n●ATM is prohibited.\nInternational:\n●For T&E transactions, the minimum amount must be equal to or greater\nthan $25.00 USD.\n●No non-T&E minimum amount.\nU.K. Domestic:\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\nthan $25.00 CAD.\n●For non-T&E transactions, the minimum amount must be equal to or\ngreater than $10.00 CAD.\nJapan Domestic:\n●T&E and non-T&E, no minimum amount."
           ]
         },
         {
@@ -1914,12 +1914,12 @@
           "cells_a": [
             "72",
             "All",
-            "No Authorization\nAll Regions:\nl\nInternational:\nATM is prohibited.\nl\nl\nU.K. Domestic:\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 USD.\nNo non-T&E minimum amount.\nl\nCanada Region:\nl\nl\nJapan Domestic:\nl\nT&E and non-T&E, no minimum amount.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nT&E and non-T&E, no minimum amount."
+            "No Authorization\nAll Regions:\nATM is prohibited.\nl\nInternational:\nFor T&E transactions, the minimum amount must be equal to\nl\nor greater than $25.00 USD.\nNo non-T&E minimum amount.\nl\nU.K. Domestic:\nT&E and non-T&E, no minimum amount.\nl\nCanada Region:\nFor T&E transactions, the minimum amount must be equal to\nl\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nl\nto or greater than $10.00 CAD.\nJapan Domestic:\nT&E and non-T&E, no minimum amount.\nl"
           ],
           "cells_b": [
             "72",
             "All",
-            "No Authorization\nAll Regions:\n●ATM is prohibited.\nInternational:\n●For T&E transactions, the minimum amount must be equal to or greater\n●No non-T&E minimum amount.\nU.K. Domestic:\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\n●T&E and non-T&E, no minimum amount.\nthan $25.00 USD.\nthan $25.00 CAD.\ngreater than $10.00 CAD."
+            "No Authorization\nAll Regions:\n●ATM is prohibited.\nInternational:\n●For T&E transactions, the minimum amount must be equal to or greater\nthan $25.00 USD.\n●No non-T&E minimum amount.\nU.K. Domestic:\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\nthan $25.00 CAD.\n●For non-T&E transactions, the minimum amount must be equal to or\ngreater than $10.00 CAD.\nJapan Domestic:\n●T&E and non-T&E, no minimum amount."
           ]
         },
         {
@@ -1927,12 +1927,12 @@
           "cells_a": [
             "73",
             "All",
-            "Expired Card\nAll Regions:\nl\nInternational:\nl\nl\nU.K. Domestic:\nl\nCanada Region:\nl\nl\nJapan Domestic:\nl\nATM is prohibited.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 USD.\nNo non-T&E minimum amount.\nT&E and non-T&E, no minimum amount.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nT&E and non-T&E, no minimum amount."
+            "Expired Card\nAll Regions:\nATM is prohibited.\nl\nInternational:\nFor T&E transactions, the minimum amount must be equal to\nl\nor greater than $25.00 USD.\nNo non-T&E minimum amount.\nl\nU.K. Domestic:\nT&E and non-T&E, no minimum amount.\nl\nCanada Region:\nFor T&E transactions, the minimum amount must be equal to\nl\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nl\nto or greater than $10.00 CAD.\nJapan Domestic:\nT&E and non-T&E, no minimum amount.\nl"
           ],
           "cells_b": [
             "73",
             "All",
-            "Expired Card\nAll Regions:\n●ATM is prohibited.\nInternational:\n●For T&E transactions, the minimum amount must be equal to or greater\n●No non-T&E minimum amount.\nU.K. Domestic:\nthan $25.00 USD.\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\nthan $25.00 CAD.\ngreater than $10.00 CAD.\n●T&E and non-T&E, no minimum amount."
+            "Expired Card\nAll Regions:\n●ATM is prohibited.\nInternational:\n●For T&E transactions, the minimum amount must be equal to or greater\nthan $25.00 USD.\n●No non-T&E minimum amount.\nU.K. Domestic:\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\nthan $25.00 CAD.\n●For non-T&E transactions, the minimum amount must be equal to or\ngreater than $10.00 CAD.\nJapan Domestic:\n●T&E and non-T&E, no minimum amount."
           ]
         },
         {
@@ -1940,12 +1940,12 @@
           "cells_a": [
             "74",
             "All",
-            "Late Presentment\nInternational:\nl\nl\nU.S. Domestic:\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 USD.\nNo non-T&E minimum amount.\nl\nl\nU.K. Domestic:\nPlus ATM cash disbursement and alternate media transactions\nare prohibited.\nVisa ATM cash disbursement transaction is not allowed.\nl\nCanada Region:\nl\nl\nJapan Domestic:\nl\nT&E and non-T&E, no minimum amount.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nT&E and non-T&E, no minimum amount."
+            "Late Presentment\nInternational:\nFor T&E transactions, the minimum amount must be equal to\nl\nor greater than $25.00 USD.\nNo non-T&E minimum amount.\nl\nU.S. Domestic:\nPlus ATM cash disbursement and alternate media transactions\nl\nare prohibited.\nVisa ATM cash disbursement transaction is not allowed.\nl\nU.K. Domestic:\nT&E and non-T&E, no minimum amount.\nl\nCanada Region:\nFor T&E transactions, the minimum amount must be equal to\nl\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nl\nto or greater than $10.00 CAD.\nJapan Domestic:\nT&E and non-T&E, no minimum amount.\nl"
           ],
           "cells_b": [
             "74",
             "All",
-            "Late Presentment\nInternational:\n●For T&E transactions, the minimum amount must be equal to or greater\n●No non-T&E minimum amount.\nU.S. Domestic:\nthan $25.00 USD.\n●Plus ATM cash disbursement and alternate media transactions are\n●Visa ATM cash disbursement transaction is not allowed.\nU.K. Domestic:\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\n●T&E and non-T&E, no minimum amount.\nprohibited.\nthan $25.00 CAD.\ngreater than $10.00 CAD."
+            "Late Presentment\nInternational:\n●For T&E transactions, the minimum amount must be equal to or greater\nthan $25.00 USD.\n●No non-T&E minimum amount.\nU.S. Domestic:\n●Plus ATM cash disbursement and alternate media transactions are\nprohibited.\n●Visa ATM cash disbursement transaction is not allowed.\nU.K. Domestic:\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\nthan $25.00 CAD.\n●For non-T&E transactions, the minimum amount must be equal to or\ngreater than $10.00 CAD.\nJapan Domestic:\n●T&E and non-T&E, no minimum amount."
           ]
         },
         {
@@ -1953,12 +1953,12 @@
           "cells_a": [
             "75",
             "All",
-            "Transaction Not Recognized\nAll Regions:\nl\nl\nInternational:\nl\nl\nU.S. Region:\nl\nl\nl\nU.K. Domestic\nl\nCanada Region:\nl\nl\nl\nJapan Domestic:\nl\nATM is prohibited.\nCannot be a Secure Electronic Commerce transaction.\nNo T&E minimum amount.\nNo non-T&E minimum amount.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 USD.\nNo non-T&E minimum amount.\nEPS not allowed.\nT&E and non-T&E, no minimum amount.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nNot valid for EPS/NSR Transactions\nT&E and non-T&E, no minimum amount."
+            "Transaction Not Recognized\nAll Regions:\nATM is prohibited.\nl\nCannot be a Secure Electronic Commerce transaction.\nl\nInternational:\nNo T&E minimum amount.\nl\nNo non-T&E minimum amount.\nl\nU.S. Region:\nFor T&E transactions, the minimum amount must be equal to\nl\nor greater than $25.00 USD.\nNo non-T&E minimum amount.\nl\nEPS not allowed.\nl\nU.K. Domestic\nT&E and non-T&E, no minimum amount.\nl\nCanada Region:\nFor T&E transactions, the minimum amount must be equal to\nl\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nl\nto or greater than $10.00 CAD.\nNot valid for EPS/NSR Transactions\nl\nJapan Domestic:\nT&E and non-T&E, no minimum amount.\nl"
           ],
           "cells_b": [
             "75",
             "All",
-            "Transaction Not Recognized\nAll Regions:\n●ATM is prohibited.\n●Cannot be a Secure Electronic Commerce transaction.\nInternational:\n●No T&E minimum amount.\n●No non-T&E minimum amount.\nU.S. Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●No non-T&E minimum amount.\n●EPS not allowed.\nU.K. Domestic\nthan $25.00 USD.\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\n●Not valid for EPS/NSR Transactions\nJapan Domestic:\nthan $25.00 CAD.\ngreater than $10.00 CAD.\n●T&E and non-T&E, no minimum amount."
+            "Transaction Not Recognized\nAll Regions:\n●ATM is prohibited.\n●Cannot be a Secure Electronic Commerce transaction.\nInternational:\n●No T&E minimum amount.\n●No non-T&E minimum amount.\nU.S. Region:\n●For T&E transactions, the minimum amount must be equal to or greater\nthan $25.00 USD.\n●No non-T&E minimum amount.\n●EPS not allowed.\nU.K. Domestic\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\nthan $25.00 CAD.\n●For non-T&E transactions, the minimum amount must be equal to or\ngreater than $10.00 CAD.\n●Not valid for EPS/NSR Transactions\nJapan Domestic:\n●T&E and non-T&E, no minimum amount."
           ]
         },
         {
@@ -1966,12 +1966,12 @@
           "cells_a": [
             "76",
             "All",
-            "Incorrect Currency or Transaction Code or Domestic\nTransaction Processing Violation\nInternational:\nl\nl\nU.K. Domestic:\nl\nCanada Region:\nl\nl\nJapan Domestic:\nl\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 USD.\nNo non-T&E minimum amount.\nT&E and non-T&E, no minimum amount.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nT&E and non-T&E, no minimum amount."
+            "Incorrect Currency or Transaction Code or Domestic\nTransaction Processing Violation\nInternational:\nFor T&E transactions, the minimum amount must be equal to\nl\nor greater than $25.00 USD.\nNo non-T&E minimum amount.\nl\nU.K. Domestic:\nT&E and non-T&E, no minimum amount.\nl\nCanada Region:\nFor T&E transactions, the minimum amount must be equal to\nl\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nl\nto or greater than $10.00 CAD.\nJapan Domestic:\nT&E and non-T&E, no minimum amount.\nl"
           ],
           "cells_b": [
             "76",
             "All",
-            "Incorrect Currency or Transaction Code or Domestic Transaction\nProcessing Violation\nInternational:\n●For T&E transactions, the minimum amount must be equal to or greater\n●No non-T&E minimum amount.\nU.K. Domestic:\nthan $25.00 USD.\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\nthan $25.00 CAD.\ngreater than $10.00 CAD.\n●T&E and non-T&E, no minimum amount."
+            "Incorrect Currency or Transaction Code or Domestic Transaction\nProcessing Violation\nInternational:\n●For T&E transactions, the minimum amount must be equal to or greater\nthan $25.00 USD.\n●No non-T&E minimum amount.\nU.K. Domestic:\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\nthan $25.00 CAD.\n●For non-T&E transactions, the minimum amount must be equal to or\ngreater than $10.00 CAD.\nJapan Domestic:\n●T&E and non-T&E, no minimum amount."
           ]
         },
         {
@@ -1979,12 +1979,12 @@
           "cells_a": [
             "77",
             "All",
-            "Non-Matching Account Number\nAll Regions:\nl\nInternational:\nl\nl\nU.K. Domestic:\nl\nCanada Region:\nATM is prohibited.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 USD.\nNo non-T&E minimum amount.\nT&E and non-T&E, no minimum amount.\nl\nl\nJapan Domestic:\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nl\nT&E and non-T&E, no minimum amount."
+            "Non-Matching Account Number\nAll Regions:\nATM is prohibited.\nl\nInternational:\nFor T&E transactions, the minimum amount must be equal to\nl\nor greater than $25.00 USD.\nNo non-T&E minimum amount.\nl\nU.K. Domestic:\nT&E and non-T&E, no minimum amount.\nl\nCanada Region:\nFor T&E transactions, the minimum amount must be equal to\nl\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nl\nto or greater than $10.00 CAD.\nJapan Domestic:\nT&E and non-T&E, no minimum amount.\nl"
           ],
           "cells_b": [
             "77",
             "All",
-            "Non-Matching Account Number\nAll Regions:\n●ATM is prohibited.\nInternational:\n●For T&E transactions, the minimum amount must be equal to or greater\n●No non-T&E minimum amount.\nU.K. Domestic:\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\n●T&E and non-T&E, no minimum amount.\nthan $25.00 USD.\nthan $25.00 CAD.\ngreater than $10.00 CAD."
+            "Non-Matching Account Number\nAll Regions:\n●ATM is prohibited.\nInternational:\n●For T&E transactions, the minimum amount must be equal to or greater\nthan $25.00 USD.\n●No non-T&E minimum amount.\nU.K. Domestic:\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\nthan $25.00 CAD.\n●For non-T&E transactions, the minimum amount must be equal to or\ngreater than $10.00 CAD.\nJapan Domestic:\n●T&E and non-T&E, no minimum amount."
           ]
         },
         {
@@ -1992,12 +1992,12 @@
           "cells_a": [
             "78",
             "All (except US)",
-            "Service Code Violation\nAll Regions:\nl\nInternational:\nl\nl\nU.K. Domestic:\nl\nCanada Region:\nl\nl\nJapan Domestic:\nl\nATM is prohibited.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 USD.\nNo non-T&E minimum amount.\nT&E and non-T&E, no minimum amount.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nT&E and non-T&E, no minimum amount."
+            "Service Code Violation\nAll Regions:\nATM is prohibited.\nl\nInternational:\nFor T&E transactions, the minimum amount must be equal to\nl\nor greater than $25.00 USD.\nNo non-T&E minimum amount.\nl\nU.K. Domestic:\nT&E and non-T&E, no minimum amount.\nl\nCanada Region:\nFor T&E transactions, the minimum amount must be equal to\nl\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nl\nto or greater than $10.00 CAD.\nJapan Domestic:\nT&E and non-T&E, no minimum amount.\nl"
           ],
           "cells_b": [
             "78",
             "All (except US)",
-            "Service Code Violation\nAll Regions:\n●ATM is prohibited.\nInternational:\n●For T&E transactions, the minimum amount must be equal to or greater\n●No non-T&E minimum amount.\nU.K. Domestic:\nthan $25.00 USD.\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\nthan $25.00 CAD.\ngreater than $10.00 CAD.\n●T&E and non-T&E, no minimum amount."
+            "Service Code Violation\nAll Regions:\n●ATM is prohibited.\nInternational:\n●For T&E transactions, the minimum amount must be equal to or greater\nthan $25.00 USD.\n●No non-T&E minimum amount.\nU.K. Domestic:\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\nthan $25.00 CAD.\n●For non-T&E transactions, the minimum amount must be equal to or\ngreater than $10.00 CAD.\nJapan Domestic:\n●T&E and non-T&E, no minimum amount."
           ]
         },
         {
@@ -2005,12 +2005,12 @@
           "cells_a": [
             "80",
             "All",
-            "Incorrect Transaction Amount or Account Number\nAll Regions except U.S. Region:\nl\nInternational:\nATM is prohibited.\nl\nl\nU.K. Domestic:\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 USD.\nNo non-T&E minimum amount.\nl\nCanada Region:\nl\nl\nl\nJapan Domestic:\nl\nT&E and non-T&E, no minimum amount.\nEPS is not allowed.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nT&E and non-T&E, no minimum amount."
+            "Incorrect Transaction Amount or Account Number\nAll Regions except U.S. Region:\nATM is prohibited.\nl\nInternational:\nFor T&E transactions, the minimum amount must be equal to\nl\nor greater than $25.00 USD.\nNo non-T&E minimum amount.\nl\nU.K. Domestic:\nT&E and non-T&E, no minimum amount.\nl\nCanada Region:\nEPS is not allowed.\nl\nFor T&E transactions, the minimum amount must be equal to\nl\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nl\nto or greater than $10.00 CAD.\nJapan Domestic:\nT&E and non-T&E, no minimum amount.\nl"
           ],
           "cells_b": [
             "80",
             "All",
-            "Incorrect Transaction Amount or Account Number\nAll Regions except U.S. Region:\n●ATM is prohibited.\nInternational:\n●For T&E transactions, the minimum amount must be equal to or greater\n●No non-T&E minimum amount.\nU.K. Domestic:\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●EPS is not allowed.\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\n●T&E and non-T&E, no minimum amount.\nthan $25.00 USD.\nthan $25.00 CAD.\ngreater than $10.00 CAD."
+            "Incorrect Transaction Amount or Account Number\nAll Regions except U.S. Region:\n●ATM is prohibited.\nInternational:\n●For T&E transactions, the minimum amount must be equal to or greater\nthan $25.00 USD.\n●No non-T&E minimum amount.\nU.K. Domestic:\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●EPS is not allowed.\n●For T&E transactions, the minimum amount must be equal to or greater\nthan $25.00 CAD.\n●For non-T&E transactions, the minimum amount must be equal to or\ngreater than $10.00 CAD.\nJapan Domestic:\n●T&E and non-T&E, no minimum amount."
           ]
         },
         {
@@ -2018,12 +2018,12 @@
           "cells_a": [
             "81",
             "All",
-            "Fraud - Card-Present Environment\nAll Regions:\nl\nl\nInternational:\nl\nl\nl\nU.S. Region:\nl\nl\nAP Region:\nl\nU.K. Domestic:\nl\nCanada Region:\nl\nl\nl\nJapan Domestic:\nl\nMOTO/ECI must be spaces.\nDirect Marketing MCCs are prohibited.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 USD.\nNo non-T&E minimum amount.\nATM is prohibited\nFor Automated Fuel Dispenser transactions, the minimum\namount must be equal to or greater than $10.00 USD.\nATM is prohibited\nEPS not allowed.\nT&E and non-T&E, no minimum amount.\nEPS is not allowed.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nT&E and non-T&E, no minimum amount."
+            "Fraud - Card-Present Environment\nAll Regions:\nMOTO/ECI must be spaces.\nl\nDirect Marketing MCCs are prohibited.\nl\nInternational:\nFor T&E transactions, the minimum amount must be equal to\nl\nor greater than $25.00 USD.\nNo non-T&E minimum amount.\nl\nATM is prohibited\nl\nU.S. Region:\nFor Automated Fuel Dispenser transactions, the minimum\nl\namount must be equal to or greater than $10.00 USD.\nATM is prohibited\nl\nAP Region:\nEPS not allowed.\nl\nU.K. Domestic:\nT&E and non-T&E, no minimum amount.\nl\nCanada Region:\nEPS is not allowed.\nl\nFor T&E transactions, the minimum amount must be equal to\nl\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nl\nto or greater than $10.00 CAD.\nJapan Domestic:\nT&E and non-T&E, no minimum amount.\nl"
           ],
           "cells_b": [
             "81",
             "All",
-            "Fraud - Card-Present Environment\nAll Regions:\n●MOTO/ECI must be spaces.\n●Direct Marketing MCCs are prohibited.\nInternational:\n●For T&E transactions, the minimum amount must be equal to or greater\n●No non-T&E minimum amount.\n●ATM is prohibited\nU.S. Region:\nthan $25.00 USD.\n●For Automated Fuel Dispenser transactions, the minimum amount must be\n●ATM is prohibited\nAP Region:\nequal to or greater than $10.00 USD.\n●EPS not allowed.\nU.K. Domestic:\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●EPS is not allowed.\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\n●T&E and non-T&E, no minimum amount.\nthan $25.00 CAD.\ngreater than $10.00 CAD."
+            "Fraud - Card-Present Environment\nAll Regions:\n●MOTO/ECI must be spaces.\n●Direct Marketing MCCs are prohibited.\nInternational:\n●For T&E transactions, the minimum amount must be equal to or greater\nthan $25.00 USD.\n●No non-T&E minimum amount.\n●ATM is prohibited\nU.S. Region:\n●For Automated Fuel Dispenser transactions, the minimum amount must be\nequal to or greater than $10.00 USD.\n●ATM is prohibited\nAP Region:\n●EPS not allowed.\nU.K. Domestic:\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●EPS is not allowed.\n●For T&E transactions, the minimum amount must be equal to or greater\nthan $25.00 CAD.\n●For non-T&E transactions, the minimum amount must be equal to or\ngreater than $10.00 CAD.\nJapan Domestic:\n●T&E and non-T&E, no minimum amount."
           ]
         },
         {
@@ -2031,12 +2031,12 @@
           "cells_a": [
             "82",
             "All",
-            "Duplicate Processing\nInternational:\nl\nl\nU.K. Domestic:\nl\nCanada Region:\nl\nl\nJapan Domestic:\nl\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 USD.\nNo non-T&E minimum amount.\nT&E and non-T&E, no minimum amount.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nT&E and non-T&E, no minimum amount."
+            "Duplicate Processing\nInternational:\nFor T&E transactions, the minimum amount must be equal to\nl\nor greater than $25.00 USD.\nNo non-T&E minimum amount.\nl\nU.K. Domestic:\nT&E and non-T&E, no minimum amount.\nl\nCanada Region:\nFor T&E transactions, the minimum amount must be equal to\nl\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nl\nto or greater than $10.00 CAD.\nJapan Domestic:\nT&E and non-T&E, no minimum amount.\nl"
           ],
           "cells_b": [
             "82",
             "All",
-            "Duplicate Processing\nInternational:\n●For T&E transactions, the minimum amount must be equal to or greater\n●No non-T&E minimum amount.\nU.K. Domestic:\nthan $25.00 USD.\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\nthan $25.00 CAD.\ngreater than $10.00 CAD.\n●T&E and non-T&E, no minimum amount."
+            "Duplicate Processing\nInternational:\n●For T&E transactions, the minimum amount must be equal to or greater\nthan $25.00 USD.\n●No non-T&E minimum amount.\nU.K. Domestic:\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\nthan $25.00 CAD.\n●For non-T&E transactions, the minimum amount must be equal to or\ngreater than $10.00 CAD.\nJapan Domestic:\n●T&E and non-T&E, no minimum amount."
           ]
         },
         {
@@ -2044,12 +2044,12 @@
           "cells_a": [
             "83",
             "All",
-            "Fraud - Card-Absent Environment\nAll Regions:\nl\nl\nInternational:\nl\nl\nU.K. Domestic:\nl\nCanada Region:\nATM is prohibited.\nRestricted for use by Secure Electronic Commerce transactions,\nexcept by U.S. region.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 USD.\nNo non-T&E minimum amount.\nT&E and non-T&E, no minimum amount.\nl\nl\nJapan Domestic:\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nl\nT&E and non-T&E, no minimum amount."
+            "Fraud - Card-Absent Environment\nAll Regions:\nATM is prohibited.\nl\nRestricted for use by Secure Electronic Commerce transactions,\nl\nexcept by U.S. region.\nInternational:\nFor T&E transactions, the minimum amount must be equal to\nl\nor greater than $25.00 USD.\nNo non-T&E minimum amount.\nl\nU.K. Domestic:\nT&E and non-T&E, no minimum amount.\nl\nCanada Region:\nFor T&E transactions, the minimum amount must be equal to\nl\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nl\nto or greater than $10.00 CAD.\nJapan Domestic:\nT&E and non-T&E, no minimum amount.\nl"
           ],
           "cells_b": [
             "83",
             "All",
-            "Fraud - Card-Absent Environment\nAll Regions:\n●ATM is prohibited.\n●Restricted for use by Secure Electronic Commerce transactions, except by\nInternational:\nU.S. region.\n●For T&E transactions, the minimum amount must be equal to or greater\n●No non-T&E minimum amount.\nU.K. Domestic:\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\n●T&E and non-T&E, no minimum amount.\nthan $25.00 USD.\nthan $25.00 CAD.\ngreater than $10.00 CAD."
+            "Fraud - Card-Absent Environment\nAll Regions:\n●ATM is prohibited.\n●Restricted for use by Secure Electronic Commerce transactions, except by\nU.S. region.\nInternational:\n●For T&E transactions, the minimum amount must be equal to or greater\nthan $25.00 USD.\n●No non-T&E minimum amount.\nU.K. Domestic:\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\nthan $25.00 CAD.\n●For non-T&E transactions, the minimum amount must be equal to or\ngreater than $10.00 CAD.\nJapan Domestic:\n●T&E and non-T&E, no minimum amount."
           ]
         },
         {
@@ -2057,12 +2057,12 @@
           "cells_a": [
             "85",
             "All",
-            "Credit Not Processed\nAll Regions:\nl\nInternational:\nl\nl\nU.K. Domestic:\nl\nCanada Region:\nl\nl\nJapan Domestic:\nl\nATM is prohibited.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 USD.\nNo non-T&E minimum amount.\nT&E and non-T&E, no minimum amount.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nT&E and non-T&E, no minimum amount."
+            "Credit Not Processed\nAll Regions:\nATM is prohibited.\nl\nInternational:\nFor T&E transactions, the minimum amount must be equal to\nl\nor greater than $25.00 USD.\nNo non-T&E minimum amount.\nl\nU.K. Domestic:\nT&E and non-T&E, no minimum amount.\nl\nCanada Region:\nFor T&E transactions, the minimum amount must be equal to\nl\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nl\nto or greater than $10.00 CAD.\nJapan Domestic:\nT&E and non-T&E, no minimum amount.\nl"
           ],
           "cells_b": [
             "85",
             "All",
-            "Credit Not Processed\nAll Regions:\n●ATM is prohibited.\nInternational:\n●For T&E transactions, the minimum amount must be equal to or greater\n●No non-T&E minimum amount.\nU.K. Domestic:\nthan $25.00 USD.\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\nthan $25.00 CAD.\ngreater than $10.00 CAD.\n●T&E and non-T&E, no minimum amount."
+            "Credit Not Processed\nAll Regions:\n●ATM is prohibited.\nInternational:\n●For T&E transactions, the minimum amount must be equal to or greater\nthan $25.00 USD.\n●No non-T&E minimum amount.\nU.K. Domestic:\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\nthan $25.00 CAD.\n●For non-T&E transactions, the minimum amount must be equal to or\ngreater than $10.00 CAD.\nJapan Domestic:\n●T&E and non-T&E, no minimum amount."
           ]
         },
         {
@@ -2070,12 +2070,12 @@
           "cells_a": [
             "86",
             "All",
-            "Paid by Other Means\nAll Regions:\nl\nInternational:\nl\nl\nU.S. Region:\nl\nAP Region:\nl\nU.K. Domestic:\nl\nCanada Region:\nl\nl\nJapan Domestic:\nl\nATM is prohibited.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 USD.\nNo non-T&E minimum amount.\nEPS not allowed.\nEPS not allowed.\nT&E and non-T&E, no minimum amount.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nT&E and non-T&E, no minimum amount."
+            "Paid by Other Means\nAll Regions:\nATM is prohibited.\nl\nInternational:\nFor T&E transactions, the minimum amount must be equal to\nl\nor greater than $25.00 USD.\nNo non-T&E minimum amount.\nl\nU.S. Region:\nEPS not allowed.\nl\nAP Region:\nEPS not allowed.\nl\nU.K. Domestic:\nT&E and non-T&E, no minimum amount.\nl\nCanada Region:\nFor T&E transactions, the minimum amount must be equal to\nl\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nl\nto or greater than $10.00 CAD.\nJapan Domestic:\nT&E and non-T&E, no minimum amount.\nl"
           ],
           "cells_b": [
             "86",
             "All",
-            "Paid by Other Means\nAll Regions:\n●ATM is prohibited.\nInternational:\n●For T&E transactions, the minimum amount must be equal to or greater\n●No non-T&E minimum amount.\nU.S. Region:\nthan $25.00 USD.\n●EPS not allowed.\nAP Region:\n●EPS not allowed.\nU.K. Domestic:\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\nthan $25.00 CAD.\ngreater than $10.00 CAD.\n●T&E and non-T&E, no minimum amount."
+            "Paid by Other Means\nAll Regions:\n●ATM is prohibited.\nInternational:\n●For T&E transactions, the minimum amount must be equal to or greater\nthan $25.00 USD.\n●No non-T&E minimum amount.\nU.S. Region:\n●EPS not allowed.\nAP Region:\n●EPS not allowed.\nU.K. Domestic:\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\nthan $25.00 CAD.\n●For non-T&E transactions, the minimum amount must be equal to or\ngreater than $10.00 CAD.\nJapan Domestic:\n●T&E and non-T&E, no minimum amount."
           ]
         },
         {
@@ -2083,12 +2083,12 @@
           "cells_a": [
             "90",
             "All",
-            "Non-Receipt of Cash or Load Transaction Value at ATM or\nLoad Device\nInternational:\nl\nU.S. Region:\nl\nl\nU.K. Domestic:\nl\nCanada Region:\nl\nl\nJapan Domestic:\nl\nT&E and non-T&E, no minimum amount.\nT&E and Non-T&E not allowed.\nValid for ATM only.\nT&E and non-T&E, no minimum amount.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nT&E and non-T&E, no minimum amount."
+            "Non-Receipt of Cash or Load Transaction Value at ATM or\nLoad Device\nInternational:\nT&E and non-T&E, no minimum amount.\nl\nU.S. Region:\nT&E and Non-T&E not allowed.\nl\nValid for ATM only.\nl\nU.K. Domestic:\nT&E and non-T&E, no minimum amount.\nl\nCanada Region:\nFor T&E transactions, the minimum amount must be equal to\nl\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nl\nto or greater than $10.00 CAD.\nJapan Domestic:\nT&E and non-T&E, no minimum amount.\nl"
           ],
           "cells_b": [
             "90",
             "All",
-            "Non-Receipt of Cash or Load Transaction Value at ATM or Load Device\nInternational:\n●T&E and non-T&E, no minimum amount.\nU.S. Region:\n●T&E and Non-T&E not allowed.\n●Valid for ATM only.\nU.K. Domestic:\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\nthan $25.00 CAD.\ngreater than $10.00 CAD.\n●T&E and non-T&E, no minimum amount."
+            "Non-Receipt of Cash or Load Transaction Value at ATM or Load Device\nInternational:\n●T&E and non-T&E, no minimum amount.\nU.S. Region:\n●T&E and Non-T&E not allowed.\n●Valid for ATM only.\nU.K. Domestic:\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\nthan $25.00 CAD.\n●For non-T&E transactions, the minimum amount must be equal to or\ngreater than $10.00 CAD.\nJapan Domestic:\n●T&E and non-T&E, no minimum amount."
           ]
         },
         {
@@ -2096,12 +2096,12 @@
           "cells_a": [
             "93",
             "All",
-            "Merchant Fraud Performance\nAll Regions:\nl\nInternational:\nATM is prohibited.\nl\nU.K. Domestic:\nl\nCanada Region:\nl\nl\nJapan Domestic:\nl\nT&E and non-T&E, no minimum amount.\nT&E and non-T&E, no minimum amount.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nT&E and non-T&E, no minimum amount."
+            "Merchant Fraud Performance\nAll Regions:\nATM is prohibited.\nl\nInternational:\nT&E and non-T&E, no minimum amount.\nl\nU.K. Domestic:\nT&E and non-T&E, no minimum amount.\nl\nCanada Region:\nFor T&E transactions, the minimum amount must be equal to\nl\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nl\nto or greater than $10.00 CAD.\nJapan Domestic:\nT&E and non-T&E, no minimum amount.\nl"
           ],
           "cells_b": [
             "93",
             "All",
-            "Merchant Fraud Performance\nAll Regions:\n●ATM is prohibited.\nInternational:\n●T&E and non-T&E, no minimum amount.\nU.K. Domestic:\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\n●T&E and non-T&E, no minimum amount.\nthan $25.00 CAD.\ngreater than $10.00 CAD."
+            "Merchant Fraud Performance\nAll Regions:\n●ATM is prohibited.\nInternational:\n●T&E and non-T&E, no minimum amount.\nU.K. Domestic:\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\nthan $25.00 CAD.\n●For non-T&E transactions, the minimum amount must be equal to or\ngreater than $10.00 CAD.\nJapan Domestic:\n●T&E and non-T&E, no minimum amount."
           ]
         }
       ],
@@ -2671,7 +2671,7 @@
           "cells_a": [
             "0100",
             "$499.00",
-            "Telex, Telephone and Cable Charges\nl\nl\nl\nMay not be used by U.S. clients to collect from other U.S. clients.\nA Country Code is required.\nThe Account Number field must contain a valid account number."
+            "Telex, Telephone and Cable Charges\nMay not be used by U.S. clients to collect from other U.S. clients.\nl\nA Country Code is required.\nl\nThe Account Number field must contain a valid account number.\nl"
           ],
           "cells_b": [
             "0100",
@@ -2684,7 +2684,7 @@
           "cells_a": [
             "0110",
             "$499.00",
-            "Auto-Telex Charges\nl\nl\nMay not be used by U.S. clients to collect from other U.S. clients.\nThe Account Number field must contain a valid account number."
+            "Auto-Telex Charges\nMay not be used by U.S. clients to collect from other U.S. clients.\nl\nThe Account Number field must contain a valid account number.\nl"
           ],
           "cells_b": [
             "0110",
@@ -2697,7 +2697,7 @@
           "cells_a": [
             "0130",
             "$499.00",
-            "Lost/Stolen Card Report Fees\nl\nThe Account Number field must contain a valid account number."
+            "Lost/Stolen Card Report Fees\nThe Account Number field must contain a valid account number.\nl"
           ],
           "cells_b": [
             "0130",
@@ -2710,7 +2710,7 @@
           "cells_a": [
             "0140",
             "$9,999.00",
-            "Merchant Service Fees\nl\nl\nMay not be used by U.S. clients to collect from other U.S. clients.\nThe Account Number field must contain zeros."
+            "Merchant Service Fees\nMay not be used by U.S. clients to collect from other U.S. clients.\nl\nThe Account Number field must contain zeros.\nl"
           ],
           "cells_b": [
             "0140",
@@ -2723,7 +2723,7 @@
           "cells_a": [
             "0150",
             "$499.00",
-            "Recovered Card Handling Fees/Rewards\nl\nATM Balance Inquiry acquiring direct fee returns\nATM Balance Inquiry is available for ATM Balance Inquiry acquiring\ndirect fee participants in AP region only.\nThe Account Number field must contain a valid account number."
+            "Recovered Card Handling Fees/Rewards\nThe Account Number field must contain a valid account number.\nl\nATM Balance Inquiry acquiring direct fee returns\nATM Balance Inquiry is available for ATM Balance Inquiry acquiring\ndirect fee participants in AP region only."
           ],
           "cells_b": [
             "0150",
@@ -2736,7 +2736,7 @@
           "cells_a": [
             "0160",
             "$99.00",
-            "Invalid Cab Dispute Financial Handling Fee\nl\nThe Account Number field must contain a valid account number."
+            "Invalid Cab Dispute Financial Handling Fee\nThe Account Number field must contain a valid account number.\nl"
           ],
           "cells_b": [
             "0160",
@@ -2749,7 +2749,7 @@
           "cells_a": [
             "0170",
             "$99.00",
-            "Recovery of Microfilm Copy/Original Fees\n(In the U.S., Recovery of Copy/Original or Substitute Draft Fees)\nl\nThe Account Number field must contain a valid account number."
+            "Recovery of Microfilm Copy/Original Fees\n(In the U.S., Recovery of Copy/Original or Substitute Draft Fees)\nThe Account Number field must contain a valid account number.\nl"
           ],
           "cells_b": [
             "0170",
@@ -2762,7 +2762,7 @@
           "cells_a": [
             "0190",
             "None",
-            "Premium Card Guaranty Check\nl\nThe Account Number field must contain a valid account number."
+            "Premium Card Guaranty Check\nThe Account Number field must contain a valid account number.\nl"
           ],
           "cells_b": [
             "0190",
@@ -2775,7 +2775,7 @@
           "cells_a": [
             "0200",
             "None",
-            "Emergency Replacement Card Distribution Fee\nl\nThe Account Number field must contain a valid account number."
+            "Emergency Replacement Card Distribution Fee\nThe Account Number field must contain a valid account number.\nl"
           ],
           "cells_b": [
             "0200",
@@ -2788,7 +2788,7 @@
           "cells_a": [
             "0210",
             "None",
-            "Emergency Cash Disbursement Handling Fee\nl\nThe Account Number field must contain a valid account number."
+            "Emergency Cash Disbursement Handling Fee\nThe Account Number field must contain a valid account number.\nl"
           ],
           "cells_b": [
             "0210",
@@ -2801,7 +2801,7 @@
           "cells_a": [
             "0220",
             "None",
-            "Arbitration Case Decision and/or Request Fee\n(In the U.S., Arbitration/Compliance Case Decision and/or Request Fee)\nl\nThe Account Number field must contain a valid account number."
+            "Arbitration Case Decision and/or Request Fee\n(In the U.S., Arbitration/Compliance Case Decision and/or Request Fee)\nThe Account Number field must contain a valid account number.\nl"
           ],
           "cells_b": [
             "0220",
@@ -2814,7 +2814,7 @@
           "cells_a": [
             "0230",
             "$99.99",
-            "Incorrect Merchant Identification/Transaction Date Handling Fee\nl\nl\nMay be used only by U.S. clients to collect from other U.S. clients.\nThe Account Number field must contain a valid account number."
+            "Incorrect Merchant Identification/Transaction Date Handling Fee\nMay be used only by U.S. clients to collect from other U.S. clients.\nl\nThe Account Number field must contain a valid account number.\nl"
           ],
           "cells_b": [
             "0230",
@@ -2827,7 +2827,7 @@
           "cells_a": [
             "0240",
             "None",
-            "Funds Disbursement Transactions\nl\nl\nThe Account Number field must contain a valid account number.\nA Country Code field must contain spaces."
+            "Funds Disbursement Transactions\nThe Account Number field must contain a valid account number.\nl\nA Country Code field must contain spaces.\nl"
           ],
           "cells_b": [
             "0240",
@@ -2840,7 +2840,7 @@
           "cells_a": [
             "0250",
             "$25.00",
-            "Invalid Dispute Financial Handling Fee\nl\nMay be used only by U.S. clients to collect from other U.S. clients."
+            "Invalid Dispute Financial Handling Fee\nMay be used only by U.S. clients to collect from other U.S. clients.\nl"
           ],
           "cells_b": [
             "0250",
@@ -2853,7 +2853,7 @@
           "cells_a": [
             "0300",
             "None",
-            "Bill Payment Service (Canada and Brazil only)\nl\nl\nA Country Code is required.\nThe Account Number field must contain a valid account number."
+            "Bill Payment Service (Canada and Brazil only)\nA Country Code is required.\nl\nThe Account Number field must contain a valid account number.\nl"
           ],
           "cells_b": [
             "0300",
@@ -2866,7 +2866,7 @@
           "cells_a": [
             "0350",
             "None",
-            "Pre-arbitration Settlement Funds Disbursement\nl\nThe Account Number field must contain a valid account number."
+            "Pre-arbitration Settlement Funds Disbursement\nThe Account Number field must contain a valid account number.\nl"
           ],
           "cells_b": [
             "0350",
@@ -2879,7 +2879,7 @@
           "cells_a": [
             "0390",
             "None",
-            "Visa TravelMoney Fees\nl\nl\nl\nThe Account Number field must contain zeros.\nThe transaction is initiated by Visa.\nThe Country Code is required."
+            "Visa TravelMoney Fees\nThe Account Number field must contain zeros.\nl\nThe transaction is initiated by Visa.\nl\nThe Country Code is required.\nl"
           ],
           "cells_b": [
             "0390",
@@ -2905,7 +2905,7 @@
           "cells_a": [
             "0402",
             "None",
-            "Prepaid Funds Collection\nl\nl\nMay not be used by U.S. clients.\nAccount Number field not required but may be present"
+            "Prepaid Funds Collection\nMay not be used by U.S. clients.\nl\nAccount Number field not required but may be present\nl"
           ],
           "cells_b": [
             "0402",
@@ -2918,7 +2918,7 @@
           "cells_a": [
             "5000",
             "None",
-            "Card Recovery Bulletin\nl\nl\nl\nIncoming only (transaction initiated by Visa).\nThe Account Number field must contain zeros.\nThe Country Code must be spaces."
+            "Card Recovery Bulletin\nIncoming only (transaction initiated by Visa).\nl\nThe Account Number field must contain zeros.\nl\nThe Country Code must be spaces.\nl"
           ],
           "cells_b": [
             "5000",
@@ -2931,7 +2931,7 @@
           "cells_a": [
             "5010",
             "None",
-            "Visa Integrated Billing Statement\nl\nl\nl\nIncoming only (transaction initiated by Visa).\nThe Account Number field must contain zeros.\nThe Country Code must be spaces."
+            "Visa Integrated Billing Statement\nIncoming only (transaction initiated by Visa).\nl\nThe Account Number field must contain zeros.\nl\nThe Country Code must be spaces.\nl"
           ],
           "cells_b": [
             "5010",
@@ -2944,7 +2944,7 @@
           "cells_a": [
             "5015",
             "None",
-            "Supermarket Incentive Program Fee\nl\nl\nl\nIncoming only (transaction initiated by Visa).\nThe Account Number field must contain zeros.\nThe Country Code must be spaces."
+            "Supermarket Incentive Program Fee\nIncoming only (transaction initiated by Visa).\nl\nThe Account Number field must contain zeros.\nl\nThe Country Code must be spaces.\nl"
           ],
           "cells_b": [
             "5015",
@@ -2957,7 +2957,7 @@
           "cells_a": [
             "5020",
             "None",
-            "Arbitration Request/Review\nl\nl\nl\nIncoming only (transaction initiated by Visa).\nThe Account Number field must contain zeros.\nThe Country Code must be spaces."
+            "Arbitration Request/Review\nIncoming only (transaction initiated by Visa).\nl\nThe Account Number field must contain zeros.\nl\nThe Country Code must be spaces.\nl"
           ],
           "cells_b": [
             "5020",
@@ -2970,7 +2970,7 @@
           "cells_a": [
             "5030",
             "None",
-            "BASE II Access Fee\nl\nl\nl\nIncoming only (transaction initiated by Visa).\nThe Account Number field must contain zeros.\nThe Country Code must be spaces."
+            "BASE II Access Fee\nIncoming only (transaction initiated by Visa).\nl\nThe Account Number field must contain zeros.\nl\nThe Country Code must be spaces.\nl"
           ],
           "cells_b": [
             "5030",
@@ -2983,7 +2983,7 @@
           "cells_a": [
             "5040",
             "None",
-            "Miscellaneous Fees or Charges\nl\nl\nl\nIncoming only (transaction initiated by Visa).\nThe Account Number field must contain zeros.\nThe Country Code must be spaces."
+            "Miscellaneous Fees or Charges\nIncoming only (transaction initiated by Visa).\nl\nThe Account Number field must contain zeros.\nl\nThe Country Code must be spaces.\nl"
           ],
           "cells_b": [
             "5040",
@@ -2996,7 +2996,7 @@
           "cells_a": [
             "5050",
             "None",
-            "Issuers' Clearinghouse Service Fee\nl\nl\nl\nIncoming only (transaction initiated by Visa).\nThe Account Number field must contain zeros.\nThe Country Code must be spaces."
+            "Issuers' Clearinghouse Service Fee\nIncoming only (transaction initiated by Visa).\nl\nThe Account Number field must contain zeros.\nl\nThe Country Code must be spaces.\nl"
           ],
           "cells_b": [
             "5050",
@@ -3009,7 +3009,7 @@
           "cells_a": [
             "5060",
             "None",
-            "Risk Identification Service Merchant Fees\nl\nl\nl\nIncoming only (transaction initiated by Visa).\nThe Account Number field must contain zeros.\nThe Country Code must be spaces."
+            "Risk Identification Service Merchant Fees\nIncoming only (transaction initiated by Visa).\nl\nThe Account Number field must contain zeros.\nl\nThe Country Code must be spaces.\nl"
           ],
           "cells_b": [
             "5060",
@@ -3022,7 +3022,7 @@
           "cells_a": [
             "5080",
             "None",
-            "Late Settlement Fee\nl\nl\nl\nl\nMay not be used by U.S. clients to collect from other U.S. clients.\nIncoming only (transaction initiated by Visa).\nThe Account Number field must contain zeros.\nThe Country Code must be spaces."
+            "Late Settlement Fee\nMay not be used by U.S. clients to collect from other U.S. clients.\nl\nIncoming only (transaction initiated by Visa).\nl\nThe Account Number field must contain zeros.\nl\nThe Country Code must be spaces.\nl"
           ],
           "cells_b": [
             "5080",
@@ -3035,7 +3035,7 @@
           "cells_a": [
             "5090",
             "None",
-            "Visa Account Tracking Service\nl\nl\nl\nIncoming only (transaction initiated by Visa).\nThe Account Number field must contain zeros.\nThe Country Code must be spaces."
+            "Visa Account Tracking Service\nIncoming only (transaction initiated by Visa).\nl\nThe Account Number field must contain zeros.\nl\nThe Country Code must be spaces.\nl"
           ],
           "cells_b": [
             "5090",
@@ -3048,7 +3048,7 @@
           "cells_a": [
             "5100",
             "$99.00",
-            "Emergency Travelers Cheque Refund Handling Fee\nl\nl\nl\nIncoming only (transaction initiated by Visa).\nThe Account Number field must contain zeros.\nThe Country Code must be spaces."
+            "Emergency Travelers Cheque Refund Handling Fee\nIncoming only (transaction initiated by Visa).\nl\nThe Account Number field must contain zeros.\nl\nThe Country Code must be spaces.\nl"
           ],
           "cells_b": [
             "5100",
@@ -3061,7 +3061,7 @@
           "cells_a": [
             "5110",
             "None",
-            "Returned Guaranteed Check\nl\nl\nl\nIncoming only (transaction initiated by Visa).\nThe Account Number field must contain zeros.\nThe Country Code must be spaces."
+            "Returned Guaranteed Check\nIncoming only (transaction initiated by Visa).\nl\nThe Account Number field must contain zeros.\nl\nThe Country Code must be spaces.\nl"
           ],
           "cells_b": [
             "5110",
@@ -3074,7 +3074,7 @@
           "cells_a": [
             "5120",
             "None",
-            "Value-Added Tax\nl\nl\nl\nl\nMay not be used by U.S. clients to collect from other U.S. clients.\nIncoming only (transaction initiated by Visa).\nThe Account Number field must contain zeros.\nThe Country Code must be spaces."
+            "Value-Added Tax\nMay not be used by U.S. clients to collect from other U.S. clients.\nl\nIncoming only (transaction initiated by Visa).\nl\nThe Account Number field must contain zeros.\nl\nThe Country Code must be spaces.\nl"
           ],
           "cells_b": [
             "5120",
@@ -3087,7 +3087,7 @@
           "cells_a": [
             "5130",
             "None",
-            "VSIL Fee Collection\nl\nl\nl\nl\nMay not be used by U.S. clients to collect from other U.S. clients.\nIncoming only (transaction initiated by Visa).\nThe Account Number field must contain zeros.\nThe Country Code must be spaces."
+            "VSIL Fee Collection\nMay not be used by U.S. clients to collect from other U.S. clients.\nl\nIncoming only (transaction initiated by Visa).\nl\nThe Account Number field must contain zeros.\nl\nThe Country Code must be spaces.\nl"
           ],
           "cells_b": [
             "5130",
@@ -3100,7 +3100,7 @@
           "cells_a": [
             "5140",
             "None",
-            "ISO/Non-Member Agent Registration Fee/Annual Fee\nl\nl\nl\nIncoming only (transaction initiated by Visa).\nThe Account Number field must contain zeros.\nThe Country Code must be spaces."
+            "ISO/Non-Member Agent Registration Fee/Annual Fee\nIncoming only (transaction initiated by Visa).\nl\nThe Account Number field must contain zeros.\nl\nThe Country Code must be spaces.\nl"
           ],
           "cells_b": [
             "5140",
@@ -3113,7 +3113,7 @@
           "cells_a": [
             "5150",
             "$100.00",
-            "Dispute Financial Handling Fee\nl\nl\nl\nIncoming only (transaction initiated by Visa).\nThe Account Number field must contain a valid account number.\nThe Country Code must be spaces."
+            "Dispute Financial Handling Fee\nIncoming only (transaction initiated by Visa).\nl\nThe Account Number field must contain a valid account number.\nl\nThe Country Code must be spaces.\nl"
           ],
           "cells_b": [
             "5150",
@@ -3126,7 +3126,7 @@
           "cells_a": [
             "5160",
             "$29.99",
-            "Fulfillment Incentive Fee\nl\nl\nl\nIncoming only (transaction initiated by Visa).\nThe Account Number field must contain zeros.\nThe Country Code must be spaces."
+            "Fulfillment Incentive Fee\nIncoming only (transaction initiated by Visa).\nl\nThe Account Number field must contain zeros.\nl\nThe Country Code must be spaces.\nl"
           ],
           "cells_b": [
             "5160",
@@ -3139,7 +3139,7 @@
           "cells_a": [
             "5165",
             "$19,999.99",
-            "VisaNet Copy Request and Fulfillment Service Monthly Access and\nActivity Charges\nl\nl\nl\nIncoming only (transaction initiated by Visa).\nThe Account Number field must contain zeros.\nThe Country Code must be spaces."
+            "VisaNet Copy Request and Fulfillment Service Monthly Access and\nActivity Charges\nIncoming only (transaction initiated by Visa).\nl\nThe Account Number field must contain zeros.\nl\nThe Country Code must be spaces.\nl"
           ],
           "cells_b": [
             "5165",
@@ -3152,7 +3152,7 @@
           "cells_a": [
             "5170",
             "$29.99",
-            "Nonfulfillment Incentive Fee\nl\nl\nl\nIncoming only (transaction initiated by Visa).\nThe Account Number field must contain zeros.\nThe Country Code must be spaces."
+            "Nonfulfillment Incentive Fee\nIncoming only (transaction initiated by Visa).\nl\nThe Account Number field must contain zeros.\nl\nThe Country Code must be spaces.\nl"
           ],
           "cells_b": [
             "5170",
@@ -3165,7 +3165,7 @@
           "cells_a": [
             "5180",
             "None",
-            "Merchant Review Fee\nl\nl\nl\nThe transaction is initiated by Visa.\nThe Account Number field must contain zeros.\nThe Country Code must be spaces."
+            "Merchant Review Fee\nThe transaction is initiated by Visa.\nl\nThe Account Number field must contain zeros.\nl\nThe Country Code must be spaces.\nl"
           ],
           "cells_b": [
             "5180",
@@ -3178,7 +3178,7 @@
           "cells_a": [
             "5185",
             "None",
-            "Membership Compliance Fees and Penalties\nl\nl\nl\nThe Account Number field must contain zeros.\nThe transaction is initiated by Visa.\nThe Country Code must be spaces."
+            "Membership Compliance Fees and Penalties\nThe Account Number field must contain zeros.\nl\nThe transaction is initiated by Visa.\nl\nThe Country Code must be spaces.\nl"
           ],
           "cells_b": [
             "5185",
@@ -3191,7 +3191,7 @@
           "cells_a": [
             "5190",
             "None",
-            "Numeric Licensing and Administration Program Fees\nl\nl\nl\nThe Account Number field must contain zeros.\nThe transaction is initiated by Visa.\nThe Country Code must be spaces."
+            "Numeric Licensing and Administration Program Fees\nThe Account Number field must contain zeros.\nl\nThe transaction is initiated by Visa.\nl\nThe Country Code must be spaces.\nl"
           ],
           "cells_b": [
             "5190",
@@ -3204,7 +3204,7 @@
           "cells_a": [
             "5195",
             "None",
-            "Sponsored Member Registration Fees\nl\nl\nl\nThe Account Number field must contain zeros.\nThe transaction is initiated by Visa.\nThe Country Code must be spaces."
+            "Sponsored Member Registration Fees\nThe Account Number field must contain zeros.\nl\nThe transaction is initiated by Visa.\nl\nThe Country Code must be spaces.\nl"
           ],
           "cells_b": [
             "5195",
@@ -3217,7 +3217,7 @@
           "cells_a": [
             "5210",
             "None",
-            "Merchant Data Inaccuracy. BASE II checks only for the value.\nl\nl\nl\nThe transaction is initiated by Visa.\nThe Account Number field must contain zeros.\nThe Country Code must be spaces."
+            "Merchant Data Inaccuracy. BASE II checks only for the value.\nThe transaction is initiated by Visa.\nl\nThe Account Number field must contain zeros.\nl\nThe Country Code must be spaces.\nl"
           ],
           "cells_b": [
             "5210",
@@ -3230,7 +3230,7 @@
           "cells_a": [
             "5220",
             "None",
-            "Commercial Data Acquirer Adjustment\nl\nl\nl\nVisa initiates the transaction.\nThe Account Number field must contain a valid account number.\nThe Country Code may contain space."
+            "Commercial Data Acquirer Adjustment\nVisa initiates the transaction.\nl\nThe Account Number field must contain a valid account number.\nl\nThe Country Code may contain space.\nl"
           ],
           "cells_b": [
             "5220",
@@ -3243,7 +3243,7 @@
           "cells_a": [
             "5230",
             "None",
-            "Commercial Data Issuer Adjustment\nl\nl\nl\nVisa initiates the transaction.\nThe Account Number field must contain a valid account number.\nThe Country Code may contain space."
+            "Commercial Data Issuer Adjustment\nVisa initiates the transaction.\nl\nThe Account Number field must contain a valid account number.\nl\nThe Country Code may contain space.\nl"
           ],
           "cells_b": [
             "5230",
@@ -3256,7 +3256,7 @@
           "cells_a": [
             "5240",
             "None",
-            "Interchange Data Forms\nl\nl\nl\nThe Account Number field must contain zeros.\nThe transaction is initiated by Visa.\nThe Country Code must be spaces."
+            "Interchange Data Forms\nThe Account Number field must contain zeros.\nl\nThe transaction is initiated by Visa.\nl\nThe Country Code must be spaces.\nl"
           ],
           "cells_b": [
             "5240",
@@ -3269,7 +3269,7 @@
           "cells_a": [
             "5245",
             "None",
-            "Service Fees/Late Payments\nl\nl\nl\nThe Account Number field must contain zeros.\nThe transaction is initiated by Visa.\nThe Country Code must be spaces."
+            "Service Fees/Late Payments\nThe Account Number field must contain zeros.\nl\nThe transaction is initiated by Visa.\nl\nThe Country Code must be spaces.\nl"
           ],
           "cells_b": [
             "5245",
@@ -3282,7 +3282,7 @@
           "cells_a": [
             "5250",
             "None",
-            "Indemnification\nl\nl\nl\nThe Account Number field must contain zeros.\nThe transaction is initiated by Visa.\nThe Country Code must be spaces."
+            "Indemnification\nThe Account Number field must contain zeros.\nl\nThe transaction is initiated by Visa.\nl\nThe Country Code must be spaces.\nl"
           ],
           "cells_b": [
             "5250",
@@ -3295,7 +3295,7 @@
           "cells_a": [
             "5260",
             "None",
-            "Visa TravelMoney Issuer Reimbursement\nl\nl\nl\nThe Account Number field must contain zeros.\nThe transaction is initiated by Visa.\nThe Country Code is required."
+            "Visa TravelMoney Issuer Reimbursement\nThe Account Number field must contain zeros.\nl\nThe transaction is initiated by Visa.\nl\nThe Country Code is required.\nl"
           ],
           "cells_b": [
             "5260",
@@ -3308,7 +3308,7 @@
           "cells_a": [
             "5270",
             "None",
-            "Collateral Funds\nl\nl\nl\nThe Account Number field must contain zeros.\nThe transaction is initiated by Visa.\nThe Country Code must be spaces."
+            "Collateral Funds\nThe Account Number field must contain zeros.\nl\nThe transaction is initiated by Visa.\nl\nThe Country Code must be spaces.\nl"
           ],
           "cells_b": [
             "5270",
@@ -3321,7 +3321,7 @@
           "cells_a": [
             "5280",
             "None",
-            "Stored-Value Card Purchase Settlement\nl\nl\nl\nl\nThe Account Number field must contain zeros.\nThe transaction is initiated by Visa.\nThe Country Code must be spaces.\nMaximum Amount = None."
+            "Stored-Value Card Purchase Settlement\nThe Account Number field must contain zeros.\nl\nThe transaction is initiated by Visa.\nl\nThe Country Code must be spaces.\nl\nMaximum Amount = None.\nl"
           ],
           "cells_b": [
             "5280",
@@ -3334,7 +3334,7 @@
           "cells_a": [
             "5282",
             "None",
-            "Stored-Value Card Allocated Discrepancies\nl\nl\nl\nl\nThe Account Number field must contain zeros.\nThe transaction is initiated by Visa.\nThe Country Code must be spaces.\nMaximum Amount = None."
+            "Stored-Value Card Allocated Discrepancies\nThe Account Number field must contain zeros.\nl\nThe transaction is initiated by Visa.\nl\nThe Country Code must be spaces.\nl\nMaximum Amount = None.\nl"
           ],
           "cells_b": [
             "5282",
@@ -3347,7 +3347,7 @@
           "cells_a": [
             "5284",
             "None",
-            "Stored-Value Card Manual Adjustment Settlement\nl\nl\nl\nl\nThe Account Number field must contain zeros.\nThe transaction is initiated by Visa.\nThe Country Code must be spaces.\nMaximum Amount = None."
+            "Stored-Value Card Manual Adjustment Settlement\nThe Account Number field must contain zeros.\nl\nThe transaction is initiated by Visa.\nl\nThe Country Code must be spaces.\nl\nMaximum Amount = None.\nl"
           ],
           "cells_b": [
             "5284",
@@ -3360,7 +3360,7 @@
           "cells_a": [
             "5286",
             "None",
-            "Stored-Value Card Reserved\nl\nl\nl\nl\nThe Account Number field must contain zeros.\nThe transaction is initiated by Visa.\nThe Country Code must be spaces.\nMaximum Amount = None."
+            "Stored-Value Card Reserved\nThe Account Number field must contain zeros.\nl\nThe transaction is initiated by Visa.\nl\nThe Country Code must be spaces.\nl\nMaximum Amount = None.\nl"
           ],
           "cells_b": [
             "5286",
@@ -3373,7 +3373,7 @@
           "cells_a": [
             "5290",
             "None",
-            "Corporate Indemnification of Settlement Risk\nl\nl\nl\nIncoming only (transaction initiated by Visa).\nThe Account Number field must contain zeros.\nThe Country Code must be spaces."
+            "Corporate Indemnification of Settlement Risk\nIncoming only (transaction initiated by Visa).\nl\nThe Account Number field must contain zeros.\nl\nThe Country Code must be spaces.\nl"
           ],
           "cells_b": [
             "5290",
@@ -3386,7 +3386,7 @@
           "cells_a": [
             "5300",
             "None",
-            "Promotion Credit Reward Funding\nl\nl\nl\nIncoming only (transaction initiated by Visa).\nThe Account Number field must contain zeros.\nThe Country Code must be spaces."
+            "Promotion Credit Reward Funding\nIncoming only (transaction initiated by Visa).\nl\nThe Account Number field must contain zeros.\nl\nThe Country Code must be spaces.\nl"
           ],
           "cells_b": [
             "5300",
@@ -3412,7 +3412,7 @@
           "cells_a": [
             "5320",
             "None",
-            "Member-Provided Reimbursement Fee\nl\nl\nl\nIncoming only (transaction initiated by Visa).\nThe Account Number field must contain a valid account number.\nThe Country Code must be spaces."
+            "Member-Provided Reimbursement Fee\nIncoming only (transaction initiated by Visa).\nl\nThe Account Number field must contain a valid account number.\nl\nThe Country Code must be spaces.\nl"
           ],
           "cells_b": [
             "5320",
@@ -3477,7 +3477,7 @@
           "cells_a": [
             "5510",
             "None",
-            "VIS Installment Funding Fee Credit\nl\nl\nl\nIncoming only (transaction initiated by Visa).\nThe Account Number field must contain zeros.\nThe Country Code must be spaces."
+            "VIS Installment Funding Fee Credit\nIncoming only (transaction initiated by Visa).\nl\nThe Account Number field must contain zeros.\nl\nThe Country Code must be spaces.\nl"
           ],
           "cells_b": [
             "5510",
@@ -3490,7 +3490,7 @@
           "cells_a": [
             "5560",
             "None",
-            "VIS Installment Service Fee\nl\nl\nl\nIncoming only (transaction initiated by Visa).\nThe Account Number field must contain zeros.\nThe Country Code must be spaces."
+            "VIS Installment Service Fee\nIncoming only (transaction initiated by Visa).\nl\nThe Account Number field must contain zeros.\nl\nThe Country Code must be spaces.\nl"
           ],
           "cells_b": [
             "5560",
@@ -5211,11 +5211,11 @@
           "code": "61",
           "cells_a": [
             "61",
-            "Twice Payment or Installment Payment with Number of Installment Payments\nl\nl\nTwice Payment: number of installment payments = 0 or 2. Settlement between the acquirer\nand issuer is deferred for Twice Payment.\nInstallment Payment: number of installment payments is greater than or equal to 3.\nSettlement between the acquirer and issuer is not deferred for Installment Payment."
+            "Twice Payment or Installment Payment with Number of Installment Payments\nTwice Payment: number of installment payments = 0 or 2. Settlement between the acquirer\nl\nand issuer is deferred for Twice Payment.\nInstallment Payment: number of installment payments is greater than or equal to 3.\nl\nSettlement between the acquirer and issuer is not deferred for Installment Payment."
           ],
           "cells_b": [
             "61",
-            "Twice Payment or Installment Payment with Number of Installment Payments\n●Twice Payment: number of installment payments = 0 or 2. Settlement between the acquirer\n●Installment Payment: number of installment payments is greater than or equal to 3.\nand issuer is deferred for Twice Payment.\nSettlement between the acquirer and issuer is not deferred for Installment Payment."
+            "Twice Payment or Installment Payment with Number of Installment Payments\n●Twice Payment: number of installment payments = 0 or 2. Settlement between the acquirer\nand issuer is deferred for Twice Payment.\n●Installment Payment: number of installment payments is greater than or equal to 3.\nSettlement between the acquirer and issuer is not deferred for Installment Payment."
           ]
         },
         {
@@ -5482,12 +5482,12 @@
           "cells_a": [
             "R",
             "Recurring Transaction",
-            "Use to identify multiple transactions that:\nl\nl\nExamples of a recurring transaction include\nperiodic membership fees, subscriptions, etc.\nOccur at predetermined intervals that do not\nexceed 1 year between transactions\nRepresent an agreement between a\ncardholder and a merchant to purchase\ngoods or services over a period of time."
+            "Use to identify multiple transactions that:\nOccur at predetermined intervals that do not\nl\nexceed 1 year between transactions\nRepresent an agreement between a\nl\ncardholder and a merchant to purchase\ngoods or services over a period of time.\nExamples of a recurring transaction include\nperiodic membership fees, subscriptions, etc."
           ],
           "cells_b": [
             "R",
             "Recurring Transaction",
-            "Use to identify multiple transactions that:\n●Occur at predetermined intervals that do not\n●Represent an agreement between a\nExamples of a recurring transaction include\nperiodic membership fees, subscriptions, etc.\nexceed 1 year between transactions\ncardholder and a merchant to purchase\ngoods or services over a period of time."
+            "Use to identify multiple transactions that:\n●Occur at predetermined intervals that do not\nexceed 1 year between transactions\n●Represent an agreement between a\ncardholder and a merchant to purchase\ngoods or services over a period of time.\nExamples of a recurring transaction include\nperiodic membership fees, subscriptions, etc."
           ]
         }
       ],
@@ -5698,16 +5698,7 @@
       "match_type": "exact",
       "fuzzy_ratio": 1.0,
       "duplicate_codes_a": [],
-      "duplicate_codes_b": [
-        "B",
-        "C",
-        "D",
-        "F",
-        "F2",
-        "F3",
-        "G",
-        "G1"
-      ],
+      "duplicate_codes_b": [],
       "rows_matched": [
         {
           "code": "A",
@@ -5728,10 +5719,7 @@
           ],
           "cells_b": [
             "B",
-            "Visa Traditional\nRewards",
-            "USD$749,999.99",
-            "USD$99,999.99",
-            "USD$99,999.99"
+            "Visa Traditional Rewards"
           ]
         },
         {
@@ -5742,10 +5730,7 @@
           ],
           "cells_b": [
             "C",
-            "Visa Signature",
-            "USD$1,499,999.99",
-            "USD$99,999.99",
-            "USD$499,999.99"
+            "Visa Signature"
           ]
         },
         {
@@ -5756,10 +5741,7 @@
           ],
           "cells_b": [
             "D",
-            "Visa Signature\nPreferred",
-            "USD$1,999,999.99",
-            "USD$99,999.99",
-            "USD$499,999.99"
+            "Visa Signature Preferred"
           ]
         },
         {
@@ -5781,10 +5763,7 @@
           ],
           "cells_b": [
             "F",
-            "Visa Classic",
-            "USD749,999.99",
-            "USD$99,999.99",
-            "USD$99,999.99"
+            "Visa Classic"
           ]
         },
         {
@@ -5795,10 +5774,7 @@
           ],
           "cells_b": [
             "F2",
-            "Visa Installment\nCredential",
-            "USD$249,999.99",
-            "USD$99,999.99",
-            "NA"
+            "Visa Installment Credential"
           ]
         },
         {
@@ -5809,10 +5785,7 @@
           ],
           "cells_b": [
             "F3",
-            "Visa Installment\nCredential Standard",
-            "USD$249,999.99",
-            "NA",
-            "NA"
+            "Visa Installment Credential Standard"
           ]
         },
         {
@@ -5823,10 +5796,7 @@
           ],
           "cells_b": [
             "G",
-            "Visa Business",
-            "USD$1,999,999.99",
-            "USD$499,999.99",
-            "USD$499,999.99"
+            "Visa Business"
           ]
         },
         {
@@ -5837,10 +5807,7 @@
           ],
           "cells_b": [
             "G1",
-            "Visa Signature\nBusiness",
-            "USD$1,999,999.99",
-            "USD$499,999.99",
-            "USD$499,999.99"
+            "Visa Signature Business"
           ]
         },
         {
@@ -6194,17 +6161,6 @@
             "X",
             "Visa Commercial Choice Travel"
           ]
-        },
-        {
-          "code": "X1",
-          "cells_a": [
-            "X1",
-            "Visa Commercial Choice Omni"
-          ],
-          "cells_b": [
-            "X1",
-            "Visa Commercial Choice Omni"
-          ]
         }
       ],
       "rows_removed": [
@@ -6221,6 +6177,13 @@
             "V\nW^",
             "V PAY\nVisa Direct Payouts W"
           ]
+        },
+        {
+          "code": "X1",
+          "cells": [
+            "X1",
+            "Visa Commercial Choice Omni"
+          ]
         }
       ],
       "rows_added": [
@@ -6229,26 +6192,6 @@
           "cells": [
             "I3",
             "Visa Infinite Plus (Canada only)"
-          ]
-        },
-        {
-          "code": "PRODUCT ID VALUES AND MAXIMUM POS AMOUNT LIMITS THIS CODE IDENTIFIES THE PRODUCT USED IN THE TRANSACTION. IT ALSO LISTS THE MAXIMUM AMOUNT LIMITS FOR CARD TYPES CREDIT/DEBIT, PREPAID POS AND ACCOUNT FUNDING POS. ONLY THE PRODUCT ID VALUES APPEAR IN DRAFT DATA: TCR 5 - PAYMENT SERVICE DATA, POSITIONS 136 -137. THE PRODUCT IDS ASSOCIATED WITH MAXIMUM LIMITS ARE SUBJECT TO THE RULES OF INDIVIDUAL JURISDICTIONS. MAXIMUM LIMITS MAY VARY BY ISSUER AND MARKET TRANSACTION PROCESSING REQUIREMENTS. TO VERIFY THE IDS AND LIMITS FOR A GIVEN JURISDICTION, PLEASE CHECK WITH YOUR VISA REPRESENTATIVE. FOR TURKEY ISSUED CARD CREDIT AND DEBIT POS TRANSACTION MAXIMUM AMOUNTS, PLEASE CHECK WITH YOUR VISA REPRESENTATIVE. MAXIMUM CREDIT AND DEBIT, PREPAID, AND ACCOUNT FUNDING POS TRANSACTION AMOUNTS",
-          "cells": [
-            "Product ID Values and Maximum POS Amount Limits\nThis code identifies the product used in the transaction. It also lists the maximum amount limits\nfor Card types Credit/Debit, Prepaid POS and Account Funding POS.\nOnly the Product ID Values appear in Draft Data: TCR 5 - Payment Service Data, Positions 136\n-137.\nThe product IDs associated with maximum limits are subject to the rules of individual\njurisdictions. Maximum limits may vary by Issuer and market transaction processing\nrequirements. To verify the IDs and limits for a given jurisdiction, please check with your Visa\nrepresentative.\nFor Turkey issued card Credit and Debit POS Transaction maximum amounts, please check with\nyour Visa representative.\nMaximum Credit and Debit, Prepaid, and Account Funding POS Transaction Amounts",
-            "Product",
-            "●",
-            "Card",
-            "A",
-            "F2 and F3 is unavailable for ATM and Interlink. These credit consumer products do not\napply to AFTs, ATM cash disbursements, cashback, manual cash disbursements, and\nmobile push payment OCTs. However, these may apply to OCTs with a BAI value of LO.",
-            "Global Product\nName\nVisa Traditional",
-            "Credit and Debit POS",
-            "Maximum Amount",
-            "USD$749,999.99",
-            "Maximum Amount",
-            "USD$99,999.99\nPrepaid POS",
-            "Account Funding",
-            "POS Maximum\nUSD$99,999.99",
-            "Amount"
           ]
         },
         {
@@ -6263,6 +6206,13 @@
           "cells": [
             "W",
             "Visa Direct Payouts to Wallets"
+          ]
+        },
+        {
+          "code": "X1 F2 AND F3 IS UNAVAILABLE FOR ATM AND INTERLINK. THESE CREDIT CONSUMER PRODUCTS DO NOT ● APPLY TO AFTS, ATM CASH DISBURSEMENTS, CASHBACK, MANUAL CASH DISBURSEMENTS, AND",
+          "cells": [
+            "X1\nF2 and F3 is unavailable for ATM and Interlink. These credit consumer products do not\n●\napply to AFTs, ATM cash disbursements, cashback, manual cash disbursements, and",
+            "Visa Commercial Choice Omni"
           ]
         }
       ]
@@ -6289,6 +6239,159 @@
       "duplicate_codes_a": [],
       "duplicate_codes_b": [],
       "rows_matched": [
+        {
+          "code": "A",
+          "cells_a": [
+            "A",
+            "Visa Traditional",
+            "USD$749,999.99",
+            "USD$99,999.99",
+            "USD$99,999.99"
+          ],
+          "cells_b": [
+            "A",
+            "Visa Traditional",
+            "USD$749,999.99",
+            "USD$99,999.99",
+            "USD$99,999.99"
+          ]
+        },
+        {
+          "code": "B",
+          "cells_a": [
+            "B",
+            "Visa Traditional\nRewards",
+            "USD$749,999.99",
+            "USD$99,999.99",
+            "USD$99,999.99"
+          ],
+          "cells_b": [
+            "B",
+            "Visa Traditional\nRewards",
+            "USD$749,999.99",
+            "USD$99,999.99",
+            "USD$99,999.99"
+          ]
+        },
+        {
+          "code": "C",
+          "cells_a": [
+            "C",
+            "Visa Signature",
+            "USD$1,499,999.99",
+            "USD$99,999.99",
+            "USD$499,999.99"
+          ],
+          "cells_b": [
+            "C",
+            "Visa Signature",
+            "USD$1,499,999.99",
+            "USD$99,999.99",
+            "USD$499,999.99"
+          ]
+        },
+        {
+          "code": "D",
+          "cells_a": [
+            "D",
+            "Visa Signature\nPreferred",
+            "USD$1,999,999.99",
+            "USD$99,999.99",
+            "USD$499,999.99"
+          ],
+          "cells_b": [
+            "D",
+            "Visa Signature\nPreferred",
+            "USD$1,999,999.99",
+            "USD$99,999.99",
+            "USD$499,999.99"
+          ]
+        },
+        {
+          "code": "F",
+          "cells_a": [
+            "F",
+            "Visa Classic",
+            "USD749,999.99",
+            "USD$99,999.99",
+            "USD$99,999.99"
+          ],
+          "cells_b": [
+            "F",
+            "Visa Classic",
+            "USD749,999.99",
+            "USD$99,999.99",
+            "USD$99,999.99"
+          ]
+        },
+        {
+          "code": "F2",
+          "cells_a": [
+            "F2",
+            "Visa Installment\nCredential",
+            "USD$249,999.99",
+            "USD$99,999.99",
+            "NA"
+          ],
+          "cells_b": [
+            "F2",
+            "Visa Installment\nCredential",
+            "USD$249,999.99",
+            "USD$99,999.99",
+            "NA"
+          ]
+        },
+        {
+          "code": "F3",
+          "cells_a": [
+            "F3",
+            "Visa Installment\nCredential Standard",
+            "USD$249,999.99",
+            "NA",
+            "NA"
+          ],
+          "cells_b": [
+            "F3",
+            "Visa Installment\nCredential Standard",
+            "USD$249,999.99",
+            "NA",
+            "NA"
+          ]
+        },
+        {
+          "code": "G",
+          "cells_a": [
+            "G",
+            "Visa Business",
+            "USD$1,999,999.99",
+            "USD$499,999.99",
+            "USD$499,999.99"
+          ],
+          "cells_b": [
+            "G",
+            "Visa Business",
+            "USD$1,999,999.99",
+            "USD$499,999.99",
+            "USD$499,999.99"
+          ]
+        },
+        {
+          "code": "G1",
+          "cells_a": [
+            "G1",
+            "Visa Signature\nBusiness",
+            "USD$1,999,999.99",
+            "USD$499,999.99",
+            "USD$499,999.99"
+          ],
+          "cells_b": [
+            "G1",
+            "Visa Signature\nBusiness",
+            "USD$1,999,999.99",
+            "USD$499,999.99",
+            "USD$499,999.99"
+          ]
+        },
         {
           "code": "G3",
           "cells_a": [
@@ -6696,98 +6799,7 @@
           ]
         }
       ],
-      "rows_removed": [
-        {
-          "code": "A",
-          "cells": [
-            "A",
-            "Visa Traditional",
-            "USD$749,999.99",
-            "USD$99,999.99",
-            "USD$99,999.99"
-          ]
-        },
-        {
-          "code": "B",
-          "cells": [
-            "B",
-            "Visa Traditional\nRewards",
-            "USD$749,999.99",
-            "USD$99,999.99",
-            "USD$99,999.99"
-          ]
-        },
-        {
-          "code": "C",
-          "cells": [
-            "C",
-            "Visa Signature",
-            "USD$1,499,999.99",
-            "USD$99,999.99",
-            "USD$499,999.99"
-          ]
-        },
-        {
-          "code": "D",
-          "cells": [
-            "D",
-            "Visa Signature\nPreferred",
-            "USD$1,999,999.99",
-            "USD$99,999.99",
-            "USD$499,999.99"
-          ]
-        },
-        {
-          "code": "F",
-          "cells": [
-            "F",
-            "Visa Classic",
-            "USD749,999.99",
-            "USD$99,999.99",
-            "USD$99,999.99"
-          ]
-        },
-        {
-          "code": "F2",
-          "cells": [
-            "F2",
-            "Visa Installment\nCredential",
-            "USD$249,999.99",
-            "USD$99,999.99",
-            "NA"
-          ]
-        },
-        {
-          "code": "F3",
-          "cells": [
-            "F3",
-            "Visa Installment\nCredential Standard",
-            "USD$249,999.99",
-            "NA",
-            "NA"
-          ]
-        },
-        {
-          "code": "G",
-          "cells": [
-            "G",
-            "Visa Business",
-            "USD$1,999,999.99",
-            "USD$499,999.99",
-            "USD$499,999.99"
-          ]
-        },
-        {
-          "code": "G1",
-          "cells": [
-            "G1",
-            "Visa Signature\nBusiness",
-            "USD$1,999,999.99",
-            "USD$499,999.99",
-            "USD$499,999.99"
-          ]
-        }
-      ],
+      "rows_removed": [],
       "rows_added": [
         {
           "code": "I3",
@@ -6984,7 +6996,7 @@
           "code": "7",
           "cells_a": [
             "7",
-            "Relates to specific reduced reimbursement fees for intraregional transactions only:\nl\nl\nl\nElectronic Data Capture (EDC)—EU only\nNot valid in Asia-Pacific region for original draft transactions\nEU CNP and CVV2 fee programs"
+            "Relates to specific reduced reimbursement fees for intraregional transactions only:\nElectronic Data Capture (EDC)—EU only\nl\nNot valid in Asia-Pacific region for original draft transactions\nl\nEU CNP and CVV2 fee programs\nl"
           ],
           "cells_b": [
             "7",
@@ -7345,8 +7357,7 @@
           "code": "33",
           "cells_a": [
             "33",
-            "l\nl",
-            "Legal process or fraud analysis request—U.S. Domestic only\nFraud analysis request—Non-U.S. Domestic"
+            "l\nLegal process or fraud analysis request—U.S. Domestic only\nFraud analysis request—Non-U.S. Domestic\nl"
           ],
           "cells_b": [
             "33",
@@ -7357,8 +7368,7 @@
           "code": "34",
           "cells_a": [
             "34",
-            "l\nl",
-            "Repeat request for copy—U.S. Domestic only\nLegal process request—Non-U.S. Domestic"
+            "l\nRepeat request for copy—U.S. Domestic only\nLegal process request—Non-U.S. Domestic\nl"
           ],
           "cells_b": [
             "34",
@@ -8077,11 +8087,11 @@
           "code": "01",
           "cells_a": [
             "01",
-            "The Hash Total is invalid. If data is from a local tape, a problem occurred in the Edit\nPackage. The VAP checks the Hash Total while loading the file, so if the data is from one of\nthese devices or is inter-VIC, an invalid Hash Total indicates one of these issues\nl\nl\nl\nNoise on the communication line has modified the data.\nThe sending VAP or VIC is not using the same Data Structure Table that the receiving\nVIC is using, which caused the receiving VIC to incorrectly expand the transaction.\nThe file was modified after the Edit Package was executed."
+            "The Hash Total is invalid. If data is from a local tape, a problem occurred in the Edit\nPackage. The VAP checks the Hash Total while loading the file, so if the data is from one of\nthese devices or is inter-VIC, an invalid Hash Total indicates one of these issues\nNoise on the communication line has modified the data.\nl\nThe sending VAP or VIC is not using the same Data Structure Table that the receiving\nl\nVIC is using, which caused the receiving VIC to incorrectly expand the transaction.\nThe file was modified after the Edit Package was executed.\nl"
           ],
           "cells_b": [
             "01",
-            "The Hash Total is invalid. If data is from a local tape, a problem occurred in the Edit\nPackage. The VAP checks the Hash Total while loading the file, so if the data is from one of\nthese devices or is inter-VIC, an invalid Hash Total indicates one of these issues\n●Noise on the communication line has modified the data.\n●The sending VAP or VIC is not using the same Data Structure Table that the receiving\n●The file was modified after the Edit Package was executed.\nVIC is using, which caused the receiving VIC to incorrectly expand the transaction."
+            "The Hash Total is invalid. If data is from a local tape, a problem occurred in the Edit\nPackage. The VAP checks the Hash Total while loading the file, so if the data is from one of\nthese devices or is inter-VIC, an invalid Hash Total indicates one of these issues\n●Noise on the communication line has modified the data.\n●The sending VAP or VIC is not using the same Data Structure Table that the receiving\nVIC is using, which caused the receiving VIC to incorrectly expand the transaction.\n●The file was modified after the Edit Package was executed."
           ]
         },
         {
@@ -8099,7 +8109,7 @@
           "code": "03",
           "cells_a": [
             "03",
-            "The Interface Trace Number is invalid. An original, dispute response financial, or reversal\nwith an Acquirer Reference Number Format Code of 3 has a trace number with one of\nthese characteristics:\nl\nl\nl\nNon-numeric.\nNot a valid acquiring or issuing identifier.\nNot the originating processing CIB."
+            "The Interface Trace Number is invalid. An original, dispute response financial, or reversal\nwith an Acquirer Reference Number Format Code of 3 has a trace number with one of\nthese characteristics:\nNon-numeric.\nl\nNot a valid acquiring or issuing identifier.\nl\nNot the originating processing CIB.\nl"
           ],
           "cells_b": [
             "03",
@@ -8198,7 +8208,7 @@
           "code": "12",
           "cells_a": [
             "12",
-            "The Acquirer Reference Number in a draft has one or more of these characteristics:\nl\nl\nl\nIt is in 23 digit-format and is not numeric or does not have a check-digit.\nIt contains an invalid date.\nIt has a Film Locator Subfield that must not contain zeros."
+            "The Acquirer Reference Number in a draft has one or more of these characteristics:\nIt is in 23 digit-format and is not numeric or does not have a check-digit.\nl\nIt contains an invalid date.\nl\nIt has a Film Locator Subfield that must not contain zeros.\nl"
           ],
           "cells_b": [
             "12",
@@ -8209,7 +8219,7 @@
           "code": "13",
           "cells_a": [
             "13",
-            "The Reference Number acquirer identifier in the reference number in a draft has one or\nmore of these characteristics:\nl\nl\nl\nl\nIt is non-numeric.\nIt starts with a 9 but is not a Visa transaction.\nIt has a standard Reimbursement Attribute of 0 and does not start with 4 or 5.\nIt is a TIRF transaction with an 18-digit Reference Number and does not begin with 9."
+            "The Reference Number acquirer identifier in the reference number in a draft has one or\nmore of these characteristics:\nIt is non-numeric.\nl\nIt starts with a 9 but is not a Visa transaction.\nl\nIt has a standard Reimbursement Attribute of 0 and does not start with 4 or 5.\nl\nIt is a TIRF transaction with an 18-digit Reference Number and does not begin with 9.\nl"
           ],
           "cells_b": [
             "13",
@@ -8220,7 +8230,7 @@
           "code": "14",
           "cells_a": [
             "14",
-            "The Purchase Date in a draft has these characteristics:\nl\nl\nl\nIt is non-numeric.\nIt is not a valid date.\nIt is in the future relative to the Edit Package processing date."
+            "The Purchase Date in a draft has these characteristics:\nIt is non-numeric.\nl\nIt is not a valid date.\nl\nIt is in the future relative to the Edit Package processing date.\nl"
           ],
           "cells_b": [
             "14",
@@ -8583,7 +8593,7 @@
           "code": "22",
           "cells_a": [
             "22",
-            "The Merchant Category Code is:\nl\nl\nl\nZeros.\nNon-numeric.\nNonexistent code."
+            "The Merchant Category Code is:\nZeros.\nl\nNon-numeric.\nl\nNonexistent code.\nl"
           ],
           "cells_b": [
             "22",
@@ -9243,11 +9253,11 @@
           "code": "80",
           "cells_a": [
             "80",
-            "Product Reclassification has occurred.\nNote: Product Reclassification occurs in these conditions:\nl\nl\nThe product ID submitted by the acquirer does not match the product ID used to\nprocess the transaction.\nNo product ID was submitted by the acquirer, and the product ID used to process the\ntransaction does not match the product ID associated with the Account Range in the\nEdit Package ARDEF table."
+            "Product Reclassification has occurred.\nNote: Product Reclassification occurs in these conditions:\nThe product ID submitted by the acquirer does not match the product ID used to\nl\nprocess the transaction.\nNo product ID was submitted by the acquirer, and the product ID used to process the\nl\ntransaction does not match the product ID associated with the Account Range in the\nEdit Package ARDEF table."
           ],
           "cells_b": [
             "80",
-            "Product Reclassification has occurred.\nNote: Product Reclassification occurs in these conditions:\n●The product ID submitted by the acquirer does not match the product ID used to\n●No product ID was submitted by the acquirer, and the product ID used to process the\nprocess the transaction.\ntransaction does not match the product ID associated with the Account Range in the\nEdit Package ARDEF table."
+            "Product Reclassification has occurred.\nNote: Product Reclassification occurs in these conditions:\n●The product ID submitted by the acquirer does not match the product ID used to\nprocess the transaction.\n●No product ID was submitted by the acquirer, and the product ID used to process the\ntransaction does not match the product ID associated with the Account Range in the\nEdit Package ARDEF table."
           ]
         },
         {
@@ -11718,7 +11728,7 @@
           "code": "H0",
           "cells_a": [
             "H0",
-            "The recalculation of the validation code at the VIC showed that one of the fields listed\nbelow did not match the value in the authorization message.\nCPS—U.S.:\nl\nl\nl\nl\nl\nl\nl\nl\nl\nl\nl\nl\nCPS/ATM:\nAccount Number\nAuthorized Amount\nAuthorization Characteristics Indicator\nAuthorization Code\nAuthorization Currency Code\nAuthorization Response Code\nCashback\nMarket-Specific Authorization Indicator\nMerchant Category Code\nPOS Entry Mode\nTransaction Identifier\nProduct ID\nl\nl\nl\nl\nl\nl\nl\nl\nl\nAccount Number\nAuthorization Characteristics Indicator\nTransaction Identifier\nAuthorized Amount\nAuthorization Currency Code\nMerchant Country Code\nATM Account Selection\nAcquiring Identifier\nSurcharge Amount\nElectronic Data Quality Program (EDQP):\nl\nl\nl\nl\nl\nl\nl\nl\nl\nl\nl\nl\nl\nAccount Funding Source\nAccount Number\nAuthorized Amount\nAuthorization Characteristics Indicator\nAuthorization Code\nAuthorization Currency Code\nAuthorization Response Code\nCashback\nMarket-Specific Authorization Indicator\nMerchant Category Code\nPOS Entry Mode\nTransaction Identifier\nProduct ID"
+            "The recalculation of the validation code at the VIC showed that one of the fields listed\nbelow did not match the value in the authorization message.\nCPS—U.S.:\nAccount Number\nl\nAuthorized Amount\nl\nAuthorization Characteristics Indicator\nl\nAuthorization Code\nl\nAuthorization Currency Code\nl\nAuthorization Response Code\nl\nCashback\nl\nMarket-Specific Authorization Indicator\nl\nMerchant Category Code\nl\nPOS Entry Mode\nl\nTransaction Identifier\nl\nProduct ID\nl\nCPS/ATM:\nAccount Number\nl\nAuthorization Characteristics Indicator\nl\nTransaction Identifier\nl\nAuthorized Amount\nl\nAuthorization Currency Code\nl\nMerchant Country Code\nl\nATM Account Selection\nl\nAcquiring Identifier\nl\nSurcharge Amount\nl\nElectronic Data Quality Program (EDQP):\nAccount Funding Source\nl\nAccount Number\nl\nAuthorized Amount\nl\nAuthorization Characteristics Indicator\nl\nAuthorization Code\nl\nAuthorization Currency Code\nl\nAuthorization Response Code\nl\nCashback\nl\nMarket-Specific Authorization Indicator\nl\nMerchant Category Code\nl\nPOS Entry Mode\nl\nTransaction Identifier\nl\nProduct ID\nl"
           ],
           "cells_b": [
             "H0",
@@ -12224,11 +12234,11 @@
           "code": "HZ",
           "cells_a": [
             "HZ",
-            "The recalculation of the validation code at the VIC showed that one of the fields listed\nbelow did not match the value in the authorization message. Please resubmit.\nl\nl\nl\nl\nl\nl\nl\nl\nl\nl\nl\nl\nCPS/ATM:\nAccount Number\nAuthorized Amount\nAuthorization Characteristics Indicator\nAuthorization Code\nAuthorization Currency Code\nAuthorization Response Code\nCashback\nMarket-Specific Authorization Indicator\nMerchant Category Code\nPOS Entry Mode\nTransaction Identifier\nProduct ID\nl\nl\nl\nl\nl\nl\nl\nl\nl\nAccount Number\nAuthorization Characteristics Indicator\nTransaction Identifier\nAuthorized Amount\nAuthorization Currency Code\nMerchant Country Code\nATM Account Selection\nAcquiring Identifier\nSurcharge Amount"
+            "The recalculation of the validation code at the VIC showed that one of the fields listed\nbelow did not match the value in the authorization message. Please resubmit.\nAccount Number\nl\nAuthorized Amount\nl\nAuthorization Characteristics Indicator\nl\nAuthorization Code\nl\nAuthorization Currency Code\nl\nAuthorization Response Code\nl\nCashback\nl\nMarket-Specific Authorization Indicator\nl\nMerchant Category Code\nl\nPOS Entry Mode\nl\nTransaction Identifier\nl\nProduct ID\nl\nCPS/ATM:\nAccount Number\nl\nAuthorization Characteristics Indicator\nl\nTransaction Identifier\nl\nAuthorized Amount\nl\nAuthorization Currency Code\nl\nMerchant Country Code\nl\nATM Account Selection\nl\nAcquiring Identifier\nl\nSurcharge Amount\nl"
           ],
           "cells_b": [
             "HZ",
-            "The recalculation of the validation code at the VIC showed that one of the fields listed\nbelow did not match the value in the authorization message. Please resubmit."
+            "The recalculation of the validation code at the VIC showed that one of the fields listed\nbelow did not match the value in the authorization message. Please resubmit.\n●Account Number\n●Authorized Amount\n●Authorization Characteristics Indicator\n●Authorization Code\n●Authorization Currency Code\n●Authorization Response Code\n●Cashback\n●Market-Specific Authorization Indicator\n●Merchant Category Code\n●POS Entry Mode\n●Transaction Identifier\n●Product ID\nCPS/ATM:\n●Account Number\n●Authorization Characteristics Indicator\n●Transaction Identifier\n●Authorized Amount\n●Authorization Currency Code\n●Merchant Country Code\n●ATM Account Selection\n●Acquiring Identifier\n●Surcharge Amount"
           ]
         },
         {
@@ -14944,7 +14954,7 @@
           "code": "HZ1",
           "cells": [
             "HZ1",
-            "●Account Number\n●Authorized Amount\n●Authorization Characteristics Indicator\n●Authorization Code\n●Authorization Currency Code\n●Authorization Response Code\n●Cashback\n●Market-Specific Authorization Indicator\n●Merchant Category Code\n●POS Entry Mode\n●Transaction Identifier\n●Product ID\nCPS/ATM:\n●Account Number\n●Authorization Characteristics Indicator\n●Transaction Identifier\n●Authorized Amount\n●Authorization Currency Code\n●Merchant Country Code\n●ATM Account Selection\n●Acquiring Identifier\n●Surcharge Amount\nThe validation code is valid but not honored due to VFC Processing rules."
+            "The validation code is valid but not honored due to VFC Processing rules."
           ]
         },
         {
@@ -15777,7 +15787,7 @@
           "cells_a": [
             "1",
             "Unattended cardholder-activated, no authori­\nzation, below floor-limit transaction.",
-            "Use to indicate that the transaction:\nl\nIs less than US$40, or local currency\nequivalent.\nl\nIs not authorized.\nl\nExamples of a Type A UAT transaction are:\nHas no cardholder verification performed.\nl\nl\nl\nl\nParking garage fee\nRoad toll\nMotion picture theater admission\nMagnetic stripe telephone call"
+            "Use to indicate that the transaction:\nIs less than US$40, or local currency\nl\nequivalent.\nIs not authorized.\nl\nHas no cardholder verification performed.\nl\nExamples of a Type A UAT transaction are:\nParking garage fee\nl\nRoad toll\nl\nMotion picture theater admission\nl\nMagnetic stripe telephone call\nl"
           ],
           "cells_b": [
             "1",
@@ -15790,7 +15800,7 @@
           "cells_a": [
             "2",
             "Unattended chip and PIN transactions\n(VE use only)",
-            "Use to indicate that the transaction:\nl\nIs authorized.\nl\nExamples of a Type C UAT transaction are:\nHas PIN verification performed.\nl\nATM\nl\nFuel purchase with PIN"
+            "Use to indicate that the transaction:\nIs authorized.\nl\nHas PIN verification performed.\nl\nExamples of a Type C UAT transaction are:\nATM\nl\nFuel purchase with PIN\nl"
           ],
           "cells_b": [
             "2",
@@ -15803,7 +15813,7 @@
           "cells_a": [
             "3",
             "Unattended cardholder-activated, authorized\ntransaction",
-            "Use to indicate that the transaction:\nl\nIs less than US$100, or local currency\nequivalent.\nl\nIs authorized.\nl\nHas no cardholder verification performed.\nExamples of a Type B UAT transaction are:\nl\nl\nl\nFuel purchase without PIN\nPrepaid card purchase\nVideo rental"
+            "Use to indicate that the transaction:\nIs less than US$100, or local currency\nl\nequivalent.\nIs authorized.\nl\nHas no cardholder verification performed.\nl\nExamples of a Type B UAT transaction are:\nFuel purchase without PIN\nl\nPrepaid card purchase\nl\nVideo rental\nl"
           ],
           "cells_b": [
             "3",
@@ -24425,11 +24435,11 @@
           "code": "ACQUIRER",
           "cells_a": [
             "acquirer",
-            "A client financial institution that has agreements with merchants to accept\nVisa card transactions or offers cash disbursement services to account\nholders, or both. The acquirer is responsible for:\nl\nl\nl\nAccepting card transaction data from merchants and its own ATMs and\nbank branches\nProviding authorization decisions to those card-accepting locations\nConveying transaction information to Visa as interchange transactions"
+            "A client financial institution that has agreements with merchants to accept\nVisa card transactions or offers cash disbursement services to account\nholders, or both. The acquirer is responsible for:\nAccepting card transaction data from merchants and its own ATMs and\nl\nbank branches\nProviding authorization decisions to those card-accepting locations\nl\nConveying transaction information to Visa as interchange transactions\nl"
           ],
           "cells_b": [
             "acquirer",
-            "A client financial institution that has agreements with merchants to accept\nVisa card transactions or offers cash disbursement services to cardholders,\nor both. The acquirer is responsible for:\n●Accepting card transaction data from merchants and its own ATMs and\n●Providing authorization decisions to those card-accepting locations.\n●Conveying transaction information to Visa as interchange transactions.\nbank branches."
+            "A client financial institution that has agreements with merchants to accept\nVisa card transactions or offers cash disbursement services to cardholders,\nor both. The acquirer is responsible for:\n●Accepting card transaction data from merchants and its own ATMs and\nbank branches.\n●Providing authorization decisions to those card-accepting locations.\n●Conveying transaction information to Visa as interchange transactions."
           ]
         },
         {
@@ -26562,12 +26572,10 @@
       "title_a": "Market-Specific Authorization Data\nIndicator\nThe Market-Specific Authorization Data Indicator identifies the industry for which market-\nspecific authorization data was included in the transaction.\nIt is used in these interchange formats:",
       "title_b": "The Market-Specific Authorization Data Indicator identifies the industry for which market-\nspecific authorization data was included in the transaction.\nIt is used in these interchange formats:",
       "header_a": [
-        "l\nl",
-        "Draft Data: TCR 5 - Payment Service Data, Position 49\nTC 48, BASE I Advice: TCR 2 - ISO-Enriched, Position 61"
+        "l\nDraft Data: TCR 5 - Payment Service Data, Position 49\nTC 48, BASE I Advice: TCR 2 - ISO-Enriched, Position 61\nl"
       ],
       "header_b": [
-        "●\n●",
-        "Draft Data: TCR 5 - Payment Service Data, Position 49\nTC 48, BASE I Advice: TCR 2 - ISO-Enriched, Position 61"
+        "●\nDraft Data: TCR 5 - Payment Service Data, Position 49\nTC 48, BASE I Advice: TCR 2 - ISO-Enriched, Position 61\n●"
       ],
       "match_type": "fuzzy",
       "fuzzy_ratio": 0.895,
@@ -26576,19 +26584,19 @@
       "rows_matched": [],
       "rows_removed": [
         {
-          "code": "L",
+          "code": "L TC 57, DATA CAPTURE ADVICE: TCR 3 - TRANSACTION DETAIL, PAYMENT SERVICE DATA, POSITION",
           "cells": [
-            "l",
-            "TC 57, Data Capture Advice: TCR 3 - Transaction Detail, Payment Service Data, Position\n42"
+            "l\nTC 57, Data Capture Advice: TCR 3 - Transaction Detail, Payment Service Data, Position",
+            "42"
           ]
         }
       ],
       "rows_added": [
         {
-          "code": "●",
+          "code": "● TC 57, DATA CAPTURE ADVICE: TCR 3 - TRANSACTION DETAIL, PAYMENT SERVICE DATA, POSITION",
           "cells": [
-            "●",
-            "TC 57, Data Capture Advice: TCR 3 - Transaction Detail, Payment Service Data, Position\n42"
+            "●\nTC 57, Data Capture Advice: TCR 3 - Transaction Detail, Payment Service Data, Position",
+            "42"
           ]
         }
       ]

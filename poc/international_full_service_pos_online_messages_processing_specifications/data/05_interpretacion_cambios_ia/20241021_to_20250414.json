@@ -7,9 +7,9 @@
     "section_removed": 90,
     "possible_section_move": 40,
     "duplicate_path_warning": 1,
-    "paragraph_content_changed": 78,
-    "paragraph_added": 167,
-    "paragraph_removed": 157,
+    "paragraph_content_changed": 80,
+    "paragraph_added": 159,
+    "paragraph_removed": 148,
     "paragraph_reflowed": 6,
     "duplicate_paragraph_warning": 36,
     "section_renamed": 1
@@ -1661,7 +1661,7 @@
         "Online Request Services",
         "Visa Smarter Posting Service"
       ],
-      "coverage": 0.917,
+      "coverage": 0.958,
       "num_paragraphs_removed": 24,
       "num_paragraphs_added": 24
     },
@@ -1952,7 +1952,7 @@
       "new": "The customer may or may not enter a PIN; PINs are conditional in Visa POS transactions. Interlink— PINs are required for card-present environment for all Interlink cards. PINs are not required for Interlink Card Absent (MOTO, in-application, e-commerce), which is supported on U.S.-issued, including U.S. territories, non-Visa branded debit and prepaid cards. ATM—PINs are required. 2. The merchant's acquirer takes the information and creates an 0100 authorization or 0200 full financial request message, logs the event, and forwards the message to VisaNet. 3. V.I.P. logs and tracks the message, performs applicable message content editing, initiates service functions such as currency conversion, PIN, CVV, iCVV, dCVV verification, or CAVV validation, and routes the message to the issuer or processes the message in stand-in according to issuer availability and predetermined routing and stand-in- processing (STIP) parameters. 4. The issuer checks the transaction amount against the account's available balance and checks daily activity limits and other controls. The issuer logs the message and, for approved messages, reduces the cardholder's or customer's available balance by the amount of the transaction. The issuer creates an 0110 authorization or 0210 full financial response message based on the processing results and sends it to VisaNet. 5. V.I.P. logs the response and forwards it to the acquirer. 6. The acquirer logs the full financial response and forwards it to the point of sale or point of service (POS) to complete the transaction. The acquirer ensures it successfully delivers the response. V.I.P. settles the transaction, if approved, after the next settlement cutoff time.",
       "similarity_ratio": 0.904,
       "ai_category": "business_rule_change",
-      "ai_reason": "La edición nueva especifica que los PINs son obligatorios para Interlink en entorno de presentación de tarjeta y no son requeridos para Interlink Card Absent (MOTO, en aplicación, e-commerce), lo que modifica la regla de negocio sobre los requisitos de PINs en transacciones Interlink.",
+      "ai_reason": "La edición nueva especifica que los PINs son obligatorios para Interlink en entorno presente y no para Interlink Card Absent, lo que modifica la regla de negocio sobre los requisitos de PINs.",
       "disappeared_content": [
         "and ATM transactions require PINs."
       ],
@@ -2188,21 +2188,12 @@
       "new": "Full service supports the following transactions for Visa in the POS environment. Authorization – Full service acquirers use an authorization transaction message when the final transaction amount is not known at the time of purchase. Manual Cash Disbursement – Manual cash disbursement is also called manual cash. ATM Cash Disbursement—ATM cash disbursement is the withdrawal of cash from an ATM. Preauthorization and Preauthorization Completion – This transaction is designed for merchant locations, such as fuel pumps, at which the purchase amount is not known at the time the cardholder initiates the transaction, but the merchant can provide the final transaction amount within two hours. Authorization validity timeframe requirements are defined in Visa",
       "similarity_ratio": 0.9,
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto nuevo solo añade una frase al final sin cambiar el significado o regla de negocio, solo se reescribió la redacción para incluir una referencia a Visa.",
+      "ai_reason": "El texto nuevo solo añade una frase al final sin cambiar el significado o regla de negocio, solo se incluye una referencia a la definición de tiempo de validez de autorización en Visa.",
       "disappeared_content": [],
       "content_relocated_within_section": [
         "Preauthorizations consist of an initial request message containing an estimated purchase amount followed by a completion message."
       ],
       "safety_net_override": false
-    },
-    {
-      "change_type": "paragraph_added",
-      "path": [
-        "Transaction Types",
-        "System-Generated Transactions",
-        "Reversals"
-      ],
-      "text": "POS reversals can be used by:"
     },
     {
       "change_type": "paragraph_content_changed",
@@ -2212,14 +2203,11 @@
         "Reversals"
       ],
       "old": "Deferred clearing purchase transactions can also be reversed. Acquirers must not include field 35 or field 45 track data in non–U.S. 0220 deferred clearing advices for chip transactions; otherwise, V.I.P. will reject the transaction with reject code 0699—Invalid Presence of Track Data. VisaNet sends deferred clearing reversal advices to full service issuers for POS reversal transactions originated by BASE II acquirers. Issuers do not receive deferred clearing reversal advices during the same processing day as the original transactions. POS reversals can be used by:",
-      "new": "Deferred clearing purchase transactions can also be reversed. Acquirers must not include field 35 or field 45 track data in non–U.S. 0220 deferred clearing advices for chip transactions; otherwise, V.I.P. rejects the transaction with reject code 0699—Invalid Presence of Track Data. VisaNet sends deferred clearing reversal advices to full service issuers for POS reversal transactions originated by BASE II acquirers. Issuers do not receive deferred clearing reversal advices during the same processing day as the original transactions.",
-      "similarity_ratio": 0.968,
+      "new": "Deferred clearing purchase transactions can also be reversed. Acquirers must not include field 35 or field 45 track data in non–U.S. 0220 deferred clearing advices for chip transactions; otherwise, V.I.P. rejects the transaction with reject code 0699—Invalid Presence of Track Data. VisaNet sends deferred clearing reversal advices to full service issuers for POS reversal transactions originated by BASE II acquirers. Issuers do not receive deferred clearing reversal advices during the same processing day as the original transactions. POS reversals can be used by:",
+      "similarity_ratio": 0.995,
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto nuevo solo elimina el espacio antes del punto final en 'V.I.P. rejects' y el espacio antes de '—', manteniendo el mismo significado y reglas de negocio.",
+      "ai_reason": "El texto solo cambia el espacio en blanco antes de 'rejects' y el uso de punto y coma en lugar de guion, pero mantiene el mismo significado y reglas de negocio.",
       "disappeared_content": [],
-      "content_relocated_within_section": [
-        "POS reversals can be used by:"
-      ],
       "safety_net_override": false
     },
     {
@@ -2233,7 +2221,7 @@
       "new": "V.I.P.-Initiated Reversals—V.I.P. initiates reversal advices in these circumstances:",
       "similarity_ratio": 0.932,
       "ai_category": "editorial_reword",
-      "ai_reason": "El cambio solo reemplaza 'the following' por 'these' sin alterar el significado o regla de negocio.",
+      "ai_reason": "El cambio solo reemplaza 'the following circumstances' por 'these circumstances' sin alterar el significado o regla de negocio.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -2248,57 +2236,9 @@
       "new": "When a reversal cannot be forwarded to an issuer. In this case, the V.I.P. responds to the acquirer and stores a reversal advice for later delivery to the issuer. When an approval response cannot be delivered to an acquirer. In this case, V.I.P. generates a reversal request for the issuer.",
       "similarity_ratio": 0.993,
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto describe la misma situación y regla de negocio, solo se corrigió la mayúscula en 'V.I.P.' y se ajustó la redacción para mayor claridad.",
+      "ai_reason": "El texto describe la misma lógica de procesamiento de reversals pero con ajustes menores en la redacción, como el uso de 'the' antes de 'V.I.P.' y cambios en la estructura de frases sin alterar el significado.",
       "disappeared_content": [],
       "safety_net_override": false
-    },
-    {
-      "change_type": "paragraph_added",
-      "path": [
-        "Transaction Types",
-        "Exception Transactions"
-      ],
-      "text": "Field 62.2 – Transaction Identifier must be present in back-office exception transactions; otherwise, the exceptions are rejected with reason code 0153 or 0483. Visa issuers and acquirers must support exception-related transactions. Issuer systems must be able to create dispute financials and to receive adjustments and dispute response financials. Acquirer systems must be able to receive dispute financials and to create adjustments and dispute response financials. Because authorization is not required and exception-related transactions cannot be declined, V.I.P. always processes them as advices. In addition, Visa POS issuers must be able to create dispute financial reversals, and participating acquirers must be able to receive them. Each type of exception transaction is described in this section. Adjustment (Back-Office)—An acquirer initiates an adjustment to an original transaction to correct an error, such as an out-of-balance condition at the POS. The adjustment can be a debit"
-    },
-    {
-      "change_type": "paragraph_added",
-      "path": [
-        "Transaction Types",
-        "Exception Transactions"
-      ],
-      "text": "or a credit (because the cardholder's account was charged less or more than the actual amount agreed on at the time of the transaction). VisaNet supports adjustment transactions for Visa transactions. Dispute Financial—A dispute financial transaction is used to credit a cardholder's (or customer's) account for the purchase amount under certain conditions. An issuer can initiate a dispute financial when:"
-    },
-    {
-      "change_type": "paragraph_added",
-      "path": [
-        "Transaction Types",
-        "Exception Transactions"
-      ],
-      "text": "A cardholder disputes a transaction. A cardholder asserts merchandise was returned but a merchandise credit transaction has not been received by the issuer. The issuer itself disputes a transaction. The issuer receives an unpostable debit adjustment from an acquirer."
-    },
-    {
-      "change_type": "paragraph_removed",
-      "path": [
-        "Transaction Types",
-        "Exception Transactions"
-      ],
-      "text": "Field 62.2 – Transaction Identifier must be present in back-office exception transactions; otherwise, the exceptions will be rejected with reason code 0153 or 0483. Visa issuers and acquirers must support exception-related transactions. Issuer systems must be able to create dispute financials and to receive adjustments and dispute response financials. Acquirer systems must be able to receive dispute financials and to create adjustments and dispute response financials. Because authorization is not required and exception-related transactions cannot be declined, V.I.P. always processes them as advices. In addition, Visa POS issuers must be able to create dispute financial reversals, and participating acquirers must be able to receive them. Each type of exception transaction is described in this section. Adjustment (Back-Office)—An acquirer initiates an adjustment to an original transaction to correct an error, such as an out-of-balance condition at the POS. The adjustment can be a debit or a credit (because the cardholder's account was charged less or more than the actual amount agreed on at the time of the transaction). VisaNet supports adjustment transactions for Visa transactions. Dispute Financial—A dispute financial transaction is used to credit a cardholder's (or customer's) account for the purchase amount under certain conditions. An issuer can initiate a dispute financial when:"
-    },
-    {
-      "change_type": "paragraph_removed",
-      "path": [
-        "Transaction Types",
-        "Exception Transactions"
-      ],
-      "text": "A cardholder disputes a transaction. A cardholder asserts merchandise was returned but a merchandise credit transaction has not been received by the issuer."
-    },
-    {
-      "change_type": "paragraph_removed",
-      "path": [
-        "Transaction Types",
-        "Exception Transactions"
-      ],
-      "text": "The issuer itself disputes a transaction. The issuer receives an unpostable debit adjustment from an acquirer."
     },
     {
       "change_type": "paragraph_content_changed",
@@ -2310,7 +2250,21 @@
       "new": "Thes transactions for Visa POS are used to correct errors occurring at the point of transaction or in a participant's system:",
       "similarity_ratio": 0.958,
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto solo tiene un error ortográfico en 'The' que se corrigió a 'Thes' en la nueva edición, manteniendo el mismo significado y contenido.",
+      "ai_reason": "El texto solo tiene un error ortográfico (Thes en lugar de The) y no cambia el significado o regla de negocio.",
+      "disappeared_content": [],
+      "safety_net_override": false
+    },
+    {
+      "change_type": "paragraph_content_changed",
+      "path": [
+        "Transaction Types",
+        "Exception Transactions"
+      ],
+      "old": "Field 62.2 – Transaction Identifier must be present in back-office exception transactions; otherwise, the exceptions will be rejected with reason code 0153 or 0483. Visa issuers and acquirers must support exception-related transactions. Issuer systems must be able to create dispute financials and to receive adjustments and dispute response financials. Acquirer systems must be able to receive dispute financials and to create adjustments and dispute response financials. Because authorization is not required and exception-related transactions cannot be declined, V.I.P. always processes them as advices. In addition, Visa POS issuers must be able to create dispute financial reversals, and participating acquirers must be able to receive them. Each type of exception transaction is described in this section. Adjustment (Back-Office)—An acquirer initiates an adjustment to an original transaction to correct an error, such as an out-of-balance condition at the POS. The adjustment can be a debit or a credit (because the cardholder's account was charged less or more than the actual amount agreed on at the time of the transaction). VisaNet supports adjustment transactions for Visa transactions. Dispute Financial—A dispute financial transaction is used to credit a cardholder's (or customer's) account for the purchase amount under certain conditions. An issuer can initiate a dispute financial when: A cardholder disputes a transaction. A cardholder asserts merchandise was returned but a merchandise credit transaction has not been received by the issuer. The issuer itself disputes a transaction. The issuer receives an unpostable debit adjustment from an acquirer.",
+      "new": "Field 62.2 – Transaction Identifier must be present in back-office exception transactions; otherwise, the exceptions are rejected with reason code 0153 or 0483. Visa issuers and acquirers must support exception-related transactions. Issuer systems must be able to create dispute financials and to receive adjustments and dispute response financials. Acquirer systems must be able to receive dispute financials and to create adjustments and dispute response financials. Because authorization is not required and exception-related transactions cannot be declined, V.I.P. always processes them as advices. In addition, Visa POS issuers must be able to create dispute financial reversals, and participating acquirers must be able to receive them. Each type of exception transaction is described in this section. Adjustment (Back-Office)—An acquirer initiates an adjustment to an original transaction to correct an error, such as an out-of-balance condition at the POS. The adjustment can be a debit or a credit (because the cardholder's account was charged less or more than the actual amount agreed on at the time of the transaction). VisaNet supports adjustment transactions for Visa transactions. Dispute Financial—A dispute financial transaction is used to credit a cardholder's (or customer's) account for the purchase amount under certain conditions. An issuer can initiate a dispute financial when: A cardholder disputes a transaction. A cardholder asserts merchandise was returned but a merchandise credit transaction has not been received by the issuer. The issuer itself disputes a transaction. The issuer receives an unpostable debit adjustment from an acquirer.",
+      "similarity_ratio": 0.998,
+      "ai_category": "editorial_reword",
+      "ai_reason": "El texto se reescribe con pequeños cambios en la redacción y formato, pero mantiene el mismo significado y contenido sin alterar las reglas de negocio.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -2383,18 +2337,9 @@
       "new": "VSPS Merchant Identifiers: A merchant identifier is required in Merchant level stop instructions. VIP uses the merchant identifier present in the stop instruction when attempting to match a transaction. These merchant identifiers are used in VSPS:",
       "similarity_ratio": 0.976,
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto solo cambia la palabra 'the following' por 'these' para mantener coherencia en el uso de los artículos, sin alterar el significado o regla de negocio.",
+      "ai_reason": "El cambio consiste solo en reemplazar 'The following' por 'These' para mantener el mismo significado sin alterar la regla de negocio.",
       "disappeared_content": [],
       "safety_net_override": false
-    },
-    {
-      "change_type": "paragraph_removed",
-      "path": [
-        "Transaction Types",
-        "Portfolio File",
-        "Maintenance and Update"
-      ],
-      "text": "One or more of these merchant identifiers: Field 42 — Card Acceptor Identification Code, Field 43.1 — Card Acceptor Name/Location, Field 104 — Usage 2, Dataset ID 56 — Payment Facilitator Data, including tag 01, payment facilitator ID, and tag 02 Sub-Merchant ID."
     },
     {
       "change_type": "paragraph_content_changed",
@@ -2403,55 +2348,11 @@
         "Portfolio File",
         "Maintenance and Update"
       ],
-      "old": "The merchant identifier stored in the PF record identifies the merchant and future eligible transactions to be stopped. Merchant identifiers cannot be present in a 0302 where field 91 — file update code contains 1 (add) or 4 (replace) for PAN Level stop instructions (R3). Merchant identifiers should not be present in MCC Level stop instructions (R1). Optionally, the PF record for merchant level stop instructions can include restrictions such as exact amount, minimum amount, maximum amount, MCC, and recurring/installment indicator to limit the range of transactions that can be stopped. V.I.P. checks participation to prevent issuers from adding VSPS records to the CDB. If an issuer does not participate, V.I.P. declines 0302 requests with response code 06 (error) in field 39 and inserts error code 0684 (issuing identifier does not participate in VSPS service) in field 48. V.I.P. edits VSPS 0302 file maintenance messages. VSPS error codes can be sent in both Field 48, Usage 1b – Result/Error Codes for File Maintenance Messages and in Field 127.PF – Portfolio File, Dataset ID 69, Tag DF17. Add requests can contain multiple identifiers, results for requests with multiple identifiers are sent in Field 127.PF – Portfolio File, Dataset ID 69, Tag DF17 in a single 0312 response. Field 39 – Response Code can be 00, 10, or 06 based on the following:",
+      "old": "One or more of these merchant identifiers: Field 42 — Card Acceptor Identification Code, Field 43.1 — Card Acceptor Name/Location, Field 104 — Usage 2, Dataset ID 56 — Payment Facilitator Data, including tag 01, payment facilitator ID, and tag 02 Sub-Merchant ID. The merchant identifier stored in the PF record identifies the merchant and future eligible transactions to be stopped. Merchant identifiers cannot be present in a 0302 where field 91 — file update code contains 1 (add) or 4 (replace) for PAN Level stop instructions (R3). Merchant identifiers should not be present in MCC Level stop instructions (R1). Optionally, the PF record for merchant level stop instructions can include restrictions such as exact amount, minimum amount, maximum amount, MCC, and recurring/installment indicator to limit the range of transactions that can be stopped. V.I.P. checks participation to prevent issuers from adding VSPS records to the CDB. If an issuer does not participate, V.I.P. declines 0302 requests with response code 06 (error) in field 39 and inserts error code 0684 (issuing identifier does not participate in VSPS service) in field 48. V.I.P. edits VSPS 0302 file maintenance messages. VSPS error codes can be sent in both Field 48, Usage 1b – Result/Error Codes for File Maintenance Messages and in Field 127.PF – Portfolio File, Dataset ID 69, Tag DF17. Add requests can contain multiple identifiers, results for requests with multiple identifiers are sent in Field 127.PF – Portfolio File, Dataset ID 69, Tag DF17 in a single 0312 response. Field 39 – Response Code can be 00, 10, or 06 based on the following:",
       "new": "One or more of these merchant identifiers: Field 42 — Card Acceptor Identification Code, Field 43.1 — Card Acceptor Name/Location, Field 104 — Usage 2, Dataset ID 56 — Payment Facilitator Data, including tag 01, payment facilitator ID, and tag 02 Sub-Merchant ID. The merchant identifier stored in the PF record identifies the merchant and future eligible transactions to be stopped. Merchant identifiers cannot be present in a 0302 where field 91 — file update code contains 1 (add) or 4 (replace) for PAN Level stop instructions (R3). Merchant identifiers should not be present in MCC Level stop instructions (R1). Optionally, the PF record for merchant level stop instructions can include restrictions such as exact amount, minimum amount, maximum amount, MCC, and recurring/installment indicator to limit the range of transactions that can be stopped. V.I.P. checks participation to prevent issuers from adding VSPS records to the CDB. If an issuer does not participate, V.I.P. declines 0302 requests with response code 06 (error) in field 39 and inserts error code 0684 (issuing identifier does not participate in VSPS service) in field 48. V.I.P. edits VSPS 0302 file maintenance messages. VSPS error codes can be sent in both Field 48, Usage 1b – Result/Error Codes for File Maintenance Messages and in Field 127.PF – Portfolio File, Dataset ID 69, Tag DF17. Add requests can contain multiple identifiers, results for requests with multiple identifiers are sent in Field 127.PF – Portfolio File, Dataset ID 69, Tag DF17 in a single 0312 response. Field 39 – Response Code can be 00, 10, or 06 based on:",
-      "similarity_ratio": 0.906,
-      "ai_category": "business_rule_change",
-      "ai_reason": "La nueva edición especifica que los identificadores comerciales pueden incluir campos específicos como Field 42, Field 43.1 y Field 104, lo que modifica la definición de los identificadores comerciales en comparación con la edición anterior.",
-      "disappeared_content": [],
-      "safety_net_override": false
-    },
-    {
-      "change_type": "paragraph_added",
-      "path": [
-        "Transaction Types",
-        "Administrative Transactions"
-      ],
-      "text": "Copy Request – The issuer submits an administrative message for copy request processing. Copy Fulfillment – The acquirer sends an electronic image of the requested item along with additional requested data. Non-Fulfillment – The acquirer uses this response to notify the issuer the copy being requested is not sent. The message includes the reason for the non-fulfillment. Mail Fulfillment – An acquirer or a merchant sends this response to inform the issuer the requested copy is being sent through the mail. Except for the reason code, the mail fulfillment and the non-fulfillment messages are identical."
-    },
-    {
-      "change_type": "paragraph_removed",
-      "path": [
-        "Transaction Types",
-        "Administrative Transactions"
-      ],
-      "text": "Copy Request – The issuer submits an administrative message for copy request processing. Copy Fulfillment – The acquirer sends an electronic image of the requested item along with additional requested data. Non-Fulfillment – The acquirer uses this response to notify the issuer the copy being requested will not be sent. The message includes the reason for the non-fulfillment. Mail Fulfillment – An acquirer or a merchant sends this response to inform the issuer the requested copy is being sent through the mail. Except for the reason code, the mail fulfillment and the non-fulfillment messages are identical."
-    },
-    {
-      "change_type": "paragraph_content_changed",
-      "path": [
-        "Transaction Types",
-        "Administrative Transactions"
-      ],
-      "old": "VCRFS Transaction – This transaction includes the following message types:",
-      "new": "VCRFS Transaction – This transaction includes these message types:",
-      "similarity_ratio": 0.914,
-      "ai_category": "editorial_reword",
-      "ai_reason": "El cambio solo afecta la palabra 'the following' por 'these', sin alterar el significado o regla de negocio.",
-      "disappeared_content": [],
-      "safety_net_override": false
-    },
-    {
-      "change_type": "paragraph_content_changed",
-      "path": [
-        "Transaction Types",
-        "Administrative Transactions"
-      ],
-      "old": "These transactions are available for Visa POS and Visa Electron. Free-Text Message – This message is used to provide or to request information of a general nature for POS transactions. Because these messages contain free text, rather than codes, they can be routed to a printer, for manual evaluation, or can be documented on a report. Administrative free-text messages must be supported by all issuers and acquirersother than Interlink issuers and acquirers. Supporting these messages are optional for Interlink issuers and acquirers. Funds Transfer – This message is used to send the day's final funds transfer totals after completion of settlement and reconciliation. Collection-Only Transaction – Collection-only transactions are intraprocessor Visa transactions processed entirely outside of VisaNet. Collection-only transactions submitted to VisaNet are not cleared, settled, or reported. Instead, VisaNet channels these transactions into special data warehouses where the transactions are available for selection for various Visa promotional programs, such as Visa Rewards and Our Treat. Submission of these transactions is optional. No client action is required for Visa to warehouse these transactions. Online Fraud Reporting – This message is used to report fraud transactions VisaNet passes to the Fraud Reporting System (FRS). These messages are available to Visa and to Interlink. Chip-Based Transaction—This administrative message for the Visa Smart Debit/Smart Credit (VSDC) Service consists of the following types:",
-      "new": "These transactions are available for Visa POS and Visa Electron. Free-Text Message – This message is used to provide or to request information of a general nature for POS transactions. Because these messages contain free text, rather than codes, they can be routed to a printer, for manual evaluation, or can be documented on a report. Administrative free-text messages must be supported by all issuers and acquirersother than Interlink issuers and acquirers. Supporting these messages are optional for Interlink issuers and acquirers. Funds Transfer – This message is used to send the day's final funds transfer totals after completion of settlement and reconciliation. Collection-Only Transaction – Collection-only transactions are intraprocessor Visa transactions processed entirely outside of VisaNet. Collection-only transactions submitted to VisaNet are not cleared, settled, or reported. Instead, VisaNet channels these transactions into special data warehouses where the transactions are available for selection for various Visa promotional programs, such as Visa Rewards and Our Treat. Submission of these transactions is optional. No client action is required for Visa to warehouse these transactions. Online Fraud Reporting – This message is used to report fraud transactions VisaNet passes to the Fraud Reporting System (FRS). These messages are available to Visa and to Interlink. Chip-Based Transaction—This administrative message for the Visa Smart Debit/Smart Credit (VSDC) Service consists of these types:",
       "similarity_ratio": 0.996,
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto de la edición nueva solo cambia el último término de 'types:' a 'types:' (sin cambios en el contenido, solo un ajuste de formato en la lista de tipos para Chip-Based Transaction).",
+      "ai_reason": "El texto nuevo solo tiene un pequeño cambio en el último punto, omitiendo la palabra 'the following' para mantener la coherencia en la redacción sin alterar el significado.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -2461,11 +2362,11 @@
         "Transaction Types",
         "Administrative Transactions"
       ],
-      "old": "Chip-Based POS Offline Decline – An acquirer informs an issuer a transaction was declined offline because it failed to satisfy predefined risk criteria placed in the card or the terminal. Chip-Based POS Authentication Failure and/or Script Update Results – An acquirer informs an issuer that issuer authentication has failed or issuer script results are present.",
-      "new": "Chip-Based POS Offline Decline – An acquirer informs an issuer a transaction was declined offline because it failed to satisfy predefined risk criteria placed in the card or the terminal. Chip-Based POS Authentication Failure and Script Update Results, or both – An acquirer informs an issuer that issuer authentication has failed or issuer script results are present.",
-      "similarity_ratio": 0.923,
-      "ai_category": "editorial_reword",
-      "ai_reason": "El texto describe el mismo concepto con una reordenación de palabras y una corrección en la conjunción para expresar que 'Authentication Failure' y 'Script Update Results' pueden ocurrir juntos, sin cambios en el significado o reglas de negocio.",
+      "old": "VCRFS Transaction – This transaction includes the following message types: Copy Request – The issuer submits an administrative message for copy request processing. Copy Fulfillment – The acquirer sends an electronic image of the requested item along with additional requested data. Non-Fulfillment – The acquirer uses this response to notify the issuer the copy being requested will not be sent. The message includes the reason for the non-fulfillment. Mail Fulfillment – An acquirer or a merchant sends this response to inform the issuer the requested copy is being sent through the mail. Except for the reason code, the mail fulfillment and the non-fulfillment messages are identical. These transactions are available for Visa POS and Visa Electron. Free-Text Message – This message is used to provide or to request information of a general nature for POS transactions. Because these messages contain free text, rather than codes, they can be routed to a printer, for manual evaluation, or can be documented on a report. Administrative free-text messages must be supported by all issuers and acquirersother than Interlink issuers and acquirers. Supporting these messages are optional for Interlink issuers and acquirers. Funds Transfer – This message is used to send the day's final funds transfer totals after completion of settlement and reconciliation. Collection-Only Transaction – Collection-only transactions are intraprocessor Visa transactions processed entirely outside of VisaNet. Collection-only transactions submitted to VisaNet are not cleared, settled, or reported. Instead, VisaNet channels these transactions into special data warehouses where the transactions are available for selection for various Visa promotional programs, such as Visa Rewards and Our Treat. Submission of these transactions is optional. No client action is required for Visa to warehouse these transactions. Online Fraud Reporting – This message is used to report fraud transactions VisaNet passes to the Fraud Reporting System (FRS). These messages are available to Visa and to Interlink. Chip-Based Transaction—This administrative message for the Visa Smart Debit/Smart Credit (VSDC) Service consists of the following types: Chip-Based POS Offline Decline – An acquirer informs an issuer a transaction was declined offline because it failed to satisfy predefined risk criteria placed in the card or the terminal. Chip-Based POS Authentication Failure and/or Script Update Results – An acquirer informs an issuer that issuer authentication has failed or issuer script results are present.",
+      "new": "VCRFS Transaction – This transaction includes these message types: Copy Request – The issuer submits an administrative message for copy request processing. Copy Fulfillment – The acquirer sends an electronic image of the requested item along with additional requested data. Non-Fulfillment – The acquirer uses this response to notify the issuer the copy being requested is not sent. The message includes the reason for the non-fulfillment. Mail Fulfillment – An acquirer or a merchant sends this response to inform the issuer the requested copy is being sent through the mail. Except for the reason code, the mail fulfillment and the non-fulfillment messages are identical. These transactions are available for Visa POS and Visa Electron. Free-Text Message – This message is used to provide or to request information of a general nature for POS transactions. Because these messages contain free text, rather than codes, they can be routed to a printer, for manual evaluation, or can be documented on a report. Administrative free-text messages must be supported by all issuers and acquirersother than Interlink issuers and acquirers. Supporting these messages are optional for Interlink issuers and acquirers. Funds Transfer – This message is used to send the day's final funds transfer totals after completion of settlement and reconciliation. Collection-Only Transaction – Collection-only transactions are intraprocessor Visa transactions processed entirely outside of VisaNet. Collection-only transactions submitted to VisaNet are not cleared, settled, or reported. Instead, VisaNet channels these transactions into special data warehouses where the transactions are available for selection for various Visa promotional programs, such as Visa Rewards and Our Treat. Submission of these transactions is optional. No client action is required for Visa to warehouse these transactions. Online Fraud Reporting – This message is used to report fraud transactions VisaNet passes to the Fraud Reporting System (FRS). These messages are available to Visa and to Interlink. Chip-Based Transaction—This administrative message for the Visa Smart Debit/Smart Credit (VSDC) Service consists of these types: Chip-Based POS Offline Decline – An acquirer informs an issuer a transaction was declined offline because it failed to satisfy predefined risk criteria placed in the card or the terminal. Chip-Based POS Authentication Failure and Script Update Results, or both – An acquirer informs an issuer that issuer authentication has failed or issuer script results are present.",
+      "similarity_ratio": 0.981,
+      "ai_category": "business_rule_change",
+      "ai_reason": "El texto nuevo modifica el nombre de los tipos de mensajes en la sección Chip-Based Transaction, especificando 'Chip-Based POS Authentication Failure and Script Update Results, or both' en lugar de 'Chip-Based POS Authentication Failure and/or Script Update Results', lo que implica un cambio en la descripción de los resultados.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -2558,7 +2459,7 @@
       "new": "If processing of the original request was completed (a response was sent), V.I.P. responds to the acquirer with response code 94 (duplicate transmission) in field 39 and, optionally, includes the original response value in field 44.11. In this case, V.I.P. does not involve STIP nor the issuer. V.I.P. logs the request and the response. For duplicate transactions from authorization-only acquirers to full service issuers, V.I.P. sends the field 39 response code and the field 38 authorization code from the original. If processing of the original request is still in progress, V.I.P. logs the duplicate and discards it. (V.I.P. assumes the original is completed; therefore the duplicate is not needed.)",
       "similarity_ratio": 0.994,
       "ai_category": "business_rule_change",
-      "ai_reason": "El texto modifica la condición de que V.I.P. asume que el original está completado, cambiando de 'the original will be completed' a 'the original is completed', lo que altera la interpretación de la regla de negocio.",
+      "ai_reason": "El texto nuevo cambia 'the original will be completed' por 'the original is completed', lo que altera la interpretación de la condición de procesamiento.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -2709,7 +2610,7 @@
       "new": "The V.I.P. System supports these full financial exception transactions:",
       "similarity_ratio": 0.92,
       "ai_category": "editorial_reword",
-      "ai_reason": "El cambio solo afecta la palabra 'the following' por 'these', sin alterar el significado o regla de negocio.",
+      "ai_reason": "El cambio solo reemplaza 'the following' por 'these' sin alterar el significado o reglas de negocio.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -2757,7 +2658,7 @@
       "new": "Debit adjustments (processing code 02xxxx)—Acquirers use this transaction when the cardholder was charged less than the actual transaction amount. Credit adjustments (processing code 22xxxx)—Acquirers use this transaction when one of these conditions applies:",
       "similarity_ratio": 0.977,
       "ai_category": "editorial_reword",
-      "ai_reason": "El cambio solo reemplaza 'the following conditions' por 'these conditions' sin alterar el significado o regla de negocio.",
+      "ai_reason": "El cambio consiste solo en reemplazar 'the following conditions' por 'these conditions' para mantener coherencia en el uso de pronombres, sin alterar el significado o reglas de negocio.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -2868,7 +2769,7 @@
       "new": "V.I.P. can send automatic reconciliation advices that indicate that the settlement day is closed and that no more transactions are processed for that settlement day. The subsections describe processing for funds transfer totals messages.",
       "similarity_ratio": 0.963,
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto describe lo mismo pero con cambios menores en la redacción, como la sustitución de 'will be processed' por 'are processed' y la eliminación del artículo 'the' antes de 'subsections'.",
+      "ai_reason": "El texto describe lo mismo pero con pequeños cambios en la redacción, como 'no more transactions will be processed' vs 'no more transactions are processed' y la eliminación de 'the following' para ser más conciso.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -2968,7 +2869,7 @@
       "new": "The subsections describe the processing flows for all of these tasks.",
       "similarity_ratio": 0.932,
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto describe lo mismo pero elimina la palabra 'the following' para hacer la redacción más directa.",
+      "ai_reason": "El texto cambia solo en la eliminación del artículo 'the following' sin alterar el significado o regla de negocio.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -3047,7 +2948,7 @@
       "new": "The Dynamic Key Exchange (DKE) Service is an optional service that enables clients to change Data Encryption Standard (DES) cryptographic keys with VisaNet through the use of online 0800 and 0810 messages. For a comprehensive description of the DKE Service, refer to V.I.P. System Overview and Services. These fields in the 0800 request are used for a DKE Service key exchange request: Field 11—System Trace Audit Number Field 33—Forwarding Institution Identification Code Field 39—Response Code Field 48, Usage 14—Dynamic Key Exchange Working Key Check Value Field 52—Personal Identification Number (PIN) Data Field 53—Security-Related Control Information Field 63.1—Network ID Code Field 70—Network Management Information Code Field 105—Double-Length DES Key (Triple DES) Field 110—Encryption Data (TLV Format) Clients use 0800 requests to request and to deliver new working keys for PIN encryption; clients use 0810 responses to acknowledge their receipt. The 0800 message initiator, which can be a participating acquirer or issuer, or V.I.P., assigns the trace number (in field 11). Clients must return the trace number unchanged in the 0810 response. If a request must be re-sent, its trace number comes from the original request. The message originator must indicate which key is to be changed in Field 53—Security-Related Control Information. Acquirers can begin using the new key after the 0810 response is sent to V.I.P. For acquirers supporting a single working key, V.I.P. has the option of processing messages with the new key or with the old key for five minutes. After five minutes, all acquirer-initiated messages must have PINs encrypted with the new working key. For issuers, V.I.P. begins using the new key upon receipt of the 0810 response (in which the code in Field 39—Response Code is 00). For issuers supporting a single working key, they immediately update their copy of the key upon receipt of the 0800 request from V.I.P. V.I.P. continues sending messages with the old key until it receives the 0810 response. Therefore, single-key issuers must keep a copy of the old key until V.I.P. begins using the new one. If V.I.P. encounters PIN block errors during standard message processing, V.I.P. returns response code 81 (cryptographic error found) in PIN in the 0800 request and initiates an automatic acquirer key change. If the issuer encounters a PIN block error during verification, it returns response code 81 in the 0810 response. V.I.P. initiates an automatic issuer working key change.",
       "similarity_ratio": 0.998,
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto nuevo y viejo son idénticos en contenido y estructura, solo hay una diferencia en el uso de 'the following fields' vs 'these fields' que no altera el significado ni las reglas de negocio.",
+      "ai_reason": "El texto de la edición nueva es idéntico al texto de la edición vieja, solo hay una diferencia en el uso de 'the following fields' vs 'these fields', pero el significado y las reglas de negocio no han cambiado.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -3060,7 +2961,7 @@
       "new": "These subsections describe processing procedures for each of these conditions.",
       "similarity_ratio": 0.927,
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto cambia de 'The following subsections' a 'These subsections' pero mantiene el mismo significado y solo hay una diferencia en la elección de palabras sin alterar el contenido o reglas de negocio.",
+      "ai_reason": "El texto cambia solo en el artículo 'The following' por 'These', sin alterar el significado o reglas de negocio.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -3102,7 +3003,7 @@
       "new": "These subsections describe processing flows for each of these financial transaction exception conditions.",
       "similarity_ratio": 0.945,
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto describe lo mismo pero cambia la palabra 'The following' por 'These' para ser más conciso, sin alterar el significado o regla de negocio.",
+      "ai_reason": "El texto describe lo mismo pero cambia la palabra 'The following' por 'These' para ser más directo, sin alterar el significado o regla de negocio.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -3180,7 +3081,7 @@
       "new": "The subsections describe processing flows for each of these reversal scenarios.",
       "similarity_ratio": 0.94,
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto describe lo mismo pero elimina la palabra 'the following' para hacer la redacción más concisa.",
+      "ai_reason": "El texto describe lo mismo pero elimina la palabra 'the following' para hacer la redacción más directa.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -3210,7 +3111,7 @@
       "new": "These exception transactions include STIP processing and some other transaction processing performed when the issuer or the acquirer is unavailable.",
       "similarity_ratio": 0.961,
       "ai_category": "editorial_reword",
-      "ai_reason": "El cambio solo reemplaza 'The following' por 'These' sin alterar el significado o regla de negocio.",
+      "ai_reason": "El cambio solo altera la palabra 'The following' por 'These' y el uso de mayúscula en 'STIP', pero el significado y contenido permanecen iguales.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -3279,22 +3180,19 @@
       ]
     },
     {
-      "change_type": "paragraph_added",
+      "change_type": "paragraph_content_changed",
       "path": [
         "Exception Conditions",
         "Exception Transactions",
         "Dispute Financial—Issuer Unavailable After Dispute Financial"
       ],
-      "text": "Chapter 4 Multicurrency Support"
-    },
-    {
-      "change_type": "paragraph_removed",
-      "path": [
-        "Exception Conditions",
-        "Exception Transactions",
-        "Dispute Financial—Issuer Unavailable After Dispute Financial"
-      ],
-      "text": "Chapter 5 Multicurrency Support"
+      "old": "Chapter 5 Multicurrency Support",
+      "new": "Chapter 4 Multicurrency Support",
+      "similarity_ratio": 0.968,
+      "ai_category": "business_rule_change",
+      "ai_reason": "El cambio en el número de capítulo indica una alteración en la estructura del documento que afecta la clasificación de las secciones, lo que implica una modificación en las reglas de negocio o el flujo de procesamiento.",
+      "disappeared_content": [],
+      "safety_net_override": false
     },
     {
       "change_type": "paragraph_content_changed",
@@ -3348,7 +3246,7 @@
       "new": "When V.I.P. performs currency conversion, the issuer receives this (The values are from the same example.):",
       "similarity_ratio": 0.942,
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto describe lo mismo pero cambia la redacción y el formato de la oración, eliminando el espacio antes de la coma y ajustando la estructura para ser más conciso.",
+      "ai_reason": "El cambio solo modifica la redacción y el uso de 'this' en lugar de 'the following', sin alterar el significado o regla de negocio.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -4466,13 +4364,6 @@
       "text": "Fld 16 = 10/15"
     },
     {
-      "change_type": "paragraph_added",
-      "path": [
-        "Multicurrency Field Flows"
-      ],
-      "text": "Chapter 5 Stand-In Processing (STIP)"
-    },
-    {
       "change_type": "paragraph_removed",
       "path": [
         "Multicurrency Field Flows"
@@ -5313,11 +5204,17 @@
       "text": "currency; add Fld 5 · Add Fld 9 · Add Fld 16 · Add Fld 50"
     },
     {
-      "change_type": "paragraph_removed",
+      "change_type": "paragraph_content_changed",
       "path": [
         "Multicurrency Field Flows"
       ],
-      "text": "Chapter 6 Stand-In Processing (STIP)"
+      "old": "Chapter 6 Stand-In Processing (STIP)",
+      "new": "Chapter 5 Stand-In Processing (STIP)",
+      "similarity_ratio": 0.972,
+      "ai_category": "business_rule_change",
+      "ai_reason": "El cambio en el número del capítulo (de 6 a 5) indica una modificación en la estructura de las reglas de negocio, lo que afecta la organización y el flujo de procesamiento de transacciones.",
+      "disappeared_content": [],
+      "safety_net_override": false
     },
     {
       "change_type": "paragraph_content_changed",
@@ -5341,7 +5238,7 @@
       "new": "4 to settlement currency; add Fld 5 · Add Fld 9 · Add Fld 16 · Add Fld 50",
       "similarity_ratio": 0.919,
       "ai_category": "business_rule_change",
-      "ai_reason": "Se añadió un nuevo campo (Fld 5) en el flujo de procesamiento, lo que implica un cambio en las reglas de negocio para el procesamiento multieschange.",
+      "ai_reason": "Se añadió un nuevo campo (Fld 5) en el flujo de procesamiento, lo que indica un cambio en las reglas de negocio para el manejo de monedas.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -5354,7 +5251,7 @@
       "new": "amount to settlement currency; add Fld 5 · Add Fld 9 · Add Fld 16 · Add Fld 50",
       "similarity_ratio": 0.911,
       "ai_category": "business_rule_change",
-      "ai_reason": "El texto cambia de '4 to settlement currency' a 'amount to settlement currency', lo que indica una modificación en la descripción de la cantidad a usar en la moneda de liquidación, afectando la regla de negocio.",
+      "ai_reason": "El texto antiguo menciona '4 to settlement currency' mientras que el nuevo dice 'amount to settlement currency', lo que indica un cambio en la descripción de qué se debe agregar (cantidad en lugar de '4'), afectando la regla de negocio.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -5382,7 +5279,7 @@
       "new": "V.I.P. stores advices online for 30 days. Issuers that want to retrieve their advices should retrieve them within this 30-day period.",
       "similarity_ratio": 0.959,
       "ai_category": "editorial_reword",
-      "ai_reason": "El cambio solo modifica el verbo 'need' por 'should' para indicar una recomendación en lugar de una obligación, sin alterar el significado de la regla de negocio.",
+      "ai_reason": "El cambio solo modifica el verbo 'need' por 'should' para indicar una recomendación en lugar de una obligación, sin alterar el significado o regla de negocio.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -5412,21 +5309,7 @@
       "new": "Activity limits are often referred to as count and amount limits, or simply counts and amounts. Issuers can use these Account Screen Authorization File (ASAF) options to designate special processing for accounts including:",
       "similarity_ratio": 0.973,
       "ai_category": "editorial_reword",
-      "ai_reason": "El cambio solo reemplaza 'the following' por 'these' sin alterar el significado o regla de negocio.",
-      "disappeared_content": [],
-      "safety_net_override": false
-    },
-    {
-      "change_type": "paragraph_content_changed",
-      "path": [
-        "Stand-In Processing (STIP)",
-        "STIP Authorization Processing"
-      ],
-      "old": "STIP performs the following steps when processing authorization and financial transactions:",
-      "new": "STIP performs these steps when processing authorization and financial transactions:",
-      "similarity_ratio": 0.931,
-      "ai_category": "editorial_reword",
-      "ai_reason": "El cambio solo afecta la palabra 'following' a 'these', manteniendo el mismo significado y flujo de procesamiento sin alterar reglas de negocio.",
+      "ai_reason": "El cambio consiste solo en reemplazar 'the following' por 'these' para mantener el mismo significado sin alterar la regla de negocio.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -5440,7 +5323,21 @@
       "new": "V.I.P. stores advices online for 30 days. Issuers that want to retrieve their advices should retrieve them within this 30-day period. STIP does not perform all tests for all transactions:",
       "similarity_ratio": 0.971,
       "ai_category": "editorial_reword",
-      "ai_reason": "El cambio solo modifica el verbo 'need' por 'should' para indicar una recomendación en lugar de una obligación, manteniendo el mismo significado y regla de negocio.",
+      "ai_reason": "El cambio solo modifica el verbo 'need' por 'should' para indicar una recomendación en lugar de una obligación, sin alterar el significado o regla de negocio.",
+      "disappeared_content": [],
+      "safety_net_override": false
+    },
+    {
+      "change_type": "paragraph_content_changed",
+      "path": [
+        "Stand-In Processing (STIP)",
+        "STIP Authorization Processing"
+      ],
+      "old": "STIP performs the following steps when processing authorization and financial transactions:",
+      "new": "STIP performs these steps when processing authorization and financial transactions:",
+      "similarity_ratio": 0.931,
+      "ai_category": "editorial_reword",
+      "ai_reason": "El cambio solo reemplaza 'the following' por 'these' sin alterar el significado o regla de negocio.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -5455,7 +5352,7 @@
       "new": "The Assured Transaction Response (ATR) function monitors all authorization requests it forwards to issuers to ensure that each request receives a timely authorization response. When V.I.P. routes a request to the issuer, it sets a timer to monitor how long the issuer takes to respond. If an issuer does not send an authorization response to V.I.P. within the specified time limit, V.I.P. invokes STIP to determine the approval or decline decision on the issuer’s behalf. If an issuer sends a response after V.I.P. has diverted the corresponding request to STIP, the STIP- generated decision prevails, and V.I.P. discards the response from the issuer. Refer to the Visa Core Rules and Visa Product and Service Rules for issuer response time requirements.",
       "similarity_ratio": 0.995,
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto solo cambia la palabra 'diverts' por 'diverted' y ajusta la gramática para ser más conciso, manteniendo el mismo significado y reglas de negocio.",
+      "ai_reason": "El texto nuevo y viejo expresan la misma idea con cambios menores en la redacción, como la sustitución de 'diverts' por 'divert' y ajustes en la estructura de frases sin alterar el significado o reglas de negocio.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -5488,7 +5385,7 @@
       "new": "V.I.P. checks expiration dates on transactions routed to STIP based on issuer-defined options. If the issuer specifies that STIP is to check expiration dates, STIP declines transactions that lack them. STIP edits expiration dates depending on whether expiration dates are present in Field 14— Date, Expiration. Expiration dates must be in YYMM numeric format: YY = year (00-99), and MM = month (01-12). If the issuer specifies that STIP is to process transactions without expiration dates, STIP performs normal processing on transactions except for preauthorizations and adjustments. Issuers must use a value representing a year that is not greater than 20 years from the issue date or use the value 4912 in Field 35—Track 2 Data to designate a non-expiring card. V.I.P. considers expiration dates expired if they are 50 years greater than current dates. If expiration dates are invalid or expired, STIP sets expiration date response code to 54 (expired card or expiration date is missing), and sets internal indicators to indicate transactions should be forward-referred to issuers, if available. V.I.P. includes response codes in 0110 responses from STIP and STIP advices. If the date is valid and there are no edit failures for other reasons, STIP assigns response code 00 (approved) to the request. If expiration dates are not present and transactions meet one of these qualifications, STIP and (PACM participating) sets expiration date response code to 05 (do not honor), and sets internal indicators to indicate transactions should be forward-referred to issuers, if available:",
       "similarity_ratio": 0.996,
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto nuevo y viejo tienen el mismo significado, solo se cambió el orden de las palabras en 'one of the following qualifications' a 'one of these qualifications' y se corrigió la puntuación para que sea coherente con el estilo del documento.",
+      "ai_reason": "El texto nuevo y viejo tienen el mismo contenido, solo se cambió el orden de las palabras en 'one of the following qualifications' a 'one of these qualifications' para mantener coherencia en la redacción.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -5503,7 +5400,7 @@
       "new": "If a transaction is eligible for stand-in processing, STIP evaluates the issuers' supported transaction types. Transaction types are identified based on Field 3— Processing Code of the authorization or full financial message. If the issuer does not support the transaction type or does not allow STIP approvals, VIP assigns the appropriate decline response code.",
       "similarity_ratio": 0.975,
       "ai_category": "editorial_reword",
-      "ai_reason": "El cambio solo afecta la palabra 'will' a 'assigns', que es un cambio de conjugación del verbo para mantener el tercero persona singular en el presente, sin alterar el significado o regla de negocio.",
+      "ai_reason": "El cambio solo consiste en reemplazar 'will' por 'assigns' para mantener el tiempo verbal coherente, sin alterar el significado o regla de negocio.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -5533,7 +5430,7 @@
       "new": "By default, the VAA threshold for each category is set to a value of 30 (40 for issuers in Europe); however, issuers can adjust these value to balance their cardholder service and risk strategies. VAA risk scores fall within the range of 01–99 where 01 indicates that a transaction is less risky and 99 indicates that a transaction is riskier. When a transaction is processed in STIP, the VAA score for the transaction is compared to the VAA risk score threshold for the corresponding category. The POS card-not-present VAA risk score threshold is applied to card-not-present, mail, telephone, e-commerce, and recurring payment transactions when the POS Condition Code in Field 25 of the authorization message is one of the values, listed in below.",
       "similarity_ratio": 0.993,
       "ai_category": "editorial_reword",
-      "ai_reason": "El cambio consiste solo en eliminar el artículo 'the' antes de 'POS card-not-present VAA risk score threshold', manteniendo el mismo significado y regla de negocio.",
+      "ai_reason": "El texto solo cambia la palabra 'will be' por 'is applied', manteniendo el mismo significado y regla de negocio.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -5563,7 +5460,7 @@
       "new": "If all of these conditions are present: V.I.P. approves the transaction on the issuer’s behalf:",
       "similarity_ratio": 0.969,
       "ai_category": "editorial_reword",
-      "ai_reason": "El cambio solo modifica la palabra 'will approve' por 'approves' y el acento en 'issuer’s', pero el significado y la regla de negocio permanecen iguales.",
+      "ai_reason": "El cambio solo modifica la palabra 'will approve' por 'approves' para mantener el tiempo verbal correcto, sin alterar el significado o regla de negocio.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -5578,7 +5475,7 @@
       "new": "If CVV2 is not present in the transaction, STIP uses the issuer-defined response code for missing CVV2. If the issuer does not participate in CVV2, or has not provided CVV2 keys to Visa, VIP bypasses CVV2 verification.",
       "similarity_ratio": 0.901,
       "ai_category": "business_rule_change",
-      "ai_reason": "El texto modifica 'issuer defined response code' a 'issuer-defined response code' y 'VIP will bypass' a 'VIP bypasses', lo que implica un cambio en la precisión del código de respuesta y el verbo, afectando la regla de negocio.",
+      "ai_reason": "El cambio modifica 'issuer defined response code' a 'issuer-defined response code' y 'VIP will bypass' a 'VIP bypasses', lo que afecta la precisión del código de respuesta y el comportamiento del sistema.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -5593,7 +5490,7 @@
       "new": "If V.I.P. encounters an error when comparing the transaction information with the corresponding cardholder record in the Cardholder Database, STIP responds with response code 96 (system malfunction). If the card has a positive PIN Verification value (Visa PVV or IBM PIN offset ) on file and the card number is not listed, STIP responds with response code 14 (invalid card number, no such number).",
       "similarity_ratio": 0.944,
       "ai_category": "business_rule_change",
-      "ai_reason": "El texto nuevo especifica que el 'card has a positive PIN Verification value (Visa PVV or IBM PIN offset ) on file' es una condicion adicional para responder con código 14, mientras que el texto viejo no mencionaba esta condición, cambiando la regla de negocio.",
+      "ai_reason": "El texto nuevo especifica que el 'card has a positive PIN Verification value (Visa PVV or IBM PIN offset)' en lugar de 'issuer has a positive PIN Verification Value (PVV) file', lo que cambia la condición de procesamiento para el código de respuesta 14.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -5608,7 +5505,7 @@
       "new": "The destination is not available (for instance, the line to the client is down, the client is signed off or is in Advice Recovery-only mode, or the client has exceeded the response time limit). The request is a returned message and all of these conditions apply:",
       "similarity_ratio": 0.977,
       "ai_category": "editorial_reword",
-      "ai_reason": "El cambio solo afecta la palabra 'all' a 'these' y el orden de las comas, manteniendo el mismo significado y condiciones de procesamiento.",
+      "ai_reason": "El cambio consiste solo en reemplazar 'all of the following conditions apply' por 'all of these conditions apply', manteniendo el mismo significado y sin alterar las reglas de negocio.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -5641,22 +5538,7 @@
       "new": "The transaction is a balance inquiry and the default response code is 57 for balance inquiries. The transaction contains an invalid service code or the card product is not valid for the service code. The transaction is processed as a PIN Debit Gateway Service (PDGS) transaction or is a preauthorization or a preauthorization completion that contains dispute financial. The acquirer in a PIN Debit Gateway Service (PDGS) transaction is in the U.S. region, but the issuer is not in the U.S. The transaction is an e-commerce transaction and Field 18—Merchant Type contains code 7995 (gambling) and the transaction does not contain a valid MVV. VisaNet sends online gambling transactions originating from a merchant with a valid MVV, indicating that the merchant is legitimate, to the issuer for processing, even if the issuer has specified that VisaNet is to decline all gambling transactions. The transaction is one of these Interlink transactions:",
       "similarity_ratio": 0.993,
       "ai_category": "editorial_reword",
-      "ai_reason": "El cambio consiste solo en reemplazar 'the transaction is one of the following Interlink transactions:' por 'the transaction is one of these Interlink transactions:', lo que es una variación en la palabra 'following' vs 'these' sin alterar el significado o regla de negocio.",
-      "disappeared_content": [],
-      "safety_net_override": false
-    },
-    {
-      "change_type": "paragraph_content_changed",
-      "path": [
-        "Stand-In Processing (STIP)",
-        "V.I.P. Functions in Support of STIP",
-        "Invalid Transaction Class"
-      ],
-      "old": "The transaction is one of the following e-commerce person-to-person (P2P) transactions:",
-      "new": "The transaction is one of these e-commerce person-to-person (P2P) transactions:",
-      "similarity_ratio": 0.928,
-      "ai_category": "editorial_reword",
-      "ai_reason": "El cambio solo modifica el uso de 'the following' por 'these' para mantener coherencia en la enumeración de transacciones, sin alterar el significado o reglas de negocio.",
+      "ai_reason": "El cambio consiste solo en reemplazar 'the transaction is one of the following Interlink transactions:' por 'the transaction is one of these Interlink transactions:', lo que es una variación de redacción sin alterar el significado o regla de negocio.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -5671,7 +5553,22 @@
       "new": "STIP declines these Visa Electron transactions with response code 57 (transaction not permitted to cardholder), depending on the issuer setting:",
       "similarity_ratio": 0.959,
       "ai_category": "editorial_reword",
-      "ai_reason": "El cambio solo altera el uso de 'the following' por 'these' sin modificar el significado o regla de negocio.",
+      "ai_reason": "El cambio solo reemplaza 'the following' por 'these' sin alterar el significado ni las reglas de negocio.",
+      "disappeared_content": [],
+      "safety_net_override": false
+    },
+    {
+      "change_type": "paragraph_content_changed",
+      "path": [
+        "Stand-In Processing (STIP)",
+        "V.I.P. Functions in Support of STIP",
+        "Invalid Transaction Class"
+      ],
+      "old": "The transaction is one of the following e-commerce person-to-person (P2P) transactions:",
+      "new": "The transaction is one of these e-commerce person-to-person (P2P) transactions:",
+      "similarity_ratio": 0.928,
+      "ai_category": "editorial_reword",
+      "ai_reason": "El cambio solo modifica la palabra 'the following' por 'these' y el uso de la coma, manteniendo el mismo significado y regla de negocio.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -5720,7 +5617,7 @@
       "new": "The VSM encounters an error during the verification. The acquirer requests PVS processing and there is no PIN Verification Value (PVV) or IBM PIN Offset on file. V.I.P. encounters a PVS error other than invalid PIN, keys in error, or PIN block format error. STIP responds with response code 55 (incorrect PIN or PIN missing) if the VSM returns with no errors, but was unable to verify the PIN. STIP also responds with response code 55 if the transaction requires a PIN, but a PIN is not present in the message. V.I.P. forwards field 52 and field 53 or drops them from a request message depending on what the issuer has chosen. If the issuer has chosen to have both, V.I.P. and the issuer's processor perform verification, and when the issuer is available to translate (decrypt) PINS, VisaNet forwards field 52 and field 53 to the issuer. When the issuer is unavailable, VisaNet forwards the two PIN fields to STIP. If the issuer has chosen to have V.I.P. perform PIN Verification, and if PIN Verification is successful, V.I.P. drops field 52 and field 53 from the request message. STIP responds with response code 81 (cryptographic error found in PIN) if:",
       "similarity_ratio": 0.992,
       "ai_category": "business_rule_change",
-      "ai_reason": "El texto antiguo menciona 'no PIN Verification Value (PVV) on file' mientras que el nuevo texto incluye 'no PIN Verification Value (PVV) or IBM PIN Offset on file', lo que indica un cambio en la condición de procesamiento para cuando no hay PIN en el sistema.",
+      "ai_reason": "El texto antiguo menciona solo 'PIN Verification Value (PVV)' mientras que el nuevo texto incluye 'PIN Verification Value (PVV) or IBM PIN Offset', lo que indica un cambio en la condición de procesamiento para cuando no hay PIN en archivo.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -5810,7 +5707,7 @@
       "new": "STIP provides stand-in processing for an acquirer when the acquirer is unable to receive issuer- generated messages including dispute financials, fee collections and funds disbursements, and text messages. Stand-in processing occurs under these conditions:",
       "similarity_ratio": 0.977,
       "ai_category": "editorial_reword",
-      "ai_reason": "El cambio solo reemplaza 'the following conditions' por 'these conditions' sin alterar el significado o regla de negocio.",
+      "ai_reason": "El cambio consiste solo en reemplazar 'the following conditions' por 'these conditions', manteniendo el mismo significado y contenido.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -5866,7 +5763,7 @@
       "new": "STIP processes these types of preauthorization transactions for issuers that participate in the Preauthorization Stand-In Service.",
       "similarity_ratio": 0.955,
       "ai_category": "editorial_reword",
-      "ai_reason": "El cambio solo reemplaza 'the following' por 'these' para mayor fluidez en la redacción, sin alterar el significado o reglas de negocio.",
+      "ai_reason": "El cambio consiste solo en reemplazar 'the following' por 'these' para mantener el mismo significado sin alterar la regla de negocio.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -5881,7 +5778,7 @@
       "new": "For preauthorization requests, STIP sends one of these responses to the acquirer indicating the stand-in action taken:",
       "similarity_ratio": 0.951,
       "ai_category": "editorial_reword",
-      "ai_reason": "El cambio consiste en reemplazar 'the following' por 'these' para mayor coherencia en el uso del lenguaje, sin alterar el significado o regla de negocio.",
+      "ai_reason": "El cambio consiste en reemplazar 'the following' por 'these' para mantener el mismo significado, solo una variación de redacción.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -5960,7 +5857,21 @@
       "new": "The settlement process consists of various tasks that VisaNet performs so that funds can be transferred. VisaNet performs settlement tasks during and after transaction processing (clearing), the process that delivers transaction data to participants. The settlement process includes these tasks performed by VisaNet:",
       "similarity_ratio": 0.981,
       "ai_category": "editorial_reword",
-      "ai_reason": "El cambio solo reemplaza 'the following tasks' por 'these tasks' sin alterar el significado o reglas de negocio.",
+      "ai_reason": "El cambio consiste solo en reemplazar 'the following tasks' por 'these tasks', manteniendo el mismo significado y estructura del texto.",
+      "disappeared_content": [],
+      "safety_net_override": false
+    },
+    {
+      "change_type": "paragraph_content_changed",
+      "path": [
+        "Settlement Overview",
+        "Transactions Qualifying for Settlement"
+      ],
+      "old": "VisaNet does not include the values of the following transactions in settlement totals; however, processing charges apply and are billed at month end.",
+      "new": "VisaNet does not include the values of these transactions in settlement totals; however, processing charges apply and are billed at month end.",
+      "similarity_ratio": 0.959,
+      "ai_category": "editorial_reword",
+      "ai_reason": "El texto mantiene el mismo significado pero cambia 'the following transactions' por 'these transactions' para ser más conciso y natural en el lenguaje.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -5995,20 +5906,6 @@
     {
       "change_type": "paragraph_content_changed",
       "path": [
-        "Settlement Overview",
-        "Transactions Qualifying for Settlement"
-      ],
-      "old": "VisaNet does not include the values of the following transactions in settlement totals; however, processing charges apply and are billed at month end.",
-      "new": "VisaNet does not include the values of these transactions in settlement totals; however, processing charges apply and are billed at month end.",
-      "similarity_ratio": 0.959,
-      "ai_category": "editorial_reword",
-      "ai_reason": "El texto mantiene el mismo significado pero cambia 'the following transactions' por 'these transactions' para ser más conciso y fluido.",
-      "disappeared_content": [],
-      "safety_net_override": false
-    },
-    {
-      "change_type": "paragraph_content_changed",
-      "path": [
         "VisaNet Settlement Service (VSS)"
       ],
       "old": "Full service clients settle through VSS. VSS performs the settlement functions for full service financial and for BASE II financial transactions and for BASE II in one centralized service that ensures consistency in settlement and in reporting. VSS provides clients with the following features:",
@@ -6028,7 +5925,7 @@
       "new": "The subsections describe these features along with key elements of the settlement and reconciliation process in the VSS environment.",
       "similarity_ratio": 0.964,
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto elimina la palabra 'the following' para ser más conciso, manteniendo el mismo significado.",
+      "ai_reason": "El texto elimina la palabra 'The following' para ser más conciso, manteniendo el mismo significado.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -6111,36 +6008,28 @@
       "safety_net_override": false
     },
     {
-      "change_type": "paragraph_added",
+      "change_type": "paragraph_content_changed",
       "path": [
         "For More Information"
       ],
-      "text": "Chapter 8 Client-to-Visa Connection Options"
-    },
-    {
-      "change_type": "paragraph_removed",
-      "path": [
-        "For More Information"
-      ],
-      "text": "Chapter 10 Client-to-Visa Connection Options"
-    },
-    {
-      "change_type": "paragraph_removed",
-      "path": [
-        "VisaNet Connection Options"
-      ],
-      "text": "Various options are also available for host-to-host report and file delivery. This chapter describes these options."
+      "old": "Chapter 10 Client-to-Visa Connection Options",
+      "new": "Chapter 8 Client-to-Visa Connection Options",
+      "similarity_ratio": 0.966,
+      "ai_category": "business_rule_change",
+      "ai_reason": "El cambio en el número de capítulo indica una modificación en la estructura del documento que afecta la organización de las reglas de negocio.",
+      "disappeared_content": [],
+      "safety_net_override": false
     },
     {
       "change_type": "paragraph_content_changed",
       "path": [
         "VisaNet Connection Options"
       ],
-      "old": "A client can connect for full service processing through a VisaNet connection method, which is a Visa-owned system located in the client's processing center. A VisaNet connection method can connect the client to V.I.P. for authorization-only and BASE II for clearing, to V.I.P. for full service processing, or to all three. VisaNet connection methods can support online interchange and batch processing. Online interchange is processed by the V.I.P. component of the connection, which handles authorization and financial online message traffic. The V.I.P. component can reside on the same connection method as the BASE II component, or on a separate connection. The following descriptions assume that the V.I.P. component is loaded on the same connection as the BASE II component.",
+      "old": "A client can connect for full service processing through a VisaNet connection method, which is a Visa-owned system located in the client's processing center. A VisaNet connection method can connect the client to V.I.P. for authorization-only and BASE II for clearing, to V.I.P. for full service processing, or to all three. VisaNet connection methods can support online interchange and batch processing. Online interchange is processed by the V.I.P. component of the connection, which handles authorization and financial online message traffic. The V.I.P. component can reside on the same connection method as the BASE II component, or on a separate connection. The following descriptions assume that the V.I.P. component is loaded on the same connection as the BASE II component. Various options are also available for host-to-host report and file delivery. This chapter describes these options.",
       "new": "A client can connect for full service processing through a VisaNet connection method, which is a Visa-owned system located in the client's processing center. A VisaNet connection method can connect the client to V.I.P. for authorization-only and BASE II for clearing, to V.I.P. for full service processing, or to all three. VisaNet connection methods can support online interchange and batch processing. Online interchange is processed by the V.I.P. component of the connection, which handles authorization and financial online message traffic. The V.I.P. component can reside on the same connection method as the BASE II component, or on a separate connection. The descriptions assume that the V.I.P. component is loaded on the same connection as the BASE II component. Various options are also available for host-to-host report and file delivery. This chapter describes these options.",
-      "similarity_ratio": 0.924,
+      "similarity_ratio": 0.994,
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto nuevo solo reescribe la frase original sin añadir o eliminar contenido relevante, solo cambia la palabra 'the following' por 'the descriptions' y añade una oración final sobre opciones de entrega de reportes, pero el cambio es de redacción y no de regla de negocio.",
+      "ai_reason": "El texto solo cambia 'the following descriptions assume' por 'the descriptions assume', eliminando la palabra 'following' sin alterar el significado.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -6169,7 +6058,7 @@
       "new": "clients can receive all data and report records at the VisaNet connection in a single, undifferentiated file (file type UNDIF). Alternatively, the Customized Delivery feature allows clients to request individual files for some types of data and reports. Routing table files are not available through the Customized Delivery feature and are delivered as shown in this table.",
       "similarity_ratio": 0.983,
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto elimina la palabra 'Full service' que no afecta el significado, solo ajusta la redacción para ser más conciso.",
+      "ai_reason": "El texto solo elimina la palabra 'Full service' al inicio, manteniendo el mismo significado y estructura de la información.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -6183,7 +6072,7 @@
       "new": "Clients can choose from among these connectivity options to transfer files between their VisaNet connection and their host:",
       "similarity_ratio": 0.953,
       "ai_category": "editorial_reword",
-      "ai_reason": "El cambio solo reemplaza 'the following' por 'these' sin alterar el significado o regla de negocio.",
+      "ai_reason": "El cambio consiste solo en reemplazar 'the following' por 'these' para mantener el mismo significado sin alterar las reglas de negocio.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -6206,11 +6095,11 @@
       "path": [
         "Report and File Delivery Options"
       ],
-      "old": "The following options are available for delivering SMS reports, raw data, and routing files to clients.",
-      "new": "These options are available for delivering SMS reports, raw data, and routing files to clients.",
-      "similarity_ratio": 0.939,
+      "old": "All BASE II options, including the DEX OFD option, use TC 33 and TC 45 wrappers around SMS data and reports; the following non-BASE II options do not use TC formats. Full service V.I.P. connection, SMS offline, DEX OFD connection, without TC wrappers.",
+      "new": "All BASE II options, including the DEX OFD option, use TC 33 and TC 45 wrappers around SMS data and reports; these non-BASE II options do not use TC formats. Full service V.I.P. connection, SMS offline, DEX OFD connection, without TC wrappers.",
+      "similarity_ratio": 0.976,
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto cambia solo la palabra 'The following' por 'These' sin alterar el significado o reglas de negocio.",
+      "ai_reason": "El texto solo cambia la palabra 'the following' por 'these' para referirse a las opciones no-BASE II, manteniendo el mismo significado y estructura lógica.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -6219,11 +6108,11 @@
       "path": [
         "Report and File Delivery Options"
       ],
-      "old": "All BASE II options, including the DEX OFD option, use TC 33 and TC 45 wrappers around SMS data and reports; the following non-BASE II options do not use TC formats. Full service V.I.P. connection, SMS offline, DEX OFD connection, without TC wrappers.",
-      "new": "All BASE II options, including the DEX OFD option, use TC 33 and TC 45 wrappers around SMS data and reports; these non-BASE II options do not use TC formats. Full service V.I.P. connection, SMS offline, DEX OFD connection, without TC wrappers.",
-      "similarity_ratio": 0.976,
+      "old": "The following options are available for delivering SMS reports, raw data, and routing files to clients.",
+      "new": "These options are available for delivering SMS reports, raw data, and routing files to clients.",
+      "similarity_ratio": 0.939,
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto describe lo mismo que antes, solo se cambió la estructura de la oración para mejorar la fluidez sin alterar el significado.",
+      "ai_reason": "El cambio solo reemplaza 'The following' por 'These' sin alterar el significado o reglas de negocio.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -6270,7 +6159,7 @@
       "new": "Clients must use VROL for transmitting dispute documentation. Clients can also choose to use VROL for processing financial exception transactions. VROL is a web application hosted on Visa Access that clients can access through the Internet. VROL also uses a Bulk System Interface that works over a client’s OFD or VFES connection to Visa. For a full service client that uses VROL, financial exceptions are supported on all V.I.P.- supported networks. Acquirers can initiate these transactions from the VROL web application or Bulk System Interface:",
       "similarity_ratio": 0.989,
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto solo cambia 'Visa Online' por 'Visa Access' en la descripción de VROL, manteniendo el mismo significado y contenido.",
+      "ai_reason": "El cambio consiste solo en reemplazar 'Visa Online' por 'Visa Access' en la descripción de VROL, manteniendo el mismo significado y contenido.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -6316,14 +6205,14 @@
       "old": "Issuers can choose to have the Visa Security Module (VSM) verify the following verification values all of the time or only when the issuer is unavailable and STIP processes the transaction.",
       "new": "Issuers can choose to have the Visa Security Module (VSM) verify the verification values all of the time or only when the issuer is unavailable and STIP processes the transaction for:",
       "similarity_ratio": 0.957,
-      "ai_category": "editorial_reword",
-      "ai_reason": "El texto describe la misma regla de negocio pero con una reordenación de frases y una adición de la palabra 'for:' que no altera el significado real.",
+      "ai_category": "business_rule_change",
+      "ai_reason": "El texto nuevo añade una lista de verificaciones específicas con el uso de 'for:', lo que indica que el comportamiento de verificación cambió de ser siempre o solo cuando el emisor está inaccesible a una condición más específica.",
       "disappeared_content": [],
       "safety_net_override": false
     }
   ],
   "ai_summary": {
-    "business_rule_change": 10,
-    "editorial_reword": 68
+    "business_rule_change": 14,
+    "editorial_reword": 66
   }
 }

@@ -268,7 +268,7 @@
       "similarity_ratio": 0.375,
       "table": "ISO Numeric",
       "ai_category": "business_rule_change",
-      "ai_reason": "El texto anterior incluía la especificación de 'Province of China' que ahora se ha eliminado, cambiando el significado comercial de la entidad.",
+      "ai_reason": "El texto anterior incluía la especificación de que Taiwan es una provincia de China, mientras que el nuevo texto elimina esa información, lo que cambia el significado comercial de la entidad.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -386,7 +386,7 @@
       "similarity_ratio": 0.839,
       "table": "Country and Currency Codes",
       "ai_category": "business_rule_change",
-      "ai_reason": "El texto nuevo incluye 'Euro' que no estaba en el viejo, indicando un cambio en el valor de negocio de la moneda.",
+      "ai_reason": "El texto nuevo incluye 'Euro' que indica una nueva moneda, cambiando el significado del código de moneda.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -414,7 +414,7 @@
       "similarity_ratio": 0.6,
       "table": "Country and Currency Codes",
       "ai_category": "extraction_noise",
-      "ai_reason": "El texto nuevo incluye un valor adicional que no estaba en el viejo, probablemente un artefacto de extracción de PDF.",
+      "ai_reason": "El texto nuevo incluye un valor adicional que no estaba en el viejo, lo que sugiere un artefacto de extracción de PDF.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -427,8 +427,8 @@
       "new": "Leone\nLeone",
       "similarity_ratio": 0.625,
       "table": "Country and Currency Codes",
-      "ai_category": "editorial_reword",
-      "ai_reason": "El texto cambió de 'Leone' a 'Leone\nLeone' sin alterar el significado, solo añadiendo un salto de línea para mejorar la presentación.",
+      "ai_category": "extraction_noise",
+      "ai_reason": "El texto en la edición nueva tiene un duplicado de 'Leone' que probablemente es un artefacto de extracción de PDF.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -572,7 +572,7 @@
       "similarity_ratio": 0.014,
       "table": "Glossary",
       "ai_category": "business_rule_change",
-      "ai_reason": "El texto nuevo elimina la descripción específica de las regiones (AP, CEMEA, LAC, Europe, US y Canada) y la definición adicional de cuenta, manteniendo el significado central sin cambios en el contenido o valores de negocio.",
+      "ai_reason": "El texto nuevo elimina la descripción específica de las regiones y el contexto de la definición original, manteniendo el significado esencial sin cambios en el contenido real.",
       "disappeared_content": [
         "In the AP, CEMEA, LAC, Europe, and US Regions: A card linked to a secured or unsecured open-ended credit account, including revolving or non-revolving consumer, business, or commercial credit or charge accounts, or a credit account or equivalent as defined under applicable laws or regulations. An account is not a credit account if the credit results from the incidental extension of credit, such as overdraft or minimum balance protection or similar services. In the Canada Region: A card other than a Visa Debit Category Card. Glossary Definition:"
       ],
@@ -589,7 +589,7 @@
       "similarity_ratio": 0.959,
       "table": "Glossary",
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto describe lo mismo pero cambia 'cardholder' por 'account holder' y 'cardholders' por 'account holders' para mantener coherencia en el uso del término.",
+      "ai_reason": "Solo se cambió 'cardholder' por 'account holder' y 'cardholders' por 'account holders' en el texto, manteniendo el mismo significado.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -603,14 +603,14 @@
       "similarity_ratio": 0.952,
       "table": "Glossary",
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto describe el mismo concepto con cambios menores en la redacción, como 'cardholder' a 'account holder' y ajustes en la estructura de frases.",
+      "ai_reason": "El texto describe el mismo concepto con cambios en la terminología de 'cardholder' a 'account holder' y ajustes en la redacción para mantener coherencia.",
       "disappeared_content": [],
       "safety_net_override": false
     }
   ],
   "ai_summary": {
     "business_rule_change": 6,
-    "extraction_noise": 2,
-    "editorial_reword": 3
+    "extraction_noise": 3,
+    "editorial_reword": 2
   }
 }

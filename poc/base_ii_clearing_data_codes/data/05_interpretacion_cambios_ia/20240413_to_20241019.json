@@ -148,7 +148,7 @@
       "similarity_ratio": 0.4,
       "table": "AVS Response Codes",
       "ai_category": "business_rule_change",
-      "ai_reason": "El significado del código A cambió de 'Address matches, but ZIP code does not match' a 'AVS street address only (partial match)', lo que altera la interpretación del código en el contexto de los códigos AVS.",
+      "ai_reason": "El significado del código A cambió de 'Address matches, but ZIP code does not match' a 'AVS street address only (partial match)', lo que altera la definición de negocio para este código.",
       "disappeared_content": [
         "Address matches, but ZIP code does not match."
       ],
@@ -164,7 +164,7 @@
       "similarity_ratio": 0.417,
       "table": "AVS Response Codes",
       "ai_category": "business_rule_change",
-      "ai_reason": "El texto describe el mismo concepto pero con una redacción más corta y directa, sin cambios en el significado.",
+      "ai_reason": "El texto describe el mismo concepto pero con una redacción más corta y directa, eliminando detalles específicos como 'Address and ZIP code' para enfocarse en el resultado AVS.",
       "disappeared_content": [
         "Address and ZIP code do not match."
       ],
@@ -197,7 +197,7 @@
       "similarity_ratio": 0.229,
       "table": "AVS Response Codes",
       "ai_category": "business_rule_change",
-      "ai_reason": "El significado del código U cambió de 'Address information is unavailable; domestic transaction' a 'AVS unable to verify. V.I.P. converts any blank spaces in field 44.2 to U', lo que implica una nueva regla de negocio sobre cómo se interpreta este código.",
+      "ai_reason": "El significado del código U cambió de 'Address information is unavailable; domestic transaction' a una descripción que incluye una acción específica de V.I.P. para convertir espacios en blanco en el campo 44.2 a U, lo que altera su interpretación comercial.",
       "disappeared_content": [
         "Address information is unavailable; domestic transaction."
       ],
@@ -213,7 +213,7 @@
       "similarity_ratio": 0.377,
       "table": "AVS Response Codes",
       "ai_category": "business_rule_change",
-      "ai_reason": "El significado del código de respuesta AVS cambió de 'Address and five-digit ZIP code match' a 'AVS full match', indicando una nueva definición de coincidencia.",
+      "ai_reason": "El significado del código cambió de 'Address and five-digit ZIP code match' a 'AVS full match', lo que indica una nueva definición de coincidencia en el proceso de verificación.",
       "disappeared_content": [
         "Address and five-digit ZIP code"
       ],
@@ -229,7 +229,7 @@
       "similarity_ratio": 0.351,
       "table": "AVS Response Codes",
       "ai_category": "business_rule_change",
-      "ai_reason": "El significado del código Z cambió de 'Five-digit ZIP code matches, but address does not match' a 'AVS postal/zip code only (partial match)', lo que redefine la condición de validación para este código.",
+      "ai_reason": "El significado del código Z cambió de indicar un ZIP code completo que coincide con la dirección a un parcial coincidencia en el código postal.",
       "disappeared_content": [
         "matches, but address does not match."
       ],
@@ -360,7 +360,7 @@
       "similarity_ratio": 0.706,
       "table": "Product ID Values",
       "ai_category": "business_rule_change",
-      "ai_reason": "El significado del código cambió de 'Flexible Credential' a 'Installment Credential', lo que altera la definición de servicio ofrecido.",
+      "ai_reason": "El texto describe un cambio en el tipo de credencial de Visa de 'Flexible' a 'Installment', lo que altera el significado comercial del producto.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -374,7 +374,7 @@
       "similarity_ratio": 0.953,
       "table": "Reimbursement Attributes",
       "ai_category": "business_rule_change",
-      "ai_reason": "Se agregó Belarus a la lista de países para 'Specific Merchant Sectors', lo que modifica el alcance geográfico de la regla.",
+      "ai_reason": "Se agregó Belarus a la lista de países en 'Specific Merchant Sectors', lo que modifica el alcance geográfico de la regla.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -397,7 +397,7 @@
       "similarity_ratio": 0.182,
       "table": "Return/Reclassification Reason Codes",
       "ai_category": "business_rule_change",
-      "ai_reason": "El texto describe un cambio en la condición de bloqueo de entidad que afecta el significado de negocio, pasando de bloqueo general a una verificación de valor inválido.",
+      "ai_reason": "El texto describe un cambio en la condición de bloqueo de entidad, pasando de 'Entity blocked from clearing and settlement activity' a 'Invalid Enabler Verification Value', lo que implica una modificación en el significado de negocio.",
       "disappeared_content": [
         "Entity blocked from clearing and settlement activity."
       ],
@@ -413,7 +413,7 @@
       "similarity_ratio": 0.212,
       "table": "Return/Reclassification Reason Codes",
       "ai_category": "business_rule_change",
-      "ai_reason": "El texto anterior indicaba una condición específica de cumplimiento regulatorio en India, mientras que el nuevo texto 'Reserved' indica que el código está reservado para futuras utilizaciones, cambiando el significado de negocio.",
+      "ai_reason": "El texto anterior indicaba una condición específica de cumplimiento regulatorio en India, mientras que el nuevo texto 'Reserved' indica que el código está reservado para uso futuro, cambiando el significado de negocio.",
       "disappeared_content": [
         "Non-compliance of India Regulations of Recurring Payment."
       ],
@@ -510,7 +510,7 @@
       "similarity_ratio": 0.667,
       "table": "Country and Currency Codes",
       "ai_category": "business_rule_change",
-      "ai_reason": "El código de moneda cambió de ZWL a ZWG, lo que altera el valor de negocio para Zimbabwe.",
+      "ai_reason": "El código de moneda cambió de ZWL a ZWG, lo que implica un cambio real en el valor de negocio para Zimbabue.",
       "disappeared_content": [],
       "safety_net_override": false
     },

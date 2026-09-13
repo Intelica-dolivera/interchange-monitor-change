@@ -7,7 +7,7 @@
     "table_removed": 1,
     "duplicate_code_warning": 6,
     "code_added": 7,
-    "code_content_changed": 22,
+    "code_content_changed": 21,
     "code_removed": 4,
     "table_renamed": 1
   },
@@ -127,19 +127,9 @@
       "code": "H0",
       "column": "Error Condition",
       "column_index": 1,
-      "old": "The recalculation of the validation code at the VIC showed that one of the fields listed\nbelow did not match the value in the authorization message.\nCPS—U.S.:\nl\nl\nl\nl\nl\nl\nl\nl\nl\nl\nl\nl\nCPS/ATM:\nl\nl\nl\nl\nl\nl\nl\nl\nl\nAccount Number\nAuthorized Amount\nAuthorization Characteristics Indicator\nAuthorization Code\nAuthorization Currency Code\nAuthorization Response Code\nCashback\nMarket-Specific Authorization Indicator\nMerchant Category Code\nPOS Entry Mode\nTransaction Identifier\nProduct ID\nAccount Number\nAuthorization Characteristics Indicator\nTransaction Identifier\nAuthorized Amount\nAuthorization Currency Code\nMerchant Country Code\nATM Account Selection\nAcquiring Identifier\nSurcharge Amount",
-      "new": "The recalculation of the validation code at the VIC showed that one of the fields listed\nbelow did not match the value in the authorization message.\nCPS—U.S.:\nl\nl\nl\nl\nl\nl\nl\nl\nl\nl\nl\nl\nCPS/ATM:\nl\nl\nl\nl\nl\nl\nl\nl\nl\nAccount Number\nAuthorized Amount\nAuthorization Characteristics Indicator\nAuthorization Code\nAuthorization Currency Code\nAuthorization Response Code\nCashback\nMarket-Specific Authorization Indicator\nMerchant Category Code\nPOS Entry Mode\nTransaction Identifier\nProduct ID\nAccount Number\nAuthorization Characteristics Indicator\nTransaction Identifier\nAuthorized Amount\nAuthorization Currency Code\nMerchant Country Code\nATM Account Selection\nAcquiring Identifier\nSurcharge Amount\nElectronic Data Quality Program (EDQP):\nl\nl\nl\nl\nl\nl\nl\nl\nl\nl\nl\nl\nl\nAccount Funding Source\nAccount Number\nAuthorized Amount\nAuthorization Characteristics Indicator\nAuthorization Code\nAuthorization Currency Code\nAuthorization Response Code\nCashback\nMarket-Specific Authorization Indicator\nMerchant Category Code\nPOS Entry Mode\nTransaction Identifier\nProduct ID",
-      "similarity_ratio": 0.793,
-      "table": "Return/Reclassification Reason Codes"
-    },
-    {
-      "change_type": "code_content_changed",
-      "code": "HZ",
-      "column": "Error Condition",
-      "column_index": 1,
-      "old": "The recalculation of the validation code at the VIC showed that one of the fields listed\nbelow did not match the value in the authorization message. Please resubmit.\nl\nl\nl\nl\nl\nl\nl\nl\nl\nl\nl\nl\nCPS/ATM:\nl\nl\nl\nl\nl\nl\nl\nl\nl\nAccount Number\nAuthorized Amount\nAuthorization Characteristics Indicator\nAuthorization Code\nAuthorization Currency Code\nAuthorization Response Code\nCashback\nMarket-Specific Authorization Indicator\nMerchant Category Code\nPOS Entry Mode\nTransaction Identifier\nProduct ID\nAccount Number\nAuthorization Characteristics Indicator\nTransaction Identifier\nAuthorized Amount\nAuthorization Currency Code\nMerchant Country Code\nATM Account Selection\nAcquiring Identifier\nSurcharge Amount",
-      "new": "The recalculation of the validation code at the VIC showed that one of the fields listed\nbelow did not match the value in the authorization message. Please resubmit.\nl\nl\nl\nl\nl\nl\nl\nl\nl\nl\nl\nl\nCPS/ATM:\nAccount Number\nAuthorized Amount\nAuthorization Characteristics Indicator\nAuthorization Code\nAuthorization Currency Code\nAuthorization Response Code\nCashback\nMarket-Specific Authorization Indicator\nMerchant Category Code\nPOS Entry Mode\nTransaction Identifier\nProduct ID\nl\nl\nl\nl\nl\nl\nl\nl\nl\nAccount Number\nAuthorization Characteristics Indicator\nTransaction Identifier\nAuthorized Amount\nAuthorization Currency Code\nMerchant Country Code\nATM Account Selection\nAcquiring Identifier\nSurcharge Amount",
-      "similarity_ratio": 0.974,
+      "old": "The recalculation of the validation code at the VIC showed that one of the fields listed\nbelow did not match the value in the authorization message.\nCPS—U.S.:\nAccount Number\nl\nAuthorized Amount\nl\nAuthorization Characteristics Indicator\nl\nAuthorization Code\nl\nAuthorization Currency Code\nl\nAuthorization Response Code\nl\nCashback\nl\nMarket-Specific Authorization Indicator\nl\nMerchant Category Code\nl\nPOS Entry Mode\nl\nTransaction Identifier\nl\nProduct ID\nl\nCPS/ATM:\nAccount Number\nl\nAuthorization Characteristics Indicator\nl\nTransaction Identifier\nl\nAuthorized Amount\nl\nAuthorization Currency Code\nl\nMerchant Country Code\nl\nATM Account Selection\nl\nAcquiring Identifier\nl\nSurcharge Amount\nl",
+      "new": "The recalculation of the validation code at the VIC showed that one of the fields listed\nbelow did not match the value in the authorization message.\nCPS—U.S.:\nAccount Number\nl\nAuthorized Amount\nl\nAuthorization Characteristics Indicator\nl\nAuthorization Code\nl\nAuthorization Currency Code\nl\nAuthorization Response Code\nl\nCashback\nl\nMarket-Specific Authorization Indicator\nl\nMerchant Category Code\nl\nPOS Entry Mode\nl\nTransaction Identifier\nl\nProduct ID\nl\nCPS/ATM:\nAccount Number\nl\nAuthorization Characteristics Indicator\nl\nTransaction Identifier\nl\nAuthorized Amount\nl\nAuthorization Currency Code\nl\nMerchant Country Code\nl\nATM Account Selection\nl\nAcquiring Identifier\nl\nSurcharge Amount\nl\nElectronic Data Quality Program (EDQP):\nAccount Funding Source\nl\nAccount Number\nl\nAuthorized Amount\nl\nAuthorization Characteristics Indicator\nl\nAuthorization Code\nl\nAuthorization Currency Code\nl\nAuthorization Response Code\nl\nCashback\nl\nMarket-Specific Authorization Indicator\nl\nMerchant Category Code\nl\nPOS Entry Mode\nl\nTransaction Identifier\nl\nProduct ID\nl",
+      "similarity_ratio": 0.795,
       "table": "Return/Reclassification Reason Codes"
     },
     {
@@ -250,9 +240,9 @@
       "code": "ACQUIRER",
       "column": "Definition",
       "column_index": 1,
-      "old": "A client financial institution that has agreements with merchants to accept\nVisa card transactions or offers cash disbursement services to account\nholders, or both. The acquirer is responsible for:\nl\nl\nl\nAccepting card transaction data from merchants and its own ATMs and\nbank branches\nProviding decisions to those card-accepting locations\nConveying transaction information to Visa as transactions",
-      "new": "A client financial institution that has agreements with merchants to accept\nVisa card transactions or offers cash disbursement services to account\nholders, or both. The acquirer is responsible for:\nl\nl\nl\nAccepting card transaction data from merchants and its own ATMs and\nbank branches\nProviding authorization decisions to those card-accepting locations\nConveying transaction information to Visa as interchange transactions",
-      "similarity_ratio": 0.939,
+      "old": "A client financial institution that has agreements with merchants to accept\nVisa card transactions or offers cash disbursement services to account\nholders, or both. The acquirer is responsible for:\nAccepting card transaction data from merchants and its own ATMs and\nl\nbank branches\nProviding decisions to those card-accepting locations\nl\nConveying transaction information to Visa as transactions\nl",
+      "new": "A client financial institution that has agreements with merchants to accept\nVisa card transactions or offers cash disbursement services to account\nholders, or both. The acquirer is responsible for:\nAccepting card transaction data from merchants and its own ATMs and\nl\nbank branches\nProviding authorization decisions to those card-accepting locations\nl\nConveying transaction information to Visa as interchange transactions\nl",
+      "similarity_ratio": 0.938,
       "table": "Glossary"
     },
     {

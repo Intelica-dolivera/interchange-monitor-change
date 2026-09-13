@@ -1140,7 +1140,7 @@
       "new": "ATM mini statement POS card activation ATM PIN change ATM PIN unblock Mastercard or American Express transactions",
       "similarity_ratio": 0.978,
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto solo cambia el orden de las palabras 'ATM PIN change' y 'ATM PIN unblock' para mantener la coherencia narrativa, sin alterar el significado o reglas de negocio.",
+      "ai_reason": "El texto solo cambia el orden de las palabras 'ATM PIN change' y 'ATM PIN unblock' para mantener la coherencia en la descripción sin alterar el significado.",
       "disappeared_content": [],
       "safety_net_override": false
     },

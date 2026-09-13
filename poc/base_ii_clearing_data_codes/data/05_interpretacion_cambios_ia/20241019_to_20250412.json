@@ -146,7 +146,7 @@
       "similarity_ratio": 0.142,
       "table": "Glossary",
       "ai_category": "business_rule_change",
-      "ai_reason": "El texto nuevo elimina la descripción detallada y apunta a una herramienta específica, cambiando el significado de negocio del código.",
+      "ai_reason": "El texto nuevo indica que se debe consultar el Visa Issuer FX Calculator en lugar de describir el fee como opcional y no incluido en el settlement.",
       "disappeared_content": [
         "An optional additional currency fee requested by the issuer and collected as part of the billing amount, if desired by the issuer. This fee is not included in the settlement amount. It may be a debit or credit."
       ],

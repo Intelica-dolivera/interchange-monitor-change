@@ -98,12 +98,20 @@ gratis, exactamente lo que se necesita:
   que antes para contenido que cambio de verdad, no una regresion).
 - `"delete"`/`"insert"`: parrafos sin correspondencia directa -mismo pool de fuzzy que antes.
 
-Limitacion aceptada conscientemente (no perseguida mas alla): un bloque `"replace"` MIXTO
-(parte reflow + parte cambio real de contenido en el mismo tramo) no se sub-divide -cae
-entero al pool de fuzzy, mismo tratamiento que ya recibia antes de este fix. Resolver eso
-necesitaria una busqueda recursiva de sub-alineamientos dentro de cada bloque, no
-justificada sin evidencia real de que ocurra (no se encontro ningun caso asi en el corpus
-completo al validar este fix).
+**Actualizacion 2026-09-13 (Bug I, ver NOTES.md)**: la "limitacion aceptada" de abajo dejo de
+ser hipotetica -una revision manual del usuario encontro un caso real ("The following
+parameters..." -> "These parameters...", mismo parrafo re-cortado por un salto de pagina
+distinto entre ediciones, CON un cambio de wording minimo adentro). Bloque `"replace"` cuya
+concatenacion normalizada NO es identica pero SI muy similar (`REFLOW_CONTENT_SIMILARITY_
+THRESHOLD=0.95`, mas estricto que `FUZZY_PARAGRAPH_THRESHOLD` porque aca se fusionan 2+
+parrafos completos) se reporta como UN solo `paragraph_content_changed` comparando los
+bloques COMPLETOS concatenados -Modulo 5 ve la comparacion real, no el artefacto de re-corte
+(1 parrafo viejo corto vs 1 parrafo nuevo mas largo, que antes daba una falsa impresion de
+"contenido agregado"). Los bloques MIXTOS que NO llegan a 0.95 (cambio de contenido real y
+sustancial junto con el re-corte, no solo una reescritura menor) siguen sin sub-dividirse -caen
+al pool de fuzzy per-parrafo, mismo tratamiento que antes: resolver ese caso restante
+necesitaria una busqueda recursiva de sub-alineamientos dentro de cada bloque, todavia no
+justificada sin evidencia real de que ocurra.
 
 Se expone en el output como `paragraphs_reflowed` (separado de `paragraphs_matched`, nunca
 mezclado) para que quede visible que hubo una reconciliacion de re-corte, no una confirmacion
@@ -177,6 +185,17 @@ WHITESPACE = re.compile(r"\s+")
 FUZZY_SECTION_THRESHOLD = 0.85
 FUZZY_PARAGRAPH_THRESHOLD = 0.90
 MIN_PARAGRAPH_LEN_FOR_FUZZY = 60
+# Bug I (ver NOTES.md, 2026-09-13): umbral para el caso "replace" MIXTO -reflow de
+# pagina + cambio real de contenido en el mismo tramo- que la "limitacion aceptada" del
+# docstring del modulo dejaba caer entero al pool de fuzzy per-parrafo (comparando 1 parrafo
+# viejo corto contra 1 parrafo nuevo mas largo, mostrando una falsa impresion de "contenido
+# agregado" cuando en realidad es el mismo contenido re-cortado con una reescritura minima
+# adentro). Mas estricto que `FUZZY_PARAGRAPH_THRESHOLD` (0.90, calibrado para reescrituras
+# genuinas de UN parrafo) porque aca se estan fusionando 2+ parrafos completos en una sola
+# comparacion -confirmado con el caso real ("The following parameters..." -> "These
+# parameters...", mismo parrafo re-cortado por reflow con salto de pagina distinto entre
+# ediciones) que el ratio de la concatenacion normalizada da 0.989.
+REFLOW_CONTENT_SIMILARITY_THRESHOLD = 0.95
 
 SECTION_MOVE_MIN_COVERAGE = 0.8
 SECTION_MOVE_MIN_SIZE_RATIO = 0.5
@@ -333,8 +352,26 @@ def match_paragraphs(section_a: dict, section_b: dict) -> dict:
                     }
                 )
             else:
-                fuzzy_candidates_a.extend(block_a)
-                fuzzy_candidates_b.extend(block_b)
+                block_ratio = difflib.SequenceMatcher(None, combined_a, combined_b).ratio()
+                if block_ratio >= REFLOW_CONTENT_SIMILARITY_THRESHOLD:
+                    # Bug I: reflow con cambio real de contenido en el mismo tramo -en vez
+                    # de dejar que el pool de fuzzy per-parrafo empareje 1 parrafo viejo
+                    # corto contra 1 parrafo nuevo mas largo (mostrando una falsa impresion
+                    # de "contenido agregado"), se reporta UN solo `paragraph_content_changed`
+                    # comparando los bloques COMPLETOS concatenados de cada lado -asi Modulo 5
+                    # ve la comparacion real (el cambio de wording puntual), no el artefacto
+                    # de re-corte.
+                    matched.append(
+                        {
+                            "text_a": " ".join(p["text"] for p in block_a),
+                            "text_b": " ".join(p["text"] for p in block_b),
+                            "match_type": "fuzzy",
+                            "similarity": round(block_ratio, 3),
+                        }
+                    )
+                else:
+                    fuzzy_candidates_a.extend(block_a)
+                    fuzzy_candidates_b.extend(block_b)
         elif tag == "delete":
             fuzzy_candidates_a.extend(paras_a[i1:i2])
         elif tag == "insert":

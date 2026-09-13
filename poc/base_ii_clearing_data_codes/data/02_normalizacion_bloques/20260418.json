@@ -4,7 +4,7 @@
   "source_file": "20260418 - BASE II Clearing Data Codes.pdf",
   "num_lines_in": 9670,
   "num_lines_kept": 8866,
-  "num_blocks": 2642,
+  "num_blocks": 2646,
   "blocks": [
     {
       "type": "paragraph",
@@ -66,8 +66,7 @@
       "type": "table_header",
       "page": 4,
       "cells": [
-        "●\n●\n●\n●\n●\n●\n●\n●",
-        "Visa Canada Corporation;\nVisa do Brasil Empreendimentos Ltda.;\nVisa Europe Limited;\nVisa International Service Association;\nVisa International Servicios de Pagos Espana, S.R.L.U.;\nVisa U.S.A. Inc;\nVisa Worldwide Pte Limited; OR\nAnother Visa entity that is an affiliate of any of the foregoing entities."
+        "●\nVisa Canada Corporation;\nVisa do Brasil Empreendimentos Ltda.;\n●\nVisa Europe Limited;\n●\nVisa International Service Association;\n●\nVisa International Servicios de Pagos Espana, S.R.L.U.;\n●\nVisa U.S.A. Inc;\n●\nVisa Worldwide Pte Limited; OR\n●\nAnother Visa entity that is an affiliate of any of the foregoing entities.\n●"
       ]
     },
     {
@@ -208,8 +207,7 @@
       "type": "table_header",
       "page": 8,
       "cells": [
-        "●\n●\n●\n●",
-        "Explain the reason for a BASE II processing action.\nInstruct the BASE II System to perform specific processing.\nProvide information about the type of customer transaction.\nProvide fee information."
+        "●\nExplain the reason for a BASE II processing action.\nInstruct the BASE II System to perform specific processing.\n●\nProvide information about the type of customer transaction.\n●\nProvide fee information.\n●"
       ]
     },
     {
@@ -230,16 +228,14 @@
       "type": "table_header",
       "page": 8,
       "cells": [
-        "●\n●\n●\n●",
-        "BASE II Clearing Data Codes\nBASE II Clearing Edit Package Operations Guide Release 4\nBASE II Clearing Edit Package Reports Reference Guide Release 4\nBASE II Clearing Interchange Formats, TC 01 to TC 49"
+        "●\nBASE II Clearing Data Codes\nBASE II Clearing Edit Package Operations Guide Release 4\n●\nBASE II Clearing Edit Package Reports Reference Guide Release 4\n●\nBASE II Clearing Interchange Formats, TC 01 to TC 49\n●"
       ]
     },
     {
       "type": "table_header",
       "page": 9,
       "cells": [
-        "●\n●\n●\n●\n●",
-        "BASE II Clearing Interchange Formats, TC 50 to TC 92\nBASE II Clearing PC Edit Package for Windows User Guide Release 4\nBASE II Clearing Edit Package Messages Reference Guide Release 4\nVisa Core Rules and Visa Product and Service Rules\nVisa Merchant Data Standards Manual"
+        "●\nBASE II Clearing Interchange Formats, TC 50 to TC 92\nBASE II Clearing PC Edit Package for Windows User Guide Release 4\n●\nBASE II Clearing Edit Package Messages Reference Guide Release 4\n●\nVisa Core Rules and Visa Product and Service Rules\n●\nVisa Merchant Data Standards Manual\n●"
       ]
     },
     {
@@ -671,8 +667,7 @@
       "type": "table_header",
       "page": 11,
       "cells": [
-        "●\n●\n●",
-        "Draft Data: TCR 0, Position 151\nTC 48, BASE I Advice—ISO-Enriched: TCR 2, Position 60\nTC 57, Data Capture Advice: TCR 0, Position 151"
+        "●\nDraft Data: TCR 0, Position 151\nTC 48, BASE I Advice—ISO-Enriched: TCR 2, Position 60\n●\nTC 57, Data Capture Advice: TCR 0, Position 151\n●"
       ]
     },
     {
@@ -858,8 +853,7 @@
       "type": "table_header",
       "page": 12,
       "cells": [
-        "●\n●\n●",
-        "Draft Data: TCR 1, Position 128\nTC 38, VCRFS/VDAS message transactions: TCR 3—Chargeback Documentation Data,\nPosition 92 (Visa Use Only)\nTC 57, Data Capture Advice: TCR 0—Transaction Detail, Position 87"
+        "●\nDraft Data: TCR 1, Position 128\nTC 38, VCRFS/VDAS message transactions: TCR 3—Chargeback Documentation Data,\n●\nPosition 92 (Visa Use Only)\nTC 57, Data Capture Advice: TCR 0—Transaction Detail, Position 87\n●"
       ]
     },
     {
@@ -1013,8 +1007,7 @@
       "type": "table_header",
       "page": 13,
       "cells": [
-        "●\n●",
-        "Draft Data: TCR 1 - Additional Data, Position 127\nTC 57, Data Capture Advice: TCR 0, Position 148"
+        "●\nDraft Data: TCR 1 - Additional Data, Position 127\nTC 57, Data Capture Advice: TCR 0, Position 148\n●"
       ]
     },
     {
@@ -1284,8 +1277,7 @@
       "type": "table_header",
       "page": 15,
       "cells": [
-        "●\n●",
-        "Business Application Data, Positions 19-20\nPassenger Itinerary Data, Passenger Transport Ancillary Data, Lodging, Car Rental, and\nFleet Service, Positions 15-16"
+        "●\nBusiness Application Data, Positions 19-20\nPassenger Itinerary Data, Passenger Transport Ancillary Data, Lodging, Car Rental, and\n●\nFleet Service, Positions 15-16"
       ]
     },
     {
@@ -1689,8 +1681,7 @@
       "type": "table_header",
       "page": 17,
       "cells": [
-        "●\n●",
-        "Draft Data: TCR 3, Positions 28-33\nTC 57, Data Capture Advice: TCR 4 - Industry-Specific Data—Car Rental, Positions 28-33"
+        "●\nDraft Data: TCR 3, Positions 28-33\nTC 57, Data Capture Advice: TCR 4 - Industry-Specific Data—Car Rental, Positions 28-33\n●"
       ]
     },
     {
@@ -1781,8 +1772,7 @@
       "type": "table_header",
       "page": 18,
       "cells": [
-        "●\n●",
-        "Draft Data: TCR 3, Position 27\nTC 57, Data Capture Advice: TCR 4, Position 27"
+        "●\nDraft Data: TCR 3, Position 27\nTC 57, Data Capture Advice: TCR 4, Position 27\n●"
       ]
     },
     {
@@ -1855,8 +1845,7 @@
       "type": "table_header",
       "page": 18,
       "cells": [
-        "●\n●\n●",
-        "Draft Data: TCR 0, Position 160\nTC 57, Data Capture Transaction Advice: TCR 0, Position 80\nTC 59, Interface Transaction Advice: TCR 1 - Additional Data, Position 77; TCR 1 -\nAmerican Express, Position 77"
+        "●\nDraft Data: TCR 0, Position 160\nTC 57, Data Capture Transaction Advice: TCR 0, Position 80\n●\nTC 59, Interface Transaction Advice: TCR 1 - Additional Data, Position 77; TCR 1 -\n●\nAmerican Express, Position 77"
       ]
     },
     {
@@ -2010,7 +1999,7 @@
       "cells": [
         "30",
         "All",
-        "Services Not Provided or Merchandise Not Received\nAll Regions:\n●ATM is prohibited.\nInternational:\n●For T&E transactions the minimum amount must be equal to or greater\n●No non-T&E minimum amount.\nU.K. Domestic:\nthan $25.00 USD.\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\nthan $25.00 CAD.\ngreater than $10.00 CAD.\n●T&E and non-T&E, no minimum amount."
+        "Services Not Provided or Merchandise Not Received\nAll Regions:\n●ATM is prohibited.\nInternational:\n●For T&E transactions the minimum amount must be equal to or greater\nthan $25.00 USD.\n●No non-T&E minimum amount.\nU.K. Domestic:\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\nthan $25.00 CAD.\n●For non-T&E transactions, the minimum amount must be equal to or\ngreater than $10.00 CAD.\nJapan Domestic:\n●T&E and non-T&E, no minimum amount."
       ]
     },
     {
@@ -2019,7 +2008,7 @@
       "cells": [
         "41",
         "All",
-        "Cancelled Recurring Transaction\nAll Regions:\n●ATM is prohibited.\nInternational:\n●For T&E transaction, the minimum amount must be equal to or greater\n●No non-T&E minimum amount.\nU.K. Domestic:\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\n●T&E and non-T&E, no minimum amount.\nthan $25.00 USD.\nthan $25.00 CAD.\ngreater than $10.00 CAD."
+        "Cancelled Recurring Transaction\nAll Regions:\n●ATM is prohibited.\nInternational:\n●For T&E transaction, the minimum amount must be equal to or greater\nthan $25.00 USD.\n●No non-T&E minimum amount.\nU.K. Domestic:\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\nthan $25.00 CAD.\n●For non-T&E transactions, the minimum amount must be equal to or\ngreater than $10.00 CAD.\nJapan Domestic:\n●T&E and non-T&E, no minimum amount."
       ]
     },
     {
@@ -2044,7 +2033,7 @@
       "cells": [
         "53",
         "All",
-        "Not as Described or Defective Merchandise\nAll Regions:\n●ATM is prohibited.\nInternational:\n●For T&E transactions, the minimum amount must be equal to or greater\n●No non-T&E minimum amount.\nU.S. Region:\nthan $25.00 USD.\n●EPS not allowed.\nU.K. Domestic:\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\nthan $25.00 CAD.\ngreater than $10.00 CAD.\n●T&E and non-T&E, no minimum amount."
+        "Not as Described or Defective Merchandise\nAll Regions:\n●ATM is prohibited.\nInternational:\n●For T&E transactions, the minimum amount must be equal to or greater\nthan $25.00 USD.\n●No non-T&E minimum amount.\nU.S. Region:\n●EPS not allowed.\nU.K. Domestic:\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\nthan $25.00 CAD.\n●For non-T&E transactions, the minimum amount must be equal to or\ngreater than $10.00 CAD.\nJapan Domestic:\n●T&E and non-T&E, no minimum amount."
       ]
     },
     {
@@ -2069,7 +2058,7 @@
       "cells": [
         "57",
         "All",
-        "Fraudulent Multiple Transactions\nAll Regions:\n●ATM is prohibited.\n●Direct Marketing MCCs are prohibited.\n●MOTO/ECI must be spaces.\nInternational:\n●For T&E transactions, the minimum must be equal to or greater than\n●No non-T&E minimum amount.\nU.K. Domestic:\n$25.00 USD.\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\nthan $25.00 CAD.\ngreater than $10.00 CAD\n●T&E and non-T&E, no minimum amount."
+        "Fraudulent Multiple Transactions\nAll Regions:\n●ATM is prohibited.\n●Direct Marketing MCCs are prohibited.\n●MOTO/ECI must be spaces.\nInternational:\n●For T&E transactions, the minimum must be equal to or greater than\n$25.00 USD.\n●No non-T&E minimum amount.\nU.K. Domestic:\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\nthan $25.00 CAD.\n●For non-T&E transactions, the minimum amount must be equal to or\ngreater than $10.00 CAD\nJapan Domestic:\n●T&E and non-T&E, no minimum amount."
       ]
     },
     {
@@ -2078,7 +2067,7 @@
       "cells": [
         "60",
         "All",
-        "Illegible Fulfillment\nAll Regions:\n●ATM is prohibited.\nInternational:\n●No T&E or non-T&E minimum amount.\nU.S. Domestic and AP Region:\n●EPS is not allowed.\nCanada Region:\n●EPS is not allowed.\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\n●T&E and non-T&E, no minimum amount.\nthan $25.00 CAD.\ngreater than $10.00 CAD."
+        "Illegible Fulfillment\nAll Regions:\n●ATM is prohibited.\nInternational:\n●No T&E or non-T&E minimum amount.\nU.S. Domestic and AP Region:\n●EPS is not allowed.\nCanada Region:\n●EPS is not allowed.\n●For T&E transactions, the minimum amount must be equal to or greater\nthan $25.00 CAD.\n●For non-T&E transactions, the minimum amount must be equal to or\ngreater than $10.00 CAD.\nJapan Domestic:\n●T&E and non-T&E, no minimum amount."
       ]
     },
     {
@@ -2103,7 +2092,7 @@
       "cells": [
         "62",
         "All",
-        "Counterfeit Transaction\nAll Regions:\n●Direct Marketing MCCs are prohibited.\n●MOTO/ECI must be spaces.\nInternational:\n●No T&E or non-T&E minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\nthan $25.00 CAD.\ngreater than $10.00 CAD.\n●T&E and non-T&E, no minimum amount."
+        "Counterfeit Transaction\nAll Regions:\n●Direct Marketing MCCs are prohibited.\n●MOTO/ECI must be spaces.\nInternational:\n●No T&E or non-T&E minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\nthan $25.00 CAD.\n●For non-T&E transactions, the minimum amount must be equal to or\ngreater than $10.00 CAD.\nJapan Domestic:\n●T&E and non-T&E, no minimum amount."
       ]
     },
     {
@@ -2112,7 +2101,7 @@
       "cells": [
         "70",
         "All",
-        "Card Recovery Bulletin or Exception File\nAll Regions:\n●ATM is prohibited.\n●Validate against the Card Warning Bulletin.\nInternational:\n●For T&E transactions, the minimum amount must be equal to or greater\n●No non-T&E minimum amount.\nU.K. Domestic:\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\n●T&E and non-T&E, no minimum amount.\nthan $25.00 USD.\nthan $25.00 CAD.\ngreater than $10.00 CAD."
+        "Card Recovery Bulletin or Exception File\nAll Regions:\n●ATM is prohibited.\n●Validate against the Card Warning Bulletin.\nInternational:\n●For T&E transactions, the minimum amount must be equal to or greater\nthan $25.00 USD.\n●No non-T&E minimum amount.\nU.K. Domestic:\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\nthan $25.00 CAD.\n●For non-T&E transactions, the minimum amount must be equal to or\ngreater than $10.00 CAD.\nJapan Domestic:\n●T&E and non-T&E, no minimum amount."
       ]
     },
     {
@@ -2137,7 +2126,7 @@
       "cells": [
         "71",
         "All",
-        "Declined Authorization\nAll Regions:\n●ATM is prohibited.\nInternational:\n●For T&E transactions, the minimum amount must be equal to or greater\n●No non-T&E minimum amount.\nU.K. Domestic:\nthan $25.00 USD.\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\nthan $25.00 CAD.\ngreater than $10.00 CAD.\n●T&E and non-T&E, no minimum amount."
+        "Declined Authorization\nAll Regions:\n●ATM is prohibited.\nInternational:\n●For T&E transactions, the minimum amount must be equal to or greater\nthan $25.00 USD.\n●No non-T&E minimum amount.\nU.K. Domestic:\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\nthan $25.00 CAD.\n●For non-T&E transactions, the minimum amount must be equal to or\ngreater than $10.00 CAD.\nJapan Domestic:\n●T&E and non-T&E, no minimum amount."
       ]
     },
     {
@@ -2146,7 +2135,7 @@
       "cells": [
         "72",
         "All",
-        "No Authorization\nAll Regions:\n●ATM is prohibited.\nInternational:\n●For T&E transactions, the minimum amount must be equal to or greater\n●No non-T&E minimum amount.\nU.K. Domestic:\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\n●T&E and non-T&E, no minimum amount.\nthan $25.00 USD.\nthan $25.00 CAD.\ngreater than $10.00 CAD."
+        "No Authorization\nAll Regions:\n●ATM is prohibited.\nInternational:\n●For T&E transactions, the minimum amount must be equal to or greater\nthan $25.00 USD.\n●No non-T&E minimum amount.\nU.K. Domestic:\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\nthan $25.00 CAD.\n●For non-T&E transactions, the minimum amount must be equal to or\ngreater than $10.00 CAD.\nJapan Domestic:\n●T&E and non-T&E, no minimum amount."
       ]
     },
     {
@@ -2171,7 +2160,7 @@
       "cells": [
         "73",
         "All",
-        "Expired Card\nAll Regions:\n●ATM is prohibited.\nInternational:\n●For T&E transactions, the minimum amount must be equal to or greater\n●No non-T&E minimum amount.\nU.K. Domestic:\nthan $25.00 USD.\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\nthan $25.00 CAD.\ngreater than $10.00 CAD.\n●T&E and non-T&E, no minimum amount."
+        "Expired Card\nAll Regions:\n●ATM is prohibited.\nInternational:\n●For T&E transactions, the minimum amount must be equal to or greater\nthan $25.00 USD.\n●No non-T&E minimum amount.\nU.K. Domestic:\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\nthan $25.00 CAD.\n●For non-T&E transactions, the minimum amount must be equal to or\ngreater than $10.00 CAD.\nJapan Domestic:\n●T&E and non-T&E, no minimum amount."
       ]
     },
     {
@@ -2180,7 +2169,7 @@
       "cells": [
         "74",
         "All",
-        "Late Presentment\nInternational:\n●For T&E transactions, the minimum amount must be equal to or greater\n●No non-T&E minimum amount.\nU.S. Domestic:\nthan $25.00 USD.\n●Plus ATM cash disbursement and alternate media transactions are\n●Visa ATM cash disbursement transaction is not allowed.\nU.K. Domestic:\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\n●T&E and non-T&E, no minimum amount.\nprohibited.\nthan $25.00 CAD.\ngreater than $10.00 CAD."
+        "Late Presentment\nInternational:\n●For T&E transactions, the minimum amount must be equal to or greater\nthan $25.00 USD.\n●No non-T&E minimum amount.\nU.S. Domestic:\n●Plus ATM cash disbursement and alternate media transactions are\nprohibited.\n●Visa ATM cash disbursement transaction is not allowed.\nU.K. Domestic:\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\nthan $25.00 CAD.\n●For non-T&E transactions, the minimum amount must be equal to or\ngreater than $10.00 CAD.\nJapan Domestic:\n●T&E and non-T&E, no minimum amount."
       ]
     },
     {
@@ -2205,7 +2194,7 @@
       "cells": [
         "75",
         "All",
-        "Transaction Not Recognized\nAll Regions:\n●ATM is prohibited.\n●Cannot be a Secure Electronic Commerce transaction.\nInternational:\n●No T&E minimum amount.\n●No non-T&E minimum amount.\nU.S. Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●No non-T&E minimum amount.\n●EPS not allowed.\nU.K. Domestic\nthan $25.00 USD.\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\n●Not valid for EPS/NSR Transactions\nJapan Domestic:\nthan $25.00 CAD.\ngreater than $10.00 CAD.\n●T&E and non-T&E, no minimum amount."
+        "Transaction Not Recognized\nAll Regions:\n●ATM is prohibited.\n●Cannot be a Secure Electronic Commerce transaction.\nInternational:\n●No T&E minimum amount.\n●No non-T&E minimum amount.\nU.S. Region:\n●For T&E transactions, the minimum amount must be equal to or greater\nthan $25.00 USD.\n●No non-T&E minimum amount.\n●EPS not allowed.\nU.K. Domestic\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\nthan $25.00 CAD.\n●For non-T&E transactions, the minimum amount must be equal to or\ngreater than $10.00 CAD.\n●Not valid for EPS/NSR Transactions\nJapan Domestic:\n●T&E and non-T&E, no minimum amount."
       ]
     },
     {
@@ -2230,7 +2219,7 @@
       "cells": [
         "76",
         "All",
-        "Incorrect Currency or Transaction Code or Domestic Transaction\nProcessing Violation\nInternational:\n●For T&E transactions, the minimum amount must be equal to or greater\n●No non-T&E minimum amount.\nU.K. Domestic:\nthan $25.00 USD.\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\nthan $25.00 CAD.\ngreater than $10.00 CAD.\n●T&E and non-T&E, no minimum amount."
+        "Incorrect Currency or Transaction Code or Domestic Transaction\nProcessing Violation\nInternational:\n●For T&E transactions, the minimum amount must be equal to or greater\nthan $25.00 USD.\n●No non-T&E minimum amount.\nU.K. Domestic:\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\nthan $25.00 CAD.\n●For non-T&E transactions, the minimum amount must be equal to or\ngreater than $10.00 CAD.\nJapan Domestic:\n●T&E and non-T&E, no minimum amount."
       ]
     },
     {
@@ -2239,7 +2228,7 @@
       "cells": [
         "77",
         "All",
-        "Non-Matching Account Number\nAll Regions:\n●ATM is prohibited.\nInternational:\n●For T&E transactions, the minimum amount must be equal to or greater\n●No non-T&E minimum amount.\nU.K. Domestic:\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\n●T&E and non-T&E, no minimum amount.\nthan $25.00 USD.\nthan $25.00 CAD.\ngreater than $10.00 CAD."
+        "Non-Matching Account Number\nAll Regions:\n●ATM is prohibited.\nInternational:\n●For T&E transactions, the minimum amount must be equal to or greater\nthan $25.00 USD.\n●No non-T&E minimum amount.\nU.K. Domestic:\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\nthan $25.00 CAD.\n●For non-T&E transactions, the minimum amount must be equal to or\ngreater than $10.00 CAD.\nJapan Domestic:\n●T&E and non-T&E, no minimum amount."
       ]
     },
     {
@@ -2264,7 +2253,7 @@
       "cells": [
         "78",
         "All (except US)",
-        "Service Code Violation\nAll Regions:\n●ATM is prohibited.\nInternational:\n●For T&E transactions, the minimum amount must be equal to or greater\n●No non-T&E minimum amount.\nU.K. Domestic:\nthan $25.00 USD.\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\nthan $25.00 CAD.\ngreater than $10.00 CAD.\n●T&E and non-T&E, no minimum amount."
+        "Service Code Violation\nAll Regions:\n●ATM is prohibited.\nInternational:\n●For T&E transactions, the minimum amount must be equal to or greater\nthan $25.00 USD.\n●No non-T&E minimum amount.\nU.K. Domestic:\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\nthan $25.00 CAD.\n●For non-T&E transactions, the minimum amount must be equal to or\ngreater than $10.00 CAD.\nJapan Domestic:\n●T&E and non-T&E, no minimum amount."
       ]
     },
     {
@@ -2273,7 +2262,7 @@
       "cells": [
         "80",
         "All",
-        "Incorrect Transaction Amount or Account Number\nAll Regions except U.S. Region:\n●ATM is prohibited.\nInternational:\n●For T&E transactions, the minimum amount must be equal to or greater\n●No non-T&E minimum amount.\nU.K. Domestic:\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●EPS is not allowed.\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\n●T&E and non-T&E, no minimum amount.\nthan $25.00 USD.\nthan $25.00 CAD.\ngreater than $10.00 CAD."
+        "Incorrect Transaction Amount or Account Number\nAll Regions except U.S. Region:\n●ATM is prohibited.\nInternational:\n●For T&E transactions, the minimum amount must be equal to or greater\nthan $25.00 USD.\n●No non-T&E minimum amount.\nU.K. Domestic:\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●EPS is not allowed.\n●For T&E transactions, the minimum amount must be equal to or greater\nthan $25.00 CAD.\n●For non-T&E transactions, the minimum amount must be equal to or\ngreater than $10.00 CAD.\nJapan Domestic:\n●T&E and non-T&E, no minimum amount."
       ]
     },
     {
@@ -2298,7 +2287,7 @@
       "cells": [
         "81",
         "All",
-        "Fraud - Card-Present Environment\nAll Regions:\n●MOTO/ECI must be spaces.\n●Direct Marketing MCCs are prohibited.\nInternational:\n●For T&E transactions, the minimum amount must be equal to or greater\n●No non-T&E minimum amount.\n●ATM is prohibited\nU.S. Region:\nthan $25.00 USD.\n●For Automated Fuel Dispenser transactions, the minimum amount must be\n●ATM is prohibited\nAP Region:\nequal to or greater than $10.00 USD.\n●EPS not allowed.\nU.K. Domestic:\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●EPS is not allowed.\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\n●T&E and non-T&E, no minimum amount.\nthan $25.00 CAD.\ngreater than $10.00 CAD."
+        "Fraud - Card-Present Environment\nAll Regions:\n●MOTO/ECI must be spaces.\n●Direct Marketing MCCs are prohibited.\nInternational:\n●For T&E transactions, the minimum amount must be equal to or greater\nthan $25.00 USD.\n●No non-T&E minimum amount.\n●ATM is prohibited\nU.S. Region:\n●For Automated Fuel Dispenser transactions, the minimum amount must be\nequal to or greater than $10.00 USD.\n●ATM is prohibited\nAP Region:\n●EPS not allowed.\nU.K. Domestic:\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●EPS is not allowed.\n●For T&E transactions, the minimum amount must be equal to or greater\nthan $25.00 CAD.\n●For non-T&E transactions, the minimum amount must be equal to or\ngreater than $10.00 CAD.\nJapan Domestic:\n●T&E and non-T&E, no minimum amount."
       ]
     },
     {
@@ -2323,7 +2312,7 @@
       "cells": [
         "82",
         "All",
-        "Duplicate Processing\nInternational:\n●For T&E transactions, the minimum amount must be equal to or greater\n●No non-T&E minimum amount.\nU.K. Domestic:\nthan $25.00 USD.\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\nthan $25.00 CAD.\ngreater than $10.00 CAD.\n●T&E and non-T&E, no minimum amount."
+        "Duplicate Processing\nInternational:\n●For T&E transactions, the minimum amount must be equal to or greater\nthan $25.00 USD.\n●No non-T&E minimum amount.\nU.K. Domestic:\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\nthan $25.00 CAD.\n●For non-T&E transactions, the minimum amount must be equal to or\ngreater than $10.00 CAD.\nJapan Domestic:\n●T&E and non-T&E, no minimum amount."
       ]
     },
     {
@@ -2332,7 +2321,7 @@
       "cells": [
         "83",
         "All",
-        "Fraud - Card-Absent Environment\nAll Regions:\n●ATM is prohibited.\n●Restricted for use by Secure Electronic Commerce transactions, except by\nInternational:\nU.S. region.\n●For T&E transactions, the minimum amount must be equal to or greater\n●No non-T&E minimum amount.\nU.K. Domestic:\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\n●T&E and non-T&E, no minimum amount.\nthan $25.00 USD.\nthan $25.00 CAD.\ngreater than $10.00 CAD."
+        "Fraud - Card-Absent Environment\nAll Regions:\n●ATM is prohibited.\n●Restricted for use by Secure Electronic Commerce transactions, except by\nU.S. region.\nInternational:\n●For T&E transactions, the minimum amount must be equal to or greater\nthan $25.00 USD.\n●No non-T&E minimum amount.\nU.K. Domestic:\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\nthan $25.00 CAD.\n●For non-T&E transactions, the minimum amount must be equal to or\ngreater than $10.00 CAD.\nJapan Domestic:\n●T&E and non-T&E, no minimum amount."
       ]
     },
     {
@@ -2357,7 +2346,7 @@
       "cells": [
         "85",
         "All",
-        "Credit Not Processed\nAll Regions:\n●ATM is prohibited.\nInternational:\n●For T&E transactions, the minimum amount must be equal to or greater\n●No non-T&E minimum amount.\nU.K. Domestic:\nthan $25.00 USD.\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\nthan $25.00 CAD.\ngreater than $10.00 CAD.\n●T&E and non-T&E, no minimum amount."
+        "Credit Not Processed\nAll Regions:\n●ATM is prohibited.\nInternational:\n●For T&E transactions, the minimum amount must be equal to or greater\nthan $25.00 USD.\n●No non-T&E minimum amount.\nU.K. Domestic:\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\nthan $25.00 CAD.\n●For non-T&E transactions, the minimum amount must be equal to or\ngreater than $10.00 CAD.\nJapan Domestic:\n●T&E and non-T&E, no minimum amount."
       ]
     },
     {
@@ -2382,7 +2371,7 @@
       "cells": [
         "86",
         "All",
-        "Paid by Other Means\nAll Regions:\n●ATM is prohibited.\nInternational:\n●For T&E transactions, the minimum amount must be equal to or greater\n●No non-T&E minimum amount.\nU.S. Region:\nthan $25.00 USD.\n●EPS not allowed.\nAP Region:\n●EPS not allowed.\nU.K. Domestic:\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\nthan $25.00 CAD.\ngreater than $10.00 CAD.\n●T&E and non-T&E, no minimum amount."
+        "Paid by Other Means\nAll Regions:\n●ATM is prohibited.\nInternational:\n●For T&E transactions, the minimum amount must be equal to or greater\nthan $25.00 USD.\n●No non-T&E minimum amount.\nU.S. Region:\n●EPS not allowed.\nAP Region:\n●EPS not allowed.\nU.K. Domestic:\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\nthan $25.00 CAD.\n●For non-T&E transactions, the minimum amount must be equal to or\ngreater than $10.00 CAD.\nJapan Domestic:\n●T&E and non-T&E, no minimum amount."
       ]
     },
     {
@@ -2407,7 +2396,7 @@
       "cells": [
         "90",
         "All",
-        "Non-Receipt of Cash or Load Transaction Value at ATM or Load Device\nInternational:\n●T&E and non-T&E, no minimum amount.\nU.S. Region:\n●T&E and Non-T&E not allowed.\n●Valid for ATM only.\nU.K. Domestic:\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\nthan $25.00 CAD.\ngreater than $10.00 CAD.\n●T&E and non-T&E, no minimum amount."
+        "Non-Receipt of Cash or Load Transaction Value at ATM or Load Device\nInternational:\n●T&E and non-T&E, no minimum amount.\nU.S. Region:\n●T&E and Non-T&E not allowed.\n●Valid for ATM only.\nU.K. Domestic:\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\nthan $25.00 CAD.\n●For non-T&E transactions, the minimum amount must be equal to or\ngreater than $10.00 CAD.\nJapan Domestic:\n●T&E and non-T&E, no minimum amount."
       ]
     },
     {
@@ -2416,7 +2405,7 @@
       "cells": [
         "93",
         "All",
-        "Merchant Fraud Performance\nAll Regions:\n●ATM is prohibited.\nInternational:\n●T&E and non-T&E, no minimum amount.\nU.K. Domestic:\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\n●T&E and non-T&E, no minimum amount.\nthan $25.00 CAD.\ngreater than $10.00 CAD."
+        "Merchant Fraud Performance\nAll Regions:\n●ATM is prohibited.\nInternational:\n●T&E and non-T&E, no minimum amount.\nU.K. Domestic:\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\nthan $25.00 CAD.\n●For non-T&E transactions, the minimum amount must be equal to or\ngreater than $10.00 CAD.\nJapan Domestic:\n●T&E and non-T&E, no minimum amount."
       ]
     },
     {
@@ -2530,8 +2519,7 @@
       "type": "table_header",
       "page": 35,
       "cells": [
-        "●\n●",
-        "Draft Data: TCR 0, Position 25\nTC 33, RDMS and CRS: TCR 0 - CRS Issuer Advice, Position 161"
+        "●\nDraft Data: TCR 0, Position 25\nTC 33, RDMS and CRS: TCR 0 - CRS Issuer Advice, Position 161\n●"
       ]
     },
     {
@@ -2598,8 +2586,7 @@
       "type": "table_header",
       "page": 36,
       "cells": [
-        "●\n●",
-        "Draft Data: TCR 5, Position 168\nTC48, BASE 1 Advice: TCR1, ISO-Enriched, Position 11"
+        "●\nDraft Data: TCR 5, Position 168\nTC48, BASE 1 Advice: TCR1, ISO-Enriched, Position 11\n●"
       ]
     },
     {
@@ -2988,8 +2975,7 @@
       "type": "table_header",
       "page": 39,
       "cells": [
-        "●\n●",
-        "TC 10, Fee Collection: TCR 0, Positions 17-20\nTC 20, Funds Disbursement: TCR 0, Positions 17-20"
+        "●\nTC 10, Fee Collection: TCR 0, Positions 17-20\nTC 20, Funds Disbursement: TCR 0, Positions 17-20\n●"
       ]
     },
     {
@@ -3908,8 +3894,7 @@
       "type": "table_header",
       "page": 48,
       "cells": [
-        "●\n●",
-        "Draft Data: TCR 1 - Fee Program Indicator, Positions 76-78\nTC 04, Reclassification Advice: TCR 9, Positions 113-115 and 116-118"
+        "●\nDraft Data: TCR 1 - Fee Program Indicator, Positions 76-78\nTC 04, Reclassification Advice: TCR 9, Positions 113-115 and 116-118\n●"
       ]
     },
     {
@@ -4014,8 +3999,7 @@
       "type": "table_header",
       "page": 49,
       "cells": [
-        "●\n●",
-        "Draft Data: TCR 3 - Lodging, Positions 28-33\nTC 57, Data Capture Advice: TCR 4 - Industry-Specific Data—Lodging, Positions 28-33"
+        "●\nDraft Data: TCR 3 - Lodging, Positions 28-33\nTC 57, Data Capture Advice: TCR 4 - Industry-Specific Data—Lodging, Positions 28-33\n●"
       ]
     },
     {
@@ -4114,8 +4098,7 @@
       "type": "table_header",
       "page": 50,
       "cells": [
-        "●\n●",
-        "Draft Data: TCR 3 - Lodging, Position 27\nTC 57, Data Capture Advice: TCR 4 - Industry-Specific Data—Lodging, Position 27"
+        "●\nDraft Data: TCR 3 - Lodging, Position 27\nTC 57, Data Capture Advice: TCR 4 - Industry-Specific Data—Lodging, Position 27\n●"
       ]
     },
     {
@@ -4167,8 +4150,7 @@
       "type": "table_header",
       "page": 50,
       "cells": [
-        "●\n●",
-        "Draft Data: TCR 1 - Additional Data, Position 116\nTC 57, Data Capture Advice: TCR 0 - Transaction Detail, Position 111"
+        "●\nDraft Data: TCR 1 - Additional Data, Position 116\nTC 57, Data Capture Advice: TCR 0 - Transaction Detail, Position 111\n●"
       ]
     },
     {
@@ -4309,16 +4291,15 @@
       "type": "table_header",
       "page": 52,
       "cells": [
-        "●\n●",
-        "Draft Data: TCR 5 - Payment Service Data, Position 49\nTC 48, BASE I Advice: TCR 2 - ISO-Enriched, Position 61"
+        "●\nDraft Data: TCR 5 - Payment Service Data, Position 49\nTC 48, BASE I Advice: TCR 2 - ISO-Enriched, Position 61\n●"
       ]
     },
     {
       "type": "table_row",
       "page": 52,
       "cells": [
-        "●",
-        "TC 57, Data Capture Advice: TCR 3 - Transaction Detail, Payment Service Data, Position\n42"
+        "●\nTC 57, Data Capture Advice: TCR 3 - Transaction Detail, Payment Service Data, Position",
+        "42"
       ]
     },
     {
@@ -5705,7 +5686,7 @@
       "page": 60,
       "cells": [
         "61",
-        "Twice Payment or Installment Payment with Number of Installment Payments\n●Twice Payment: number of installment payments = 0 or 2. Settlement between the acquirer\n●Installment Payment: number of installment payments is greater than or equal to 3.\nand issuer is deferred for Twice Payment.\nSettlement between the acquirer and issuer is not deferred for Installment Payment."
+        "Twice Payment or Installment Payment with Number of Installment Payments\n●Twice Payment: number of installment payments = 0 or 2. Settlement between the acquirer\nand issuer is deferred for Twice Payment.\n●Installment Payment: number of installment payments is greater than or equal to 3.\nSettlement between the acquirer and issuer is not deferred for Installment Payment."
       ]
     },
     {
@@ -5742,8 +5723,7 @@
       "type": "table_header",
       "page": 61,
       "cells": [
-        "●\n●\n●",
-        "Draft Data: TCR 0, Positions 162-163\nTC 57, Data Capture Advice: TCR 0 - Transaction Detail, Positions 152-153\nTC 59, Interface Transaction Advice: TCR 0 - Additional Data, Positions 158-159"
+        "●\nDraft Data: TCR 0, Positions 162-163\nTC 57, Data Capture Advice: TCR 0 - Transaction Detail, Positions 152-153\n●\nTC 59, Interface Transaction Advice: TCR 0 - Additional Data, Positions 158-159\n●"
       ]
     },
     {
@@ -5946,7 +5926,7 @@
       "cells": [
         "R",
         "Recurring Transaction",
-        "Use to identify multiple transactions that:\n●Occur at predetermined intervals that do not\n●Represent an agreement between a\nExamples of a recurring transaction include\nperiodic membership fees, subscriptions, etc.\nexceed 1 year between transactions\ncardholder and a merchant to purchase\ngoods or services over a period of time."
+        "Use to identify multiple transactions that:\n●Occur at predetermined intervals that do not\nexceed 1 year between transactions\n●Represent an agreement between a\ncardholder and a merchant to purchase\ngoods or services over a period of time.\nExamples of a recurring transaction include\nperiodic membership fees, subscriptions, etc."
       ]
     },
     {
@@ -5976,8 +5956,7 @@
       "type": "table_header",
       "page": 63,
       "cells": [
-        "●\n●",
-        "Draft Data: TCR Message Matching, Position 158\nTC 59, Interface Transaction Advice: TCR 1 - Additional Data, Position 75; TCR 1 -\nAmerican Express, Position 76"
+        "●\nDraft Data: TCR Message Matching, Position 158\nTC 59, Interface Transaction Advice: TCR 1 - Additional Data, Position 75; TCR 1 -\n●\nAmerican Express, Position 76"
       ]
     },
     {
@@ -6575,29 +6554,51 @@
       "type": "table_row",
       "page": 67,
       "cells": [
-        "X1",
+        "X1\nF2 and F3 is unavailable for ATM and Interlink. These credit consumer products do not\n●\napply to AFTs, ATM cash disbursements, cashback, manual cash disbursements, and",
         "Visa Commercial Choice Omni"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "page": 67,
+      "cells": [
+        "mobile push payment OCTs. However, these may apply to OCTs with a BAI value of LO."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "page": 67,
+      "cells": [
+        "Product ID Values and Maximum POS Amount Limits\nThis code identifies the product used in the transaction. It also lists the maximum amount limits\nfor Card types Credit/Debit, Prepaid POS and Account Funding POS.\nOnly the Product ID Values appear in Draft Data: TCR 5 - Payment Service Data, Positions 136\n-137.\nThe product IDs associated with maximum limits are subject to the rules of individual\njurisdictions. Maximum limits may vary by Issuer and market transaction processing\nrequirements. To verify the IDs and limits for a given jurisdiction, please check with your Visa\nrepresentative.\nFor Turkey issued card Credit and Debit POS Transaction maximum amounts, please check with\nyour Visa representative."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "page": 67,
+      "cells": [
+        "Maximum Credit and Debit, Prepaid, and Account Funding POS Transaction Amounts"
+      ]
+    },
+    {
+      "type": "table_header",
+      "page": 67,
+      "cells": [
+        "Card\nProduct",
+        "Global Product\nName",
+        "Credit and Debit POS\nMaximum Amount",
+        "Prepaid POS\nMaximum Amount",
+        "Account Funding\nPOS Maximum\nAmount"
       ]
     },
     {
       "type": "table_row",
       "page": 67,
       "cells": [
-        "Product ID Values and Maximum POS Amount Limits\nThis code identifies the product used in the transaction. It also lists the maximum amount limits\nfor Card types Credit/Debit, Prepaid POS and Account Funding POS.\nOnly the Product ID Values appear in Draft Data: TCR 5 - Payment Service Data, Positions 136\n-137.\nThe product IDs associated with maximum limits are subject to the rules of individual\njurisdictions. Maximum limits may vary by Issuer and market transaction processing\nrequirements. To verify the IDs and limits for a given jurisdiction, please check with your Visa\nrepresentative.\nFor Turkey issued card Credit and Debit POS Transaction maximum amounts, please check with\nyour Visa representative.\nMaximum Credit and Debit, Prepaid, and Account Funding POS Transaction Amounts",
-        "Product",
-        "●",
-        "Card",
         "A",
-        "F2 and F3 is unavailable for ATM and Interlink. These credit consumer products do not\napply to AFTs, ATM cash disbursements, cashback, manual cash disbursements, and\nmobile push payment OCTs. However, these may apply to OCTs with a BAI value of LO.",
-        "Global Product\nName\nVisa Traditional",
-        "Credit and Debit POS",
-        "Maximum Amount",
+        "Visa Traditional",
         "USD$749,999.99",
-        "Maximum Amount",
-        "USD$99,999.99\nPrepaid POS",
-        "Account Funding",
-        "POS Maximum\nUSD$99,999.99",
-        "Amount"
+        "USD$99,999.99",
+        "USD$99,999.99"
       ]
     },
     {
@@ -7023,8 +7024,7 @@
       "type": "table_header",
       "page": 69,
       "cells": [
-        "●\n●",
-        "Draft Data: TCR 1 - Additional Data, Position 129\nTC 57, Data Capture Advice: TCR 5—Limited-Use Data, Position 15"
+        "●\nDraft Data: TCR 1 - Additional Data, Position 129\nTC 57, Data Capture Advice: TCR 5—Limited-Use Data, Position 15\n●"
       ]
     },
     {
@@ -7115,8 +7115,7 @@
       "type": "table_header",
       "page": 70,
       "cells": [
-        "●\n●\n●\n●\n●\n●\n●\n●\n●",
-        "Draft Data; TC 40, TC 52\nTC 10, TC 42, TC 54\nFor TC 54, the Reimbursement Attribute appears in TCR 0, Position 170 (ITF format)\nTC 20, TC 43, TC 55\nTC 30, TC 44, TC 56\nTC 31, TC 45, TC 57\nTC 32, TC 46, TC 58\nTC 33, TC 47, TC 59\nTC 38, TC 48\nTC 39, TC 50"
+        "●\nDraft Data; TC 40, TC 52\nTC 10, TC 42, TC 54\n●\nFor TC 54, the Reimbursement Attribute appears in TCR 0, Position 170 (ITF format)\nTC 20, TC 43, TC 55\n●\nTC 30, TC 44, TC 56\n●\nTC 31, TC 45, TC 57\n●\nTC 32, TC 46, TC 58\n●\nTC 33, TC 47, TC 59\n●\nTC 38, TC 48\n●\nTC 39, TC 50\n●"
       ]
     },
     {
@@ -7774,8 +7773,7 @@
       "type": "table_header",
       "page": 74,
       "cells": [
-        "●\n●",
-        "Draft Data: TCR 0, Position 145: Requested Payment Service\nDraft Data: TCR 0, Position 151: Authorization Characteristics Indicator"
+        "●\nDraft Data: TCR 0, Position 145: Requested Payment Service\nDraft Data: TCR 0, Position 151: Authorization Characteristics Indicator\n●"
       ]
     },
     {
@@ -8062,8 +8060,7 @@
       "type": "table_header",
       "page": 76,
       "cells": [
-        "●\n●",
-        "Draft Data: TCR 3 - Passenger Itinerary Data, Position 117\nTC 57, Data Capture Advice: TCR 4 - Industry-Specific Data—Passenger Itinerary Data,\nPosition 117"
+        "●\nDraft Data: TCR 3 - Passenger Itinerary Data, Position 117\nTC 57, Data Capture Advice: TCR 4 - Industry-Specific Data—Passenger Itinerary Data,\n●\nPosition 117"
       ]
     },
     {
@@ -8122,8 +8119,7 @@
       "type": "table_header",
       "page": 76,
       "cells": [
-        "●\n●",
-        "TC 01, 02, 03, Returned Item Transactions: TCR 9, Positions 36-38, 56-58, 59-61, 62-64,\nand 65-67.\nTC 04, Reclassification Advice Transaction: TCR 9, Positions 104-106, 107-109, 110-112,\n119-121, 122-124, 141-143, and 144-146."
+        "●\nTC 01, 02, 03, Returned Item Transactions: TCR 9, Positions 36-38, 56-58, 59-61, 62-64,\nand 65-67.\nTC 04, Reclassification Advice Transaction: TCR 9, Positions 104-106, 107-109, 110-112,\n●\n119-121, 122-124, 141-143, and 144-146."
       ]
     },
     {
@@ -8146,7 +8142,7 @@
       "page": 77,
       "cells": [
         "01",
-        "The Hash Total is invalid. If data is from a local tape, a problem occurred in the Edit\nPackage. The VAP checks the Hash Total while loading the file, so if the data is from one of\nthese devices or is inter-VIC, an invalid Hash Total indicates one of these issues\n●Noise on the communication line has modified the data.\n●The sending VAP or VIC is not using the same Data Structure Table that the receiving\n●The file was modified after the Edit Package was executed.\nVIC is using, which caused the receiving VIC to incorrectly expand the transaction."
+        "The Hash Total is invalid. If data is from a local tape, a problem occurred in the Edit\nPackage. The VAP checks the Hash Total while loading the file, so if the data is from one of\nthese devices or is inter-VIC, an invalid Hash Total indicates one of these issues\n●Noise on the communication line has modified the data.\n●The sending VAP or VIC is not using the same Data Structure Table that the receiving\nVIC is using, which caused the receiving VIC to incorrectly expand the transaction.\n●The file was modified after the Edit Package was executed."
       ]
     },
     {
@@ -9069,7 +9065,7 @@
       "page": 82,
       "cells": [
         "80",
-        "Product Reclassification has occurred.\nNote: Product Reclassification occurs in these conditions:\n●The product ID submitted by the acquirer does not match the product ID used to\n●No product ID was submitted by the acquirer, and the product ID used to process the\nprocess the transaction.\ntransaction does not match the product ID associated with the Account Range in the\nEdit Package ARDEF table."
+        "Product Reclassification has occurred.\nNote: Product Reclassification occurs in these conditions:\n●The product ID submitted by the acquirer does not match the product ID used to\nprocess the transaction.\n●No product ID was submitted by the acquirer, and the product ID used to process the\ntransaction does not match the product ID associated with the Account Range in the\nEdit Package ARDEF table."
       ]
     },
     {
@@ -11417,7 +11413,7 @@
       "page": 94,
       "cells": [
         "HZ",
-        "The recalculation of the validation code at the VIC showed that one of the fields listed\nbelow did not match the value in the authorization message. Please resubmit."
+        "The recalculation of the validation code at the VIC showed that one of the fields listed\nbelow did not match the value in the authorization message. Please resubmit.\n●Account Number\n●Authorized Amount\n●Authorization Characteristics Indicator\n●Authorization Code\n●Authorization Currency Code\n●Authorization Response Code\n●Cashback\n●Market-Specific Authorization Indicator\n●Merchant Category Code\n●POS Entry Mode\n●Transaction Identifier\n●Product ID\nCPS/ATM:\n●Account Number\n●Authorization Characteristics Indicator\n●Transaction Identifier\n●Authorized Amount\n●Authorization Currency Code\n●Merchant Country Code\n●ATM Account Selection\n●Acquiring Identifier\n●Surcharge Amount"
       ]
     },
     {
@@ -11425,7 +11421,7 @@
       "page": 94,
       "cells": [
         "HZ1",
-        "●Account Number\n●Authorized Amount\n●Authorization Characteristics Indicator\n●Authorization Code\n●Authorization Currency Code\n●Authorization Response Code\n●Cashback\n●Market-Specific Authorization Indicator\n●Merchant Category Code\n●POS Entry Mode\n●Transaction Identifier\n●Product ID\nCPS/ATM:\n●Account Number\n●Authorization Characteristics Indicator\n●Transaction Identifier\n●Authorized Amount\n●Authorization Currency Code\n●Merchant Country Code\n●ATM Account Selection\n●Acquiring Identifier\n●Surcharge Amount\nThe validation code is valid but not honored due to VFC Processing rules."
+        "The validation code is valid but not honored due to VFC Processing rules."
       ]
     },
     {
@@ -13647,8 +13643,7 @@
       "type": "table_header",
       "page": 105,
       "cells": [
-        "●\n●\n●\n●\n●\n●\n●",
-        "Draft Data: TCR 0, Position 150\nTC 10, Fee Collection: TCR 0, Position 147\nTC 20, Funds Disbursement: TCR 0, Position 147\nTC 38, Copy Request and Fulfillment: TCR 0, Position 38\nTC 39, Copy Fulfillment Service: TCR 0, Position 38\nTC 44, Collection Batch Acknowledgment: TCR 0 - Batch Disposition Code A, Position 41\nTC 51, 52, 53, Retrieval Request/Confirmation: TCR 0, Position 138"
+        "●\nDraft Data: TCR 0, Position 150\nTC 10, Fee Collection: TCR 0, Position 147\n●\nTC 20, Funds Disbursement: TCR 0, Position 147\n●\nTC 38, Copy Request and Fulfillment: TCR 0, Position 38\n●\nTC 39, Copy Fulfillment Service: TCR 0, Position 38\n●\nTC 44, Collection Batch Acknowledgment: TCR 0 - Batch Disposition Code A, Position 41\n●\nTC 51, 52, 53, Retrieval Request/Confirmation: TCR 0, Position 138\n●"
       ]
     },
     {
@@ -14170,8 +14165,7 @@
       "type": "table_header",
       "page": 108,
       "cells": [
-        "●\n●\n●\n●\n●\n●\n●\n●",
-        "Draft Data: TCR 0, Position 3\nDraft Data: TCR 1, Position 3\nDraft Data: TCR 2, Position 3\nDraft Data: TCR 3, Position 3\nDraft Data: TCR 4, Position 3\nDraft Data: TCR 5, Position 3\nDraft Data: TCR 6, Position 3\nDraft Data: TCR 7, Position 3"
+        "●\nDraft Data: TCR 0, Position 3\nDraft Data: TCR 1, Position 3\n●\nDraft Data: TCR 2, Position 3\n●\nDraft Data: TCR 3, Position 3\n●\nDraft Data: TCR 4, Position 3\n●\nDraft Data: TCR 5, Position 3\n●\nDraft Data: TCR 6, Position 3\n●\nDraft Data: TCR 7, Position 3\n●"
       ]
     },
     {
@@ -14459,16 +14453,14 @@
       "type": "table_header",
       "page": 112,
       "cells": [
-        "●\n●\n●\n●\n●\n●\n●\n●\n●",
-        "Draft Data: TCR 0, Positions 89-91 and 130-132; TCR 2, Positions 17-19\nTC 10, Fee Collection: TCR 0, Positions 21-23, 59-61, and 74-76; TCR 2-Brazil, Positions\n17-19\nTC 20, Funds Disbursement: TCR 0, Positions 21-23, 59-61, and 74-76\nTC 33, RDMS/CRS: TCR 0-CRS Issuer Advice, Positions 68-70, 83-85, and 131-133\nTC 38, Copy Request/Fulfillment: TCR 1-RFC Advice, Positions 82-84; TCR 1-\nNonfulfillment, Positions 31-33\nTC 40, Fraud Advice: TCR 0, Positions 115-117 and 137-139\nTC 42, Merchant File Update: TCR 0-Record 1, Positions 98-99\nTC 44, Collection Batch Acknowledgment: TCR 0-Batch Disposition A, Positions 38-40\nTC 46, Member Settlement Data: TCR 0, Positions 22-24"
+        "●\nDraft Data: TCR 0, Positions 89-91 and 130-132; TCR 2, Positions 17-19\nTC 10, Fee Collection: TCR 0, Positions 21-23, 59-61, and 74-76; TCR 2-Brazil, Positions\n●\n17-19\nTC 20, Funds Disbursement: TCR 0, Positions 21-23, 59-61, and 74-76\n●\nTC 33, RDMS/CRS: TCR 0-CRS Issuer Advice, Positions 68-70, 83-85, and 131-133\n●\nTC 38, Copy Request/Fulfillment: TCR 1-RFC Advice, Positions 82-84; TCR 1-\n●\nNonfulfillment, Positions 31-33\nTC 40, Fraud Advice: TCR 0, Positions 115-117 and 137-139\n●\nTC 42, Merchant File Update: TCR 0-Record 1, Positions 98-99\n●\nTC 44, Collection Batch Acknowledgment: TCR 0-Batch Disposition A, Positions 38-40\n●\nTC 46, Member Settlement Data: TCR 0, Positions 22-24\n●"
       ]
     },
     {
       "type": "table_header",
       "page": 113,
       "cells": [
-        "●\n●\n●\n●",
-        "TC 48, BASE I Advice: TCR 0-Format 1 (ISO-enriched), Positions 78-80 and 81-83\nTC 51, 52, 53, Retrieval Request/Confirmation: TCR 0, Positions 71-73 and 112-114; TCR\n1, Positions 54-56\nTC 56, Currency Conversion Rate Update: TCR 0, Positions 18-20, 33-35, 48-50, 63-65,\n78-80, 93-95, and 108-110\nTC 59, Interface Transaction Advice: TCR 0, Positions 117-119"
+        "●\nTC 48, BASE I Advice: TCR 0-Format 1 (ISO-enriched), Positions 78-80 and 81-83\nTC 51, 52, 53, Retrieval Request/Confirmation: TCR 0, Positions 71-73 and 112-114; TCR\n●\n1, Positions 54-56\nTC 56, Currency Conversion Rate Update: TCR 0, Positions 18-20, 33-35, 48-50, 63-65,\n●\n78-80, 93-95, and 108-110\nTC 59, Interface Transaction Advice: TCR 0, Positions 117-119\n●"
       ]
     },
     {
@@ -19135,8 +19127,7 @@
       "type": "table_header",
       "page": 131,
       "cells": [
-        "●\n●\n●\n●\n●\n●\n●\n●",
-        "Draft Data: TCR 0, Positions 142-144\nTC 33, CRS Issuer Advice: TCR 0, Positions 128-130\nTC 38, RFC Advice: TCR 1-RFC Advice, Positions 94-96\nTC 40, Fraud Advice: TCR 0, Positions 122-124; TCR 1, Positions 118-119\nTC 42, Merchant File Update: TCR 0-Record 1, Positions 120-121\nTC 51, 52, 53, Retrieval Request/Confirmation: TCR 0, Positions 124-126\nTC 57, Data Capture Advice: TCR 1, Positions 72-74\nTC 59, Interface Transaction Advice: TCR 0, Positions 114-116"
+        "●\nDraft Data: TCR 0, Positions 142-144\nTC 33, CRS Issuer Advice: TCR 0, Positions 128-130\n●\nTC 38, RFC Advice: TCR 1-RFC Advice, Positions 94-96\n●\nTC 40, Fraud Advice: TCR 0, Positions 122-124; TCR 1, Positions 118-119\n●\nTC 42, Merchant File Update: TCR 0-Record 1, Positions 120-121\n●\nTC 51, 52, 53, Retrieval Request/Confirmation: TCR 0, Positions 124-126\n●\nTC 57, Data Capture Advice: TCR 1, Positions 72-74\n●\nTC 59, Interface Transaction Advice: TCR 0, Positions 114-116\n●"
       ]
     },
     {
@@ -19290,16 +19281,14 @@
       "type": "table_header",
       "page": 132,
       "cells": [
-        "●\n●\n●\n●\n●\n●",
-        "Draft Data: TCR 0, Positions 142–144\nTC 33, CRS Issuer Advice: TCR 0, Positions 128–130\nTC 38, RFC Advice: TCR 1—RFC Advice, Positions 94–96\nTC 40, Fraud Advice: TCR 0, Positions 122–124; TCR 1, Positions 118–119\nTC 42, Merchant File Update: TCR 0—Record 1, Positions 120–121\nTC 51, 52, 53, Retrieval Request/Confirmation: TCR 0, Positions 124–126"
+        "●\nDraft Data: TCR 0, Positions 142–144\nTC 33, CRS Issuer Advice: TCR 0, Positions 128–130\n●\nTC 38, RFC Advice: TCR 1—RFC Advice, Positions 94–96\n●\nTC 40, Fraud Advice: TCR 0, Positions 122–124; TCR 1, Positions 118–119\n●\nTC 42, Merchant File Update: TCR 0—Record 1, Positions 120–121\n●\nTC 51, 52, 53, Retrieval Request/Confirmation: TCR 0, Positions 124–126\n●"
       ]
     },
     {
       "type": "table_header",
       "page": 133,
       "cells": [
-        "●\n●",
-        "TC 57, Data Capture Advice: TCR 1—Batch Header, Positions 72–74; TCR 1 – American\nExpress Automobile Rental, Positions 69–70 and 99–100; TCR 1—American Express\nAutomobile Leasing, Positions 73–74 and 103–104\nTC 59, Interface Transaction Advice: TCR 0, Positions 114–116; TCR 2, Positions 67–68"
+        "●\nTC 57, Data Capture Advice: TCR 1—Batch Header, Positions 72–74; TCR 1 – American\nExpress Automobile Rental, Positions 69–70 and 99–100; TCR 1—American Express\nAutomobile Leasing, Positions 73–74 and 103–104\nTC 59, Interface Transaction Advice: TCR 0, Positions 114–116; TCR 2, Positions 67–68\n●"
       ]
     },
     {
@@ -20740,7 +20729,7 @@
       "page": 142,
       "cells": [
         "acquirer",
-        "A client financial institution that has agreements with merchants to accept\nVisa card transactions or offers cash disbursement services to cardholders,\nor both. The acquirer is responsible for:\n●Accepting card transaction data from merchants and its own ATMs and\n●Providing authorization decisions to those card-accepting locations.\n●Conveying transaction information to Visa as interchange transactions.\nbank branches."
+        "A client financial institution that has agreements with merchants to accept\nVisa card transactions or offers cash disbursement services to cardholders,\nor both. The acquirer is responsible for:\n●Accepting card transaction data from merchants and its own ATMs and\nbank branches.\n●Providing authorization decisions to those card-accepting locations.\n●Conveying transaction information to Visa as interchange transactions."
       ]
     },
     {

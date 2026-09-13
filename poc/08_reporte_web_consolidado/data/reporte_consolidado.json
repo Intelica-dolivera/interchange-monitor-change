@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-13T00:30:57+00:00",
+  "generated_at": "2026-09-13T16:06:10+00:00",
   "manuals": [
     {
       "edition_a": "20251018",
       "edition_b": "20260418",
       "headline": {
         "label": "Cambios de negocio a revisar",
-        "value": 49
+        "value": 18
       },
       "secondary": [
         {
@@ -15,7 +15,7 @@
         },
         {
           "label": "Bajas",
-          "value": 22
+          "value": 14
         },
         {
           "label": "Tablas agregadas",
@@ -28,32 +28,13 @@
       ],
       "groups": [
         {
-          "group_title": "Acceptance Terminal Indicator",
-          "items": [
-            {
-              "location": "Código `1` — columna *Usage Use to indicate that the transaction does not originate at an unattended terminal.*",
-              "before": "Use to indicate that the transaction:\nl\nIs less than US$40, or local currency\nequivalent.\nl\nIs not authorized.\nl\nExamples of a Type A UAT transaction are:\nHas no cardholder verification performed.\nl\nl\nl\nl\nParking garage fee\nRoad toll\nMotion picture theater admission\nMagnetic stripe telephone call",
-              "after": "Use to indicate that the transaction:\n●Is less than US$40, or local currency\nequivalent.\n●Is not authorized.\n●Has no cardholder verification performed.\nExamples of a Type A UAT transaction are:\n●Parking garage fee\n●Road toll\n●Motion picture theater admission\n●Magnetic stripe telephone call",
-              "reason": "El texto se reorganizó para mejorar la estructura con marcado de puntos y listas, pero el significado y los valores no cambiaron.",
-              "flagged": true
-            },
-            {
-              "location": "Código `2` — columna *Usage Use to indicate that the transaction does not originate at an unattended terminal.*",
-              "before": "Use to indicate that the transaction:\nl\nIs authorized.\nl\nExamples of a Type C UAT transaction are:\nHas PIN verification performed.\nl\nATM\nl\nFuel purchase with PIN",
-              "after": "Use to indicate that the transaction:\n●Is authorized.\n●Has PIN verification performed.\nExamples of a Type C UAT transaction are:\n●ATM\n●Fuel purchase with PIN",
-              "reason": "El texto describe lo mismo pero con formato de lista diferente y orden de ejemplos ajustado.",
-              "flagged": true
-            }
-          ]
-        },
-        {
           "group_title": "Country and Currency Codes",
           "items": [
             {
               "location": "Código `BULGARIA` — columna *ISO Currency Name*",
               "before": "Bulgarian Lev",
               "after": "EuroS",
-              "reason": "El texto anterior 'Bulgarian Lev' indica la moneda de Bulgaria, mientras que 'EuroS' es el nombre de la moneda en uso actual, cambiando el significado de negocio.",
+              "reason": "El texto cambia de 'Bulgarian Lev' a 'EuroS', lo que indica una modificación en el significado del código de moneda para Bulgaria, ya que ahora se refiere a EuroS en lugar de la moneda tradicional.",
               "flagged": false
             },
             {
@@ -67,21 +48,21 @@
               "location": "Código `BULGARIA` — columna *ISO Numeric Currency Code*",
               "before": "975",
               "after": "978",
-              "reason": "El código ISO Numeric Currency Code cambió de 975 a 978, lo que altera el valor de negocio del código de moneda.",
+              "reason": "El código ISO Numeric Currency Code cambió de 975 a 978, lo que altera el valor de negocio para Bulgaria.",
               "flagged": false
             },
             {
               "location": "Código `CROATIA` — columna *ISO Currency Name*",
               "before": "Euro",
               "after": "EuroS",
-              "reason": "El texto cambió de 'Euro' a 'EuroS', lo que altera el significado del código de moneda en el contexto de Visa.",
+              "reason": "El texto cambia de 'Euro' a 'EuroS', lo que altera el significado del código de moneda en el contexto de Visa.",
               "flagged": false
             },
             {
               "location": "Código `CROATIA` — columna *ISO Alpha Currency Code*",
               "before": "Euro",
               "after": "EUR",
-              "reason": "El código de moneda cambió de 'Euro' a 'EUR', que es el código ISO estándar para la moneda oficial de Croacia.",
+              "reason": "El código de moneda cambió de 'Euro' a 'EUR', lo que afecta el valor de negocio del código de moneda.",
               "flagged": false
             }
           ]
@@ -91,9 +72,9 @@
           "items": [
             {
               "location": "Código `0150` — columna *Definition*",
-              "before": "Recovered Card Handling Fees/Rewards\nl\nATM Balance Inquiry acquiring direct fee returns\nATM Balance Inquiry is available for ATM Balance Inquiry acquiring\ndirect fee participants in AP region only.\nThe Account Number field must contain a valid account number.",
+              "before": "Recovered Card Handling Fees/Rewards\nThe Account Number field must contain a valid account number.\nl\nATM Balance Inquiry acquiring direct fee returns\nATM Balance Inquiry is available for ATM Balance Inquiry acquiring\ndirect fee participants in AP region only.",
               "after": "Recovered Card Handling Fees/Rewards\n●The Account Number field must contain a valid account number.\nDomestic ATM Balance Inquiry acquiring direct access fee returns\nATM Balance Inquiry acquiring direct access fee is available for partic-\nipants in Mexico.",
-              "reason": "El texto nuevo especifica que el servicio está disponible solo en México, mientras que el texto viejo menciona que es para participantes en la región AP.",
+              "reason": "El código de definición cambió de 'ATM Balance Inquiry acquiring direct fee returns' a 'ATM Balance Inquiry acquiring direct access fee returns', modificando el tipo de tarjeta y el alcance geográfico a México.",
               "flagged": false
             }
           ]
@@ -105,35 +86,35 @@
               "location": "Código `ACCOUNT SCREEN CLEARING FILE (ASCF)` — columna *Definition*",
               "before": "The Account Screen Clearing File (ASCF) provides global clearing transaction\nprotection for listed accounts, including below-floor-limit transactions, force-\nposted transactions and card-not-present transactions. The file is an extract\nof negatively listed accounts from the ASAF that Visa references in clearing\nwhen the issuer participates in Account Screen All Respond and Clearing\nReturn functionality.",
               "after": "Provides global clearing transaction protection for listed accounts, including\nbelow-floor-limit transactions, force-posted transactions, and card-not-\npresent transactions. The file is an extract of negatively listed accounts from\nthe Account Screen Authorization File (ASAF) that Visa references in Clearing\nwhen the Issuer participates in Account Screen All Respond and Clearing\nReturn functionality.",
-              "reason": "El cambio modifica el nombre del archivo ASAF a Account Screen Authorization File (ASAF) y ajusta la descripción de la función de clearing, lo que implica una diferencia en el significado técnico del proceso.",
+              "reason": "El cambio modifica el nombre del archivo ASAF a Account Screen Authorization File (ASAF) y ajusta la descripción de la función de clearing, lo que afecta el significado técnico del código.",
               "flagged": false
             },
             {
               "location": "Código `BASE II SYSTEM` — columna *Definition*",
               "before": "An electronic batch transmission system primarily used for the exchange of\nVisa interchange transaction data and for settlement of the value of those\ntransactions between acquirers and issuers. This system is also used by\ncenters to retrieve records from the Advice File and by Visa to settle various\nfees with clients.",
               "after": "An international electronic batch transmission system primarily used for\nthe exchange of Visa interchange transaction data and for settlement of\nthe value of those transactions between acquirers and issuers. Processing\ncenters use this system to retrieve records from the Advice File. Visa uses the\nsystem to settle fees with clients.",
-              "reason": "El texto describe lo mismo pero con una redacción más clara y sin repeticiones.",
+              "reason": "El texto describe el mismo concepto con una redacción diferente, eliminando detalles redundantes y reorganizando las frases para mayor claridad.",
               "flagged": true
             },
             {
               "location": "Código `CENTRAL PROCESSING DATE (CPD)` — columna *Definition*",
               "before": "The date (based on GMT) when the ITF or report in question was generated\nat a VIC.",
               "after": "The date (based on GMT) on which a client enters Interchange data to, and\nthe data is accepted by, a VisaNet Interchange Center (VIC).",
-              "reason": "El significado de la fecha de generación de los datos cambia de 'cuando se generó el ITF o reporte en un VIC' a 'cuando el cliente ingresa datos al VIC y son aceptados'",
+              "reason": "El significado del código cambia de 'fecha en la que se generó el ITF o reporte en un VIC' a 'fecha en la que un cliente ingresa datos de intercambio y son aceptados por un VIC', lo que redefine el contexto de generación del código.",
               "flagged": false
             },
             {
               "location": "Código `DESTINATION IDENTIFIER` — columna *Definition*",
               "before": "See acquiring identifier and/or issuing identifier.",
               "after": "An Identifier to which a BASE II transaction message is sent.",
-              "reason": "El significado del código cambió de referirse a identificadores de adquisición/emitidos a un identificador de destino específico para transacciones BASE II.",
+              "reason": "El significado del código cambió de referirse a identificadores de adquisición y emisión a un identificador de destino para transacciones BASE II.",
               "flagged": false
             },
             {
               "location": "Código `ISSUER CENTER` — columna *Definition*",
               "before": "A BASE II processing center acting in support of one or more issuers. The\nprocessing center processes completed account holder transactions (local\nand interchange) for account holder account posting and billing. For\ncompleted interchange transactions, the center is also responsible for\nreceiving and processing incoming transactions for the account holders of\nthe issuer or issuers.",
               "after": "A BASE II processing center acting in support of one or more issuers.\nThe processing center processes completed cardholder transactions (local\nand interchange) for cardholder account posting and billing. For completed\ninterchange transactions, the center is also responsible for receiving and\nprocessing incoming transactions for the cardholders of the issuer or issuers.",
-              "reason": "El cambio modifica el término 'account holder' por 'cardholder' y 'account posting' por 'cardholder account posting', lo que altera el significado técnico del servicio.",
+              "reason": "El cambio modifica el término 'account holder' por 'cardholder' y 'account posting' por 'cardholder account posting', lo que altera el significado de negocio en el contexto de los procesos de facturación y procesamiento.",
               "flagged": false
             },
             {
@@ -147,45 +128,21 @@
               "location": "Código `PLUS IDENTIFIER FILE` — columna *Definition*",
               "before": "A file containing Plus table update records that is created through incoming\nEdit Package processing for all clients subscribing to the Plus ATM system.\nThe Plus Table contains identifier numbers of Plus card issuers.",
               "after": "A file containing Plus table update records that is created through incoming\nEdit Package processing for all clients subscribing to the Plus ATM system.\nThe Plus Table contains numbers of Plus card issuers.",
-              "reason": "El cambio en 'identifier numbers' a 'numbers' altera el significado técnico del código, indicando que el valor de negocio cambió de identificadores a números simples.",
+              "reason": "El significado de 'identifier numbers' se cambió a 'numbers', lo que afecta el valor de negocio de los identificadores de tarjetas.",
               "flagged": false
             },
             {
               "location": "Código `SOURCE IDENTIFIER` — columna *Definition*",
               "before": "See acquiring identifier and/or issuing identifier.",
               "after": "The Identifier from which a BASE II transaction message is sent.",
-              "reason": "El texto describe lo mismo pero con una redacción más clara y específica, sin cambios en el significado.",
-              "flagged": true
+              "reason": "El texto nuevo define explícitamente la fuente del mensaje BASE II, mientras que el texto antiguo solo menciona identificadores sin especificar su origen.",
+              "flagged": false
             },
             {
               "location": "Código `TRANSACTION` — columna *Definition*",
               "before": "BASE II transaction. The record or records that make up a single financial,\nadministrative, or text message, as required for transmission between a\nprocessing center and a VIC. BASE II transactions are identified by transaction\ncodes.\nCardholder transaction. The use of a payment credential to make a payment\nor otherwise exhange value between a cardholder (or an issuer) and a\nmerchant (or an acquirer).",
               "after": "BASE II transaction. The record or records that make up a single financial,\nadministrative, or text message, as required for transmission between a\nprocessing center and a VIC. BASE II transactions are identified by transaction\ncodes.\nCardholder transaction. The use of a card by a customer (normally assumed\nto be the cardholder) to purchase goods or services from a merchant or\nsecure cash from an ATM or financial institution.",
-              "reason": "El texto describe el mismo concepto de transacción del titular de tarjeta, pero con una redacción diferente que especifica el uso de la tarjeta por un cliente para comprar bienes o servicios, en lugar de 'exhange value entre un cardholder y un merchant'.",
-              "flagged": true
-            }
-          ]
-        },
-        {
-          "group_title": "POS Environment Codes",
-          "items": [
-            {
-              "location": "Código `R` — columna *Usage Used to indicate that the field is not populated.*",
-              "before": "Use to identify multiple transactions that:\nl\nl\nExamples of a recurring transaction include\nperiodic membership fees, subscriptions, etc.\nOccur at predetermined intervals that do not\nexceed 1 year between transactions\nRepresent an agreement between a\ncardholder and a merchant to purchase\ngoods or services over a period of time.",
-              "after": "Use to identify multiple transactions that:\n●Occur at predetermined intervals that do not\n●Represent an agreement between a\nExamples of a recurring transaction include\nperiodic membership fees, subscriptions, etc.\nexceed 1 year between transactions\ncardholder and a merchant to purchase\ngoods or services over a period of time.",
-              "reason": "El texto se reorganizó para mejorar la legibilidad, manteniendo el mismo significado y contenido.",
-              "flagged": true
-            }
-          ]
-        },
-        {
-          "group_title": "Payment Mode Codes",
-          "items": [
-            {
-              "location": "Código `61` — columna *Definition*",
-              "before": "Twice Payment or Installment Payment with Number of Installment Payments\nl\nl\nTwice Payment: number of installment payments = 0 or 2. Settlement between the acquirer\nand issuer is deferred for Twice Payment.\nInstallment Payment: number of installment payments is greater than or equal to 3.\nSettlement between the acquirer and issuer is not deferred for Installment Payment.",
-              "after": "Twice Payment or Installment Payment with Number of Installment Payments\n●Twice Payment: number of installment payments = 0 or 2. Settlement between the acquirer\n●Installment Payment: number of installment payments is greater than or equal to 3.\nand issuer is deferred for Twice Payment.\nSettlement between the acquirer and issuer is not deferred for Installment Payment.",
-              "reason": "El texto se reorganizó con puntos y espacios diferentes, pero mantiene el mismo significado y contenido.",
+              "reason": "El texto describe el mismo concepto de transacción del titular de tarjeta, pero reorganiza la redacción para ser más claro y específico en la nueva edición.",
               "flagged": true
             }
           ]
@@ -211,236 +168,32 @@
               "location": "Código `W1` — columna *Description*",
               "before": "Visa Direct Payouts A",
               "after": "Visa Direct Payouts to Bank Accounts",
-              "reason": "El texto describe ahora el pago directo a cuentas bancarias en lugar de un pago directo general, cambiando el significado de negocio.",
+              "reason": "El texto describe ahora el destino específico de los pagos directos de Visa, indicando que son a cuentas bancarias en lugar de un término genérico.",
               "flagged": false
-            }
-          ]
-        },
-        {
-          "group_title": "Request for Copy Reason Codes-Copy/Microfilm of Original (TC 52)",
-          "items": [
-            {
-              "location": "Código `33` — columna *Reason*",
-              "before": "l\nl",
-              "after": "●Legal process or fraud analysis request—U.S. Domestic only\n●Fraud analysis request—Non-U.S. Domestic",
-              "reason": "El significado del código 33 cambió de ser un texto vacío a especificar dos tipos de solicitudes legales o de análisis de fraude con distinción de territorio.",
-              "flagged": false
-            },
-            {
-              "location": "Código `34` — columna *Reason*",
-              "before": "l\nl",
-              "after": "●Repeat request for copy—U.S. Domestic only\n●Legal process request—Non-U.S. Domestic",
-              "reason": "El código 34 ahora incluye dos razones específicas: 'Repeat request for copy—U.S. Domestic only' y 'Legal process request—Non-U.S. Domestic', cambiando su significado de negocio desde un texto vacío a dos condiciones claras.",
-              "flagged": false
-            }
-          ]
-        },
-        {
-          "group_title": "Retired Chargeback Reason Codes",
-          "items": [
-            {
-              "location": "Código `30` — columna *Chargeback Reason Rules*",
-              "before": "Services Not Provided or Merchandise Not Received\nAll Regions:\nl\nInternational:\nl\nl\nU.K. Domestic:\nl\nCanada Region:\nl\nl\nJapan Domestic:\nl\nATM is prohibited.\nFor T&E transactions the minimum amount must be equal to or\ngreater than $25.00 USD.\nNo non-T&E minimum amount.\nT&E and non-T&E, no minimum amount.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nT&E and non-T&E, no minimum amount.",
-              "after": "Services Not Provided or Merchandise Not Received\nAll Regions:\n●ATM is prohibited.\nInternational:\n●For T&E transactions the minimum amount must be equal to or greater\n●No non-T&E minimum amount.\nU.K. Domestic:\nthan $25.00 USD.\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\nthan $25.00 CAD.\ngreater than $10.00 CAD.\n●T&E and non-T&E, no minimum amount.",
-              "reason": "El texto nuevo modifica el orden de las reglas para T&E y no T&E en Canadá, cambiando el valor de los mínimos de transacciones.",
-              "flagged": false
-            },
-            {
-              "location": "Código `41` — columna *Chargeback Reason Rules*",
-              "before": "Cancelled Recurring Transaction\nAll Regions:\nl\nInternational:\nATM is prohibited.\nl\nl\nU.K. Domestic:\nFor T&E transaction, the minimum amount must be equal to or\ngreater than $25.00 USD.\nNo non-T&E minimum amount.\nl\nCanada Region:\nl\nl\nJapan Domestic:\nl\nT&E and non-T&E, no minimum amount.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nT&E and non-T&E, no minimum amount.",
-              "after": "Cancelled Recurring Transaction\nAll Regions:\n●ATM is prohibited.\nInternational:\n●For T&E transaction, the minimum amount must be equal to or greater\n●No non-T&E minimum amount.\nU.K. Domestic:\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\n●T&E and non-T&E, no minimum amount.\nthan $25.00 USD.\nthan $25.00 CAD.\ngreater than $10.00 CAD.",
-              "reason": "El texto nuevo modifica los límites de monto para transacciones T&E y no T&E en Canadá, especificando valores diferentes que afectan la regla de negocio.",
-              "flagged": false
-            },
-            {
-              "location": "Código `53` — columna *Chargeback Reason Rules*",
-              "before": "Not as Described or Defective Merchandise\nAll Regions:\nl\nInternational:\nl\nl\nU.S. Region:\nl\nU.K. Domestic:\nl\nCanada Region:\nl\nl\nJapan Domestic:\nl\nATM is prohibited.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 USD.\nNo non-T&E minimum amount.\nEPS not allowed.\nT&E and non-T&E, no minimum amount.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nT&E and non-T&E, no minimum amount.",
-              "after": "Not as Described or Defective Merchandise\nAll Regions:\n●ATM is prohibited.\nInternational:\n●For T&E transactions, the minimum amount must be equal to or greater\n●No non-T&E minimum amount.\nU.S. Region:\nthan $25.00 USD.\n●EPS not allowed.\nU.K. Domestic:\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\nthan $25.00 CAD.\ngreater than $10.00 CAD.\n●T&E and non-T&E, no minimum amount.",
-              "reason": "El texto nuevo modifica el orden de las reglas para T&E y no T&E en el valor mínimo de transacciones en CAD, cambiando el valor anterior de $25.00 USD a $25.00 CAD y $10.00 CAD respectivamente.",
-              "flagged": false
-            },
-            {
-              "location": "Código `57` — columna *Chargeback Reason Rules*",
-              "before": "Fraudulent Multiple Transactions\nAll Regions:\nl\nl\nl\nInternational:\nATM is prohibited.\nDirect Marketing MCCs are prohibited.\nMOTO/ECI must be spaces.\nl\nl\nU.K. Domestic:\nl\nCanada Region:\nl\nl\nJapan Domestic:\nl\nFor T&E transactions, the minimum must be equal to or greater\nthan $25.00 USD.\nNo non-T&E minimum amount.\nT&E and non-T&E, no minimum amount.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD\nT&E and non-T&E, no minimum amount.",
-              "after": "Fraudulent Multiple Transactions\nAll Regions:\n●ATM is prohibited.\n●Direct Marketing MCCs are prohibited.\n●MOTO/ECI must be spaces.\nInternational:\n●For T&E transactions, the minimum must be equal to or greater than\n●No non-T&E minimum amount.\nU.K. Domestic:\n$25.00 USD.\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\nthan $25.00 CAD.\ngreater than $10.00 CAD\n●T&E and non-T&E, no minimum amount.",
-              "reason": "El texto nuevo modifica los límites de mínimo para transacciones T&E y no T&E en regiones específicas, cambiando el valor anterior de $25.00 USD a $25.00 CAD y $10.00 CAD respectivamente.",
-              "flagged": false
-            },
-            {
-              "location": "Código `60` — columna *Chargeback Reason Rules*",
-              "before": "Illegible Fulfillment\nAll Regions:\nl\nInternational:\nl\nU.S. Domestic and AP Region:\nl\nCanada Region:\nATM is prohibited.\nNo T&E or non-T&E minimum amount.\nEPS is not allowed.\nl\nl\nl\nJapan Domestic:\nl\nEPS is not allowed.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nT&E and non-T&E, no minimum amount.",
-              "after": "Illegible Fulfillment\nAll Regions:\n●ATM is prohibited.\nInternational:\n●No T&E or non-T&E minimum amount.\nU.S. Domestic and AP Region:\n●EPS is not allowed.\nCanada Region:\n●EPS is not allowed.\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\n●T&E and non-T&E, no minimum amount.\nthan $25.00 CAD.\ngreater than $10.00 CAD.",
-              "reason": "El texto nuevo modifica las reglas de mínimo de monto para transacciones T&E y no T&E en el contexto de Japón, especificando valores numéricos diferentes al valor anterior.",
-              "flagged": false
-            },
-            {
-              "location": "Código `62` — columna *Chargeback Reason Rules*",
-              "before": "Counterfeit Transaction\nAll Regions:\nl\nl\nInternational:\nl\nCanada Region:\nl\nl\nJapan Domestic:\nl\nDirect Marketing MCCs are prohibited.\nMOTO/ECI must be spaces.\nNo T&E or non-T&E minimum amount.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nT&E and non-T&E, no minimum amount.",
-              "after": "Counterfeit Transaction\nAll Regions:\n●Direct Marketing MCCs are prohibited.\n●MOTO/ECI must be spaces.\nInternational:\n●No T&E or non-T&E minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\nthan $25.00 CAD.\ngreater than $10.00 CAD.\n●T&E and non-T&E, no minimum amount.",
-              "reason": "El texto nuevo reorganiza las reglas de manera que las condiciones para T&E y no T&E se especifican con montos mínimos diferentes, mientras que el valor anterior no distinguía claramente los montos mínimos para cada tipo de transacción.",
-              "flagged": false
-            },
-            {
-              "location": "Código `70` — columna *Chargeback Reason Rules*",
-              "before": "Card Recovery Bulletin or Exception File\nAll Regions:\nl\nl\nInternational:\nATM is prohibited.\nValidate against the Card Warning Bulletin.\nl\nl\nU.K. Domestic:\nl\nCanada Region:\nl\nl\nJapan Domestic:\nl\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 USD.\nNo non-T&E minimum amount.\nT&E and non-T&E, no minimum amount.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nT&E and non-T&E, no minimum amount.",
-              "after": "Card Recovery Bulletin or Exception File\nAll Regions:\n●ATM is prohibited.\n●Validate against the Card Warning Bulletin.\nInternational:\n●For T&E transactions, the minimum amount must be equal to or greater\n●No non-T&E minimum amount.\nU.K. Domestic:\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\n●T&E and non-T&E, no minimum amount.\nthan $25.00 USD.\nthan $25.00 CAD.\ngreater than $10.00 CAD.",
-              "reason": "El texto nuevo modifica los límites de monto para transacciones T&E y no T&E en diferentes regiones, especificando valores distintos para USD y CAD que no estaban claros en la versión anterior.",
-              "flagged": false
-            },
-            {
-              "location": "Código `71` — columna *Chargeback Reason Rules*",
-              "before": "Declined Authorization\nAll Regions:\nl\nInternational:\nl\nl\nU.K. Domestic:\nl\nCanada Region:\nl\nl\nJapan Domestic:\nl\nATM is prohibited.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 USD.\nNo non-T&E minimum amount.\nT&E and non-T&E, no minimum amount.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nT&E and non-T&E, no minimum amount.",
-              "after": "Declined Authorization\nAll Regions:\n●ATM is prohibited.\nInternational:\n●For T&E transactions, the minimum amount must be equal to or greater\n●No non-T&E minimum amount.\nU.K. Domestic:\nthan $25.00 USD.\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\nthan $25.00 CAD.\ngreater than $10.00 CAD.\n●T&E and non-T&E, no minimum amount.",
-              "reason": "El texto nuevo modifica el orden de las reglas de mínimo monto para transacciones T&E y no T&E en diferentes regiones, alterando el significado de las condiciones comerciales.",
-              "flagged": false
-            },
-            {
-              "location": "Código `72` — columna *Chargeback Reason Rules*",
-              "before": "No Authorization\nAll Regions:\nl\nInternational:\nATM is prohibited.\nl\nl\nU.K. Domestic:\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 USD.\nNo non-T&E minimum amount.\nl\nCanada Region:\nl\nl\nJapan Domestic:\nl\nT&E and non-T&E, no minimum amount.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nT&E and non-T&E, no minimum amount.",
-              "after": "No Authorization\nAll Regions:\n●ATM is prohibited.\nInternational:\n●For T&E transactions, the minimum amount must be equal to or greater\n●No non-T&E minimum amount.\nU.K. Domestic:\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\n●T&E and non-T&E, no minimum amount.\nthan $25.00 USD.\nthan $25.00 CAD.\ngreater than $10.00 CAD.",
-              "reason": "El texto nuevo modifica los límites de monto para transacciones T&E y no T&E en diferentes regiones, especificando valores diferentes para USD y CAD que no estaban claros en la versión anterior.",
-              "flagged": false
-            },
-            {
-              "location": "Código `73` — columna *Chargeback Reason Rules*",
-              "before": "Expired Card\nAll Regions:\nl\nInternational:\nl\nl\nU.K. Domestic:\nl\nCanada Region:\nl\nl\nJapan Domestic:\nl\nATM is prohibited.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 USD.\nNo non-T&E minimum amount.\nT&E and non-T&E, no minimum amount.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nT&E and non-T&E, no minimum amount.",
-              "after": "Expired Card\nAll Regions:\n●ATM is prohibited.\nInternational:\n●For T&E transactions, the minimum amount must be equal to or greater\n●No non-T&E minimum amount.\nU.K. Domestic:\nthan $25.00 USD.\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\nthan $25.00 CAD.\ngreater than $10.00 CAD.\n●T&E and non-T&E, no minimum amount.",
-              "reason": "El texto nuevo modifica el orden de las reglas para T&E y no T&E en el valor mínimo de transacciones, cambiando el significado de las condiciones aplicables.",
-              "flagged": false
-            },
-            {
-              "location": "Código `74` — columna *Chargeback Reason Rules*",
-              "before": "Late Presentment\nInternational:\nl\nl\nU.S. Domestic:\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 USD.\nNo non-T&E minimum amount.\nl\nl\nU.K. Domestic:\nPlus ATM cash disbursement and alternate media transactions\nare prohibited.\nVisa ATM cash disbursement transaction is not allowed.\nl\nCanada Region:\nl\nl\nJapan Domestic:\nl\nT&E and non-T&E, no minimum amount.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nT&E and non-T&E, no minimum amount.",
-              "after": "Late Presentment\nInternational:\n●For T&E transactions, the minimum amount must be equal to or greater\n●No non-T&E minimum amount.\nU.S. Domestic:\nthan $25.00 USD.\n●Plus ATM cash disbursement and alternate media transactions are\n●Visa ATM cash disbursement transaction is not allowed.\nU.K. Domestic:\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\n●T&E and non-T&E, no minimum amount.\nprohibited.\nthan $25.00 CAD.\ngreater than $10.00 CAD.",
-              "reason": "El cambio modifica la estructura de las reglas de presentación tardía para T&E y no T&E en diferentes regiones, especificando montos diferentes para CAD y USD.",
-              "flagged": false
-            },
-            {
-              "location": "Código `75` — columna *Chargeback Reason Rules*",
-              "before": "Transaction Not Recognized\nAll Regions:\nl\nl\nInternational:\nl\nl\nU.S. Region:\nl\nl\nl\nU.K. Domestic\nl\nCanada Region:\nl\nl\nl\nJapan Domestic:\nl\nATM is prohibited.\nCannot be a Secure Electronic Commerce transaction.\nNo T&E minimum amount.\nNo non-T&E minimum amount.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 USD.\nNo non-T&E minimum amount.\nEPS not allowed.\nT&E and non-T&E, no minimum amount.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nNot valid for EPS/NSR Transactions\nT&E and non-T&E, no minimum amount.",
-              "after": "Transaction Not Recognized\nAll Regions:\n●ATM is prohibited.\n●Cannot be a Secure Electronic Commerce transaction.\nInternational:\n●No T&E minimum amount.\n●No non-T&E minimum amount.\nU.S. Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●No non-T&E minimum amount.\n●EPS not allowed.\nU.K. Domestic\nthan $25.00 USD.\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\n●Not valid for EPS/NSR Transactions\nJapan Domestic:\nthan $25.00 CAD.\ngreater than $10.00 CAD.\n●T&E and non-T&E, no minimum amount.",
-              "reason": "El texto nuevo modifica las reglas de mínimo monto para transacciones T&E y no T&E en regiones específicas, alterando condiciones de negocio.",
-              "flagged": false
-            },
-            {
-              "location": "Código `76` — columna *Chargeback Reason Rules*",
-              "before": "Incorrect Currency or Transaction Code or Domestic\nTransaction Processing Violation\nInternational:\nl\nl\nU.K. Domestic:\nl\nCanada Region:\nl\nl\nJapan Domestic:\nl\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 USD.\nNo non-T&E minimum amount.\nT&E and non-T&E, no minimum amount.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nT&E and non-T&E, no minimum amount.",
-              "after": "Incorrect Currency or Transaction Code or Domestic Transaction\nProcessing Violation\nInternational:\n●For T&E transactions, the minimum amount must be equal to or greater\n●No non-T&E minimum amount.\nU.K. Domestic:\nthan $25.00 USD.\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\nthan $25.00 CAD.\ngreater than $10.00 CAD.\n●T&E and non-T&E, no minimum amount.",
-              "reason": "El texto nuevo modifica el orden de las reglas de mínimo monto para transacciones T&E y no T&E en diferentes regiones, alterando el significado de las condiciones comerciales.",
-              "flagged": false
-            },
-            {
-              "location": "Código `77` — columna *Chargeback Reason Rules*",
-              "before": "Non-Matching Account Number\nAll Regions:\nl\nInternational:\nl\nl\nU.K. Domestic:\nl\nCanada Region:\nATM is prohibited.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 USD.\nNo non-T&E minimum amount.\nT&E and non-T&E, no minimum amount.\nl\nl\nJapan Domestic:\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nl\nT&E and non-T&E, no minimum amount.",
-              "after": "Non-Matching Account Number\nAll Regions:\n●ATM is prohibited.\nInternational:\n●For T&E transactions, the minimum amount must be equal to or greater\n●No non-T&E minimum amount.\nU.K. Domestic:\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\n●T&E and non-T&E, no minimum amount.\nthan $25.00 USD.\nthan $25.00 CAD.\ngreater than $10.00 CAD.",
-              "reason": "El texto nuevo modifica los límites de monto para transacciones T&E y no T&E en diferentes regiones, especificando valores distintos para USD y CAD que no estaban claros en la versión anterior.",
-              "flagged": false
-            },
-            {
-              "location": "Código `78` — columna *Chargeback Reason Rules*",
-              "before": "Service Code Violation\nAll Regions:\nl\nInternational:\nl\nl\nU.K. Domestic:\nl\nCanada Region:\nl\nl\nJapan Domestic:\nl\nATM is prohibited.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 USD.\nNo non-T&E minimum amount.\nT&E and non-T&E, no minimum amount.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nT&E and non-T&E, no minimum amount.",
-              "after": "Service Code Violation\nAll Regions:\n●ATM is prohibited.\nInternational:\n●For T&E transactions, the minimum amount must be equal to or greater\n●No non-T&E minimum amount.\nU.K. Domestic:\nthan $25.00 USD.\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\nthan $25.00 CAD.\ngreater than $10.00 CAD.\n●T&E and non-T&E, no minimum amount.",
-              "reason": "El texto nuevo reorganiza las reglas de mínimo de monto para transacciones T&E y no T&E, alterando el significado de los valores mínimos en USD y CAD.",
-              "flagged": false
-            },
-            {
-              "location": "Código `80` — columna *Chargeback Reason Rules*",
-              "before": "Incorrect Transaction Amount or Account Number\nAll Regions except U.S. Region:\nl\nInternational:\nATM is prohibited.\nl\nl\nU.K. Domestic:\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 USD.\nNo non-T&E minimum amount.\nl\nCanada Region:\nl\nl\nl\nJapan Domestic:\nl\nT&E and non-T&E, no minimum amount.\nEPS is not allowed.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nT&E and non-T&E, no minimum amount.",
-              "after": "Incorrect Transaction Amount or Account Number\nAll Regions except U.S. Region:\n●ATM is prohibited.\nInternational:\n●For T&E transactions, the minimum amount must be equal to or greater\n●No non-T&E minimum amount.\nU.K. Domestic:\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●EPS is not allowed.\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\n●T&E and non-T&E, no minimum amount.\nthan $25.00 USD.\nthan $25.00 CAD.\ngreater than $10.00 CAD.",
-              "reason": "El texto nuevo modifica las reglas de mínimo monto para transacciones T&E y no T&E en diferentes regiones, especificando valores diferentes en CAD y USD que no estaban claros en la versión anterior.",
-              "flagged": false
-            },
-            {
-              "location": "Código `81` — columna *Chargeback Reason Rules*",
-              "before": "Fraud - Card-Present Environment\nAll Regions:\nl\nl\nInternational:\nl\nl\nl\nU.S. Region:\nl\nl\nAP Region:\nl\nU.K. Domestic:\nl\nCanada Region:\nl\nl\nl\nJapan Domestic:\nl\nMOTO/ECI must be spaces.\nDirect Marketing MCCs are prohibited.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 USD.\nNo non-T&E minimum amount.\nATM is prohibited\nFor Automated Fuel Dispenser transactions, the minimum\namount must be equal to or greater than $10.00 USD.\nATM is prohibited\nEPS not allowed.\nT&E and non-T&E, no minimum amount.\nEPS is not allowed.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nT&E and non-T&E, no minimum amount.",
-              "after": "Fraud - Card-Present Environment\nAll Regions:\n●MOTO/ECI must be spaces.\n●Direct Marketing MCCs are prohibited.\nInternational:\n●For T&E transactions, the minimum amount must be equal to or greater\n●No non-T&E minimum amount.\n●ATM is prohibited\nU.S. Region:\nthan $25.00 USD.\n●For Automated Fuel Dispenser transactions, the minimum amount must be\n●ATM is prohibited\nAP Region:\nequal to or greater than $10.00 USD.\n●EPS not allowed.\nU.K. Domestic:\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●EPS is not allowed.\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\n●T&E and non-T&E, no minimum amount.\nthan $25.00 CAD.\ngreater than $10.00 CAD.",
-              "reason": "El texto nuevo modifica el orden de las reglas para T&E y no T&E en CAD, cambiando el valor mínimo de transacción desde $25.00 USD a $25.00 CAD y $10.00 CAD respectivamente.",
-              "flagged": false
-            },
-            {
-              "location": "Código `82` — columna *Chargeback Reason Rules*",
-              "before": "Duplicate Processing\nInternational:\nl\nl\nU.K. Domestic:\nl\nCanada Region:\nl\nl\nJapan Domestic:\nl\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 USD.\nNo non-T&E minimum amount.\nT&E and non-T&E, no minimum amount.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nT&E and non-T&E, no minimum amount.",
-              "after": "Duplicate Processing\nInternational:\n●For T&E transactions, the minimum amount must be equal to or greater\n●No non-T&E minimum amount.\nU.K. Domestic:\nthan $25.00 USD.\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\nthan $25.00 CAD.\ngreater than $10.00 CAD.\n●T&E and non-T&E, no minimum amount.",
-              "reason": "El texto se reorganizó para mejorar la legibilidad, manteniendo el mismo significado y reglas de negocio.",
-              "flagged": true
-            },
-            {
-              "location": "Código `83` — columna *Chargeback Reason Rules*",
-              "before": "Fraud - Card-Absent Environment\nAll Regions:\nl\nl\nInternational:\nl\nl\nU.K. Domestic:\nl\nCanada Region:\nATM is prohibited.\nRestricted for use by Secure Electronic Commerce transactions,\nexcept by U.S. region.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 USD.\nNo non-T&E minimum amount.\nT&E and non-T&E, no minimum amount.\nl\nl\nJapan Domestic:\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nl\nT&E and non-T&E, no minimum amount.",
-              "after": "Fraud - Card-Absent Environment\nAll Regions:\n●ATM is prohibited.\n●Restricted for use by Secure Electronic Commerce transactions, except by\nInternational:\nU.S. region.\n●For T&E transactions, the minimum amount must be equal to or greater\n●No non-T&E minimum amount.\nU.K. Domestic:\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\n●T&E and non-T&E, no minimum amount.\nthan $25.00 USD.\nthan $25.00 CAD.\ngreater than $10.00 CAD.",
-              "reason": "El texto nuevo modifica el orden de las reglas para T&E y no T&E en el Canada Region, especificando que el mínimo para T&E es $25.00 USD y para no T&E es $10.00 CAD, mientras que el texto antiguo no tenía claridad en el monto para no T&E en Canada.",
-              "flagged": false
-            },
-            {
-              "location": "Código `85` — columna *Chargeback Reason Rules*",
-              "before": "Credit Not Processed\nAll Regions:\nl\nInternational:\nl\nl\nU.K. Domestic:\nl\nCanada Region:\nl\nl\nJapan Domestic:\nl\nATM is prohibited.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 USD.\nNo non-T&E minimum amount.\nT&E and non-T&E, no minimum amount.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nT&E and non-T&E, no minimum amount.",
-              "after": "Credit Not Processed\nAll Regions:\n●ATM is prohibited.\nInternational:\n●For T&E transactions, the minimum amount must be equal to or greater\n●No non-T&E minimum amount.\nU.K. Domestic:\nthan $25.00 USD.\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\nthan $25.00 CAD.\ngreater than $10.00 CAD.\n●T&E and non-T&E, no minimum amount.",
-              "reason": "El texto nuevo modifica el orden de las reglas para T&E y no T&E en el contexto de transacciones domésticas en Canadá, alterando la interpretación del mínimo requerido.",
-              "flagged": false
-            },
-            {
-              "location": "Código `86` — columna *Chargeback Reason Rules*",
-              "before": "Paid by Other Means\nAll Regions:\nl\nInternational:\nl\nl\nU.S. Region:\nl\nAP Region:\nl\nU.K. Domestic:\nl\nCanada Region:\nl\nl\nJapan Domestic:\nl\nATM is prohibited.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 USD.\nNo non-T&E minimum amount.\nEPS not allowed.\nEPS not allowed.\nT&E and non-T&E, no minimum amount.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nT&E and non-T&E, no minimum amount.",
-              "after": "Paid by Other Means\nAll Regions:\n●ATM is prohibited.\nInternational:\n●For T&E transactions, the minimum amount must be equal to or greater\n●No non-T&E minimum amount.\nU.S. Region:\nthan $25.00 USD.\n●EPS not allowed.\nAP Region:\n●EPS not allowed.\nU.K. Domestic:\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\nthan $25.00 CAD.\ngreater than $10.00 CAD.\n●T&E and non-T&E, no minimum amount.",
-              "reason": "El texto nuevo modifica el orden de las reglas para T&E y no T&E en el valor mínimo de transacciones en CAD, cambiando el monto mínimo de $25.00 USD a $25.00 CAD y $10.00 CAD respectivamente.",
-              "flagged": false
-            },
-            {
-              "location": "Código `90` — columna *Chargeback Reason Rules*",
-              "before": "Non-Receipt of Cash or Load Transaction Value at ATM or\nLoad Device\nInternational:\nl\nU.S. Region:\nl\nl\nU.K. Domestic:\nl\nCanada Region:\nl\nl\nJapan Domestic:\nl\nT&E and non-T&E, no minimum amount.\nT&E and Non-T&E not allowed.\nValid for ATM only.\nT&E and non-T&E, no minimum amount.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nT&E and non-T&E, no minimum amount.",
-              "after": "Non-Receipt of Cash or Load Transaction Value at ATM or Load Device\nInternational:\n●T&E and non-T&E, no minimum amount.\nU.S. Region:\n●T&E and Non-T&E not allowed.\n●Valid for ATM only.\nU.K. Domestic:\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\nthan $25.00 CAD.\ngreater than $10.00 CAD.\n●T&E and non-T&E, no minimum amount.",
-              "reason": "El texto nuevo modifica las reglas de mínimo monto para transacciones T&E y no T&E en Canadá, especificando valores diferentes al valor anterior.",
-              "flagged": false
-            },
-            {
-              "location": "Código `93` — columna *Chargeback Reason Rules*",
-              "before": "Merchant Fraud Performance\nAll Regions:\nl\nInternational:\nATM is prohibited.\nl\nU.K. Domestic:\nl\nCanada Region:\nl\nl\nJapan Domestic:\nl\nT&E and non-T&E, no minimum amount.\nT&E and non-T&E, no minimum amount.\nFor T&E transactions, the minimum amount must be equal to\nor greater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal\nto or greater than $10.00 CAD.\nT&E and non-T&E, no minimum amount.",
-              "after": "Merchant Fraud Performance\nAll Regions:\n●ATM is prohibited.\nInternational:\n●T&E and non-T&E, no minimum amount.\nU.K. Domestic:\n●T&E and non-T&E, no minimum amount.\nCanada Region:\n●For T&E transactions, the minimum amount must be equal to or greater\n●For non-T&E transactions, the minimum amount must be equal to or\nJapan Domestic:\n●T&E and non-T&E, no minimum amount.\nthan $25.00 CAD.\ngreater than $10.00 CAD.",
-              "reason": "El texto se reescribe con formato de listas y puntos en lugar de líneas en blanco, pero mantiene el mismo significado y reglas de comercio.",
-              "flagged": true
-            }
-          ]
-        },
-        {
-          "group_title": "Return/Reclassification Reason Codes",
-          "items": [
-            {
-              "location": "Código `01` — columna *Error Condition*",
-              "before": "The Hash Total is invalid. If data is from a local tape, a problem occurred in the Edit\nPackage. The VAP checks the Hash Total while loading the file, so if the data is from one of\nthese devices or is inter-VIC, an invalid Hash Total indicates one of these issues\nl\nl\nl\nNoise on the communication line has modified the data.\nThe sending VAP or VIC is not using the same Data Structure Table that the receiving\nVIC is using, which caused the receiving VIC to incorrectly expand the transaction.\nThe file was modified after the Edit Package was executed.",
-              "after": "The Hash Total is invalid. If data is from a local tape, a problem occurred in the Edit\nPackage. The VAP checks the Hash Total while loading the file, so if the data is from one of\nthese devices or is inter-VIC, an invalid Hash Total indicates one of these issues\n●Noise on the communication line has modified the data.\n●The sending VAP or VIC is not using the same Data Structure Table that the receiving\n●The file was modified after the Edit Package was executed.\nVIC is using, which caused the receiving VIC to incorrectly expand the transaction.",
-              "reason": "El texto se reorganizó para usar bullets en lugar de líneas separadas, manteniendo el mismo significado.",
-              "flagged": true
-            },
-            {
-              "location": "Código `HZ` — columna *Error Condition*",
-              "before": "The recalculation of the validation code at the VIC showed that one of the fields listed\nbelow did not match the value in the authorization message. Please resubmit.\nl\nl\nl\nl\nl\nl\nl\nl\nl\nl\nl\nl\nCPS/ATM:\nAccount Number\nAuthorized Amount\nAuthorization Characteristics Indicator\nAuthorization Code\nAuthorization Currency Code\nAuthorization Response Code\nCashback\nMarket-Specific Authorization Indicator\nMerchant Category Code\nPOS Entry Mode\nTransaction Identifier\nProduct ID\nl\nl\nl\nl\nl\nl\nl\nl\nl\nAccount Number\nAuthorization Characteristics Indicator\nTransaction Identifier\nAuthorized Amount\nAuthorization Currency Code\nMerchant Country Code\nATM Account Selection\nAcquiring Identifier\nSurcharge Amount",
-              "after": "The recalculation of the validation code at the VIC showed that one of the fields listed\nbelow did not match the value in the authorization message. Please resubmit.",
-              "reason": "El texto se simplificó eliminando los detalles específicos de los campos que antes se listaban, manteniendo el mismo mensaje sin cambios de significado.",
-              "flagged": true
             }
           ]
         }
       ],
       "top_items": [
         {
-          "location": "Acceptance Terminal Indicator — Código `1` — columna *Usage Use to indicate that the transaction does not originate at an unattended terminal.*",
-          "before": "Use to indicate that the transaction:\nl\nIs less than US$40, or local currency\nequivalent.\nl\nIs not authorized.\nl\nExamples of a Type A UAT transaction are:\nHas no cardholder verification performed.\nl\nl\nl\nl\nParking garage fee\nRoad toll\nMotion picture theater admission\nMagnetic stripe telephone call",
-          "after": "Use to indicate that the transaction:\n●Is less than US$40, or local currency\nequivalent.\n●Is not authorized.\n●Has no cardholder verification performed.\nExamples of a Type A UAT transaction are:\n●Parking garage fee\n●Road toll\n●Motion picture theater admission\n●Magnetic stripe telephone call",
-          "reason": "El texto se reorganizó para mejorar la estructura con marcado de puntos y listas, pero el significado y los valores no cambiaron.",
-          "flagged": true
-        },
-        {
-          "location": "Acceptance Terminal Indicator — Código `2` — columna *Usage Use to indicate that the transaction does not originate at an unattended terminal.*",
-          "before": "Use to indicate that the transaction:\nl\nIs authorized.\nl\nExamples of a Type C UAT transaction are:\nHas PIN verification performed.\nl\nATM\nl\nFuel purchase with PIN",
-          "after": "Use to indicate that the transaction:\n●Is authorized.\n●Has PIN verification performed.\nExamples of a Type C UAT transaction are:\n●ATM\n●Fuel purchase with PIN",
-          "reason": "El texto describe lo mismo pero con formato de lista diferente y orden de ejemplos ajustado.",
-          "flagged": true
-        },
-        {
           "location": "Country and Currency Codes — Código `BULGARIA` — columna *ISO Currency Name*",
           "before": "Bulgarian Lev",
           "after": "EuroS",
-          "reason": "El texto anterior 'Bulgarian Lev' indica la moneda de Bulgaria, mientras que 'EuroS' es el nombre de la moneda en uso actual, cambiando el significado de negocio.",
+          "reason": "El texto cambia de 'Bulgarian Lev' a 'EuroS', lo que indica una modificación en el significado del código de moneda para Bulgaria, ya que ahora se refiere a EuroS en lugar de la moneda tradicional.",
+          "flagged": false
+        },
+        {
+          "location": "Country and Currency Codes — Código `BULGARIA` — columna *ISO Alpha Currency Code*",
+          "before": "BGN",
+          "after": "EUR",
+          "reason": "El código de moneda cambió de BGN a EUR, lo que representa un cambio real en el valor de negocio para Bulgaria.",
+          "flagged": false
+        },
+        {
+          "location": "Country and Currency Codes — Código `BULGARIA` — columna *ISO Numeric Currency Code*",
+          "before": "975",
+          "after": "978",
+          "reason": "El código ISO Numeric Currency Code cambió de 975 a 978, lo que altera el valor de negocio para Bulgaria.",
           "flagged": false
         }
       ],
@@ -1355,7 +1108,7 @@
       "edition_b": "20260420",
       "headline": {
         "label": "Cambios de negocio a revisar",
-        "value": 3
+        "value": 4
       },
       "secondary": [
         {
@@ -1368,35 +1121,42 @@
         },
         {
           "label": "Párrafos agregados",
-          "value": 404
+          "value": 387
         },
         {
           "label": "Párrafos eliminados",
-          "value": 349
+          "value": 328
         }
       ],
       "groups": [
-        {
-          "group_title": "Full Service Processing Summary > Full Service Participation Requirements > Issuer Options",
-          "items": [
-            {
-              "location": "Párrafo cambiado",
-              "before": "Field 55 may contain tags that the receiving issuer or acquirer does not recognize, or does not expect. The receiver must ignore such tags and continue parsing the next tag in field 55. Country-to-Country Transactions V.I.P. maintains a Country-to-Country table that allows full service issuers to control purchase and cash transactions between countries using country-specific and issuer-specified parameters. The table is predominately used, however, to list countries in which card usage is restricted or prohibited, for instance, between Country A acquirers and Country B issuers. The country-to-country table is updated only by Visa.",
-              "after": "Field 55 may contain tags that the receiving issuer or acquirer does not recognize, or does not expect. The receiver must ignore such tags and continue parsing the next tag in field 55. Country-to-Country Transactions V.I.P. maintains a Country-to-Country table that allows full service issuers to control purchase and cash transactions between countries using country-specific and issuer-specified parameters. The table is predominately used, however, to list countries in which card usage is restricted or prohibited, for instance, between Country A acquirers and Country B issuers. The country-to-country table is updated only by Visa. These parameters are involved in establishing a V.I.P. country-to-country block:",
-              "reason": "La nueva edición añade información adicional sobre los parámetros involucrados en la creación de un bloque de país a país en V.I.P., lo que modifica la regla de negocio al especificar un requisito adicional para el procesamiento.",
-              "flagged": false
-            }
-          ]
-        },
         {
           "group_title": "Stand-In Processing (STIP) > Assigning a Response Code > Converting Over-Limit Codes in Acquirer Responses",
           "items": [
             {
               "location": "Párrafo cambiado",
+              "before": "Based on acquirers configuration parameters VIP converts 75 to 05, V.I.P. forwards 75 to issuers in 0120 advices. If issuers return 0110 responses with 75 in filed 39, VisaNet forwards it unchanged to acquirers. Otherwise, based on acquirers configuration parameters V.I.P. inserts 05 in field 39 before sending responses to acquirers.",
+              "after": "Based on acquirers configuration parameters VIP converts 75 to 05, V.I.P. forwards 75 to issuers in 0120 advices. If issuers return 0110 responses with 75 in field 39, VisaNet forwards it unchanged to acquirers. Otherwise, based on acquirers configuration parameters V.I.P. inserts 05 in field 39 before sending responses to acquirers.",
+              "reason": "El texto nuevo especifica que VisaNet envía el mensaje sin cambios si los issuer devuelven 0110 con 75 en field 39, mientras que en la versión vieja mencionaba 'field 39' en el contexto de 'filed 39' (posible error de escritura).",
+              "flagged": false
+            },
+            {
+              "location": "Párrafo cambiado",
               "before": "Converting Approval, Forward-or-Approve, Decline, or Incorrect CVV or iCVV Response Codes",
               "after": "Converting Approval, Forward-or-Approve, Decline, or Incorrect CVV or iCVV Response Code XA",
-              "reason": "La edición nueva especifica un código específico (XA) en lugar de listar tipos de códigos, lo que indica un cambio en la regla de negocio sobre qué código se convierte.",
+              "reason": "La edición nueva especifica un código específico (XA) en lugar de listar tipos de códigos, lo que indica un cambio en la regla de negocio sobre qué códigos se convierten.",
               "flagged": false
+            }
+          ]
+        },
+        {
+          "group_title": "Standard Processing > Cardholder Transactions > Purchase and Cash Disbursement",
+          "items": [
+            {
+              "location": "Párrafo cambiado",
+              "before": "X X X X X card-not-present transactions only) 1For Visa, purchase with cashback is allowed for domestic transactions only; it is not supported for interna­ tional transactions. Participating regions may offer a cashback service through VisaNet. Clients can contact their Visa representatives for information about availability. Purchase transactions also include account funding transactions, which are valid for Visa POS. For transactions made at automated fuel dispensers with MCC 5542, an 0100 preauthorization request can optionally include an estimated authorization amount up to USD$500.00 in Field 4 —Amount, Transaction, and the maximum time expected between authorization and clearing in Field 63.2—Time (Preauth Time Limit). Acquirers in the U.S. region that do not participate in real-time clearing (RTC) must follow 0100 Visa AFD transactions with an 0120 acquirer confirmation advice that contains the actual transaction amount. If the issuer supports 0120 confirmation advices, VisaNet forwards the message to the issuer. If the issuer does not support these advices, VisaNet processes the transaction in STIP and responds to the acquirer with an 0130 message. Issuers must be able to support AFD status check and confirmation advices. In these messages, field 25 must contain valid values other than 06, which should only be received in real-time clearing fuel transactions. Acquirers must not submit Mastercard POS 02xx full financial messages. For AFD completions destined for Mastercard, acquirers must use 0120 messages. After the transaction is completed, the acquirer sends an 0220 completion message containing the preauthorization time limit and Field 25—POS Condition Code with value 06 to indicate that the completion transaction was previously authorized. Merchants and acquirers must send the final amount to VisaNet within 2 hours of the preauthorization. For Mastercard AFD transactions in Visa Canada and in the U.S. region, the final amount must be sent within 1 hour of the preauthorization. Acquirers must not submit Mastercard POS 02xx full financial messages. For AFD completions destined for Mastercard, acquirers must use 0120 messages. If an issuer sends an 0230 preauthorization completion advice response with a decline response code, V.I.P. checks the transaction history. If the original preauthorization request was declined or not received by the issuer, V.I.P. processes the decline from the issuer. If V.I.P. processes an 0220 preauthorization completion in STIP, and the transaction history indicates that the corresponding preauthorization request was declined, V.I.P. declines the 0220 preauthorization completion. If the merchant does not submit a completion message within 2 hours of sending the preauthorization request message, V.I.P. generates a preauthorization reversal on behalf of the acquirer and delivers it to the issuer. V.I.P. also generates a 0420 reversal advice for the acquirer and places it in its advice queue. Merchants should support partial authorizations, which allow the issuer to approve an amount below the original estimated authorization amount. This figure illustrates the standard flow of a purchase or manual cash disbursement transaction. Purchase or Manual Cash Disbursement Transaction Flow",
+              "after": "Yes Yes Yes Yes Yes card-not-present transactions only) Purchase transactions also include account funding transactions, which are valid for Visa POS. For transactions made at automated fuel dispensers with MCC 5542, an 0100 preauthorization request can optionally include an estimated authorization amount up to USD$500.00 in Field 4 —Amount, Transaction, and the maximum time expected between authorization and clearing in Field 63.2—Time (Preauth Time Limit). Acquirers in the U.S. region that do not participate in real-time clearing (RTC) must follow 0100 Visa AFD transactions with an 0120 acquirer confirmation advice that contains the actual transaction amount. If the issuer supports 0120 confirmation advices, VisaNet forwards the message to the issuer. If the issuer does not support these advices, VisaNet processes the transaction in STIP and responds to the acquirer with an 0130 message. Issuers must be able to support AFD status check and confirmation advices. In these messages, field 25 must contain valid values other than 06, which should only be received in real-time clearing fuel transactions. Acquirers must not submit Mastercard POS 02xx full financial messages. For AFD completions destined for Mastercard, acquirers must use 0120 messages. After the transaction is completed, the acquirer sends an 0220 completion message containing the preauthorization time limit and Field 25—POS Condition Code with value 06 to indicate that the completion transaction was previously authorized. Merchants and acquirers must send the final amount to VisaNet within 2 hours of the preauthorization. For Mastercard AFD transactions in Visa Canada and in the U.S. region, the final amount must be sent within 1 hour of the preauthorization. Acquirers must not submit Mastercard POS 02xx full financial messages. For AFD completions destined for Mastercard, acquirers must use 0120 messages. If an issuer sends an 0230 preauthorization completion advice response with a decline response code, V.I.P. checks the transaction history. If the original preauthorization request was declined or not received by the issuer, V.I.P. processes the decline from the issuer. If V.I.P. processes an 0220 preauthorization completion in STIP, and the transaction history indicates that the corresponding preauthorization request was declined, V.I.P. declines the 0220 preauthorization completion. If the merchant does not submit a completion message within 2 hours of sending the preauthorization request message, V.I.P. generates a preauthorization reversal on behalf of the acquirer and delivers it to the issuer. V.I.P. also generates a 0420 reversal advice for the acquirer and places it in its advice queue. Merchants should support partial authorizations, which allow the issuer to approve an amount below the original estimated authorization amount. This figure illustrates the standard flow of a purchase or manual cash disbursement transaction. Purchase or Manual Cash Disbursement Transaction Flow",
+              "reason": "El texto nuevo elimina la parte que indica que 'For Visa, purchase with cashback is allowed for domestic transactions only; it is not supported for international transactions. Participating regions may offer a cashback service through VisaNet. Clients can contact their Visa representatives for information about availability.' y mantiene el resto de la información sin cambios significativos en el contenido.",
+              "flagged": true
             }
           ]
         },
@@ -1407,7 +1167,7 @@
               "location": "Párrafo cambiado",
               "before": "1Includes purchase with cashback, purchase with address verification (Visa POS only), quasi-cash, and key- entered purchase.",
               "after": "Includes purchase with cashback, purchase with address verifi­ cation (Visa POS only), quasi-cash, and key- entered purchase. Adjustment",
-              "reason": "Se añadió la palabra 'Adjustment' al final, lo que sugiere un nuevo tipo de transacción o ajuste que antes no estaba incluido en la definición.",
+              "reason": "La nueva edición añade 'Adjustment' al final, lo que sugiere un cambio en la definición de transacciones incluidas, posiblemente introduciendo una nueva categoría de transacciones o ajustes en el flujo de procesamiento.",
               "flagged": false
             }
           ]
@@ -1415,25 +1175,25 @@
       ],
       "top_items": [
         {
-          "location": "Full Service Processing Summary > Full Service Participation Requirements > Issuer Options — Párrafo cambiado",
-          "before": "Field 55 may contain tags that the receiving issuer or acquirer does not recognize, or does not expect. The receiver must ignore such tags and continue parsing the next tag in field 55. Country-to-Country Transactions V.I.P. maintains a Country-to-Country table that allows full service issuers to control purchase and cash transactions between countries using country-specific and issuer-specified parameters. The table is predominately used, however, to list countries in which card usage is restricted or prohibited, for instance, between Country A acquirers and Country B issuers. The country-to-country table is updated only by Visa.",
-          "after": "Field 55 may contain tags that the receiving issuer or acquirer does not recognize, or does not expect. The receiver must ignore such tags and continue parsing the next tag in field 55. Country-to-Country Transactions V.I.P. maintains a Country-to-Country table that allows full service issuers to control purchase and cash transactions between countries using country-specific and issuer-specified parameters. The table is predominately used, however, to list countries in which card usage is restricted or prohibited, for instance, between Country A acquirers and Country B issuers. The country-to-country table is updated only by Visa. These parameters are involved in establishing a V.I.P. country-to-country block:",
-          "reason": "La nueva edición añade información adicional sobre los parámetros involucrados en la creación de un bloque de país a país en V.I.P., lo que modifica la regla de negocio al especificar un requisito adicional para el procesamiento.",
+          "location": "Stand-In Processing (STIP) > Assigning a Response Code > Converting Over-Limit Codes in Acquirer Responses — Párrafo cambiado",
+          "before": "Based on acquirers configuration parameters VIP converts 75 to 05, V.I.P. forwards 75 to issuers in 0120 advices. If issuers return 0110 responses with 75 in filed 39, VisaNet forwards it unchanged to acquirers. Otherwise, based on acquirers configuration parameters V.I.P. inserts 05 in field 39 before sending responses to acquirers.",
+          "after": "Based on acquirers configuration parameters VIP converts 75 to 05, V.I.P. forwards 75 to issuers in 0120 advices. If issuers return 0110 responses with 75 in field 39, VisaNet forwards it unchanged to acquirers. Otherwise, based on acquirers configuration parameters V.I.P. inserts 05 in field 39 before sending responses to acquirers.",
+          "reason": "El texto nuevo especifica que VisaNet envía el mensaje sin cambios si los issuer devuelven 0110 con 75 en field 39, mientras que en la versión vieja mencionaba 'field 39' en el contexto de 'filed 39' (posible error de escritura).",
           "flagged": false
         },
         {
           "location": "Stand-In Processing (STIP) > Assigning a Response Code > Converting Over-Limit Codes in Acquirer Responses — Párrafo cambiado",
           "before": "Converting Approval, Forward-or-Approve, Decline, or Incorrect CVV or iCVV Response Codes",
           "after": "Converting Approval, Forward-or-Approve, Decline, or Incorrect CVV or iCVV Response Code XA",
-          "reason": "La edición nueva especifica un código específico (XA) en lugar de listar tipos de códigos, lo que indica un cambio en la regla de negocio sobre qué código se convierte.",
+          "reason": "La edición nueva especifica un código específico (XA) en lugar de listar tipos de códigos, lo que indica un cambio en la regla de negocio sobre qué códigos se convierten.",
           "flagged": false
         },
         {
-          "location": "Transaction Sets > Visa POS Transaction Sets — Párrafo cambiado",
-          "before": "1Includes purchase with cashback, purchase with address verification (Visa POS only), quasi-cash, and key- entered purchase.",
-          "after": "Includes purchase with cashback, purchase with address verifi­ cation (Visa POS only), quasi-cash, and key- entered purchase. Adjustment",
-          "reason": "Se añadió la palabra 'Adjustment' al final, lo que sugiere un nuevo tipo de transacción o ajuste que antes no estaba incluido en la definición.",
-          "flagged": false
+          "location": "Standard Processing > Cardholder Transactions > Purchase and Cash Disbursement — Párrafo cambiado",
+          "before": "X X X X X card-not-present transactions only) 1For Visa, purchase with cashback is allowed for domestic transactions only; it is not supported for interna­ tional transactions. Participating regions may offer a cashback service through VisaNet. Clients can contact their Visa representatives for information about availability. Purchase transactions also include account funding transactions, which are valid for Visa POS. For transactions made at automated fuel dispensers with MCC 5542, an 0100 preauthorization request can optionally include an estimated authorization amount up to USD$500.00 in Field 4 —Amount, Transaction, and the maximum time expected between authorization and clearing in Field 63.2—Time (Preauth Time Limit). Acquirers in the U.S. region that do not participate in real-time clearing (RTC) must follow 0100 Visa AFD transactions with an 0120 acquirer confirmation advice that contains the actual transaction amount. If the issuer supports 0120 confirmation advices, VisaNet forwards the message to the issuer. If the issuer does not support these advices, VisaNet processes the transaction in STIP and responds to the acquirer with an 0130 message. Issuers must be able to support AFD status check and confirmation advices. In these messages, field 25 must contain valid values other than 06, which should only be received in real-time clearing fuel transactions. Acquirers must not submit Mastercard POS 02xx full financial messages. For AFD completions destined for Mastercard, acquirers must use 0120 messages. After the transaction is completed, the acquirer sends an 0220 completion message containing the preauthorization time limit and Field 25—POS Condition Code with value 06 to indicate that the completion transaction was previously authorized. Merchants and acquirers must send the final amount to VisaNet within 2 hours of the preauthorization. For Mastercard AFD transactions in Visa Canada and in the U.S. region, the final amount must be sent within 1 hour of the preauthorization. Acquirers must not submit Mastercard POS 02xx full financial messages. For AFD completions destined for Mastercard, acquirers must use 0120 messages. If an issuer sends an 0230 preauthorization completion advice response with a decline response code, V.I.P. checks the transaction history. If the original preauthorization request was declined or not received by the issuer, V.I.P. processes the decline from the issuer. If V.I.P. processes an 0220 preauthorization completion in STIP, and the transaction history indicates that the corresponding preauthorization request was declined, V.I.P. declines the 0220 preauthorization completion. If the merchant does not submit a completion message within 2 hours of sending the preauthorization request message, V.I.P. generates a preauthorization reversal on behalf of the acquirer and delivers it to the issuer. V.I.P. also generates a 0420 reversal advice for the acquirer and places it in its advice queue. Merchants should support partial authorizations, which allow the issuer to approve an amount below the original estimated authorization amount. This figure illustrates the standard flow of a purchase or manual cash disbursement transaction. Purchase or Manual Cash Disbursement Transaction Flow",
+          "after": "Yes Yes Yes Yes Yes card-not-present transactions only) Purchase transactions also include account funding transactions, which are valid for Visa POS. For transactions made at automated fuel dispensers with MCC 5542, an 0100 preauthorization request can optionally include an estimated authorization amount up to USD$500.00 in Field 4 —Amount, Transaction, and the maximum time expected between authorization and clearing in Field 63.2—Time (Preauth Time Limit). Acquirers in the U.S. region that do not participate in real-time clearing (RTC) must follow 0100 Visa AFD transactions with an 0120 acquirer confirmation advice that contains the actual transaction amount. If the issuer supports 0120 confirmation advices, VisaNet forwards the message to the issuer. If the issuer does not support these advices, VisaNet processes the transaction in STIP and responds to the acquirer with an 0130 message. Issuers must be able to support AFD status check and confirmation advices. In these messages, field 25 must contain valid values other than 06, which should only be received in real-time clearing fuel transactions. Acquirers must not submit Mastercard POS 02xx full financial messages. For AFD completions destined for Mastercard, acquirers must use 0120 messages. After the transaction is completed, the acquirer sends an 0220 completion message containing the preauthorization time limit and Field 25—POS Condition Code with value 06 to indicate that the completion transaction was previously authorized. Merchants and acquirers must send the final amount to VisaNet within 2 hours of the preauthorization. For Mastercard AFD transactions in Visa Canada and in the U.S. region, the final amount must be sent within 1 hour of the preauthorization. Acquirers must not submit Mastercard POS 02xx full financial messages. For AFD completions destined for Mastercard, acquirers must use 0120 messages. If an issuer sends an 0230 preauthorization completion advice response with a decline response code, V.I.P. checks the transaction history. If the original preauthorization request was declined or not received by the issuer, V.I.P. processes the decline from the issuer. If V.I.P. processes an 0220 preauthorization completion in STIP, and the transaction history indicates that the corresponding preauthorization request was declined, V.I.P. declines the 0220 preauthorization completion. If the merchant does not submit a completion message within 2 hours of sending the preauthorization request message, V.I.P. generates a preauthorization reversal on behalf of the acquirer and delivers it to the issuer. V.I.P. also generates a 0420 reversal advice for the acquirer and places it in its advice queue. Merchants should support partial authorizations, which allow the issuer to approve an amount below the original estimated authorization amount. This figure illustrates the standard flow of a purchase or manual cash disbursement transaction. Purchase or Manual Cash Disbursement Transaction Flow",
+          "reason": "El texto nuevo elimina la parte que indica que 'For Visa, purchase with cashback is allowed for domestic transactions only; it is not supported for international transactions. Participating regions may offer a cashback service through VisaNet. Clients can contact their Visa representatives for information about availability.' y mantiene el resto de la información sin cambios significativos en el contenido.",
+          "flagged": true
         }
       ],
       "slug": "international_full_service_pos_online_messages_processing_specifications",

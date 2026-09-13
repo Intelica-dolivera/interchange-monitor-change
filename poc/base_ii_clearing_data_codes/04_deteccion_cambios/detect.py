@@ -61,10 +61,21 @@ OUTPUT_DIR = Path(__file__).resolve().parents[1] / "data" / "04_deteccion_cambio
 CONTENT_SIMILARITY_THRESHOLD = 0.98
 
 WHITESPACE = re.compile(r"\s+")
+# Mismo patron que ya usa `tc_01_to_tc_49` (ver NOTES.md, 2026-09-13, "fix no portado"): la
+# edicion vieja extrae el glifo de vineta de las listas de "Chargeback Reason Rules"/"Error
+# Condition"/etc. como la letra "l" suelta, la nueva usa "●" -mismo contenido de negocio,
+# glifo distinto. Sin neutralizarlo antes de medir similitud, el glifo (mas el reordenamiento
+# de renglones que el fix de Modulo 2 ya corrige en el origen) sigue bajando el ratio lo
+# suficiente como para disparar un `code_content_changed` que no es un cambio real.
+BULLET_TOKEN_PATTERN = re.compile(r"(?<!\S)[l●](?!\S)")
 
 
 def _normalize_cell(text: str) -> str:
     return WHITESPACE.sub(" ", text).strip()
+
+
+def _similarity_text(text: str) -> str:
+    return WHITESPACE.sub(" ", BULLET_TOKEN_PATTERN.sub(" ", text)).strip()
 
 
 def _column_label(header: list, index: int) -> str:
@@ -80,7 +91,7 @@ def _diff_row_cells(code: str, cells_a: list, cells_b: list, header_a: list, hea
         norm_a, norm_b = _normalize_cell(cells_a[i]), _normalize_cell(cells_b[i])
         if norm_a == norm_b:
             continue
-        ratio = difflib.SequenceMatcher(None, norm_a, norm_b).ratio()
+        ratio = difflib.SequenceMatcher(None, _similarity_text(norm_a), _similarity_text(norm_b)).ratio()
         if ratio >= CONTENT_SIMILARITY_THRESHOLD:
             continue
         changes.append(

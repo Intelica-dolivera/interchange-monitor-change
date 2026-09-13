@@ -41,7 +41,7 @@
       "similarity_ratio": 0.62,
       "table": "Authorization Source Codes",
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto se redactó de manera similar pero se añadió una nota explicativa opcional que no altera el significado del código.",
+      "ai_reason": "Se agregó una nota explicativa opcional que no modifica el significado del código.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -55,7 +55,7 @@
       "similarity_ratio": 0.486,
       "table": "Authorization Source Codes",
       "ai_category": "editorial_reword",
-      "ai_reason": "Se agregó una nota explicativa que no altera el significado del código, solo modifica la redacción para incluir información adicional sobre su uso en la versión de octubre de 2.020.",
+      "ai_reason": "El texto describe lo mismo pero añade una nota opcional sobre la release de octubre 2.020 sin cambiar el significado del código.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -78,7 +78,7 @@
       "similarity_ratio": 0.708,
       "table": "Business Application IDs",
       "ai_category": "business_rule_change",
-      "ai_reason": "El significado del servicio cambió de 'Merchant Initiated Money Transfer' a 'Merchant Initiated Faster Refund', lo que implica un cambio en la regla de negocio relacionado con el tipo de transferencia.",
+      "ai_reason": "El significado del servicio cambió de 'Merchant Initiated Money Transfer' a 'Merchant Initiated Faster Refund', lo que implica una diferencia en el tipo de transacción y su propósito.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -117,7 +117,7 @@
       "cells": [
         "5220",
         "None",
-        "Commercial Data Acquirer Adjustment\nl\nl\nl\nVisa initiates the transaction.\nThe Account Number field must contain a valid account number.\nThe Country Code may contain space."
+        "Commercial Data Acquirer Adjustment\nVisa initiates the transaction.\nl\nThe Account Number field must contain a valid account number.\nl\nThe Country Code may contain space.\nl"
       ]
     },
     {
@@ -127,7 +127,7 @@
       "cells": [
         "5230",
         "None",
-        "Commercial Data Issuer Adjustment\nl\nl\nl\nVisa initiates the transaction.\nThe Account Number field must contain a valid account number.\nThe Country Code may contain space."
+        "Commercial Data Issuer Adjustment\nVisa initiates the transaction.\nl\nThe Account Number field must contain a valid account number.\nl\nThe Country Code may contain space.\nl"
       ]
     },
     {
@@ -135,12 +135,12 @@
       "code": "0150",
       "column": "Definition",
       "column_index": 2,
-      "old": "Recovered Card Handling Fees/Rewards\nl\nThe Account Number field must contain a valid account number.",
-      "new": "Recovered Card Handling Fees/Rewards\nl\nATM Balance Inquiry acquiring direct fee returns\nATM Balance Inquiry is available for ATM Balance Inquiry acquiring\ndirect fee participants in AP region only.\nThe Account Number field must contain a valid account number.",
-      "similarity_ratio": 0.557,
+      "old": "Recovered Card Handling Fees/Rewards\nThe Account Number field must contain a valid account number.\nl",
+      "new": "Recovered Card Handling Fees/Rewards\nThe Account Number field must contain a valid account number.\nl\nATM Balance Inquiry acquiring direct fee returns\nATM Balance Inquiry is available for ATM Balance Inquiry acquiring\ndirect fee participants in AP region only.",
+      "similarity_ratio": 0.552,
       "table": "Fee Collection/Funds Disbursement Reason Codes",
       "ai_category": "business_rule_change",
-      "ai_reason": "La nueva edición añade información sobre la disponibilidad de la consulta de saldo en ATM para participantes en la región AP solo, modificando la regla de negocio para los participantes.",
+      "ai_reason": "Se agregó información adicional sobre la disponibilidad de ATM Balance Inquiry en la región AP, modificando el significado del código.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -149,12 +149,12 @@
       "code": "0160",
       "column": "Definition",
       "column_index": 2,
-      "old": "ATM Balance Inquiry acquiring direct fee returns\nInvalid Cab Dispute Financial Handling Fee\nl\nThe Account Number field must contain a valid account number.",
-      "new": "Invalid Cab Dispute Financial Handling Fee\nl\nThe Account Number field must contain a valid account number.",
-      "similarity_ratio": 0.812,
+      "old": "ATM Balance Inquiry acquiring direct fee returns\nInvalid Cab Dispute Financial Handling Fee\nThe Account Number field must contain a valid account number.\nl",
+      "new": "Invalid Cab Dispute Financial Handling Fee\nThe Account Number field must contain a valid account number.\nl",
+      "similarity_ratio": 0.809,
       "table": "Fee Collection/Funds Disbursement Reason Codes",
       "ai_category": "business_rule_change",
-      "ai_reason": "Se eliminó el texto 'ATM Balance Inquiry acquiring direct fee returns' para mantener la redacción consistente.",
+      "ai_reason": "Se eliminó una línea de texto que no afecta el significado, manteniendo el mismo contenido en el mismo orden.",
       "disappeared_content": [
         "ATM Balance Inquiry acquiring direct fee returns"
       ],
@@ -163,20 +163,20 @@
     },
     {
       "change_type": "code_content_changed",
-      "code": "L",
-      "column": "Draft Data: TCR 5 - Payment Service Data, Position 49 TC 48, BASE I Advice: TCR 2 - ISO-Enriched, Position 61",
+      "code": "L TC 57, DATA CAPTURE ADVICE: TCR 3 - TRANSACTION DETAIL, PAYMENT SERVICE DATA, POSITION",
+      "column": "columna 1",
       "column_index": 1,
-      "old": "TC 57, Data Capture Advice: TCR 3 - Transaction Detail, Payment Service Data, Position\n42\nNote:\nIf the format is VML and the code is a space or zero, special attention must be paid\nbecause the code could have two different meanings: 1) in VML, the space or zero can\nmean not applicable, in which case the field should not be present in the transaction, or\n2) if the space or zero has a business meaning, the field should be present in the\ntransaction, (for example, a space may indicate eligibility for a particular fee type).",
-      "new": "TC 57, Data Capture Advice: TCR 3 - Transaction Detail, Payment Service Data, Position\n42",
-      "similarity_ratio": 0.289,
+      "old": "42\nNote:\nIf the format is VML and the code is a space or zero, special attention must be paid\nbecause the code could have two different meanings: 1) in VML, the space or zero can\nmean not applicable, in which case the field should not be present in the transaction, or\n2) if the space or zero has a business meaning, the field should be present in the\ntransaction, (for example, a space may indicate eligibility for a particular fee type).",
+      "new": "42",
+      "similarity_ratio": 0.009,
       "table": "Market-Specific Authorization Data\nIndicator\nThe Market-Specific Authorization Data Indicator identifies the industry for which market-\nspecific authorization data was included in the transaction.\nIt is used in these interchange formats:",
       "ai_category": "business_rule_change",
-      "ai_reason": "Se eliminó el texto de la nota que explicaba el significado de los códigos en VML, manteniendo el mismo contenido en una sola línea.",
+      "ai_reason": "El texto nuevo es una simple etiqueta de código sin explicación, mientras que el texto viejo incluía una nota detallada sobre el significado del código en VML.",
       "disappeared_content": [
         "Note: If the format is VML and the code is a space or zero, special attention must be paid because the code could have two different meanings: 1) in VML, the space or zero can mean not applicable, in which case the field should not be present in the transaction, or 2) if the space or zero has a business meaning, the field should be present in the transaction, (for example, a space may indicate eligibility for a particular fee type)."
       ],
       "safety_net_override": true,
-      "ai_original_category": "editorial_reword"
+      "ai_original_category": "extraction_noise"
     },
     {
       "change_type": "duplicate_code_warning",
@@ -297,7 +297,7 @@
       "similarity_ratio": 0.929,
       "table": "Maximum Credit and Debit, Prepaid, and Account Funding POS Transaction Amounts",
       "ai_category": "business_rule_change",
-      "ai_reason": "El valor anterior era USD$249,999.99 y el valor nuevo es USD$749,99.99, lo que representa un cambio real en el límite máximo de transacciones POS para crédito y débito.",
+      "ai_reason": "El valor anterior era USD$249,999.99 y el valor nuevo es USD$749,99.99, lo que representa un cambio real en el límite máximo de transacciones para tarjetas de crédito y débito.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -311,7 +311,7 @@
       "similarity_ratio": 0.867,
       "table": "Maximum Credit and Debit, Prepaid, and Account Funding POS Transaction Amounts",
       "ai_category": "business_rule_change",
-      "ai_reason": "El valor anterior era USD$749,999.99 y el valor nuevo es USD$1,499,99.99, lo que representa un cambio real en el límite máximo de transacciones POS para crédito y débito.",
+      "ai_reason": "El valor anterior de 749,999.99 USD se ha actualizado a 1,499,999.99 USD, modificando el límite máximo de transacciones POS para crédito y débito.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -325,7 +325,7 @@
       "similarity_ratio": 0.933,
       "table": "Maximum Credit and Debit, Prepaid, and Account Funding POS Transaction Amounts",
       "ai_category": "business_rule_change",
-      "ai_reason": "El valor anterior era USD$999,999.99 y el valor nuevo es USD$1,999,999.99, lo que representa un aumento real en el límite máximo de transacciones.",
+      "ai_reason": "El valor anterior era USD$999,999.99 y el valor nuevo es USD$1,999,999.99, lo que aumenta el límite máximo de transacciones POS para crédito y débito.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -353,7 +353,7 @@
       "similarity_ratio": 0.8,
       "table": "Maximum Credit and Debit, Prepaid, and Account Funding POS Transaction Amounts",
       "ai_category": "business_rule_change",
-      "ai_reason": "El valor anterior era USD$749,999.99 y el valor nuevo es USD$1,999,999.99, lo que representa un cambio real en el límite máximo de transacciones POS para crédito y débito.",
+      "ai_reason": "El valor anterior de máximo crédito y débito POS cambió de USD$749,999.99 a USD$1,999,999.99, modificando un límite clave del negocio.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -367,7 +367,7 @@
       "similarity_ratio": 0.8,
       "table": "Maximum Credit and Debit, Prepaid, and Account Funding POS Transaction Amounts",
       "ai_category": "business_rule_change",
-      "ai_reason": "El valor anterior era USD$749,999.99 y el valor nuevo es USD$1,999,999.99, lo que representa un cambio real en el límite máximo de transacciones POS para crédito y débito.",
+      "ai_reason": "El valor anterior de máximo crédito y débito en POS cambió de USD$749,999.99 a USD$1,999,999.99, aumentando significativamente el límite de transacción.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -381,7 +381,7 @@
       "similarity_ratio": 0.8,
       "table": "Maximum Credit and Debit, Prepaid, and Account Funding POS Transaction Amounts",
       "ai_category": "business_rule_change",
-      "ai_reason": "El valor anterior era USD$749,999.99 y el valor nuevo es USD$1,999,999.99, lo que representa un cambio real en el límite máximo de transacciones POS para crédito y débito.",
+      "ai_reason": "El valor anterior de 749,999.99 USD ha sido actualizado a 1,999,999.99 USD, modificando el límite máximo de transacciones POS para crédito y débito.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -395,7 +395,7 @@
       "similarity_ratio": 0.938,
       "table": "Maximum Credit and Debit, Prepaid, and Account Funding POS Transaction Amounts",
       "ai_category": "business_rule_change",
-      "ai_reason": "El valor anterior era USD$1,499,999.99 y el valor nuevo es USD$1,999,996.99, lo que representa un cambio real en el límite máximo de transacciones POS para crédito y débito.",
+      "ai_reason": "El valor anterior era USD$1,499,999.99 y el valor nuevo es USD$1,999,99.99, lo que representa un cambio real en el límite máximo de transacciones.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -409,7 +409,7 @@
       "similarity_ratio": 0.8,
       "table": "Maximum Credit and Debit, Prepaid, and Account Funding POS Transaction Amounts",
       "ai_category": "business_rule_change",
-      "ai_reason": "El valor anterior era USD$749,999.99 y el valor nuevo es USD$1,999,999.99, lo que representa un cambio real en el límite máximo de transacciones POS para crédito y débito.",
+      "ai_reason": "El valor anterior de 749,999.99 USD ha sido actualizado a 1,999,999.99 USD, modificando el límite máximo de transacciones POS para crédito y débito.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -423,7 +423,7 @@
       "similarity_ratio": 0.933,
       "table": "Maximum Credit and Debit, Prepaid, and Account Funding POS Transaction Amounts",
       "ai_category": "business_rule_change",
-      "ai_reason": "El valor anterior era USD$999,999.99 y el valor nuevo es USD$1,999,999.99, lo que representa un aumento real en el límite máximo de transacciones POS para crédito y débito.",
+      "ai_reason": "El valor nuevo supera el valor anterior en 1 millón de dólares, modificando el límite máximo de transacciones POS para crédito y débito.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -437,7 +437,7 @@
       "similarity_ratio": 0.875,
       "table": "Maximum Credit and Debit, Prepaid, and Account Funding POS Transaction Amounts",
       "ai_category": "business_rule_change",
-      "ai_reason": "El valor anterior de la máxima cantidad de transacciones POS para crédito y débito cambió de USD$1,499,999.99 a USD$2,999,996.99, lo que representa un cambio real en el límite de negocio.",
+      "ai_reason": "El valor anterior era USD$1,499,999.99 y el valor nuevo es USD$2,999,991.99, lo que representa un cambio real en el límite máximo de transacciones POS para crédito y débito.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -451,7 +451,7 @@
       "similarity_ratio": 0.875,
       "table": "Maximum Credit and Debit, Prepaid, and Account Funding POS Transaction Amounts",
       "ai_category": "business_rule_change",
-      "ai_reason": "El valor anterior y el valor nuevo son diferentes montos que afectan el límite máximo de transacciones POS para crédito y débito.",
+      "ai_reason": "El valor máximo de crédito y débito en POS cambió de USD$1,499,999.99 a USD$2,999,996.99, modificando un límite clave del negocio.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -465,7 +465,7 @@
       "similarity_ratio": 0.8,
       "table": "Maximum Credit and Debit, Prepaid, and Account Funding POS Transaction Amounts",
       "ai_category": "business_rule_change",
-      "ai_reason": "El valor anterior es USD$749,999.99 y el valor nuevo es USD$2,999,999.99, lo que representa un cambio real en el límite máximo de transacciones POS para crédito y débito.",
+      "ai_reason": "El valor anterior de máximo crédito y débito POS cambió de USD$749,999.99 a USD$2,999,999..99, modificando un límite clave de negocio.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -479,7 +479,7 @@
       "similarity_ratio": 0.8,
       "table": "Maximum Credit and Debit, Prepaid, and Account Funding POS Transaction Amounts",
       "ai_category": "business_rule_change",
-      "ai_reason": "El valor anterior era USD$749,999.99 y el valor nuevo es USD$2,999,999.99, lo que representa un cambio real en el límite máximo de transacciones POS para crédito y débito.",
+      "ai_reason": "El valor anterior de 749,999.99 USD ha sido actualizado a 2,999,999.99 USD, modificando el límite máximo de transacciones POS para crédito y débito.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -493,7 +493,7 @@
       "similarity_ratio": 0.929,
       "table": "Maximum Credit and Debit, Prepaid, and Account Funding POS Transaction Amounts",
       "ai_category": "business_rule_change",
-      "ai_reason": "El valor anterior era USD$249,999.99 y el valor nuevo es USD$749,99.99, lo que representa un cambio real en el límite máximo de transacciones POS para crédito y débito.",
+      "ai_reason": "El valor máximo de crédito y débito en POS cambió de USD$249,999.99 a USD$749,99:99, lo que representa un cambio real en el límite de transacciones.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -507,7 +507,7 @@
       "similarity_ratio": 0.929,
       "table": "Maximum Credit and Debit, Prepaid, and Account Funding POS Transaction Amounts",
       "ai_category": "business_rule_change",
-      "ai_reason": "El valor máximo de crédito y débito en POS cambió de USD$249,999.99 a USD$749,99.99, alterando un límite clave del negocio.",
+      "ai_reason": "El valor máximo de transacción para crédito y débito en POS se incrementó de USD$249,999.99 a USD$749,9.99, modificando un límite clave de negocio.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -563,7 +563,7 @@
       "similarity_ratio": 0.8,
       "table": "Maximum Credit and Debit, Prepaid, and Account Funding POS Transaction Amounts",
       "ai_category": "business_rule_change",
-      "ai_reason": "El valor anterior era USD$749,999.99 y el valor nuevo es USD$2,999,999.99, lo que representa un cambio real en el límite máximo de transacciones POS.",
+      "ai_reason": "El valor anterior era USD$749,999.99 y el valor nuevo es USD$2,999,999.99, lo que representa un cambio real en el límite máximo de transacciones POS para crédito y débito.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -577,7 +577,7 @@
       "similarity_ratio": 0.8,
       "table": "Maximum Credit and Debit, Prepaid, and Account Funding POS Transaction Amounts",
       "ai_category": "business_rule_change",
-      "ai_reason": "El valor anterior era USD$749,999.99 y el valor nuevo es USD$2,999,999.99, lo que representa un cambio real en el límite máximo de transacciones POS para crédito y débito.",
+      "ai_reason": "El valor anterior de máximo crédito y débito POS cambió de USD$749,999.99 a USD$2,999,999..99, modificando un límite clave de negocio.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -591,7 +591,7 @@
       "similarity_ratio": 0.8,
       "table": "Maximum Credit and Debit, Prepaid, and Account Funding POS Transaction Amounts",
       "ai_category": "business_rule_change",
-      "ai_reason": "El valor anterior era USD$749,999.99 y el valor nuevo es USD$2,999,999.99, lo que representa un cambio real en el límite máximo de transacciones POS para crédito y débito.",
+      "ai_reason": "El valor anterior de 749,999.99 USD ha sido actualizado a 2,999,999.99 USD, modificando el límite máximo de transacciones POS para crédito y débito.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -605,7 +605,7 @@
       "similarity_ratio": 0.8,
       "table": "Maximum Credit and Debit, Prepaid, and Account Funding POS Transaction Amounts",
       "ai_category": "business_rule_change",
-      "ai_reason": "El valor anterior era USD$749,999.99 y el valor nuevo es USD$2,999,999.99, lo que representa un cambio real en el límite máximo de transacciones POS para crédito y débito.",
+      "ai_reason": "El valor anterior de la máxima cantidad de transacciones POS para crédito y débito cambió de USD$749,999.99 a USD$2,999,999.99, lo que representa un cambio real en el límite de negocio.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -619,7 +619,7 @@
       "similarity_ratio": 0.8,
       "table": "Maximum Credit and Debit, Prepaid, and Account Funding POS Transaction Amounts",
       "ai_category": "business_rule_change",
-      "ai_reason": "El valor anterior era USD$749,999.99 y el valor nuevo es USD$2,999,999.99, un cambio significativo en el límite máximo de transacciones POS.",
+      "ai_reason": "El valor anterior era USD$749,999.99 y el valor nuevo es USD$2,999,999.99, lo que representa un cambio real en el límite máximo de transacciones POS para crédito y débito.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -633,7 +633,7 @@
       "similarity_ratio": 0.8,
       "table": "Maximum Credit and Debit, Prepaid, and Account Funding POS Transaction Amounts",
       "ai_category": "business_rule_change",
-      "ai_reason": "El valor anterior era USD$749,999.99 y el valor nuevo es USD$2,999,999.99, lo que representa un cambio real en el límite máximo de transacciones POS para crédito y débito.",
+      "ai_reason": "El valor anterior de la máxima cantidad de transacciones POS para crédito y débito cambió de USD$749,999.99 a USD$2,999,999.99, lo que representa un cambio real en el límite de negocio.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -647,7 +647,7 @@
       "similarity_ratio": 0.8,
       "table": "Maximum Credit and Debit, Prepaid, and Account Funding POS Transaction Amounts",
       "ai_category": "business_rule_change",
-      "ai_reason": "El valor anterior era USD$749,999.99 y el valor nuevo es USD$2,999,999.99, un cambio significativo en el límite máximo de transacciones POS.",
+      "ai_reason": "El valor anterior de 749,999.99 USD ha sido actualizado a 2,999,999.99 USD, modificando el límite máximo de transacciones POS para crédito y débito.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -675,7 +675,7 @@
       "similarity_ratio": 0.075,
       "table": "Return/Reclassification Reason Codes",
       "ai_category": "business_rule_change",
-      "ai_reason": "El texto anterior indicaba un error específico de transacción, mientras que el nuevo valor 'Reserved' cambia el significado de negocio al reservar el código para futuras usos.",
+      "ai_reason": "El texto anterior indicaba un error específico de transacción, mientras que el nuevo texto 'Reserved' cambia el significado de negocio al reservar el código para futuras usos.",
       "disappeared_content": [
         "Invalid Transaction Type in a TC 09 or TC 19."
       ],
@@ -691,7 +691,7 @@
       "similarity_ratio": 0.148,
       "table": "Return/Reclassification Reason Codes",
       "ai_category": "business_rule_change",
-      "ai_reason": "El texto de la condición de error cambió de 'Invalid Usage Code' a 'Reserved', lo que altera el significado real de la condición de error en el sistema.",
+      "ai_reason": "El texto de la condición de error cambió de 'Invalid Usage Code' a 'Reserved', lo que altera el significado real de la condición de error.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -721,7 +721,7 @@
       "similarity_ratio": 0.121,
       "table": "Return/Reclassification Reason Codes",
       "ai_category": "business_rule_change",
-      "ai_reason": "El texto anterior indicaba una condición de error específica, mientras que el nuevo texto 'Reserved' cambia el significado de negocio al reservar el código para uso futuro.",
+      "ai_reason": "El texto de la condición de error cambió de 'Invalid Origination Date' a 'Reserved', lo que altera el significado real de la condición de error.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -749,7 +749,7 @@
       "similarity_ratio": 0.222,
       "table": "Return/Reclassification Reason Codes",
       "ai_category": "business_rule_change",
-      "ai_reason": "El texto anterior indicaba una condición específica de autorización que ahora se ha reemplazado por 'Reserved', lo que cambia el significado de negocio.",
+      "ai_reason": "El texto anterior indicaba una condición específica de autorización que ahora se ha reemplazado por 'Reserved', cambiando el significado de negocio.",
       "disappeared_content": [
         "Missing authorization from a service provider."
       ],
@@ -765,7 +765,7 @@
       "similarity_ratio": 0.098,
       "table": "Return/Reclassification Reason Codes",
       "ai_category": "business_rule_change",
-      "ai_reason": "El texto anterior indicaba un error específico en la ID de transacción, mientras que el nuevo texto 'Reserved' cambia el significado de negocio para indicar que el código está reservado.",
+      "ai_reason": "El texto descriptivo cambió de 'Invalid Transaction ID extension' a 'Reserved', lo que altera el significado de la condición de error.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -793,7 +793,7 @@
       "similarity_ratio": 0.2,
       "table": "Return/Reclassification Reason Codes",
       "ai_category": "business_rule_change",
-      "ai_reason": "El texto de la condición de error cambió de 'Customer Name must not be blank' a 'Reserved', lo que altera la lógica de validación del negocio.",
+      "ai_reason": "El texto que indica la condición de error cambió de 'Customer Name must not be blank' a 'Reserved', lo que altera la lógica de validación del negocio.",
       "disappeared_content": [
         "Customer Name must not be blank."
       ],
@@ -809,7 +809,7 @@
       "similarity_ratio": 0.2,
       "table": "Return/Reclassification Reason Codes",
       "ai_category": "business_rule_change",
-      "ai_reason": "El texto cambia de 'Invalid Terminal Type' a 'Reserved', lo que altera el significado real de la condición de error.",
+      "ai_reason": "El texto de la condición de error cambió de 'Invalid Terminal Type' a 'Reserved', lo que altera el significado real de la condición de error.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -823,7 +823,7 @@
       "similarity_ratio": 0.111,
       "table": "Return/Reclassification Reason Codes",
       "ai_category": "business_rule_change",
-      "ai_reason": "El texto de la condición de error cambió de 'Invalid Terminal Capability' a 'Reserved', lo que altera el significado real de la condición de error en el sistema.",
+      "ai_reason": "El texto de la condición de error cambió de 'Invalid Terminal Capability' a 'Reserved', lo que altera el significado real del código.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -851,7 +851,7 @@
       "similarity_ratio": 0.129,
       "table": "Return/Reclassification Reason Codes",
       "ai_category": "business_rule_change",
-      "ai_reason": "El texto anterior indicaba un país inválido para el biller, mientras que el nuevo texto 'Reserved' cambia el significado de negocio, indicando que el código está reservado para uso futuro.",
+      "ai_reason": "El texto de la condición de error cambió de 'Invalid Biller Country' a 'Reserved', lo que altera el significado real de la condición de error.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -865,7 +865,7 @@
       "similarity_ratio": 0.148,
       "table": "Return/Reclassification Reason Codes",
       "ai_category": "business_rule_change",
-      "ai_reason": "El texto de la condición de error cambió de 'Invalid Amount Due' a 'Reserved', lo que altera el significado real de la condición de error en el sistema.",
+      "ai_reason": "El texto de la condición de error cambió de 'Invalid Amount Due' a 'Reserved', lo que altera el significado real de la condición de error.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -879,7 +879,7 @@
       "similarity_ratio": 0.111,
       "table": "Return/Reclassification Reason Codes",
       "ai_category": "business_rule_change",
-      "ai_reason": "El texto anterior indicaba un monto específico de deuda en una moneda, mientras que el nuevo texto 'Reserved' cambia el significado de negocio para indicar que el código está reservado.",
+      "ai_reason": "El texto anterior indicaba un monto específico en moneda, mientras que el nuevo texto 'Reserved' cambia el significado de negocio para indicar que el código está reservado.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -893,7 +893,7 @@
       "similarity_ratio": 0.16,
       "table": "Return/Reclassification Reason Codes",
       "ai_category": "business_rule_change",
-      "ai_reason": "El texto de la condición de error cambió de 'Invalid Due Date' a 'Reserved', lo que altera el significado real de la condición de error en el sistema.",
+      "ai_reason": "El texto de la condición de error cambió de 'Invalid Due Date' a 'Reserved', lo que altera el significado real de la condición de error.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -907,7 +907,7 @@
       "similarity_ratio": 0.114,
       "table": "Return/Reclassification Reason Codes",
       "ai_category": "business_rule_change",
-      "ai_reason": "El texto anterior indicaba una condición específica de autorización inválida, mientras que el nuevo texto 'Reserved' indica que el código está reservado para uso futuro, cambiando el significado de negocio.",
+      "ai_reason": "El texto de la condición de error cambió de 'Invalid Authorization Date' a 'Reserved', lo que altera el significado real de la condición de error.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -921,7 +921,7 @@
       "similarity_ratio": 0.157,
       "table": "Return/Reclassification Reason Codes",
       "ai_category": "business_rule_change",
-      "ai_reason": "El texto anterior indicaba que el monto debe ser numérico, mientras que el nuevo texto es 'Reserved', lo que cambia la condición de negocio para la aplicación de pagos.",
+      "ai_reason": "El texto anterior indicaba que el monto debe ser numérico, mientras que el nuevo texto indica que es un valor reservado, cambiando la condición de negocio.",
       "disappeared_content": [
         "Payment application amount must be numeric."
       ],
@@ -937,7 +937,7 @@
       "similarity_ratio": 0.195,
       "table": "Return/Reclassification Reason Codes",
       "ai_category": "business_rule_change",
-      "ai_reason": "El texto anterior indicaba una condición específica de error, mientras que el nuevo texto 'Reserved' cambia el significado de negocio al reservar el código para uso futuro.",
+      "ai_reason": "El texto de la condición de error cambió de 'Invalid Customer Mailing Address' a 'Reserved', lo que altera el significado real de la condición de error.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -951,7 +951,7 @@
       "similarity_ratio": 0.216,
       "table": "Return/Reclassification Reason Codes",
       "ai_category": "business_rule_change",
-      "ai_reason": "El texto de la razón de error cambió de 'Invalid Sendback Reason Code' a 'Reserved', lo que indica un cambio en la regla de negocio para el código LO.",
+      "ai_reason": "El texto de la razón de error cambió de 'Invalid Sendback Reason Code' a 'Reserved', lo que altera el significado real del código en el contexto de negocio.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -965,7 +965,7 @@
       "similarity_ratio": 0.217,
       "table": "Return/Reclassification Reason Codes",
       "ai_category": "business_rule_change",
-      "ai_reason": "El texto de la condición de error cambió de 'Invalid Originator's Reference Number' a 'Reserved', lo que altera el significado real de la condición de error.",
+      "ai_reason": "El texto que indica la condición de error cambió de 'Invalid Originator's Reference Number' a 'Reserved', lo que altera el significado real de la condición de error.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -979,7 +979,7 @@
       "similarity_ratio": 0.074,
       "table": "Return/Reclassification Reason Codes",
       "ai_category": "business_rule_change",
-      "ai_reason": "El texto anterior indicaba una condición específica de error, mientras que el nuevo texto 'Reserved' cambia el significado de negocio al reservar el código para uso futuro.",
+      "ai_reason": "El texto de error cambia de una descripción específica a 'Reserved', lo que indica una modificación en la lógica de validación del código.",
       "disappeared_content": [
         "Account number does not match a valid account number mask for the biller."
       ],
@@ -1023,7 +1023,7 @@
       "similarity_ratio": 0.17,
       "table": "Return/Reclassification Reason Codes",
       "ai_category": "business_rule_change",
-      "ai_reason": "El texto anterior indicaba un estado de cliente inválido, mientras que el nuevo texto 'Reserved' cambia el significado de negocio al reservar el código para uso futuro.",
+      "ai_reason": "El texto anterior indicaba un estado de cliente inválido, mientras que el nuevo texto 'Reserved' cambia el significado de negocio para indicar un código reservado.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1053,7 +1053,7 @@
       "similarity_ratio": 0.222,
       "table": "Return/Reclassification Reason Codes",
       "ai_category": "business_rule_change",
-      "ai_reason": "El texto cambia de 'Invalid Beneficiary Reference Number' a 'Reserved', lo que indica una modificación en la condición de error que afecta el significado de negocio.",
+      "ai_reason": "El texto de la condición de error cambió de 'Invalid Beneficiary Reference Number' a 'Reserved', lo que altera el significado real de la condición de error.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1067,7 +1067,7 @@
       "similarity_ratio": 0.216,
       "table": "Return/Reclassification Reason Codes",
       "ai_category": "business_rule_change",
-      "ai_reason": "El texto anterior indicaba un código de error específico, mientras que el nuevo texto 'Reserved' cambia el significado de negocio al reservar el código para uso futuro.",
+      "ai_reason": "El texto de la condicion de error cambió de 'Invalid Customer Postal Code' a 'Reserved', lo que altera el significado real de la condición de error.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1127,7 +1127,7 @@
       "similarity_ratio": 0.074,
       "table": "Return/Reclassification Reason Codes",
       "ai_category": "business_rule_change",
-      "ai_reason": "El texto anterior indicaba que los datos antiguos no se encontraban, mientras que el nuevo texto 'Reserved' cambia el significado de negocio, indicando que el código está reservado para uso futuro.",
+      "ai_reason": "El texto de la condición de error cambió de 'Old data not found' a 'Reserved', lo que altera el significado real de la condición de error.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1141,7 +1141,7 @@
       "similarity_ratio": 0.143,
       "table": "Return/Reclassification Reason Codes",
       "ai_category": "business_rule_change",
-      "ai_reason": "El texto cambió de 'Invalid Active Mark' a 'Reserved', lo que altera el significado real del código en el contexto de la validación de transacciones.",
+      "ai_reason": "El texto descriptivo cambió de 'Invalid Active Mark' a 'Reserved', lo que altera el significado real del código en el contexto de los errores.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1171,7 +1171,7 @@
       "similarity_ratio": 0.294,
       "table": "Return/Reclassification Reason Codes",
       "ai_category": "business_rule_change",
-      "ai_reason": "El texto de la condición de error cambió de 'Invalid Service Type Code' a 'Reserved', lo que altera el significado real de la condición de error.",
+      "ai_reason": "El texto descriptivo cambió de 'Invalid Service Type Code' a 'Reserved', lo que altera el significado de negocio del código.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1185,7 +1185,7 @@
       "similarity_ratio": 0.19,
       "table": "Return/Reclassification Reason Codes",
       "ai_category": "business_rule_change",
-      "ai_reason": "El texto anterior indicaba un código de confirmación inválido, mientras que el nuevo texto indica que el código está reservado, lo que cambia el significado de negocio.",
+      "ai_reason": "El texto de la condición de error cambió de 'Invalid Confirmation Message Code' a 'Reserved', lo que indica un cambio en el significado de negocio del código.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1199,7 +1199,7 @@
       "similarity_ratio": 0.194,
       "table": "Return/Reclassification Reason Codes",
       "ai_category": "business_rule_change",
-      "ai_reason": "El texto anterior indicaba una condición de error específica, mientras que el nuevo texto 'Reserved' cambia el significado de negocio para indicar que el código está reservado.",
+      "ai_reason": "El texto de la condición de error cambió de 'Invalid Effective Date' a 'Reserved', lo que altera el significado real de la condición de error.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1243,7 +1243,7 @@
       "similarity_ratio": 0.105,
       "table": "Return/Reclassification Reason Codes",
       "ai_category": "business_rule_change",
-      "ai_reason": "El texto anterior indicaba una condición específica de error, mientras que el nuevo texto 'Reserved' cambia el significado de negocio para indicar que el código está reservado.",
+      "ai_reason": "El texto de la condición de error cambió de 'Invalid Detail Invoice Option' a 'Reserved', lo que altera el significado real de la condición de error.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1271,7 +1271,7 @@
       "similarity_ratio": 0.105,
       "table": "Return/Reclassification Reason Codes",
       "ai_category": "business_rule_change",
-      "ai_reason": "El texto anterior indicaba una condición específica de error, mientras que el nuevo texto es 'Reserved', lo que cambia el significado real de la condición de error.",
+      "ai_reason": "El texto anterior indicaba una condición específica de error mientras que el nuevo texto es 'Reserved', lo que cambia el significado de negocio.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1285,7 +1285,7 @@
       "similarity_ratio": 0.143,
       "table": "Return/Reclassification Reason Codes",
       "ai_category": "business_rule_change",
-      "ai_reason": "El texto de la condición de error cambió de 'Invalid Balance Due' a 'Reserved', lo que altera el significado real de la condición de error en el sistema.",
+      "ai_reason": "El texto de la condición de error cambió de 'Invalid Balance Due' a 'Reserved', lo que altera el significado real del código.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1299,7 +1299,7 @@
       "similarity_ratio": 0.121,
       "table": "Return/Reclassification Reason Codes",
       "ai_category": "business_rule_change",
-      "ai_reason": "El texto anterior indicaba un error específico de saldo con signo, mientras que el nuevo texto 'Reserved' cambia el significado de negocio para indicar que el código está reservado.",
+      "ai_reason": "El texto anterior indicaba una condición específica de saldo negativo, mientras que el nuevo texto 'Reserved' cambia el significado de negocio para indicar que el código está reservado.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1313,7 +1313,7 @@
       "similarity_ratio": 0.095,
       "table": "Return/Reclassification Reason Codes",
       "ai_category": "business_rule_change",
-      "ai_reason": "El texto anterior indicaba un código de error específico, mientras que el nuevo texto 'Reserved' cambia el significado de negocio al reservar el código para uso futuro.",
+      "ai_reason": "El texto anterior indicaba un código de moneda inválido, mientras que el nuevo texto indica que el código está reservado, cambiando el significado de negocio.",
       "disappeared_content": [
         "Invalid Balance Due Currency Code."
       ],
@@ -1329,7 +1329,7 @@
       "similarity_ratio": 0.114,
       "table": "Return/Reclassification Reason Codes",
       "ai_category": "business_rule_change",
-      "ai_reason": "El texto anterior indicaba un monto mínimo no válido, mientras que el nuevo texto es 'Reserved', lo que cambia el significado de negocio.",
+      "ai_reason": "El texto de la condición de error cambió de 'Invalid Minimum Amount Due' a 'Reserved', lo que altera el significado real de la condición de error.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1343,7 +1343,7 @@
       "similarity_ratio": 0.125,
       "table": "Return/Reclassification Reason Codes",
       "ai_category": "business_rule_change",
-      "ai_reason": "El texto anterior indicaba un monto inválido, mientras que el nuevo texto indica que el código está reservado, cambiando el significado de negocio.",
+      "ai_reason": "El texto de la condición de error cambió de 'Invalid Past Due Amount' a 'Reserved', lo que indica un cambio en la definición de la condición de error.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1357,7 +1357,7 @@
       "similarity_ratio": 0.118,
       "table": "Return/Reclassification Reason Codes",
       "ai_category": "business_rule_change",
-      "ai_reason": "El texto anterior indicaba un error de saldo inicial específico, mientras que el nuevo texto 'Reserved' cambia el significado de negocio para indicar que el código está reservado.",
+      "ai_reason": "El texto de la condición de error cambió de 'Invalid Beginning Balance' a 'Reserved', lo que altera el significado real de la condición de error.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1399,7 +1399,7 @@
       "similarity_ratio": 0.167,
       "table": "Return/Reclassification Reason Codes",
       "ai_category": "business_rule_change",
-      "ai_reason": "El texto anterior indicaba un error específico de negocio mientras que el nuevo texto es una reserva, cambiando el significado real del código.",
+      "ai_reason": "El texto anterior indicaba un error específico de negocio mientras que el nuevo texto es una reserva que cambia el significado real del código.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1413,7 +1413,7 @@
       "similarity_ratio": 0.256,
       "table": "Return/Reclassification Reason Codes",
       "ai_category": "business_rule_change",
-      "ai_reason": "El texto anterior indicaba un valor específico de negocio que ahora se ha reemplazado por 'Reserved', cambiando la condición de error real.",
+      "ai_reason": "El texto anterior indicaba un error específico de negocio mientras que el nuevo texto es una reserva que cambia el significado de la condición de error.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1427,7 +1427,7 @@
       "similarity_ratio": 0.211,
       "table": "Return/Reclassification Reason Codes",
       "ai_category": "business_rule_change",
-      "ai_reason": "El texto anterior indicaba un error específico de negocio mientras que el nuevo texto es 'Reserved', lo que cambia el significado real de la condición de error.",
+      "ai_reason": "El texto anterior indicaba un error específico de negocio mientras que el nuevo texto es 'Reserved', lo que cambia el significado real del código.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1441,7 +1441,7 @@
       "similarity_ratio": 0.105,
       "table": "Return/Reclassification Reason Codes",
       "ai_category": "business_rule_change",
-      "ai_reason": "El texto de la condición de error cambió de 'Invalid Additional Amount Due' a 'Reserved', lo que altera el significado real de la condición de error en el sistema.",
+      "ai_reason": "El texto de la condición de error cambió de 'Invalid Additional Amount Due' a 'Reserved', lo que altera el significado real de la condición de error.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1455,7 +1455,7 @@
       "similarity_ratio": 0.082,
       "table": "Return/Reclassification Reason Codes",
       "ai_category": "business_rule_change",
-      "ai_reason": "El texto anterior indicaba un monto no válido sujeto a cargos financieros, mientras que el nuevo texto 'Reserved' cambia el significado de negocio al reservar el código.",
+      "ai_reason": "El texto anterior indicaba un monto sujeto a cargo financiero, mientras que el nuevo texto 'Reserved' cambia el significado de negocio para indicar un código reservado.",
       "disappeared_content": [
         "Invalid Amount Subject to Finance Charge."
       ],
@@ -1471,7 +1471,7 @@
       "similarity_ratio": 0.2,
       "table": "Return/Reclassification Reason Codes",
       "ai_category": "business_rule_change",
-      "ai_reason": "El texto anterior indicaba un error de tasa de interés específico, mientras que el nuevo texto 'Reserved' cambia el significado de negocio para indicar que el código está reservado.",
+      "ai_reason": "El texto de la condición de error cambió de 'Invalid Interest Rate' a 'Reserved', lo que altera el significado real de la condición de error.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1485,7 +1485,7 @@
       "similarity_ratio": 0.229,
       "table": "Return/Reclassification Reason Codes",
       "ai_category": "business_rule_change",
-      "ai_reason": "El texto anterior indicaba un código de interés no válido, mientras que el nuevo texto indica que el código está reservado, lo que cambia el significado de negocio.",
+      "ai_reason": "El texto anterior indicaba un código de interés invalido, mientras que el nuevo texto indica que el código está reservado, lo que cambia el significado de negocio.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1499,7 +1499,7 @@
       "similarity_ratio": 0.133,
       "table": "Return/Reclassification Reason Codes",
       "ai_category": "business_rule_change",
-      "ai_reason": "El texto anterior indicaba una condición específica de error, mientras que el nuevo texto indica que el código está reservado, cambiando el significado de negocio.",
+      "ai_reason": "El texto de error cambió de 'Invalid Late Due Date' a 'Reserved', lo que altera el significado de la condición de error.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1513,7 +1513,7 @@
       "similarity_ratio": 0.16,
       "table": "Return/Reclassification Reason Codes",
       "ai_category": "business_rule_change",
-      "ai_reason": "El texto de la condición de error cambió de 'Invalid New Data' a 'Reserved', lo que altera el significado real de la condición de error.",
+      "ai_reason": "El texto de la condición de error cambió de 'Invalid New Data' a 'Reserved', lo que altera el significado real del código.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1575,7 +1575,7 @@
       "similarity_ratio": 0.294,
       "table": "Return/Reclassification Reason Codes",
       "ai_category": "business_rule_change",
-      "ai_reason": "El texto cambia de 'Invalid Customer Province' a 'Reserved', lo que indica una modificación en la condición de error que afecta el significado de negocio.",
+      "ai_reason": "El texto cambió de 'Invalid Customer Province' a 'Reserved', lo que indica una nueva regla de negocio sobre la condición de error.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1605,7 +1605,7 @@
       "similarity_ratio": 0.238,
       "table": "Return/Reclassification Reason Codes",
       "ai_category": "business_rule_change",
-      "ai_reason": "El texto anterior indicaba un código de moneda inválido, mientras que el nuevo texto indica que el código está reservado, lo que cambia el significado de negocio.",
+      "ai_reason": "El texto cambia de 'Invalid Destination Currency Code' a 'Reserved', lo que altera el significado real del código de error.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1633,7 +1633,7 @@
       "similarity_ratio": 0.105,
       "table": "Return/Reclassification Reason Codes",
       "ai_category": "business_rule_change",
-      "ai_reason": "El texto cambia de 'Invalid Market Indicator Code' a 'Reserved', lo que indica una modificación en la condición de error que afecta el significado comercial del código.",
+      "ai_reason": "El texto anterior indicaba un código de mercado inválido, mientras que el nuevo texto indica que el código está reservado, lo que cambia el significado de negocio.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1647,7 +1647,7 @@
       "similarity_ratio": 0.123,
       "table": "Return/Reclassification Reason Codes",
       "ai_category": "business_rule_change",
-      "ai_reason": "El texto anterior indicaba que la transacción de verificación de cuenta no es soportada por el proveedor, mientras que el nuevo texto 'Reserved' indica que el código está reservado para uso futuro, cambiando el significado de negocio.",
+      "ai_reason": "El texto anterior indicaba que la transacción de verificación de cuenta no es soportada por el proveedor, mientras que el nuevo texto 'Reserved' cambia el significado de negocio, indicando que el código está reservado para uso futuro.",
       "disappeared_content": [
         "Account Verification Transaction not supported by biller."
       ],
@@ -1663,7 +1663,7 @@
       "similarity_ratio": 0.091,
       "table": "Return/Reclassification Reason Codes",
       "ai_category": "business_rule_change",
-      "ai_reason": "El texto cambia de un mensaje de error específico a 'Reserved', lo que indica una modificación en la condición de error real.",
+      "ai_reason": "El texto anterior indicaba un error específico en la verificación de cuenta, mientras que el nuevo texto 'Reserved' cambia el significado de negocio, indicando que el código está reservado para uso futuro.",
       "disappeared_content": [
         "Invalid Source Amount in Account Verification Transaction."
       ],
@@ -1704,7 +1704,7 @@
       "similarity_ratio": 0.397,
       "table": "SECOND POSITION (MERCHANT TRANSACTION INDICATOR)",
       "ai_category": "business_rule_change",
-      "ai_reason": "La descripción incluye una nueva condición que especifica que para OCT/AFT también incluye la venta o conversión de criptomonedas, lo que modifica el significado del código.",
+      "ai_reason": "La descripción ahora incluye una nota que especifica que para OCT/AFT también incluye la venta o conversión de criptomonedas, lo que modifica el significado del código.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1729,8 +1729,8 @@
       "new": "Caribbean\nGuilder",
       "similarity_ratio": 0.565,
       "table": "Country and Currency Codes",
-      "ai_category": "editorial_reword",
-      "ai_reason": "El texto describe el mismo moneda (Guilder) pero con un nombre diferente de país que cambió de 'Netherlands Antillean' a 'Caribbean', sin alterar el significado o valor de negocio.",
+      "ai_category": "business_rule_change",
+      "ai_reason": "El nombre del moneda cambió de 'Netherlands Antillean Guilder' a 'Caribbean Guilder', lo que altera el significado comercial del código.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1744,7 +1744,7 @@
       "similarity_ratio": 0.333,
       "table": "Country and Currency Codes",
       "ai_category": "business_rule_change",
-      "ai_reason": "El código de moneda cambió de ANG a XCG, lo que altera el significado real del código en el contexto de Visa.",
+      "ai_reason": "El código de moneda cambió de ANG a XCG, lo que implica un cambio real en el valor de negocio para Curacao.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1786,7 +1786,7 @@
       "similarity_ratio": 0.471,
       "table": "Country and Currency Codes",
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto cambió de 'LEUS' a 'Romanian LEUS', pero mantiene el mismo significado y solo se agregó el nombre del país para claridad.",
+      "ai_reason": "El texto cambió de 'LEUS' a 'Romanian LEUS', pero mantiene el mismo significado sin alterar el valor de negocio.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1800,7 +1800,7 @@
       "similarity_ratio": 0.625,
       "table": "Country and Currency Codes",
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto en la edición nueva es más corto que el texto en la edición vieja, pero ambos indican el mismo nombre de moneda: 'Leone'.",
+      "ai_reason": "El texto anterior mostraba 'Leone' dos veces y ahora solo aparece una vez, pero el significado no cambió.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1828,7 +1828,7 @@
       "similarity_ratio": 0.6,
       "table": "Country and Currency Codes",
       "ai_category": "business_rule_change",
-      "ai_reason": "El valor anterior (694) y el valor nuevo (925) son códigos de moneda diferentes, lo que cambia el significado de negocio.",
+      "ai_reason": "El valor anterior era 694 y el valor nuevo es 925, lo que indica un cambio en el código de moneda para Sierra Leona.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1914,7 +1914,7 @@
       "similarity_ratio": 0.583,
       "table": "Retained and Returned Data Elements - U.S. National",
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto describe lo mismo pero con un orden de palabras y formato diferente.",
+      "ai_reason": "El texto describe lo mismo pero con un cambio en el orden de las palabras y la estructura de la frase.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1928,14 +1928,14 @@
       "similarity_ratio": 0.019,
       "table": "Retained and Returned Data Elements - U.S. National",
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto se reorganizó para mantener el mismo significado, añadiendo repeticiones y cambios en el orden de las frases sin alterar el contenido real.",
+      "ai_reason": "El texto se reorganizó para mantener el mismo significado pero con cambios en el orden y formato de las frases.",
       "disappeared_content": [],
       "safety_net_override": false
     }
   ],
   "ai_summary": {
-    "editorial_reword": 8,
-    "business_rule_change": 108,
+    "editorial_reword": 7,
+    "business_rule_change": 109,
     "extraction_noise": 1
   }
 }

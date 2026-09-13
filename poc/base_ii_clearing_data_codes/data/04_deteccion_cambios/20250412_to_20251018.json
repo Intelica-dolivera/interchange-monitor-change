@@ -105,7 +105,7 @@
       "cells": [
         "5220",
         "None",
-        "Commercial Data Acquirer Adjustment\nl\nl\nl\nVisa initiates the transaction.\nThe Account Number field must contain a valid account number.\nThe Country Code may contain space."
+        "Commercial Data Acquirer Adjustment\nVisa initiates the transaction.\nl\nThe Account Number field must contain a valid account number.\nl\nThe Country Code may contain space.\nl"
       ]
     },
     {
@@ -115,7 +115,7 @@
       "cells": [
         "5230",
         "None",
-        "Commercial Data Issuer Adjustment\nl\nl\nl\nVisa initiates the transaction.\nThe Account Number field must contain a valid account number.\nThe Country Code may contain space."
+        "Commercial Data Issuer Adjustment\nVisa initiates the transaction.\nl\nThe Account Number field must contain a valid account number.\nl\nThe Country Code may contain space.\nl"
       ]
     },
     {
@@ -123,9 +123,9 @@
       "code": "0150",
       "column": "Definition",
       "column_index": 2,
-      "old": "Recovered Card Handling Fees/Rewards\nl\nThe Account Number field must contain a valid account number.",
-      "new": "Recovered Card Handling Fees/Rewards\nl\nATM Balance Inquiry acquiring direct fee returns\nATM Balance Inquiry is available for ATM Balance Inquiry acquiring\ndirect fee participants in AP region only.\nThe Account Number field must contain a valid account number.",
-      "similarity_ratio": 0.557,
+      "old": "Recovered Card Handling Fees/Rewards\nThe Account Number field must contain a valid account number.\nl",
+      "new": "Recovered Card Handling Fees/Rewards\nThe Account Number field must contain a valid account number.\nl\nATM Balance Inquiry acquiring direct fee returns\nATM Balance Inquiry is available for ATM Balance Inquiry acquiring\ndirect fee participants in AP region only.",
+      "similarity_ratio": 0.552,
       "table": "Fee Collection/Funds Disbursement Reason Codes"
     },
     {
@@ -133,19 +133,19 @@
       "code": "0160",
       "column": "Definition",
       "column_index": 2,
-      "old": "ATM Balance Inquiry acquiring direct fee returns\nInvalid Cab Dispute Financial Handling Fee\nl\nThe Account Number field must contain a valid account number.",
-      "new": "Invalid Cab Dispute Financial Handling Fee\nl\nThe Account Number field must contain a valid account number.",
-      "similarity_ratio": 0.812,
+      "old": "ATM Balance Inquiry acquiring direct fee returns\nInvalid Cab Dispute Financial Handling Fee\nThe Account Number field must contain a valid account number.\nl",
+      "new": "Invalid Cab Dispute Financial Handling Fee\nThe Account Number field must contain a valid account number.\nl",
+      "similarity_ratio": 0.809,
       "table": "Fee Collection/Funds Disbursement Reason Codes"
     },
     {
       "change_type": "code_content_changed",
-      "code": "L",
-      "column": "Draft Data: TCR 5 - Payment Service Data, Position 49 TC 48, BASE I Advice: TCR 2 - ISO-Enriched, Position 61",
+      "code": "L TC 57, DATA CAPTURE ADVICE: TCR 3 - TRANSACTION DETAIL, PAYMENT SERVICE DATA, POSITION",
+      "column": "columna 1",
       "column_index": 1,
-      "old": "TC 57, Data Capture Advice: TCR 3 - Transaction Detail, Payment Service Data, Position\n42\nNote:\nIf the format is VML and the code is a space or zero, special attention must be paid\nbecause the code could have two different meanings: 1) in VML, the space or zero can\nmean not applicable, in which case the field should not be present in the transaction, or\n2) if the space or zero has a business meaning, the field should be present in the\ntransaction, (for example, a space may indicate eligibility for a particular fee type).",
-      "new": "TC 57, Data Capture Advice: TCR 3 - Transaction Detail, Payment Service Data, Position\n42",
-      "similarity_ratio": 0.289,
+      "old": "42\nNote:\nIf the format is VML and the code is a space or zero, special attention must be paid\nbecause the code could have two different meanings: 1) in VML, the space or zero can\nmean not applicable, in which case the field should not be present in the transaction, or\n2) if the space or zero has a business meaning, the field should be present in the\ntransaction, (for example, a space may indicate eligibility for a particular fee type).",
+      "new": "42",
+      "similarity_ratio": 0.009,
       "table": "Market-Specific Authorization Data\nIndicator\nThe Market-Specific Authorization Data Indicator identifies the industry for which market-\nspecific authorization data was included in the transaction.\nIt is used in these interchange formats:"
     },
     {

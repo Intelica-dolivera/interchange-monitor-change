@@ -1492,3 +1492,241 @@ en vez de/además de la red de seguridad de Módulo 5? No investigado, no se toc
 
 **Próximo paso indicado por el usuario**: repetir esta misma dinámica de revisión manual con otro
 de los 7 manuales del proyecto en la próxima sesión (todavía sin elegir cuál).
+
+## 26. RESUELTO (2026-09-13) — Revisión manual de `tc_50_to_tc_92`: 0 hallazgos, reporte validado limpio
+
+El usuario revisó `revision_manual_2026-09-13.md` de
+`base_ii_clearing_interchange_formats_tc_50_to_tc_92` (5 casos, todos formato `unpacked numeric` →
+`alphanumeric` en el campo `4` - Transaction Component Sequence Number, en varias fichas TCR de TC
+50) contra el PDF real y confirmó los 5 como "Ok" -cambios de negocio reales, bien clasificados, sin
+ningún bug de pipeline. Cierra este manual como validado para el par de edición vigente. Ref:
+`revision_manual_2026-09-13.md` en el repo.
+
+## 27. RESUELTO (2026-09-13) — `base_ii_clearing_data_codes`: reordenamiento de bloques con viñetas genera ~30 falsos `business_rule_change` en el par `20251018→20260418`
+
+- **Dónde**: `base_ii_clearing_data_codes`, tablas `Retired Chargeback Reason Codes` (columna
+  *Chargeback Reason Rules*, casi todos los códigos: 30, 41, 53, 57, 60, 61, 62, 70-78, 80-83, 85,
+  86, 90, 93), `Return/Reclassification Reason Codes` (códigos `01`, `HZ`, columna *Error
+  Condition*), `Request for Copy Reason Codes` (códigos 33/34), y aisladamente `Usage` de los
+  códigos `1`/`2`/`R` de POS Environment Codes y `Payment Mode Codes` código `61`.
+- **Síntoma reportado por el usuario** (`revision_manual_2026-09-13.md`, ~30 de 47 casos): el
+  reporte muestra estos códigos como `business_rule_change` con una `Razón (IA)` que describe un
+  cambio de negocio (montos, orden de reglas por región, etc.), pero al comparar Antes/Ahora
+  palabra por palabra el contenido es IDÉNTICO -solo cambia el glifo de viñeta (`"l"` en la edición
+  vieja vs `"●"` en la nueva) y, más grave, el ORDEN en que las líneas quedaron extraídas: en la
+  edición vieja el bloque sale con todas las etiquetas de región primero (`All Regions:`,
+  `International:`, `U.K. Domestic:`, ...) seguidas de un bloque separado con todo el texto de las
+  viñetas (aparente layout de 2 columnas: columna de glifo/etiqueta vs columna de texto, extraídas
+  column-major en vez de row-major); en la edición nueva quedan mejor interleadas pero con una
+  fuga menor propia (la 2da línea de una viñeta envuelta a veces queda debajo de la etiqueta de la
+  SIGUIENTE región). 5 de estos casos (`61`, `82`, `93`, `01`, `HZ`) están marcados con
+  `safety_net_override=True` en el reporte (⚠️ "la IA lo clasifico distinto; se corrigio por
+  contenido desaparecido") -el LLM SÍ los clasificó bien (`editorial_reword`/`extraction_noise`)
+  pero la red de seguridad de Módulo 5 los pisó igual; los ~25 restantes fueron clasificados
+  `business_rule_change` directamente por el LLM (alucinando una razón de negocio a partir del
+  ruido de reordenamiento), sin pasar por la red de seguridad.
+- **Causa raíz real (confirmada con los JSON crudos, NO era Módulo 1)**: el orden de extracción de
+  Módulo 1 (`ingest.py`, campo `order`) ya viene perfecto en ambas ediciones -el bug nace en Módulo 2
+  (`normalize.py`, `build_blocks`). Cuando una fila de viñeta+texto envuelto no entra en
+  `TABLE_ROW_GAP_MAX` (4.0pt, calibrado especificamente para la tabla "Country and Currency Codes",
+  ver su propio comentario en el código), el código la difiere a `pending_prefix` para decidir si
+  pertenece a la fila activa o a la siguiente -pero **nunca actualiza `active_last_y1` mientras
+  sigue diferiendo**, así que la próxima comparación de "hueco" vuelve a usar el mismo ancla vieja
+  (ya no representa el hueco real, que se corrió junto con lo diferido). En una lista larga con
+  muchas filas envueltas seguidas (ej. "Chargeback Reason Rules", con 6-10 viñetas por código) esto
+  encadena TODAS las filas restantes de la celda en un solo `pending_prefix` gigante que, al volcarse
+  de una sola vez, se reordena por **X0 puro** (`sorted(row, key=lambda l: l["bbox"][0])`) -agrupando
+  TODAS las etiquetas/viñetas de la columna angosta antes que TODO el texto envuelto de la columna
+  ancha, exactamente el sintoma reportado. La edición nueva sufre una variante mas chica del mismo
+  bug (viñeta pegada al texto en la misma línea, ej. `"●For T&E transactions..."`, en vez de en su
+  propia línea) que tambien dispara diferimientos encadenados mas cortos.
+- **Fix aplicado** (`02_normalizacion_bloques/normalize.py`):
+  1. `_row_has_bullet_glyph()` (nueva): detecta una línea de viñeta suelta (`"l"`/`"●"`/`"•"`, estilo
+     edición vieja) O una línea que EMPIEZA con `"●"`/`"•"` (estilo edición nueva, viñeta pegada al
+     texto) -deliberadamente NO se usa `"l"` como prefijo (letra normal, matchearía "local"/"less"/etc).
+  2. En la rama de filas multi-línea sin código activo (`elif active_kind in (table_row, table_header)`)
+     y en la de línea suelta envuelta: si la fila a diferir tiene viñeta, se actualiza
+     `active_last_y1` tambien AL DIFERIR (no solo al finalmente anexar) -mantiene el hueco comparado
+     siempre LOCAL, así la cadena de diferimientos se corta apenas el layout vuelve a ser normal, en
+     vez de crecer sin límite.
+  3. El `sorted(row, key=x0)` que arma `row_sorted` en cada vuelta del loop principal se vuelve
+     condicional: si la fila (ya fusionada con `pending_prefix`) tiene viñeta, se ordena por
+     `(Y0, X0)` en vez de solo `X0` -evita que una etiqueta de sección (ej. "Examples of a Type A UAT
+     transaction are:") que por casualidad comparte X0 con la columna de viñetas quede mezclada fuera
+     de orden con el texto envuelto de al lado.
+  4. **Todo acotado a `_row_has_bullet_glyph()`**: la tabla "Country and Currency Codes" (nombres de
+     país envueltos en 2+ líneas, sin viñetas nunca) queda con el comportamiento ORIGINAL sin tocar
+     -validado con diff exacto de las 2051 filas de la edición `20220423` contra el código pre-fix,
+     0 diferencias.
+- **Validado**: los 4 escenarios de prueba (Chargeback Reason Rules código 82/41, Acceptance
+  Terminal Indicator código 1, Country and Currency Codes Bulgaria/Croacia del par actual, y
+  Angola/Anguilla + nombres largos de la UE en la edición `20220423`) quedan con el orden de lectura
+  correcto y sin ninguna fusión/pérdida de fila. Se re-corrieron Módulos 02→03→04→05→07 para los 8
+  pares históricos completos (no solo el par actual). Resultado (primera pasada de este item; una
+  segunda observación del usuario destapó otro bug relacionado y bajó el número más -ver item 28-)
+  en el par `20251018→20260418`: "Cambios de negocio a revisar" bajó de 49 a 20 -exactamente los
+  18 casos que el usuario ya había confirmado como reales ("Ok": Bulgaria/Croacia a Euro,
+  definiciones de Glossary, Product ID) más los códigos `33`/`34` de "Request for Copy Reason
+  Codes" (en esta primera pasada parecía texto realmente vacío -`"l\nl"`- en la edición vieja; el
+  usuario sospechó que también era el bug de viñetas y tenía razón en parte -ver item 28 para el
+  diagnóstico real). Los otros 7 pares históricos tambien mejoraron o se mantuvieron (ningún caso
+  empeoró): varias filas de país que antes se fusionaban mal (ej. Croacia/Sierra Leona en el par
+  `20220423→20221015`) ahora matchean 1:1 y revelan cambios reales de negocio que antes quedaban
+  ocultos por el mal emparejamiento (business_rule_change subió de 3→6 y 16→18 en 2 pares, siempre
+  por altas genuinas, verificado leyendo el contenido de cada caso nuevo).
+- **Caso 15 de `revision_manual_2026-09-13.md`** (`SOURCE IDENTIFIER`, columna *Definition*):
+  confirmado "Ok" por el usuario, sin acción de código.
+- Ref: `revision_manual_2026-09-13.md` en el repo (casos 1, 2, 17, 18, 22-47). Archivos tocados:
+  `02_normalizacion_bloques/normalize.py` (fix de raíz), `04_deteccion_cambios/detect.py` (red
+  adicional: `BULLET_TOKEN_PATTERN`/`_similarity_text`, mismo mecanismo que `tc_01_to_tc_49`,
+  neutraliza el glifo de viñeta puro en el cálculo de similitud de Módulo 4).
+
+## 28. RESUELTO (2026-09-13) — `base_ii_clearing_data_codes`: `_new_cells` crea una celda de más cuando la fila ancla de un código ya trae viñeta+texto en la misma banda Y (códigos 33/34 de "Request for Copy Reason Codes")
+
+- **Dónde**: `base_ii_clearing_data_codes`, Módulo 2 (`normalize.py`), función `_new_cells`.
+- **Cómo se encontró**: después de cerrar el item 27, el usuario mandó 3 casos nuevos de
+  `revision_manual_2026-09-13.md` (Caso 1: código `0150`; Caso 2: códigos `33`/`34`), sospechando
+  que el mismo problema de viñetas seguía afectando. Se verificó cada uno contra el JSON crudo de
+  Módulo 1:
+  - **Código `0150`** ("Fee Collection/Funds Disbursement Reason Codes"): el texto de Módulo 1 en
+    ambas ediciones coincide EXACTO con lo que muestra el reporte -es un cambio de negocio real
+    ("AP region" → "Mexico", "direct fee" → "direct access fee"), no un bug. El usuario tenía
+    parcialmente razón en la sospecha (queda un "l" residual al final de la celda, cosmético,
+    mismo mecanismo ya conocido de viñeta-al-final-de-lote-diferido) pero la clasificación
+    `business_rule_change` es correcta.
+  - **Códigos `33`/`34`** ("Request for Copy Reason Codes"): el JSON crudo de Módulo 1 de la
+    edición VIEJA (`20251018`) SÍ tiene el texto real ("Legal process or fraud analysis
+    request—U.S. Domestic only", etc.) -no estaba vacío. El reporte mostraba `"l\nl"` porque
+    Módulo 2 lo estaba perdiendo.
+- **Causa raíz**: la fila que arranca un código nuevo vía `_new_cells` (activada por
+  `has_code_cell`) agrupa lineas en celdas por hueco de X0 con tolerancia `CELL_X_MERGE_TOLERANCE`
+  (3.0pt). Para la mayoría de las tablas de este manual eso alcanza porque la 1ra línea de un
+  código nuevo trae solo texto normal (sin viñeta) y las viñetas recién aparecen en filas
+  SIGUIENTES (que se anexan via `_nearest_cell`, ya con las celdas ya establecidas de sobra
+  anchas). Pero cuando la lista de un código es tan CORTA que la viñeta+texto de su 1er item
+  comparte la MISMA banda Y que el número de código (ej. códigos `33`/`34`, con solo 1-2 líneas de
+  "Reason" cortas que entran junto al código en el primer renglón visual), `_new_cells` ve 3 grupos
+  de X0 (código, viñeta, texto envuelto ~12pt más a la derecha) en vez de 2 (código, "Reason") -una
+  celda de más que el encabezado de la tabla (`['Requests', 'Reason']`, 2 columnas). Río abajo
+  (Módulo 3/4), el emparejamiento de celdas por índice compara la celda de la VIÑETA SOLA (`"l"`)
+  contra la columna "Reason" de la otra edición -el texto real (que terminó en la 3ra celda,
+  fuera del rango que el header declara) nunca se compara, se pierde en silencio.
+- **Fix**: en `_new_cells`, si la línea INMEDIATAMENTE anterior ya agregada a la celda activa es
+  una línea de viñeta (`_row_has_bullet_glyph`, mismo helper del item 27), la línea actual se
+  fusiona a esa misma celda SIN IMPORTAR el hueco en X0 -una viñeta y su texto nunca son 2 columnas
+  reales distintas. Acotado igual que el item 27 (solo dispara después de una línea de viñeta), así
+  que no toca ninguna tabla sin viñetas.
+- **Validado**: códigos `33`/`34` ahora producen 2 celdas (`['33', 'l\nLegal process...']`),
+  coincidiendo con el encabezado de 2 columnas; el texto real vuelve a compararse contra la edición
+  nueva y la clasificación cae a `editorial_reword`/sin cambio real (mismo contenido, solo viñeta).
+  Re-validados los 4 escenarios de prueba del item 27 (Chargeback Reason Rules, Acceptance Terminal
+  Indicator, Country and Currency Codes del par actual y de `20220423`) sin ninguna regresión -diff
+  exacto de las 2051 filas de `20220423`, 0 diferencias. Se re-corrieron Módulos 02→03→04→05→07
+  para los 8 pares históricos otra vez.
+- **Resultado final** (reemplaza el del item 27): "Cambios de negocio a revisar" del par
+  `20251018→20260418` bajó de 49 a **18** -exactamente los 18 casos que el usuario había confirmado
+  como reales en su revisión manual original, ni uno más ni uno menos. Se regeneró el reporte web
+  consolidado.
+- Ref: `poc/base_ii_clearing_data_codes/02_normalizacion_bloques/normalize.py` (`_new_cells`).
+
+## 29. RESUELTO (2026-09-13) — Revisión manual de `base_ii_clearing_edit_package_messages` y `base_ii_transactions_quick_reference`: 0 hallazgos, ambos reportes validados limpios
+
+El usuario revisó `revision_manual_2026-09-13.md` de ambos manuales contra el PDF real y confirmó
+todos los casos como "Ok" -cambios de negocio reales, bien clasificados, sin ningún bug de
+pipeline:
+
+- `base_ii_clearing_edit_package_messages` (9 casos): todos sobre el mismo patrón de negocio real
+  -edits V0173/V0188/V1098 (cashback) cambiando de "must be less than" a "must be less than or
+  equal to" el Source Amount, más la ampliación de Transaction Types a "Account Funding" y el
+  reword de la definición de BASE II SYSTEM (mismo texto que Glossary de
+  `base_ii_clearing_data_codes`, confirmado coherente entre manuales).
+- `base_ii_transactions_quick_reference` (15 casos): altas/bajas de TCR 2 "National Settlement"
+  por país (Argentina/Bolivia/Brasil/Colombia/Japón/Paraguay) en varias tablas de transacciones.
+  Varios casos quedaron marcados ⚠️ por el reporte con "posible renombre no detectado" (cantidad
+  neta de TCR sin cambio pero con altas Y bajas -ej. "National Settlement, Argentina" vs "(AR)
+  National Settlement, Argentina", que agrega un prefijo de país entre paréntesis y por eso no
+  matchea como el mismo TCR) -el usuario confirmó que esta el comportamiento (mostrar como alta+baja
+  en vez de forzar un match) es aceptable tal cual, no pidió cambiarlo.
+
+Cierra estos 2 manuales como validados para el par de edición vigente. Con esto, los 4 manuales
+"BASE II" del proyecto (`base_ii_clearing_data_codes`, `base_ii_clearing_edit_package_messages`,
+`base_ii_clearing_interchange_formats_tc_01_to_tc_49`, `base_ii_clearing_interchange_formats_tc_50_to_tc_92`)
+quedan con revisión manual completa. Quedan pendientes los 3 manuales no-BASE-II:
+`international_full_service_pos_online_messages_processing_specifications`,
+`visanet_settlement_service_vss_user_guide_volume_1_specifications`,
+`visanet_settlement_service_vss_user_guide_volume_2_reports`.
+- Ref: `revision_manual_2026-09-13.md` en el repo de ambos manuales.
+
+## 30. RESUELTO (2026-09-13) — `international_full_service_pos_online_messages_processing_specifications`: reflow de párrafo con cambio real de contenido en el mismo tramo se reportaba como "contenido agregado" falso
+
+- **Dónde**: `international_full_service_pos_online_messages_processing_specifications`, Módulo 3
+  (`match.py`), función `match_paragraphs`.
+- **Síntoma reportado por el usuario** (`revision_manual_2026-09-13.md`, Caso 1): sección "Full
+  Service Processing Summary > Full Service Participation Requirements > Issuer Options", el
+  reporte mostraba el párrafo de "Country-to-Country Transactions" como `business_rule_change`
+  con Razón (IA) "la nueva edición añade información adicional sobre los parámetros..." -pero al
+  comparar contra el PDF real ambas ediciones tienen el mismo contenido, solo re-cortado
+  distinto por un salto de página.
+- **Causa raíz**: el mecanismo de detección de reflow (agregado 2026-08-25, ver docstring del
+  módulo) ya manejaba este patrón -párrafo dividido distinto entre ediciones por reflow de
+  página- pero SOLO cuando el texto concatenado de ambos lados es IDÉNTICO byte a byte. Este
+  caso puntual tenía un cambio de wording real y mínimo DENTRO del mismo tramo reflow ("The
+  following parameters..." edición vieja → "These parameters..." edición nueva, ratio 0.989 de
+  similitud en la concatenación) -exactamente la "limitación aceptada conscientemente" que el
+  docstring del módulo ya documentaba como posible pero "no encontrada en el corpus" hasta
+  ahora. Al no matchear exacto, el bloque completo caía al pool de fuzzy per-párrafo, que
+  terminaba comparando 1 párrafo viejo corto contra 1 párrafo nuevo más largo -dando la falsa
+  impresión de "se agregó contenido" en vez de mostrar el cambio real (2 palabras).
+- **Fix**: nuevo umbral `REFLOW_CONTENT_SIMILARITY_THRESHOLD=0.95` (más estricto que
+  `FUZZY_PARAGRAPH_THRESHOLD=0.90`, porque acá se fusionan 2+ párrafos completos en una sola
+  comparación). Cuando un bloque `"replace"` de `SequenceMatcher` a nivel de párrafo no
+  concatena idéntico pero sí por encima de ese umbral, se reporta como UN solo
+  `paragraph_content_changed` comparando los bloques COMPLETOS concatenados de cada lado -así
+  Módulo 5 ve la comparación real, no el artefacto de re-corte. Los bloques mixtos que no
+  llegan al umbral (cambio real y sustancial, no solo un ajuste de wording) siguen sin
+  sub-dividirse, mismo comportamiento que antes -límite aceptado conscientemente, no perseguido
+  más allá sin evidencia de que ocurra.
+- **Validado**: el caso reportado ya no aparece en "Cambios de negocio a revisar" -queda
+  correctamente absorbido (el cambio real de 2 palabras es tan chico que compensa el resto del
+  párrafo, similitud del bloque completo por encima del umbral de "sin cambio real" de Módulo
+  4). Se re-corrieron Módulos 03→04→05→07 para los 6 pares históricos del manual. El número
+  total de "cambios de negocio a revisar" del par `20251015→20260420` pasó de 3 a 4 -el caso
+  reportado desapareció, y aparecieron 2 casos nuevos que antes quedaban ocultos como ruido de
+  altas/bajas (un typo real "filed 39"→"field 39" corregido en "Converting Over-Limit Codes", y
+  un cambio real en la tabla "Purchase and Cash Disbursement" que eliminó una restricción de
+  cashback solo-doméstico) -mejora, no regresión: la mejor cobertura de emparejamiento revela
+  cambios reales que antes se perdían en el pool de altas/bajas. Pendiente de que el usuario
+  confirme estos 2 casos nuevos en su próxima pasada de revisión. Se regeneró el reporte web
+  consolidado.
+- Ref: `revision_manual_2026-09-13.md` en el repo (Caso 1). Archivo tocado:
+  `03_emparejamiento_bloques/match.py` (`match_paragraphs`).
+
+## 31. RESUELTO (2026-09-13) — Revisión manual completa: los 8 manuales del proyecto quedan validados
+
+Cierre de la iniciativa de revisión manual iniciada 2026-09-12. Los 2 manuales VSS restantes:
+
+- `visanet_settlement_service_vss_user_guide_volume_2_reports` (9 casos en
+  `revison_manual_2026-09-13.md`): todos confirmados "Ok" -cambios de negocio reales (rangos de
+  posición de campo `filler` corridos, valores de `Attribute` cambiados, nuevo valor válido `0R`
+  -Recycling Payout- agregado a `service processing type`). Sin hallazgos de pipeline.
+- `visanet_settlement_service_vss_user_guide_volume_1_specifications`: el usuario confirmó
+  directamente contra el reporte de cambios (`data/07_reporte_cambios/index.md`) que el par
+  vigente (`20250412_to_20251017`) tiene **0 cambios de negocio a revisar** -nada que revisar.
+
+Con esto, **los 8 manuales del proyecto quedan con revisión manual completa** (iniciativa
+2026-09-12 → 2026-09-13, ver [[project-visa-manual-review]] en la memoria del asistente):
+
+| Manual | Resultado |
+|---|---|
+| `base_ii_clearing_data_codes` | 2 bugs encontrados y arreglados (items 27/28) |
+| `base_ii_clearing_edit_package_messages` | limpio (item 29) |
+| `base_ii_clearing_interchange_formats_tc_01_to_tc_49` | 6 bugs encontrados y arreglados (item 25, commit `d7eb95f`) |
+| `base_ii_clearing_interchange_formats_tc_50_to_tc_92` | limpio (item 26) |
+| `base_ii_transactions_quick_reference` | limpio (item 29) |
+| `international_full_service_pos_online_messages_processing_specifications` | 1 bug encontrado y arreglado (item 30) |
+| `visanet_settlement_service_vss_user_guide_volume_1_specifications` | limpio (0 cambios en el par vigente) |
+| `visanet_settlement_service_vss_user_guide_volume_2_reports` | limpio (item 31) |
+
+**Pendiente**: confirmar el commit de los cambios de código de esta sesión (items 27/28/30, sin
+commitear todavía -el usuario valida antes de guardar, ver [[feedback-manual-review-workflow]]).
+- Ref: `revison_manual_2026-09-13.md` de `vss_volume_2` en el repo.

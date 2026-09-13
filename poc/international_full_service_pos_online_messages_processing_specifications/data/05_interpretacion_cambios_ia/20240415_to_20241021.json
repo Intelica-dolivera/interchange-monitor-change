@@ -5,11 +5,11 @@
   "summary": {
     "section_removed": 1,
     "duplicate_path_warning": 1,
-    "paragraph_content_changed": 50,
+    "paragraph_content_changed": 64,
     "paragraph_reflowed": 22,
-    "paragraph_added": 82,
-    "paragraph_removed": 123,
-    "duplicate_paragraph_warning": 46
+    "duplicate_paragraph_warning": 46,
+    "paragraph_added": 60,
+    "paragraph_removed": 45
   },
   "changes": [
     {
@@ -48,7 +48,7 @@
       "new": "Transaction detail reports contain details about the day's message activity. The detail reports list each transaction, including the settlement disposition. The detail reports also include reconciliation totals. Settlement summary reports contain summary information about the day's work. The summary reports provide totals for the various components including interchange totals and fee totals. VisaNet provides the Point-of-Sale Authorization (POSA) File to subscribing full service acquirers. The file contains transaction data and other authorization information improving billing accuracy and reducing fraud and dispute losses for acquirers. The POSA File provides a single daily file with debit and credit transaction data, contributing to increased operational efficiency. The file includes all of the data elements contained in the TC 33, SMS raw data records, and the POS reporting raw data and report files, besides providing additional data, such as card results-level data.",
       "similarity_ratio": 0.999,
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto solo tiene cambios menores en espaciado y formato de texto, manteniendo el mismo significado y contenido.",
+      "ai_reason": "El texto describe lo mismo pero con ajustes menores en espaciado y formato de texto (como añadir espacios antes de comas y puntos).",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -81,68 +81,18 @@
       ]
     },
     {
-      "change_type": "paragraph_added",
+      "change_type": "paragraph_content_changed",
       "path": [
         "Full Service POS Products",
         "Full Service POS Products for Acquirers"
       ],
-      "text": "They can authorize and clear POS transactions by submitting a single online full financial message to VisaNet. This function occurs when the acquirer knows the final purchase amount at the time of authorization. They can authorize transactions online and submit an online full financial message through VisaNet at a later time. This deferred function occurs when the acquirer does not know the final purchase amount at the time of authorization. This method of processing differs depending on the POS card program:"
-    },
-    {
-      "change_type": "paragraph_removed",
-      "path": [
-        "Full Service POS Products",
-        "Full Service POS Products for Acquirers"
-      ],
-      "text": "They can authorize and clear POS transactions by submitting a single online full financial message to Visa"
-    },
-    {
-      "change_type": "paragraph_removed",
-      "path": [
-        "Full Service POS Products",
-        "Full Service POS Products for Acquirers"
-      ],
-      "text": "Net. This function occurs when the acquirer knows the final purchase"
-    },
-    {
-      "change_type": "paragraph_removed",
-      "path": [
-        "Full Service POS Products",
-        "Full Service POS Products for Acquirers"
-      ],
-      "text": "amount at the"
-    },
-    {
-      "change_type": "paragraph_removed",
-      "path": [
-        "Full Service POS Products",
-        "Full Service POS Products for Acquirers"
-      ],
-      "text": "time of authorization."
-    },
-    {
-      "change_type": "paragraph_removed",
-      "path": [
-        "Full Service POS Products",
-        "Full Service POS Products for Acquirers"
-      ],
-      "text": "They can authorize transactions online and submit an online full financial message through VisaNet at a later time. This"
-    },
-    {
-      "change_type": "paragraph_removed",
-      "path": [
-        "Full Service POS Products",
-        "Full Service POS Products for Acquirers"
-      ],
-      "text": "deferred function occurs when the acquirer does"
-    },
-    {
-      "change_type": "paragraph_removed",
-      "path": [
-        "Full Service POS Products",
-        "Full Service POS Products for Acquirers"
-      ],
-      "text": "not know the final purchase amount at the time of authorization. This method of processing differs depending on the POS card program:"
+      "old": "They can authorize and clear POS transactions by submitting a single online full financial message to Visa Net. This function occurs when the acquirer knows the final purchase amount at the time of authorization. They can authorize transactions online and submit an online full financial message through VisaNet at a later time. This deferred function occurs when the acquirer does not know the final purchase amount at the time of authorization. This method of processing differs depending on the POS card program:",
+      "new": "They can authorize and clear POS transactions by submitting a single online full financial message to VisaNet. This function occurs when the acquirer knows the final purchase amount at the time of authorization. They can authorize transactions online and submit an online full financial message through VisaNet at a later time. This deferred function occurs when the acquirer does not know the final purchase amount at the time of authorization. This method of processing differs depending on the POS card program:",
+      "similarity_ratio": 0.999,
+      "ai_category": "editorial_reword",
+      "ai_reason": "El texto se redactó con pequeñas modificaciones de espaciado y formato, pero mantiene el mismo significado y contenido.",
+      "disappeared_content": [],
+      "safety_net_override": false
     },
     {
       "change_type": "paragraph_content_changed",
@@ -153,41 +103,23 @@
       "new": "This section identifies the services that V.I.P. full service supports. See V.I.P. System Overview and Services.",
       "similarity_ratio": 0.938,
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto describe lo mismo pero cambia el nombre del sección de 'V.I.P. System Services' a 'V.I.P. System Overview and Services' para mejorar la claridad en la navegación.",
+      "ai_reason": "El texto describe lo mismo pero cambia el nombre del documento de 'V.I.P. System Services' a 'V.I.P. System Overview and Services' para mejorar la claridad en la referencia.",
       "disappeared_content": [],
       "safety_net_override": false
     },
     {
-      "change_type": "paragraph_added",
+      "change_type": "paragraph_content_changed",
       "path": [
         "V.I.P. Services",
         "Online Request Services"
       ],
-      "text": "Visa offers the following online request services full service participants can use. (Unless otherwise indicated, see V.I.P. System Overview and Services, for comprehensive descriptions of all of the services summarized in this chapter.)"
-    },
-    {
-      "change_type": "paragraph_removed",
-      "path": [
-        "V.I.P. Services",
-        "Online Request Services"
-      ],
-      "text": "Visa offers the following online request services full service participants can use. (Unless otherwise indicated, see"
-    },
-    {
-      "change_type": "paragraph_removed",
-      "path": [
-        "V.I.P. Services",
-        "Online Request Services"
-      ],
-      "text": "V.I.P. System Services, for comprehensive descriptions of all of"
-    },
-    {
-      "change_type": "paragraph_removed",
-      "path": [
-        "V.I.P. Services",
-        "Online Request Services"
-      ],
-      "text": "the services summarized in this chapter.)"
+      "old": "Visa offers the following online request services full service participants can use. (Unless otherwise indicated, see V.I.P. System Services, for comprehensive descriptions of all of the services summarized in this chapter.)",
+      "new": "Visa offers the following online request services full service participants can use. (Unless otherwise indicated, see V.I.P. System Overview and Services, for comprehensive descriptions of all of the services summarized in this chapter.)",
+      "similarity_ratio": 0.972,
+      "ai_category": "editorial_reword",
+      "ai_reason": "El texto mantiene el mismo significado pero solo cambia la palabra 'System Services' por 'System Overview and Services' y ajusta el espacio en el texto para mejorar la lectura.",
+      "disappeared_content": [],
+      "safety_net_override": false
     },
     {
       "change_type": "paragraph_content_changed",
@@ -200,7 +132,7 @@
       "new": "Field 25—Point-of-Service Condition Code contains 51 (zero amount account verification). Field 123—Verification Data is present, or Field 126.10—CVV2 Authorization Request Data is present. These fields maybe present but not required.",
       "similarity_ratio": 0.994,
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto describe la misma regla de negocio con cambios menores en formato y espaciado, sin alterar el significado o regla de negocio.",
+      "ai_reason": "El texto describe lo mismo que antes, solo se corrigió el formato de los números de campo y se añadió un guion para mejorar la lectura.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -231,7 +163,7 @@
       "new": "The Automatic Cardholder Database Update (Auto-CDB) Service enables V.I.P. to update records in the Account Screen Authorization File (ASAF) when issuers return a pick-up response code in authorization response messages. The Auto-CDB Service helps issuers prevent losses from problem accounts and improves the accuracy of cardholder information available to V.I.P. for stand-in processing (STIP). For details about this service, refer to V.I.P. System Overview and Services.",
       "similarity_ratio": 0.967,
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto describe lo mismo pero cambia 'V.I.P. System Services' por 'V.I.P. System Overview and Services' en el enlace a detalles del servicio.",
+      "ai_reason": "El texto describe lo mismo pero cambia el nombre del documento de referencia de 'V.I.P. System Services' a 'V.I.P. System Overview and Services' sin alterar el significado o regla de negocio.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -257,11 +189,11 @@
         "Online Request Services",
         "Card Verification Value (CVV) Service, the Integrated Chip Card Card Verification Value (iCVV), and the Card Verification Value 2 (CVV2) Service"
       ],
-      "old": "To verify the CVV, V.I.P. (or the issuer) uses the DES key and other information from the stripe to calculate a CVV and compares it with the stripe's encoded CVV. For the CVV to be valid, the two values must match exactly; otherwise, the CVV fails validation. As indicated above, iCVV processing uses all options, parameters, and keys used in CVV processing. V.I.P. or the issuer uses the same algorithm for the CVV and for the iCVV, but they substitute the value 999 for the service restriction code for iCVV processing. As part of the issuer participation procedure, the issuer specifies expiration date ranges and whether the CVV check is to be based on the chip image of the magnetic stripe data. STIP can respond to CVV failures with an issuer-specified decline response code or can forward failures to the issuer for processing. Issuers or V.I.P. can approve, refer, or decline transactions failing CVV validation depending on issuer-specified parameters. Refer to the Card Verification Value (CVV) Service chapter in V.I.P. System Services, for a description of the service. Refer to the Payment Technology Standards Manual for technical specifications for CVV placement, calculation, and verification.",
-      "new": "To verify the CVV, V.I.P. (or the issuer) uses the DES key and other information from the stripe to calculate a CVV and compares it with the stripe's encoded CVV. For the CVV to be valid, the two values must match exactly; otherwise, the CVV fails validation. As indicated above, iCVV processing uses all options, parameters, and keys used in CVV processing. V.I.P. or the issuer uses the same algorithm for the CVV and for the iCVV, but they substitute the value 999 for the service restriction code for iCVV processing. As part of the issuer participation procedure, the issuer specifies expiration date ranges and whether the CVV check is to be based on the chip image of the magnetic stripe data. STIP can respond to CVV failures with an issuer-specified decline response code or can forward failures to the issuer for processing. Issuers or V.I.P. can approve, refer, or decline transactions failing CVV validation depending on issuer-specified parameters. Refer to the Card Verification Value (CVV) Service chapter in V.I.P. System Overview and Services, for a description of the service. Refer to the Payment Technology Standards Manual for technical specifications for CVV placement, calculation, and verification.",
-      "similarity_ratio": 0.995,
+      "old": "To verify the CVV, V.I.P. (or the issuer) uses the DES key and other information from the stripe to calculate a CVV and compares it with the stripe's encoded CVV. For the CVV to be valid, the two values must match exactly; otherwise, the CVV fails validation. As indicated above, iCVV processing uses all options, parameters, and keys used in CVV processing. V.I.P. or the issuer uses the same algorithm for the CVV and for the iCVV, but they substitute the value 999 for the service restriction code for iCVV processing. As part of the issuer participation procedure, the issuer specifies expiration date ranges and whether the CVV check is to be based on the chip image of the magnetic stripe data. STIP can respond to CVV failures with an issuer-specified decline response code or can forward failures to the issuer for processing. Issuers or V.I.P. can approve, refer, or decline transactions failing CVV validation depending on issuer-specified parameters. Refer to the Card Verification Value (CVV) Service chapter in V.I.P. System Services, for a description of the service. Refer to the Payment Technology Standards Manual for technical specifications for CVV placement, calculation, and verification. For details about this service, refer to the Stand-In, CVV, and CVV2 Processing chapter in this manual, and to V.I.P. System Services. Refer to the Payment Technology Standards Manual for technical specifications for CVV placement, calculation, and verification.",
+      "new": "To verify the CVV, V.I.P. (or the issuer) uses the DES key and other information from the stripe to calculate a CVV and compares it with the stripe's encoded CVV. For the CVV to be valid, the two values must match exactly; otherwise, the CVV fails validation. As indicated above, iCVV processing uses all options, parameters, and keys used in CVV processing. V.I.P. or the issuer uses the same algorithm for the CVV and for the iCVV, but they substitute the value 999 for the service restriction code for iCVV processing. As part of the issuer participation procedure, the issuer specifies expiration date ranges and whether the CVV check is to be based on the chip image of the magnetic stripe data. STIP can respond to CVV failures with an issuer-specified decline response code or can forward failures to the issuer for processing. Issuers or V.I.P. can approve, refer, or decline transactions failing CVV validation depending on issuer-specified parameters. Refer to the Card Verification Value (CVV) Service chapter in V.I.P. System Overview and Services, for a description of the service. Refer to the Payment Technology Standards Manual for technical specifications for CVV placement, calculation, and verification. For details about this service, refer to the Stand-In, CVV, and CVV2 Processing chapter in this manual, and to V.I.P. System Overview and Services. Refer to the Payment Technology Standards Manual for technical specifications for CVV placement, calculation, and verification.",
+      "similarity_ratio": 0.991,
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto solo cambia el formato de espacio y la redacción, manteniendo el mismo significado y contenido.",
+      "ai_reason": "El texto se reescribe con cambios menores en formato y espaciado, pero mantiene el mismo significado y contenido sin alterar las reglas de negocio.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -270,105 +202,15 @@
       "path": [
         "V.I.P. Services",
         "Online Request Services",
-        "Card Verification Value (CVV) Service, the Integrated Chip Card Card Verification Value (iCVV), and the Card Verification Value 2 (CVV2) Service"
+        "Card Verification Value 2 (CVV2) Service"
       ],
-      "old": "For details about this service, refer to the Stand-In, CVV, and CVV2 Processing chapter in this manual, and to V.I.P. System Services. Refer to the Payment Technology Standards Manual for technical specifications for CVV placement, calculation, and verification.",
-      "new": "For details about this service, refer to the Stand-In, CVV, and CVV2 Processing chapter in this manual, and to V.I.P. System Overview and Services. Refer to the Payment Technology Standards Manual for technical specifications for CVV placement, calculation, and verification.",
-      "similarity_ratio": 0.976,
+      "old": "The Card Verification Value 2 (CVV2) Service is a card verification tool designed to reduce fraud losses on card-present and card-not-present transactions. Issuers must imprint a 3-digit security number (the CVV2) on the front or back of all new or reissued Visa cards, in accordance with the Visa Rules. Clients can use the CVV2 number to validate a genuine Visa card is used during a transaction. The CVV2 is calculated using a secure cryptographic process and a key known only to the issuer and to Visa. Participating merchants manually enter the CVV2 numeric value for validation by the V.I.P. System, the issuer, or both. V.I.P., the issuer, or both, verifies the CVV2 and returns the CVV2 result code to the merchant. For details about this service, refer to Stand-In, CVV, and CVV2 Processing chapter, in this manual, and to V.I.P. System Services.",
+      "new": "The Card Verification Value 2 (CVV2) Service is a card verification tool designed to reduce fraud losses on card-present and card-not-present transactions. Issuers must imprint a 3-digit security number (the CVV2) on the front or back of all new or reissued Visa cards, in accordance with the Visa Rules. Clients can use the CVV2 number to validate a genuine Visa card is used during a transaction. The CVV2 is calculated using a secure cryptographic process and a key known only to the issuer and to Visa. Participating merchants manually enter the CVV2 numeric value for validation by the V.I.P. System, the issuer, or both. V.I.P., the issuer, or both, verifies the CVV2 and returns the CVV2 result code to the merchant. For details about this service, refer to Stand-In, CVV, and CVV2 Processing chapter, in this manual, and to V.I.P. System Overview and Services.",
+      "similarity_ratio": 0.982,
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto solo cambia el nombre de 'V.I.P. System Services' a 'V.I.P. System Overview and Services' sin alterar el significado o reglas de negocio.",
+      "ai_reason": "El texto nuevo solo cambia el formato de espacio en los términos 'V.I.P.' y 'issuer' para mejorar la legibilidad, sin alterar el significado o reglas de negocio.",
       "disappeared_content": [],
       "safety_net_override": false
-    },
-    {
-      "change_type": "paragraph_added",
-      "path": [
-        "V.I.P. Services",
-        "Online Request Services",
-        "Card Verification Value 2 (CVV2) Service"
-      ],
-      "text": "The Card Verification Value 2 (CVV2) Service is a card verification tool designed to reduce fraud losses on card-present and card-not-present transactions. Issuers must imprint a 3-digit security number (the CVV2) on the front or back of all new or reissued Visa cards, in accordance with the Visa Rules. Clients can use the CVV2 number to validate a genuine Visa card is used during a transaction. The CVV2 is calculated using a secure cryptographic process and a key known only to the issuer and to Visa. Participating merchants manually enter the CVV2 numeric value for validation by the V.I.P. System, the issuer, or both. V.I.P., the issuer, or both, verifies the CVV2 and returns the CVV2 result code to the merchant. For details about this service, refer to Stand-In, CVV, and CVV2 Processing chapter, in this manual, and to V.I.P. System Overview and Services."
-    },
-    {
-      "change_type": "paragraph_removed",
-      "path": [
-        "V.I.P. Services",
-        "Online Request Services",
-        "Card Verification Value 2 (CVV2) Service"
-      ],
-      "text": "The Card Verification Value 2 (CVV2) Service is a card verification tool designed to reduce fraud losses on card-present and card-not-present transactions. Issuers must imprint a 3-digit security number (the CVV2) on the front or back of all new or reissued Visa cards, in accordance with the Visa Rules. Clients can use the CVV2 number to validate a genuine Visa card is used during a transaction. The CVV2 is calculated using a secure cryptographic process and a key known only to the issuer and to Visa. Participating merchants manually enter the CVV2 numeric value for validation by the V.I.P. System, the issuer, or both. V.I.P., the"
-    },
-    {
-      "change_type": "paragraph_removed",
-      "path": [
-        "V.I.P. Services",
-        "Online Request Services",
-        "Card Verification Value 2 (CVV2) Service"
-      ],
-      "text": "issuer, or both, verifies the CVV2 and returns the CVV2"
-    },
-    {
-      "change_type": "paragraph_removed",
-      "path": [
-        "V.I.P. Services",
-        "Online Request Services",
-        "Card Verification Value 2 (CVV2) Service"
-      ],
-      "text": "result code to the merchant. For details about this service, refer to Stand-In, CVV, and CVV2 Processing chapter, in this manual, and to V.I.P. System Services."
-    },
-    {
-      "change_type": "paragraph_added",
-      "path": [
-        "V.I.P. Services",
-        "Online Request Services",
-        "Cardholder Authentication Verification Value (CAVV) Verification Service and Electronic Commerce Transactions"
-      ],
-      "text": "Depending on the region, VisaNet assesses interchange reimbursement fees (IRFs) based on the CAVV Verification Service classification of the e-commerce transaction. The CAVV Verification Service supports magnetic stripe Visa cards and Visa Smart Debit/Smart Credit (VSDC) cards. Certain transactions are ineligible for Visa Secure and CAVV processing (the ECI in field 60.8 or in field 63.6 is not 5 or 6) even though they may include a CAVV; for instance, the services do not support transactions involving Visa Business, Visa Corporate, or Visa Purchasing cards. When V.I.P. validates a CAVV in an ineligible transaction, V.I.P. generates code B in field 44.13. Only V.I.P. is allowed to generate this code, which it uses for Visa processing only. Transaction aggregation allows merchants to combine multiple e-commerce purchases made by the same consumer on the same Visa account into a single, larger transaction and submit it for payment processing. Aggregation lowers the acquirer's interchange fees. An e-commerce merchant submits an authorization request or an estimated total authorized amount. Merchants can initiate multiple purchases up to three days or up to the authorized amount with the same card without making additional authorization requests. The merchant submits a single clearing transaction at the end of three days or when the total authorized amount is met."
-    },
-    {
-      "change_type": "paragraph_removed",
-      "path": [
-        "V.I.P. Services",
-        "Online Request Services",
-        "Cardholder Authentication Verification Value (CAVV) Verification Service and Electronic Commerce Transactions"
-      ],
-      "text": "Depending on the region, VisaNet assesses interchange reimbursement fees (IRFs) based on the CAVV Verification Service classification of the e-commerce transaction. The CAVV Verification Service supports magnetic stripe Visa cards and Visa Smart Debit/Smart Credit (VSDC) cards. Certain transactions are ineligible for Visa Secure and CAVV processing (the ECI in field 60.8 or in field 63.6 is not 5 or 6) even though they may include a CAVV; for instance, the services do not support transactions involving Visa Business, Visa Corporate, or Visa Purchasing cards. When V.I.P. validates a CAVV in an ineligible transaction, V.I.P. generates code"
-    },
-    {
-      "change_type": "paragraph_removed",
-      "path": [
-        "V.I.P. Services",
-        "Online Request Services",
-        "Cardholder Authentication Verification Value (CAVV) Verification Service and Electronic Commerce Transactions"
-      ],
-      "text": "B in field 44.13."
-    },
-    {
-      "change_type": "paragraph_removed",
-      "path": [
-        "V.I.P. Services",
-        "Online Request Services",
-        "Cardholder Authentication Verification Value (CAVV) Verification Service and Electronic Commerce Transactions"
-      ],
-      "text": "Only V.I.P. is allowed to generate this code, wh"
-    },
-    {
-      "change_type": "paragraph_removed",
-      "path": [
-        "V.I.P. Services",
-        "Online Request Services",
-        "Cardholder Authentication Verification Value (CAVV) Verification Service and Electronic Commerce Transactions"
-      ],
-      "text": "ich it uses for Visa processing only."
-    },
-    {
-      "change_type": "paragraph_removed",
-      "path": [
-        "V.I.P. Services",
-        "Online Request Services",
-        "Cardholder Authentication Verification Value (CAVV) Verification Service and Electronic Commerce Transactions"
-      ],
-      "text": "Transaction aggregation allows merchants to combine multiple e-commerce purchases made by the same consumer on the same Visa account into a single, larger transaction and submit it for payment processing. Aggregation lowers the acquirer's interchange fees. An e-commerce merchant submits an authorization request or an estimated total authorized amount. Merchants can initiate multiple purchases up to three days or up to the authorized amount with the same card without making additional authorization requests. The merchant submits a single clearing transaction at the end of three days or when the total authorized amount is met."
     },
     {
       "change_type": "paragraph_content_changed",
@@ -392,11 +234,11 @@
         "Online Request Services",
         "Cardholder Authentication Verification Value (CAVV) Verification Service and Electronic Commerce Transactions"
       ],
-      "old": "The market-specific authorization data indicator (MSADI) transaction aggregation identifier (TAI) identifies an aggregation transaction for e-commerce basic and preferred programs. Field 62.4 —Market-Specific Data Identifier must contain the value E. If Field 25—POS Condition Code does not contain value 59 for e-commerce, V.I.P. changes the value in field 62.4 from E to N. V.I.P. makes this change before it calculates the validation code. Acquirers with merchants choosing to submit aggregated e-commerce transactions must support the TAI in authorization and clearing transactions. Electronic commerce merchants must support partial authorizations to allow issuers to specify approval amounts below the estimated authorization amount. Issuers must be able to receive the TAI in authorization and clearing transactions. For more information about Visa Secure and CAVV as well as about the CAVV Verification Service key fields, refer to V.I.P. System Services, and to VisaNet Authorization-Only Messages Technical Specifications.",
-      "new": "The market-specific authorization data indicator (MSADI) transaction aggregation identifier (TAI) identifies an aggregation transaction for e-commerce basic and preferred programs. Field 62.4 —Market-Specific Data Identifier must contain the value E. If Field 25—POS Condition Code does not contain value 59 for e-commerce, V.I.P. changes the value in field 62.4 from E to N. V.I.P. makes this change before it calculates the validation code. Acquirers with merchants choosing to submit aggregated e-commerce transactions must support the TAI in authorization and clearing transactions. Electronic commerce merchants must support partial authorizations to allow issuers to specify approval amounts below the estimated authorization amount. Issuers must be able to receive the TAI in authorization and clearing transactions. For more information about Visa Secure and CAVV as well as about the CAVV Verification Service key fields, refer to V.I.P. System Overview and Services, and to VisaNet Authorization-Only Messages Technical Specifications.",
-      "similarity_ratio": 0.994,
+      "old": "Depending on the region, VisaNet assesses interchange reimbursement fees (IRFs) based on the CAVV Verification Service classification of the e-commerce transaction. The CAVV Verification Service supports magnetic stripe Visa cards and Visa Smart Debit/Smart Credit (VSDC) cards. Certain transactions are ineligible for Visa Secure and CAVV processing (the ECI in field 60.8 or in field 63.6 is not 5 or 6) even though they may include a CAVV; for instance, the services do not support transactions involving Visa Business, Visa Corporate, or Visa Purchasing cards. When V.I.P. validates a CAVV in an ineligible transaction, V.I.P. generates code B in field 44.13. Only V.I.P. is allowed to generate this code, wh ich it uses for Visa processing only. Transaction aggregation allows merchants to combine multiple e-commerce purchases made by the same consumer on the same Visa account into a single, larger transaction and submit it for payment processing. Aggregation lowers the acquirer's interchange fees. An e-commerce merchant submits an authorization request or an estimated total authorized amount. Merchants can initiate multiple purchases up to three days or up to the authorized amount with the same card without making additional authorization requests. The merchant submits a single clearing transaction at the end of three days or when the total authorized amount is met. The market-specific authorization data indicator (MSADI) transaction aggregation identifier (TAI) identifies an aggregation transaction for e-commerce basic and preferred programs. Field 62.4 —Market-Specific Data Identifier must contain the value E. If Field 25—POS Condition Code does not contain value 59 for e-commerce, V.I.P. changes the value in field 62.4 from E to N. V.I.P. makes this change before it calculates the validation code. Acquirers with merchants choosing to submit aggregated e-commerce transactions must support the TAI in authorization and clearing transactions. Electronic commerce merchants must support partial authorizations to allow issuers to specify approval amounts below the estimated authorization amount. Issuers must be able to receive the TAI in authorization and clearing transactions. For more information about Visa Secure and CAVV as well as about the CAVV Verification Service key fields, refer to V.I.P. System Services, and to VisaNet Authorization-Only Messages Technical Specifications.",
+      "new": "Depending on the region, VisaNet assesses interchange reimbursement fees (IRFs) based on the CAVV Verification Service classification of the e-commerce transaction. The CAVV Verification Service supports magnetic stripe Visa cards and Visa Smart Debit/Smart Credit (VSDC) cards. Certain transactions are ineligible for Visa Secure and CAVV processing (the ECI in field 60.8 or in field 63.6 is not 5 or 6) even though they may include a CAVV; for instance, the services do not support transactions involving Visa Business, Visa Corporate, or Visa Purchasing cards. When V.I.P. validates a CAVV in an ineligible transaction, V.I.P. generates code B in field 44.13. Only V.I.P. is allowed to generate this code, which it uses for Visa processing only. Transaction aggregation allows merchants to combine multiple e-commerce purchases made by the same consumer on the same Visa account into a single, larger transaction and submit it for payment processing. Aggregation lowers the acquirer's interchange fees. An e-commerce merchant submits an authorization request or an estimated total authorized amount. Merchants can initiate multiple purchases up to three days or up to the authorized amount with the same card without making additional authorization requests. The merchant submits a single clearing transaction at the end of three days or when the total authorized amount is met. The market-specific authorization data indicator (MSADI) transaction aggregation identifier (TAI) identifies an aggregation transaction for e-commerce basic and preferred programs. Field 62.4 —Market-Specific Data Identifier must contain the value E. If Field 25—POS Condition Code does not contain value 59 for e-commerce, V.I.P. changes the value in field 62.4 from E to N. V.I.P. makes this change before it calculates the validation code. Acquirers with merchants choosing to submit aggregated e-commerce transactions must support the TAI in authorization and clearing transactions. Electronic commerce merchants must support partial authorizations to allow issuers to specify approval amounts below the estimated authorization amount. Issuers must be able to receive the TAI in authorization and clearing transactions. For more information about Visa Secure and CAVV as well as about the CAVV Verification Service key fields, refer to V.I.P. System Overview and Services, and to VisaNet Authorization-Only Messages Technical Specifications.",
+      "similarity_ratio": 0.997,
       "ai_category": "business_rule_change",
-      "ai_reason": "El texto menciona que en la nueva edición se refiere a 'V.I.P. System Overview and Services' en lugar de 'V.I.P. System Services', lo que indica un cambio en el nombre del documento de referencia, lo que podría afectar la interpretación de los requisitos.",
+      "ai_reason": "El texto nuevo menciona 'V.I.P. System Overview and Services' en lugar de 'V.I.P. System Services', lo que indica un cambio en el nombre del documento referenciado, afectando la regla de negocio de donde se obtienen las especificaciones.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -588,130 +430,19 @@
       ]
     },
     {
-      "change_type": "paragraph_added",
+      "change_type": "paragraph_content_changed",
       "path": [
         "V.I.P. Services",
         "Online Request Services",
         "Visa iCVV Convert"
       ],
-      "text": "Field 55 – Integrated Circuit Card (ICC)-Related Data is removed. Field 23 – Card Sequence Number is removed. Field 44.8 – Card Authentication Results Code is removed. Field 60.3 (Chip Condition Code), Field 60.6 (Chip Transaction Indicator), and Field 60.7 (Chip Card Authentication Reliability Indicator) are zero-filled, or dropped, if no subsequent field 60 subfields are present. Field 39—VisaNet does not send Online CAM authentication results (response code 82), and offline approval (Y1, Y3) or decline (Z1, Z3) response codes to participating issuers – VisaNet converts Y1 and Y3 to 00 (Approved) and Z1 and Z3 to 05 (Do not honor) before sending them to participating issuers. However, the response codes Y1, Y2, Z1 and Z3 are sent in 0120/0220 advices to participating issuers. CVV results are sent in field 44.5."
-    },
-    {
-      "change_type": "paragraph_removed",
-      "path": [
-        "V.I.P. Services",
-        "Online Request Services",
-        "Visa iCVV Convert"
-      ],
-      "text": "Field 55 – Integrated Circuit Card (ICC)-Rel"
-    },
-    {
-      "change_type": "paragraph_removed",
-      "path": [
-        "V.I.P. Services",
-        "Online Request Services",
-        "Visa iCVV Convert"
-      ],
-      "text": "ated Data is removed."
-    },
-    {
-      "change_type": "paragraph_removed",
-      "path": [
-        "V.I.P. Services",
-        "Online Request Services",
-        "Visa iCVV Convert"
-      ],
-      "text": "Field 23 – Card Sequ"
-    },
-    {
-      "change_type": "paragraph_removed",
-      "path": [
-        "V.I.P. Services",
-        "Online Request Services",
-        "Visa iCVV Convert"
-      ],
-      "text": "ence Number is removed."
-    },
-    {
-      "change_type": "paragraph_removed",
-      "path": [
-        "V.I.P. Services",
-        "Online Request Services",
-        "Visa iCVV Convert"
-      ],
-      "text": "Field 44.8 – Card Authentication Res"
-    },
-    {
-      "change_type": "paragraph_removed",
-      "path": [
-        "V.I.P. Services",
-        "Online Request Services",
-        "Visa iCVV Convert"
-      ],
-      "text": "ults Code is removed."
-    },
-    {
-      "change_type": "paragraph_removed",
-      "path": [
-        "V.I.P. Services",
-        "Online Request Services",
-        "Visa iCVV Convert"
-      ],
-      "text": "Field 60.3 (Chip Condition Code), Field 60.6 (Chip Transaction Indicator), and Field 60.7 (Chip Card Authentication Reliability Indicator) are zero-filled, or dropped, if no subsequent field 60 subfields are present. Field 39—VisaNet does not send Online CAM authentication results (response code"
-    },
-    {
-      "change_type": "paragraph_removed",
-      "path": [
-        "V.I.P. Services",
-        "Online Request Services",
-        "Visa iCVV Convert"
-      ],
-      "text": "82),"
-    },
-    {
-      "change_type": "paragraph_removed",
-      "path": [
-        "V.I.P. Services",
-        "Online Request Services",
-        "Visa iCVV Convert"
-      ],
-      "text": "and offline approval (Y1, Y3) or decline (Z1, Z3) response codes to participating issuers – VisaNet converts Y1 and Y3 to 00 (Approved) and Z1 and Z3 to 05 (Do not honor) before sending them to participating issuers. However, the response codes Y1, Y2, Z1 and Z3 are sent in 0120/0220 advices to participating issuers. CVV results are sent in field 44.5."
-    },
-    {
-      "change_type": "paragraph_added",
-      "path": [
-        "V.I.P. Services",
-        "Online Request Services",
-        "VSDC PIN Management Service"
-      ],
-      "text": "The VSDC PIN Management Service allows Visa card cardholders to change or to unblock PINs in VSDC cards. Acquirers and issuers must successfully complete testing to participate in the service to provide this capability. Both must complete VSDC Service testing; issuers must be full VSDC participants. After the cardholder enters the new PIN twice, the acquirer forwards the new PIN in a “zero amount” 0100 authorization request to the issuer for approval. Processing code 70 in Field 3— Processing Code indicates a PIN change; processing code 72 indicates a PIN unblock. The current PIN information is in Field 52—Personal Identification Number (PIN) Data and in Field 53—Security-Related Control Information; the new PIN is in Field 152—Secondary PIN Block. Approvals receive response code 85 (no reason to decline) in Field 39—Response Code. PIN change or unblock requests bypass activity checking and are not eligible for PACM processing or for STIP. If the issuer is unavailable or if the request times out, STIP responds with response code 91 in field 39."
-    },
-    {
-      "change_type": "paragraph_removed",
-      "path": [
-        "V.I.P. Services",
-        "Online Request Services",
-        "VSDC PIN Management Service"
-      ],
-      "text": "The VSDC PIN Management Service allows Visa card cardholders to change or to unblock PINs in VSDC cards. Acquirers and issuers must successfully complete testing to participate in the service to provide this capability. Both must complete VSDC Service testing; issuers must be full VSDC participants. After the cardholder enters the new PIN twice, the acquirer forwards the new PIN in a “zero amount” 0100 authorization request to the issuer for approval. Processing code 70 in Field 3— 3— Processing Code indicates a PIN change; processing code 72 indicates a PIN unblock. The current PIN information is in Fie"
-    },
-    {
-      "change_type": "paragraph_removed",
-      "path": [
-        "V.I.P. Services",
-        "Online Request Services",
-        "VSDC PIN Management Service"
-      ],
-      "text": "ld 52 52—Personal Identification Number (PIN) Data and in"
-    },
-    {
-      "change_type": "paragraph_removed",
-      "path": [
-        "V.I.P. Services",
-        "Online Request Services",
-        "VSDC PIN Management Service"
-      ],
-      "text": "Field 53—Security-Related Control Information; the new PIN is in Field 152—Secondary PIN Block. Approvals receive response code 85 (no reason to decline) in Field 39—Response Code. PIN change or unblock requests bypass activity checking and are not eligible for PACM processing or for STIP. If the issuer is unavailable or if the request times out, STIP responds with response code 91 in field 39."
+      "old": "Field 55 – Integrated Circuit Card (ICC)-Rel ated Data is removed. Field 23 – Card Sequ ence Number is removed. Field 44.8 – Card Authentication Res ults Code is removed. Field 60.3 (Chip Condition Code), Field 60.6 (Chip Transaction Indicator), and Field 60.7 (Chip Card Authentication Reliability Indicator) are zero-filled, or dropped, if no subsequent field 60 subfields are present. Field 39—VisaNet does not send Online CAM authentication results (response code 82), and offline approval (Y1, Y3) or decline (Z1, Z3) response codes to participating issuers – VisaNet converts Y1 and Y3 to 00 (Approved) and Z1 and Z3 to 05 (Do not honor) before sending them to participating issuers. However, the response codes Y1, Y2, Z1 and Z3 are sent in 0120/0220 advices to participating issuers. CVV results are sent in field 44.5.",
+      "new": "Field 55 – Integrated Circuit Card (ICC)-Related Data is removed. Field 23 – Card Sequence Number is removed. Field 44.8 – Card Authentication Results Code is removed. Field 60.3 (Chip Condition Code), Field 60.6 (Chip Transaction Indicator), and Field 60.7 (Chip Card Authentication Reliability Indicator) are zero-filled, or dropped, if no subsequent field 60 subfields are present. Field 39—VisaNet does not send Online CAM authentication results (response code 82), and offline approval (Y1, Y3) or decline (Z1, Z3) response codes to participating issuers – VisaNet converts Y1 and Y3 to 00 (Approved) and Z1 and Z3 to 05 (Do not honor) before sending them to participating issuers. However, the response codes Y1, Y2, Z1 and Z3 are sent in 0120/0220 advices to participating issuers. CVV results are sent in field 44.5.",
+      "similarity_ratio": 0.998,
+      "ai_category": "editorial_reword",
+      "ai_reason": "El texto se reescribe con mayúsculas y espacios adicionales en los nombres de campos, pero el significado y las reglas de negocio permanecen idénticos.",
+      "disappeared_content": [],
+      "safety_net_override": false
     },
     {
       "change_type": "paragraph_content_changed",
@@ -720,11 +451,11 @@
         "Online Request Services",
         "VSDC PIN Management Service"
       ],
-      "old": "V.I.P. does not include CVV or PVS PIN verification with PIN management processing, only PIN translation. However, VSDC PIN Management Service participants may also participate in the PIN Verification Service (PVS) and in the Card Verification Value (CVV) Service. (Refer to V.I.P. System Services, for more information about the VSDC PIN Management Service.)",
-      "new": "V.I.P. does not include CVV or PVS PIN verification with PIN management processing, only PIN translation. However, VSDC PIN Management Service participants may also participate in the PIN Verification Service (PVS) and in the Card Verification Value (CVV) Service. (Refer to V.I.P. System Overview and Services, for more information about the VSDC PIN Management Service.)",
-      "similarity_ratio": 0.982,
+      "old": "The VSDC PIN Management Service allows Visa card cardholders to change or to unblock PINs in VSDC cards. Acquirers and issuers must successfully complete testing to participate in the service to provide this capability. Both must complete VSDC Service testing; issuers must be full VSDC participants. After the cardholder enters the new PIN twice, the acquirer forwards the new PIN in a “zero amount” 0100 authorization request to the issuer for approval. Processing code 70 in Field 3— 3— Processing Code indicates a PIN change; processing code 72 indicates a PIN unblock. The current PIN information is in Fie ld 52 52—Personal Identification Number (PIN) Data and in Field 53—Security-Related Control Information; the new PIN is in Field 152—Secondary PIN Block. Approvals receive response code 85 (no reason to decline) in Field 39—Response Code. PIN change or unblock requests bypass activity checking and are not eligible for PACM processing or for STIP. If the issuer is unavailable or if the request times out, STIP responds with response code 91 in field 39. V.I.P. does not include CVV or PVS PIN verification with PIN management processing, only PIN translation. However, VSDC PIN Management Service participants may also participate in the PIN Verification Service (PVS) and in the Card Verification Value (CVV) Service. (Refer to V.I.P. System Services, for more information about the VSDC PIN Management Service.)",
+      "new": "The VSDC PIN Management Service allows Visa card cardholders to change or to unblock PINs in VSDC cards. Acquirers and issuers must successfully complete testing to participate in the service to provide this capability. Both must complete VSDC Service testing; issuers must be full VSDC participants. After the cardholder enters the new PIN twice, the acquirer forwards the new PIN in a “zero amount” 0100 authorization request to the issuer for approval. Processing code 70 in Field 3— Processing Code indicates a PIN change; processing code 72 indicates a PIN unblock. The current PIN information is in Field 52—Personal Identification Number (PIN) Data and in Field 53—Security-Related Control Information; the new PIN is in Field 152—Secondary PIN Block. Approvals receive response code 85 (no reason to decline) in Field 39—Response Code. PIN change or unblock requests bypass activity checking and are not eligible for PACM processing or for STIP. If the issuer is unavailable or if the request times out, STIP responds with response code 91 in field 39. V.I.P. does not include CVV or PVS PIN verification with PIN management processing, only PIN translation. However, VSDC PIN Management Service participants may also participate in the PIN Verification Service (PVS) and in the Card Verification Value (CVV) Service. (Refer to V.I.P. System Overview and Services, for more information about the VSDC PIN Management Service.)",
+      "similarity_ratio": 0.992,
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto describe lo mismo pero cambia el nombre del documento de referencia de 'V.I.P. System Services' a 'V.I.P. System Overview and Services' en el enlace, sin alterar el significado o regla de negocio.",
+      "ai_reason": "El texto se reescribe con mayúsculas y espacios adicionales en los campos, pero el significado y las reglas de negocio permanecen iguales.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -739,7 +470,7 @@
       "new": "V.I.P. uses Field 62.20—Merchant Verification Value (MVV) to identify and authenticate merchants in authorization and reversal requests. It also validates the relationship between the merchant and its Visa client. Acquirers and issuers must successfully complete testing to send and receive this field. To be able to send and receive field 62.20, acquirers and issuers must be able to send field 62 in bitmap format. Visa assigns MVVs to specific merchants, and each MVV is unique. Visa assigns the first six positions and helps the acquirer assign the last four. If the MVV field format is invalid in requests, V.I.P. drops the field. The MVV is not necessarily a component of the Custom Payment Service. U.S. tax payment transactions must include an MVV. MVVs can also be used to allow individual clients to process transactions while belonging to an otherwise blocked merchant category such as 7995 (online gambling). MVVs are stored in the cardholder database (CDB) and are maintained by the client.",
       "similarity_ratio": 0.999,
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto en la edición nueva es idéntico al texto en la edición vieja, solo se añadieron espacios en blanco alrededor de los guiones y puntos en los números de campo, lo que no cambia el significado.",
+      "ai_reason": "El texto se ha modificado solo en el formato de los espacios y el uso de guiones, pero el significado y las reglas de negocio permanecen iguales.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -979,7 +710,7 @@
       "new": "The following capabilities are required for acquirers. PIN Security Acquirers must provide PIN security from the moment the cardholder enters the PIN until the transaction leaves the acquirer's system. Refer to the Payment Technology Standards Manual for complete and definitive security requirements and specifications. Visa Secure Electronic Commerce (VSEC) Processing VSEC processing is required for Visa POS card-not-present transactions occurring over the Internet and over other networks. Refer to V.I.P. System Overview and Services, for details about VSEC processing. Exception Processing Acquirers must support automated exception processing. This requirement includes the ability to initiate adjustment, dispute response financial, and administrative messages, and the ability to receive dispute financials, dispute financial reversals, and administrative messages. Acquirers can use Visa Resolve Online to meet this requirement. Acquirers must also support the following transactions:",
       "similarity_ratio": 0.993,
       "ai_category": "editorial_reword",
-      "ai_reason": "El cambio consiste en reemplazar 'V.I.P. System Services' por 'V.I.P. System Overview and Services' en el texto, manteniendo el mismo significado y requisitos sin alterar el contenido de negocio.",
+      "ai_reason": "El cambio consiste en reemplazar 'V.I.P. System Services' por 'V.I.P. System Overview and Services' en el texto, manteniendo el mismo significado y requisitos sin alterar la regla de negocio.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1289,13 +1020,6 @@
       "path": [
         "Issuer Options"
       ],
-      "text": "Automatic Cardholder Database Update (Auto-"
-    },
-    {
-      "change_type": "paragraph_added",
-      "path": [
-        "Issuer Options"
-      ],
       "text": "CDB) Service"
     },
     {
@@ -1332,13 +1056,6 @@
         "Issuer Options"
       ],
       "text": "Payment Technology Standards Manual V.I.P. System Overview and Services"
-    },
-    {
-      "change_type": "paragraph_added",
-      "path": [
-        "Issuer Options"
-      ],
-      "text": "Choice of VisaNet connection methods. (Clients in"
     },
     {
       "change_type": "paragraph_added",
@@ -1415,13 +1132,6 @@
       "path": [
         "Issuer Options"
       ],
-      "text": "Automatic Cardholder Database Update (Auto-CDB)"
-    },
-    {
-      "change_type": "paragraph_removed",
-      "path": [
-        "Issuer Options"
-      ],
       "text": "Service"
     },
     {
@@ -1464,13 +1174,6 @@
       "path": [
         "Issuer Options"
       ],
-      "text": "Choice of VisaNet connection methods. (Clients in the"
-    },
-    {
-      "change_type": "paragraph_removed",
-      "path": [
-        "Issuer Options"
-      ],
       "text": "VisaNet Copy Request and Fulfillment Service (VCRFS)"
     },
     {
@@ -1499,11 +1202,37 @@
       "path": [
         "Issuer Options"
       ],
+      "old": "Automatic Cardholder Database Update (Auto-CDB)",
+      "new": "Automatic Cardholder Database Update (Auto-",
+      "similarity_ratio": 0.956,
+      "ai_category": "extraction_noise",
+      "ai_reason": "El texto nuevo termina con un guion y falta el resto de la palabra 'CDB' debido a un artefacto de extracción de PDF, común en fragmentos de tablas o diagramas.",
+      "disappeared_content": [],
+      "safety_net_override": false
+    },
+    {
+      "change_type": "paragraph_content_changed",
+      "path": [
+        "Issuer Options"
+      ],
+      "old": "Choice of VisaNet connection methods. (Clients in the",
+      "new": "Choice of VisaNet connection methods. (Clients in",
+      "similarity_ratio": 0.961,
+      "ai_category": "editorial_reword",
+      "ai_reason": "El texto es idéntico en ambas ediciones, solo se eliminó un fragmento corto al final que no afecta el significado.",
+      "disappeared_content": [],
+      "safety_net_override": false
+    },
+    {
+      "change_type": "paragraph_content_changed",
+      "path": [
+        "Issuer Options"
+      ],
       "old": "U.S. region connect to VisaNet through DEX. Clients in all non-U.S. regions connect to VisaNet through DEX or EA Servers.) Choice of Report Delivery Options",
       "new": "the U.S. region connect to VisaNet through DEX. Clients in all non-U.S. regions connect to VisaNet through DEX or EA Servers.) Choice of Report Delivery Options",
       "similarity_ratio": 0.987,
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto solo cambia el espacio en la palabra 'EA' y el formato de la puntuación, pero mantiene el mismo significado y reglas de negocio.",
+      "ai_reason": "El texto solo tiene cambios menores en formato y espaciado, sin alterar el significado o reglas de negocio.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1530,42 +1259,6 @@
       ]
     },
     {
-      "change_type": "paragraph_added",
-      "path": [
-        "Standard Processing",
-        "Cardholder Transactions",
-        "Purchase and Cash Disbursement"
-      ],
-      "text": "Purchase transactions also include account funding transactions, which are valid for Visa POS. For transactions made at automated fuel dispensers with MCC 5542, an 0100 preauthorization request can optionally include an estimated authorization amount up to USD$500.00 in Field 4 —Amount, Transaction, and the maximum time expected between authorization and clearing in Field 63.2—Time (Preauth Time Limit). Acquirers in the U.S. region that do not participate in real-time clearing (RTC) must follow 0100 Visa AFD transactions with an 0120 acquirer confirmation advice that contains the actual transaction amount. If the issuer supports 0120 confirmation advices, VisaNet forwards the message to the issuer. If the issuer does not support these advices, VisaNet processes the transaction in STIP and responds to the acquirer with an 0130 message. Issuers must be able to support AFD status check and confirmation advices. In these messages, field 25 must contain valid values other than 06, which should only be received in real-time clearing fuel transactions. Acquirers must not submit Mastercard POS 02xx full financial messages. For AFD completions destined for Mastercard, acquirers must use 0120 messages. After the transaction is completed, the acquirer sends an 0220 completion message containing the preauthorization time limit and Field 25—POS Condition Code with value 06 to indicate that the completion transaction was previously authorized. Merchants and acquirers must send the final amount to VisaNet within 2 hours of the preauthorization. For Mastercard AFD transactions in Visa Canada and in the U.S. region, the final amount must be sent within 1 hour of the preauthorization. Acquirers must not submit Mastercard POS 02xx full financial messages. For AFD completions destined for Mastercard, acquirers must use 0120 messages. If an issuer sends an 0230 preauthorization completion advice response with a decline response code, V.I.P. checks the transaction history. If the original preauthorization request was declined or not received by the issuer, V.I.P. processes the decline from the issuer."
-    },
-    {
-      "change_type": "paragraph_removed",
-      "path": [
-        "Standard Processing",
-        "Cardholder Transactions",
-        "Purchase and Cash Disbursement"
-      ],
-      "text": "Purchase transactions also include account funding transactions, which are valid for Visa POS. For transactions made at automated fuel dispensers with MCC 5542, an 0100 preauthorization request can optionally include an estimated authorization amount up to USD$500.00 in Field 4 —Amount, Transaction, and the maximum time expected between authorization and clearing in Field 63 63.2—Time (Preauth Time Limit). Acquirers in the U.S. region that do not participate in real-time clearing (RTC) must follow 0100 Visa AFD transactions with an 0120 acquirer confirmation advice that contains the actual transaction amount. If the issuer supports 0120 confirmation advices, VisaNet forwards the message to the issuer. If the issuer does not support these advices, VisaNet processes the transaction in STIP and responds to the acquirer with an 0130 message. Issuers must be able to support AFD status check and confirmation advices. In these messages, field 25 must contain valid values other than 06, which should only be received in real-time clearing fuel transactions. Acquirers must not submit Mastercard POS 02xx full financial messages. For AFD completions destined for Mastercard, acquirers must use 0120 messages. After the transaction is completed, the acquirer sends an 0220 completion message containing the preauthorization time limit and Field 25—POS Condition Code with value"
-    },
-    {
-      "change_type": "paragraph_removed",
-      "path": [
-        "Standard Processing",
-        "Cardholder Transactions",
-        "Purchase and Cash Disbursement"
-      ],
-      "text": "06 to indicate that"
-    },
-    {
-      "change_type": "paragraph_removed",
-      "path": [
-        "Standard Processing",
-        "Cardholder Transactions",
-        "Purchase and Cash Disbursement"
-      ],
-      "text": "the completion transaction was previously authorized. Merchants and acquirers must send the final amount to VisaNet within 2 hours of the preauthorization. For Mastercard AFD transactions in Visa Canada and in the U.S. region, the final amount must be sent within 1 hour of the preauthorization. Acquirers must not submit Mastercard POS 02xx full financial messages. For AFD completions destined for Mastercard, acquirers must use 0120 messages. If an issuer sends an 0230 preauthorization completion advice response with a decline response code, V.I.P. checks the transaction history. If the original preauthorization request was declined or not received by the issuer, V.I.P. processes the decline from the issuer."
-    },
-    {
       "change_type": "paragraph_content_changed",
       "path": [
         "Standard Processing",
@@ -1576,7 +1269,22 @@
       "new": "Cashback transactions for Visa are included in the flows for this category. A purchase with cashback transaction differs from a purchase by the presence of an amount in Field 61.1— Other Amounts. A purchase with cashback transaction is a variation of the purchase transaction that permits the cardholder to get cash in addition to goods or services. For Visa, purchase with cashback is allowed for domestic transactions only; it is not supported for international transactions. Participating regions may offer a cashback service through VisaNet. Clients can contact their Visa representatives for information about availability. Visa cashback transactions are only allowed in face-to-face POS environments. This transaction is optional for acquirers and for merchants. Merchants that want to support this transaction service establish their own cashback limits. For full service participants outside of the United Kingdom (U.K.), Field 4—Amount, Transaction must contain the total transaction amount, which is the sum of the purchase amount and the cashback amount. For the U.K., a purchase with cashback transaction differs from a purchase by an amount in Field 61.1, positions 1–12—Other Amount, Transaction. Regional Visa Rules can apply to cashback transactions. Keeping the cashback amount separate from the purchase amount allows the issuer to check the desired cashback amount against daily cash withdrawal limits, which may differ from daily purchase limits. If the desired cashback amount causes the daily cash withdrawal limit to be exceeded, or if the combined purchase and cashback amount exceeds the cardholder's available balance but the purchase amount alone does not, the issuer can decline the transaction by using a response code to indicate that the cashback limit was exceeded, and the merchant can send a new transaction for the purchase amount only. A manual cash disbursement is a transaction by which the cardholder obtains cash in a face-to- face environment. It is valid for Visa POS. Purchase requests and manual cash disbursements have financial impact on cardholder accounts. They result in the updating of system settlement totals for the acquirer and issuer. A standard purchase or manual cash disbursement transaction is composed of two messages:",
       "similarity_ratio": 0.999,
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto nuevo y viejo contienen el mismo contenido con solo diferencias en el formato de los espacios y el uso de guiones para separar los campos, sin cambios en el significado o reglas de negocio.",
+      "ai_reason": "El texto nuevo y viejo contienen el mismo contenido, solo se han añadido espacios adicionales en los números de campo (61.1 y 61.1, positions 1–12) y se ha corregido el formato de los campos para mejorar la legibilidad, sin cambios en el significado o reglas de negocio.",
+      "disappeared_content": [],
+      "safety_net_override": false
+    },
+    {
+      "change_type": "paragraph_content_changed",
+      "path": [
+        "Standard Processing",
+        "Cardholder Transactions",
+        "Purchase and Cash Disbursement"
+      ],
+      "old": "Purchase transactions also include account funding transactions, which are valid for Visa POS. For transactions made at automated fuel dispensers with MCC 5542, an 0100 preauthorization request can optionally include an estimated authorization amount up to USD$500.00 in Field 4 —Amount, Transaction, and the maximum time expected between authorization and clearing in Field 63 63.2—Time (Preauth Time Limit). Acquirers in the U.S. region that do not participate in real-time clearing (RTC) must follow 0100 Visa AFD transactions with an 0120 acquirer confirmation advice that contains the actual transaction amount. If the issuer supports 0120 confirmation advices, VisaNet forwards the message to the issuer. If the issuer does not support these advices, VisaNet processes the transaction in STIP and responds to the acquirer with an 0130 message. Issuers must be able to support AFD status check and confirmation advices. In these messages, field 25 must contain valid values other than 06, which should only be received in real-time clearing fuel transactions. Acquirers must not submit Mastercard POS 02xx full financial messages. For AFD completions destined for Mastercard, acquirers must use 0120 messages. After the transaction is completed, the acquirer sends an 0220 completion message containing the preauthorization time limit and Field 25—POS Condition Code with value 06 to indicate that the completion transaction was previously authorized. Merchants and acquirers must send the final amount to VisaNet within 2 hours of the preauthorization. For Mastercard AFD transactions in Visa Canada and in the U.S. region, the final amount must be sent within 1 hour of the preauthorization. Acquirers must not submit Mastercard POS 02xx full financial messages. For AFD completions destined for Mastercard, acquirers must use 0120 messages. If an issuer sends an 0230 preauthorization completion advice response with a decline response code, V.I.P. checks the transaction history. If the original preauthorization request was declined or not received by the issuer, V.I.P. processes the decline from the issuer.",
+      "new": "Purchase transactions also include account funding transactions, which are valid for Visa POS. For transactions made at automated fuel dispensers with MCC 5542, an 0100 preauthorization request can optionally include an estimated authorization amount up to USD$500.00 in Field 4 —Amount, Transaction, and the maximum time expected between authorization and clearing in Field 63.2—Time (Preauth Time Limit). Acquirers in the U.S. region that do not participate in real-time clearing (RTC) must follow 0100 Visa AFD transactions with an 0120 acquirer confirmation advice that contains the actual transaction amount. If the issuer supports 0120 confirmation advices, VisaNet forwards the message to the issuer. If the issuer does not support these advices, VisaNet processes the transaction in STIP and responds to the acquirer with an 0130 message. Issuers must be able to support AFD status check and confirmation advices. In these messages, field 25 must contain valid values other than 06, which should only be received in real-time clearing fuel transactions. Acquirers must not submit Mastercard POS 02xx full financial messages. For AFD completions destined for Mastercard, acquirers must use 0120 messages. After the transaction is completed, the acquirer sends an 0220 completion message containing the preauthorization time limit and Field 25—POS Condition Code with value 06 to indicate that the completion transaction was previously authorized. Merchants and acquirers must send the final amount to VisaNet within 2 hours of the preauthorization. For Mastercard AFD transactions in Visa Canada and in the U.S. region, the final amount must be sent within 1 hour of the preauthorization. Acquirers must not submit Mastercard POS 02xx full financial messages. For AFD completions destined for Mastercard, acquirers must use 0120 messages. If an issuer sends an 0230 preauthorization completion advice response with a decline response code, V.I.P. checks the transaction history. If the original preauthorization request was declined or not received by the issuer, V.I.P. processes the decline from the issuer.",
+      "similarity_ratio": 0.999,
+      "ai_category": "editorial_reword",
+      "ai_reason": "El texto nuevo y viejo son idénticos, solo hay diferencias en el formato de espacios y mayúsculas en los números de campo (ej. 0100 vs 0100) y en la presentación de los campos, pero el significado y las reglas de negocio no cambian.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1613,7 +1321,7 @@
       "new": "Visa POS acquirers can submit deferred clearing transactions. The card need not be present for an online deferred clearing transaction. If the acquirer receives a referral response and obtains a voice approval, the acquirer must send a deferred clearing transaction to V.I.P. with the approval information in Field 38— Authorization Identification Response. Online deferred clearing transactions are called acquirer advices in the Message Formats chapter of Full Service POS Online Messages Technical Specifications. This figure illustrates an online deferred clearing transaction flow. The boxes above each figure indicate the card products that can use the transaction.",
       "similarity_ratio": 0.998,
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto solo tiene una diferencia mínima en el formato de la etiqueta de campo (38 38— vs 38—), sin cambios en el significado o regla de negocio.",
+      "ai_reason": "El texto solo tiene una diferencia mínima de formato en el número 38 (espacio adicional antes del guion) que no cambia el significado.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1793,112 +1501,34 @@
       ]
     },
     {
-      "change_type": "paragraph_added",
+      "change_type": "paragraph_content_changed",
       "path": [
         "Standard Processing",
         "Cardholder Transactions",
         "Balance Inquiry"
       ],
-      "text": "A POS balance inquiry requests that a checking or a credit card account balance be displayed at a consumer terminal at a merchant location."
+      "old": "A POS balance inquiry requests that a checking or a credit card account balance be displayed at a consumer terminal at a merchant location. Visa POS participants use Field 54—Additional Amount for returning balance information in approved balance inquiry responses. V.I.P. always converts the values in the amount fields depending on clients' participation in the Multicurrency Service. Visa POS issuers can optionally provide balance information in Interlink and in Visa POS 0210 purchase transaction responses. For full financial POS eFunds transactions (network 0029), the acquirer receives balance information in Field 54—Additional Amounts regardless of the issuer's selected response options. (This processing does not apply to stand-alone balance inquiries.) V.I.P. supports balance information in 0100 requests and 0110 responses and in 0200 full financial requests and 0210 responses for full service POS and Interlink. PINs are required for online 0200 POS balance inquiries. PINs may not be required if a chip card is being used in 0100 POS balance inquiries. If the balance is a negative amount, the issuer returns zeros. If the converted transaction currency amount in field 54 exceeds the 12-character converted amount limit, the converted currency amount value is 999999999999 (12 nines). A balance inquiry has no financial interchange value and cannot be reversed. To distinguish the balance inquiry from other 0200 requests, the terminal puts code 30 (available funds inquiry) in the first two positions of Field 3—Processing Code. Whether the message is a 0100 or 0200, if the acquirer has included field 3 = 30 in a balance inquiry, Field 4 —Amount, Transaction is not required. If field 4 is present, V.I.P. removes it before the message is sent to the issuer and reinstates it in the reply to the acquirer. If STIP returns a decline decision on behalf of the issuer, STIP creates an advice for the issuer at the issuer's option. Issuers can set parameters in the system tables (using the Customer Online Repository [CORE]) to prevent V.I.P. from creating advices for all transactions processed in STIP. If a balance inquiry transaction is processed in STIP because the transaction timed out, STIP se sets the value in Field 63.4—STIP/Switch Reason Code to 9020 (CAS response timed out). If the default response code in STIP for a balance inquiry is 57, STIP declines balance inquiry transactions with reason code 57 (even if the issuer is available) without creating advices. This figure illustrates the standard flow of a balance inquiry transaction. It consists of a balance inquiry request (0200) originated by the acquirer, followed by a balance inquiry response (0210) generated by the issuer.",
+      "new": "A POS balance inquiry requests that a checking or a credit card account balance be displayed at a consumer terminal at a merchant location. Visa POS participants use Field 54—Additional Amount for returning balance information in approved balance inquiry responses. V.I.P. always converts the values in the amount fields depending on clients' participation in the Multicurrency Service. Visa POS issuers can optionally provide balance information in Interlink and in Visa POS 0210 purchase transaction responses. For full financial POS eFunds transactions (network 0029), the acquirer receives balance information in Field 54—Additional Amounts regardless of the issuer's selected response options. (This processing does not apply to stand-alone balance inquiries.) V.I.P. supports balance information in 0100 requests and 0110 responses and in 0200 full financial requests and 0210 responses for full service POS and Interlink. PINs are required for online 0200 POS balance inquiries. PINs may not be required if a chip card is being used in 0100 POS balance inquiries. If the balance is a negative amount, the issuer returns zeros. If the converted transaction currency amount in field 54 exceeds the 12-character converted amount limit, the converted currency amount value is 999999999999 (12 nines). A balance inquiry has no financial interchange value and cannot be reversed. To distinguish the balance inquiry from other 0200 requests, the terminal puts code 30 (available funds inquiry) in the first two positions of Field 3—Processing Code. Whether the message is a 0100 or 0200, if the acquirer has included field 3 = 30 in a balance inquiry, Field 4 —Amount, Transaction is not required. If field 4 is present, V.I.P. removes it before the message is sent to the issuer and reinstates it in the reply to the acquirer. If STIP returns a decline decision on behalf of the issuer, STIP creates an advice for the issuer at the issuer's option. Issuers can set parameters in the system tables (using the Customer Online Repository [CORE]) to prevent V.I.P. from creating advices for all transactions processed in STIP. If a balance inquiry transaction is processed in STIP because the transaction timed out, STIP sets the value in Field 63.4—STIP/Switch Reason Code to 9020 (CAS response timed out). If the default response code in STIP for a balance inquiry is 57, STIP declines balance inquiry transactions with reason code 57 (even if the issuer is available) without creating advices. This figure illustrates the standard flow of a balance inquiry transaction. It consists of a balance inquiry request (0200) originated by the acquirer, followed by a balance inquiry response (0210) generated by the issuer.",
+      "similarity_ratio": 0.999,
+      "ai_category": "editorial_reword",
+      "ai_reason": "El texto nuevo y viejo contienen el mismo contenido con solo diferencias en el formato de espacios y mayúsculas en los números y campos, sin cambios en el significado o reglas de negocio.",
+      "disappeared_content": [],
+      "safety_net_override": false
     },
     {
-      "change_type": "paragraph_added",
-      "path": [
-        "Standard Processing",
-        "Cardholder Transactions",
-        "Balance Inquiry"
-      ],
-      "text": "Visa POS participants use Field 54—Additional Amount for returning balance information in approved balance inquiry responses. V.I.P. always converts the values in the amount fields depending on clients' participation in the Multicurrency Service. Visa POS issuers can optionally provide balance information in Interlink and in Visa POS 0210 purchase transaction responses. For full financial POS eFunds transactions (network 0029), the acquirer receives balance information in Field 54—Additional Amounts regardless of the issuer's selected response options. (This processing does not apply to stand-alone balance inquiries.) V.I.P. supports balance information in 0100 requests and 0110 responses and in 0200 full financial requests and 0210 responses for full service POS and Interlink. PINs are required for online 0200 POS balance inquiries. PINs may not be required if a chip card is being used in 0100 POS balance inquiries. If the balance is a negative amount, the issuer returns zeros. If the converted transaction currency amount in field 54 exceeds the 12-character converted amount limit, the converted currency amount value is 999999999999 (12 nines). A balance inquiry has no financial interchange value and cannot be reversed. To distinguish the balance inquiry from other 0200 requests, the terminal puts code 30 (available funds inquiry) in the first two positions of Field 3—Processing Code. Whether the message is a 0100 or 0200, if the acquirer has included field 3 = 30 in a balance inquiry, Field 4 —Amount, Transaction is not required. If field 4 is present, V.I.P. removes it before the message is sent to the issuer and reinstates it in the reply to the acquirer. If STIP returns a decline decision on behalf of the issuer, STIP creates an advice for the issuer at the issuer's option. Issuers can set parameters in the system tables (using the Customer Online Repository [CORE]) to prevent V.I.P. from creating advices for all transactions processed in STIP. If a balance inquiry transaction is processed in STIP because the transaction timed out, STIP sets the value in Field 63.4—STIP/Switch Reason Code to 9020 (CAS response timed out). If the default response code in STIP for a balance inquiry is 57, STIP declines balance inquiry transactions with reason code 57 (even if the issuer is available) without creating advices. This figure illustrates the standard flow of a balance inquiry transaction. It consists of a balance inquiry request (0200) originated by the acquirer, followed by a balance inquiry response (0210) generated by the issuer."
-    },
-    {
-      "change_type": "paragraph_removed",
-      "path": [
-        "Standard Processing",
-        "Cardholder Transactions",
-        "Balance Inquiry"
-      ],
-      "text": "A POS balance inquiry requests that a checking or a credit card account balance be displayed at a consumer terminal at a merchant location. Visa POS participants use Field 54—Additional Amount for returning balance information in approved balance inquiry responses. V.I.P. always converts the values in the amount fields depending on clients' participation in the Multicurrency Service."
-    },
-    {
-      "change_type": "paragraph_removed",
-      "path": [
-        "Standard Processing",
-        "Cardholder Transactions",
-        "Balance Inquiry"
-      ],
-      "text": "Visa POS issuers can optionally provide balance information in Interlink and in Visa POS 0210 purchase transaction responses. For full financial POS eFunds transactions (network 0029), the acquirer receives balance information in Field 54—Additional Amounts regardless of the issuer's selected response options. (This processing does not apply to stand-alone balance inquiries.) V.I.P. supports balance information in 0100 requests and 0110 responses and in 0200 full financial requests and 0210 responses for full service POS and Interlink. PINs are required for online 0200 POS balance inquiries. PINs may not be required if a chip card is being used in 0100 POS balance inquiries. If the balance is a negative amount, the issuer returns zeros. If the converted transaction currency amount in field 54 exceeds the 12-character converted amount limit, the converted currency amount value is"
-    },
-    {
-      "change_type": "paragraph_removed",
-      "path": [
-        "Standard Processing",
-        "Cardholder Transactions",
-        "Balance Inquiry"
-      ],
-      "text": "999999999999 (12 nines)."
-    },
-    {
-      "change_type": "paragraph_removed",
-      "path": [
-        "Standard Processing",
-        "Cardholder Transactions",
-        "Balance Inquiry"
-      ],
-      "text": "A balance inquiry has no financial interchange value and cannot be reversed. To distinguish the balance inquiry from other 0200 requests, the terminal puts code"
-    },
-    {
-      "change_type": "paragraph_removed",
-      "path": [
-        "Standard Processing",
-        "Cardholder Transactions",
-        "Balance Inquiry"
-      ],
-      "text": "30"
-    },
-    {
-      "change_type": "paragraph_removed",
-      "path": [
-        "Standard Processing",
-        "Cardholder Transactions",
-        "Balance Inquiry"
-      ],
-      "text": "(available funds inquiry) in the first two positions of Field 3—Processing Code. Whether the message is a 0100 or 0200, if the acquirer has included field 3 = 30 in a balance inquiry, Field 4 —Amount, Transaction is not required. If field 4 is present, V.I.P. removes it before the message is sent to the issuer and reinstates it in the reply to the acquirer. If STIP returns a decline decision on behalf of the issuer, STIP creates an advice for the issuer at the issuer's option. Issuers can set parameters in the system tables (using the Customer Online Repository [CORE]) to prevent V.I.P. from creating advices for all transactions processed in STIP. If a balance inquiry transaction is processed in STIP because the transaction timed out, STIP se sets the value in Field 63.4—STIP/Switch Reason Code to 9020 (CAS response timed out). If the default response code in STIP for a balance inquiry is 57, STIP declines balance inquiry transactions with reason code 57 (even if the issuer is available) without creating advices. This figure illustrates the standard flow of a balance inquiry transaction. It consists of a balance inquiry request (0200) originated by the acquirer, followed by a balance inquiry response (0210) generated by the issuer."
-    },
-    {
-      "change_type": "paragraph_added",
+      "change_type": "paragraph_content_changed",
       "path": [
         "Standard Processing",
         "System-Generated Transactions",
         "Deferred Clearing Reversal"
       ],
-      "text": "Deferred clearing purchase transactions can be reversed. VisaNet sends 0420 deferred clearing reversal advices to full service issuers for POS reversal transactions originated by BASE II acquirers. V.I.P. inserts message reason code 2505 in Field 63.3—Message Reason Code to identify these advices for issuers. Issuers do not receive deferred clearing reversal advices during the same processing day as the original transactions. This figure illustrates a standard reversal transaction flow."
-    },
-    {
-      "change_type": "paragraph_removed",
-      "path": [
-        "Standard Processing",
-        "System-Generated Transactions",
-        "Deferred Clearing Reversal"
-      ],
-      "text": "Deferred clearing purchase transactions can be reversed. VisaNet sends 0420 deferred clearing reversal advices to full service issuers for POS reversal transactions originated by BASE II acquirers. V.I.P. inserts message reason code"
-    },
-    {
-      "change_type": "paragraph_removed",
-      "path": [
-        "Standard Processing",
-        "System-Generated Transactions",
-        "Deferred Clearing Reversal"
-      ],
-      "text": "2505"
-    },
-    {
-      "change_type": "paragraph_removed",
-      "path": [
-        "Standard Processing",
-        "System-Generated Transactions",
-        "Deferred Clearing Reversal"
-      ],
-      "text": "in Fiel d 63 63.3—Message Reason Code to identify these advices for issuers. Issuers do not receive deferred clearing reversal advices during the same processing day as the original transactions. This figure illustrates a standard reversal transaction flow."
+      "old": "Deferred clearing purchase transactions can be reversed. VisaNet sends 0420 deferred clearing reversal advices to full service issuers for POS reversal transactions originated by BASE II acquirers. V.I.P. inserts message reason code 2505 in Fiel d 63 63.3—Message Reason Code to identify these advices for issuers. Issuers do not receive deferred clearing reversal advices during the same processing day as the original transactions. This figure illustrates a standard reversal transaction flow.",
+      "new": "Deferred clearing purchase transactions can be reversed. VisaNet sends 0420 deferred clearing reversal advices to full service issuers for POS reversal transactions originated by BASE II acquirers. V.I.P. inserts message reason code 2505 in Field 63.3—Message Reason Code to identify these advices for issuers. Issuers do not receive deferred clearing reversal advices during the same processing day as the original transactions. This figure illustrates a standard reversal transaction flow.",
+      "similarity_ratio": 0.994,
+      "ai_category": "editorial_reword",
+      "ai_reason": "El texto mantiene el mismo significado pero ajusta el formato de espacios y mayúsculas en los términos técnicos.",
+      "disappeared_content": [],
+      "safety_net_override": false
     },
     {
       "change_type": "duplicate_paragraph_warning",
@@ -1929,7 +1559,7 @@
       "new": "V.I.P. also can initiate adjustment transactions (sometimes referred to as “standalone” adjustments); for instance, an ATM Format Conversion Service adjustment to credit a full service issuer for ATM format conversion items that the acquirer has not cleared within the allowed timeframe. The message reason code in field 63.3 for these ATM standalone transactions is 2013. For POS standalone adjustments, field 63.3 contains message reason code 2007. A transaction identifier in field 62.2 from an original transaction is not present in the 0220 message. The acquirer has the option of entering adjustments using Visa Resolve Online (VROL). The issuer can receive adjustments through VROL. Adjustments may be issued on all types of purchase transactions, including cashback transactions. Only one adjustment can be issued for a transaction. To distinguish the adjustment from other transactions, the message reason code in Field 63.3— Message Reason Code must be:",
       "similarity_ratio": 0.998,
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto solo tiene cambios menores en formato y espaciado, manteniendo el mismo significado y reglas de negocio.",
+      "ai_reason": "El texto solo tiene diferencias menores en formato y espaciado, como el uso de espacios adicionales y cambios en la indentación, pero el significado y las reglas de negocio permanecen iguales.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1952,40 +1582,19 @@
       ]
     },
     {
-      "change_type": "paragraph_added",
+      "change_type": "paragraph_content_changed",
       "path": [
         "Standard Processing",
         "Exception Transactions",
         "Dispute Financial"
       ],
-      "text": "If the dispute financial times out at the issuer, the issuer should resend the dispute financial transaction unchanged. A dispute financial is distinguished from other messages of the same message type by code 17 in Field 25—Point-of-Service Condition Code. The reason for the dispute financial is identified in Field 63.3—Message Reason Code. Only one dispute financial transaction can be processed for a cardholder transaction, although for select dispute financial reasons, Visa POS issuers can submit a second dispute financial after receipt of an acquirer dispute response financial. For applicable reason codes, refer to the Visa Rules. For a discussion of the coding requirements for second dispute financials, refer to the field 48, usage 7a, description in Full Service POS Online Messages Technical Specifications. This figure illustrates a dispute financial transaction flow. Dispute Financial Transaction Flow"
-    },
-    {
-      "change_type": "paragraph_removed",
-      "path": [
-        "Standard Processing",
-        "Exception Transactions",
-        "Dispute Financial"
-      ],
-      "text": "If the dispute financial times out at the issuer, the issuer should resend the dispute financial transaction unchanged. A dispute financial is distinguished from other messages of the same message type by code 17 in Field 25—Point-of-Service Condition Co"
-    },
-    {
-      "change_type": "paragraph_removed",
-      "path": [
-        "Standard Processing",
-        "Exception Transactions",
-        "Dispute Financial"
-      ],
-      "text": "de. The reason for the dispute financial is identified in"
-    },
-    {
-      "change_type": "paragraph_removed",
-      "path": [
-        "Standard Processing",
-        "Exception Transactions",
-        "Dispute Financial"
-      ],
-      "text": "Field 63 63.3—Message Reason Code. Only one dispute financial transaction can be processed for a cardholder transaction, although for select dispute financial reasons, Visa POS issuers can submit a second dispute financial after receipt of an acquirer dispute response financial. For applicable reason codes, refer to the Visa Rules. For a discussion of the coding requirements for second dispute financials, refer to the field 48, usage 7a, description in Full Service POS Online Messages Technical Specifications. This figure illustrates a dispute financial transaction flow. Dispute Financial Transaction Flow"
+      "old": "If the dispute financial times out at the issuer, the issuer should resend the dispute financial transaction unchanged. A dispute financial is distinguished from other messages of the same message type by code 17 in Field 25—Point-of-Service Condition Co de. The reason for the dispute financial is identified in Field 63 63.3—Message Reason Code. Only one dispute financial transaction can be processed for a cardholder transaction, although for select dispute financial reasons, Visa POS issuers can submit a second dispute financial after receipt of an acquirer dispute response financial. For applicable reason codes, refer to the Visa Rules. For a discussion of the coding requirements for second dispute financials, refer to the field 48, usage 7a, description in Full Service POS Online Messages Technical Specifications. This figure illustrates a dispute financial transaction flow. Dispute Financial Transaction Flow",
+      "new": "If the dispute financial times out at the issuer, the issuer should resend the dispute financial transaction unchanged. A dispute financial is distinguished from other messages of the same message type by code 17 in Field 25—Point-of-Service Condition Code. The reason for the dispute financial is identified in Field 63.3—Message Reason Code. Only one dispute financial transaction can be processed for a cardholder transaction, although for select dispute financial reasons, Visa POS issuers can submit a second dispute financial after receipt of an acquirer dispute response financial. For applicable reason codes, refer to the Visa Rules. For a discussion of the coding requirements for second dispute financials, refer to the field 48, usage 7a, description in Full Service POS Online Messages Technical Specifications. This figure illustrates a dispute financial transaction flow. Dispute Financial Transaction Flow",
+      "similarity_ratio": 0.998,
+      "ai_category": "editorial_reword",
+      "ai_reason": "El texto se reescribe con correcciones menores en espacios y mayúsculas, pero el significado y las reglas de negocio permanecen iguales.",
+      "disappeared_content": [],
+      "safety_net_override": false
     },
     {
       "change_type": "duplicate_paragraph_warning",
@@ -2016,7 +1625,7 @@
       "new": "V.I.P. stores advices online for 30 days. Issuers that want to retrieve their advices must retrieve them within this 30-day period. If the dispute financial reversal times out at the issuer, the issuer should resubmit the transaction. A dispute financial reversal must contain code 54 in Field 25—Point-of-Service Condition Code. Under standard conditions, the acquirer receives an 0422 dispute financial reversal advice from the issuer and acknowledges it with an 0432 advice response. This figure illustrates a dispute financial reversal transaction flow. Dispute Financial Reversal Transaction Flow",
       "similarity_ratio": 0.998,
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto solo tiene cambios menores en formato y espaciado, como el uso de espacios adicionales alrededor de los guiones y el código 54, pero el significado y las reglas de negocio permanecen iguales.",
+      "ai_reason": "El texto solo tiene cambios menores en formato de espacios y mayúsculas, manteniendo el mismo significado y reglas de negocio.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -2077,7 +1686,7 @@
       "new": "Fee transactions usually do not relate directly to cardholder transactions, and therefore usually do not result in postings to cardholders' accounts. They are financial in nature, however, and they update settlement totals for the sender and for the receiver. Because fee-related transactions do not require authorization and cannot be declined, they are always processed as advice message types. The value in Field 3—Processing Code of a fee collection must be 19xxxx. The value in field 3 of a funds disbursement must be 29xxxx. Clients use these values to distinguish fee-related transactions from other transactions with the same message types. For acquirer-initiated, fee-related transactions, the acquirer sends an 0220 fee-related advice to the issuer, and the issuer acknowledges with an 0230 advice response. This figure illustrates an acquirer-initiated, fee-related transaction flow. Fee-Related Transaction Flow (Acquirer-Initiated)",
       "similarity_ratio": 0.998,
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto solo tiene cambios menores en formato de espacios y acentos, pero el significado y las reglas de negocio permanecen iguales.",
+      "ai_reason": "El texto solo tiene cambios menores en formato y espaciado, como el uso de guiones y espacios adicionales, pero el significado y las reglas de negocio permanecen iguales.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -2110,7 +1719,7 @@
       "new": "Both issuers and acquirers can receive an 0520 reconciliation advice message that indicates that the settlement date has been cut off. These advices contain code 289 (notification of settlement date cutoff) in Field 70—Network Management Information Code. Clients acknowledge receipt of an advice with an 0530 reconciliation advice response message. Receipt of 0520 advices is optional; they can be sent at the end of day or not at all. The option to receive 0520 messages is set up in V.I.P. when a participant first successfully completes testing. Participants can change this option by contacting their Visa representatives. Clients must sign on to Advice Recovery mode to receive advices. This figure illustrates a reconciliation advice transaction flow with an optional 0520 advice message.",
       "similarity_ratio": 0.998,
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto es idéntico en contenido y estructura, solo hay diferencias en el formato de espacios y mayúsculas en los códigos (0520 y 0530), que son artefactos de extracción PDF.",
+      "ai_reason": "El texto se mantiene idéntico en contenido y significado, solo se ajustaron espacios y formato de los caracteres en los códigos (0520 y 289) para mejorar la presentación.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -2147,7 +1756,7 @@
       "new": "A free-text message is an administrative message used to convey information from a sender (identified by the code in Field 33—Forwarding Institution Identification Code) to a receiver (identified by the code in Field 100—Receiving Institution Identification Code). Acquirers and issuers can communicate with each other and can get general information from each other by sending free-text messages.",
       "similarity_ratio": 0.996,
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto solo cambia el formato de numeración del campo 100 con un espacio adicional, pero mantiene el mismo significado y contenido.",
+      "ai_reason": "El texto solo cambia el formato de numeración del campo 100 (con espacio en lugar de guión) pero mantiene el mismo significado y contenido.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -2232,40 +1841,19 @@
       ]
     },
     {
-      "change_type": "paragraph_added",
+      "change_type": "paragraph_content_changed",
       "path": [
         "Standard Processing",
         "Network Management Transactions",
         "Sign-On and Sign-Off Message"
       ],
-      "text": "Endpoints use network management requests and responses (0800s and 0810s) with code 071 (to sign on) or code 072 (to sign off) in Field 70— Network Management Information Code. Issuers and acquirers typically sign off for planned maintenance activity or to attend to software or hardware malfunctions. This figure illustrates the sign-on and sign-off message transaction flow. Sign-On and Sign-Off Message Transaction Flow"
-    },
-    {
-      "change_type": "paragraph_removed",
-      "path": [
-        "Standard Processing",
-        "Network Management Transactions",
-        "Sign-On and Sign-Off Message"
-      ],
-      "text": "Endpoints use network management requests and responses (0800s and 0810s) with code 071 (to sign on) or code"
-    },
-    {
-      "change_type": "paragraph_removed",
-      "path": [
-        "Standard Processing",
-        "Network Management Transactions",
-        "Sign-On and Sign-Off Message"
-      ],
-      "text": "072 (to sign off) in Field 70 70— Network Management Information Code."
-    },
-    {
-      "change_type": "paragraph_removed",
-      "path": [
-        "Standard Processing",
-        "Network Management Transactions",
-        "Sign-On and Sign-Off Message"
-      ],
-      "text": "Issuers and acquirers typically sign off for planned maintenance activity or to attend to software or hardware malfunctions. This figure illustrates the sign-on and sign-off message transaction flow. Sign-On and Sign-Off Message Transaction Flow"
+      "old": "Endpoints use network management requests and responses (0800s and 0810s) with code 071 (to sign on) or code 072 (to sign off) in Field 70 70— Network Management Information Code. Issuers and acquirers typically sign off for planned maintenance activity or to attend to software or hardware malfunctions. This figure illustrates the sign-on and sign-off message transaction flow. Sign-On and Sign-Off Message Transaction Flow",
+      "new": "Endpoints use network management requests and responses (0800s and 0810s) with code 071 (to sign on) or code 072 (to sign off) in Field 70— Network Management Information Code. Issuers and acquirers typically sign off for planned maintenance activity or to attend to software or hardware malfunctions. This figure illustrates the sign-on and sign-off message transaction flow. Sign-On and Sign-Off Message Transaction Flow",
+      "similarity_ratio": 0.996,
+      "ai_category": "editorial_reword",
+      "ai_reason": "El texto se redactó con pequeñas modificaciones de espaciado y formato en los códigos y campos, pero el significado y las reglas de negocio permanecen iguales.",
+      "disappeared_content": [],
+      "safety_net_override": false
     },
     {
       "change_type": "duplicate_paragraph_warning",
@@ -2328,7 +1916,7 @@
       "new": "These messages are used by issuers and by acquirers to request and to receive advices for transactions that were processed by STIP because there was no response, a late response, or the issuer or the acquirer was not available to respond. Network management requests and responses (message types 0800 and 0810, respectively) contain code 078 (for sign-on recovery) or code 079 (for sign-off recovery) in Field 70—Network Management Information Code.",
       "similarity_ratio": 0.997,
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto describe lo mismo pero con ajustes menores en el formato de espacios y el uso de guiones para el campo 70, sin cambios en el significado o reglas de negocio.",
+      "ai_reason": "El texto describe lo mismo pero con espacios adicionales y formato de negritas en los códigos y campos, sin cambios en el significado o reglas de negocio.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -2347,107 +1935,17 @@
       ]
     },
     {
-      "change_type": "paragraph_added",
-      "path": [
-        "Standard Processing",
-        "Network Management Transactions",
-        "Dynamic Key Exchange"
-      ],
-      "text": "The Dynamic Key Exchange (DKE) Service is an optional service that enables clients to change Data Encryption Standard (DES) cryptographic keys with VisaNet through the use of online 0800 and 0810 messages. For a comprehensive description of the DKE Service, refer to V.I.P. System Overview and Services. The following fields in the 0800 request are used for a DKE Service key exchange request: Field 11—System Trace Audit Number Field 33—Forwarding Institution Identification Code Field 39—Response Code Field 48, Usage 14—Dynamic Key Exchange Working Key Check Value Field 52—Personal Identification Number (PIN) Data Field 53—Security-Related Control Information Field 63.1—Network ID Code Field 70—Network Management Information Code Field 105—Double-Length DES Key (Triple DES) Field 110—Encryption Data (TLV Format) Clients use 0800 requests to request and to deliver new working keys for PIN encryption; clients use 0810 responses to acknowledge their receipt. The 0800 message initiator, which can be a participating acquirer or issuer, or V.I.P., assigns the trace number (in field 11). Clients must return the trace number unchanged in the 0810 response. If a request must be re-sent, its trace number comes from the original request. The message originator must indicate which key is to be changed in Field 53—Security-Related Control Information. Acquirers can begin using the new key after the 0810 response is sent to V.I.P. For acquirers supporting a single working key, V.I.P. has the option of processing messages with the new key or with the old key for five minutes. After five minutes, all acquirer-initiated messages must have PINs encrypted with the new working key. For issuers, V.I.P. begins using the new key upon receipt of the 0810 response (in which the code in Field 39—Response Code is 00). For issuers supporting a single working key, they immediately update their copy of the key upon receipt of the 0800 request from V.I.P. V.I.P. continues sending messages with the old key until it receives the 0810 response. Therefore, single-key issuers must keep a copy of the old key until V.I.P. begins using the new one. If V.I.P. encounters PIN block errors during standard message processing, V.I.P. returns response code 81 (cryptographic error found) in PIN in the 0800 request and initiates an automatic acquirer key change. If the issuer encounters a PIN block error during verification, it returns response code 81 in the 0810 response. V.I.P. initiates an automatic issuer working key change."
-    },
-    {
-      "change_type": "paragraph_removed",
-      "path": [
-        "Standard Processing",
-        "Network Management Transactions",
-        "Dynamic Key Exchange"
-      ],
-      "text": "The Dynamic Key Exchange (DKE) Service is an optional service that enables clients to change Data Encryption Standard (DES) cryptographic keys with VisaNet through the use of online 0800 and 0810 messages. For a comprehensive description of the D"
-    },
-    {
-      "change_type": "paragraph_removed",
-      "path": [
-        "Standard Processing",
-        "Network Management Transactions",
-        "Dynamic Key Exchange"
-      ],
-      "text": "KE Service, refer to V.I.P. System"
-    },
-    {
-      "change_type": "paragraph_removed",
-      "path": [
-        "Standard Processing",
-        "Network Management Transactions",
-        "Dynamic Key Exchange"
-      ],
-      "text": "Services. The following fields in the 0800 request are used for a DKE Service key exchange request: Field 11 11—System Trace Audit Number Field 33 33—Forwarding Institution Identification Code Field 39 39—Response Code Field 48, U"
-    },
-    {
-      "change_type": "paragraph_removed",
-      "path": [
-        "Standard Processing",
-        "Network Management Transactions",
-        "Dynamic Key Exchange"
-      ],
-      "text": "sage 14 14—Dynamic Key Exchange Working Key Check Value"
-    },
-    {
-      "change_type": "paragraph_removed",
-      "path": [
-        "Standard Processing",
-        "Network Management Transactions",
-        "Dynamic Key Exchange"
-      ],
-      "text": "Field 52 52—Personal Identification Number (PIN) Data Field 53 53—Security-Related Control Information Field 63.1—Net"
-    },
-    {
-      "change_type": "paragraph_removed",
-      "path": [
-        "Standard Processing",
-        "Network Management Transactions",
-        "Dynamic Key Exchange"
-      ],
-      "text": "work ID Code"
-    },
-    {
-      "change_type": "paragraph_removed",
-      "path": [
-        "Standard Processing",
-        "Network Management Transactions",
-        "Dynamic Key Exchange"
-      ],
-      "text": "Field 70 70—Network Management Information Code Field 10 105—Double-Length DES Key (Triple DES) Field 11 110—Encryption Data (TLV Format) Clients use 0800 requests to request and to deliver new working keys for PIN encryption; clients use 0810 responses to acknowledge their receipt. The 0800 message initiator, which can be a participating acquirer or issuer, or V.I.P., assigns the trace number (in field 11). Clients must return the trace number unchanged in the 0810 response. If a request must be re-sent, its trace number comes from the original request. The message originator must indicate which key is to be changed in Field 53 53—Security-Related Control Information. Acquirers can begin using the new key after the 0810 response is sent to V.I.P. For acquirers supporting a single working key, V.I.P. has the option of processing messages with the new key or with the old key for five minutes. After five minutes, all acquirer-initiated messages must have PINs encrypted with the new working key. For issuers, V.I.P. begins using the new key upon receipt of the 0810 response (in which the code in Field 39—Response Code is 00). For issuers supporting a single working key, they immediately update their copy of the key upon receipt of the 0800 request from V.I.P. V.I.P. continues sending messages with the old key until it receives the 0810 response. Therefore, single-key issuers must keep a copy of the old key until V.I.P. begins using the new one. If V.I.P. encounters PIN block errors during standard message processing, V.I.P. returns response code 81 (cryptographic error found) in PIN in the 0800 request and initiates an automatic acquirer key change. If the issuer encounters a PIN block error during verification, it returns response code"
-    },
-    {
-      "change_type": "paragraph_removed",
-      "path": [
-        "Standard Processing",
-        "Network Management Transactions",
-        "Dynamic Key Exchange"
-      ],
-      "text": "81 in the 0810 response. V.I.P. initiates an automatic issuer working"
-    },
-    {
-      "change_type": "paragraph_removed",
-      "path": [
-        "Standard Processing",
-        "Network Management Transactions",
-        "Dynamic Key Exchange"
-      ],
-      "text": "key change."
-    },
-    {
       "change_type": "paragraph_content_changed",
       "path": [
         "Standard Processing",
         "Network Management Transactions",
         "Dynamic Key Exchange"
       ],
-      "old": "V.I.P. has a 10-second time-out for all dynamic key exchange messages containing new working keys. If the client does not respond within 10 seconds, V.I.P. makes a second delivery attempt. If the client still fails to respond, V.I.P . cancels the key exchange attempt. An 0800 online message includes a 4-digit key check value (in field 48, usage 14) to verify receipt of the new cryptographic key. Clients should compare the four check digits returned from their security module with the key check value in the message. If the key check value (KCV) does not match or if the client encounters a security module error while attempting to translate the new key for storage, the client should return response code 06 in field 39. This response code indicates that the new cryptographic key has not been received properly. This figure illustrates a dynamic key exchange message transaction flow.",
-      "new": "V.I.P. has a 10-second time-out for all dynamic key exchange messages containing new working keys. If the client does not respond within 10 seconds, V.I.P. makes a second delivery attempt. If the client still fails to respond, V.I.P. cancels the key exchange attempt. An 0800 online message includes a 4-digit key check value (in field 48, usage 14) to verify receipt of the new cryptographic key. Clients should compare the four check digits returned from their security module with the key check value in the message. If the key check value (KCV) does not match or if the client encounters a security module error while attempting to translate the new key for storage, the client should return response code 06 in field 39. This response code indicates that the new cryptographic key has not been received properly. This figure illustrates a dynamic key exchange message transaction flow.",
-      "similarity_ratio": 0.999,
+      "old": "The Dynamic Key Exchange (DKE) Service is an optional service that enables clients to change Data Encryption Standard (DES) cryptographic keys with VisaNet through the use of online 0800 and 0810 messages. For a comprehensive description of the D KE Service, refer to V.I.P. System Services. The following fields in the 0800 request are used for a DKE Service key exchange request: Field 11 11—System Trace Audit Number Field 33 33—Forwarding Institution Identification Code Field 39 39—Response Code Field 48, U sage 14 14—Dynamic Key Exchange Working Key Check Value Field 52 52—Personal Identification Number (PIN) Data Field 53 53—Security-Related Control Information Field 63.1—Net work ID Code Field 70 70—Network Management Information Code Field 10 105—Double-Length DES Key (Triple DES) Field 11 110—Encryption Data (TLV Format) Clients use 0800 requests to request and to deliver new working keys for PIN encryption; clients use 0810 responses to acknowledge their receipt. The 0800 message initiator, which can be a participating acquirer or issuer, or V.I.P., assigns the trace number (in field 11). Clients must return the trace number unchanged in the 0810 response. If a request must be re-sent, its trace number comes from the original request. The message originator must indicate which key is to be changed in Field 53 53—Security-Related Control Information. Acquirers can begin using the new key after the 0810 response is sent to V.I.P. For acquirers supporting a single working key, V.I.P. has the option of processing messages with the new key or with the old key for five minutes. After five minutes, all acquirer-initiated messages must have PINs encrypted with the new working key. For issuers, V.I.P. begins using the new key upon receipt of the 0810 response (in which the code in Field 39—Response Code is 00). For issuers supporting a single working key, they immediately update their copy of the key upon receipt of the 0800 request from V.I.P. V.I.P. continues sending messages with the old key until it receives the 0810 response. Therefore, single-key issuers must keep a copy of the old key until V.I.P. begins using the new one. If V.I.P. encounters PIN block errors during standard message processing, V.I.P. returns response code 81 (cryptographic error found) in PIN in the 0800 request and initiates an automatic acquirer key change. If the issuer encounters a PIN block error during verification, it returns response code 81 in the 0810 response. V.I.P. initiates an automatic issuer working key change. V.I.P. has a 10-second time-out for all dynamic key exchange messages containing new working keys. If the client does not respond within 10 seconds, V.I.P. makes a second delivery attempt. If the client still fails to respond, V.I.P . cancels the key exchange attempt. An 0800 online message includes a 4-digit key check value (in field 48, usage 14) to verify receipt of the new cryptographic key. Clients should compare the four check digits returned from their security module with the key check value in the message. If the key check value (KCV) does not match or if the client encounters a security module error while attempting to translate the new key for storage, the client should return response code 06 in field 39. This response code indicates that the new cryptographic key has not been received properly. This figure illustrates a dynamic key exchange message transaction flow.",
+      "new": "The Dynamic Key Exchange (DKE) Service is an optional service that enables clients to change Data Encryption Standard (DES) cryptographic keys with VisaNet through the use of online 0800 and 0810 messages. For a comprehensive description of the DKE Service, refer to V.I.P. System Overview and Services. The following fields in the 0800 request are used for a DKE Service key exchange request: Field 11—System Trace Audit Number Field 33—Forwarding Institution Identification Code Field 39—Response Code Field 48, Usage 14—Dynamic Key Exchange Working Key Check Value Field 52—Personal Identification Number (PIN) Data Field 53—Security-Related Control Information Field 63.1—Network ID Code Field 70—Network Management Information Code Field 105—Double-Length DES Key (Triple DES) Field 110—Encryption Data (TLV Format) Clients use 0800 requests to request and to deliver new working keys for PIN encryption; clients use 0810 responses to acknowledge their receipt. The 0800 message initiator, which can be a participating acquirer or issuer, or V.I.P., assigns the trace number (in field 11). Clients must return the trace number unchanged in the 0810 response. If a request must be re-sent, its trace number comes from the original request. The message originator must indicate which key is to be changed in Field 53—Security-Related Control Information. Acquirers can begin using the new key after the 0810 response is sent to V.I.P. For acquirers supporting a single working key, V.I.P. has the option of processing messages with the new key or with the old key for five minutes. After five minutes, all acquirer-initiated messages must have PINs encrypted with the new working key. For issuers, V.I.P. begins using the new key upon receipt of the 0810 response (in which the code in Field 39—Response Code is 00). For issuers supporting a single working key, they immediately update their copy of the key upon receipt of the 0800 request from V.I.P. V.I.P. continues sending messages with the old key until it receives the 0810 response. Therefore, single-key issuers must keep a copy of the old key until V.I.P. begins using the new one. If V.I.P. encounters PIN block errors during standard message processing, V.I.P. returns response code 81 (cryptographic error found) in PIN in the 0800 request and initiates an automatic acquirer key change. If the issuer encounters a PIN block error during verification, it returns response code 81 in the 0810 response. V.I.P. initiates an automatic issuer working key change. V.I.P. has a 10-second time-out for all dynamic key exchange messages containing new working keys. If the client does not respond within 10 seconds, V.I.P. makes a second delivery attempt. If the client still fails to respond, V.I.P. cancels the key exchange attempt. An 0800 online message includes a 4-digit key check value (in field 48, usage 14) to verify receipt of the new cryptographic key. Clients should compare the four check digits returned from their security module with the key check value in the message. If the key check value (KCV) does not match or if the client encounters a security module error while attempting to translate the new key for storage, the client should return response code 06 in field 39. This response code indicates that the new cryptographic key has not been received properly. This figure illustrates a dynamic key exchange message transaction flow.",
+      "similarity_ratio": 0.986,
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto se redacta de manera similar en ambas ediciones, solo hay diferencias en espacios y formato de escritura, sin cambios en el significado o reglas de negocio.",
+      "ai_reason": "El texto describe el mismo proceso y reglas de negocio, pero se corrigieron espacios y formato de los campos (ej. 'Field 11 11—' a 'Field 11—') y se actualizó el enlace a 'V.I.P. System Overview and Services' en lugar de 'V.I.P. System Services' sin alterar el significado.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -2462,7 +1960,7 @@
       "new": "If the issuer participates in the Automatic Cardholder Database Update (Auto-CDB) Service, V.I.P. updates the cardholder records in the ASAF when the issuer responds with a response code indicating “pick up card.” This feature facilitates the file maintenance function. Issuers can participate in the Visa Account Screen All Respond option to allow V.I.P. to check the Account Screen Authorization File (ASAF) for all transactions, regardless of the availability of the issuer. See chapter on Visa Account Screen in V.I.P. System Overview and Services.",
       "similarity_ratio": 0.965,
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto describe lo mismo pero cambia el nombre del manual referenciado de 'V.I.P. System Services' a 'V.I.P. System Overview and Services' sin alterar el significado o regla de negocio.",
+      "ai_reason": "El texto describe lo mismo pero cambia el nombre del manual de referencia de 'V.I.P. System Services' a 'V.I.P. System Overview and Services' sin alterar el significado o regla de negocio.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -2640,36 +2138,18 @@
       ]
     },
     {
-      "change_type": "paragraph_added",
+      "change_type": "paragraph_content_changed",
       "path": [
         "Currency Precision Service",
         "Removing a Decimal Position"
       ],
-      "text": "If the number of decimal positions specified in field 63.13 is greater than that in the table, V.I.P. removes the last digit (which must be zero). Example An acquirer sends a transaction amount of 12340 with 03 in the transaction amounts subfield of the decimal positions indicator, but the Currency Table indicates the currency has two decimal positions. The issuer receives 1234. A participating issuer also receives a decimal positions indicator with 02 in the transaction amounts subfield. Non-participating issuers receive 1234 but no decimal positions indicator. V.I.P. calculates the settlement amount based on 1234. All reports and raw data reflect 1234. This figure illustrates an example of decimal position conversion—adding two positions."
-    },
-    {
-      "change_type": "paragraph_removed",
-      "path": [
-        "Currency Precision Service",
-        "Removing a Decimal Position"
-      ],
-      "text": "If the number of decimal positions specified in field 63.13 is greater than that in the table, V.I.P. removes the last di"
-    },
-    {
-      "change_type": "paragraph_removed",
-      "path": [
-        "Currency Precision Service",
-        "Removing a Decimal Position"
-      ],
-      "text": "git (which must be zero)."
-    },
-    {
-      "change_type": "paragraph_removed",
-      "path": [
-        "Currency Precision Service",
-        "Removing a Decimal Position"
-      ],
-      "text": "Example An acquirer sends a transaction amount of 12340 with 03 in the transaction amounts subfield of the decimal positions indicator, but the Currency Table indicates the currency has two decimal positions. The issuer receives 1234. A participating issuer also receives a decimal positions indicator with 02 in the transaction amounts subfield. Non-participating issuers receive 1234 but no decimal positions indicator. V.I.P. calculates the settlement amount based on 1234. All reports and raw data reflect 1234. This figure illustrates an example of decimal position conversion—adding two positions."
+      "old": "If the number of decimal positions specified in field 63.13 is greater than that in the table, V.I.P. removes the last di git (which must be zero). Example An acquirer sends a transaction amount of 12340 with 03 in the transaction amounts subfield of the decimal positions indicator, but the Currency Table indicates the currency has two decimal positions. The issuer receives 1234. A participating issuer also receives a decimal positions indicator with 02 in the transaction amounts subfield. Non-participating issuers receive 1234 but no decimal positions indicator. V.I.P. calculates the settlement amount based on 1234. All reports and raw data reflect 1234. This figure illustrates an example of decimal position conversion—adding two positions.",
+      "new": "If the number of decimal positions specified in field 63.13 is greater than that in the table, V.I.P. removes the last digit (which must be zero). Example An acquirer sends a transaction amount of 12340 with 03 in the transaction amounts subfield of the decimal positions indicator, but the Currency Table indicates the currency has two decimal positions. The issuer receives 1234. A participating issuer also receives a decimal positions indicator with 02 in the transaction amounts subfield. Non-participating issuers receive 1234 but no decimal positions indicator. V.I.P. calculates the settlement amount based on 1234. All reports and raw data reflect 1234. This figure illustrates an example of decimal position conversion—adding two positions.",
+      "similarity_ratio": 0.999,
+      "ai_category": "editorial_reword",
+      "ai_reason": "El texto describe el mismo comportamiento de procesamiento con cambios menores en formato y espaciado, sin alterar la regla de negocio.",
+      "disappeared_content": [],
+      "safety_net_override": false
     },
     {
       "change_type": "paragraph_content_changed",
@@ -2680,7 +2160,7 @@
       "new": "The participating client will not be aware that the non-participating client is not receiving the multicurrency data fields. The non-participating acquirer can receive the country code of the issuer in Field 20— PAN Extended, Country Code. The non-participating issuer can identify the country of the acquirer from the value in Field 19—Acquiring Institution Country Code.",
       "similarity_ratio": 0.996,
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto describe lo mismo pero con un formato de espacio diferente en los campos 19 y 20, sin cambios en el significado o reglas de negocio.",
+      "ai_reason": "El texto describe lo mismo pero con un formato de espacio diferente en los campos (nueva edición usa espacios adicionales alrededor del guión para los nombres de campos).",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -2857,60 +2337,17 @@
       ]
     },
     {
-      "change_type": "paragraph_added",
+      "change_type": "paragraph_content_changed",
       "path": [
         "Multicurrency Field Flows"
       ],
-      "text": "The amounts contained in 0520 reconciliation messages are in the settlement currency of the issuer or of the acquirer receiving the message. Settlement currencies can differ from the local transaction currency, for an acquirer, and from the cardholder billing currency, for an issuer. Each example in this section assumes that the point of sale or the ATM has a local currency of Japanese yen, the cardholder is billed in Australian dollars, the acquirer receives the settled amount in U.S. dollars, and the issuer settles in Australian dollars. The currency codes used are: 036 = Australian dollars 392 = Japanese yen 840 = U.S. dollars The following fields are used in the multicurrency flows: Field 3—Processing Code Field 4—Amount, Transaction Field 5—Amount, Settlement Field 6—Amount, Cardholder Billing"
-    },
-    {
-      "change_type": "paragraph_added",
-      "path": [
-        "Multicurrency Field Flows"
-      ],
-      "text": "Field 9—Conversion Rate, Settlement Field 10—Conversion Rate, Cardholder Billing Field 16—Date, Conversion Field 49—Currency Code, Transaction Field 50—Currency Code, Settlement Field 51—Currency Code, Cardholder Billing Field 54—Additional Amounts Field 126.19—Dynamic Currency Conversion Indicator Field 54 is used for account balance information. It contains the following information for up to four different balance amounts: account type, amount type, currency code, and sign. The issuer provides account balance information in the first amount field and optionally in the second amount field, in the cardholder billing currency. V.I.P. converts the first amount and (if present) the second amount to the transaction currency and sends the converted amounts to the acquirer in the third and fourth amount fields, respectively. In the following examples, these amounts are referred to as fields 54A, 54B, 54A-converted, and 54B-converted. Field 126.19 is used to indicate if the merchant or the ATM acquirer has performed Dynamic Currency Conversion (DCC). DCC occurs when a registered merchant or ATM acquirer performs currency conversion locally and submits the transaction in the cardholder's billing currency. Acquirers must provide Field 126.19—Dynamic Currency Conversion Indicator in authorizations and full-financial original transactions when the merchant or the ATM acquirer performs currency conversion at the POS or ATM. V.I.P. logs this field but does not send it to issuers."
-    },
-    {
-      "change_type": "paragraph_removed",
-      "path": [
-        "Multicurrency Field Flows"
-      ],
-      "text": "The amounts contained in 0520 reconciliation messages are in the settlement currency of the issuer or of the acquirer receiving the message. Settlement currencies can differ from the local transaction currency, for an acquirer, and from the cardhold"
-    },
-    {
-      "change_type": "paragraph_removed",
-      "path": [
-        "Multicurrency Field Flows"
-      ],
-      "text": "er billing currency, for an issuer."
-    },
-    {
-      "change_type": "paragraph_removed",
-      "path": [
-        "Multicurrency Field Flows"
-      ],
-      "text": "Each example in this section assumes that the point of sale or the ATM has a local currency of Japanese yen, the cardholder is billed in Australian dollars, the acquirer receives the settled amount in U.S. dollars, and the issuer settles in Australian dollars. The currency codes used are: 036 = Australian dollars 392 = Japanese yen 840 = U.S. dollars The following fields are used in the multicurrency flows: Field 3— 3—Processing Code Field 4— 4—Amount, Transaction Field 5— 5—Amount, Settlement Field 6— 6—Amount, Cardholder Billing"
-    },
-    {
-      "change_type": "paragraph_removed",
-      "path": [
-        "Multicurrency Field Flows"
-      ],
-      "text": "Field 9— 9—Conversion Rate, Settlement Field 10 10—Conversion Rate, Cardholder Billing Field 16 16—Date, Conversion Field 49 49—Currency Code, Transaction Field 50 50—Currency Code, Settlement Field 51 51—Currency Code, Cardholder Billing Field 54 54—Additional Amounts Field 12 126.19—Dynamic Currency Conversion Indicator Field 54 is used for account balance information. It contains the following information for up to four different balance amounts: account type, amount type, currency code, and sign. The issuer provides account balance information in the first amount field and optionally in the second amount field, in the cardholder billing currency. V.I."
-    },
-    {
-      "change_type": "paragraph_removed",
-      "path": [
-        "Multicurrency Field Flows"
-      ],
-      "text": "P. converts the first amount and"
-    },
-    {
-      "change_type": "paragraph_removed",
-      "path": [
-        "Multicurrency Field Flows"
-      ],
-      "text": "(if present) the second amount to the transaction currency and sends the converted amounts to the acquirer in the third and fourth amount fields, respectively. In the following examples, these amounts are referred to as fields 54A, 54B, 54A-converted, and 54B-converted. Field 126.19 is used to indicate if the merchant or the ATM acquirer has performed Dynamic Currency Conversion (DCC). DCC occurs when a registered merchant or ATM acquirer performs currency conversion locally and submits the transaction in the cardholder's billing currency. Acquirers must provide Field 126.19—Dynamic Currency Conversion Indicator in authorizations and full-financial original transactions when the merchant or the ATM acquirer performs currency conversion at the POS or ATM. V.I.P. logs this field but does not send it to issuers."
+      "old": "The amounts contained in 0520 reconciliation messages are in the settlement currency of the issuer or of the acquirer receiving the message. Settlement currencies can differ from the local transaction currency, for an acquirer, and from the cardhold er billing currency, for an issuer. Each example in this section assumes that the point of sale or the ATM has a local currency of Japanese yen, the cardholder is billed in Australian dollars, the acquirer receives the settled amount in U.S. dollars, and the issuer settles in Australian dollars. The currency codes used are: 036 = Australian dollars 392 = Japanese yen 840 = U.S. dollars The following fields are used in the multicurrency flows: Field 3— 3—Processing Code Field 4— 4—Amount, Transaction Field 5— 5—Amount, Settlement Field 6— 6—Amount, Cardholder Billing Field 9— 9—Conversion Rate, Settlement Field 10 10—Conversion Rate, Cardholder Billing Field 16 16—Date, Conversion Field 49 49—Currency Code, Transaction Field 50 50—Currency Code, Settlement Field 51 51—Currency Code, Cardholder Billing Field 54 54—Additional Amounts Field 12 126.19—Dynamic Currency Conversion Indicator Field 54 is used for account balance information. It contains the following information for up to four different balance amounts: account type, amount type, currency code, and sign. The issuer provides account balance information in the first amount field and optionally in the second amount field, in the cardholder billing currency. V.I. P. converts the first amount and (if present) the second amount to the transaction currency and sends the converted amounts to the acquirer in the third and fourth amount fields, respectively. In the following examples, these amounts are referred to as fields 54A, 54B, 54A-converted, and 54B-converted. Field 126.19 is used to indicate if the merchant or the ATM acquirer has performed Dynamic Currency Conversion (DCC). DCC occurs when a registered merchant or ATM acquirer performs currency conversion locally and submits the transaction in the cardholder's billing currency. Acquirers must provide Field 126.19—Dynamic Currency Conversion Indicator in authorizations and full-financial original transactions when the merchant or the ATM acquirer performs currency conversion at the POS or ATM. V.I.P. logs this field but does not send it to issuers.",
+      "new": "The amounts contained in 0520 reconciliation messages are in the settlement currency of the issuer or of the acquirer receiving the message. Settlement currencies can differ from the local transaction currency, for an acquirer, and from the cardholder billing currency, for an issuer. Each example in this section assumes that the point of sale or the ATM has a local currency of Japanese yen, the cardholder is billed in Australian dollars, the acquirer receives the settled amount in U.S. dollars, and the issuer settles in Australian dollars. The currency codes used are: 036 = Australian dollars 392 = Japanese yen 840 = U.S. dollars The following fields are used in the multicurrency flows: Field 3—Processing Code Field 4—Amount, Transaction Field 5—Amount, Settlement Field 6—Amount, Cardholder Billing Field 9—Conversion Rate, Settlement Field 10—Conversion Rate, Cardholder Billing Field 16—Date, Conversion Field 49—Currency Code, Transaction Field 50—Currency Code, Settlement Field 51—Currency Code, Cardholder Billing Field 54—Additional Amounts Field 126.19—Dynamic Currency Conversion Indicator Field 54 is used for account balance information. It contains the following information for up to four different balance amounts: account type, amount type, currency code, and sign. The issuer provides account balance information in the first amount field and optionally in the second amount field, in the cardholder billing currency. V.I.P. converts the first amount and (if present) the second amount to the transaction currency and sends the converted amounts to the acquirer in the third and fourth amount fields, respectively. In the following examples, these amounts are referred to as fields 54A, 54B, 54A-converted, and 54B-converted. Field 126.19 is used to indicate if the merchant or the ATM acquirer has performed Dynamic Currency Conversion (DCC). DCC occurs when a registered merchant or ATM acquirer performs currency conversion locally and submits the transaction in the cardholder's billing currency. Acquirers must provide Field 126.19—Dynamic Currency Conversion Indicator in authorizations and full-financial original transactions when the merchant or the ATM acquirer performs currency conversion at the POS or ATM. V.I.P. logs this field but does not send it to issuers.",
+      "similarity_ratio": 0.992,
+      "ai_category": "editorial_reword",
+      "ai_reason": "El texto se reescribe con mayúsculas en los números de campo y espacios adicionales en los nombres de campos, pero el significado y las reglas de negocio permanecen iguales.",
+      "disappeared_content": [],
+      "safety_net_override": false
     },
     {
       "change_type": "paragraph_content_changed",
@@ -2922,7 +2359,7 @@
       "new": "The line to the issuer is not available. The issuer is signed off. The issuer is in Advice Recovery-only mode. The issuer does not respond within a specified time limit. When the time limit for the client to respond expires, the expiration triggers Assured Transaction Response (ATR) and V.I.P. invokes STIP. VIP has signed off the issuer due to 10 consecutive time-outs. The V.I.P. System encounters an error condition. The issuer responds with response code N0- FORCE STIP. This response is an issuer option. The request is a reversal, the original transaction was approved by STIP, and the STIP advice of the original has not been recovered by the issuer. The transaction is an address verification-only request for an issuer that participates in Visa Secure (formerly known as Verified by Visa (VbV)). For information about Visa Secure Electronic Commerce (VSEC) With Visa Secure, see V.I.P. System Overview and Services. The request is a preauthorization or preauthorization completion and the STIP advice of the original has not been recovered by the issuer.",
       "similarity_ratio": 0.994,
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto nuevo solo cambia el nombre de la sección 'V.I.P. System Services' por 'V.I.P. System Overview and Services' sin alterar el significado o reglas de negocio.",
+      "ai_reason": "El texto nuevo solo cambia la referencia a 'V.I.P. System Services' por 'V.I.P. System Overview and Services' sin alterar el significado o reglas de negocio.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -2951,7 +2388,7 @@
       "new": "without exceeding the issuer's capacity. PACM routes low-risk transactions to STIP using a dynamic limit called the diversion threshold. STIP determines this limit by comparing transaction volume to issuer capacity. Visa recommends that issuers review their activity checking parameters and their default response codes before enrolling in PACM to avoid excessive STIP non-approvals or high-risk exposure. For more information about PACM, refer to V.I.P. System Overview and Services.",
       "similarity_ratio": 0.968,
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto describe lo mismo pero cambia 'V.I.P. System Services' por 'V.I.P. System Overview and Services' en el enlace de referencia.",
+      "ai_reason": "El texto se mantiene idéntico en significado, solo cambia el nombre del sistema de 'V.I.P. System Services' a 'V.I.P. System Overview and Services' en una referencia adicional.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -2966,7 +2403,7 @@
       "new": "PIN Verification Service (PVS) can also be used on a subscription basis for checking all PINs for an issuer, in addition to the STIP checking. For complete and definitive information about the use of PINs, refer to the Payment Technology Standards Manual. For a full description of the PIN Verification Service, refer to V.I.P. System Overview and Services.",
       "similarity_ratio": 0.956,
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto describe lo mismo pero cambia el nombre de 'V.I.P. System Services' a 'V.I.P. System Overview and Services' en la referencia, sin alterar el significado o regla de negocio.",
+      "ai_reason": "El texto describe lo mismo pero cambia el nombre de 'V.I.P. System Services' a 'V.I.P. System Overview and Services' para mayor claridad en la referencia.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -3323,29 +2760,15 @@
       ]
     },
     {
-      "change_type": "paragraph_removed",
-      "path": [
-        "Cardholder Authentication Verification Value (CAVV) Verification"
-      ],
-      "text": "126.9—CAVV Data and Field 126. 126.8—"
-    },
-    {
-      "change_type": "paragraph_removed",
-      "path": [
-        "Cardholder Authentication Verification Value (CAVV) Verification"
-      ],
-      "text": "Transaction ID (XID) (or just field 126.9 if Field 126.9, usage 3—3-D Secure CAVV, Revised Format is being used) along with issuer-supplied keys. (Authentication and Attempt transaction keys may be the same.) Field 126.9 is an optional field for quasi–cash 0100 transactions. Depending on issuer option selections for CAVV authentication transactions, V.I.P.:"
-    },
-    {
       "change_type": "paragraph_content_changed",
       "path": [
         "Cardholder Authentication Verification Value (CAVV) Verification"
       ],
-      "old": "Visa offers two CAVV Verification Service processing options to issuers that participate in Visa Secure: Authentication or Attempt. Authentication—With this option, the issuer is a full participant in the service and has cardholders enrolled in Visa Secure. Transactions are classified as Authentication transactions when the acquirer, the issuer, and the cardholder all participate in Visa Secure. Attempt—With this option, the issuer or V.I.P. generates a CAVV for attempted transactions. Transactions submitted by a participating acquirer are classified as Attempts when the issuer or cardholder does not participate in Visa Secure. Liability shifts for these types of transactions. This option is mandatory in some regions. Visa encourages issuers to participate in both. Both allow issuers to select a predefined process by which their transactions are to be processed in Normal mode and in Stand-In Processing (STIP) mode: Standard Issuer CAVV Service/Standard Decline/Failure Option—With this option, V.I.P. performs all validations on the issuer's behalf, declines transactions when the CAVV validation fails, and forwards the status results of transactions that were not declined to the issuer. All CAVV Verification Results to the Issuer Option—With this option, V.I.P. performs all validations on the issuer's behalf and forwards all status results of transactions to the issuer. Issuer Supports Own CAVV Verification Option—With this option, VisaNet forwards the transactions to the issuer to perform validation. The issuer returns the status results in the response messages. If issuers participating in the CAVV Verification Service have VisaNet perform CAVV validation, V.I.P. performs the verification before acting upon issuer availability. The Visa Security Module (VSM) uses authentication data elements in Field",
+      "old": "Visa offers two CAVV Verification Service processing options to issuers that participate in Visa Secure: Authentication or Attempt. Authentication—With this option, the issuer is a full participant in the service and has cardholders enrolled in Visa Secure. Transactions are classified as Authentication transactions when the acquirer, the issuer, and the cardholder all participate in Visa Secure. Attempt—With this option, the issuer or V.I.P. generates a CAVV for attempted transactions. Transactions submitted by a participating acquirer are classified as Attempts when the issuer or cardholder does not participate in Visa Secure. Liability shifts for these types of transactions. This option is mandatory in some regions. Visa encourages issuers to participate in both. Both allow issuers to select a predefined process by which their transactions are to be processed in Normal mode and in Stand-In Processing (STIP) mode: Standard Issuer CAVV Service/Standard Decline/Failure Option—With this option, V.I.P. performs all validations on the issuer's behalf, declines transactions when the CAVV validation fails, and forwards the status results of transactions that were not declined to the issuer. All CAVV Verification Results to the Issuer Option—With this option, V.I.P. performs all validations on the issuer's behalf and forwards all status results of transactions to the issuer. Issuer Supports Own CAVV Verification Option—With this option, VisaNet forwards the transactions to the issuer to perform validation. The issuer returns the status results in the response messages. If issuers participating in the CAVV Verification Service have VisaNet perform CAVV validation, V.I.P. performs the verification before acting upon issuer availability. The Visa Security Module (VSM) uses authentication data elements in Field 126.9—CAVV Data and Field 126. 126.8— Transaction ID (XID) (or just field 126.9 if Field 126.9, usage 3—3-D Secure CAVV, Revised Format is being used) along with issuer-supplied keys. (Authentication and Attempt transaction keys may be the same.) Field 126.9 is an optional field for quasi–cash 0100 transactions. Depending on issuer option selections for CAVV authentication transactions, V.I.P.:",
       "new": "Visa offers two CAVV Verification Service processing options to issuers that participate in Visa Secure: Authentication or Attempt. Authentication—With this option, the issuer is a full participant in the service and has cardholders enrolled in Visa Secure. Transactions are classified as Authentication transactions when the acquirer, the issuer, and the cardholder all participate in Visa Secure. Attempt—With this option, the issuer or V.I.P. generates a CAVV for attempted transactions. Transactions submitted by a participating acquirer are classified as Attempts when the issuer or cardholder does not participate in Visa Secure. Liability shifts for these types of transactions. This option is mandatory in some regions. Visa encourages issuers to participate in both. Both allow issuers to select a predefined process by which their transactions are to be processed in Normal mode and in Stand-In Processing (STIP) mode: Standard Issuer CAVV Service/Standard Decline/Failure Option—With this option, V.I.P. performs all validations on the issuer's behalf, declines transactions when the CAVV validation fails, and forwards the status results of transactions that were not declined to the issuer. All CAVV Verification Results to the Issuer Option—With this option, V.I.P. performs all validations on the issuer's behalf and forwards all status results of transactions to the issuer. Issuer Supports Own CAVV Verification Option—With this option, VisaNet forwards the transactions to the issuer to perform validation. The issuer returns the status results in the response messages. If issuers participating in the CAVV Verification Service have VisaNet perform CAVV validation, V.I.P. performs the verification before acting upon issuer availability. The Visa Security Module (VSM) uses authentication data elements in Field 126.9—CAVV Data and Field 126.8— Transaction ID (XID) (or just field 126.9 if Field 126.9, usage 3—3-D Secure CAVV, Revised Format is being used) along with issuer-supplied keys. (Authentication and Attempt transaction keys may be the same.) Field 126.9 is an optional field for quasi–cash 0100 transactions. Depending on issuer option selections for CAVV authentication transactions, V.I.P.:",
-      "similarity_ratio": 0.903,
-      "ai_category": "business_rule_change",
-      "ai_reason": "La edición nueva añade detalles específicos sobre los campos 126.9 y 126.8 que afectan cómo se procesan las transacciones en el contexto de la autenticación, lo que modifica la regla de negocio para la implementación de CAVV.",
+      "similarity_ratio": 0.999,
+      "ai_category": "editorial_reword",
+      "ai_reason": "El texto se ha modificado solo en el formato de los espacios y el uso de guiones para separar los campos, pero el significado y las reglas de negocio permanecen iguales.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -3366,34 +2789,6 @@
       ]
     },
     {
-      "change_type": "paragraph_added",
-      "path": [
-        "Transaction Routing"
-      ],
-      "text": "Field 100—Receiving Institution Identification Code."
-    },
-    {
-      "change_type": "paragraph_added",
-      "path": [
-        "Transaction Routing"
-      ],
-      "text": "The acquirer ID contained in Field 32—"
-    },
-    {
-      "change_type": "paragraph_removed",
-      "path": [
-        "Transaction Routing"
-      ],
-      "text": "Field 10 100—Receiving Institution Identification Code."
-    },
-    {
-      "change_type": "paragraph_removed",
-      "path": [
-        "Transaction Routing"
-      ],
-      "text": "The acquirer ID contained in Field 32 32—"
-    },
-    {
       "change_type": "paragraph_content_changed",
       "path": [
         "Transaction Routing"
@@ -3402,7 +2797,33 @@
       "new": "The account number contained in Field 2— Primary Account Number.",
       "similarity_ratio": 0.977,
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto describe lo mismo pero elimina el doble guion en 'Field 2— 2— Primary Account Number' para mejorar la redacción.",
+      "ai_reason": "El texto describe lo mismo pero elimina el doble guion en 'Field 2— 2— Primary Account Number' para mejorar la claridad y coherencia.",
+      "disappeared_content": [],
+      "safety_net_override": false
+    },
+    {
+      "change_type": "paragraph_content_changed",
+      "path": [
+        "Transaction Routing"
+      ],
+      "old": "Field 10 100—Receiving Institution Identification Code.",
+      "new": "Field 100—Receiving Institution Identification Code.",
+      "similarity_ratio": 0.972,
+      "ai_category": "editorial_reword",
+      "ai_reason": "El texto solo cambia el formato de numeración (de 'Field 10 100' a 'Field 1.00') sin alterar el significado o regla de negocio.",
+      "disappeared_content": [],
+      "safety_net_override": false
+    },
+    {
+      "change_type": "paragraph_content_changed",
+      "path": [
+        "Transaction Routing"
+      ],
+      "old": "The acquirer ID contained in Field 32 32—",
+      "new": "The acquirer ID contained in Field 32—",
+      "similarity_ratio": 0.962,
+      "ai_category": "editorial_reword",
+      "ai_reason": "El texto describe el mismo concepto pero con un formato de espacio diferente y una eliminación de un carácter en el campo 32.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -3415,7 +2836,7 @@
       "new": "Institution Identification Code or in Field 2— Primary Account Number. (Field 2 takes priority over field 100 if both are provided.)",
       "similarity_ratio": 0.989,
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto solo cambia los espacios alrededor de los guiones y números, manteniendo el mismo significado y regla de negocio.",
+      "ai_reason": "El texto solo tiene diferencias en el espacio en blanco y formato de los números, pero el significado y la regla de negocio permanecen iguales.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -3428,7 +2849,7 @@
       "new": "The acquirer ID contained in Field 32— Acquiring Institution Identification Code.",
       "similarity_ratio": 0.982,
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto describe lo mismo pero cambió el formato de espacio y el uso del guion para el campo 32.",
+      "ai_reason": "El texto describe lo mismo pero con un espacio adicional en el número del campo y un cambio en el formato de escritura del campo.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -3441,7 +2862,7 @@
       "new": "For details concerning the use of these messages with the routing services, refer to the individual routing service descriptions in V.I.P. System Overview and Services.",
       "similarity_ratio": 0.96,
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto describe lo mismo pero cambia el nombre del documento de 'V.I.P. System Services' a 'V.I.P. System Overview and Services' sin alterar el significado o regla de negocio.",
+      "ai_reason": "El texto describe lo mismo, solo se cambió el nombre del documento de 'V.I.P. System Services' a 'V.I.P. System Overview and Services' sin alterar el significado o regla de negocio.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -3454,7 +2875,7 @@
       "new": "Visa also offers the following routing service to international full service POS acquirers. Refer to V.I.P. System Overview and Services, for a complete service description. Gateway Services—VisaNet has connections, or gateways, to various other systems and networks. Gateway Services enable acquirers to obtain authorizations for non-Visa-brand transactions using the same connections they use for Visa transactions.",
       "similarity_ratio": 0.984,
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto describe lo mismo pero cambia el nombre del documento de referencia de 'V.I.P. System Services' a 'V.I.P. System Overview and Services' sin alterar el significado o regla de negocio.",
+      "ai_reason": "El texto describe lo mismo pero cambia el nombre del documento de 'V.I.P. System Services' a 'V.I.P. System Overview and Services' en la referencia, sin alterar el significado o regla de negocio.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -3475,53 +2896,17 @@
       ]
     },
     {
-      "change_type": "paragraph_added",
-      "path": [
-        "Routing Options, Tables, and Services",
-        "Routing Options",
-        "Visa POS Routing Options"
-      ],
-      "text": "The preferred card program in which they want to participate (for instance, Network ID 0002 = Visa, 0003 = Interlink). 0000 if they want to participate in the Priority Routing Service. Before participating in Priority Routing, clients must contact their Visa representatives."
-    },
-    {
-      "change_type": "paragraph_removed",
-      "path": [
-        "Routing Options, Tables, and Services",
-        "Routing Options",
-        "Visa POS Routing Options"
-      ],
-      "text": "The preferred card program in which they want to participate (for instance, Network ID"
-    },
-    {
-      "change_type": "paragraph_removed",
-      "path": [
-        "Routing Options, Tables, and Services",
-        "Routing Options",
-        "Visa POS Routing Options"
-      ],
-      "text": "0002 = Visa, 0003 = Interlink)."
-    },
-    {
-      "change_type": "paragraph_removed",
-      "path": [
-        "Routing Options, Tables, and Services",
-        "Routing Options",
-        "Visa POS Routing Options"
-      ],
-      "text": "0000 if they want to participate in the Priority Routing Service. Before participating in Priority Routing, clients must contact their Visa representatives."
-    },
-    {
       "change_type": "paragraph_content_changed",
       "path": [
         "Routing Options, Tables, and Services",
         "Routing Options",
         "Visa POS Routing Options"
       ],
-      "old": "Visa POS acquirers can use the Visa-supplied account range routing tables and must specify, in Field 63 63.1—Network ID:",
-      "new": "Visa POS acquirers can use the Visa-supplied account range routing tables and must specify, in Field 63.1—Network ID:",
-      "similarity_ratio": 0.987,
+      "old": "Visa POS acquirers can use the Visa-supplied account range routing tables and must specify, in Field 63 63.1—Network ID: The preferred card program in which they want to participate (for instance, Network ID 0002 = Visa, 0003 = Interlink). 0000 if they want to participate in the Priority Routing Service. Before participating in Priority Routing, clients must contact their Visa representatives.",
+      "new": "Visa POS acquirers can use the Visa-supplied account range routing tables and must specify, in Field 63.1—Network ID: The preferred card program in which they want to participate (for instance, Network ID 0002 = Visa, 0003 = Interlink). 0000 if they want to participate in the Priority Routing Service. Before participating in Priority Routing, clients must contact their Visa representatives.",
+      "similarity_ratio": 0.996,
       "ai_category": "editorial_reword",
-      "ai_reason": "El cambio solo afecta el espacio en blanco antes del número 63.1, no altera el significado o regla de negocio.",
+      "ai_reason": "El texto solo tiene cambios de formato de espacios y mayúsculas, pero el significado y las reglas de negocio permanecen iguales.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -3535,18 +2920,9 @@
       "new": "This section describes optional routing services referenced in this chapter. For complete service descriptions of all available routing services, refer to V.I.P. System Overview and Services.",
       "similarity_ratio": 0.965,
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto describe lo mismo, solo se cambió el nombre del documento de 'V.I.P. System Services' a 'V.I.P. System Overview and Services' para mayor claridad en la referencia.",
+      "ai_reason": "El texto describe lo mismo, solo se cambió el nombre del documento de 'V.I.P. System Services' a 'V.I.P. System Overview and Services' para mayor claridad sin alterar el significado.",
       "disappeared_content": [],
       "safety_net_override": false
-    },
-    {
-      "change_type": "paragraph_removed",
-      "path": [
-        "Routing Options, Tables, and Services",
-        "Routing Services",
-        "Priority Routing"
-      ],
-      "text": "0002 = Visa, 0003 = Interlink, 0004 ="
     },
     {
       "change_type": "paragraph_content_changed",
@@ -3555,26 +2931,11 @@
         "Routing Services",
         "Priority Routing"
       ],
-      "old": "Acquirers that process two or more card products using V.I.P. can use the Priority Routing Service. The service enables V.I.P. to determine which network and card program rules to apply to message routing decisions for the following full service products and message types: POS—Original authorizations, financial messages, and their reversals, and balance inquiry requests ATM—Cash disbursements, cash disbursement misdispense adjustments, reversals, and balance inquiry requests To initiate the Priority Routing Service, acquirers specify network ID 0000 in Field 63.1—Network Identification Code. Upon receipt of the request, V.I.P. compares the networks of the acquirer and the issuer, identifies a common network, and routes the message accordingly. If V.I.P. detects more than one common network, it selects the network based on the merchant's sharing group order and available networks as defined in the issuer-supplied VID file. V.I.P. assigns the network ID and forwards the request to the issuer with only those fields that pertain to the network's programming rules. V.I.P. includes the assigned network ID in the response to the acquirer. If an acquirer wants a transaction to be processed through a particular network, the acquirer should use the specific network ID; for instance, network ID",
-      "new": "Acquirers that process two or more card products using V.I.P. can use the Priority Routing Service. The service enables V.I.P. to determine which network and card program rules to apply to message routing decisions for the following full service products and message types: POS—Original authorizations, financial messages, and their reversals, and balance inquiry requests ATM—Cash disbursements, cash disbursement misdispense adjustments, reversals, and balance inquiry requests To initiate the Priority Routing Service, acquirers specify network ID 0000 in Field 63.1—Network Identification Code. Upon receipt of the request, V.I.P. compares the networks of the acquirer and the issuer, identifies a common network, and routes the message accordingly. If V.I.P. detects more than one common network, it selects the network based on the merchant's sharing group order and available networks as defined in the issuer-supplied VID file. V.I.P. assigns the network ID and forwards the request to the issuer with only those fields that pertain to the network's programming rules. V.I.P. includes the assigned network ID in the response to the acquirer. If an acquirer wants a transaction to be processed through a particular network, the acquirer should use the specific network ID; for instance, network ID 0002 = Visa, 0003 = Interlink, 0004 = Plus.",
-      "similarity_ratio": 0.983,
+      "old": "Acquirers that process two or more card products using V.I.P. can use the Priority Routing Service. The service enables V.I.P. to determine which network and card program rules to apply to message routing decisions for the following full service products and message types: POS—Original authorizations, financial messages, and their reversals, and balance inquiry requests ATM—Cash disbursements, cash disbursement misdispense adjustments, reversals, and balance inquiry requests To initiate the Priority Routing Service, acquirers specify network ID 0000 in Field 63.1—Network Identification Code. Upon receipt of the request, V.I.P. compares the networks of the acquirer and the issuer, identifies a common network, and routes the message accordingly. If V.I.P. detects more than one common network, it selects the network based on the merchant's sharing group order and available networks as defined in the issuer-supplied VID file. V.I.P. assigns the network ID and forwards the request to the issuer with only those fields that pertain to the network's programming rules. V.I.P. includes the assigned network ID in the response to the acquirer. If an acquirer wants a transaction to be processed through a particular network, the acquirer should use the specific network ID; for instance, network ID 0002 = Visa, 0003 = Interlink, 0004 = Plus. For a complete description of the Priority Routing Service, refer to V.I.P. System Services.",
+      "new": "Acquirers that process two or more card products using V.I.P. can use the Priority Routing Service. The service enables V.I.P. to determine which network and card program rules to apply to message routing decisions for the following full service products and message types: POS—Original authorizations, financial messages, and their reversals, and balance inquiry requests ATM—Cash disbursements, cash disbursement misdispense adjustments, reversals, and balance inquiry requests To initiate the Priority Routing Service, acquirers specify network ID 0000 in Field 63.1—Network Identification Code. Upon receipt of the request, V.I.P. compares the networks of the acquirer and the issuer, identifies a common network, and routes the message accordingly. If V.I.P. detects more than one common network, it selects the network based on the merchant's sharing group order and available networks as defined in the issuer-supplied VID file. V.I.P. assigns the network ID and forwards the request to the issuer with only those fields that pertain to the network's programming rules. V.I.P. includes the assigned network ID in the response to the acquirer. If an acquirer wants a transaction to be processed through a particular network, the acquirer should use the specific network ID; for instance, network ID 0002 = Visa, 0003 = Interlink, 0004 = Plus. For a complete description of the Priority Routing Service, refer to V.I.P. System Overview and Services.",
+      "similarity_ratio": 0.989,
       "ai_category": "business_rule_change",
-      "ai_reason": "La edición nueva añade ejemplos concretos de redes (0002, 0003, 0004) que no estaban presentes en la edición vieja, modificando la regla de negocio al especificar qué valores de ID de red corresponden a qué redes.",
-      "disappeared_content": [],
-      "safety_net_override": false
-    },
-    {
-      "change_type": "paragraph_content_changed",
-      "path": [
-        "Routing Options, Tables, and Services",
-        "Routing Services",
-        "Priority Routing"
-      ],
-      "old": "Plus. For a complete description of the Priority Routing Service, refer to V.I.P. System Services.",
-      "new": "For a complete description of the Priority Routing Service, refer to V.I.P. System Overview and Services.",
-      "similarity_ratio": 0.906,
-      "ai_category": "editorial_reword",
-      "ai_reason": "El texto describe lo mismo pero cambia la redacción y el nombre del servicio de referencia (V.I.P. System Services a V.I.P. System Overview and Services).",
+      "ai_reason": "La edición nueva menciona 'V.I.P. System Overview and Services' en lugar de 'V.I.P. System Services', lo que indica un cambio en la referencia a la documentación específica para la descripción del servicio.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -3645,22 +3006,19 @@
       ]
     },
     {
-      "change_type": "paragraph_added",
+      "change_type": "paragraph_content_changed",
       "path": [
         "VisaNet Connection Options",
         "VisaNet Connection Files",
         "VisaNet Connection File Types"
       ],
-      "text": "TC 46 TC 47"
-    },
-    {
-      "change_type": "paragraph_removed",
-      "path": [
-        "VisaNet Connection Options",
-        "VisaNet Connection Files",
-        "VisaNet Connection File Types"
-      ],
-      "text": "TC 46 T C 47"
+      "old": "TC 46 T C 47",
+      "new": "TC 46 TC 47",
+      "similarity_ratio": 0.957,
+      "ai_category": "editorial_reword",
+      "ai_reason": "El cambio consiste solo en añadir un espacio en blanco después del TC y el uso de un espacio en blanco para separar los números, sin alterar el significado o regla de negocio.",
+      "disappeared_content": [],
+      "safety_net_override": false
     },
     {
       "change_type": "paragraph_reflowed",
@@ -3676,24 +3034,16 @@
       ]
     },
     {
-      "change_type": "paragraph_removed",
-      "path": [
-        "Report and File Delivery Options",
-        "VSS Report Delivery"
-      ],
-      "text": "rs, not TC 47 wrappers."
-    },
-    {
       "change_type": "paragraph_content_changed",
       "path": [
         "Report and File Delivery Options",
         "VSS Report Delivery"
       ],
-      "old": "Platform Option: Data in TC 47 wrappers is delivered to the BASE II connection in TC 47 format. Full Service Option: Data in TC 47 wrappers is combined with SMS detail reports. TC 47 wrapper stripped to reveal the print-ready VSS reports, combines them with the SMS detail reports, and delivers the resulting file through delivery methods specified earlier. If a BASE II connection is used to deliver this file of combined SMS and VSS reports, which, like SMS reports alone, are in TC 45 wrappe",
+      "old": "Platform Option: Data in TC 47 wrappers is delivered to the BASE II connection in TC 47 format. Full Service Option: Data in TC 47 wrappers is combined with SMS detail reports. TC 47 wrapper stripped to reveal the print-ready VSS reports, combines them with the SMS detail reports, and delivers the resulting file through delivery methods specified earlier. If a BASE II connection is used to deliver this file of combined SMS and VSS reports, which, like SMS reports alone, are in TC 45 wrappe rs, not TC 47 wrappers.",
       "new": "Platform Option: Data in TC 47 wrappers is delivered to the BASE II connection in TC 47 format. Full Service Option: Data in TC 47 wrappers is combined with SMS detail reports. TC 47 wrapper stripped to reveal the print-ready VSS reports, combines them with the SMS detail reports, and delivers the resulting file through delivery methods specified earlier. If a BASE II connection is used to deliver this file of combined SMS and VSS reports, which, like SMS reports alone, are in TC 45 wrappers, not TC 47 wrappers.",
-      "similarity_ratio": 0.977,
-      "ai_category": "business_rule_change",
-      "ai_reason": "La nueva edición especifica que los reportes combinados están en TC 45 wrappers, no TC 47 wrappers, lo que cambia la regla de negocio sobre el formato de los reportes.",
+      "similarity_ratio": 0.999,
+      "ai_category": "editorial_reword",
+      "ai_reason": "El texto describe lo mismo pero con ajustes menores en el formato de espacios y mayúsculas en los términos técnicos (TC 47, TC 45, BASE II).",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -3721,7 +3071,7 @@
       "new": "For cross-currency transactions from authorization-only acquirers, the cardholder billing amount can be different from the amount authorized. This difference is due to fluctuations in currency conversion rates between the date of the authorization and the date that the transaction clears. The transaction amount in the transaction currency is consistent in the authorization and clearing records. This value is the amount that should be quoted to cardholders until the clearing transaction is settled and the final billing amount is posted to the cardholder's account. For more information, refer to the Multicurrency Service chapter in V.I.P. System Overview and Services.",
       "similarity_ratio": 0.978,
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto describe lo mismo pero cambió 'V.I.P. System Services' por 'V.I.P. System Overview and Services' en el enlace a la sección, sin alterar el significado o regla de negocio.",
+      "ai_reason": "El texto describe lo mismo pero cambió el nombre del capítulo de 'V.I.P. System Services' a 'V.I.P. System Overview and Services' en la referencia, sin alterar el significado o regla de negocio.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -3735,7 +3085,7 @@
       "new": "A full service issuer receives transactions as BASE II deferred clearing advices (0220s) when the transactions originate from authorization-only acquirers clearing through BASE II. Issuers select one of the following methods for retrieving BASE II deferred clearing advices: Online advice retrieval from one station—This process retrieves advices from the online advice file using a single online station. Online advice retrieval from multiple stations—This process retrieves advices from the online advice file using more than one online station. The V.I.P. Advice Retrieval Service allows issuers to recover their stand-in processing (STIP) advice data from the V.I.P. advice file. For information about this service, refer to V.I.P. System Overview and Services. Clients should customize their VisaNet connection configuration to their environment and future plans. Clients can contact their Visa representatives for configuration assistance.",
       "similarity_ratio": 0.993,
       "ai_category": "editorial_reword",
-      "ai_reason": "El cambio consiste solo en reemplazar 'V.I.P. System Services' por 'V.I.P. System Overview and Services' en un enlace a un servicio, sin alterar el significado o regla de negocio.",
+      "ai_reason": "El texto solo cambia el nombre del servicio de referencia de 'V.I.P. System Services' a 'V.I.P. System Overview and Services' sin alterar el significado o regla de negocio.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -3809,13 +3159,14 @@
       "new": "V.I.P. distributes exceptions from authorization-only acquirers in the same manner as it distributes exceptions from full service acquirers. V.I.P. routes dispute response financials, funds disbursements, and free-text messages from an authorization-only acquirer to the issuer or to the alternate routing destination requested by the issuer. For a Custom Payment Service (CPS) transaction, V.I.P. assigns the same value as was assigned on the original for Field 62.2—Transaction Identifier, and for Field 62.3—Validation Code. Full service acquirers must always send a reversal if a transaction times out. Full service acquirers do not use repeat messages. However, full service issuers can potentially receive repeat messages depending on how they are configured:",
       "similarity_ratio": 0.944,
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto solo tiene cambios menores en formato (espaciado de campo 62.2 y 62.3) y no altera el significado o reglas de negocio.",
+      "ai_reason": "El cambio consiste solo en la corrección de espacios en el número de campo 62.2 y 62.3, manteniendo el mismo significado y contenido.",
       "disappeared_content": [],
       "safety_net_override": false
     }
   ],
   "ai_summary": {
-    "editorial_reword": 46,
-    "business_rule_change": 4
+    "editorial_reword": 61,
+    "business_rule_change": 2,
+    "extraction_noise": 1
   }
 }

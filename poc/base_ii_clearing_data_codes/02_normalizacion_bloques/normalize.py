@@ -261,6 +261,27 @@ TOC_DOT_LEADER = re.compile(r"(\. ){4,}")
 CODE_LIKE = re.compile(r"^[A-Z0-9]{1,6}$")
 CONTINUED_CODE = re.compile(r"^([A-Z0-9]{1,6})\s*\(continued\)$", re.IGNORECASE)
 
+# Bug G (ver NOTES.md, 2026-09-13): mismo glifo de viñeta que ya neutraliza classify.py
+# (`BULLET_GLYPH_TOKENS`). Se usa aca para acotar el fix de `active_last_y1` (ver abajo) SOLO
+# a filas de listas con viñetas -las unicas donde `TABLE_ROW_GAP_MAX` (calibrado para la
+# tabla "Country and Currency Codes", ver su propio comentario) genera diferimientos en
+# cadena- sin tocar el comportamiento ya calibrado para nombres de pais envueltos en 2+
+# lineas, que no tienen ninguna linea de viñeta suelta.
+BULLET_GLYPH_TOKENS = {"l", "●", "•"}
+# Glifos que SOLO se usan como viñeta, nunca como prefijo de una palabra real en ingles -a
+# diferencia de "l" (letra normal, "local"/"less"/etc empiezan asi), asi que para estos es
+# seguro reconocer la viñeta tanto suelta en su propia linea (edicion vieja) como pegada al
+# inicio del texto en la misma linea (edicion nueva, ej. "●For T&E transactions...").
+UNAMBIGUOUS_BULLET_GLYPHS = ("●", "•")
+
+
+def _row_has_bullet_glyph(lines: list) -> bool:
+    for l in lines:
+        text = l["text"].strip()
+        if text in BULLET_GLYPH_TOKENS or text.startswith(UNAMBIGUOUS_BULLET_GLYPHS):
+            return True
+    return False
+
 # Ventana de bloques hacia atras en la que _merge_continued_rows() busca la fila original
 # a fusionar. Una continuacion real ocurre a lo sumo 1 salto de pagina despues (unas pocas
 # decenas de bloques); acotar la busqueda evita fusionar con un codigo repetido en una
@@ -356,7 +377,22 @@ def _new_cells(row_lines: list) -> list:
     cells = []
     for line in row_sorted:
         x0 = line["bbox"][0]
-        if cells and abs(cells[-1]["x0"] - x0) <= CELL_X_MERGE_TOLERANCE:
+        # Bug H (ver NOTES.md, 2026-09-13): cuando la PRIMERA fila de un codigo (la que
+        # arranca la tabla via `_new_cells`) ya trae una viñeta con su texto en la MISMA
+        # banda Y (ej. codigo + viñeta + texto de una lista corta que entra en 1 sola
+        # linea, como "Reason" de "Request for Copy Reason Codes"), el hueco entre la
+        # viñeta (columna angosta) y su texto (columna ancha, ~12pt mas a la derecha)
+        # supera `CELL_X_MERGE_TOLERANCE` (3.0pt, calibrado para lineas de la MISMA celda
+        # sin viñeta) y se crea una celda extra -la tabla queda con 1 celda mas que su
+        # encabezado, y el emparejamiento por indice (Modulo 3/4) termina comparando la
+        # celda de la viñeta sola ("l") contra la celda de texto real de la otra edicion,
+        # perdiendo el contenido real (confirmado con datos reales: codigos 33/34 de
+        # "Request for Copy Reason Codes", edicion vieja con esta fila corta en 1 sola
+        # banda Y). Fix: una linea que sigue inmediatamente a una linea de viñeta
+        # (`_row_has_bullet_glyph`) se fusiona SIEMPRE a la misma celda, sin importar el
+        # hueco en X -una viñeta y su texto nunca son 2 columnas reales distintas.
+        prev_was_bullet = cells and _row_has_bullet_glyph([{"text": cells[-1]["text"][-1]}])
+        if cells and (abs(cells[-1]["x0"] - x0) <= CELL_X_MERGE_TOLERANCE or prev_was_bullet):
             cells[-1]["text"].append(line["text"])
         else:
             cells.append({"x0": x0, "text": [line["text"]]})
@@ -444,7 +480,20 @@ def build_blocks(rows: list, page: int, state: dict) -> list:
             row = pending_prefix + row
             pending_prefix = []
 
-        row_sorted = sorted(row, key=lambda l: l["bbox"][0])
+        # Bug G (ver NOTES.md, 2026-09-13): ordenar SOLO por X0 rompe el orden de lectura
+        # cuando una viñeta suelta ("l"/"●"/"•", x0 de la columna angosta) y una etiqueta de
+        # seccion (ej. "Examples of a Type A UAT transaction are:", tambien arrancando en
+        # esa misma x0 -es el margen izquierdo compartido de la celda) terminan en el mismo
+        # lote diferido: al ordenar por X0 puro quedan empatados y el texto envuelto (otra
+        # x0, columna derecha) se corre al final, aunque pertenezcan a renglones Y distintos
+        # (confirmado con datos reales: "Acceptance Terminal Type", codigo 1/2). Ordenar por
+        # (Y0, X0) en cambio preserva el orden real. Acotado a filas con viñeta
+        # (`_row_has_bullet_glyph`) para no tocar el comportamiento ya calibrado de la tabla
+        # "Country and Currency Codes" (nombres de pais envueltos, sin viñetas nunca).
+        if _row_has_bullet_glyph(row):
+            row_sorted = sorted(row, key=lambda l: (l["bbox"][1], l["bbox"][0]))
+        else:
+            row_sorted = sorted(row, key=lambda l: l["bbox"][0])
         is_multi = len(row_sorted) >= 2
 
         # Encabezado de seccion "Glossary" (punto 8 del docstring): dispara el modo
@@ -579,6 +628,27 @@ def build_blocks(rows: list, page: int, state: dict) -> list:
                 if gap_to_active > TABLE_ROW_GAP_MAX and next_row is not None:
                     gap_to_next = _row_min_y0(next_row) - row_y1
                     if gap_to_next < gap_to_active:
+                        # Bug G (ver NOTES.md, 2026-09-13): `active_last_y1` quedaba SIN
+                        # actualizar mientras esta fila se difiere, asi que la proxima
+                        # vuelta vuelve a comparar contra el mismo ancla vieja (ya no
+                        # representa el hueco real, que se corre junto con lo diferido) -en
+                        # tablas de lista con viñetas y muchas filas envueltas seguidas
+                        # (ej. "Chargeback Reason Rules") esto encadenaba TODAS las filas
+                        # restantes de la celda en un solo `pending_prefix` gigante, que al
+                        # volcarse de una sola vez perdia el orden de lectura real (se
+                        # reordenaba por columna, no por renglon). Acotado a filas con
+                        # viñeta (`_row_has_bullet_glyph`): actualizar el ancla SIEMPRE (sin
+                        # esta condicion) rompe la tabla "Country and Currency Codes" en
+                        # ediciones con nombres de pais envueltos en 2+ lineas adyacentes
+                        # (ej. "European Economic and Monetary Union" / "European Monetary
+                        # Cooperation Fund" en 20220423) -confirmado con datos reales, ver
+                        # NOTES.md- porque ahi el hueco stale es justamente la señal que
+                        # security distingue una fila nueva de un wrap real. Las listas con
+                        # viñetas nunca comparten ese patron (no tienen nombres envueltos
+                        # compitiendo por el mismo hueco), asi que acotar el fix a ellas
+                        # deja el comportamiento de paises 100% sin tocar.
+                        if _row_has_bullet_glyph(row_sorted):
+                            active_last_y1 = max(active_last_y1, row_y1) if active_last_y1 is not None else row_y1
                         pending_prefix.extend(row_sorted)
                         continue
                 for line in row_sorted:
@@ -633,6 +703,15 @@ def build_blocks(rows: list, page: int, state: dict) -> list:
             if gap_to_active > TABLE_ROW_GAP_MAX and next_row is not None:
                 gap_to_next = _row_min_y0(next_row) - y1
                 if gap_to_next < gap_to_active:
+                    # Bug G (ver docstring de la rama multi-linea de arriba y NOTES.md,
+                    # 2026-09-13): mismo fix, mismo acotamiento a listas con viñetas -un
+                    # renglon suelto (ej. "Examples of a Type A UAT transaction are:") que
+                    # antecede a la siguiente viñeta se difiere por casualidad de layout y,
+                    # sin actualizar el ancla, quedaba con un hueco comparado obsoleto que
+                    # lo combinaba mal con la fila multi-linea siguiente (confirmado con
+                    # datos reales: "Acceptance Terminal Type", codigo 1/2, columna Usage).
+                    if _row_has_bullet_glyph(next_row):
+                        active_last_y1 = max(active_last_y1, y1) if active_last_y1 is not None else y1
                     pending_prefix.append(line)
                     continue
 

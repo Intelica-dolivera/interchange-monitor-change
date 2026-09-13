@@ -1,4 +1,4 @@
-f 1:
+Caso 1:
 Reserved → definido — TC 04 - TCR 9 (1)
 Posición `151-168` (Reserved) se partió
 Antes: `151-168` Reserved

@@ -10286,6 +10286,12 @@
       "duplicate_paragraph_texts_b": [],
       "paragraphs_matched": [
         {
+          "text_a": "The Automatic Cardholder Database Update (Auto-CDB) Service allows V.I.P. to update the Account Screen Authorization File (ASAF) when issuers return pick-up response codes in authorization response messages. Issuers receive advices of ASAF additions or updates. Participation in the Auto-CDB Service is mandatory for issuers of all regions (except for LAC). This figure illustrates the flow of an Auto-CDB file maintenance transaction.",
+          "text_b": "The Automatic Cardholder Database Update (Auto-CDB) Service allows V.I.P. to update the Account Screen Authorization File (ASAF) when issuers return pick-up response codes in authorization response messages. Issuers receive advices of ASAF additions or updates. Participation in the Auto-CDB Service is mandatory for issuers of all regions. This figure illustrates the flow of an Auto-CDB file maintenance transaction.",
+          "match_type": "fuzzy",
+          "similarity": 0.98
+        },
+        {
           "text_a": "Auto-CDB File Maintenance Transaction Flow (Visa Only)",
           "text_b": "Auto-CDB File Maintenance Transaction Flow (Visa Only)",
           "match_type": "exact",
@@ -10314,12 +10320,6 @@
           "text_b": "0332 Response",
           "match_type": "exact",
           "similarity": 1.0
-        },
-        {
-          "text_a": "The Automatic Cardholder Database Update (Auto-CDB) Service allows V.I.P. to update the Account Screen Authorization File (ASAF) when issuers return pick-up response codes in authorization response messages. Issuers receive advices of ASAF additions or updates. Participation in the Auto-CDB Service is mandatory for issuers of all regions (except for LAC). This figure illustrates the flow of an Auto-CDB file maintenance transaction.",
-          "text_b": "The Automatic Cardholder Database Update (Auto-CDB) Service allows V.I.P. to update the Account Screen Authorization File (ASAF) when issuers return pick-up response codes in authorization response messages. Issuers receive advices of ASAF additions or updates. Participation in the Auto-CDB Service is mandatory for issuers of all regions. This figure illustrates the flow of an Auto-CDB file maintenance transaction.",
-          "match_type": "fuzzy",
-          "similarity": 0.98
         }
       ],
       "paragraphs_removed": [],
@@ -17765,16 +17765,16 @@
           "similarity": 1.0
         },
         {
-          "text_a": "STIP rejects all Visa Electron transactions with PINs that do not contain track 2 data with reject code 291.",
-          "text_b": "STIP rejects all Visa Electron transactions with PINs that do not contain track 2 data with reject code 291.",
-          "match_type": "exact",
-          "similarity": 1.0
-        },
-        {
           "text_a": "All non-domestic transactions All key-entered non-domestic transactions All POS transactions if the card is not present All Visa Secure Electronic Commerce (VSEC) POS transactions if the processor control record (PCR) has not successfully completed testing for VSEC.",
           "text_b": "All non-domestic transactions All key-entered non-domestic transactions All POS transactions if the card is not present All Visa Secure Electronic Commerce (VSEC) POS transactions if the processor center record (PCR) has not successfully completed testing for VSEC.",
           "match_type": "fuzzy",
           "similarity": 0.979
+        },
+        {
+          "text_a": "STIP rejects all Visa Electron transactions with PINs that do not contain track 2 data with reject code 291.",
+          "text_b": "STIP rejects all Visa Electron transactions with PINs that do not contain track 2 data with reject code 291.",
+          "match_type": "exact",
+          "similarity": 1.0
         }
       ],
       "paragraphs_removed": [],
@@ -18950,16 +18950,16 @@
           "similarity": 1.0
         },
         {
-          "text_a": "Chargeback Reduction Service (travel and entertainment dispute processing). Automatic Cardholder Database Update (Auto-CDB) Service.",
-          "text_b": "Chargeback Reduction Service (travel and entertainment dispute processing). Automatic Cardholder Database Update (Auto-CDB) Service.",
-          "match_type": "exact",
-          "similarity": 1.0
-        },
-        {
           "text_a": "0120 authorization and preauthorization advices, including those for account number or address verifications. 0420 reversal advices. 0120 and 0322 advices of Account Screen Authorization File (ASAF) additions and changes processed by VisaNet for the following services:",
           "text_b": "0120 authorization and preauthorization advices, including those for account number or address verifications. 0420 reversal advices. 0120 or 0322 advices of Account Screen Authorization File (ASAF) additions and changes processed by VisaNet for the following services:",
           "match_type": "fuzzy",
           "similarity": 0.991
+        },
+        {
+          "text_a": "Chargeback Reduction Service (travel and entertainment dispute processing). Automatic Cardholder Database Update (Auto-CDB) Service.",
+          "text_b": "Chargeback Reduction Service (travel and entertainment dispute processing). Automatic Cardholder Database Update (Auto-CDB) Service.",
+          "match_type": "exact",
+          "similarity": 1.0
         },
         {
           "text_a": "0120 and 0322 account number verification request advices. 0220 financial transaction advices, STIP advices, and BASE II fee transaction advices. 0282 dispute response financial status advices. 0480 dispute financial status advices. 0520 reconciliation advices. 0620 administrative advices. 06xx token advices 9620 fraud notification advices.",

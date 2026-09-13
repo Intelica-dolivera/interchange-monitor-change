@@ -164,8 +164,7 @@
       "type": "table_header",
       "page": 6,
       "cells": [
-        "l\nl\nl\nl",
-        "Explain the reason for a BASE II processing action.\nInstruct the BASE II System to perform specific processing.\nProvide information about the type of customer transaction.\nProvide fee information."
+        "l\nExplain the reason for a BASE II processing action.\nInstruct the BASE II System to perform specific processing.\nl\nProvide information about the type of customer transaction.\nl\nProvide fee information.\nl"
       ]
     },
     {
@@ -186,16 +185,14 @@
       "type": "table_header",
       "page": 6,
       "cells": [
-        "l\nl\nl\nl",
-        "BASE II Clearing Data Codes\nBASE II Clearing Edit Package (Release 4) Operations Guide\nBASE II Clearing Edit Package (Release 4) Reports\nBASE II Clearing Interchange Formats, TC 01 to TC 49"
+        "l\nBASE II Clearing Data Codes\nBASE II Clearing Edit Package (Release 4) Operations Guide\nl\nBASE II Clearing Edit Package (Release 4) Reports\nl\nBASE II Clearing Interchange Formats, TC 01 to TC 49\nl"
       ]
     },
     {
       "type": "table_header",
       "page": 7,
       "cells": [
-        "l\nl\nl\nl\nl",
-        "BASE II Clearing Interchange Formats, TC 50 to TC 92\nBASE II Clearing PC Edit Package for Windows (Release 4) User's Guide\nBASE II Clearing Edit Package (Release 4) Messages\nVisa Core Rules and Visa Product and Service Rules\nVisa Merchant Data Standards Manual\nNote:  VML is no longer being supported."
+        "l\nBASE II Clearing Interchange Formats, TC 50 to TC 92\nBASE II Clearing PC Edit Package for Windows (Release 4) User's Guide\nl\nBASE II Clearing Edit Package (Release 4) Messages\nl\nVisa Core Rules and Visa Product and Service Rules\nl\nVisa Merchant Data Standards Manual\nl\nNote:  VML is no longer being supported."
       ]
     },
     {
@@ -216,8 +213,7 @@
       "type": "table_header",
       "page": 7,
       "cells": [
-        "l",
-        "Draft Data: TCR 5, Positions 145-148"
+        "l\nDraft Data: TCR 5, Positions 145-148"
       ]
     },
     {
@@ -544,8 +540,7 @@
       "type": "table_header",
       "page": 9,
       "cells": [
-        "l\nl\nl",
-        "Draft Data: TCR 0, Position 151\nTC 48, BASE I Advice—ISO-Enriched: TCR 2, Position 60\nTC 57, Data Capture Advice: TCR 0, Position 151"
+        "l\nDraft Data: TCR 0, Position 151\nTC 48, BASE I Advice—ISO-Enriched: TCR 2, Position 60\nl\nTC 57, Data Capture Advice: TCR 0, Position 151\nl"
       ]
     },
     {
@@ -716,8 +711,7 @@
       "type": "table_header",
       "page": 10,
       "cells": [
-        "l\nl\nl",
-        "Draft Data: TCR 1, Position 128\nTC 38, VCRFS/VDAS message transactions: TCR 3—Chargeback Documentation Data, Position\n92 (Visa Use Only)\nTC 57, Data Capture Advice: TCR 0—Transaction Detail, Position 87\nNote:\nAuthorization Source Codes are required in Transaction Incentive Interchange Fee 2 (TIIF2),\nCustom Payment Service (CPS), Express Payment Service (EPS), and Supermarket transactions.\nSpace though deprecated and will not signify anything Visa would still allow to be submitted\nin the field."
+        "l\nDraft Data: TCR 1, Position 128\nTC 38, VCRFS/VDAS message transactions: TCR 3—Chargeback Documentation Data, Position\nl\n92 (Visa Use Only)\nTC 57, Data Capture Advice: TCR 0—Transaction Detail, Position 87\nl\nNote:\nAuthorization Source Codes are required in Transaction Incentive Interchange Fee 2 (TIIF2),\nCustom Payment Service (CPS), Express Payment Service (EPS), and Supermarket transactions.\nSpace though deprecated and will not signify anything Visa would still allow to be submitted\nin the field."
       ]
     },
     {
@@ -848,8 +842,7 @@
       "type": "table_header",
       "page": 11,
       "cells": [
-        "l\nl",
-        "Draft Data: TCR 1 - Additional Data, Position 127\nTC 57, Data Capture Advice: TCR 0, Position 148\nNote:\nIf the format is VML and the code is a space or zero, special attention must be paid because\nthe code could have two different meanings: 1) in VML, the space or zero can mean not\napplicable, in which case the field should not be present in the transaction, or 2) if the space\nor zero has a business meaning, the field should be present in the transaction (for example, a\nspace may indicate eligibility for a particular fee type)."
+        "l\nDraft Data: TCR 1 - Additional Data, Position 127\nTC 57, Data Capture Advice: TCR 0, Position 148\nl\nNote:\nIf the format is VML and the code is a space or zero, special attention must be paid because\nthe code could have two different meanings: 1) in VML, the space or zero can mean not\napplicable, in which case the field should not be present in the transaction, or 2) if the space\nor zero has a business meaning, the field should be present in the transaction (for example, a\nspace may indicate eligibility for a particular fee type)."
       ]
     },
     {
@@ -1044,8 +1037,7 @@
       "type": "table_header",
       "page": 12,
       "cells": [
-        "l",
-        "TC 44, Collection Batch Acknowledgment: TCR 0—Batch Disposition Code R, Positions 37-39"
+        "l\nTC 44, Collection Batch Acknowledgment: TCR 0—Batch Disposition Code R, Positions 37-39"
       ]
     },
     {
@@ -1216,8 +1208,7 @@
       "type": "table_header",
       "page": 13,
       "cells": [
-        "l",
-        "TC 05, TC 06, Draft Data - Industry-Specific Data - Business Application Data, Positions 19-20"
+        "l\nTC 05, TC 06, Draft Data - Industry-Specific Data - Business Application Data, Positions 19-20"
       ]
     },
     {
@@ -1231,8 +1222,7 @@
       "type": "table_header",
       "page": 13,
       "cells": [
-        "l",
-        "TC 05 Draft Data - Industry-Specific Data - Passenger Itinerary Data, Passenger Transport\nAncillary Data, Lodging, Car Rental, and Fleet Service, Positions 15-16"
+        "l\nTC 05 Draft Data - Industry-Specific Data - Passenger Itinerary Data, Passenger Transport\nAncillary Data, Lodging, Car Rental, and Fleet Service, Positions 15-16"
       ]
     },
     {
@@ -1443,8 +1433,7 @@
       "type": "table_header",
       "page": 14,
       "cells": [
-        "l",
-        "Draft Data: TCR 2—Japan, Position 6"
+        "l\nDraft Data: TCR 2—Japan, Position 6"
       ]
     },
     {
@@ -1589,8 +1578,7 @@
       "type": "table_header",
       "page": 15,
       "cells": [
-        "l\nl",
-        "Draft Data: TCR 3, Positions 28-33\nTC 57, Data Capture Advice: TCR 4 - Industry-Specific Data—Car Rental, Positions 28-33\nNote:\nIf the format is VML and the code is a space or zero, special attention must be paid because\nthe code could have two different meanings: 1) in VML the space or zero can mean not\napplicable, in which case the field should not be present in the transaction, or 2) if the space\nor zero has a business meaning, the field should be present in the transaction (for example, a\nspace may indicate eligibility for a particular fee type)."
+        "l\nDraft Data: TCR 3, Positions 28-33\nTC 57, Data Capture Advice: TCR 4 - Industry-Specific Data—Car Rental, Positions 28-33\nl\nNote:\nIf the format is VML and the code is a space or zero, special attention must be paid because\nthe code could have two different meanings: 1) in VML the space or zero can mean not\napplicable, in which case the field should not be present in the transaction, or 2) if the space\nor zero has a business meaning, the field should be present in the transaction (for example, a\nspace may indicate eligibility for a particular fee type)."
       ]
     },
     {
@@ -1674,8 +1662,7 @@
       "type": "table_header",
       "page": 15,
       "cells": [
-        "l\nl",
-        "Draft Data: TCR 3, Position 27\nTC 57, Data Capture Advice: TCR 4, Position 27\nNote:"
+        "l\nDraft Data: TCR 3, Position 27\nTC 57, Data Capture Advice: TCR 4, Position 27\nl\nNote:"
       ]
     },
     {
@@ -1748,8 +1735,7 @@
       "type": "table_header",
       "page": 16,
       "cells": [
-        "l\nl\nl",
-        "Draft Data: TCR 0, Position 160\nTC 57, Data Capture Transaction Advice: TCR 0, Position 80\nTC 59, Interface Transaction Advice: TCR 1 - Additional Data, Position 77; TCR 1 - American\nExpress, Position 77\nNote:\nIf the format is VML and the code is a space or zero, special attention must be paid because\nthe code could have two different meanings: 1) in VML the space or zero can mean not\napplicable, in which case the field should not be present in the transaction, or 2) if the space\nor zero has a business meaning, the field should be present in the transaction (for example, a\nspace may indicate eligibility for a particular fee type)."
+        "l\nDraft Data: TCR 0, Position 160\nTC 57, Data Capture Transaction Advice: TCR 0, Position 80\nl\nTC 59, Interface Transaction Advice: TCR 1 - Additional Data, Position 77; TCR 1 - American\nl\nExpress, Position 77\nNote:\nIf the format is VML and the code is a space or zero, special attention must be paid because\nthe code could have two different meanings: 1) in VML the space or zero can mean not\napplicable, in which case the field should not be present in the transaction, or 2) if the space\nor zero has a business meaning, the field should be present in the transaction (for example, a\nspace may indicate eligibility for a particular fee type)."
       ]
     },
     {
@@ -1817,8 +1803,7 @@
       "type": "table_header",
       "page": 17,
       "cells": [
-        "l",
-        "Draft Data: TCR 0, Positions 148-149"
+        "l\nDraft Data: TCR 0, Positions 148-149"
       ]
     },
     {
@@ -1911,7 +1896,7 @@
       "cells": [
         "30",
         "All",
-        "Services Not Provided or Merchandise Not Received\nAll Regions:\nl\nInternational:\nATM is prohibited.\nl\nl\nU.K. Domestic:\nFor T&E transactions the minimum amount must be equal to or\ngreater than $25.00 USD.\nNo non-T&E minimum amount.\nl\nCanada Region:\nT&E and non-T&E, no minimum amount.\nl\nl\nJapan Domestic:\nFor T&E transactions, the minimum amount must be equal to or\ngreater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal to\nor greater than $10.00 CAD.\nl\nT&E and non-T&E, no minimum amount."
+        "Services Not Provided or Merchandise Not Received\nAll Regions:\nATM is prohibited.\nl\nInternational:\nFor T&E transactions the minimum amount must be equal to or\nl\ngreater than $25.00 USD.\nNo non-T&E minimum amount.\nl\nU.K. Domestic:\nT&E and non-T&E, no minimum amount.\nl\nCanada Region:\nFor T&E transactions, the minimum amount must be equal to or\nl\ngreater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal to\nl\nor greater than $10.00 CAD.\nJapan Domestic:\nT&E and non-T&E, no minimum amount.\nl"
       ]
     },
     {
@@ -1920,7 +1905,7 @@
       "cells": [
         "41",
         "All",
-        "Cancelled Recurring Transaction\nAll Regions:\nl\nInternational:\nATM is prohibited.\nl\nl\nU.K. Domestic:\nFor T&E transaction, the minimum amount must be equal to or\ngreater than $25.00 USD.\nNo non-T&E minimum amount.\nl\nCanada Region:\nT&E and non-T&E, no minimum amount.\nl\nl\nJapan Domestic:\nFor T&E transactions, the minimum amount must be equal to or\ngreater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal to\nor greater than $10.00 CAD.\nl\nT&E and non-T&E, no minimum amount."
+        "Cancelled Recurring Transaction\nAll Regions:\nATM is prohibited.\nl\nInternational:\nFor T&E transaction, the minimum amount must be equal to or\nl\ngreater than $25.00 USD.\nNo non-T&E minimum amount.\nl\nU.K. Domestic:\nT&E and non-T&E, no minimum amount.\nl\nCanada Region:\nFor T&E transactions, the minimum amount must be equal to or\nl\ngreater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal to\nl\nor greater than $10.00 CAD.\nJapan Domestic:\nT&E and non-T&E, no minimum amount.\nl"
       ]
     },
     {
@@ -1945,7 +1930,7 @@
       "cells": [
         "53",
         "All",
-        "Not as Described or Defective Merchandise\nAll Regions:\nl\nInternational:\nATM is prohibited.\nl\nl\nU.S. Region:\nFor T&E transactions, the minimum amount must be equal to or\ngreater than $25.00 USD.\nNo non-T&E minimum amount.\nl\nU.K. Domestic:\nEPS not allowed.\nl\nCanada Region:\nT&E and non-T&E, no minimum amount.\nl\nl\nJapan Domestic:\nFor T&E transactions, the minimum amount must be equal to or\ngreater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal to\nor greater than $10.00 CAD.\nl\nT&E and non-T&E, no minimum amount."
+        "Not as Described or Defective Merchandise\nAll Regions:\nATM is prohibited.\nl\nInternational:\nFor T&E transactions, the minimum amount must be equal to or\nl\ngreater than $25.00 USD.\nNo non-T&E minimum amount.\nl\nU.S. Region:\nEPS not allowed.\nl\nU.K. Domestic:\nT&E and non-T&E, no minimum amount.\nl\nCanada Region:\nFor T&E transactions, the minimum amount must be equal to or\nl\ngreater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal to\nl\nor greater than $10.00 CAD.\nJapan Domestic:\nT&E and non-T&E, no minimum amount.\nl"
       ]
     },
     {
@@ -1970,7 +1955,7 @@
       "cells": [
         "57",
         "All",
-        "Fraudulent Multiple Transactions\nAll Regions:\nl\nl\nl\nInternational:\nATM is prohibited.\nDirect Marketing MCCs are prohibited.\nMOTO/ECI must be spaces.\nl\nl\nU.K. Domestic:\nFor T&E transactions, the minimum must be equal to or greater\nthan $25.00 USD.\nNo non-T&E minimum amount.\nl\nCanada Region:\nT&E and non-T&E, no minimum amount.\nl\nl\nJapan Domestic:\nFor T&E transactions, the minimum amount must be equal to or\ngreater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal to\nor greater than $10.00 CAD\nl\nT&E and non-T&E, no minimum amount."
+        "Fraudulent Multiple Transactions\nAll Regions:\nATM is prohibited.\nl\nDirect Marketing MCCs are prohibited.\nl\nMOTO/ECI must be spaces.\nl\nInternational:\nFor T&E transactions, the minimum must be equal to or greater\nl\nthan $25.00 USD.\nNo non-T&E minimum amount.\nl\nU.K. Domestic:\nT&E and non-T&E, no minimum amount.\nl\nCanada Region:\nFor T&E transactions, the minimum amount must be equal to or\nl\ngreater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal to\nl\nor greater than $10.00 CAD\nJapan Domestic:\nT&E and non-T&E, no minimum amount.\nl"
       ]
     },
     {
@@ -1979,7 +1964,7 @@
       "cells": [
         "60",
         "All",
-        "Illegible Fulfillment\nAll Regions:\nl\nInternational:\nATM is prohibited.\nl\nU.S. Domestic and AP Region:\nNo T&E or non-T&E minimum amount.\nl\nCanada Region:\nEPS is not allowed.\nl\nl\nl\nJapan Domestic:\nEPS is not allowed.\nFor T&E transactions, the minimum amount must be equal to or\ngreater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal to\nor greater than $10.00 CAD.\nl\nT&E and non-T&E, no minimum amount."
+        "Illegible Fulfillment\nAll Regions:\nATM is prohibited.\nl\nInternational:\nNo T&E or non-T&E minimum amount.\nl\nU.S. Domestic and AP Region:\nEPS is not allowed.\nl\nCanada Region:\nEPS is not allowed.\nl\nFor T&E transactions, the minimum amount must be equal to or\nl\ngreater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal to\nl\nor greater than $10.00 CAD.\nJapan Domestic:\nT&E and non-T&E, no minimum amount.\nl"
       ]
     },
     {
@@ -2004,7 +1989,7 @@
       "cells": [
         "62",
         "All",
-        "Counterfeit Transaction\nAll Regions:\nl\nl\nInternational:\nDirect Marketing MCCs are prohibited.\nMOTO/ECI must be spaces.\nl\nCanada Region:\nNo T&E or non-T&E minimum amount.\nl\nl\nJapan Domestic:\nFor T&E transactions, the minimum amount must be equal to or\ngreater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal to\nor greater than $10.00 CAD.\nl\nT&E and non-T&E, no minimum amount."
+        "Counterfeit Transaction\nAll Regions:\nDirect Marketing MCCs are prohibited.\nl\nMOTO/ECI must be spaces.\nl\nInternational:\nNo T&E or non-T&E minimum amount.\nl\nCanada Region:\nFor T&E transactions, the minimum amount must be equal to or\nl\ngreater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal to\nl\nor greater than $10.00 CAD.\nJapan Domestic:\nT&E and non-T&E, no minimum amount.\nl"
       ]
     },
     {
@@ -2013,7 +1998,7 @@
       "cells": [
         "70",
         "All",
-        "Card Recovery Bulletin or Exception File\nAll Regions:\nl\nl\nInternational:\nATM is prohibited.\nValidate against the Card Warning Bulletin.\nl\nl\nU.K. Domestic:\nFor T&E transactions, the minimum amount must be equal to or\ngreater than $25.00 USD.\nNo non-T&E minimum amount.\nl\nCanada Region:\nT&E and non-T&E, no minimum amount.\nl\nl\nJapan Domestic:\nFor T&E transactions, the minimum amount must be equal to or\ngreater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal to\nor greater than $10.00 CAD.\nl\nT&E and non-T&E, no minimum amount."
+        "Card Recovery Bulletin or Exception File\nAll Regions:\nATM is prohibited.\nl\nValidate against the Card Warning Bulletin.\nl\nInternational:\nFor T&E transactions, the minimum amount must be equal to or\nl\ngreater than $25.00 USD.\nNo non-T&E minimum amount.\nl\nU.K. Domestic:\nT&E and non-T&E, no minimum amount.\nl\nCanada Region:\nFor T&E transactions, the minimum amount must be equal to or\nl\ngreater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal to\nl\nor greater than $10.00 CAD.\nJapan Domestic:\nT&E and non-T&E, no minimum amount.\nl"
       ]
     },
     {
@@ -2038,7 +2023,7 @@
       "cells": [
         "71",
         "All",
-        "Declined Authorization\nAll Regions:\nl\nInternational:\nATM is prohibited.\nl\nl\nU.K. Domestic:\nFor T&E transactions, the minimum amount must be equal to or\ngreater than $25.00 USD.\nNo non-T&E minimum amount.\nl\nCanada Region:\nT&E and non-T&E, no minimum amount.\nl\nl\nJapan Domestic:\nFor T&E transactions, the minimum amount must be equal to or\ngreater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal to\nor greater than $10.00 CAD.\nl\nT&E and non-T&E, no minimum amount."
+        "Declined Authorization\nAll Regions:\nATM is prohibited.\nl\nInternational:\nFor T&E transactions, the minimum amount must be equal to or\nl\ngreater than $25.00 USD.\nNo non-T&E minimum amount.\nl\nU.K. Domestic:\nT&E and non-T&E, no minimum amount.\nl\nCanada Region:\nFor T&E transactions, the minimum amount must be equal to or\nl\ngreater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal to\nl\nor greater than $10.00 CAD.\nJapan Domestic:\nT&E and non-T&E, no minimum amount.\nl"
       ]
     },
     {
@@ -2047,7 +2032,7 @@
       "cells": [
         "72",
         "All",
-        "No Authorization\nAll Regions:\nl\nInternational:\nATM is prohibited.\nl\nl\nU.K. Domestic:\nFor T&E transactions, the minimum amount must be equal to or\ngreater than $25.00 USD.\nNo non-T&E minimum amount.\nl\nCanada Region:\nT&E and non-T&E, no minimum amount.\nl\nl\nJapan Domestic:\nFor T&E transactions, the minimum amount must be equal to or\ngreater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal to\nor greater than $10.00 CAD.\nl\nT&E and non-T&E, no minimum amount."
+        "No Authorization\nAll Regions:\nATM is prohibited.\nl\nInternational:\nFor T&E transactions, the minimum amount must be equal to or\nl\ngreater than $25.00 USD.\nNo non-T&E minimum amount.\nl\nU.K. Domestic:\nT&E and non-T&E, no minimum amount.\nl\nCanada Region:\nFor T&E transactions, the minimum amount must be equal to or\nl\ngreater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal to\nl\nor greater than $10.00 CAD.\nJapan Domestic:\nT&E and non-T&E, no minimum amount.\nl"
       ]
     },
     {
@@ -2072,7 +2057,7 @@
       "cells": [
         "73",
         "All",
-        "Expired Card\nAll Regions:\nl\nInternational:\nATM is prohibited.\nl\nl\nU.K. Domestic:\nFor T&E transactions, the minimum amount must be equal to or\ngreater than $25.00 USD.\nNo non-T&E minimum amount.\nl\nCanada Region:\nT&E and non-T&E, no minimum amount.\nl\nl\nJapan Domestic:\nFor T&E transactions, the minimum amount must be equal to or\ngreater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal to\nor greater than $10.00 CAD.\nl\nT&E and non-T&E, no minimum amount."
+        "Expired Card\nAll Regions:\nATM is prohibited.\nl\nInternational:\nFor T&E transactions, the minimum amount must be equal to or\nl\ngreater than $25.00 USD.\nNo non-T&E minimum amount.\nl\nU.K. Domestic:\nT&E and non-T&E, no minimum amount.\nl\nCanada Region:\nFor T&E transactions, the minimum amount must be equal to or\nl\ngreater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal to\nl\nor greater than $10.00 CAD.\nJapan Domestic:\nT&E and non-T&E, no minimum amount.\nl"
       ]
     },
     {
@@ -2081,7 +2066,7 @@
       "cells": [
         "74",
         "All",
-        "Late Presentment\nInternational:\nl\nl\nU.S. Domestic:\nFor T&E transactions, the minimum amount must be equal to or\ngreater than $25.00 USD.\nNo non-T&E minimum amount.\nl\nl\nU.K. Domestic:\nPlus ATM cash disbursement and alternate media transactions are\nprohibited.\nVisa ATM cash disbursement transaction is not allowed.\nl\nCanada Region:\nT&E and non-T&E, no minimum amount.\nl\nl\nJapan Domestic:\nFor T&E transactions, the minimum amount must be equal to or\ngreater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal to\nor greater than $10.00 CAD.\nl\nT&E and non-T&E, no minimum amount."
+        "Late Presentment\nInternational:\nFor T&E transactions, the minimum amount must be equal to or\nl\ngreater than $25.00 USD.\nNo non-T&E minimum amount.\nl\nU.S. Domestic:\nPlus ATM cash disbursement and alternate media transactions are\nl\nprohibited.\nVisa ATM cash disbursement transaction is not allowed.\nl\nU.K. Domestic:\nT&E and non-T&E, no minimum amount.\nl\nCanada Region:\nFor T&E transactions, the minimum amount must be equal to or\nl\ngreater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal to\nl\nor greater than $10.00 CAD.\nJapan Domestic:\nT&E and non-T&E, no minimum amount.\nl"
       ]
     },
     {
@@ -2106,7 +2091,7 @@
       "cells": [
         "75",
         "All",
-        "Transaction Not Recognized\nAll Regions:\nl\nl\nInternational:\nATM is prohibited.\nCannot be a Secure Electronic Commerce transaction.\nl\nl\nU.S. Region:\nNo T&E minimum amount.\nNo non-T&E minimum amount.\nl\nl\nl\nU.K. Domestic\nFor T&E transactions, the minimum amount must be equal to or\ngreater than $25.00 USD.\nNo non-T&E minimum amount.\nEPS not allowed.\nl\nCanada Region:\nT&E and non-T&E, no minimum amount.\nl\nl\nl\nJapan Domestic:\nFor T&E transactions, the minimum amount must be equal to or\ngreater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal to\nor greater than $10.00 CAD.\nNot valid for EPS/NSR Transactions\nl\nT&E and non-T&E, no minimum amount."
+        "Transaction Not Recognized\nAll Regions:\nATM is prohibited.\nl\nCannot be a Secure Electronic Commerce transaction.\nl\nInternational:\nNo T&E minimum amount.\nl\nNo non-T&E minimum amount.\nl\nU.S. Region:\nFor T&E transactions, the minimum amount must be equal to or\nl\ngreater than $25.00 USD.\nNo non-T&E minimum amount.\nl\nEPS not allowed.\nl\nU.K. Domestic\nT&E and non-T&E, no minimum amount.\nl\nCanada Region:\nFor T&E transactions, the minimum amount must be equal to or\nl\ngreater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal to\nl\nor greater than $10.00 CAD.\nNot valid for EPS/NSR Transactions\nl\nJapan Domestic:\nT&E and non-T&E, no minimum amount.\nl"
       ]
     },
     {
@@ -2131,7 +2116,7 @@
       "cells": [
         "76",
         "All",
-        "Incorrect Currency or Transaction Code or Domestic Transaction\nProcessing Violation\nInternational:\nl\nl\nU.K. Domestic:\nFor T&E transactions, the minimum amount must be equal to or\ngreater than $25.00 USD.\nNo non-T&E minimum amount.\nl\nCanada Region:\nT&E and non-T&E, no minimum amount.\nl\nl\nJapan Domestic:\nFor T&E transactions, the minimum amount must be equal to or\ngreater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal to\nor greater than $10.00 CAD.\nl\nT&E and non-T&E, no minimum amount."
+        "Incorrect Currency or Transaction Code or Domestic Transaction\nProcessing Violation\nInternational:\nFor T&E transactions, the minimum amount must be equal to or\nl\ngreater than $25.00 USD.\nNo non-T&E minimum amount.\nl\nU.K. Domestic:\nT&E and non-T&E, no minimum amount.\nl\nCanada Region:\nFor T&E transactions, the minimum amount must be equal to or\nl\ngreater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal to\nl\nor greater than $10.00 CAD.\nJapan Domestic:\nT&E and non-T&E, no minimum amount.\nl"
       ]
     },
     {
@@ -2140,7 +2125,7 @@
       "cells": [
         "77",
         "All",
-        "Non-Matching Account Number\nAll Regions:\nl\nInternational:\nATM is prohibited.\nl\nl\nU.K. Domestic:\nFor T&E transactions, the minimum amount must be equal to or\ngreater than $25.00 USD.\nNo non-T&E minimum amount.\nl\nCanada Region:\nT&E and non-T&E, no minimum amount.\nl\nl\nJapan Domestic:\nFor T&E transactions, the minimum amount must be equal to or\ngreater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal to\nor greater than $10.00 CAD.\nl\nT&E and non-T&E, no minimum amount."
+        "Non-Matching Account Number\nAll Regions:\nATM is prohibited.\nl\nInternational:\nFor T&E transactions, the minimum amount must be equal to or\nl\ngreater than $25.00 USD.\nNo non-T&E minimum amount.\nl\nU.K. Domestic:\nT&E and non-T&E, no minimum amount.\nl\nCanada Region:\nFor T&E transactions, the minimum amount must be equal to or\nl\ngreater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal to\nl\nor greater than $10.00 CAD.\nJapan Domestic:\nT&E and non-T&E, no minimum amount.\nl"
       ]
     },
     {
@@ -2165,7 +2150,7 @@
       "cells": [
         "78",
         "All (except US)",
-        "Service Code Violation\nAll Regions:\nl\nInternational:\nATM is prohibited.\nl\nl\nU.K. Domestic:\nFor T&E transactions, the minimum amount must be equal to or\ngreater than $25.00 USD.\nNo non-T&E minimum amount.\nl\nCanada Region:\nT&E and non-T&E, no minimum amount.\nl\nl\nJapan Domestic:\nFor T&E transactions, the minimum amount must be equal to or\ngreater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal to\nor greater than $10.00 CAD.\nl\nT&E and non-T&E, no minimum amount."
+        "Service Code Violation\nAll Regions:\nATM is prohibited.\nl\nInternational:\nFor T&E transactions, the minimum amount must be equal to or\nl\ngreater than $25.00 USD.\nNo non-T&E minimum amount.\nl\nU.K. Domestic:\nT&E and non-T&E, no minimum amount.\nl\nCanada Region:\nFor T&E transactions, the minimum amount must be equal to or\nl\ngreater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal to\nl\nor greater than $10.00 CAD.\nJapan Domestic:\nT&E and non-T&E, no minimum amount.\nl"
       ]
     },
     {
@@ -2174,7 +2159,7 @@
       "cells": [
         "80",
         "All",
-        "Incorrect Transaction Amount or Account Number\nAll Regions except U.S. Region:\nl\nInternational:\nATM is prohibited.\nl\nl\nU.K. Domestic:\nFor T&E transactions, the minimum amount must be equal to or\ngreater than $25.00 USD.\nNo non-T&E minimum amount.\nl\nCanada Region:\nT&E and non-T&E, no minimum amount.\nl\nl\nl\nJapan Domestic:\nEPS is not allowed.\nFor T&E transactions, the minimum amount must be equal to or\ngreater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal to\nor greater than $10.00 CAD.\nl\nT&E and non-T&E, no minimum amount."
+        "Incorrect Transaction Amount or Account Number\nAll Regions except U.S. Region:\nATM is prohibited.\nl\nInternational:\nFor T&E transactions, the minimum amount must be equal to or\nl\ngreater than $25.00 USD.\nNo non-T&E minimum amount.\nl\nU.K. Domestic:\nT&E and non-T&E, no minimum amount.\nl\nCanada Region:\nEPS is not allowed.\nl\nFor T&E transactions, the minimum amount must be equal to or\nl\ngreater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal to\nl\nor greater than $10.00 CAD.\nJapan Domestic:\nT&E and non-T&E, no minimum amount.\nl"
       ]
     },
     {
@@ -2199,7 +2184,7 @@
       "cells": [
         "81",
         "All",
-        "Fraud - Card-Present Environment\nAll Regions:\nl\nl\nInternational:\nMOTO/ECI must be spaces.\nDirect Marketing MCCs are prohibited.\nl\nl\nl\nU.S. Region:\nFor T&E transactions, the minimum amount must be equal to or\ngreater than $25.00 USD.\nNo non-T&E minimum amount.\nATM is prohibited\nl\nl\nAP Region:\nFor Automated Fuel Dispenser transactions, the minimum amount\nmust be equal to or greater than $10.00 USD.\nATM is prohibited\nl\nU.K. Domestic:\nEPS not allowed.\nl\nCanada Region:\nT&E and non-T&E, no minimum amount.\nl\nl\nl\nJapan Domestic:\nEPS is not allowed.\nFor T&E transactions, the minimum amount must be equal to or\ngreater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal to\nor greater than $10.00 CAD.\nl\nT&E and non-T&E, no minimum amount."
+        "Fraud - Card-Present Environment\nAll Regions:\nMOTO/ECI must be spaces.\nl\nDirect Marketing MCCs are prohibited.\nl\nInternational:\nFor T&E transactions, the minimum amount must be equal to or\nl\ngreater than $25.00 USD.\nNo non-T&E minimum amount.\nl\nATM is prohibited\nl\nU.S. Region:\nFor Automated Fuel Dispenser transactions, the minimum amount\nl\nmust be equal to or greater than $10.00 USD.\nATM is prohibited\nl\nAP Region:\nEPS not allowed.\nl\nU.K. Domestic:\nT&E and non-T&E, no minimum amount.\nl\nCanada Region:\nEPS is not allowed.\nl\nFor T&E transactions, the minimum amount must be equal to or\nl\ngreater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal to\nl\nor greater than $10.00 CAD.\nJapan Domestic:\nT&E and non-T&E, no minimum amount.\nl"
       ]
     },
     {
@@ -2224,7 +2209,7 @@
       "cells": [
         "82",
         "All",
-        "Duplicate Processing\nInternational:\nl\nl\nU.K. Domestic:\nFor T&E transactions, the minimum amount must be equal to or\ngreater than $25.00 USD.\nNo non-T&E minimum amount.\nl\nCanada Region:\nT&E and non-T&E, no minimum amount.\nl\nl\nJapan Domestic:\nFor T&E transactions, the minimum amount must be equal to or\ngreater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal to\nor greater than $10.00 CAD.\nl\nT&E and non-T&E, no minimum amount."
+        "Duplicate Processing\nInternational:\nFor T&E transactions, the minimum amount must be equal to or\nl\ngreater than $25.00 USD.\nNo non-T&E minimum amount.\nl\nU.K. Domestic:\nT&E and non-T&E, no minimum amount.\nl\nCanada Region:\nFor T&E transactions, the minimum amount must be equal to or\nl\ngreater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal to\nl\nor greater than $10.00 CAD.\nJapan Domestic:\nT&E and non-T&E, no minimum amount.\nl"
       ]
     },
     {
@@ -2233,7 +2218,7 @@
       "cells": [
         "83",
         "All",
-        "Fraud - Card-Absent Environment\nAll Regions:\nl\nl\nInternational:\nATM is prohibited.\nRestricted for use by Secure Electronic Commerce transactions,\nexcept by U.S. region.\nl\nl\nU.K. Domestic:\nFor T&E transactions, the minimum amount must be equal to or\ngreater than $25.00 USD.\nNo non-T&E minimum amount.\nl\nCanada Region:\nT&E and non-T&E, no minimum amount.\nl\nl\nJapan Domestic:\nFor T&E transactions, the minimum amount must be equal to or\ngreater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal to\nor greater than $10.00 CAD.\nl\nT&E and non-T&E, no minimum amount."
+        "Fraud - Card-Absent Environment\nAll Regions:\nATM is prohibited.\nl\nRestricted for use by Secure Electronic Commerce transactions,\nl\nexcept by U.S. region.\nInternational:\nFor T&E transactions, the minimum amount must be equal to or\nl\ngreater than $25.00 USD.\nNo non-T&E minimum amount.\nl\nU.K. Domestic:\nT&E and non-T&E, no minimum amount.\nl\nCanada Region:\nFor T&E transactions, the minimum amount must be equal to or\nl\ngreater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal to\nl\nor greater than $10.00 CAD.\nJapan Domestic:\nT&E and non-T&E, no minimum amount.\nl"
       ]
     },
     {
@@ -2258,7 +2243,7 @@
       "cells": [
         "85",
         "All",
-        "Credit Not Processed\nAll Regions:\nl\nInternational:\nATM is prohibited.\nl\nl\nU.K. Domestic:\nFor T&E transactions, the minimum amount must be equal to or\ngreater than $25.00 USD.\nNo non-T&E minimum amount.\nl\nCanada Region:\nT&E and non-T&E, no minimum amount.\nl\nl\nJapan Domestic:\nFor T&E transactions, the minimum amount must be equal to or\ngreater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal to\nor greater than $10.00 CAD.\nl\nT&E and non-T&E, no minimum amount."
+        "Credit Not Processed\nAll Regions:\nATM is prohibited.\nl\nInternational:\nFor T&E transactions, the minimum amount must be equal to or\nl\ngreater than $25.00 USD.\nNo non-T&E minimum amount.\nl\nU.K. Domestic:\nT&E and non-T&E, no minimum amount.\nl\nCanada Region:\nFor T&E transactions, the minimum amount must be equal to or\nl\ngreater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal to\nl\nor greater than $10.00 CAD.\nJapan Domestic:\nT&E and non-T&E, no minimum amount.\nl"
       ]
     },
     {
@@ -2283,7 +2268,7 @@
       "cells": [
         "86",
         "All",
-        "Paid by Other Means\nAll Regions:\nl\nInternational:\nATM is prohibited.\nl\nl\nU.S. Region:\nFor T&E transactions, the minimum amount must be equal to or\ngreater than $25.00 USD.\nNo non-T&E minimum amount.\nl\nAP Region:\nEPS not allowed.\nl\nU.K. Domestic:\nEPS not allowed.\nl\nCanada Region:\nT&E and non-T&E, no minimum amount.\nl\nl\nJapan Domestic:\nFor T&E transactions, the minimum amount must be equal to or\ngreater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal to\nor greater than $10.00 CAD.\nl\nT&E and non-T&E, no minimum amount."
+        "Paid by Other Means\nAll Regions:\nATM is prohibited.\nl\nInternational:\nFor T&E transactions, the minimum amount must be equal to or\nl\ngreater than $25.00 USD.\nNo non-T&E minimum amount.\nl\nU.S. Region:\nEPS not allowed.\nl\nAP Region:\nEPS not allowed.\nl\nU.K. Domestic:\nT&E and non-T&E, no minimum amount.\nl\nCanada Region:\nFor T&E transactions, the minimum amount must be equal to or\nl\ngreater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal to\nl\nor greater than $10.00 CAD.\nJapan Domestic:\nT&E and non-T&E, no minimum amount.\nl"
       ]
     },
     {
@@ -2308,7 +2293,7 @@
       "cells": [
         "90",
         "All",
-        "Non-Receipt of Cash or Load Transaction Value at ATM or Load\nDevice\nInternational:\nl\nU.S. Region:\nT&E and non-T&E, no minimum amount.\nl\nl\nU.K. Domestic:\nT&E and Non-T&E not allowed.\nValid for ATM only.\nl\nCanada Region:\nT&E and non-T&E, no minimum amount.\nl\nl\nJapan Domestic:\nFor T&E transactions, the minimum amount must be equal to or\ngreater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal to\nor greater than $10.00 CAD.\nl\nT&E and non-T&E, no minimum amount."
+        "Non-Receipt of Cash or Load Transaction Value at ATM or Load\nDevice\nInternational:\nT&E and non-T&E, no minimum amount.\nl\nU.S. Region:\nT&E and Non-T&E not allowed.\nl\nValid for ATM only.\nl\nU.K. Domestic:\nT&E and non-T&E, no minimum amount.\nl\nCanada Region:\nFor T&E transactions, the minimum amount must be equal to or\nl\ngreater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal to\nl\nor greater than $10.00 CAD.\nJapan Domestic:\nT&E and non-T&E, no minimum amount.\nl"
       ]
     },
     {
@@ -2317,7 +2302,7 @@
       "cells": [
         "93",
         "All",
-        "Merchant Fraud Performance\nAll Regions:\nl\nInternational:\nATM is prohibited.\nl\nU.K. Domestic:\nT&E and non-T&E, no minimum amount.\nl\nCanada Region:\nT&E and non-T&E, no minimum amount.\nl\nl\nJapan Domestic:\nFor T&E transactions, the minimum amount must be equal to or\ngreater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal to\nor greater than $10.00 CAD.\nl\nT&E and non-T&E, no minimum amount."
+        "Merchant Fraud Performance\nAll Regions:\nATM is prohibited.\nl\nInternational:\nT&E and non-T&E, no minimum amount.\nl\nU.K. Domestic:\nT&E and non-T&E, no minimum amount.\nl\nCanada Region:\nFor T&E transactions, the minimum amount must be equal to or\nl\ngreater than $25.00 CAD.\nFor non-T&E transactions, the minimum amount must be equal to\nl\nor greater than $10.00 CAD.\nJapan Domestic:\nT&E and non-T&E, no minimum amount.\nl"
       ]
     },
     {
@@ -2338,8 +2323,7 @@
       "type": "table_header",
       "page": 33,
       "cells": [
-        "l",
-        "Draft Data: TCR 3, Passenger Itinerary Data, Positions 142-145"
+        "l\nDraft Data: TCR 3, Passenger Itinerary Data, Positions 142-145"
       ]
     },
     {
@@ -2439,8 +2423,7 @@
       "type": "table_header",
       "page": 33,
       "cells": [
-        "l\nl",
-        "Draft Data: TCR 0, Position 25\nTC 33, RDMS and CRS: TCR 0 - CRS Issuer Advice, Position 161\nNote:\nIf the format is VML and the code is a space or zero, special attention must be paid because\nthe code could have two different meanings: 1) in VML the space or zero can mean not\napplicable, in which case the field should not be present in the transaction, or 2) if the space\nor zero has a business meaning, the field should be present in the transaction (for example, a\nspace may indicate eligibility for a particular fee type)."
+        "l\nDraft Data: TCR 0, Position 25\nTC 33, RDMS and CRS: TCR 0 - CRS Issuer Advice, Position 161\nl\nNote:\nIf the format is VML and the code is a space or zero, special attention must be paid because\nthe code could have two different meanings: 1) in VML the space or zero can mean not\napplicable, in which case the field should not be present in the transaction, or 2) if the space\nor zero has a business meaning, the field should be present in the transaction (for example, a\nspace may indicate eligibility for a particular fee type)."
       ]
     },
     {
@@ -2500,8 +2483,7 @@
       "type": "table_header",
       "page": 34,
       "cells": [
-        "l\nl",
-        "Draft Data: TCR 5, Position 168\nTC48, BASE 1 Advice: TCR1, ISO-Enriched, Position 11\nNote:\nIf the format is VML and the code is a space or zero, special attention must be paid because\nthe code could have two different meanings: 1) in VML the space or zero can mean not\napplicable, in which case the field should not be present in the transaction, or 2) if the space\nor zero has a business meaning, the field should be present in the transaction (for example, a\nspace may indicate eligibility for a particular fee type)."
+        "l\nDraft Data: TCR 5, Position 168\nTC48, BASE 1 Advice: TCR1, ISO-Enriched, Position 11\nl\nNote:\nIf the format is VML and the code is a space or zero, special attention must be paid because\nthe code could have two different meanings: 1) in VML the space or zero can mean not\napplicable, in which case the field should not be present in the transaction, or 2) if the space\nor zero has a business meaning, the field should be present in the transaction (for example, a\nspace may indicate eligibility for a particular fee type)."
       ]
     },
     {
@@ -2577,8 +2559,7 @@
       "type": "table_header",
       "page": 35,
       "cells": [
-        "l",
-        "TC 38, TCR 1 - Dispute Request and Ruling, Positions 17-18"
+        "l\nTC 38, TCR 1 - Dispute Request and Ruling, Positions 17-18"
       ]
     },
     {
@@ -2653,8 +2634,7 @@
       "type": "table_header",
       "page": 35,
       "cells": [
-        "l",
-        "TC 38, TCR 1 - Dispute Request and Ruling, Positions 31-32 (Return Reason Code)"
+        "l\nTC 38, TCR 1 - Dispute Request and Ruling, Positions 31-32 (Return Reason Code)"
       ]
     },
     {
@@ -2745,8 +2725,7 @@
       "type": "table_header",
       "page": 36,
       "cells": [
-        "l",
-        "TC 38, TCR 1 - Dispute Request and Ruling, Positions 33-34"
+        "l\nTC 38, TCR 1 - Dispute Request and Ruling, Positions 33-34"
       ]
     },
     {
@@ -2891,8 +2870,7 @@
       "type": "table_header",
       "page": 37,
       "cells": [
-        "l\nl",
-        "TC 10, Fee Collection: TCR 0, Positions 17-20\nTC 20, Funds Disbursement: TCR 0, Positions 17-20\nNote:\nMaximum Amount listed is in U.S. dollars. If the Source Currency Code is not 840 (U.S. Dollar),\nthe Source Amount cannot exceed the equivalent U.S. maximum. The transaction amount\nlimit for a Fee Collection/Funds Disbursement transaction when collected from a client bank\nis 500000.00 USD and when collected from a Visa internal identifier is 10000000.00 USD.\nNote:\nIf the format is VML and the code is a space or zero, special attention must be paid because\nthe code could have two different meanings: 1) in VML the space or zero can mean not\napplicable, in which case the field should not be present in the transaction, or 2) if the space\nor zero has a business meaning, the field should be present in the transaction (for example, a\nspace may indicate eligibility for a particular fee type)."
+        "l\nTC 10, Fee Collection: TCR 0, Positions 17-20\nTC 20, Funds Disbursement: TCR 0, Positions 17-20\nl\nNote:\nMaximum Amount listed is in U.S. dollars. If the Source Currency Code is not 840 (U.S. Dollar),\nthe Source Amount cannot exceed the equivalent U.S. maximum. The transaction amount\nlimit for a Fee Collection/Funds Disbursement transaction when collected from a client bank\nis 500000.00 USD and when collected from a Visa internal identifier is 10000000.00 USD.\nNote:\nIf the format is VML and the code is a space or zero, special attention must be paid because\nthe code could have two different meanings: 1) in VML the space or zero can mean not\napplicable, in which case the field should not be present in the transaction, or 2) if the space\nor zero has a business meaning, the field should be present in the transaction (for example, a\nspace may indicate eligibility for a particular fee type)."
       ]
     },
     {
@@ -2924,7 +2902,7 @@
       "cells": [
         "0100",
         "$499.00",
-        "Telex, Telephone and Cable Charges\nl\nl\nl\nMay not be used by U.S. clients to collect from other U.S. clients.\nA Country Code is required.\nThe Account Number field must contain a valid account number."
+        "Telex, Telephone and Cable Charges\nMay not be used by U.S. clients to collect from other U.S. clients.\nl\nA Country Code is required.\nl\nThe Account Number field must contain a valid account number.\nl"
       ]
     },
     {
@@ -2933,7 +2911,7 @@
       "cells": [
         "0110",
         "$499.00",
-        "Auto-Telex Charges\nl\nl\nMay not be used by U.S. clients to collect from other U.S. clients.\nThe Account Number field must contain a valid account number."
+        "Auto-Telex Charges\nMay not be used by U.S. clients to collect from other U.S. clients.\nl\nThe Account Number field must contain a valid account number.\nl"
       ]
     },
     {
@@ -2942,7 +2920,7 @@
       "cells": [
         "0130",
         "$499.00",
-        "Lost/Stolen Card Report Fees\nl\nThe Account Number field must contain a valid account number."
+        "Lost/Stolen Card Report Fees\nThe Account Number field must contain a valid account number.\nl"
       ]
     },
     {
@@ -2951,7 +2929,7 @@
       "cells": [
         "0140",
         "$9,999.00",
-        "Merchant Service Fees\nl\nl\nMay not be used by U.S. clients to collect from other U.S. clients.\nThe Account Number field must contain zeros."
+        "Merchant Service Fees\nMay not be used by U.S. clients to collect from other U.S. clients.\nl\nThe Account Number field must contain zeros.\nl"
       ]
     },
     {
@@ -2960,7 +2938,7 @@
       "cells": [
         "0150",
         "$499.00",
-        "Recovered Card Handling Fees/Rewards\nl\nThe Account Number field must contain a valid account number.\nATM Balance Inquiry acquiring direct fee returns\nNote:   This code is available for ATM Balance Inquiry acquiring\ndirect fee participants in AP region only."
+        "Recovered Card Handling Fees/Rewards\nThe Account Number field must contain a valid account number.\nl\nATM Balance Inquiry acquiring direct fee returns\nNote:   This code is available for ATM Balance Inquiry acquiring\ndirect fee participants in AP region only."
       ]
     },
     {
@@ -2969,7 +2947,7 @@
       "cells": [
         "0160",
         "$99.00",
-        "Invalid Cab Dispute Financial Handling Fee\nl\nThe Account Number field must contain a valid account number."
+        "Invalid Cab Dispute Financial Handling Fee\nThe Account Number field must contain a valid account number.\nl"
       ]
     },
     {
@@ -2978,7 +2956,7 @@
       "cells": [
         "0170",
         "$99.00",
-        "Recovery of Microfilm Copy/Original Fees\n(In the U.S., Recovery of Copy/Original or Substitute Draft Fees)\nl\nThe Account Number field must contain a valid account number."
+        "Recovery of Microfilm Copy/Original Fees\n(In the U.S., Recovery of Copy/Original or Substitute Draft Fees)\nThe Account Number field must contain a valid account number.\nl"
       ]
     },
     {
@@ -2987,7 +2965,7 @@
       "cells": [
         "0190",
         "None",
-        "Premium Card Guaranty Check\nl\nThe Account Number field must contain a valid account number."
+        "Premium Card Guaranty Check\nThe Account Number field must contain a valid account number.\nl"
       ]
     },
     {
@@ -2996,7 +2974,7 @@
       "cells": [
         "0200",
         "None",
-        "Emergency Replacement Card Distribution Fee\nl\nThe Account Number field must contain a valid account number."
+        "Emergency Replacement Card Distribution Fee\nThe Account Number field must contain a valid account number.\nl"
       ]
     },
     {
@@ -3021,7 +2999,7 @@
       "cells": [
         "0210",
         "None",
-        "Emergency Cash Disbursement Handling Fee\nl\nThe Account Number field must contain a valid account number."
+        "Emergency Cash Disbursement Handling Fee\nThe Account Number field must contain a valid account number.\nl"
       ]
     },
     {
@@ -3030,7 +3008,7 @@
       "cells": [
         "0220",
         "None",
-        "Arbitration Case Decision and/or Request Fee\n(In the U.S., Arbitration/Compliance Case Decision and/or Request Fee)\nl\nThe Account Number field must contain a valid account number."
+        "Arbitration Case Decision and/or Request Fee\n(In the U.S., Arbitration/Compliance Case Decision and/or Request Fee)\nThe Account Number field must contain a valid account number.\nl"
       ]
     },
     {
@@ -3039,7 +3017,7 @@
       "cells": [
         "0230",
         "$99.99",
-        "Incorrect Merchant Identification/Transaction Date Handling Fee\nl\nl\nMay be used only by U.S. clients to collect from other U.S. clients.\nThe Account Number field must contain a valid account number."
+        "Incorrect Merchant Identification/Transaction Date Handling Fee\nMay be used only by U.S. clients to collect from other U.S. clients.\nl\nThe Account Number field must contain a valid account number.\nl"
       ]
     },
     {
@@ -3048,7 +3026,7 @@
       "cells": [
         "0240",
         "None",
-        "Funds Disbursement Transactions\nl\nl\nThe Account Number field must contain a valid account number.\nA Country Code field must contain spaces."
+        "Funds Disbursement Transactions\nThe Account Number field must contain a valid account number.\nl\nA Country Code field must contain spaces.\nl"
       ]
     },
     {
@@ -3057,7 +3035,7 @@
       "cells": [
         "0250",
         "$25.00",
-        "Invalid Dispute Financial Handling Fee\nl\nMay be used only by U.S. clients to collect from other U.S. clients."
+        "Invalid Dispute Financial Handling Fee\nMay be used only by U.S. clients to collect from other U.S. clients.\nl"
       ]
     },
     {
@@ -3066,7 +3044,7 @@
       "cells": [
         "0300",
         "None",
-        "Bill Payment Service (Canada and Brazil only)\nl\nl\nA Country Code is required.\nThe Account Number field must contain a valid account number."
+        "Bill Payment Service (Canada and Brazil only)\nA Country Code is required.\nl\nThe Account Number field must contain a valid account number.\nl"
       ]
     },
     {
@@ -3075,7 +3053,7 @@
       "cells": [
         "0350",
         "None",
-        "Pre-arbitration Settlement Funds Disbursement\nl\nThe Account Number field must contain a valid account number."
+        "Pre-arbitration Settlement Funds Disbursement\nThe Account Number field must contain a valid account number.\nl"
       ]
     },
     {
@@ -3084,7 +3062,7 @@
       "cells": [
         "0390",
         "None",
-        "Visa TravelMoney Fees\nl\nl\nl\nThe Account Number field must contain zeros.\nThe transaction is initiated by Visa.\nThe Country Code is required."
+        "Visa TravelMoney Fees\nThe Account Number field must contain zeros.\nl\nThe transaction is initiated by Visa.\nl\nThe Country Code is required.\nl"
       ]
     },
     {
@@ -3102,7 +3080,7 @@
       "cells": [
         "0402",
         "None",
-        "Prepaid Funds Collection\nl\nl\nMay not be used by U.S. clients.\nAccount Number field not required but may be present"
+        "Prepaid Funds Collection\nMay not be used by U.S. clients.\nl\nAccount Number field not required but may be present\nl"
       ]
     },
     {
@@ -3111,7 +3089,7 @@
       "cells": [
         "5000",
         "None",
-        "Card Recovery Bulletin\nl\nl\nl\nIncoming only (transaction initiated by Visa).\nThe Account Number field must contain zeros.\nThe Country Code must be spaces."
+        "Card Recovery Bulletin\nIncoming only (transaction initiated by Visa).\nl\nThe Account Number field must contain zeros.\nl\nThe Country Code must be spaces.\nl"
       ]
     },
     {
@@ -3136,7 +3114,7 @@
       "cells": [
         "5010",
         "None",
-        "Visa Integrated Billing Statement\nl\nl\nl\nIncoming only (transaction initiated by Visa).\nThe Account Number field must contain zeros.\nThe Country Code must be spaces."
+        "Visa Integrated Billing Statement\nIncoming only (transaction initiated by Visa).\nl\nThe Account Number field must contain zeros.\nl\nThe Country Code must be spaces.\nl"
       ]
     },
     {
@@ -3145,7 +3123,7 @@
       "cells": [
         "5015",
         "None",
-        "Supermarket Incentive Program Fee\nl\nl\nl\nIncoming only (transaction initiated by Visa).\nThe Account Number field must contain zeros.\nThe Country Code must be spaces."
+        "Supermarket Incentive Program Fee\nIncoming only (transaction initiated by Visa).\nl\nThe Account Number field must contain zeros.\nl\nThe Country Code must be spaces.\nl"
       ]
     },
     {
@@ -3154,7 +3132,7 @@
       "cells": [
         "5020",
         "None",
-        "Arbitration Request/Review\nl\nl\nl\nIncoming only (transaction initiated by Visa).\nThe Account Number field must contain zeros.\nThe Country Code must be spaces."
+        "Arbitration Request/Review\nIncoming only (transaction initiated by Visa).\nl\nThe Account Number field must contain zeros.\nl\nThe Country Code must be spaces.\nl"
       ]
     },
     {
@@ -3163,7 +3141,7 @@
       "cells": [
         "5030",
         "None",
-        "BASE II Access Fee\nl\nl\nl\nIncoming only (transaction initiated by Visa).\nThe Account Number field must contain zeros.\nThe Country Code must be spaces."
+        "BASE II Access Fee\nIncoming only (transaction initiated by Visa).\nl\nThe Account Number field must contain zeros.\nl\nThe Country Code must be spaces.\nl"
       ]
     },
     {
@@ -3172,7 +3150,7 @@
       "cells": [
         "5040",
         "None",
-        "Miscellaneous Fees or Charges\nl\nl\nl\nIncoming only (transaction initiated by Visa).\nThe Account Number field must contain zeros.\nThe Country Code must be spaces."
+        "Miscellaneous Fees or Charges\nIncoming only (transaction initiated by Visa).\nl\nThe Account Number field must contain zeros.\nl\nThe Country Code must be spaces.\nl"
       ]
     },
     {
@@ -3181,7 +3159,7 @@
       "cells": [
         "5050",
         "None",
-        "Issuers' Clearinghouse Service Fee\nl\nl\nl\nIncoming only (transaction initiated by Visa).\nThe Account Number field must contain zeros.\nThe Country Code must be spaces."
+        "Issuers' Clearinghouse Service Fee\nIncoming only (transaction initiated by Visa).\nl\nThe Account Number field must contain zeros.\nl\nThe Country Code must be spaces.\nl"
       ]
     },
     {
@@ -3190,7 +3168,7 @@
       "cells": [
         "5060",
         "None",
-        "Risk Identification Service Merchant Fees\nl\nl\nl\nIncoming only (transaction initiated by Visa).\nThe Account Number field must contain zeros.\nThe Country Code must be spaces."
+        "Risk Identification Service Merchant Fees\nIncoming only (transaction initiated by Visa).\nl\nThe Account Number field must contain zeros.\nl\nThe Country Code must be spaces.\nl"
       ]
     },
     {
@@ -3215,7 +3193,7 @@
       "cells": [
         "5080",
         "None",
-        "Late Settlement Fee\nl\nl\nl\nl\nMay not be used by U.S. clients to collect from other U.S. clients.\nIncoming only (transaction initiated by Visa).\nThe Account Number field must contain zeros.\nThe Country Code must be spaces."
+        "Late Settlement Fee\nMay not be used by U.S. clients to collect from other U.S. clients.\nl\nIncoming only (transaction initiated by Visa).\nl\nThe Account Number field must contain zeros.\nl\nThe Country Code must be spaces.\nl"
       ]
     },
     {
@@ -3224,7 +3202,7 @@
       "cells": [
         "5090",
         "None",
-        "Visa Account Tracking Service\nl\nl\nl\nIncoming only (transaction initiated by Visa).\nThe Account Number field must contain zeros.\nThe Country Code must be spaces."
+        "Visa Account Tracking Service\nIncoming only (transaction initiated by Visa).\nl\nThe Account Number field must contain zeros.\nl\nThe Country Code must be spaces.\nl"
       ]
     },
     {
@@ -3233,7 +3211,7 @@
       "cells": [
         "5100",
         "$99.00",
-        "Emergency Travelers Cheque Refund Handling Fee\nl\nl\nl\nIncoming only (transaction initiated by Visa).\nThe Account Number field must contain zeros.\nThe Country Code must be spaces."
+        "Emergency Travelers Cheque Refund Handling Fee\nIncoming only (transaction initiated by Visa).\nl\nThe Account Number field must contain zeros.\nl\nThe Country Code must be spaces.\nl"
       ]
     },
     {
@@ -3242,7 +3220,7 @@
       "cells": [
         "5110",
         "None",
-        "Returned Guaranteed Check\nl\nl\nl\nIncoming only (transaction initiated by Visa).\nThe Account Number field must contain zeros.\nThe Country Code must be spaces."
+        "Returned Guaranteed Check\nIncoming only (transaction initiated by Visa).\nl\nThe Account Number field must contain zeros.\nl\nThe Country Code must be spaces.\nl"
       ]
     },
     {
@@ -3251,7 +3229,7 @@
       "cells": [
         "5120",
         "None",
-        "Value-Added Tax\nl\nl\nl\nl\nMay not be used by U.S. clients to collect from other U.S. clients.\nIncoming only (transaction initiated by Visa).\nThe Account Number field must contain zeros.\nThe Country Code must be spaces."
+        "Value-Added Tax\nMay not be used by U.S. clients to collect from other U.S. clients.\nl\nIncoming only (transaction initiated by Visa).\nl\nThe Account Number field must contain zeros.\nl\nThe Country Code must be spaces.\nl"
       ]
     },
     {
@@ -3260,7 +3238,7 @@
       "cells": [
         "5130",
         "None",
-        "VSIL Fee Collection\nl\nl\nl\nl\nMay not be used by U.S. clients to collect from other U.S. clients.\nIncoming only (transaction initiated by Visa).\nThe Account Number field must contain zeros.\nThe Country Code must be spaces."
+        "VSIL Fee Collection\nMay not be used by U.S. clients to collect from other U.S. clients.\nl\nIncoming only (transaction initiated by Visa).\nl\nThe Account Number field must contain zeros.\nl\nThe Country Code must be spaces.\nl"
       ]
     },
     {
@@ -3269,7 +3247,7 @@
       "cells": [
         "5140",
         "None",
-        "ISO/Non-Member Agent Registration Fee/Annual Fee\nl\nl\nl\nIncoming only (transaction initiated by Visa).\nThe Account Number field must contain zeros.\nThe Country Code must be spaces."
+        "ISO/Non-Member Agent Registration Fee/Annual Fee\nIncoming only (transaction initiated by Visa).\nl\nThe Account Number field must contain zeros.\nl\nThe Country Code must be spaces.\nl"
       ]
     },
     {
@@ -3294,7 +3272,7 @@
       "cells": [
         "5150",
         "$100.00",
-        "Dispute Financial Handling Fee\nl\nl\nl\nIncoming only (transaction initiated by Visa).\nThe Account Number field must contain a valid account number.\nThe Country Code must be spaces."
+        "Dispute Financial Handling Fee\nIncoming only (transaction initiated by Visa).\nl\nThe Account Number field must contain a valid account number.\nl\nThe Country Code must be spaces.\nl"
       ]
     },
     {
@@ -3303,7 +3281,7 @@
       "cells": [
         "5160",
         "$29.99",
-        "Fulfillment Incentive Fee\nl\nl\nl\nIncoming only (transaction initiated by Visa).\nThe Account Number field must contain zeros.\nThe Country Code must be spaces."
+        "Fulfillment Incentive Fee\nIncoming only (transaction initiated by Visa).\nl\nThe Account Number field must contain zeros.\nl\nThe Country Code must be spaces.\nl"
       ]
     },
     {
@@ -3312,7 +3290,7 @@
       "cells": [
         "5165",
         "$19,999.99",
-        "VisaNet Copy Request and Fulfillment Service Monthly Access and Activity\nCharges\nl\nl\nl\nIncoming only (transaction initiated by Visa).\nThe Account Number field must contain zeros.\nThe Country Code must be spaces."
+        "VisaNet Copy Request and Fulfillment Service Monthly Access and Activity\nCharges\nIncoming only (transaction initiated by Visa).\nl\nThe Account Number field must contain zeros.\nl\nThe Country Code must be spaces.\nl"
       ]
     },
     {
@@ -3321,7 +3299,7 @@
       "cells": [
         "5170",
         "$29.99",
-        "Nonfulfillment Incentive Fee\nl\nl\nl\nIncoming only (transaction initiated by Visa).\nThe Account Number field must contain zeros.\nThe Country Code must be spaces."
+        "Nonfulfillment Incentive Fee\nIncoming only (transaction initiated by Visa).\nl\nThe Account Number field must contain zeros.\nl\nThe Country Code must be spaces.\nl"
       ]
     },
     {
@@ -3330,7 +3308,7 @@
       "cells": [
         "5180",
         "None",
-        "Merchant Review Fee\nl\nl\nl\nThe transaction is initiated by Visa.\nThe Account Number field must contain zeros.\nThe Country Code must be spaces."
+        "Merchant Review Fee\nThe transaction is initiated by Visa.\nl\nThe Account Number field must contain zeros.\nl\nThe Country Code must be spaces.\nl"
       ]
     },
     {
@@ -3339,7 +3317,7 @@
       "cells": [
         "5185",
         "None",
-        "Membership Compliance Fees and Penalties\nl\nl\nl\nThe Account Number field must contain zeros.\nThe transaction is initiated by Visa.\nThe Country Code must be spaces."
+        "Membership Compliance Fees and Penalties\nThe Account Number field must contain zeros.\nl\nThe transaction is initiated by Visa.\nl\nThe Country Code must be spaces.\nl"
       ]
     },
     {
@@ -3348,7 +3326,7 @@
       "cells": [
         "5190",
         "None",
-        "Numeric Licensing and Administration Program Fees\nl\nl\nl\nThe Account Number field must contain zeros.\nThe transaction is initiated by Visa.\nThe Country Code must be spaces."
+        "Numeric Licensing and Administration Program Fees\nThe Account Number field must contain zeros.\nl\nThe transaction is initiated by Visa.\nl\nThe Country Code must be spaces.\nl"
       ]
     },
     {
@@ -3373,7 +3351,7 @@
       "cells": [
         "5195",
         "None",
-        "Sponsored Member Registration Fees\nl\nl\nl\nThe Account Number field must contain zeros.\nThe transaction is initiated by Visa.\nThe Country Code must be spaces."
+        "Sponsored Member Registration Fees\nThe Account Number field must contain zeros.\nl\nThe transaction is initiated by Visa.\nl\nThe Country Code must be spaces.\nl"
       ]
     },
     {
@@ -3382,7 +3360,7 @@
       "cells": [
         "5210",
         "None",
-        "Merchant Data Inaccuracy. BASE II checks only for the value.\nl\nl\nl\nThe transaction is initiated by Visa.\nThe Account Number field must contain zeros.\nThe Country Code must be spaces."
+        "Merchant Data Inaccuracy. BASE II checks only for the value.\nThe transaction is initiated by Visa.\nl\nThe Account Number field must contain zeros.\nl\nThe Country Code must be spaces.\nl"
       ]
     },
     {
@@ -3391,7 +3369,7 @@
       "cells": [
         "5240",
         "None",
-        "Interchange Data Forms\nl\nl\nl\nThe Account Number field must contain zeros.\nThe transaction is initiated by Visa.\nThe Country Code must be spaces."
+        "Interchange Data Forms\nThe Account Number field must contain zeros.\nl\nThe transaction is initiated by Visa.\nl\nThe Country Code must be spaces.\nl"
       ]
     },
     {
@@ -3400,7 +3378,7 @@
       "cells": [
         "5245",
         "None",
-        "Service Fees/Late Payments\nl\nl\nl\nThe Account Number field must contain zeros.\nThe transaction is initiated by Visa.\nThe Country Code must be spaces."
+        "Service Fees/Late Payments\nThe Account Number field must contain zeros.\nl\nThe transaction is initiated by Visa.\nl\nThe Country Code must be spaces.\nl"
       ]
     },
     {
@@ -3409,7 +3387,7 @@
       "cells": [
         "5250",
         "None",
-        "Indemnification\nl\nl\nl\nThe Account Number field must contain zeros.\nThe transaction is initiated by Visa.\nThe Country Code must be spaces."
+        "Indemnification\nThe Account Number field must contain zeros.\nl\nThe transaction is initiated by Visa.\nl\nThe Country Code must be spaces.\nl"
       ]
     },
     {
@@ -3418,7 +3396,7 @@
       "cells": [
         "5260",
         "None",
-        "Visa TravelMoney Issuer Reimbursement\nl\nl\nl\nThe Account Number field must contain zeros.\nThe transaction is initiated by Visa.\nThe Country Code is required."
+        "Visa TravelMoney Issuer Reimbursement\nThe Account Number field must contain zeros.\nl\nThe transaction is initiated by Visa.\nl\nThe Country Code is required.\nl"
       ]
     },
     {
@@ -3427,7 +3405,7 @@
       "cells": [
         "5270",
         "None",
-        "Collateral Funds\nl\nl\nl\nThe Account Number field must contain zeros.\nThe transaction is initiated by Visa.\nThe Country Code must be spaces."
+        "Collateral Funds\nThe Account Number field must contain zeros.\nl\nThe transaction is initiated by Visa.\nl\nThe Country Code must be spaces.\nl"
       ]
     },
     {
@@ -3452,7 +3430,7 @@
       "cells": [
         "5280",
         "None",
-        "Stored-Value Card Purchase Settlement\nl\nl\nl\nl\nThe Account Number field must contain zeros.\nThe transaction is initiated by Visa.\nThe Country Code must be spaces.\nMaximum Amount = None."
+        "Stored-Value Card Purchase Settlement\nThe Account Number field must contain zeros.\nl\nThe transaction is initiated by Visa.\nl\nThe Country Code must be spaces.\nl\nMaximum Amount = None.\nl"
       ]
     },
     {
@@ -3461,7 +3439,7 @@
       "cells": [
         "5282",
         "None",
-        "Stored-Value Card Allocated Discrepancies\nl\nl\nl\nl\nThe Account Number field must contain zeros.\nThe transaction is initiated by Visa.\nThe Country Code must be spaces.\nMaximum Amount = None."
+        "Stored-Value Card Allocated Discrepancies\nThe Account Number field must contain zeros.\nl\nThe transaction is initiated by Visa.\nl\nThe Country Code must be spaces.\nl\nMaximum Amount = None.\nl"
       ]
     },
     {
@@ -3470,7 +3448,7 @@
       "cells": [
         "5284",
         "None",
-        "Stored-Value Card Manual Adjustment Settlement\nl\nl\nl\nl\nThe Account Number field must contain zeros.\nThe transaction is initiated by Visa.\nThe Country Code must be spaces.\nMaximum Amount = None."
+        "Stored-Value Card Manual Adjustment Settlement\nThe Account Number field must contain zeros.\nl\nThe transaction is initiated by Visa.\nl\nThe Country Code must be spaces.\nl\nMaximum Amount = None.\nl"
       ]
     },
     {
@@ -3479,7 +3457,7 @@
       "cells": [
         "5286",
         "None",
-        "Stored-Value Card Reserved\nl\nl\nl\nl\nThe Account Number field must contain zeros.\nThe transaction is initiated by Visa.\nThe Country Code must be spaces.\nMaximum Amount = None."
+        "Stored-Value Card Reserved\nThe Account Number field must contain zeros.\nl\nThe transaction is initiated by Visa.\nl\nThe Country Code must be spaces.\nl\nMaximum Amount = None.\nl"
       ]
     },
     {
@@ -3488,7 +3466,7 @@
       "cells": [
         "5290",
         "None",
-        "Corporate Indemnification of Settlement Risk\nl\nl\nl\nIncoming only (transaction initiated by Visa).\nThe Account Number field must contain zeros.\nThe Country Code must be spaces."
+        "Corporate Indemnification of Settlement Risk\nIncoming only (transaction initiated by Visa).\nl\nThe Account Number field must contain zeros.\nl\nThe Country Code must be spaces.\nl"
       ]
     },
     {
@@ -3497,7 +3475,7 @@
       "cells": [
         "5300",
         "None",
-        "Promotion Credit Reward Funding\nl\nl\nl\nIncoming only (transaction initiated by Visa).\nThe Account Number field must contain zeros.\nThe Country Code must be spaces."
+        "Promotion Credit Reward Funding\nIncoming only (transaction initiated by Visa).\nl\nThe Account Number field must contain zeros.\nl\nThe Country Code must be spaces.\nl"
       ]
     },
     {
@@ -3531,7 +3509,7 @@
       "cells": [
         "5320",
         "None",
-        "Member-Provided Reimbursement Fee\nl\nl\nl\nIncoming only (transaction initiated by Visa).\nThe Account Number field must contain a valid account number.\nThe Country Code must be spaces."
+        "Member-Provided Reimbursement Fee\nIncoming only (transaction initiated by Visa).\nl\nThe Account Number field must contain a valid account number.\nl\nThe Country Code must be spaces.\nl"
       ]
     },
     {
@@ -3576,7 +3554,7 @@
       "cells": [
         "5510",
         "None",
-        "VIS Installment Funding Fee\nl\nl\nl\nIncoming only (transaction initiated by Visa).\nThe Account Number field must contain zeros.\nThe Country Code must be spaces."
+        "VIS Installment Funding Fee\nIncoming only (transaction initiated by Visa).\nl\nThe Account Number field must contain zeros.\nl\nThe Country Code must be spaces.\nl"
       ]
     },
     {
@@ -3585,7 +3563,7 @@
       "cells": [
         "5510",
         "None",
-        "VIS Installment Funding Fee Credit\nl\nl\nl\nIncoming only (transaction initiated by Visa).\nThe Account Number field must contain zeros.\nThe Country Code must be spaces."
+        "VIS Installment Funding Fee Credit\nIncoming only (transaction initiated by Visa).\nl\nThe Account Number field must contain zeros.\nl\nThe Country Code must be spaces.\nl"
       ]
     },
     {
@@ -3594,7 +3572,7 @@
       "cells": [
         "5560",
         "None",
-        "VIS Installment Service Fee\nl\nl\nl\nIncoming only (transaction initiated by Visa).\nThe Account Number field must contain zeros.\nThe Country Code must be spaces."
+        "VIS Installment Service Fee\nIncoming only (transaction initiated by Visa).\nl\nThe Account Number field must contain zeros.\nl\nThe Country Code must be spaces.\nl"
       ]
     },
     {
@@ -3793,8 +3771,7 @@
       "type": "table_header",
       "page": 46,
       "cells": [
-        "l\nl",
-        "Draft Data: TCR 1 - Fee Program Indicator, Positions 76-78\nTC 04, Reclassification Advice: TCR 9, Positions 113-115 and 116-118"
+        "l\nDraft Data: TCR 1 - Fee Program Indicator, Positions 76-78\nTC 04, Reclassification Advice: TCR 9, Positions 113-115 and 116-118\nl"
       ]
     },
     {
@@ -3822,8 +3799,7 @@
       "type": "table_header",
       "page": 46,
       "cells": [
-        "l",
-        "Draft Data: TCR 0, Position 24\nNote:\nIf the format is VML and the code is a space or zero, special attention must be paid because\nthe code could have two different meanings: 1) in VML the space or zero can mean not\napplicable, in which case the field should not be present in the transaction, or 2) if the space\nor zero has a business meaning, the field should be present in the transaction (for example, a\nspace may indicate eligibility for a particular fee type)."
+        "l\nDraft Data: TCR 0, Position 24\nNote:\nIf the format is VML and the code is a space or zero, special attention must be paid because\nthe code could have two different meanings: 1) in VML the space or zero can mean not\napplicable, in which case the field should not be present in the transaction, or 2) if the space\nor zero has a business meaning, the field should be present in the transaction (for example, a\nspace may indicate eligibility for a particular fee type)."
       ]
     },
     {
@@ -3907,8 +3883,7 @@
       "type": "table_header",
       "page": 47,
       "cells": [
-        "l",
-        "Draft Data: TCR 3 (Business Format Code FL and FT)"
+        "l\nDraft Data: TCR 3 (Business Format Code FL and FT)"
       ]
     },
     {
@@ -3936,8 +3911,7 @@
       "type": "table_header",
       "page": 47,
       "cells": [
-        "l\nl",
-        "Draft Data: TCR 3 - Lodging, Positions 28-33\nTC 57, Data Capture Advice: TCR 4 - Industry-Specific Data—Lodging, Positions 28-33\nNote:\nIf the format is VML and the code is a space or zero, special attention must be paid because\nthe code could have two different meanings: 1) in VML the space or zero can mean not\napplicable, in which case the field should not be present in the transaction, or 2) if the space\nor zero has a business meaning, the field should be present in the transaction (for example, a\nspace may indicate eligibility for a particular fee type)."
+        "l\nDraft Data: TCR 3 - Lodging, Positions 28-33\nTC 57, Data Capture Advice: TCR 4 - Industry-Specific Data—Lodging, Positions 28-33\nl\nNote:\nIf the format is VML and the code is a space or zero, special attention must be paid because\nthe code could have two different meanings: 1) in VML the space or zero can mean not\napplicable, in which case the field should not be present in the transaction, or 2) if the space\nor zero has a business meaning, the field should be present in the transaction (for example, a\nspace may indicate eligibility for a particular fee type)."
       ]
     },
     {
@@ -4029,8 +4003,7 @@
       "type": "table_header",
       "page": 48,
       "cells": [
-        "l\nl",
-        "Draft Data: TCR 3 - Lodging, Position 27\nTC 57, Data Capture Advice: TCR 4 - Industry-Specific Data—Lodging, Position 27"
+        "l\nDraft Data: TCR 3 - Lodging, Position 27\nTC 57, Data Capture Advice: TCR 4 - Industry-Specific Data—Lodging, Position 27\nl"
       ]
     },
     {
@@ -4082,8 +4055,7 @@
       "type": "table_header",
       "page": 48,
       "cells": [
-        "l\nl",
-        "Draft Data: TCR 1 - Additional Data, Position 116\nTC 57, Data Capture Advice: TCR 0 - Transaction Detail, Position 111"
+        "l\nDraft Data: TCR 1 - Additional Data, Position 116\nTC 57, Data Capture Advice: TCR 0 - Transaction Detail, Position 111\nl"
       ]
     },
     {
@@ -4224,8 +4196,7 @@
       "type": "table_header",
       "page": 50,
       "cells": [
-        "l\nl\nl",
-        "Draft Data: TCR 5 - Payment Service Data, Position 49\nTC 48, BASE I Advice: TCR 2 - ISO-Enriched, Position 61\nTC 57, Data Capture Advice: TCR 3 - Transaction Detail, Payment Service Data, Position 42\nNote:\nIf the format is VML and the code is a space or zero, special attention must be paid because\nthe code could have two different meanings: 1) in VML, the space or zero can mean not\napplicable, in which case the field should not be present in the transaction, or 2) if the space\nor zero has a business meaning, the field should be present in the transaction, (for example, a\nspace may indicate eligibility for a particular fee type)."
+        "l\nDraft Data: TCR 5 - Payment Service Data, Position 49\nTC 48, BASE I Advice: TCR 2 - ISO-Enriched, Position 61\nl\nTC 57, Data Capture Advice: TCR 3 - Transaction Detail, Payment Service Data, Position 42\nl\nNote:\nIf the format is VML and the code is a space or zero, special attention must be paid because\nthe code could have two different meanings: 1) in VML, the space or zero can mean not\napplicable, in which case the field should not be present in the transaction, or 2) if the space\nor zero has a business meaning, the field should be present in the transaction, (for example, a\nspace may indicate eligibility for a particular fee type)."
       ]
     },
     {
@@ -4340,8 +4311,7 @@
       "type": "table_header",
       "page": 51,
       "cells": [
-        "l",
-        "TC 46, Member Settlement Data: TCR 0 - Report Group = Space, Positions 25-30, 64-78,\n81-95"
+        "l\nTC 46, Member Settlement Data: TCR 0 - Report Group = Space, Positions 25-30, 64-78,\n81-95"
       ]
     },
     {
@@ -4794,8 +4764,7 @@
       "type": "table_header",
       "page": 53,
       "cells": [
-        "l",
-        "TC 42, 43 Merchant File Updates: TCR 0 - Record 1, Positions 109-110"
+        "l\nTC 42, 43 Merchant File Updates: TCR 0 - Record 1, Positions 109-110"
       ]
     },
     {
@@ -5101,8 +5070,7 @@
       "type": "table_header",
       "page": 55,
       "cells": [
-        "l",
-        "TC 43, Merchant File Update: TCR 0 - Record 2, Position 17"
+        "l\nTC 43, Merchant File Update: TCR 0 - Record 2, Position 17"
       ]
     },
     {
@@ -5193,8 +5161,7 @@
       "type": "table_header",
       "page": 55,
       "cells": [
-        "l",
-        "Draft Data: TCR 3, Positions 60-62 (Format Code AI)"
+        "l\nDraft Data: TCR 3, Positions 60-62 (Format Code AI)"
       ]
     },
     {
@@ -5318,8 +5285,7 @@
       "type": "table_header",
       "page": 56,
       "cells": [
-        "l",
-        "Draft Data: TCR 6, Positions 128-143"
+        "l\nDraft Data: TCR 6, Positions 128-143"
       ]
     },
     {
@@ -5347,8 +5313,7 @@
       "type": "table_header",
       "page": 56,
       "cells": [
-        "l",
-        "TC 38, TCR 1 - Nonfulfillment, Positions 17-18"
+        "l\nTC 38, TCR 1 - Nonfulfillment, Positions 17-18"
       ]
     },
     {
@@ -5432,8 +5397,7 @@
       "type": "table_header",
       "page": 57,
       "cells": [
-        "l",
-        "Draft Data: TCR 2 - South Korea, Positions 122-123"
+        "l\nDraft Data: TCR 2 - South Korea, Positions 122-123"
       ]
     },
     {
@@ -5604,8 +5568,7 @@
       "type": "table_header",
       "page": 58,
       "cells": [
-        "l",
-        "Draft Data: TCR 2 - Japan, Positions 23-24"
+        "l\nDraft Data: TCR 2 - Japan, Positions 23-24"
       ]
     },
     {
@@ -5700,7 +5663,7 @@
       "page": 58,
       "cells": [
         "61",
-        "Twice Payment or Installment Payment with Number of Installment Payments\nl\nl\nTwice Payment: number of installment payments = 0 or 2. Settlement between the acquirer and\nissuer is deferred for Twice Payment.\nInstallment Payment: number of installment payments is greater than or equal to 3. Settlement\nbetween the acquirer and issuer is not deferred for Installment Payment."
+        "Twice Payment or Installment Payment with Number of Installment Payments\nTwice Payment: number of installment payments = 0 or 2. Settlement between the acquirer and\nl\nissuer is deferred for Twice Payment.\nInstallment Payment: number of installment payments is greater than or equal to 3. Settlement\nl\nbetween the acquirer and issuer is not deferred for Installment Payment."
       ]
     },
     {
@@ -5737,8 +5700,7 @@
       "type": "table_header",
       "page": 59,
       "cells": [
-        "l\nl\nl",
-        "Draft Data: TCR 0, Positions 162-163\nTC 57, Data Capture Advice: TCR 0 - Transaction Detail, Positions 152-153\nTC 59, Interface Transaction Advice: TCR 0 - Additional Data, Positions 158-159\nNote:\nIf the format is VML and the code is a space or zero, special attention must be paid because\nthe code could have two different meanings: 1) in VML the space or zero can mean not\napplicable, in which case the field should not be present in the transaction, or 2) if the space\nor zero has a business meaning, the field should be present in the transaction (for example, a\nspace may indicate eligibility for a particular fee type)."
+        "l\nDraft Data: TCR 0, Positions 162-163\nTC 57, Data Capture Advice: TCR 0 - Transaction Detail, Positions 152-153\nl\nTC 59, Interface Transaction Advice: TCR 0 - Additional Data, Positions 158-159\nl\nNote:\nIf the format is VML and the code is a space or zero, special attention must be paid because\nthe code could have two different meanings: 1) in VML the space or zero can mean not\napplicable, in which case the field should not be present in the transaction, or 2) if the space\nor zero has a business meaning, the field should be present in the transaction (for example, a\nspace may indicate eligibility for a particular fee type)."
       ]
     },
     {
@@ -5907,8 +5869,7 @@
       "type": "table_header",
       "page": 60,
       "cells": [
-        "l",
-        "Draft Data: TCR 1, Position 168.\nNote:\nIf the format is VML and the code is a space or zero, special attention must be paid because\nthe code could have two different meanings: 1) in VML the space or zero can mean not\napplicable, in which case the field should not be present in the transaction, or 2) if the space\nor zero has a business meaning, the field should be present in the transaction (for example, a\nspace may indicate eligibility for a particular fee type)."
+        "l\nDraft Data: TCR 1, Position 168.\nNote:\nIf the format is VML and the code is a space or zero, special attention must be paid because\nthe code could have two different meanings: 1) in VML the space or zero can mean not\napplicable, in which case the field should not be present in the transaction, or 2) if the space\nor zero has a business meaning, the field should be present in the transaction (for example, a\nspace may indicate eligibility for a particular fee type)."
       ]
     },
     {
@@ -5942,7 +5903,7 @@
       "cells": [
         "R",
         "Recurring Transaction",
-        "Use to identify multiple transactions that:\nl\nl\nExamples of a recurring transaction include\nperiodic membership fees, subscriptions, etc.\nOccur at predetermined intervals that do not\nexceed 1 year between transactions\nRepresent an agreement between a cardholder\nand a merchant to purchase goods or services\nover a period of time."
+        "Use to identify multiple transactions that:\nOccur at predetermined intervals that do not\nl\nexceed 1 year between transactions\nRepresent an agreement between a cardholder\nl\nand a merchant to purchase goods or services\nover a period of time.\nExamples of a recurring transaction include\nperiodic membership fees, subscriptions, etc."
       ]
     },
     {
@@ -5972,8 +5933,7 @@
       "type": "table_header",
       "page": 61,
       "cells": [
-        "l\nl",
-        "Draft Data: TCR Message Matching, Position 158\nTC 59, Interface Transaction Advice: TCR 1 - Additional Data, Position 75; TCR 1 - American\nExpress, Position 76\nNote:\nIf the format is VML and the code is a space or zero, special attention must be paid because\nthe code could have two different meanings: 1) in VML the space or zero can mean not\napplicable, in which case the field should not be present in the transaction, or 2) if the space\nor zero has a business meaning, the field should be present in the transaction (for example, a\nspace may indicate eligibility for a particular fee type)."
+        "l\nDraft Data: TCR Message Matching, Position 158\nTC 59, Interface Transaction Advice: TCR 1 - Additional Data, Position 75; TCR 1 - American\nl\nExpress, Position 76\nNote:\nIf the format is VML and the code is a space or zero, special attention must be paid because\nthe code could have two different meanings: 1) in VML the space or zero can mean not\napplicable, in which case the field should not be present in the transaction, or 2) if the space\nor zero has a business meaning, the field should be present in the transaction (for example, a\nspace may indicate eligibility for a particular fee type)."
       ]
     },
     {
@@ -6098,8 +6058,7 @@
       "type": "table_header",
       "page": 62,
       "cells": [
-        "l",
-        "Draft Data: TCR 1 - Additional Data, Position 125\nNote:\nIf the format is VML and the code is a space or zero, special attention must be paid because\nthe code could have two different meanings: 1) in VML the space or zero can mean not\napplicable, in which case the field should not be present in the transaction, or 2) if the space"
+        "l\nDraft Data: TCR 1 - Additional Data, Position 125\nNote:\nIf the format is VML and the code is a space or zero, special attention must be paid because\nthe code could have two different meanings: 1) in VML the space or zero can mean not\napplicable, in which case the field should not be present in the transaction, or 2) if the space"
       ]
     },
     {
@@ -6158,8 +6117,7 @@
       "type": "table_header",
       "page": 63,
       "cells": [
-        "l",
-        "Draft Data: TCR 5 - Payment Service Data, Positions 136 -137."
+        "l\nDraft Data: TCR 5 - Payment Service Data, Positions 136 -137."
       ]
     },
     {
@@ -6570,8 +6528,7 @@
       "type": "table_header",
       "page": 65,
       "cells": [
-        "l",
-        "Draft Data: TCR 5 - Payment Service Data, Positions 136 -137."
+        "l\nDraft Data: TCR 5 - Payment Service Data, Positions 136 -137."
       ]
     },
     {
@@ -7130,8 +7087,7 @@
       "type": "table_header",
       "page": 67,
       "cells": [
-        "l\nl",
-        "Draft Data: TCR 1 - Additional Data, Position 129\nTC 57, Data Capture Advice: TCR 5—Limited-Use Data, Position 15\nNote:\nIf the format is VML and the code is a space or zero, special attention must be paid because\nthe code could have two different meanings: 1) in VML the space or zero can mean not\napplicable, in which case the field should not be present in the transaction, or 2) if the space\nor zero has a business meaning, the field should be present in the transaction (for example, a\nspace may indicate eligibility for a particular fee type)."
+        "l\nDraft Data: TCR 1 - Additional Data, Position 129\nTC 57, Data Capture Advice: TCR 5—Limited-Use Data, Position 15\nl\nNote:\nIf the format is VML and the code is a space or zero, special attention must be paid because\nthe code could have two different meanings: 1) in VML the space or zero can mean not\napplicable, in which case the field should not be present in the transaction, or 2) if the space\nor zero has a business meaning, the field should be present in the transaction (for example, a\nspace may indicate eligibility for a particular fee type)."
       ]
     },
     {
@@ -7222,8 +7178,7 @@
       "type": "table_header",
       "page": 68,
       "cells": [
-        "l\nl\nl\nl\nl\nl\nl\nl\nl",
-        "Draft Data; TC 40, TC 52\nTC 10, TC 42, TC 54*\nTC 20, TC 43, TC 55\nTC 30, TC 44, TC 56\nTC 31, TC 45, TC 57\nTC 32, TC 46, TC 58\nTC 33, TC 47, TC 59\nTC 38, TC 48\nTC 39, TC 50"
+        "l\nDraft Data; TC 40, TC 52\nTC 10, TC 42, TC 54*\nl\nTC 20, TC 43, TC 55\nl\nTC 30, TC 44, TC 56\nl\nTC 31, TC 45, TC 57\nl\nTC 32, TC 46, TC 58\nl\nTC 33, TC 47, TC 59\nl\nTC 38, TC 48\nl\nTC 39, TC 50\nl"
       ]
     },
     {
@@ -7324,7 +7279,7 @@
       "page": 69,
       "cells": [
         "7",
-        "Relates to specific reduced reimbursement fees for intraregional transactions only:\nl\nl\nl\nElectronic Data Capture (EDC)—EU only\nNot valid in Asia-Pacific region for original draft transactions\nEU CNP and CVV2 fee programs"
+        "Relates to specific reduced reimbursement fees for intraregional transactions only:\nElectronic Data Capture (EDC)—EU only\nl\nNot valid in Asia-Pacific region for original draft transactions\nl\nEU CNP and CVV2 fee programs\nl"
       ]
     },
     {
@@ -7591,8 +7546,7 @@
       "type": "table_header",
       "page": 71,
       "cells": [
-        "l",
-        "TC 52, Retrieval Request: TCR 0, Positions 136-137"
+        "l\nTC 52, Retrieval Request: TCR 0, Positions 136-137"
       ]
     },
     {
@@ -7639,8 +7593,7 @@
       "page": 71,
       "cells": [
         "33",
-        "l\nl",
-        "Legal process or fraud analysis request—U.S. Domestic only\nFraud analysis request—Non-U.S. Domestic"
+        "l\nLegal process or fraud analysis request—U.S. Domestic only\nFraud analysis request—Non-U.S. Domestic\nl"
       ]
     },
     {
@@ -7648,8 +7601,7 @@
       "page": 71,
       "cells": [
         "34",
-        "l\nl",
-        "Repeat request for copy—U.S. Domestic only\nLegal process request—Non-U.S. Domestic"
+        "l\nRepeat request for copy—U.S. Domestic only\nLegal process request—Non-U.S. Domestic\nl"
       ]
     },
     {
@@ -7670,8 +7622,7 @@
       "type": "table_header",
       "page": 71,
       "cells": [
-        "l",
-        "Draft Data: TCR 0, Position 145\nNote:"
+        "l\nDraft Data: TCR 0, Position 145\nNote:"
       ]
     },
     {
@@ -7898,8 +7849,7 @@
       "type": "table_header",
       "page": 73,
       "cells": [
-        "l\nl",
-        "Draft Data: TCR 0, Position 145: Requested Payment Service\nDraft Data: TCR 0, Position 151: Authorization Characteristics Indicator\nNote:\nIf the format is VML and the code is a space or zero, special attention must be paid because\nthe code could have two different meanings: 1) in VML the space or zero can mean not\napplicable, in which case the field should not be present in the transaction, or 2) if the space\nor zero has a business meaning, the field should be present in the transaction (for example, a\nspace may indicate eligibility for a particular fee type)."
+        "l\nDraft Data: TCR 0, Position 145: Requested Payment Service\nDraft Data: TCR 0, Position 151: Authorization Characteristics Indicator\nl\nNote:\nIf the format is VML and the code is a space or zero, special attention must be paid because\nthe code could have two different meanings: 1) in VML the space or zero can mean not\napplicable, in which case the field should not be present in the transaction, or 2) if the space\nor zero has a business meaning, the field should be present in the transaction (for example, a\nspace may indicate eligibility for a particular fee type)."
       ]
     },
     {
@@ -8195,8 +8145,7 @@
       "type": "table_header",
       "page": 74,
       "cells": [
-        "l\nl",
-        "Draft Data: TCR 3 - Passenger Itinerary Data, Position 117\nTC 57, Data Capture Advice: TCR 4 - Industry-Specific Data—Passenger Itinerary Data,\nPosition 117\nNote:\nIf the format is VML and the code is a space or zero, special attention must be paid because\nthe code could have two different meanings: 1) in VML the space or zero can mean not\napplicable, in which case the field should not be present in the transaction, or 2) if the space\nor zero has a business meaning, the field should be present in the transaction (for example, a\nspace may indicate eligibility for a particular fee type)."
+        "l\nDraft Data: TCR 3 - Passenger Itinerary Data, Position 117\nTC 57, Data Capture Advice: TCR 4 - Industry-Specific Data—Passenger Itinerary Data,\nl\nPosition 117\nNote:\nIf the format is VML and the code is a space or zero, special attention must be paid because\nthe code could have two different meanings: 1) in VML the space or zero can mean not\napplicable, in which case the field should not be present in the transaction, or 2) if the space\nor zero has a business meaning, the field should be present in the transaction (for example, a\nspace may indicate eligibility for a particular fee type)."
       ]
     },
     {
@@ -8248,8 +8197,7 @@
       "type": "table_header",
       "page": 75,
       "cells": [
-        "l\nl",
-        "TC 01, 02, 03, Returned Item Transactions: TCR 9, Positions 36-38, 56-58, 59-61, 62-64, and\n65-67.\nTC 04, Reclassification Advice Transaction: TCR 9, Positions 104-106, 107-109, 110-112,\n119-121, 122-124, 141-143, and 144-146."
+        "l\nTC 01, 02, 03, Returned Item Transactions: TCR 9, Positions 36-38, 56-58, 59-61, 62-64, and\n65-67.\nTC 04, Reclassification Advice Transaction: TCR 9, Positions 104-106, 107-109, 110-112,\nl\n119-121, 122-124, 141-143, and 144-146."
       ]
     },
     {
@@ -8272,7 +8220,7 @@
       "page": 75,
       "cells": [
         "01",
-        "The Hash Total is invalid. If data is from a local tape, a problem occurred in the Edit Package.\nThe VAP checks the Hash Total while loading the file, so if the data is from one of these devices\nor is inter-VIC, an invalid Hash Total indicates one of these issues\nl\nl\nl\nNoise on the communication line has modified the data.\nThe sending VAP or VIC is not using the same Data Structure Table that the receiving VIC is\nusing, which caused the receiving VIC to incorrectly expand the transaction.\nThe file was modified after the Edit Package was executed."
+        "The Hash Total is invalid. If data is from a local tape, a problem occurred in the Edit Package.\nThe VAP checks the Hash Total while loading the file, so if the data is from one of these devices\nor is inter-VIC, an invalid Hash Total indicates one of these issues\nNoise on the communication line has modified the data.\nl\nThe sending VAP or VIC is not using the same Data Structure Table that the receiving VIC is\nl\nusing, which caused the receiving VIC to incorrectly expand the transaction.\nThe file was modified after the Edit Package was executed.\nl"
       ]
     },
     {
@@ -8288,7 +8236,7 @@
       "page": 75,
       "cells": [
         "03",
-        "The Interface Trace Number is invalid. An original, dispute response financial, or reversal with\nan Acquirer Reference Number Format Code of 3 has a trace number with one of these charac­\nteristics:\nl\nl\nl\nNon-numeric.\nNot a valid acquiring or issuing identifier.\nNot the originating processing CIB."
+        "The Interface Trace Number is invalid. An original, dispute response financial, or reversal with\nan Acquirer Reference Number Format Code of 3 has a trace number with one of these charac­\nteristics:\nNon-numeric.\nl\nNot a valid acquiring or issuing identifier.\nl\nNot the originating processing CIB.\nl"
       ]
     },
     {
@@ -8375,7 +8323,7 @@
       "page": 76,
       "cells": [
         "12",
-        "The Acquirer Reference Number in a draft has one or more of these characteristics:\nl\nl\nl\nIt is in 23 digit-format and is not numeric or does not have a check-digit.\nIt contains an invalid date.\nIt has a Film Locator Subfield that must not contain zeros."
+        "The Acquirer Reference Number in a draft has one or more of these characteristics:\nIt is in 23 digit-format and is not numeric or does not have a check-digit.\nl\nIt contains an invalid date.\nl\nIt has a Film Locator Subfield that must not contain zeros.\nl"
       ]
     },
     {
@@ -8383,7 +8331,7 @@
       "page": 76,
       "cells": [
         "13",
-        "The Reference Number acquirer identifier in the reference number in a draft has one or more\nof these characteristics:\nl\nl\nl\nl\nIt is non-numeric.\nIt starts with a 9 but is not a Visa transaction.\nIt has a standard Reimbursement Attribute of 0 and does not start with 4 or 5.\nIt is a TIRF transaction with an 18-digit Reference Number and does not begin with 9."
+        "The Reference Number acquirer identifier in the reference number in a draft has one or more\nof these characteristics:\nIt is non-numeric.\nl\nIt starts with a 9 but is not a Visa transaction.\nl\nIt has a standard Reimbursement Attribute of 0 and does not start with 4 or 5.\nl\nIt is a TIRF transaction with an 18-digit Reference Number and does not begin with 9.\nl"
       ]
     },
     {
@@ -8391,7 +8339,7 @@
       "page": 76,
       "cells": [
         "14",
-        "The Purchase Date in a draft has these characteristics:\nl\nl\nl\nIt is non-numeric.\nIt is not a valid date.\nIt is in the future relative to the Edit Package processing date."
+        "The Purchase Date in a draft has these characteristics:\nIt is non-numeric.\nl\nIt is not a valid date.\nl\nIt is in the future relative to the Edit Package processing date.\nl"
       ]
     },
     {
@@ -8685,7 +8633,7 @@
       "page": 78,
       "cells": [
         "22",
-        "The Merchant Category Code is:\nl\nl\nl\nZeros.\nNon-numeric.\nNonexistent code."
+        "The Merchant Category Code is:\nZeros.\nl\nNon-numeric.\nl\nNonexistent code.\nl"
       ]
     },
     {
@@ -9179,7 +9127,7 @@
       "page": 80,
       "cells": [
         "80",
-        "Product Reclassification has occurred.\nNote:  Product Reclassification occurs in these conditions:\nl\nl\nThe product ID submitted by the acquirer does not match the product ID used to\nprocess the transaction.\nNo product ID was submitted by the acquirer, and the product ID used to process\nthe transaction does not match the product ID associated with the Account Range\nin the Edit Package ARDEF table."
+        "Product Reclassification has occurred.\nNote:  Product Reclassification occurs in these conditions:\nThe product ID submitted by the acquirer does not match the product ID used to\nl\nprocess the transaction.\nNo product ID was submitted by the acquirer, and the product ID used to process\nl\nthe transaction does not match the product ID associated with the Account Range\nin the Edit Package ARDEF table."
       ]
     },
     {
@@ -11034,7 +10982,7 @@
       "page": 89,
       "cells": [
         "H0",
-        "The recalculation of the validation code at the VIC showed that one of the fields listed below\ndid not match the value in the authorization message.\nCPS—U.S.:\nl\nl\nl\nl\nl\nl\nl\nl\nl\nl\nl\nl\nCPS/ATM:\nAccount Number\nAuthorized Amount\nAuthorization Characteristics Indicator\nAuthorization Code\nAuthorization Currency Code\nAuthorization Response Code\nCashback\nMarket-Specific Authorization Indicator\nMerchant Category Code\nPOS Entry Mode\nTransaction Identifier\nProduct ID\nl\nl\nl\nl\nl\nl\nl\nl\nl\nAccount Number\nAuthorization Characteristics Indicator\nTransaction Identifier\nAuthorized Amount\nAuthorization Currency Code\nMerchant Country Code\nATM Account Selection\nAcquiring Identifier\nSurcharge Amount"
+        "The recalculation of the validation code at the VIC showed that one of the fields listed below\ndid not match the value in the authorization message.\nCPS—U.S.:\nAccount Number\nl\nAuthorized Amount\nl\nAuthorization Characteristics Indicator\nl\nAuthorization Code\nl\nAuthorization Currency Code\nl\nAuthorization Response Code\nl\nCashback\nl\nMarket-Specific Authorization Indicator\nl\nMerchant Category Code\nl\nPOS Entry Mode\nl\nTransaction Identifier\nl\nProduct ID\nl\nCPS/ATM:\nAccount Number\nl\nAuthorization Characteristics Indicator\nl\nTransaction Identifier\nl\nAuthorized Amount\nl\nAuthorization Currency Code\nl\nMerchant Country Code\nl\nATM Account Selection\nl\nAcquiring Identifier\nl\nSurcharge Amount\nl"
       ]
     },
     {
@@ -11447,7 +11395,7 @@
       "page": 92,
       "cells": [
         "HZ",
-        "The recalculation of the validation code at the VIC showed that one of the fields listed below\ndid not match the value in the authorization message. Please resubmit.\nl\nl\nl\nl\nl\nl\nl\nl\nl\nl\nl\nl\nCPS/ATM:\nAccount Number\nAuthorized Amount\nAuthorization Characteristics Indicator\nAuthorization Code\nAuthorization Currency Code\nAuthorization Response Code\nCashback\nMarket-Specific Authorization Indicator\nMerchant Category Code\nPOS Entry Mode\nTransaction Identifier\nProduct ID\nl\nl\nl\nl\nl\nl\nl\nl\nl\nAccount Number\nAuthorization Characteristics Indicator\nTransaction Identifier\nAuthorized Amount\nAuthorization Currency Code\nMerchant Country Code\nATM Account Selection\nAcquiring Identifier\nSurcharge Amount"
+        "The recalculation of the validation code at the VIC showed that one of the fields listed below\ndid not match the value in the authorization message. Please resubmit.\nAccount Number\nl\nAuthorized Amount\nl\nAuthorization Characteristics Indicator\nl\nAuthorization Code\nl\nAuthorization Currency Code\nl\nAuthorization Response Code\nl\nCashback\nl\nMarket-Specific Authorization Indicator\nl\nMerchant Category Code\nl\nPOS Entry Mode\nl\nTransaction Identifier\nl\nProduct ID\nl\nCPS/ATM:\nAccount Number\nl\nAuthorization Characteristics Indicator\nl\nTransaction Identifier\nl\nAuthorized Amount\nl\nAuthorization Currency Code\nl\nMerchant Country Code\nl\nATM Account Selection\nl\nAcquiring Identifier\nl\nSurcharge Amount\nl"
       ]
     },
     {
@@ -13562,8 +13510,7 @@
       "type": "table_header",
       "page": 102,
       "cells": [
-        "l",
-        "Draft Data: TCR 3 (Fleet Service), Position 150\nNote:\nIf the format is VML and the code is a space or zero, special attention must be paid because\nthe code could have two different meanings: 1) in VML the space or zero can mean not\napplicable, in which case the field should not be present in the transaction, or 2) if the space\nor zero has a business meaning, the field should be present in the transaction (for example, a\nspace may indicate eligibility for a particular fee type)."
+        "l\nDraft Data: TCR 3 (Fleet Service), Position 150\nNote:\nIf the format is VML and the code is a space or zero, special attention must be paid because\nthe code could have two different meanings: 1) in VML the space or zero can mean not\napplicable, in which case the field should not be present in the transaction, or 2) if the space\nor zero has a business meaning, the field should be present in the transaction (for example, a\nspace may indicate eligibility for a particular fee type)."
       ]
     },
     {
@@ -13615,8 +13562,7 @@
       "type": "table_header",
       "page": 102,
       "cells": [
-        "l\nl\nl\nl\nl\nl\nl",
-        "Draft Data: TCR 0, Position 150\nTC 10, Fee Collection: TCR 0, Position 147\nTC 20, Funds Disbursement: TCR 0, Position 147\nTC 38, Copy Request and Fulfillment: TCR 0, Position 38\nTC 39, Copy Fulfillment Service: TCR 0, Position 38\nTC 44, Collection Batch Acknowledgment: TCR 0 - Batch Disposition Code A, Position 41\nTC 51, 52, 53, Retrieval Request/Confirmation: TCR 0, Position 138"
+        "l\nDraft Data: TCR 0, Position 150\nTC 10, Fee Collection: TCR 0, Position 147\nl\nTC 20, Funds Disbursement: TCR 0, Position 147\nl\nTC 38, Copy Request and Fulfillment: TCR 0, Position 38\nl\nTC 39, Copy Fulfillment Service: TCR 0, Position 38\nl\nTC 44, Collection Batch Acknowledgment: TCR 0 - Batch Disposition Code A, Position 41\nl\nTC 51, 52, 53, Retrieval Request/Confirmation: TCR 0, Position 138\nl"
       ]
     },
     {
@@ -13684,8 +13630,7 @@
       "type": "table_header",
       "page": 103,
       "cells": [
-        "l",
-        "Draft Data: TCR 2 - Brazil, Positions 23-25"
+        "l\nDraft Data: TCR 2 - Brazil, Positions 23-25"
       ]
     },
     {
@@ -13968,8 +13913,7 @@
       "type": "table_header",
       "page": 104,
       "cells": [
-        "l",
-        "Draft Data: TCR 1 - Additional Data, Position 117\nNote:\nIf the format is VML and the code is a space or zero, special attention must be paid because\nthe code could have two different meanings: 1) in VML the space or zero can mean not\napplicable, in which case the field should not be present in the transaction, or 2) if the space\nor zero has a business meaning, the field should be present in the transaction (for example, a\nspace may indicate eligibility for a particular fee type)."
+        "l\nDraft Data: TCR 1 - Additional Data, Position 117\nNote:\nIf the format is VML and the code is a space or zero, special attention must be paid because\nthe code could have two different meanings: 1) in VML the space or zero can mean not\napplicable, in which case the field should not be present in the transaction, or 2) if the space\nor zero has a business meaning, the field should be present in the transaction (for example, a\nspace may indicate eligibility for a particular fee type)."
       ]
     },
     {
@@ -14013,8 +13957,7 @@
       "type": "table_header",
       "page": 105,
       "cells": [
-        "l",
-        "Draft Data: TCR 1 - Additional Data, Positions 74-75\nNote:\nIf the format is VML and the code is a space or zero, special attention must be paid because\nthe code could have two different meanings: 1) in VML the space or zero can mean not\napplicable, in which case the field should not be present in the transaction, or 2) if the space\nor zero has a business meaning, the field should be present in the transaction (for example, a\nspace may indicate eligibility for a particular fee type)."
+        "l\nDraft Data: TCR 1 - Additional Data, Positions 74-75\nNote:\nIf the format is VML and the code is a space or zero, special attention must be paid because\nthe code could have two different meanings: 1) in VML the space or zero can mean not\napplicable, in which case the field should not be present in the transaction, or 2) if the space\nor zero has a business meaning, the field should be present in the transaction (for example, a\nspace may indicate eligibility for a particular fee type)."
       ]
     },
     {
@@ -14174,8 +14117,7 @@
       "type": "table_header",
       "page": 106,
       "cells": [
-        "l\nl\nl\nl\nl\nl\nl\nl",
-        "Draft Data: TCR 0, Position 3\nDraft Data: TCR 1, Position 3\nDraft Data: TCR 2, Position 3\nDraft Data: TCR 3, Position 3\nDraft Data: TCR 4, Position 3\nDraft Data: TCR 5, Position 3\nDraft Data: TCR 6, Position 3\nDraft Data: TCR 7, Position 3"
+        "l\nDraft Data: TCR 0, Position 3\nDraft Data: TCR 1, Position 3\nl\nDraft Data: TCR 2, Position 3\nl\nDraft Data: TCR 3, Position 3\nl\nDraft Data: TCR 4, Position 3\nl\nDraft Data: TCR 5, Position 3\nl\nDraft Data: TCR 6, Position 3\nl\nDraft Data: TCR 7, Position 3\nl"
       ]
     },
     {
@@ -14235,8 +14177,7 @@
       "type": "table_header",
       "page": 106,
       "cells": [
-        "l",
-        "Draft Data: TCR 3 (Fleet Service), Position 27"
+        "l\nDraft Data: TCR 3 (Fleet Service), Position 27"
       ]
     },
     {
@@ -14296,8 +14237,7 @@
       "type": "table_header",
       "page": 107,
       "cells": [
-        "l",
-        "Draft Data: TCR 1 - Additional Data, Position 124\nNote:\nIf the format is VML and the code is a space or zero, special attention must be paid because\nthe code could have two different meanings: 1) in VML the space or zero can mean not\napplicable, in which case the field should not be present in the transaction, or 2) if the space\nor zero has a business meaning, the field should be present in the transaction (for example, a\nspace may indicate eligibility for a particular fee type)."
+        "l\nDraft Data: TCR 1 - Additional Data, Position 124\nNote:\nIf the format is VML and the code is a space or zero, special attention must be paid because\nthe code could have two different meanings: 1) in VML the space or zero can mean not\napplicable, in which case the field should not be present in the transaction, or 2) if the space\nor zero has a business meaning, the field should be present in the transaction (for example, a\nspace may indicate eligibility for a particular fee type)."
       ]
     },
     {
@@ -14322,7 +14262,7 @@
       "cells": [
         "1",
         "Unattended cardholder-activated, no authorization,\nbelow floor-limit transaction.",
-        "Use to indicate that the transaction:\nl\nIs less than US$40, or local currency equivalent.\nl\nIs not authorized.\nl\nHas no cardholder verification performed.\nExamples of a Type A UAT transaction are:\nl\nl\nl\nl\nParking garage fee\nRoad toll\nMotion picture theater admission\nMagnetic stripe telephone call"
+        "Use to indicate that the transaction:\nIs less than US$40, or local currency equivalent.\nl\nIs not authorized.\nl\nHas no cardholder verification performed.\nl\nExamples of a Type A UAT transaction are:\nParking garage fee\nl\nRoad toll\nl\nMotion picture theater admission\nl\nMagnetic stripe telephone call\nl"
       ]
     },
     {
@@ -14347,7 +14287,7 @@
       "cells": [
         "2",
         "Unattended chip and PIN transactions (VE use only)",
-        "Use to indicate that the transaction:\nl\nl\nExamples of a Type C UAT transaction are:\nIs authorized.\nHas PIN verification performed.\nl\nATM\nl\nFuel purchase with PIN"
+        "Use to indicate that the transaction:\nIs authorized.\nl\nHas PIN verification performed.\nl\nExamples of a Type C UAT transaction are:\nATM\nl\nFuel purchase with PIN\nl"
       ]
     },
     {
@@ -14356,7 +14296,7 @@
       "cells": [
         "3",
         "Unattended cardholder-activated, authorized\ntransaction",
-        "Use to indicate that the transaction:\nl\nIs less than US$100, or local currency equivalent.\nl\nIs authorized.\nl\nHas no cardholder verification performed.\nExamples of a Type B UAT transaction are:\nl\nl\nl\nFuel purchase without PIN\nPrepaid card purchase\nVideo rental"
+        "Use to indicate that the transaction:\nIs less than US$100, or local currency equivalent.\nl\nIs authorized.\nl\nHas no cardholder verification performed.\nl\nExamples of a Type B UAT transaction are:\nFuel purchase without PIN\nl\nPrepaid card purchase\nl\nVideo rental\nl"
       ]
     },
     {
@@ -14395,8 +14335,7 @@
       "type": "table_header",
       "page": 108,
       "cells": [
-        "l",
-        "Draft Data: TCR 3 (Fleet Service), Position 30"
+        "l\nDraft Data: TCR 3 (Fleet Service), Position 30"
       ]
     },
     {
@@ -14479,16 +14418,14 @@
       "type": "table_header",
       "page": 109,
       "cells": [
-        "l\nl\nl\nl\nl\nl\nl\nl\nl\nl",
-        "Draft Data: TCR 0, Positions 89-91 and 130-132; TCR 2, Positions 17-19\nTC 10, Fee Collection: TCR 0, Positions 21-23, 59-61, and 74-76; TCR 2-Brazil, Positions 17-19\nTC 20, Funds Disbursement: TCR 0, Positions 21-23, 59-61, and 74-76\nTC 33, RDMS/CRS: TCR 0-CRS Issuer Advice, Positions 68-70, 83-85, and 131-133\nTC 38, Copy Request/Fulfillment: TCR 1-RFC Advice, Positions 82-84; TCR 1-Nonfulfillment,\nPositions 31-33\nTC 40, Fraud Advice: TCR 0, Positions 115-117 and 137-139\nTC 42, Merchant File Update: TCR 0-Record 1, Positions 98-99\nTC 44, Collection Batch Acknowledgment: TCR 0-Batch Disposition A, Positions 38-40\nTC 46, Member Settlement Data: TCR 0, Positions 22-24\nTC 48, BASE I Advice: TCR 0-Format 1 (ISO-enriched), Positions 78-80 and 81-83"
+        "l\nDraft Data: TCR 0, Positions 89-91 and 130-132; TCR 2, Positions 17-19\nTC 10, Fee Collection: TCR 0, Positions 21-23, 59-61, and 74-76; TCR 2-Brazil, Positions 17-19\nl\nTC 20, Funds Disbursement: TCR 0, Positions 21-23, 59-61, and 74-76\nl\nTC 33, RDMS/CRS: TCR 0-CRS Issuer Advice, Positions 68-70, 83-85, and 131-133\nl\nTC 38, Copy Request/Fulfillment: TCR 1-RFC Advice, Positions 82-84; TCR 1-Nonfulfillment,\nl\nPositions 31-33\nTC 40, Fraud Advice: TCR 0, Positions 115-117 and 137-139\nl\nTC 42, Merchant File Update: TCR 0-Record 1, Positions 98-99\nl\nTC 44, Collection Batch Acknowledgment: TCR 0-Batch Disposition A, Positions 38-40\nl\nTC 46, Member Settlement Data: TCR 0, Positions 22-24\nl\nTC 48, BASE I Advice: TCR 0-Format 1 (ISO-enriched), Positions 78-80 and 81-83\nl"
       ]
     },
     {
       "type": "table_header",
       "page": 110,
       "cells": [
-        "l\nl\nl",
-        "TC 51, 52, 53, Retrieval Request/Confirmation: TCR 0, Positions 71-73 and 112-114; TCR 1,\nPositions 54-56\nTC 56, Currency Conversion Rate Update: TCR 0, Positions 18-20, 33-35, 48-50, 63-65, 78-80,\n93-95, and 108-110\nTC 59, Interface Transaction Advice: TCR 0, Positions 117-119\nNote:\nThe country/territory names used in the following Country and Currency Code tables reflect\nthe ISO 3166–1 Country code short name. Not all ISO 3166–1 codes are supported by Visa."
+        "l\nTC 51, 52, 53, Retrieval Request/Confirmation: TCR 0, Positions 71-73 and 112-114; TCR 1,\nPositions 54-56\nTC 56, Currency Conversion Rate Update: TCR 0, Positions 18-20, 33-35, 48-50, 63-65, 78-80,\nl\n93-95, and 108-110\nTC 59, Interface Transaction Advice: TCR 0, Positions 117-119\nl\nNote:\nThe country/territory names used in the following Country and Currency Code tables reflect\nthe ISO 3166–1 Country code short name. Not all ISO 3166–1 codes are supported by Visa."
       ]
     },
     {
@@ -19154,8 +19091,7 @@
       "type": "table_header",
       "page": 128,
       "cells": [
-        "l\nl\nl\nl\nl\nl\nl\nl",
-        "Draft Data: TCR 0, Positions 142-144\nTC 33, CRS Issuer Advice: TCR 0, Positions 128-130\nTC 38, RFC Advice: TCR 1-RFC Advice, Positions 94-96\nTC 40, Fraud Advice: TCR 0, Positions 122-124; TCR 1, Positions 118-119\nTC 42, Merchant File Update: TCR 0-Record 1, Positions 120-121\nTC 51, 52, 53, Retrieval Request/Confirmation: TCR 0, Positions 124-126\nTC 57, Data Capture Advice: TCR 1, Positions 72-74\nTC 59, Interface Transaction Advice: TCR 0, Positions 114-116"
+        "l\nDraft Data: TCR 0, Positions 142-144\nTC 33, CRS Issuer Advice: TCR 0, Positions 128-130\nl\nTC 38, RFC Advice: TCR 1-RFC Advice, Positions 94-96\nl\nTC 40, Fraud Advice: TCR 0, Positions 122-124; TCR 1, Positions 118-119\nl\nTC 42, Merchant File Update: TCR 0-Record 1, Positions 120-121\nl\nTC 51, 52, 53, Retrieval Request/Confirmation: TCR 0, Positions 124-126\nl\nTC 57, Data Capture Advice: TCR 1, Positions 72-74\nl\nTC 59, Interface Transaction Advice: TCR 0, Positions 114-116\nl"
       ]
     },
     {
@@ -19302,8 +19238,7 @@
       "type": "table_header",
       "page": 129,
       "cells": [
-        "l\nl\nl\nl\nl\nl\nl\nl",
-        "Draft Data: TCR 0, Positions 142–144\nTC 33, CRS Issuer Advice: TCR 0, Positions 128–130\nTC 38, RFC Advice: TCR 1—RFC Advice, Positions 94–96\nTC 40, Fraud Advice: TCR 0, Positions 122–124; TCR 1, Positions 118–119\nTC 42, Merchant File Update: TCR 0—Record 1, Positions 120–121\nTC 51, 52, 53, Retrieval Request/Confirmation: TCR 0, Positions 124–126\nTC 57, Data Capture Advice: TCR 1—Batch Header, Positions 72–74; TCR 1 – American Express\nAutomobile Rental, Positions 69–70 and 99–100; TCR 1—American Express Automobile\nLeasing, Positions 73–74 and 103–104\nTC 59, Interface Transaction Advice: TCR 0, Positions 114–116; TCR 2, Positions 67–68"
+        "l\nDraft Data: TCR 0, Positions 142–144\nTC 33, CRS Issuer Advice: TCR 0, Positions 128–130\nl\nTC 38, RFC Advice: TCR 1—RFC Advice, Positions 94–96\nl\nTC 40, Fraud Advice: TCR 0, Positions 122–124; TCR 1, Positions 118–119\nl\nTC 42, Merchant File Update: TCR 0—Record 1, Positions 120–121\nl\nTC 51, 52, 53, Retrieval Request/Confirmation: TCR 0, Positions 124–126\nl\nTC 57, Data Capture Advice: TCR 1—Batch Header, Positions 72–74; TCR 1 – American Express\nl\nAutomobile Rental, Positions 69–70 and 99–100; TCR 1—American Express Automobile\nLeasing, Positions 73–74 and 103–104\nTC 59, Interface Transaction Advice: TCR 0, Positions 114–116; TCR 2, Positions 67–68\nl"
       ]
     },
     {
@@ -20713,7 +20648,7 @@
       "page": 137,
       "cells": [
         "acquirer",
-        "A client financial institution that has agreements with merchants to accept Visa\ncard transactions or offers cash disbursement services to cardholders, or both.\nThe acquirer is responsible for:\nl\nl\nl\nAccepting card transaction data from merchants and its own ATMs and bank\nbranches\nProviding authorization decisions to those card-accepting locations\nConveying transaction information to Visa as interchange transactions"
+        "A client financial institution that has agreements with merchants to accept Visa\ncard transactions or offers cash disbursement services to cardholders, or both.\nThe acquirer is responsible for:\nAccepting card transaction data from merchants and its own ATMs and bank\nl\nbranches\nProviding authorization decisions to those card-accepting locations\nl\nConveying transaction information to Visa as interchange transactions\nl"
       ]
     },
     {

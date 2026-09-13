@@ -1146,6 +1146,7 @@
         "The STIP response code (in Field 39-Response Code). The reason STIP processed the request (in Subfield 63.4-STIP/Switch Reason Code). Code 1 in the Advices-Created-By flag in the message header. (This code indicates that STIP created the advice while standing in for the issuer.) Settlement flags in the message header of the advice. (STIP sets these flags as needed to indicate the settlement impact.) For more information, see the Message Structure and Header Field Specifications chapter of the pertinent V.I.P. System technical specifications manuals.",
         "Advices remain on file until the issuer signs on to Advice Recovery mode using an 0800 network management message. STIP does not create advices for:",
         "Account transfer Product eligibility inquiry Balance inquiry",
+        "ATM mini statement POS card activation ATM PIN change ATM PIN unblock Mastercard or American Express transactions",
         "Transactions receiving response codes in the table below.",
         "No-Advice STIP Decline Response Codes",
         "Response Code",
@@ -1186,7 +1187,6 @@
         "Cash request exceeds issuer or approved limit",
         "1 V.I.P. creates advice for India issued recurring payments, declined with reason code 93 and STIP Switch Reason Code 9229 (Declined due to Domestic Regulations).",
         "V.I.P. ensures a response code 57 (declined) is always returned for a recurring or installment payments purchase, product eligibility or account verification message, occurring on a non- reloadable prepaid card and create a 0120 or 0220 advice for the issuer. Creating a Reversal Advice When STIP responds to a reversal, it creates an 0420 advice for the issuer to recover. V.I.P. stores advices online for 30 days. Issuers that want to retrieve their advices need to retrieve them within this 30-day period. The 0420 advice contains data from the undeliverable reversal and the STIP response. The Advice-Created-By flag of the 0420 message header contains code 1, indicating that STIP created the advice while standing in for the issuer. STIP also sets the settlement flags in the message header of the advice as needed, to indicate the settlement impact. In addition, the 0420 advice contains a reason code in Subfield 63.4-STIP/Switch Reason Code.",
-        "ATM mini statement POS card activation ATM PIN change ATM PIN unblock Mastercard or American Express transactions",
         "No-Advice STIP Decline Response Codes"
       ]
     },

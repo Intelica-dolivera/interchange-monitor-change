@@ -95,7 +95,7 @@
       "similarity_ratio": 0.282,
       "table": "POS Entry Mode Codes",
       "ai_category": "business_rule_change",
-      "ai_reason": "El texto cambia de 'Not used for Visa and Visa Electron card transactions' a 'Reserved for future use', lo que altera el significado de negocio del código 06.",
+      "ai_reason": "El texto cambia de 'Not used for Visa and Visa Electron card transactions' a 'Reserved for future use', modificando el significado de uso del código 06 en el contexto de transacciones Visa.",
       "disappeared_content": [
         "Visa and Visa Electron card transactions."
       ],
@@ -210,14 +210,14 @@
       "code": "2",
       "column": "Usage Use to indicate that the transaction does not originate at an unattended terminal.",
       "column_index": 2,
-      "old": "Use to indicate that the transaction:\nl\nl\nExamples of a Type C UAT transaction are:\nIs authorized.\nHas PIN verification performed.\nl\nATM\nl\nFuel purchase with PIN",
+      "old": "Use to indicate that the transaction:\nIs authorized.\nl\nHas PIN verification performed.\nl\nExamples of a Type C UAT transaction are:\nATM\nl\nFuel purchase with PIN\nl",
       "new": "use only)",
-      "similarity_ratio": 0.082,
+      "similarity_ratio": 0.086,
       "table": "Acceptance Terminal Indicator",
       "ai_category": "business_rule_change",
-      "ai_reason": "El texto nuevo es una sola palabra 'use only' que reemplaza el texto antiguo con ejemplos y detalles, pero mantiene el mismo significado sin cambios en el contenido real.",
+      "ai_reason": "El texto nuevo es una sola palabra 'use only' que reemplaza el texto antiguo detallado sin cambiar el significado.",
       "disappeared_content": [
-        "Use to indicate that the transaction: Examples of a Type C UAT transaction are: Is authorized. Has PIN verification performed. ATM Fuel purchase with PIN"
+        "Use to indicate that the transaction: Is authorized. Has PIN verification performed. Examples of a Type C UAT transaction are: ATM Fuel purchase with PIN"
       ],
       "safety_net_override": true,
       "ai_original_category": "editorial_reword"
@@ -295,8 +295,8 @@
       "new": "Euro",
       "similarity_ratio": 0.364,
       "table": "Country and Currency Codes",
-      "ai_category": "business_rule_change",
-      "ai_reason": "El texto anterior indicaba 'Croatian Kuna Euro' y ahora solo muestra 'Euro', lo que implica que el código de moneda cambió de Kuna a Euro, afectando el significado comercial.",
+      "ai_category": "editorial_reword",
+      "ai_reason": "El texto anterior incluía el nombre de la moneda y el símbolo de la moneda, mientras que el nuevo texto solo menciona la moneda sin el símbolo, pero el significado no cambió.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -442,12 +442,12 @@
       "code": "ACQUIRER",
       "column": "Definition",
       "column_index": 1,
-      "old": "A client financial institution that has agreements with merchants to accept Visa\ncard transactions or offers cash disbursement services to account holders, or\nboth. The acquirer is responsible for:\nl\nl\nl\nAccepting card transaction data from merchants and its own ATMs and bank\nbranches\nProviding authorization decisions to those card-accepting locations\nConveying transaction information to Visa as interchange transactions",
-      "new": "A client financial institution that has agreements with merchants to accept Visa\ncard transactions or offers cash disbursement services to account holders, or\nboth. The acquirer is responsible for:\nl\nl\nl\nAccepting card transaction data from merchants and its own ATMs and bank\nbranches\nProviding decisions to those card-accepting locations\nConveying transaction information to Visa as transactions",
-      "similarity_ratio": 0.939,
+      "old": "A client financial institution that has agreements with merchants to accept Visa\ncard transactions or offers cash disbursement services to account holders, or\nboth. The acquirer is responsible for:\nAccepting card transaction data from merchants and its own ATMs and bank\nl\nbranches\nProviding authorization decisions to those card-accepting locations\nl\nConveying transaction information to Visa as interchange transactions\nl",
+      "new": "A client financial institution that has agreements with merchants to accept Visa\ncard transactions or offers cash disbursement services to account holders, or\nboth. The acquirer is responsible for:\nAccepting card transaction data from merchants and its own ATMs and bank\nl\nbranches\nProviding decisions to those card-accepting locations\nl\nConveying transaction information to Visa as transactions\nl",
+      "similarity_ratio": 0.938,
       "table": "Glossary",
       "ai_category": "business_rule_change",
-      "ai_reason": "El cambio en 'authorization decisions' a 'decisions' y 'interchange transactions' a 'transactions' altera el significado técnico de los servicios que el acquirer proporciona, afectando la definición de responsabilidades.",
+      "ai_reason": "El cambio en 'authorization decisions' a 'decisions' y 'interchange transactions' a 'transactions' altera el significado de responsabilidades del acquirer, afectando la definición de negocio.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -461,7 +461,7 @@
       "similarity_ratio": 0.931,
       "table": "Glossary",
       "ai_category": "extraction_noise",
-      "ai_reason": "El texto nuevo tiene fragmentos de palabras cortados (a and, by an, owned s) que indican un artefacto de extracción PDF.",
+      "ai_reason": "El texto nuevo tiene fragmentos de palabras cortados (a and, by an, Visa-owned s) que indican un artefacto de extracción PDF.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -475,7 +475,7 @@
       "similarity_ratio": 0.057,
       "table": "Glossary",
       "ai_category": "business_rule_change",
-      "ai_reason": "El texto nuevo redefine el propósito del ITF como medio estándar para entrada/salida en el sistema ICS, mientras que el texto viejo describe procesos de envío y recepción de transacciones.",
+      "ai_reason": "El texto nuevo redefine el propósito de los archivos ITF como medios estándar para la comunicación con el sistema ICS, mientras que el texto antiguo describía su uso en el flujo de transacciones con VisaNet, cambiando el significado operativo de los archivos.",
       "disappeared_content": [
         "Transaction File contains transactions sent to VisaNet by an endpoint. This file may be created by the outgoing Edit Package after the endpoint's pre-edit processing, or it may be sent directly to VisaNet. The incoming Interchange Transaction File contains transactions",
         "endpoint by VisaNet. This file may be read by",
@@ -493,7 +493,7 @@
       "similarity_ratio": 0.949,
       "table": "Glossary",
       "ai_category": "business_rule_change",
-      "ai_reason": "El texto nuevo menciona que el issuer se encarga de 'transactions' y 'of transactions' sin especificar el contexto, lo que podría alterar la definición de responsabilidades del issuer.",
+      "ai_reason": "El texto nuevo menciona que el issuer se encarga de 'transactions' y 'of transactions' sin especificar el contexto, lo que podría alterar la definición de responsabilidades del issuer en el proceso de transacciones.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -521,7 +521,7 @@
       "similarity_ratio": 0.967,
       "table": "Glossary",
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto describe lo mismo pero con espacios adicionales en la lista de entidades.",
+      "ai_reason": "El texto describe lo mismo pero con una coma extra y un espacio adicional en la lista de entidades.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -535,7 +535,7 @@
       "similarity_ratio": 0.951,
       "table": "Glossary",
       "ai_category": "editorial_reword",
-      "ai_reason": "Se eliminó el texto 'payment credential' y se agregó un espacio antes de la coma, manteniendo el significado.",
+      "ai_reason": "El texto solo tiene un pequeño cambio en el texto de la definición, corrigiendo un espacio extra en el código.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -549,7 +549,7 @@
       "similarity_ratio": 0.893,
       "table": "Glossary",
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto describe el mismo concepto pero elimina la palabra 'payment' para ajustar la redacción.",
+      "ai_reason": "El texto describe lo mismo pero elimina la palabra 'payment' y ajusta la estructura de la oración para seguir la especificación EMV.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -563,14 +563,14 @@
       "similarity_ratio": 0.754,
       "table": "Glossary",
       "ai_category": "extraction_noise",
-      "ai_reason": "El texto nuevo tiene fragmentos de texto cortados y espacios incoherentes que indican un artefacto de extracción PDF.",
+      "ai_reason": "El texto nuevo tiene fragmentos de texto cortados y falta el término 'card' en la definición.",
       "disappeared_content": [],
       "safety_net_override": false
     }
   ],
   "ai_summary": {
-    "business_rule_change": 7,
-    "editorial_reword": 8,
+    "business_rule_change": 6,
+    "editorial_reword": 9,
     "extraction_noise": 3
   }
 }

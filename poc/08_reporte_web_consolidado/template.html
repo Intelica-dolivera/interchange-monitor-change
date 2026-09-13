@@ -129,6 +129,29 @@
     border-radius: 4px;
     font-size: 12px;
   }
+  table.legend {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px 0 4px;
+    font-size: 13px;
+  }
+  table.legend th, table.legend td {
+    text-align: left;
+    padding: 6px 8px;
+    border-bottom: 1px solid var(--border);
+    vertical-align: top;
+  }
+  table.legend th {
+    color: var(--muted);
+    font-weight: 600;
+    font-size: 11.5px;
+    text-transform: uppercase;
+    letter-spacing: .02em;
+  }
+  table.legend td:first-child { width: 34%; white-space: nowrap; }
+  @media (max-width: 600px) {
+    table.legend td:first-child { white-space: normal; width: auto; }
+  }
 </style>
 </head>
 <body>
@@ -256,10 +279,111 @@ function renderRecentTab() {
   return wrap;
 }
 
+const LEGEND_SECTIONS = [
+  {
+    title: "Concepto universal (aparece en las 8 pestañas)",
+    intro: "Es el pill principal de cada manual (a veces con otro nombre, ver \"BASE II Transactions\" mas abajo). Cuenta fragmentos que existen en AMBAS ediciones -mismo codigo/fila/ficha/parrafo/par ya emparejado entre la edicion vieja y la nueva- cuyo contenido cambio lo suficiente como para no ser identico, y que la IA clasifico como cambio real de negocio (a diferencia de \"solo redaccion\" o \"ruido de extraccion\", que existen pero no se cuentan aca). Todo lo demas de esta pagina es estructural y 100% deterministico -altas y bajas no necesitan IA porque \"¿existe o no existe en la otra edicion?\" es un hecho, no una interpretacion.",
+    rows: [
+      { term: "Cambios de negocio a revisar", def: "Cuantos fragmentos (de los que existen en ambas ediciones) cambiaron de forma que amerita revision humana." },
+    ],
+  },
+  {
+    title: "BASE II Clearing Data Codes",
+    rows: [
+      { term: "Altas", def: "Tablas nuevas + codigos nuevos, sumados." },
+      { term: "Bajas", def: "Tablas eliminadas + codigos eliminados, sumados." },
+      { term: "Tablas agregadas", def: "Una tabla de codigos completa (ej. \"Retired Chargeback Reason Codes\") que aparecio." },
+      { term: "Tablas eliminadas", def: "Una tabla completa que desaparecio." },
+    ],
+  },
+  {
+    title: "BASE II Clearing Edit Package Messages",
+    rows: [
+      { term: "Fichas agregadas", def: "Una \"ficha\" (mensaje de edicion, ej. V0173) que aparecio." },
+      { term: "Fichas eliminadas", def: "Una ficha que desaparecio." },
+    ],
+  },
+  {
+    title: "BASE II Clearing Interchange Formats (TC 01 a TC 49, y TC 50 a TC 92)",
+    rows: [
+      { term: "Transiciones Reserved↔definido", def: "Un rango de posiciones que era \"Reserved\" paso a ser un campo real (o al reves) -es el hallazgo central que motivo este proyecto." },
+      { term: "Secciones agregadas", def: "Una seccion completa (grupo de posiciones/campos) que aparecio." },
+      { term: "Secciones eliminadas", def: "Una seccion completa que desaparecio." },
+    ],
+  },
+  {
+    title: "Full Service POS Online Messages – Processing Specifications (International) y VisaNet Settlement Service (VSS), Volume 1",
+    rows: [
+      { term: "Secciones agregadas / eliminadas", def: "Un capitulo/seccion entero (por su ruta de encabezados) que aparecio/desaparecio." },
+      { term: "Parrafos agregados / eliminados", def: "Un parrafo suelto, dentro de una seccion que SIGUE existiendo, que aparecio/desaparecio -no toda la seccion, solo ese parrafo." },
+      { term: "Pares agregados / eliminados (solo VSS vol. 1)", def: "Un par \"Field Name / Description\" -una mini tabla de definicion de campo dentro de una seccion narrativa- que aparecio/desaparecio." },
+    ],
+  },
+  {
+    title: "VisaNet Settlement Service (VSS), Volume 2, Reports",
+    rows: [
+      { term: "Tablas agregadas / eliminadas", def: "Igual que en Data Codes: una tabla completa (dentro de uno de los 5 apendices) que aparecio/desaparecio." },
+      { term: "Filas agregadas / eliminadas", def: "Una fila suelta dentro de una tabla que sigue existiendo." },
+    ],
+  },
+  {
+    title: "BASE II Transactions (Quick Reference) — caso especial, sin \"cambios de negocio\"",
+    intro: "Este manual no usa IA: no hay redaccion libre que interpretar, solo altas/bajas de filas TCR. Por eso el pill principal es distinto.",
+    rows: [
+      { term: "Cambios de TCR (reemplaza a \"Cambios de negocio\")", def: "Total de filas TCR agregadas + eliminadas, en todos los TC." },
+      { term: "TC agregados", def: "Un Transaction Code completo (ej. \"05 Sales Draft\") que aparecio." },
+      { term: "TC eliminados", def: "Un TC completo que desaparecio." },
+      { term: "TC afectados", def: "Cuantos TC tienen al menos 1 fila TCR agregada o eliminada, sin ser un alta/baja del TC entero." },
+    ],
+  },
+];
+
+function renderLegendTable(rows) {
+  const table = el("table", { class: "legend" });
+  const headRow = el("tr", {}, [
+    el("th", { text: "Pill" }),
+    el("th", { text: "Qué cuenta" }),
+  ]);
+  table.appendChild(el("thead", {}, [headRow]));
+  const tbody = el("tbody");
+  for (const r of rows) {
+    tbody.appendChild(
+      el("tr", {}, [
+        el("td", {}, [el("strong", { text: r.term })]),
+        el("td", { text: r.def }),
+      ])
+    );
+  }
+  table.appendChild(tbody);
+  return table;
+}
+
+function renderGlossaryTab() {
+  const wrap = el("div");
+  wrap.appendChild(
+    el("div", { class: "card" }, [
+      el("h2", { text: "Leyenda de términos" }),
+      el("p", {
+        class: "muted",
+        text: "Qué significa cada pill (chip de conteo) que aparece arriba de cada manual, agrupado por manual porque cada uno tiene su propia estructura de contenido (tablas, fichas, grillas de campos, párrafos narrativos, TCRs...).",
+      }),
+    ])
+  );
+  for (const sec of LEGEND_SECTIONS) {
+    const cardChildren = [el("h2", { text: sec.title })];
+    if (sec.intro) cardChildren.push(el("p", { class: "muted", text: sec.intro }));
+    const card = el("div", { class: "card" }, cardChildren);
+    card.appendChild(renderLegendTable(sec.rows));
+    wrap.appendChild(card);
+  }
+  return wrap;
+}
+
 const recentCount = DATA.manuals.filter(m => m.is_new_since_last_publish).length;
 const tabsDef = [
   { id: "recent", label: `Cambios recientes (${recentCount})`, render: renderRecentTab },
   { id: "general", label: "Resumen general", render: renderGeneralTab },
+  { id: "legend", label: "Leyenda de términos", render: renderGlossaryTab },
 ].concat(
   DATA.manuals.map((m, i) => ({ id: "m" + i, label: m.title, render: () => renderManualTab(m) }))
 );

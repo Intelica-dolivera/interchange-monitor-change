@@ -401,6 +401,12 @@
           "similarity": 1.0
         },
         {
+          "text_a": "X POS balance inquiries are mandatory for U.S. region acquirers (except Interlink acquirers) and optional for acquirers in all other regions. Acquirers must log all financial and non-financial transactions, whether the requests are approved or are declined, for posting to merchant accounts and for reconciling to VisaNet settlement positions. Full service POS acquirers must be able to forward responses to the points of sale and to determine the success of the delivery of the responses. Reversals must be initiated and be sent to VisaNet when the responses cannot be delivered successfully to the points of sale. Additionally, Visa POS acquirers must meet the following service requirements:",
+          "text_b": "Yes POS balance inquiries are mandatory for U.S. region acquirers (except Interlink acquirers) and optional for acquirers in all other regions. Acquirers must log all financial and non-financial transactions, whether the requests are approved or are declined, for posting to merchant accounts and for reconciling to VisaNet settlement positions. Full service POS acquirers must be able to forward responses to the points of sale and to determine the success of the delivery of the responses. Reversals must be initiated and be sent to VisaNet when the responses cannot be delivered successfully to the points of sale. Additionally, Visa POS acquirers must meet these service requirements:",
+          "match_type": "fuzzy",
+          "similarity": 0.988
+        },
+        {
           "text_a": "To process an online financial transaction (0200), the final purchase amount must be known at the time of the purchase. All transactions must be authorized online by the issuer or be authorized by the stand-in processor (STIP). In a card-present (CP) environment, transactions must contain the full, unaltered data content of the card's magnetic stripe. If the magnetic stripe cannot be read, Visa card transactions can be key-entered; however, the merchant and the acquirer assume the risk if the card is fraudulent. In a card-not-present (CNP) environment (as in the case of mail and telephone orders and electronic commerce transactions), Visa card transactions can be key-entered.",
           "text_b": "To process an online financial transaction (0200), the final purchase amount must be known at the time of the purchase. All transactions must be authorized online by the issuer or be authorized by the stand-in processor (STIP). In a card-present (CP) environment, transactions must contain the full, unaltered data content of the card's magnetic stripe. If the magnetic stripe cannot be read, Visa card transactions can be key-entered; however, the merchant and the acquirer assume the risk if the card is fraudulent. In a card-not-present (CNP) environment (as in the case of mail and telephone orders and electronic commerce transactions), Visa card transactions can be key-entered.",
           "match_type": "exact",
@@ -459,12 +465,6 @@
           "text_b": "For key-entered commercial card transactions (field 22 contains 01), the amount in field 4 in the 0220 completion message must match the amount in field 4 in the corresponding authorization message; otherwise, V.I.P. rejects the completion message with reject code 0740 (Authorization amount and clearing amount must match. Failed authorization tolerance edit. Adjust clearing amount to match authorization and resubmit clearing.)",
           "match_type": "exact",
           "similarity": 1.0
-        },
-        {
-          "text_a": "POS balance inquiries are mandatory for U.S. region acquirers (except Interlink acquirers) and optional for acquirers in all other regions. Acquirers must log all financial and non-financial transactions, whether the requests are approved or are declined, for posting to merchant accounts and for reconciling to VisaNet settlement positions. Full service POS acquirers must be able to forward responses to the points of sale and to determine the success of the delivery of the responses. Reversals must be initiated and be sent to VisaNet when the responses cannot be delivered successfully to the points of sale. Additionally, Visa POS acquirers must meet the following service requirements:",
-          "text_b": "POS balance inquiries are mandatory for U.S. region acquirers (except Interlink acquirers) and optional for acquirers in all other regions. Acquirers must log all financial and non-financial transactions, whether the requests are approved or are declined, for posting to merchant accounts and for reconciling to VisaNet settlement positions. Full service POS acquirers must be able to forward responses to the points of sale and to determine the success of the delivery of the responses. Reversals must be initiated and be sent to VisaNet when the responses cannot be delivered successfully to the points of sale. Additionally, Visa POS acquirers must meet these service requirements:",
-          "match_type": "fuzzy",
-          "similarity": 0.991
         }
       ],
       "paragraphs_removed": [
@@ -483,11 +483,9 @@
         "X",
         "X",
         "X",
-        "X",
         "X"
       ],
       "paragraphs_added": [
-        "Yes",
         "Yes",
         "Yes",
         "Yes",
@@ -524,6 +522,12 @@
       "duplicate_paragraph_texts_b": [],
       "paragraphs_matched": [
         {
+          "text_a": "The following capabilities are required for acquirers. PIN Security Acquirers must provide PIN security from the moment the cardholder enters the PIN until the transaction leaves the acquirer's system. Refer to the Payment Technology Standards Manual for complete and definitive security requirements and specifications. Visa Secure Electronic Commerce (VSEC) Processing VSEC processing is required for Visa POS card-not-present transactions occurring over the Internet and over other networks. Refer to V.I.P. System Overview and Services, for details about VSEC processing. Exception Processing Acquirers must support automated exception processing. This requirement includes the ability to initiate adjustment, dispute response financial, and administrative messages, and the ability to receive dispute financials, dispute financial reversals, and administrative messages. Acquirers can use Visa Resolve Online to meet this requirement. Acquirers must also support the following transactions:",
+          "text_b": "These capabilities are required for acquirers. PIN Security Acquirers must provide PIN security from the moment the cardholder enters the PIN until the transaction leaves the acquirer's system. Refer to the Payment Technology Standards Manual for complete and definitive security requirements and specifications. Visa Secure Electronic Commerce (VSEC) Processing VSEC processing is required for Visa POS card-not-present transactions occurring over the Internet and over other networks. Refer to V.I.P. System Overview and Services, for details about VSEC processing. Exception Processing Acquirers must support automated exception processing. This requirement includes the ability to initiate adjustment, dispute response financial, and administrative messages, and the ability to receive dispute financials, dispute financial reversals, and administrative messages. Acquirers can use Visa Resolve Online to meet this requirement. Acquirers must also support these transactions:",
+          "match_type": "fuzzy",
+          "similarity": 0.988
+        },
+        {
           "text_a": "Copy requests—Visa POS acquirers can meet this requirement by using the VisaNet Copy Request and Fulfillment Service (VCRFS). Fee collections and funds disbursements.",
           "text_b": "Copy requests—Visa POS acquirers can meet this requirement by using the VisaNet Copy Request and Fulfillment Service (VCRFS). Fee collections and funds disbursements.",
           "match_type": "exact",
@@ -534,12 +538,6 @@
           "text_b": "CPS Processing Full service POS users may participate in Custom Payment Service (CPS)/POS if their region supports it. For a complete service description of CPS/POS, refer to V.I.P. System Overview and Services.",
           "match_type": "exact",
           "similarity": 1.0
-        },
-        {
-          "text_a": "The following capabilities are required for acquirers. PIN Security Acquirers must provide PIN security from the moment the cardholder enters the PIN until the transaction leaves the acquirer's system. Refer to the Payment Technology Standards Manual for complete and definitive security requirements and specifications. Visa Secure Electronic Commerce (VSEC) Processing VSEC processing is required for Visa POS card-not-present transactions occurring over the Internet and over other networks. Refer to V.I.P. System Overview and Services, for details about VSEC processing. Exception Processing Acquirers must support automated exception processing. This requirement includes the ability to initiate adjustment, dispute response financial, and administrative messages, and the ability to receive dispute financials, dispute financial reversals, and administrative messages. Acquirers can use Visa Resolve Online to meet this requirement. Acquirers must also support the following transactions:",
-          "text_b": "These capabilities are required for acquirers. PIN Security Acquirers must provide PIN security from the moment the cardholder enters the PIN until the transaction leaves the acquirer's system. Refer to the Payment Technology Standards Manual for complete and definitive security requirements and specifications. Visa Secure Electronic Commerce (VSEC) Processing VSEC processing is required for Visa POS card-not-present transactions occurring over the Internet and over other networks. Refer to V.I.P. System Overview and Services, for details about VSEC processing. Exception Processing Acquirers must support automated exception processing. This requirement includes the ability to initiate adjustment, dispute response financial, and administrative messages, and the ability to receive dispute financials, dispute financial reversals, and administrative messages. Acquirers can use Visa Resolve Online to meet this requirement. Acquirers must also support these transactions:",
-          "match_type": "fuzzy",
-          "similarity": 0.988
         }
       ],
       "paragraphs_removed": [],
@@ -1260,6 +1258,12 @@
       "duplicate_paragraph_texts_b": [],
       "paragraphs_matched": [
         {
+          "text_a": "Issuers must have the capability to meet the following processing requirements. PIN Verification Each full service POS issuer must provide PIN verification capability or must subscribe to the PIN Verification Service (PVS) if they process transactions with PINs. Visa issuers can use the service codes in magnetic stripe data that are designated for Visa cards to communicate whether a PIN is to be used for the transaction. Issuers that support Visa Smart Debit/Visa Smart Credit (VSDC) transactions may choose to use the Offline PIN option for certain transactions and cardholders. Refer to V.I.P. System Overview and Services for information about this option. Card Verification Value 2 (CVV2) Service All Visa cards (including emergency replacement cards) must carry the CVV2 security number. Exception Processing Visa participants must support exception processing. For issuers, this requirement includes the ability to initiate dispute financials and dispute financial reversals, and to accept adjustments, dispute response financials, and administrative messages. Issuers can meet this requirement by using Visa Resolve Online (VROL). In addition, Visa issuers must support the following transactions:",
+          "text_b": "Issuers must have the capability to meet these processing requirements. PIN Verification Each full service POS issuer must provide PIN verification capability or must subscribe to the PIN Verification Service (PVS) if they process transactions with PINs. Visa issuers can use the service codes in magnetic stripe data that are designated for Visa cards to communicate whether a PIN is to be used for the transaction. Issuers that support Visa Smart Debit/Visa Smart Credit (VSDC) transactions may choose to use the Offline PIN option for certain transactions and cardholders. Refer to V.I.P. System Overview and Services for information about this option. Card Verification Value 2 (CVV2) Service All Visa cards (including emergency replacement cards) must carry the CVV2 security number. Exception Processing Visa participants must support exception processing. For issuers, this requirement includes the ability to initiate dispute financials and dispute financial reversals, and to accept adjustments, dispute response financials, and administrative messages. Issuers can meet this requirement by using Visa Resolve Online (VROL). In addition, Visa issuers must support these transactions:",
+          "match_type": "fuzzy",
+          "similarity": 0.99
+        },
+        {
           "text_a": "Copy requests (requirement can be met through VCRFS) Fee collections and funds disbursements File maintenance transactions",
           "text_b": "Copy requests (requirement can be met through VCRFS) Fee collections and funds disbursements File maintenance transactions",
           "match_type": "exact",
@@ -1272,13 +1276,8 @@
           "similarity": 1.0
         }
       ],
-      "paragraphs_removed": [
-        "Issuers must have the capability to meet the following processing requirements. PIN Verification Each full service POS issuer must provide PIN verification capability or must subscribe to the PIN Verification Service (PVS) if they process transactions with PINs. Visa issuers can use the service codes in magnetic stripe data that are designated for Visa cards to communicate whether a PIN is to be used for the transaction. Issuers that support Visa Smart Debit/Visa Smart Credit (VSDC) transactions may choose to use the Offline PIN option for certain transactions and cardholders. Refer to V.I.P. System Overview and Services for information about this option.",
-        "Card Verification Value 2 (CVV2) Service All Visa cards (including emergency replacement cards) must carry the CVV2 security number. Exception Processing Visa participants must support exception processing. For issuers, this requirement includes the ability to initiate dispute financials and dispute financial reversals, and to accept adjustments, dispute response financials, and administrative messages. Issuers can meet this requirement by using Visa Resolve Online (VROL). In addition, Visa issuers must support the following transactions:"
-      ],
-      "paragraphs_added": [
-        "Issuers must have the capability to meet these processing requirements. PIN Verification Each full service POS issuer must provide PIN verification capability or must subscribe to the PIN Verification Service (PVS) if they process transactions with PINs. Visa issuers can use the service codes in magnetic stripe data that are designated for Visa cards to communicate whether a PIN is to be used for the transaction. Issuers that support Visa Smart Debit/Visa Smart Credit (VSDC) transactions may choose to use the Offline PIN option for certain transactions and cardholders. Refer to V.I.P. System Overview and Services for information about this option. Card Verification Value 2 (CVV2) Service All Visa cards (including emergency replacement cards) must carry the CVV2 security number. Exception Processing Visa participants must support exception processing. For issuers, this requirement includes the ability to initiate dispute financials and dispute financial reversals, and to accept adjustments, dispute response financials, and administrative messages. Issuers can meet this requirement by using Visa Resolve Online (VROL). In addition, Visa issuers must support these transactions:"
-      ],
+      "paragraphs_removed": [],
+      "paragraphs_added": [],
       "paragraphs_reflowed": []
     },
     {
@@ -1497,6 +1496,12 @@
           "similarity": 1.0
         },
         {
+          "text_a": "Field 55 may contain tags that the receiving issuer or acquirer does not recognize, or does not expect. The receiver must ignore such tags and continue parsing the next tag in field 55. Country-to-Country Transactions V.I.P. maintains a Country-to-Country table that allows full service issuers to control purchase and cash transactions between countries using country-specific and issuer-specified parameters. The table is predominately used, however, to list countries in which card usage is restricted or prohibited, for instance, between Country A acquirers and Country B issuers. The country-to-country table is updated only by Visa. The following parameters are involved in establishing a V.I.P. country-to-country block:",
+          "text_b": "Field 55 may contain tags that the receiving issuer or acquirer does not recognize, or does not expect. The receiver must ignore such tags and continue parsing the next tag in field 55. Country-to-Country Transactions V.I.P. maintains a Country-to-Country table that allows full service issuers to control purchase and cash transactions between countries using country-specific and issuer-specified parameters. The table is predominately used, however, to list countries in which card usage is restricted or prohibited, for instance, between Country A acquirers and Country B issuers. The country-to-country table is updated only by Visa. These parameters are involved in establishing a V.I.P. country-to-country block:",
+          "match_type": "fuzzy",
+          "similarity": 0.992
+        },
+        {
           "text_a": "Issuer and acquirer country codes Card type, for instance, Visa card Card program, for instance, Classic or Platinum Whether to block purchase transactions, cash transactions, or both Whether cards are valid in all countries, valid only in the issuing country, valid in countries identified in the table for the issuing identifier, or invalid in countries identified in the table for the issuing identifier.",
           "text_b": "Issuer and acquirer country codes Card type, for instance, Visa card Card program, for instance, Classic or Platinum Whether to block purchase transactions, cash transactions, or both Whether cards are valid in all countries, valid only in the issuing country, valid in countries identified in the table for the issuing identifier, or invalid in countries identified in the table for the issuing identifier.",
           "match_type": "exact",
@@ -1507,12 +1512,6 @@
           "text_b": "When checking the table, V.I.P. determines if a country is embargoed and if it is, whether the embargo includes cash transactions, POS transactions, or both. When a match is found, V.I.P. assigns response code 62 (restricted card) and STIP declines the transaction.",
           "match_type": "exact",
           "similarity": 1.0
-        },
-        {
-          "text_a": "Field 55 may contain tags that the receiving issuer or acquirer does not recognize, or does not expect. The receiver must ignore such tags and continue parsing the next tag in field 55. Country-to-Country Transactions V.I.P. maintains a Country-to-Country table that allows full service issuers to control purchase and cash transactions between countries using country-specific and issuer-specified parameters. The table is predominately used, however, to list countries in which card usage is restricted or prohibited, for instance, between Country A acquirers and Country B issuers. The country-to-country table is updated only by Visa.",
-          "text_b": "Field 55 may contain tags that the receiving issuer or acquirer does not recognize, or does not expect. The receiver must ignore such tags and continue parsing the next tag in field 55. Country-to-Country Transactions V.I.P. maintains a Country-to-Country table that allows full service issuers to control purchase and cash transactions between countries using country-specific and issuer-specified parameters. The table is predominately used, however, to list countries in which card usage is restricted or prohibited, for instance, between Country A acquirers and Country B issuers. The country-to-country table is updated only by Visa. These parameters are involved in establishing a V.I.P. country-to-country block:",
-          "match_type": "fuzzy",
-          "similarity": 0.94
         }
       ],
       "paragraphs_removed": [
@@ -1537,8 +1536,7 @@
         "See the chapter on Client to Visa Connection Options.",
         "See the chapter on Client to Visa Connection Options.",
         "See the chapter on Considerations for Visa POS and ATM Issuers.",
-        "(VCRFS) Visa Smart Debit/Smart Credit (VSDC) Service and",
-        "The following parameters are involved in establishing a V.I.P. country-to-country block:"
+        "(VCRFS) Visa Smart Debit/Smart Credit (VSDC) Service and"
       ],
       "paragraphs_added": [
         "See information on STIP. V.I.P. System Overview and Services",
@@ -1935,6 +1933,12 @@
           "similarity": 1.0
         },
         {
+          "text_a": "Institution Identification Code or in Field 2— Primary Account Number. (Field 2 takes priority over field 100 if both are provided.)",
+          "text_b": "Institution Identification Code or in field 2— Primary Account Number. Field 2 takes priority over field 100 if both are provided.",
+          "match_type": "fuzzy",
+          "similarity": 0.992
+        },
+        {
           "text_a": "Text Message",
           "text_b": "Text Message",
           "match_type": "exact",
@@ -1963,6 +1967,12 @@
           "text_b": "0600",
           "match_type": "exact",
           "similarity": 1.0
+        },
+        {
+          "text_a": "The acquirer ID contained in Field 32— Acquiring Institution Identification Code.",
+          "text_b": "The acquirer ID contained in field 32—Acquiring Institution Identification Code.",
+          "match_type": "fuzzy",
+          "similarity": 0.994
         },
         {
           "text_a": "Fraud Notification",
@@ -2167,18 +2177,6 @@
           "text_b": "Issuers can use these split routing options individually only; they cannot be combined. Routing Option for Cash Disbursement Issuer Credits—Issuers can choose where VisaNet is to route ATM cash disbursement issuer credits containing message reason code 5310 (which identifies VisaNet-generated adjustment transactions). They can receive ATM fee adjustments on a different system from that on which they receive POS adjustments. Clients can contact their Visa representatives about this routing option for cash disbursement issuer credits. Assured Transaction Response (ATR) Tracking The V.I.P. Assured Transaction Response (ATR) function monitors all authorization and financial requests it forwards to issuers to ensure that each request receives a timely authorization response. When V.I.P. routes a request to the issuer, it sets a timer to monitor how long the issuer takes to respond. If an issuer does not send an authorization response to V.I.P. within the specified time limit, V.I.P. may invoke STIP to determine the approval or decline decision on the issuer’s behalf. If an issuer sends a response after V.I.P. has diverted the corresponding request to STIP, the STIP-generated decision prevails, and V.I.P. discards the response from the issuer. Refer to the Visa Core Rules and Visa Product and Service Rules for issuer response time requirements. Client-Level Timeout Settings ATR functions are controlled by several V.I.P. client profile settings. Issuers should work with their Visa representatives to ensure that their settings result in response times that meet the requirements specified in the Visa Core Rules and Visa Product and Service Rules.",
           "match_type": "exact",
           "similarity": 1.0
-        },
-        {
-          "text_a": "Institution Identification Code or in Field 2— Primary Account Number. (Field 2 takes priority over field 100 if both are provided.)",
-          "text_b": "Institution Identification Code or in field 2— Primary Account Number. Field 2 takes priority over field 100 if both are provided.",
-          "match_type": "fuzzy",
-          "similarity": 0.992
-        },
-        {
-          "text_a": "The acquirer ID contained in Field 32— Acquiring Institution Identification Code.",
-          "text_b": "The acquirer ID contained in field 32—Acquiring Institution Identification Code.",
-          "match_type": "fuzzy",
-          "similarity": 0.994
         }
       ],
       "paragraphs_removed": [
@@ -2349,6 +2347,12 @@
       "duplicate_paragraph_texts_b": [],
       "paragraphs_matched": [
         {
+          "text_a": "There are three types of interchange reimbursement fees (IRFs). Domestic Interchange Reimbursement Fees—Fees paid by one participant to another for transactions acquired and issued in the same country. Intraregional Interchange Reimbursement Fees—Fees paid by one participant to another for transactions acquired and issued in different countries within the same Visa region. Interregional Interchange Reimbursement Fees—Fees paid by one participant to another for transactions acquired and issued in different Visa regions. In this context, transaction country is the country in which the transaction takes place, and issuing country is the country of the issuer of the card used in the transaction. If no domestic IRF has been established, the intraregional IRF applies. If no intraregional IRF has been established, the interregional (international) IRF applies. IRFs are settled daily through the settlement process. For National Net Settlement Service transactions, there is only one settlement currency, so balancing does not involve currency conversion. For International Settlement Service transactions, however, there are many settlement currencies. Visa uses buy and sell rates for currency conversion. These rates are paired into USD-based rates used when converting non- USD currencies against the U.S. dollar, and cross-rates (non-USD-based rates) used for selected currencies in which the rates quoted are against a currency other than the U.S. dollar. The Multicurrency Service automatically converts the transaction currency to the acquirer's settlement currency (if the two are different), and automatically converts the cardholder's billing currency to the issuer's settlement currency (if the two are different), to one of the settlement currencies. For POS transactions, IRFs are typically paid by acquirers to issuers. Fees for manual cash disbursements, reversals, merchandise returns, dispute financials, and credit adjustments flow in the opposite direction. For Interlink transactions in the U.S. region, the following merchant category codes (MCCs) are eligible for the Interlink retail-tiered IRF fee:",
+          "text_b": "There are three types of interchange reimbursement fees (IRFs). Domestic Interchange Reimbursement Fees—Fees paid by one participant to another for transactions acquired and issued in the same country. Intraregional Interchange Reimbursement Fees—Fees paid by one participant to another for transactions acquired and issued in different countries within the same Visa region. Interregional Interchange Reimbursement Fees—Fees paid by one participant to another for transactions acquired and issued in different Visa regions. In this context, transaction country is the country in which the transaction takes place, and issuing country is the country of the issuer of the card used in the transaction. If no domestic IRF has been established, the intraregional IRF applies. If no intraregional IRF has been established, the interregional (international) IRF applies. IRFs are settled daily through the settlement process. For National Net Settlement Service transactions, there is only one settlement currency, so balancing does not involve currency conversion. For International Settlement Service transactions, however, there are many settlement currencies. Visa uses buy and sell rates for currency conversion. These rates are paired into USD-based rates used when converting non- USD currencies against the U.S. dollar, and cross-rates (non-USD-based rates) used for selected currencies in which the rates quoted are against a currency other than the U.S. dollar. The Multicurrency Service automatically converts the transaction currency to the acquirer's settlement currency (if the two are different), and automatically converts the cardholder's billing currency to the issuer's settlement currency (if the two are different), to one of the settlement currencies. For POS transactions, IRFs are typically paid by acquirers to issuers. Fees for manual cash disbursements, reversals, merchandise returns, dispute financials, and credit adjustments flow in the opposite direction. For Interlink transactions in the U.S. region, these merchant category codes (MCCs) are eligible for the Interlink retail-tiered IRF fee:",
+          "match_type": "fuzzy",
+          "similarity": 0.979
+        },
+        {
           "text_a": "5200-5410 5412-5499 5532-5533 5611-5735 5912-5950 5992-5999 9402",
           "text_b": "5200-5410 5412-5499 5532-5533 5611-5735 5912-5950 5992-5999 9402",
           "match_type": "exact",
@@ -2359,20 +2363,10 @@
           "text_b": "Interlink transactions from merchants having MCCs other than the eligible codes receive non- tiered Interlink rates based on transaction qualifications.",
           "match_type": "exact",
           "similarity": 1.0
-        },
-        {
-          "text_a": "There are three types of interchange reimbursement fees (IRFs). Domestic Interchange Reimbursement Fees—Fees paid by one participant to another for transactions acquired and issued in the same country. Intraregional Interchange Reimbursement Fees—Fees paid by one participant to another for transactions acquired and issued in different countries within the same Visa region. Interregional Interchange Reimbursement Fees—Fees paid by one participant to another for transactions acquired and issued in different Visa regions. In this context, transaction country is the country in which the transaction takes place, and issuing country is the country of the issuer of the card used in the transaction. If no domestic IRF has been established, the intraregional IRF applies. If no intraregional IRF has been established, the interregional (international) IRF applies. IRFs are settled daily through the settlement process. For National Net Settlement Service transactions, there is only one settlement currency, so balancing does not involve currency conversion. For International Settlement Service transactions, however, there are many settlement currencies. Visa uses buy and sell rates for currency conversion. These rates are paired into USD-based rates used when converting non- USD currencies against the U.S. dollar, and cross-rates (non-USD-based rates) used for selected currencies in which the rates quoted are against a currency other than the U.S. dollar. The Multicurrency Service automatically converts the transaction currency to the acquirer's settlement currency (if the two are different), and automatically converts the cardholder's billing currency to the issuer's settlement currency (if the two are different), to one of the settlement currencies.",
-          "text_b": "There are three types of interchange reimbursement fees (IRFs). Domestic Interchange Reimbursement Fees—Fees paid by one participant to another for transactions acquired and issued in the same country. Intraregional Interchange Reimbursement Fees—Fees paid by one participant to another for transactions acquired and issued in different countries within the same Visa region. Interregional Interchange Reimbursement Fees—Fees paid by one participant to another for transactions acquired and issued in different Visa regions. In this context, transaction country is the country in which the transaction takes place, and issuing country is the country of the issuer of the card used in the transaction. If no domestic IRF has been established, the intraregional IRF applies. If no intraregional IRF has been established, the interregional (international) IRF applies. IRFs are settled daily through the settlement process. For National Net Settlement Service transactions, there is only one settlement currency, so balancing does not involve currency conversion. For International Settlement Service transactions, however, there are many settlement currencies. Visa uses buy and sell rates for currency conversion. These rates are paired into USD-based rates used when converting non- USD currencies against the U.S. dollar, and cross-rates (non-USD-based rates) used for selected currencies in which the rates quoted are against a currency other than the U.S. dollar. The Multicurrency Service automatically converts the transaction currency to the acquirer's settlement currency (if the two are different), and automatically converts the cardholder's",
-          "match_type": "fuzzy",
-          "similarity": 0.965
         }
       ],
-      "paragraphs_removed": [
-        "For POS transactions, IRFs are typically paid by acquirers to issuers. Fees for manual cash disbursements, reversals, merchandise returns, dispute financials, and credit adjustments flow in the opposite direction. For Interlink transactions in the U.S. region, the following merchant category codes (MCCs) are eligible for the Interlink retail-tiered IRF fee:"
-      ],
-      "paragraphs_added": [
-        "billing currency to the issuer's settlement currency (if the two are different), to one of the settlement currencies. For POS transactions, IRFs are typically paid by acquirers to issuers. Fees for manual cash disbursements, reversals, merchandise returns, dispute financials, and credit adjustments flow in the opposite direction. For Interlink transactions in the U.S. region, these merchant category codes (MCCs) are eligible for the Interlink retail-tiered IRF fee:"
-      ],
+      "paragraphs_removed": [],
+      "paragraphs_added": [],
       "paragraphs_reflowed": []
     },
     {
@@ -5996,6 +5990,12 @@
       "duplicate_paragraph_texts_b": [],
       "paragraphs_matched": [
         {
+          "text_a": "Full service supports the following transactions for Visa in the POS environment. Authorization – Full service acquirers use an authorization transaction message when the final transaction amount is not known at the time of purchase. Manual Cash Disbursement – Manual cash disbursement is also called manual cash. ATM Cash Disbursement—ATM cash disbursement is the withdrawal of cash from an ATM. Preauthorization and Preauthorization Completion – This transaction is designed for merchant locations, such as fuel pumps, at which the purchase amount is not known at the time the cardholder initiates the transaction, but the merchant can provide the final transaction amount within two hours. Authorization validity timeframe requirements are defined in Visa Interlink Core Product Rules. Preauthorizations consist of an initial request message containing an estimated purchase amount followed by a completion message. The merchant is guaranteed payment if:",
+          "text_b": "Full service supports these transactions for Visa in the POS environment. Authorization – Full service acquirers use an authorization transaction message when the final transaction amount is not known at the time of purchase. Manual Cash Disbursement – Manual cash disbursement is also called manual cash. ATM Cash Disbursement—ATM cash disbursement is the withdrawal of cash from an ATM. Preauthorization and Preauthorization Completion – This transaction is designed for merchant locations, such as fuel pumps, at which the purchase amount is not known at the time the cardholder initiates the transaction, but the merchant can provide the final transaction amount within two hours. Authorization validity timeframe requirements are defined in Visa Interlink Core Product Rules. Preauthorizations consist of an initial request message containing an estimated purchase amount followed by a completion message. The merchant is guaranteed payment if:",
+          "match_type": "fuzzy",
+          "similarity": 0.994
+        },
+        {
           "text_a": "VisaNet receives the preauthorization completion message within two hours of the corresponding preauthorization request message. The amount in the completion message does not exceed the amount approved by the issuer.",
           "text_b": "VisaNet receives the preauthorization completion message within two hours of the corresponding preauthorization request message. The amount in the completion message does not exceed the amount approved by the issuer.",
           "match_type": "exact",
@@ -6014,13 +6014,8 @@
           "similarity": 1.0
         }
       ],
-      "paragraphs_removed": [
-        "Full service supports the following transactions for Visa in the POS environment. Authorization – Full service acquirers use an authorization transaction message when the final transaction amount is not known at the time of purchase. Manual Cash Disbursement – Manual cash disbursement is also called manual cash. ATM Cash Disbursement—ATM cash disbursement is the withdrawal of cash from an ATM. Preauthorization and Preauthorization Completion – This transaction is designed for merchant locations, such as fuel pumps, at which the purchase amount is not known at the time the cardholder initiates the transaction, but the merchant can provide the final transaction amount within two hours. Authorization validity timeframe requirements are defined in Visa",
-        "Interlink Core Product Rules. Preauthorizations consist of an initial request message containing an estimated purchase amount followed by a completion message. The merchant is guaranteed payment if:"
-      ],
-      "paragraphs_added": [
-        "Full service supports these transactions for Visa in the POS environment. Authorization – Full service acquirers use an authorization transaction message when the final transaction amount is not known at the time of purchase. Manual Cash Disbursement – Manual cash disbursement is also called manual cash. ATM Cash Disbursement—ATM cash disbursement is the withdrawal of cash from an ATM. Preauthorization and Preauthorization Completion – This transaction is designed for merchant locations, such as fuel pumps, at which the purchase amount is not known at the time the cardholder initiates the transaction, but the merchant can provide the final transaction amount within two hours. Authorization validity timeframe requirements are defined in Visa Interlink Core Product Rules. Preauthorizations consist of an initial request message containing an estimated purchase amount followed by a completion message. The merchant is guaranteed payment if:"
-      ],
+      "paragraphs_removed": [],
+      "paragraphs_added": [],
       "paragraphs_reflowed": [
         {
           "text_a": [
@@ -6772,6 +6767,12 @@
           "similarity": 1.0
         },
         {
+          "text_a": "The following tables list the valid Visa POS transaction sets, and within each set, the allowable transactions and valid system transactions. System transactions are, from left to right in the tables, the original request, reversal, dispute financial, dispute financial reversal, and dispute response financial. These tables show transactions permitted in a transaction set, not those present for a typical transaction set. If a transaction is completed satisfactorily under normal conditions, the set contains only the original submission.",
+          "text_b": "These tables list the valid Visa POS transaction sets, and within each set, the allowable transactions and valid system transactions. System transactions are, from left to right in the tables, the original request, reversal, dispute financial, dispute financial reversal, and dispute response financial. These tables display transactions permitted in a transaction set, not those present for a typical transaction set. If a transaction is completed satisfactorily under normal conditions, the set contains only the original submission.",
+          "match_type": "fuzzy",
+          "similarity": 0.979
+        },
+        {
           "text_a": "Manual Cash Disbursement Transaction Set",
           "text_b": "Manual Cash Disbursement Transaction Set",
           "match_type": "exact",
@@ -7216,12 +7217,6 @@
           "similarity": 1.0
         },
         {
-          "text_a": "The following tables list the valid Visa POS transaction sets, and within each set, the allowable transactions and valid system transactions. System transactions are, from left to right in the tables, the original request, reversal, dispute financial, dispute financial reversal, and dispute response financial. These tables show transactions permitted in a transaction set, not those present for a typical transaction set. If a transaction is completed satisfactorily under normal conditions, the set contains only the original submission.",
-          "text_b": "These tables list the valid Visa POS transaction sets, and within each set, the allowable transactions and valid system transactions. System transactions are, from left to right in the tables, the original request, reversal, dispute financial, dispute financial reversal, and dispute response financial. These tables display transactions permitted in a transaction set, not those present for a typical transaction set. If a transaction is completed satisfactorily under normal conditions, the set contains only the original submission.",
-          "match_type": "fuzzy",
-          "similarity": 0.979
-        },
-        {
           "text_a": "1Includes purchase with cashback, purchase with address verification (Visa POS only), quasi-cash, and key- entered purchase.",
           "text_b": "Includes purchase with cashback, purchase with address verifi­ cation (Visa POS only), quasi-cash, and key- entered purchase. Adjustment",
           "match_type": "fuzzy",
@@ -7407,25 +7402,20 @@
       "duplicate_paragraph_texts_b": [],
       "paragraphs_matched": [
         {
+          "text_a": "V.I.P. uses the following key data fields to match requests and responses and to identify repeat or duplicate requests: Field 32 – Acquiring Institution Identification Code Field 37 – Retrieval Reference Number Field 41 – Card Acceptor Terminal Identification Field 42 – Card Acceptor Identification Code Field 63.1 – Network Identification Code",
+          "text_b": "V.I.P. uses these key data fields to match requests and responses and to identify repeat or duplicate requests: Field 32 – Acquiring Institution Identification Code Field 37 – Retrieval Reference Number Field 41 – Card Acceptor Terminal Identification Field 42 – Card Acceptor Identification Code Field 63.1 – Network Identification Code",
+          "match_type": "fuzzy",
+          "similarity": 0.982
+        },
+        {
           "text_a": "Acquirers must exercise caution if reusing field 37 values when submitting authorization requests. The first four digits of Field 37 must contain a valid Julian date in the yddd format, where the first digit = 0–9 and the next three digits = 001–366. V.I.P. can also use other message fields, such as Field 7 – Transmission Date and Time and Field 11 – System Trace Audit Number to link messages, although the system does not retain them in the message matching table. The message matching table retains a transaction’s key field information until the issuer or STIP sends a response to that transaction. Certain card type transactions require the message matching table not restore values from certain fields when those values differ between the request and the response, for instance, when the amount in field 4 in the response to certain private-label requests is different from the amount in field 4 in its corresponding original request.",
           "text_b": "Acquirers must exercise caution if reusing field 37 values when submitting authorization requests. The first four digits of Field 37 must contain a valid Julian date in the yddd format, where the first digit = 0–9 and the next three digits = 001–366. V.I.P. can also use other message fields, such as Field 7 – Transmission Date and Time and Field 11 – System Trace Audit Number to link messages, although the system does not retain them in the message matching table. The message matching table retains a transaction’s key field information until the issuer or STIP sends a response to that transaction. Certain card type transactions require the message matching table not restore values from certain fields when those values differ between the request and the response, for instance, when the amount in field 4 in the response to certain private-label requests is different from the amount in field 4 in its corresponding original request.",
           "match_type": "exact",
           "similarity": 1.0
-        },
-        {
-          "text_a": "V.I.P. uses the following key data fields to match requests and responses and to identify repeat or duplicate requests:",
-          "text_b": "V.I.P. uses these key data fields to match requests and responses and to identify repeat or duplicate requests:",
-          "match_type": "fuzzy",
-          "similarity": 0.948
         }
       ],
-      "paragraphs_removed": [
-        "Field 32 – Acquiring Institution Identification Code Field 37 – Retrieval Reference Number Field 41 – Card Acceptor Terminal Identification",
-        "Field 42 – Card Acceptor Identification Code Field 63.1 – Network Identification Code"
-      ],
-      "paragraphs_added": [
-        "Field 32 – Acquiring Institution Identification Code Field 37 – Retrieval Reference Number Field 41 – Card Acceptor Terminal Identification Field 42 – Card Acceptor Identification Code Field 63.1 – Network Identification Code"
-      ],
+      "paragraphs_removed": [],
+      "paragraphs_added": [],
       "paragraphs_reflowed": []
     },
     {
@@ -7796,6 +7786,12 @@
           "similarity": 1.0
         },
         {
+          "text_a": "X X X X X card-not-present transactions only) 1For Visa, purchase with cashback is allowed for domestic transactions only; it is not supported for interna­ tional transactions. Participating regions may offer a cashback service through VisaNet. Clients can contact their Visa representatives for information about availability. Purchase transactions also include account funding transactions, which are valid for Visa POS. For transactions made at automated fuel dispensers with MCC 5542, an 0100 preauthorization request can optionally include an estimated authorization amount up to USD$500.00 in Field 4 —Amount, Transaction, and the maximum time expected between authorization and clearing in Field 63.2—Time (Preauth Time Limit). Acquirers in the U.S. region that do not participate in real-time clearing (RTC) must follow 0100 Visa AFD transactions with an 0120 acquirer confirmation advice that contains the actual transaction amount. If the issuer supports 0120 confirmation advices, VisaNet forwards the message to the issuer. If the issuer does not support these advices, VisaNet processes the transaction in STIP and responds to the acquirer with an 0130 message. Issuers must be able to support AFD status check and confirmation advices. In these messages, field 25 must contain valid values other than 06, which should only be received in real-time clearing fuel transactions. Acquirers must not submit Mastercard POS 02xx full financial messages. For AFD completions destined for Mastercard, acquirers must use 0120 messages. After the transaction is completed, the acquirer sends an 0220 completion message containing the preauthorization time limit and Field 25—POS Condition Code with value 06 to indicate that the completion transaction was previously authorized. Merchants and acquirers must send the final amount to VisaNet within 2 hours of the preauthorization. For Mastercard AFD transactions in Visa Canada and in the U.S. region, the final amount must be sent within 1 hour of the preauthorization. Acquirers must not submit Mastercard POS 02xx full financial messages. For AFD completions destined for Mastercard, acquirers must use 0120 messages. If an issuer sends an 0230 preauthorization completion advice response with a decline response code, V.I.P. checks the transaction history. If the original preauthorization request was declined or not received by the issuer, V.I.P. processes the decline from the issuer. If V.I.P. processes an 0220 preauthorization completion in STIP, and the transaction history indicates that the corresponding preauthorization request was declined, V.I.P. declines the 0220 preauthorization completion. If the merchant does not submit a completion message within 2 hours of sending the preauthorization request message, V.I.P. generates a preauthorization reversal on behalf of the acquirer and delivers it to the issuer. V.I.P. also generates a 0420 reversal advice for the acquirer and places it in its advice queue. Merchants should support partial authorizations, which allow the issuer to approve an amount below the original estimated authorization amount. This figure illustrates the standard flow of a purchase or manual cash disbursement transaction. Purchase or Manual Cash Disbursement Transaction Flow",
+          "text_b": "Yes Yes Yes Yes Yes card-not-present transactions only) Purchase transactions also include account funding transactions, which are valid for Visa POS. For transactions made at automated fuel dispensers with MCC 5542, an 0100 preauthorization request can optionally include an estimated authorization amount up to USD$500.00 in Field 4 —Amount, Transaction, and the maximum time expected between authorization and clearing in Field 63.2—Time (Preauth Time Limit). Acquirers in the U.S. region that do not participate in real-time clearing (RTC) must follow 0100 Visa AFD transactions with an 0120 acquirer confirmation advice that contains the actual transaction amount. If the issuer supports 0120 confirmation advices, VisaNet forwards the message to the issuer. If the issuer does not support these advices, VisaNet processes the transaction in STIP and responds to the acquirer with an 0130 message. Issuers must be able to support AFD status check and confirmation advices. In these messages, field 25 must contain valid values other than 06, which should only be received in real-time clearing fuel transactions. Acquirers must not submit Mastercard POS 02xx full financial messages. For AFD completions destined for Mastercard, acquirers must use 0120 messages. After the transaction is completed, the acquirer sends an 0220 completion message containing the preauthorization time limit and Field 25—POS Condition Code with value 06 to indicate that the completion transaction was previously authorized. Merchants and acquirers must send the final amount to VisaNet within 2 hours of the preauthorization. For Mastercard AFD transactions in Visa Canada and in the U.S. region, the final amount must be sent within 1 hour of the preauthorization. Acquirers must not submit Mastercard POS 02xx full financial messages. For AFD completions destined for Mastercard, acquirers must use 0120 messages. If an issuer sends an 0230 preauthorization completion advice response with a decline response code, V.I.P. checks the transaction history. If the original preauthorization request was declined or not received by the issuer, V.I.P. processes the decline from the issuer. If V.I.P. processes an 0220 preauthorization completion in STIP, and the transaction history indicates that the corresponding preauthorization request was declined, V.I.P. declines the 0220 preauthorization completion. If the merchant does not submit a completion message within 2 hours of sending the preauthorization request message, V.I.P. generates a preauthorization reversal on behalf of the acquirer and delivers it to the issuer. V.I.P. also generates a 0420 reversal advice for the acquirer and places it in its advice queue. Merchants should support partial authorizations, which allow the issuer to approve an amount below the original estimated authorization amount. This figure illustrates the standard flow of a purchase or manual cash disbursement transaction. Purchase or Manual Cash Disbursement Transaction Flow",
+          "match_type": "fuzzy",
+          "similarity": 0.951
+        },
+        {
           "text_a": "Acquirer",
           "text_b": "Acquirer",
           "match_type": "exact",
@@ -7849,15 +7845,7 @@
         "X",
         "X",
         "X",
-        "X",
-        "X",
-        "X",
-        "X",
-        "X",
-        "X",
-        "card-not-present transactions only) 1For Visa, purchase with cashback is allowed for domestic transactions only; it is not supported for interna­ tional transactions. Participating regions may offer a cashback service through VisaNet. Clients can contact their Visa representatives for information about availability.",
-        "Purchase transactions also include account funding transactions, which are valid for Visa POS. For transactions made at automated fuel dispensers with MCC 5542, an 0100 preauthorization request can optionally include an estimated authorization amount up to USD$500.00 in Field 4 —Amount, Transaction, and the maximum time expected between authorization and clearing in Field 63.2—Time (Preauth Time Limit). Acquirers in the U.S. region that do not participate in real-time clearing (RTC) must follow 0100 Visa AFD transactions with an 0120 acquirer confirmation advice that contains the actual transaction amount. If the issuer supports 0120 confirmation advices, VisaNet forwards the message to the issuer. If the issuer does not support these advices, VisaNet processes the transaction in STIP and responds to the acquirer with an 0130 message. Issuers must be able to support AFD status check and confirmation advices. In these messages, field 25 must contain valid values other than 06, which should only be received in real-time clearing fuel transactions. Acquirers must not submit Mastercard POS 02xx full financial messages. For AFD completions destined for Mastercard, acquirers must use 0120 messages. After the transaction is completed, the acquirer sends an 0220 completion message containing the preauthorization time limit and Field 25—POS Condition Code with value 06 to indicate that the completion transaction was previously authorized. Merchants and acquirers must send the final amount to VisaNet within 2 hours of the preauthorization. For Mastercard AFD transactions in Visa Canada and in the U.S. region, the final amount must be sent within 1 hour of the preauthorization. Acquirers must not submit Mastercard POS 02xx full financial messages. For AFD completions destined for Mastercard, acquirers must use 0120 messages. If an issuer sends an 0230 preauthorization completion advice response with a decline response code, V.I.P. checks the transaction history. If the original preauthorization request was declined or not received by the issuer, V.I.P. processes the decline from the issuer.",
-        "If V.I.P. processes an 0220 preauthorization completion in STIP, and the transaction history indicates that the corresponding preauthorization request was declined, V.I.P. declines the 0220 preauthorization completion. If the merchant does not submit a completion message within 2 hours of sending the preauthorization request message, V.I.P. generates a preauthorization reversal on behalf of the acquirer and delivers it to the issuer. V.I.P. also generates a 0420 reversal advice for the acquirer and places it in its advice queue. Merchants should support partial authorizations, which allow the issuer to approve an amount below the original estimated authorization amount. This figure illustrates the standard flow of a purchase or manual cash disbursement transaction. Purchase or Manual Cash Disbursement Transaction Flow"
+        "X"
       ],
       "paragraphs_added": [
         "Yes",
@@ -7865,16 +7853,7 @@
         "Yes",
         "Yes",
         "Yes",
-        "For Visa, purchase with cashback is allowed for domestic transactions only; it is not supported for international transactions. Participating regions may offer a cashback service through VisaNet. Clients can contact their Visa represen­ tatives for information about availa­ bility.",
-        "Yes",
-        "Yes",
-        "Yes",
-        "Yes",
-        "Yes",
-        "card-not-present transactions only)",
-        "Purchase transactions also include account funding transactions, which are valid for Visa POS. For transactions made at automated fuel dispensers with MCC 5542, an 0100 preauthorization request can optionally include an estimated authorization amount up to USD$500.00 in Field 4 —Amount, Transaction, and the maximum time expected between authorization and clearing in Field 63.2—Time (Preauth Time Limit). Acquirers in the U.S. region that do not participate in real-time clearing (RTC) must follow 0100 Visa AFD transactions with an 0120 acquirer confirmation advice that contains the actual transaction amount. If the issuer supports 0120 confirmation advices, VisaNet forwards the message to the issuer. If the issuer does not support these advices, VisaNet processes the transaction in STIP and responds to the acquirer with an 0130 message. Issuers must be able to support AFD status check and confirmation advices. In these messages, field 25 must contain valid values other than 06, which should only be received in real-time clearing fuel transactions.",
-        "Acquirers must not submit Mastercard POS 02xx full financial messages. For AFD completions destined for Mastercard, acquirers must use 0120 messages. After the transaction is completed, the acquirer sends an 0220 completion message containing the preauthorization time limit and Field 25—POS Condition Code with value 06 to indicate that the completion transaction was previously authorized. Merchants and acquirers must send the final amount to VisaNet within 2 hours of the preauthorization. For Mastercard AFD transactions in Visa Canada and in the U.S. region, the final amount must be sent within 1 hour of the preauthorization. Acquirers must not submit Mastercard POS 02xx full financial messages. For AFD completions destined for Mastercard, acquirers must use 0120 messages. If an issuer sends an 0230 preauthorization completion advice response with a decline response code, V.I.P. checks the transaction history. If the original preauthorization request was declined or not received by the issuer, V.I.P. processes the decline from the issuer. If V.I.P. processes an 0220 preauthorization completion in STIP, and the transaction history indicates that the corresponding preauthorization request was declined, V.I.P. declines the 0220 preauthorization completion. If the merchant does not submit a completion message within 2 hours of sending the preauthorization request message, V.I.P. generates a preauthorization reversal on behalf of the acquirer and delivers it to the issuer. V.I.P. also generates a 0420 reversal advice for the acquirer and places it in its advice queue. Merchants should support partial authorizations, which allow the issuer to approve an amount below the original estimated authorization amount. This figure illustrates the standard flow of a purchase or manual cash disbursement transaction.",
-        "Purchase or Manual Cash Disbursement Transaction Flow"
+        "For Visa, purchase with cashback is allowed for domestic transactions only; it is not supported for international transactions. Participating regions may offer a cashback service through VisaNet. Clients can contact their Visa represen­ tatives for information about availa­ bility."
       ],
       "paragraphs_reflowed": []
     },
@@ -12540,6 +12519,12 @@
       ],
       "paragraphs_matched": [
         {
+          "text_a": "This section provides examples of the content and the processing of amount-related fields for online multicurrency support of full financial POS and ATM transactions. The examples assume that the acquirer and issuer participate in Multicurrency Service. Examples show: 1.",
+          "text_b": "This section provides examples of the content and the processing of amount-related fields for online multicurrency support of full financial POS and ATM transactions. The examples assume that the acquirer and issuer participate in Multicurrency Service. The examples display: 1.",
+          "match_type": "fuzzy",
+          "similarity": 0.973
+        },
+        {
           "text_a": "The fields the message originator must provide. 2. The processing performed by V.I.P. 3. The fields forwarded to the message recipient.",
           "text_b": "The fields the message originator must provide. 2. The processing performed by V.I.P. 3. The fields forwarded to the message recipient.",
           "match_type": "exact",
@@ -15442,12 +15427,6 @@
           "text_b": "PACM Service is available for POS only, not for ATM.",
           "match_type": "exact",
           "similarity": 1.0
-        },
-        {
-          "text_a": "This section provides examples of the content and the processing of amount-related fields for online multicurrency support of full financial POS and ATM transactions. The examples assume that the acquirer and issuer participate in Multicurrency Service. Examples show: 1.",
-          "text_b": "This section provides examples of the content and the processing of amount-related fields for online multicurrency support of full financial POS and ATM transactions. The examples assume that the acquirer and issuer participate in Multicurrency Service. The examples display: 1.",
-          "match_type": "fuzzy",
-          "similarity": 0.973
         }
       ],
       "paragraphs_removed": [],
@@ -16134,6 +16113,12 @@
           "similarity": 1.0
         },
         {
+          "text_a": "By default, the VAA threshold for each category is set to a value of 30 (40 for issuers in Europe); however, issuers can adjust these value to balance their cardholder service and risk strategies. VAA risk scores fall within the range of 01–99 where 01 indicates that a transaction is less risky and 99 indicates that a transaction is riskier. When a transaction is processed in STIP, the VAA score for the transaction is compared to the VAA risk score threshold for the corresponding category. The POS card-not-present VAA risk score threshold is applied to card-not-present, mail, telephone, e-commerce, and recurring payment transactions when the POS Condition Code in Field 25 of the authorization message is one of the values, listed in below. Card not Present POS Condition Code Values Field 25",
+          "text_b": "By default, the VAA threshold for each category is set to a value of 30 (40 for issuers in Europe); however, issuers can adjust these value to balance their cardholder service and risk strategies. VAA risk scores fall within the range of 01–99 where 01 indicates that a transaction is less risky and 99 indicates that a transaction is riskier. When a transaction is processed in STIP, the VAA score for the transaction is compared to the VAA risk score threshold for the corresponding category. The POS card-not-present VAA risk score threshold is applied to card-not-present, mail, telephone, e-commerce, and recurring payment transactions when the POS Condition Code in Field 25 of the authorization message is one of the values, listed in the table. Card not Present POS Condition Code Values in Field 25",
+          "match_type": "fuzzy",
+          "similarity": 0.991
+        },
+        {
           "text_a": "Value",
           "text_b": "Value",
           "match_type": "exact",
@@ -16228,21 +16213,10 @@
           "text_b": "The transaction VAA risk score is less than or equal to the issuer-defined STIP risk score threshold. The transaction passes activity limit checking. The transaction passes authentication.",
           "match_type": "exact",
           "similarity": 1.0
-        },
-        {
-          "text_a": "By default, the VAA threshold for each category is set to a value of 30 (40 for issuers in Europe); however, issuers can adjust these value to balance their cardholder service and risk strategies. VAA risk scores fall within the range of 01–99 where 01 indicates that a transaction is less risky and 99 indicates that a transaction is riskier. When a transaction is processed in STIP, the VAA score for the transaction is compared to the VAA risk score threshold for the corresponding category. The POS card-not-present VAA risk score threshold is applied to card-not-present, mail, telephone, e-commerce, and recurring payment transactions when the POS Condition Code in Field 25 of the authorization message is one of the values, listed in below.",
-          "text_b": "By default, the VAA threshold for each category is set to a value of 30 (40 for issuers in Europe); however, issuers can adjust these value to balance their cardholder service and risk strategies. VAA risk scores fall within the range of 01–99 where 01 indicates that a transaction is less risky and 99 indicates that a transaction is riskier. When a transaction is processed in STIP, the VAA score for the transaction is compared to the VAA risk score threshold for the corresponding category. The POS card-not-present VAA risk score threshold is applied to card-not-present, mail, telephone, e-commerce, and recurring payment transactions when the POS Condition Code in Field 25 of the authorization message is one of the values, listed in the table.",
-          "match_type": "fuzzy",
-          "similarity": 0.992
         }
       ],
-      "paragraphs_removed": [
-        "Card not Present POS Condition Code Values",
-        "Field 25"
-      ],
-      "paragraphs_added": [
-        "Card not Present POS Condition Code Values in Field 25"
-      ],
+      "paragraphs_removed": [],
+      "paragraphs_added": [],
       "paragraphs_reflowed": []
     },
     {
@@ -17190,6 +17164,12 @@
           "similarity": 1.0
         },
         {
+          "text_a": "Based on acquirers configuration parameters VIP converts 75 to 05, V.I.P. forwards 75 to issuers in 0120 advices. If issuers return 0110 responses with 75 in filed 39, VisaNet forwards it unchanged to acquirers. Otherwise, based on acquirers configuration parameters V.I.P. inserts 05 in field 39 before sending responses to acquirers.",
+          "text_b": "Based on acquirers configuration parameters VIP converts 75 to 05, V.I.P. forwards 75 to issuers in 0120 advices. If issuers return 0110 responses with 75 in field 39, VisaNet forwards it unchanged to acquirers. Otherwise, based on acquirers configuration parameters V.I.P. inserts 05 in field 39 before sending responses to acquirers.",
+          "match_type": "fuzzy",
+          "similarity": 0.997
+        },
+        {
           "text_a": "STIP converts other response codes.",
           "text_b": "STIP converts other response codes.",
           "match_type": "exact",
@@ -17248,12 +17228,6 @@
           "text_b": "One of:",
           "match_type": "exact",
           "similarity": 1.0
-        },
-        {
-          "text_a": "Based on acquirers configuration parameters VIP converts 75 to 05, V.I.P. forwards 75 to issuers in 0120 advices. If issuers return 0110 responses with 75 in filed 39, VisaNet forwards it unchanged to acquirers. Otherwise, based on acquirers configuration parameters V.I.P. inserts 05 in field 39 before sending responses to acquirers.",
-          "text_b": "Based on acquirers configuration parameters VIP converts 75 to 05, V.I.P. forwards 75 to issuers in 0120 advices. If issuers return 0110 responses with 75 in field 39, VisaNet forwards it unchanged to acquirers. Otherwise, based on acquirers configuration parameters V.I.P. inserts 05 in field 39 before sending responses to acquirers.",
-          "match_type": "fuzzy",
-          "similarity": 0.997
         },
         {
           "text_a": "Converting Approval, Forward-or-Approve, Decline, or Incorrect CVV or iCVV Response Codes",
@@ -17360,15 +17334,16 @@
       "fuzzy_ratio": 1.0,
       "duplicate_paragraph_texts_a": [],
       "duplicate_paragraph_texts_b": [],
-      "paragraphs_matched": [],
-      "paragraphs_removed": [
-        "Reversals cannot be declined. When STIP receives a reversal, it always approves the reversal and creates an advice for the issuer. STIP, however, edits the reversal for validity. STIP checks the reversal for proper syntax and consistency, and searches for the corresponding original transaction being reversed. If STIP finds the original transaction, STIP updates the activity records, and the reversal has financial impact. If STIP does not find the financial record, the reversal has no financial impact so STIP does not update the activity records. The issuer may still receive response code 00 (approved) or the acquirer may receive response code 21 (no action taken). V.I.P. generates a reversal for the issuer if STIP cannot deliver an 0210 response to an approved 0200 request to the acquirer. STIP also generates reversals to the issuer for returned responses or for late responses to approved requests. STIP responds with response code 79 (already reversed) if an acquirer sends a reversal and the history record shows that a previous reversal was processed for the same transaction. This response code value is only used by V.I.P. Issuers must not use this value in response messages.",
-        "STIP responds with response code 80 (no financial impact) if an acquirer sends a reversal and the history records show that the original request was declined. STIP responds with response code 76 (unsolicited reversal) if there is no history for the transaction in question and the reversal is inter-VIC, or if V.I.P. is in single-center mode."
+      "paragraphs_matched": [
+        {
+          "text_a": "Reversals cannot be declined. When STIP receives a reversal, it always approves the reversal and creates an advice for the issuer. STIP, however, edits the reversal for validity. STIP checks the reversal for proper syntax and consistency, and searches for the corresponding original transaction being reversed. If STIP finds the original transaction, STIP updates the activity records, and the reversal has financial impact. If STIP does not find the financial record, the reversal has no financial impact so STIP does not update the activity records. The issuer may still receive response code 00 (approved) or the acquirer may receive response code 21 (no action taken). V.I.P. generates a reversal for the issuer if STIP cannot deliver an 0210 response to an approved 0200 request to the acquirer. STIP also generates reversals to the issuer for returned responses or for late responses to approved requests. STIP responds with response code 79 (already reversed) if an acquirer sends a reversal and the history record shows that a previous reversal was processed for the same transaction. This response code value is only used by V.I.P. Issuers must not use this value in response messages. STIP responds with response code 80 (no financial impact) if an acquirer sends a reversal and the history records show that the original request was declined. STIP responds with response code 76 (unsolicited reversal) if there is no history for the transaction in question and the reversal is inter-VIC, or if V.I.P. is in single-center mode.",
+          "text_b": "Reversals cannot be declined. When STIP receives a reversal, it always approves the reversal and creates an advice for the issuer. STIP, however, edits the reversal for validity. STIP checks the reversal for proper syntax and consistency, and searches for the corresponding original transaction being reversed. If STIP finds the original transaction, STIP updates the activity records, and the reversal has financial impact. If STIP does not find the financial record, the reversal has no financial impact so STIP does not update the activity records. The issuer may still receive response code 00 (approved) or the acquirer may receive response code 21 (no action taken). V.I.P. generates a reversal for the issuer if STIP cannot deliver an 0210 response to an approved 0200 request to the acquirer. STIP also generates reversals to the issuer for returned responses or for late responses to approved requests. STIP responds with response code 79 (already reversed) if an acquirer sends a reversal and the history record displays that a previous reversal was processed for the same transaction. This response code value is only used by V.I.P. Issuers must not use this value in response messages. STIP responds with response code 80 (no financial impact) if an acquirer sends a reversal and the history records display that the original request was declined. STIP responds with response code 76 (unsolicited reversal) if there is no history for the transaction in question and the reversal is inter-VIC, or if V.I.P. is in single-center mode.",
+          "match_type": "fuzzy",
+          "similarity": 0.993
+        }
       ],
-      "paragraphs_added": [
-        "Reversals cannot be declined. When STIP receives a reversal, it always approves the reversal and creates an advice for the issuer. STIP, however, edits the reversal for validity. STIP checks the reversal for proper syntax and consistency, and searches for the corresponding original transaction being reversed. If STIP finds the original transaction, STIP updates the activity records, and the reversal has financial impact. If STIP does not find the financial record, the",
-        "reversal has no financial impact so STIP does not update the activity records. The issuer may still receive response code 00 (approved) or the acquirer may receive response code 21 (no action taken). V.I.P. generates a reversal for the issuer if STIP cannot deliver an 0210 response to an approved 0200 request to the acquirer. STIP also generates reversals to the issuer for returned responses or for late responses to approved requests. STIP responds with response code 79 (already reversed) if an acquirer sends a reversal and the history record displays that a previous reversal was processed for the same transaction. This response code value is only used by V.I.P. Issuers must not use this value in response messages. STIP responds with response code 80 (no financial impact) if an acquirer sends a reversal and the history records display that the original request was declined. STIP responds with response code 76 (unsolicited reversal) if there is no history for the transaction in question and the reversal is inter-VIC, or if V.I.P. is in single-center mode."
-      ],
+      "paragraphs_removed": [],
+      "paragraphs_added": [],
       "paragraphs_reflowed": []
     },
     {

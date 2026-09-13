@@ -196,9 +196,9 @@
       "code": "2",
       "column": "Usage Use to indicate that the transaction does not originate at an unattended terminal.",
       "column_index": 2,
-      "old": "Use to indicate that the transaction:\nl\nl\nExamples of a Type C UAT transaction are:\nIs authorized.\nHas PIN verification performed.\nl\nATM\nl\nFuel purchase with PIN",
+      "old": "Use to indicate that the transaction:\nIs authorized.\nl\nHas PIN verification performed.\nl\nExamples of a Type C UAT transaction are:\nATM\nl\nFuel purchase with PIN\nl",
       "new": "use only)",
-      "similarity_ratio": 0.082,
+      "similarity_ratio": 0.086,
       "table": "Acceptance Terminal Indicator"
     },
     {
@@ -401,9 +401,9 @@
       "code": "ACQUIRER",
       "column": "Definition",
       "column_index": 1,
-      "old": "A client financial institution that has agreements with merchants to accept Visa\ncard transactions or offers cash disbursement services to account holders, or\nboth. The acquirer is responsible for:\nl\nl\nl\nAccepting card transaction data from merchants and its own ATMs and bank\nbranches\nProviding authorization decisions to those card-accepting locations\nConveying transaction information to Visa as interchange transactions",
-      "new": "A client financial institution that has agreements with merchants to accept Visa\ncard transactions or offers cash disbursement services to account holders, or\nboth. The acquirer is responsible for:\nl\nl\nl\nAccepting card transaction data from merchants and its own ATMs and bank\nbranches\nProviding decisions to those card-accepting locations\nConveying transaction information to Visa as transactions",
-      "similarity_ratio": 0.939,
+      "old": "A client financial institution that has agreements with merchants to accept Visa\ncard transactions or offers cash disbursement services to account holders, or\nboth. The acquirer is responsible for:\nAccepting card transaction data from merchants and its own ATMs and bank\nl\nbranches\nProviding authorization decisions to those card-accepting locations\nl\nConveying transaction information to Visa as interchange transactions\nl",
+      "new": "A client financial institution that has agreements with merchants to accept Visa\ncard transactions or offers cash disbursement services to account holders, or\nboth. The acquirer is responsible for:\nAccepting card transaction data from merchants and its own ATMs and bank\nl\nbranches\nProviding decisions to those card-accepting locations\nl\nConveying transaction information to Visa as transactions\nl",
+      "similarity_ratio": 0.938,
       "table": "Glossary"
     },
     {

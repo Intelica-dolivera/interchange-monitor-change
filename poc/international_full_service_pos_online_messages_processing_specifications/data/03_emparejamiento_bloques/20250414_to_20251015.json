@@ -18722,6 +18722,12 @@
           "similarity": 1.0
         },
         {
+          "text_a": "ATM mini statement POS card activation Load ATM PIN change ATM PIN unblock Mastercard or American Express transactions",
+          "text_b": "ATM mini statement POS card activation ATM PIN change ATM PIN unblock Mastercard or American Express transactions",
+          "match_type": "fuzzy",
+          "similarity": 0.978
+        },
+        {
           "text_a": "Transactions receiving response codes in the table below.",
           "text_b": "Transactions receiving response codes in the table below.",
           "match_type": "exact",
@@ -18960,12 +18966,6 @@
           "text_b": "V.I.P. ensures a response code 57 (declined) is always returned for a recurring or installment payments purchase, product eligibility or account verification message, occurring on a non- reloadable prepaid card and create a 0120 or 0220 advice for the issuer. Creating a Reversal Advice When STIP responds to a reversal, it creates an 0420 advice for the issuer to recover. V.I.P. stores advices online for 30 days. Issuers that want to retrieve their advices need to retrieve them within this 30-day period. The 0420 advice contains data from the undeliverable reversal and the STIP response. The Advice-Created-By flag of the 0420 message header contains code 1, indicating that STIP created the advice while standing in for the issuer. STIP also sets the settlement flags in the message header of the advice as needed, to indicate the settlement impact. In addition, the 0420 advice contains a reason code in Subfield 63.4-STIP/Switch Reason Code.",
           "match_type": "exact",
           "similarity": 1.0
-        },
-        {
-          "text_a": "ATM mini statement POS card activation Load ATM PIN change ATM PIN unblock Mastercard or American Express transactions",
-          "text_b": "ATM mini statement POS card activation ATM PIN change ATM PIN unblock Mastercard or American Express transactions",
-          "match_type": "fuzzy",
-          "similarity": 0.978
         }
       ],
       "paragraphs_removed": [
