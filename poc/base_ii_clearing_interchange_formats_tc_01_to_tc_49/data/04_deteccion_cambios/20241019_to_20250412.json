@@ -30,7 +30,7 @@
     {
       "change_type": "card_content_changed",
       "position": "50-57",
-      "field": "description",
+      "field": "contenido",
       "old": "Contains the Visa-assigned business ID of the acquirer that signed the merchant for processing purchase or mail/phone order transactions. In this case, the acquirer is referred to as the Merchant Sponsor. The entry must be numeric. For transactions with a marketplace and payment facilitator, this field will contain the payment facilitator or marketplace ID. U.S. acquirers must provide this field on all original presentments. For dispute financials, dispute response financial, retrieval requests, and fraud advices, U.S. issuers must retain and return the Acquirer’s Business ID if it was provided by the acquirer.",
       "new": "Contains the Visa-assigned business ID of the acquirer that signed the merchant for processing purchase or mail/phone order transactions. In this case, the acquirer is referred to as the Merchant Sponsor. The entry must be numeric. For transactions with a marketplace, payment facilitator or ramp ID this field will contain the payment facilitator, marketplace ID or ramp ID. U.S. acquirers must provide this field on all original presentments. For dispute financials, dispute response financial, retrieval requests, and fraud advices, U.S. issuers must retain and return the Acquirer’s Business ID if it was provided by the acquirer.",
       "similarity_ratio": 0.529,
@@ -127,19 +127,19 @@
     {
       "change_type": "card_content_changed",
       "position": "24-73",
-      "field": "note",
-      "old": "See BASE II Clearing Data Codes for Dispute Reason Codes and Visa Core Rules and Visa Product and Service Rules for further information. National—Brazil: Tax ID: positions 24–37 (14 digits), Merchant Legal Name: positions 38–73. Market Place Data: Position 50-52: F^^ (Foreign Retailer Indicator) The client will not have any explicit field or flag to know whether the populated data is Market Place data or Member Message Text sent by the client.",
-      "new": "See BASE II Clearing Data Codes for Dispute Reason Codes and Visa Core Rules and Visa Product and Service Rules for further information. National—Brazil: Tax ID: positions 24–37 (14 digits), Merchant Legal Name: positions 38–73. Market Place Data: The following value is supported in Position 50-52: F^^ (Foreign Retailer Indicator) The client will not have any explicit field or flag to know whether the populated data is Market Place data or Member Message Text sent by the client.",
-      "similarity_ratio": 0.961,
+      "field": "contenido",
+      "old": "This field is used to send text messages. All members must be able to receive and process this field. If used, the entry must be left justified. Characters must be EBCDIC. See BASE II Clearing Data Codes for Dispute Reason Codes and Visa Core Rules and Visa Product and Service Rules for further information. National—Brazil: Tax ID: positions 24–37 (14 digits), Merchant Legal Name: positions 38–73. Market Place Data: Position 50-52: F^^ (Foreign Retailer Indicator) The client will not have any explicit field or flag to know whether the populated data is Market Place data or Member Message Text sent by the client.",
+      "new": "This field is used to send text messages. All members must be able to receive and process this field. If used, the entry must be left justified. Characters must be EBCDIC. See BASE II Clearing Data Codes for Dispute Reason Codes and Visa Core Rules and Visa Product and Service Rules for further information. National—Brazil: Tax ID: positions 24–37 (14 digits), Merchant Legal Name: positions 38–73. Market Place Data: The following value is supported in Position 50-52: F^^ (Foreign Retailer Indicator) The client will not have any explicit field or flag to know whether the populated data is Market Place data or Member Message Text sent by the client.",
+      "similarity_ratio": 0.972,
       "title": "TC 05 - TCR 1 Additional Data"
     },
     {
       "change_type": "card_content_changed",
       "position": "20-21",
-      "field": "description",
-      "old": "This field must contain the installment payment types. AC (Accelerated plan) l AD (Installments accelerated and deferred) l AN (Installments accelerated) l CC (Merchant installments) l CD (Sale deferred) l CO (Sale to Sale/Cash Disbursement) l CR (Issuer Installments) l GB (Govern plan) l PA (Agro installments deferred) l",
-      "new": "This field must contain the installment payment types. AC (Accelerated plan) l AD (Installments accelerated and deferred) l AN (Installments accelerated) l CC (Cuota a Cuota Installment Plans) l CD (Sale deferred) l CO (Sale/Cash Disbursement) l CR (Issuer Installments) l GB (Govern plan) l PA (Agro installments deferred) l",
-      "similarity_ratio": 0.91,
+      "field": "contenido",
+      "old": "This field must contain the installment payment types. are: AC (Accelerated plan) l AD (Installments accelerated and deferred) l AN (Installments accelerated) l CC (Merchant installments) l CD (Sale deferred) l CO (Sale to Sale/Cash Disbursement) l CR (Issuer Installments) l GB (Govern plan) l PA (Agro installments deferred) l",
+      "new": "This field must contain the installment payment types. are: AC (Accelerated plan) l AD (Installments accelerated and deferred) l AN (Installments accelerated) l CC (Cuota a Cuota Installment Plans) l CD (Sale deferred) l CO (Sale/Cash Disbursement) l CR (Issuer Installments) l GB (Govern plan) l PA (Agro installments deferred) l",
+      "similarity_ratio": 0.907,
       "title": "TC 05 - TCR 2 Argentina"
     },
     {
@@ -198,9 +198,7 @@
             "AN",
             "VAT Documentation Indicator - Merchant"
           ]
-        }
-      ],
-      "remaining_reserved": [
+        },
         {
           "position": "156",
           "cells": [
@@ -218,7 +216,9 @@
             "AN",
             "Applied Special Service"
           ]
-        },
+        }
+      ],
+      "remaining_reserved": [
         {
           "position": "158-168",
           "cells": [
@@ -316,9 +316,7 @@
             "values": "",
             "mapping": ""
           }
-        }
-      ],
-      "remaining_reserved": [
+        },
         {
           "position": "156",
           "card": {
@@ -348,7 +346,9 @@
             "values": "",
             "mapping": ""
           }
-        },
+        }
+      ],
+      "remaining_reserved": [
         {
           "position": "158-168",
           "card": {
@@ -380,7 +380,7 @@
     {
       "change_type": "card_content_changed",
       "position": "3",
-      "field": "description",
+      "field": "contenido",
       "old": "This field must contain the value 2 (Default for Original Credit).",
       "new": "This field must contain one of these values: 0 = Default 1 = Account Funding 2 = Original Credit",
       "similarity_ratio": 0.741,
@@ -389,7 +389,7 @@
     {
       "change_type": "card_content_changed",
       "position": "89-113",
-      "field": "description",
+      "field": "contenido",
       "old": "This field will contain the payment facilitator name and must be left-justified and space-filled. This field is a conditional field for Original Credit transactions. It is required when there is a payment facilitator in the payment chain who is touching the funds. This will be present only if Sender also sends the Payment Facilitator ID in the request.",
       "new": "This field will contain the payment facilitator name or ramp ID and must be left-justified and space-filled. This field is a conditional field for Original Credit transactions. It is required when there is a payment facilitator in the payment chain who is touching the funds. This will be present only if Sender also sends the Payment Facilitator ID or Ramp ID in the request.",
       "similarity_ratio": 0.97,
@@ -438,9 +438,7 @@
             "AN",
             "Product ID"
           ]
-        }
-      ],
-      "remaining_reserved": [
+        },
         {
           "position": "168",
           "cells": [
@@ -450,7 +448,8 @@
             "Account Funding Source"
           ]
         }
-      ]
+      ],
+      "remaining_reserved": []
     },
     {
       "change_type": "field_became_defined",
@@ -485,9 +484,7 @@
             "values": "",
             "mapping": ""
           }
-        }
-      ],
-      "remaining_reserved": [
+        },
         {
           "position": "168",
           "card": {
@@ -503,7 +500,8 @@
             "mapping": ""
           }
         }
-      ]
+      ],
+      "remaining_reserved": []
     },
     {
       "change_type": "field_became_defined",
@@ -526,9 +524,7 @@
             "AN",
             "Merchant Name"
           ]
-        }
-      ],
-      "remaining_reserved": [
+        },
         {
           "position": "139",
           "cells": [
@@ -545,15 +541,6 @@
             "4",
             "UN",
             "Merchant Category Code"
-          ]
-        },
-        {
-          "position": "144-148",
-          "cells": [
-            "144-148",
-            "5",
-            "AN",
-            "Reserved"
           ]
         },
         {
@@ -590,6 +577,17 @@
             "1",
             "AN",
             "Applied Special Service"
+          ]
+        }
+      ],
+      "remaining_reserved": [
+        {
+          "position": "144-148",
+          "cells": [
+            "144-148",
+            "5",
+            "AN",
+            "Reserved"
           ]
         },
         {
@@ -636,9 +634,7 @@
             "values": "",
             "mapping": ""
           }
-        }
-      ],
-      "remaining_reserved": [
+        },
         {
           "position": "139",
           "card": {
@@ -664,21 +660,6 @@
             "length": "4",
             "format": "unpacked numeric",
             "description": "This field will contain the value from TC 05 - TCR 0 position 133-136 Merchant Category Code field.",
-            "note": "",
-            "values": "",
-            "mapping": ""
-          }
-        },
-        {
-          "position": "144-148",
-          "card": {
-            "type": "field_card",
-            "page": 358,
-            "name": "Reserved",
-            "positions": "144-148",
-            "length": "5",
-            "format": "alphanumeric",
-            "description": "This field is reserved for future use. EP will always space-fill.",
             "note": "",
             "values": "",
             "mapping": ""
@@ -743,6 +724,23 @@
             "values": "",
             "mapping": ""
           }
+        }
+      ],
+      "remaining_reserved": [
+        {
+          "position": "144-148",
+          "card": {
+            "type": "field_card",
+            "page": 358,
+            "name": "Reserved",
+            "positions": "144-148",
+            "length": "5",
+            "format": "alphanumeric",
+            "description": "This field is reserved for future use. EP will always space-fill.",
+            "note": "",
+            "values": "",
+            "mapping": ""
+          }
         },
         {
           "position": "156-168",
@@ -764,10 +762,10 @@
     {
       "change_type": "card_content_changed",
       "position": "91-92",
-      "field": "description",
-      "old": "Product identifier code.",
-      "new": "This field will contain Product ID.",
-      "similarity_ratio": 0.305,
+      "field": "contenido",
+      "old": "Product identifier code. Space-filled for credits.",
+      "new": "This field will contain Product ID. Space-filled for credits.",
+      "similarity_ratio": 0.631,
       "title": "TC 33.A - CP 01 TCR 1 Additional Data"
     },
     {
@@ -879,9 +877,7 @@
             "AN",
             "Visa Account Attack Intelligence Score"
           ]
-        }
-      ],
-      "remaining_reserved": [
+        },
         {
           "position": "162-168",
           "cells": [
@@ -891,7 +887,8 @@
             "Mastercard Transaction Type Identifier"
           ]
         }
-      ]
+      ],
+      "remaining_reserved": []
     },
     {
       "change_type": "field_became_defined",
@@ -926,9 +923,7 @@
             "values": "",
             "mapping": ""
           }
-        }
-      ],
-      "remaining_reserved": [
+        },
         {
           "position": "162-168",
           "card": {
@@ -944,7 +939,8 @@
             "mapping": ""
           }
         }
-      ]
+      ],
+      "remaining_reserved": []
     },
     {
       "change_type": "row_content_changed",
@@ -976,10 +972,10 @@
     {
       "change_type": "card_content_changed",
       "position": "95-105",
-      "field": "description",
-      "old": "This field contains the Marketplace Identifier/Payment Facilitator ID.",
-      "new": "This field will contain Payment Facilitator ID.",
-      "similarity_ratio": 0.718,
+      "field": "contenido",
+      "old": "This field contains the Marketplace Identifier/Payment Facilitator ID. Mapping: Field 104 DS65 T21 SF1 => MC DE48 SE37 SF1",
+      "new": "This field will contain Payment Facilitator ID. Mapping: Field 104 DS65 T21 SF1 => MC DE48 SE37 SF1",
+      "similarity_ratio": 0.851,
       "title": "TC 33.A - CP 01 TCR 6 Gateway Data"
     },
     {
@@ -994,10 +990,10 @@
     {
       "change_type": "card_content_changed",
       "position": "136-137",
-      "field": "description",
-      "old": "This field will contain one of these values for card and cardholder present transactions: A1 (EMV/Token in a secure, trusted environment) l B1 (EVM/Chip equivalent) l C1 (Mag stripe) l E1 (Key entered) l U0 (Unclassified) l This field will contain one of these values for card and/or cardholder not present transactions: A2 (Digital transactions) l B2 (Authenticated checkout) l C2 (Transaction validation) l D2 (Enhanced data) l E2 (Generic messaging) l U0 (Unclassified) l",
-      "new": "This field will contain Mastercard Interchange Structure Indicator. This field will contain one of these values for card and cardholder present transactions: A1 (EMV/Token in a secure, trusted environment) l B1 (EVM/Chip equivalent) l C1 (Mag stripe) l E1 (Key entered) l U0 (Unclassified) l This field will contain one of these values for card and/or cardholder not present transactions: A2 (Digital transactions) l B2 (Authenticated checkout) l C2 (Transaction validation) l D2 (Enhanced data) l E2 (Generic messaging) l U0 (Unclassified) l",
-      "similarity_ratio": 0.933,
+      "field": "contenido",
+      "old": "This field will contain one of these values for card and cardholder present transactions: A1 (EMV/Token in a secure, trusted environment) l B1 (EVM/Chip equivalent) l C1 (Mag stripe) l E1 (Key entered) l U0 (Unclassified) l This field will contain one of these values for card and/or cardholder not present transactions: A2 (Digital transactions) l B2 (Authenticated checkout) l C2 (Transaction validation) l D2 (Enhanced data) l E2 (Generic messaging) l U0 (Unclassified) l The value in this field comes from the 0110 response from Mastercard. Field 104 DS65 T28 => MC DE48 SE52",
+      "new": "This field will contain Mastercard Interchange Structure Indicator. This field will contain one of these values for card and cardholder present transactions: A1 (EMV/Token in a secure, trusted environment) l B1 (EVM/Chip equivalent) l C1 (Mag stripe) l E1 (Key entered) l U0 (Unclassified) l This field will contain one of these values for card and/or cardholder not present transactions: A2 (Digital transactions) l B2 (Authenticated checkout) l C2 (Transaction validation) l D2 (Enhanced data) l E2 (Generic messaging) l U0 (Unclassified) l The value in this field comes from the 0110 response from Mastercard. Field 104 DS65 T28 => MC DE48 SE52",
+      "similarity_ratio": 0.942,
       "title": "TC 33.A - CP 01 TCR 6 Gateway Data"
     },
     {
@@ -1012,34 +1008,34 @@
     {
       "change_type": "card_content_changed",
       "position": "6",
-      "field": "mapping",
-      "old": "F34 DSID 56 T9F7C",
-      "new": "F34 DSID 4A T87",
-      "similarity_ratio": 0.75,
+      "field": "contenido",
+      "old": "This field contains the Low Value Exemption Indicator. F34 DSID 56 T9F7C",
+      "new": "This field contains the Low Value Exemption Indicator. F34 DSID 4A T87",
+      "similarity_ratio": 0.944,
       "title": "TC 33.A - CP07 TCR 9 EU and CEMEA Specific Processing"
     },
     {
       "change_type": "card_content_changed",
       "position": "7",
-      "field": "mapping",
-      "old": "F34 DSID 56 T9F7D",
-      "new": "F34 DSID 4A T89",
-      "similarity_ratio": 0.75,
+      "field": "contenido",
+      "old": "This field contains the Transaction Risk Analysis Exemption Indicator. F34 DSID 56 T9F7D",
+      "new": "This field contains the Transaction Risk Analysis Exemption Indicator. F34 DSID 4A T89",
+      "similarity_ratio": 0.954,
       "title": "TC 33.A - CP07 TCR 9 EU and CEMEA Specific Processing"
     },
     {
       "change_type": "card_content_changed",
       "position": "8",
-      "field": "mapping",
-      "old": "F34 DSID 56 T9F7E",
-      "new": "F34 DSID 4A T84",
-      "similarity_ratio": 0.688,
+      "field": "contenido",
+      "old": "This field contains the Trusted Merchant Exemption Indicator. F34 DSID 56 T9F7E",
+      "new": "This field contains the Trusted Merchant Exemption Indicator. F34 DSID 4A T84",
+      "similarity_ratio": 0.936,
       "title": "TC 33.A - CP07 TCR 9 EU and CEMEA Specific Processing"
     },
     {
       "change_type": "card_content_changed",
       "position": "9",
-      "field": "description",
+      "field": "contenido",
       "old": "This field contains the Secure Corporate Payment Indicator. F34 DSID 56 T9F7F",
       "new": "This field contains the Secure Corporate Payment Indicator. F34 DSID 4A T88",
       "similarity_ratio": 0.934,
@@ -1077,9 +1073,7 @@
             "AN",
             "Acceptor Business Registration ID Type"
           ]
-        }
-      ],
-      "remaining_reserved": [
+        },
         {
           "position": "112-113",
           "cells": [
@@ -1115,7 +1109,9 @@
             "AN",
             "Mastercard - Lifecycle Transaction Link Identifier"
           ]
-        },
+        }
+      ],
+      "remaining_reserved": [
         {
           "position": "160-168",
           "cells": [
@@ -1160,9 +1156,7 @@
             "values": "",
             "mapping": ""
           }
-        }
-      ],
-      "remaining_reserved": [
+        },
         {
           "position": "112-113",
           "card": {
@@ -1222,7 +1216,9 @@
             "values": "",
             "mapping": ""
           }
-        },
+        }
+      ],
+      "remaining_reserved": [
         {
           "position": "160-168",
           "card": {
@@ -1262,24 +1258,24 @@
       "change_type": "card_content_changed",
       "position": "21-55",
       "field": "name",
-      "old": "character Mastercard - Acceptor Tax ID",
+      "old": "Mastercard - Acceptor Tax ID",
       "new": "Acceptor Business Registration ID",
-      "similarity_ratio": 0.366,
+      "similarity_ratio": 0.426,
       "title": "TC 33.A - CP 12 TCR 4 Gateway Data, continuation"
     },
     {
       "change_type": "card_content_changed",
       "position": "21-55",
       "field": "format",
-      "old": "alphanumeric special",
+      "old": "alphanumeric special character",
       "new": "alphanumeric",
-      "similarity_ratio": 0.75,
+      "similarity_ratio": 0.571,
       "title": "TC 33.A - CP 12 TCR 4 Gateway Data, continuation"
     },
     {
       "change_type": "card_content_changed",
       "position": "21-55",
-      "field": "description",
+      "field": "contenido",
       "old": "This field contains the Acceptor Tax ID.",
       "new": "This field will contain Acceptor Business Registration ID.",
       "similarity_ratio": 0.673,
@@ -1288,7 +1284,7 @@
     {
       "change_type": "card_content_changed",
       "position": "74-78",
-      "field": "description",
+      "field": "contenido",
       "old": "This field will contain a fix value of VCIND, for Visa Checkout transactions.",
       "new": "This field will contain a fix value of VCIND, for Visa Click to Pay transactions.",
       "similarity_ratio": 0.924,
@@ -1366,10 +1362,10 @@
     {
       "change_type": "card_content_changed",
       "position": "84-91",
-      "field": "description",
-      "old": "Contains the rate used by Visa to convert the transaction amount to cardholder billing amount. The value is the conversion rate plus the Visa conversion charge, plus or minus any optional issuer fee. The optional issuer fee, expressed as a percentage, may be positive or negative; that is, the transaction amount multiplied by this rate equals the cardholder billing amount.",
-      "new": "Contains the rate used by VisaNet to convert the transaction amount (field 4) to the cardholder billing amount (field 6), including the Visa Issuer FX Calculator. The transaction amount (field 4) multiplied by this rate equals the cardholder billing amount (field 6).",
-      "similarity_ratio": 0.315,
+      "field": "contenido",
+      "old": "Contains the rate used by Visa to convert the transaction amount to cardholder billing amount. The value is the conversion rate plus the Visa conversion charge, plus or minus any optional issuer fee. The optional issuer fee, expressed as a percentage, may be positive or negative; that is, the transaction amount multiplied by this rate equals the cardholder billing amount. Visa uses either a buy rate or a sell rate for currency conversion, depending on the message type and the exchange direction. Visa uses both U.S. dollar-based buy/sell rate pairs and buy/sell rate pairs of currencies other than the U.S. dollar. For more information, refer to the Multicurrency Service description in the V.I.P. System Overview and Services manual. The ISO field is 10.",
+      "new": "Contains the rate used by VisaNet to convert the transaction amount (field 4) to the cardholder billing amount (field 6), including the Visa Issuer FX Calculator. The transaction amount (field 4) multiplied by this rate equals the cardholder billing amount (field 6). Visa uses either a buy rate or a sell rate for currency conversion, depending on the message type and the exchange direction. Visa uses both U.S. dollar-based buy/sell rate pairs and buy/sell cross-rate pairs of currencies other than the U.S. dollar. For more information, refer to the Multicurrency Service description in the V.I.P. System Overview and Services manual. The ISO field is 10.",
+      "similarity_ratio": 0.424,
       "title": "TC 48 - TCR 0 Format 1 (ISO- Enriched)"
     }
   ]

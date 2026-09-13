@@ -4,7 +4,7 @@
   "source_file": "20221015 - BASE II Clearing Interchange Formats, TC 01 to TC 49.pdf",
   "num_lines_in": 54928,
   "num_lines_kept": 50268,
-  "num_blocks": 10632,
+  "num_blocks": 10616,
   "page_boundary_grid_guard_hits": 0,
   "blocks": [
     {
@@ -5029,7 +5029,7 @@
       "format": "unpacked numeric",
       "description": "This field must contain the VAT for the Installment Payment Risk Fee Amount. This field must be less than or equal to Installment Payment Risk Fee Amount in positions 48–57.",
       "note": "",
-      "values": "are:",
+      "values": "",
       "mapping": ""
     },
     {
@@ -5039,9 +5039,9 @@
       "positions": "68",
       "length": "1",
       "format": "alphanumeric",
-      "description": "This field indicates whether the Installment Payment Interest Amount in positions 26–37 must be subtracted from the transaction amount before calculating the Interchange Reimbursement Fee (IRF) and VAT on IRF. S = Subtract l D = Do Not Subtract l",
+      "description": "This field indicates whether the Installment Payment Interest Amount in positions 26–37 must be subtracted from the transaction amount before calculating the Interchange Reimbursement Fee (IRF) and VAT on IRF.",
       "note": "",
-      "values": "",
+      "values": "are: S = Subtract l D = Do Not Subtract l",
       "mapping": ""
     },
     {
@@ -6622,7 +6622,7 @@
       "length": "54",
       "format": "unpacked numeric",
       "description": "This field will be zero-filled.",
-      "note": "Zero is the default value when no amount is present.",
+      "note": "",
       "values": "",
       "mapping": ""
     },
@@ -6639,7 +6639,7 @@
       "length": "9",
       "format": "unpacked numeric",
       "description": "Optional.",
-      "note": "",
+      "note": "Zero is the default value when no amount is present.",
       "values": "",
       "mapping": ""
     },
@@ -13823,7 +13823,7 @@
       "format": "alphanumeric",
       "description": "Identifies type of service at the fuel station.",
       "note": "",
-      "values": "Space = Non-Fuel Transaction F = Full service S= Self Service",
+      "values": " Space = Non-Fuel Transaction F = Full service S= Self Service",
       "mapping": ""
     },
     {
@@ -13838,9 +13838,9 @@
       "positions": "151",
       "length": "1",
       "format": "alphanumeric",
-      "description": "Indicates whether the fuel purchase was exempt from fuel tax. Blank = Default 0 = Non-Exempt 1 = Exempt",
+      "description": "Indicates whether the fuel purchase was exempt from fuel tax.",
       "note": "",
-      "values": "",
+      "values": " Blank = Default 0 = Non-Exempt 1 = Exempt",
       "mapping": ""
     },
     {
@@ -13850,9 +13850,9 @@
       "positions": "152",
       "length": "1",
       "format": "alphanumeric",
-      "description": "Whether the non-fuel purchase was exempt from tax. 0 = Non-Exempt 1 = Exempt",
+      "description": "Whether the non-fuel purchase was exempt from tax.",
       "note": "",
-      "values": "",
+      "values": " 0 = Non-Exempt 1 = Exempt",
       "mapping": ""
     },
     {
@@ -36830,11 +36830,6 @@
     },
     {
       "type": "paragraph",
-      "page": 351,
-      "text": "character"
-    },
-    {
-      "type": "paragraph",
       "page": 352,
       "text": "Additional Data Edit Criteria"
     },
@@ -36844,7 +36839,7 @@
       "name": "Card Acceptor ID",
       "positions": "17-31",
       "length": "15",
-      "format": "alphanumeric special",
+      "format": "alphanumeric special character",
       "description": "Code that identifies the card acceptor operating the POS terminal.",
       "note": "",
       "values": "",
@@ -36856,7 +36851,7 @@
       "name": "Terminal ID",
       "positions": "32-39",
       "length": "8",
-      "format": "alphanumeric special",
+      "format": "alphanumeric special character",
       "description": "Code that identifies the card acceptor terminal.",
       "note": "",
       "values": "",
@@ -36865,12 +36860,12 @@
     {
       "type": "field_card",
       "page": 352,
-      "name": "character Mail/Phone/Electronic Commerce and Payment Indicator",
+      "name": "Mail/Phone/Electronic Commerce and Payment Indicator",
       "positions": "40",
       "length": "1",
       "format": "alphanumeric",
       "description": "Indicates transaction performed by mail order, telephone, or electronic commerce.",
-      "note": "Please see BASE II Clearing Data Codes for a list of valid codes. Populated based on Credit Authorization. Please see BASE II Clearing Data Codes for a list of valid",
+      "note": "Please see BASE II Clearing Data Codes for a list of valid codes. Populated based on Credit Authorization.",
       "values": "",
       "mapping": ""
     },
@@ -36881,8 +36876,8 @@
       "positions": "41",
       "length": "1",
       "format": "alphanumeric",
-      "description": "Indicates type of unattended terminal. codes.",
-      "note": "",
+      "description": "Indicates type of unattended terminal.",
+      "note": "Please see BASE II Clearing Data Codes for a list of valid codes.",
       "values": "",
       "mapping": ""
     },
@@ -37397,7 +37392,7 @@
       "name": "Bill to Last Name",
       "positions": "5-64",
       "length": "60",
-      "format": "alphanumeric special",
+      "format": "alphanumeric special character",
       "description": "This field contains billing last name.",
       "note": "",
       "values": "",
@@ -37406,10 +37401,10 @@
     {
       "type": "field_card",
       "page": 357,
-      "name": "character Bill to First Name",
+      "name": "Bill to First Name",
       "positions": "65-124",
       "length": "60",
-      "format": "alphanumeric special",
+      "format": "alphanumeric special character",
       "description": "This field contains billing first name.",
       "note": "",
       "values": "",
@@ -37418,19 +37413,14 @@
     {
       "type": "field_card",
       "page": 357,
-      "name": "character Bill to Postal Code",
+      "name": "Bill to Postal Code",
       "positions": "125-135",
       "length": "11",
-      "format": "alphanumeric special",
+      "format": "alphanumeric special character",
       "description": "This field contains billing postal code.",
       "note": "",
       "values": "",
       "mapping": ""
-    },
-    {
-      "type": "paragraph",
-      "page": 357,
-      "text": "character"
     },
     {
       "type": "paragraph",
@@ -37440,10 +37430,10 @@
     {
       "type": "field_card",
       "page": 357,
-      "name": "character Ship to Postal Code",
+      "name": "Ship to Postal Code",
       "positions": "136-155",
       "length": "20",
-      "format": "alphanumeric special",
+      "format": "alphanumeric special character",
       "description": "This field contains postal code of the location the item is being shipped to.",
       "note": "",
       "values": "",
@@ -37455,7 +37445,7 @@
       "name": "Ship to State/Province Code",
       "positions": "156-158",
       "length": "3",
-      "format": "alphanumeric special",
+      "format": "alphanumeric special character",
       "description": "This field contains shipping state/province code of the location being shipped to.",
       "note": "",
       "values": "",
@@ -37464,19 +37454,14 @@
     {
       "type": "field_card",
       "page": 358,
-      "name": "character Ship from Postal Code",
+      "name": "Ship from Postal Code",
       "positions": "159-168",
       "length": "10",
-      "format": "alphanumeric special",
+      "format": "alphanumeric special character",
       "description": "This field contains shipping from postal code of the location being shipped from.",
       "note": "",
       "values": "",
       "mapping": ""
-    },
-    {
-      "type": "paragraph",
-      "page": 358,
-      "text": "character"
     },
     {
       "type": "section_heading",
@@ -37667,7 +37652,7 @@
       "name": "Address Line 1",
       "positions": "8-47",
       "length": "40",
-      "format": "alphanumeric special",
+      "format": "alphanumeric special character",
       "description": "This field contains billing address line 1.",
       "note": "",
       "values": "",
@@ -37676,19 +37661,14 @@
     {
       "type": "field_card",
       "page": 359,
-      "name": "character Address Line 2",
+      "name": "Address Line 2",
       "positions": "48-87",
       "length": "40",
-      "format": "alphanumeric special",
+      "format": "alphanumeric special character",
       "description": "This field contains billing address line 2.",
       "note": "",
       "values": "",
       "mapping": ""
-    },
-    {
-      "type": "paragraph",
-      "page": 359,
-      "text": "character"
     },
     {
       "type": "paragraph",
@@ -37698,10 +37678,10 @@
     {
       "type": "field_card",
       "page": 359,
-      "name": "character City",
+      "name": "City",
       "positions": "88-137",
       "length": "50",
-      "format": "alphanumeric special",
+      "format": "alphanumeric special character",
       "description": "This field contains billing city.",
       "note": "",
       "values": "",
@@ -37713,7 +37693,7 @@
       "name": "State",
       "positions": "138-157",
       "length": "20",
-      "format": "alphanumeric special",
+      "format": "alphanumeric special character",
       "description": "This field contains billing state.",
       "note": "",
       "values": "",
@@ -37722,7 +37702,7 @@
     {
       "type": "field_card",
       "page": 360,
-      "name": "character Billing Country Code",
+      "name": "Billing Country Code",
       "positions": "158-160",
       "length": "3",
       "format": "alphanumeric",
@@ -37985,16 +37965,11 @@
       "name": "Merchant Name",
       "positions": "5-29",
       "length": "25",
-      "format": "alphanumeric special",
+      "format": "alphanumeric special character",
       "description": "The merchant or client name imprinted on the transaction receipt by the merchant's or client's imprinter plate. It should be the doing business as (DBA) name of the merchant or client and the one most recognizable to cardholders.",
       "note": "",
       "values": "",
       "mapping": ""
-    },
-    {
-      "type": "paragraph",
-      "page": 361,
-      "text": "character"
     },
     {
       "type": "paragraph",
@@ -38004,10 +37979,10 @@
     {
       "type": "field_card",
       "page": 361,
-      "name": "character Merchant Street Address",
+      "name": "Merchant Street Address",
       "positions": "30-89",
       "length": "60",
-      "format": "alphanumeric special",
+      "format": "alphanumeric special character",
       "description": "This field contains merchant street address.",
       "note": "",
       "values": "",
@@ -38019,7 +37994,7 @@
       "name": "Merchant City",
       "positions": "90-102",
       "length": "13",
-      "format": "alphanumeric special",
+      "format": "alphanumeric special character",
       "description": "The name of the city where the transaction took place.",
       "note": "",
       "values": "",
@@ -38028,7 +38003,7 @@
     {
       "type": "field_card",
       "page": 362,
-      "name": "character Merchant State/Province Code",
+      "name": "Merchant State/Province Code",
       "positions": "103-105",
       "length": "3",
       "format": "alphanumeric",
@@ -38043,7 +38018,7 @@
       "name": "Merchant Postal Code",
       "positions": "106-119",
       "length": "14",
-      "format": "alphanumeric special",
+      "format": "alphanumeric special character",
       "description": "Contains the postal code to identify the merchant location. The entry is alphanumeric and may contain spaces or special characters.",
       "note": "",
       "values": "",
@@ -38052,7 +38027,7 @@
     {
       "type": "field_card",
       "page": 362,
-      "name": "character Merchant Country Code",
+      "name": "Merchant Country Code",
       "positions": "120-122",
       "length": "3",
       "format": "alphanumeric",
@@ -38067,7 +38042,7 @@
       "name": "Merchant Telephone Number",
       "positions": "123-136",
       "length": "14",
-      "format": "alphanumeric special",
+      "format": "alphanumeric special character",
       "description": "This field contains the merchant or customers service telephone number.",
       "note": "",
       "values": "",
@@ -38076,10 +38051,10 @@
     {
       "type": "field_card",
       "page": 362,
-      "name": "character Merchant URL/email",
+      "name": "Merchant URL/email",
       "positions": "137-149",
       "length": "13",
-      "format": "alphanumeric special",
+      "format": "alphanumeric special character",
       "description": "This field contains merchant URL/email.",
       "note": "",
       "values": "",
@@ -38088,7 +38063,7 @@
     {
       "type": "field_card",
       "page": 362,
-      "name": "character Merchant Category Code",
+      "name": "Merchant Category Code",
       "positions": "150-153",
       "length": "4",
       "format": "unpacked numeric",
@@ -38612,11 +38587,6 @@
     },
     {
       "type": "paragraph",
-      "page": 366,
-      "text": "character"
-    },
-    {
-      "type": "paragraph",
       "page": 367,
       "text": "Installment Payment Edit Criteria"
     },
@@ -38626,7 +38596,7 @@
       "name": "Mastercard Croatia Domestic Card Acceptor Tax ID",
       "positions": "79-98",
       "length": "20",
-      "format": "alphanumeric special",
+      "format": "alphanumeric special character",
       "description": "This field will contain the Mastercard Global Installments Croatia - Domestic Card Acceptor Tax ID.",
       "note": "",
       "values": "",
@@ -39355,9 +39325,9 @@
       "positions": "92-93",
       "length": "2",
       "format": "alphanumeric",
-      "description": "This field contains terminal compliance indicator for India. 1 = Not Certified 2 = Certified",
+      "description": "This field contains terminal compliance indicator for India.",
       "note": "Mapping: Field 104 DS65 T19 => MC DE48 SE65 SF1&2",
-      "values": "",
+      "values": " 1 = Not Certified 2 = Certified",
       "mapping": ""
     },
     {
@@ -39421,7 +39391,7 @@
       "length": "1",
       "format": "alphanumeric",
       "description": "This field will contain one of these values to indicate the transaction qualifies for a government program. Which Map to Mastercard Data Element DE 48, Sub element 17: 1 (Transaction qualified for Authentication Service Type 1) l 2 (Transaction qualified for Authentication Service Type 2) l",
-      "note": "Mapping: Field 104 DS65 T22 => MC DE48 SE17 Mapping: Field 104 DS65 T23 pos 1-2 => MC DE48 SE51 SF 1",
+      "note": "Mapping: Field 104 DS65 T22 => MC DE48 SE17",
       "values": "",
       "mapping": ""
     },
@@ -39433,7 +39403,7 @@
       "length": "2",
       "format": "alphanumeric",
       "description": "This field will contain a fixed value of 53.",
-      "note": "",
+      "note": "Mapping: Field 104 DS65 T23 pos 1-2 => MC DE48 SE51 SF 1",
       "values": "",
       "mapping": ""
     },
@@ -39884,10 +39854,10 @@
       "positions": "113",
       "length": "1",
       "format": "alphanumeric",
-      "description": "This field contains the MC AVV Verification - Program Protocol. F104 U2 DS65 T37 POS 1 => MC DE 48 SE 21 (pos 1)",
+      "description": "This field contains the MC AVV Verification - Program Protocol.",
       "note": "",
       "values": "",
-      "mapping": ""
+      "mapping": " F104 U2 DS65 T37 POS 1 => MC DE 48 SE 21 (pos 1)"
     },
     {
       "type": "field_card",
@@ -40481,7 +40451,7 @@
       "name": "Mastercard UCAF Data",
       "positions": "126-157",
       "length": "32",
-      "format": "alphanumeric special",
+      "format": "alphanumeric special character",
       "description": "This field will contain the UCAF.",
       "note": "",
       "values": "",
@@ -40495,7 +40465,7 @@
     {
       "type": "field_card",
       "page": 382,
-      "name": "character Multiple Clearing Sequence Number",
+      "name": "Multiple Clearing Sequence Number",
       "positions": "158-159",
       "length": "2",
       "format": "alphanumeric",
@@ -40782,7 +40752,7 @@
       "positions": "5-7",
       "length": "3",
       "format": "alphanumeric",
-      "description": "This field will contain a value of 032 (Argentina’s Country Code). This field will contain the receipt number. For Merchandise Credit, this field contains the receipt number of the original purchase.",
+      "description": "This field will contain a value of 032 (Argentina’s Country Code).",
       "note": "",
       "values": "",
       "mapping": ""
@@ -40794,7 +40764,7 @@
       "positions": "8-15",
       "length": "8",
       "format": "alphanumeric",
-      "description": "This field will contain the local date in format DDMMYY.",
+      "description": "This field will contain the receipt number. For Merchandise Credit, this field contains the receipt number of the original purchase. This field will contain the local date in format DDMMYY.",
       "note": "",
       "values": "",
       "mapping": ""
@@ -44305,7 +44275,7 @@
       "length": "1",
       "format": "alphanumeric",
       "description": "This field contains the value of B.",
-      "note": "Mapping: Field 104 DS66 T06 => AMEX DF43 — Telephone",
+      "note": "",
       "values": "",
       "mapping": ""
     },
@@ -44316,8 +44286,8 @@
       "positions": "5-24",
       "length": "20",
       "format": "alphanumeric",
-      "description": "This field will contain the seller telephone number. Number",
-      "note": "Mapping: Field 104 DS66 T07 => AMEX DF43 — E-Mail",
+      "description": "This field will contain the seller telephone number.",
+      "note": "Mapping: Field 104 DS66 T06 => AMEX DF43 — Telephone Number",
       "values": "",
       "mapping": ""
     },
@@ -44327,9 +44297,9 @@
       "name": "American Express Seller Email Address",
       "positions": "25-64",
       "length": "40",
-      "format": "alphanumeric special",
-      "description": "This field will contain the seller email address. Address",
-      "note": "",
+      "format": "alphanumeric special character",
+      "description": "This field will contain the seller email address.",
+      "note": "Mapping: Field 104 DS66 T07 => AMEX DF43 — E-Mail Address",
       "values": "",
       "mapping": ""
     },
@@ -44341,7 +44311,7 @@
     {
       "type": "field_card",
       "page": 413,
-      "name": "character American Express Seller ID",
+      "name": "American Express Seller ID",
       "positions": "65-84",
       "length": "20",
       "format": "alphanumeric",
@@ -44380,7 +44350,7 @@
       "name": "American Express Seller Name",
       "positions": "109-146",
       "length": "38",
-      "format": "alphanumeric special",
+      "format": "alphanumeric special character",
       "description": "This field will contain the seller name for the American Express card acceptor name and location data from Tag 12 in TLV Field 104, Usage 2 —Transaction-Specific Data, Dataset ID 66—American Express Data.",
       "note": "Mapping: F104 DS66 T12 SF1 => AMEX DF43",
       "values": "",
@@ -44389,7 +44359,7 @@
     {
       "type": "field_card",
       "page": 414,
-      "name": "character Merchant-Consumer Transaction Indicator",
+      "name": "Merchant-Consumer Transaction Indicator",
       "positions": "147",
       "length": "1",
       "format": "alphanumeric",
@@ -47794,7 +47764,7 @@
       "name": "American Express - Charge Descriptor 1",
       "positions": "5-44",
       "length": "40",
-      "format": "alphanumeric special",
+      "format": "alphanumeric special character",
       "description": "This field contains the American Express charge descriptor 1.",
       "note": "",
       "values": "",
@@ -47803,10 +47773,10 @@
     {
       "type": "field_card",
       "page": 440,
-      "name": "character American Express - Charge Descriptor 2",
+      "name": "American Express - Charge Descriptor 2",
       "positions": "45-84",
       "length": "40",
-      "format": "alphanumeric special",
+      "format": "alphanumeric special character",
       "description": "This field contains the American Express charge descriptor 2.",
       "note": "",
       "values": "",
@@ -47815,10 +47785,10 @@
     {
       "type": "field_card",
       "page": 440,
-      "name": "character American Express - Charge Descriptor 3",
+      "name": "American Express - Charge Descriptor 3",
       "positions": "85-124",
       "length": "40",
-      "format": "alphanumeric special",
+      "format": "alphanumeric special character",
       "description": "This field contains the American Express charge descriptor 3.",
       "note": "",
       "values": "",
@@ -47827,10 +47797,10 @@
     {
       "type": "field_card",
       "page": 440,
-      "name": "character American Express - Charge Descriptor 4",
+      "name": "American Express - Charge Descriptor 4",
       "positions": "125-164",
       "length": "40",
-      "format": "alphanumeric special",
+      "format": "alphanumeric special character",
       "description": "This field contains the American Express charge descriptor 4.",
       "note": "",
       "values": "",
@@ -47839,7 +47809,7 @@
     {
       "type": "field_card",
       "page": 440,
-      "name": "character American Express - Tax Type Code",
+      "name": "American Express - Tax Type Code",
       "positions": "165-167",
       "length": "3",
       "format": "alphanumeric",
@@ -48160,9 +48130,9 @@
       "positions": "17",
       "length": "1",
       "format": "alphanumeric",
-      "description": "This field specifies if the discount amount is a credit or a debit. C = Credit l D = Debit l",
+      "description": "This field specifies if the discount amount is a credit or a debit.",
       "note": "",
-      "values": "",
+      "values": " C = Credit l D = Debit l",
       "mapping": ""
     },
     {
@@ -48213,9 +48183,9 @@
       "positions": "43",
       "length": "1",
       "format": "alphanumeric",
-      "description": "This field specifies if the duty amount is a credit or a debit. C = Credit l D = Debit l",
+      "description": "This field specifies if the duty amount is a credit or a debit.",
       "note": "",
-      "values": "",
+      "values": " C = Credit l D = Debit l",
       "mapping": ""
     },
     {
@@ -48237,9 +48207,9 @@
       "positions": "56",
       "length": "1",
       "format": "alphanumeric",
-      "description": "This field specifies if the VAT/tax amount is a credit or a debit. C = Credit l D = Debit l",
+      "description": "This field specifies if the VAT/tax amount is a credit or a debit.",
       "note": "",
-      "values": "",
+      "values": " C = Credit l D = Debit l",
       "mapping": ""
     },
     {
@@ -48325,7 +48295,7 @@
       "name": "Mastercard - Card Acceptor Reference Number",
       "positions": "88-112",
       "length": "25",
-      "format": "alphanumeric special",
+      "format": "alphanumeric special character",
       "description": "This field contains the Mastercard card acceptor reference number.",
       "note": "",
       "values": "",
@@ -48334,10 +48304,10 @@
     {
       "type": "field_card",
       "page": 444,
-      "name": "character Mastercard - Card Acceptor VAT Number",
+      "name": "Mastercard - Card Acceptor VAT Number",
       "positions": "113-132",
       "length": "20",
-      "format": "alphanumeric special",
+      "format": "alphanumeric special character",
       "description": "This field contains the Mastercard card acceptor VAT number.",
       "note": "",
       "values": "",
@@ -48346,10 +48316,10 @@
     {
       "type": "field_card",
       "page": 444,
-      "name": "character Mastercard - Customer VAT Number",
+      "name": "Mastercard - Customer VAT Number",
       "positions": "133-152",
       "length": "20",
-      "format": "alphanumeric special",
+      "format": "alphanumeric special character",
       "description": "This field contains the Mastercard customer VAT number.",
       "note": "",
       "values": "",
@@ -48358,7 +48328,7 @@
     {
       "type": "field_card",
       "page": 444,
-      "name": "character Reserved",
+      "name": "Reserved",
       "positions": "153-168",
       "length": "16",
       "format": "alphanumeric",
@@ -48509,7 +48479,7 @@
       "name": "Mastercard - Authorized Contact Name",
       "positions": "5-40",
       "length": "36",
-      "format": "alphanumeric special",
+      "format": "alphanumeric special character",
       "description": "This field contains the Mastercard authorized contact name.",
       "note": "",
       "values": "",
@@ -48518,10 +48488,10 @@
     {
       "type": "field_card",
       "page": 446,
-      "name": "character MC – Contact Name",
+      "name": "MC – Contact Name",
       "positions": "41-80",
       "length": "40",
-      "format": "alphanumeric special",
+      "format": "alphanumeric special character",
       "description": "This field contains the Mastercard contact name.",
       "note": "",
       "values": "",
@@ -48530,7 +48500,7 @@
     {
       "type": "field_card",
       "page": 446,
-      "name": "character Reserved",
+      "name": "Reserved",
       "positions": "81-168",
       "length": "88",
       "format": "alphanumeric",
@@ -48884,7 +48854,7 @@
       "name": "Passenger Name",
       "positions": "36-55",
       "length": "20",
-      "format": "alphanumeric special",
+      "format": "alphanumeric special character",
       "description": "This field contains the name of passenger.",
       "note": "",
       "values": "",
@@ -48893,7 +48863,7 @@
     {
       "type": "field_card",
       "page": 448,
-      "name": "character Departure Date",
+      "name": "Departure Date",
       "positions": "56-61",
       "length": "6",
       "format": "alphanumeric",
@@ -48937,7 +48907,7 @@
       "name": "Travel Agency Name",
       "positions": "73-97",
       "length": "25",
-      "format": "alphanumeric special",
+      "format": "alphanumeric special character",
       "description": "Name of travel agency if the ticket was issued by a travel agency.",
       "note": "",
       "values": "",
@@ -48946,7 +48916,7 @@
     {
       "type": "field_card",
       "page": 449,
-      "name": "character Restricted Ticket Indicator",
+      "name": "Restricted Ticket Indicator",
       "positions": "98",
       "length": "1",
       "format": "alphanumeric",
@@ -49243,11 +49213,6 @@
     },
     {
       "type": "paragraph",
-      "page": 451,
-      "text": "character"
-    },
-    {
-      "type": "paragraph",
       "page": 452,
       "text": "Passenger Itinerary Data (Cont'd) Edit Criteria"
     },
@@ -49257,7 +49222,7 @@
       "name": "Credit Reason Indicator",
       "positions": "63",
       "length": "1",
-      "format": "alphanumeric special",
+      "format": "alphanumeric special character",
       "description": "This field contains the Credit Reason Indicator.",
       "note": "Please see Full Service POS Online Messages Technical Specifi­ cations.",
       "values": "",
@@ -49269,7 +49234,7 @@
       "name": "Ticket Change Indicator",
       "positions": "64",
       "length": "1",
-      "format": "alphanumeric special",
+      "format": "alphanumeric special character",
       "description": "This field contains the Ticket Change Indicator.",
       "note": "Please see Full Service POS Online Messages Technical Specifi­ cations.",
       "values": "",
@@ -49278,7 +49243,7 @@
     {
       "type": "field_card",
       "page": 452,
-      "name": "character Reserved",
+      "name": "Reserved",
       "positions": "65-168",
       "length": "104",
       "format": "alphanumeric",
@@ -49763,7 +49728,7 @@
       "name": "Endorsement/Restrictions_Leg 1",
       "positions": "39-58",
       "length": "20",
-      "format": "alphanumeric special",
+      "format": "alphanumeric special character",
       "description": "Indicates endorsement/restrictions for the first leg of trip.",
       "note": "",
       "values": "",
@@ -49772,7 +49737,7 @@
     {
       "type": "field_card",
       "page": 455,
-      "name": "character Conjunctions Ticket_Leg 1",
+      "name": "Conjunctions Ticket_Leg 1",
       "positions": "59-83",
       "length": "25",
       "format": "alphanumeric",
@@ -50334,7 +50299,7 @@
       "name": "Endorsement/Restrictions_Leg 2",
       "positions": "39-58",
       "length": "20",
-      "format": "alphanumeric special",
+      "format": "alphanumeric special character",
       "description": "Indicates endorsement/restrictions for the second leg of trip.",
       "note": "",
       "values": "",
@@ -50343,7 +50308,7 @@
     {
       "type": "field_card",
       "page": 459,
-      "name": "character Conjunctions Ticket_Leg 2",
+      "name": "Conjunctions Ticket_Leg 2",
       "positions": "59-83",
       "length": "25",
       "format": "alphanumeric",
@@ -50905,7 +50870,7 @@
       "name": "Endorsement/Restrictions_Leg 3",
       "positions": "39-58",
       "length": "20",
-      "format": "alphanumeric special",
+      "format": "alphanumeric special character",
       "description": "Indicates endorsement/restrictions for Leg 3 of the trip.",
       "note": "",
       "values": "",
@@ -50914,7 +50879,7 @@
     {
       "type": "field_card",
       "page": 463,
-      "name": "character Conjunctions Ticket_Leg 3",
+      "name": "Conjunctions Ticket_Leg 3",
       "positions": "59-83",
       "length": "25",
       "format": "alphanumeric",
@@ -51467,11 +51432,6 @@
     },
     {
       "type": "paragraph",
-      "page": 467,
-      "text": "character"
-    },
-    {
-      "type": "paragraph",
       "page": 468,
       "text": "Passenger Itinerary Data (Cont'd) Edit Criteria"
     },
@@ -51481,7 +51441,7 @@
       "name": "Endorsement/Restrictions_Leg 4",
       "positions": "39-58",
       "length": "20",
-      "format": "alphanumeric special",
+      "format": "alphanumeric special character",
       "description": "Indicates endorsement/restrictions for Leg 4 of the trip.",
       "note": "",
       "values": "",
@@ -51928,17 +51888,12 @@
       "mapping": ""
     },
     {
-      "type": "paragraph",
-      "page": 471,
-      "text": "character"
-    },
-    {
       "type": "field_card",
       "page": 471,
       "name": "Ancillary Passenger Name",
       "positions": "53-72",
       "length": "20",
-      "format": "alphanumeric special",
+      "format": "alphanumeric special character",
       "description": "This field will contain either the passenger's name or the cardholder's name if the passenger's name is unavailable. If the name is not available, a description of the ancillary purchase should be used. This field is required in U.S. domestic originals and reversals in order to qualify for either a CPS or EIRF fee program.",
       "note": "",
       "values": "",
@@ -52744,7 +52699,7 @@
       "name": "Item Commodity Code",
       "positions": "39-50",
       "length": "12",
-      "format": "alphanumeric special",
+      "format": "alphanumeric special character",
       "description": "This field contains the item commodity code.",
       "note": "",
       "values": "",
@@ -52753,10 +52708,10 @@
     {
       "type": "field_card",
       "page": 477,
-      "name": "character Item Descriptor",
+      "name": "Item Descriptor",
       "positions": "51-85",
       "length": "35",
-      "format": "alphanumeric special",
+      "format": "alphanumeric special character",
       "description": "This field contains the item descriptor.",
       "note": "",
       "values": "",
@@ -52765,10 +52720,10 @@
     {
       "type": "field_card",
       "page": 477,
-      "name": "character Product Code",
+      "name": "Product Code",
       "positions": "86-100",
       "length": "15",
-      "format": "alphanumeric special",
+      "format": "alphanumeric special character",
       "description": "This field contains the product code.",
       "note": "",
       "values": "",
@@ -52782,7 +52737,7 @@
     {
       "type": "field_card",
       "page": 477,
-      "name": "character Quantity",
+      "name": "Quantity",
       "positions": "101-112",
       "length": "12",
       "format": "alphanumeric",
@@ -53085,7 +53040,7 @@
       "name": "Unique VAT Invoice Reference Number",
       "positions": "23-37",
       "length": "15",
-      "format": "alphanumeric special",
+      "format": "alphanumeric special character",
       "description": "This field contains the VAT invoice reference number.",
       "note": "",
       "values": "",
@@ -53094,7 +53049,7 @@
     {
       "type": "field_card",
       "page": 480,
-      "name": "character Reserved",
+      "name": "Reserved",
       "positions": "38-168",
       "length": "131",
       "format": "alphanumeric",
@@ -54386,7 +54341,7 @@
       "name": "Financing Type",
       "positions": "5-24",
       "length": "20",
-      "format": "alphanumeric special",
+      "format": "alphanumeric special character",
       "description": "This field will contain the financing type.",
       "note": "",
       "values": "",
@@ -54395,7 +54350,7 @@
     {
       "type": "field_card",
       "page": 491,
-      "name": "character Buyer ID Type",
+      "name": "Buyer ID Type",
       "positions": "25",
       "length": "1",
       "format": "alphanumeric",
@@ -54410,7 +54365,7 @@
       "name": "Buyer ID",
       "positions": "26-39",
       "length": "14",
-      "format": "alphanumeric special",
+      "format": "alphanumeric special character",
       "description": "This field will contain the buyer ID.",
       "note": "",
       "values": "",
@@ -54419,10 +54374,10 @@
     {
       "type": "field_card",
       "page": 491,
-      "name": "character Buyer Phone Number",
+      "name": "Buyer Phone Number",
       "positions": "40-50",
       "length": "11",
-      "format": "alphanumeric special",
+      "format": "alphanumeric special character",
       "description": "This field will contain the buyer phone number.",
       "note": "",
       "values": "",
@@ -54436,7 +54391,7 @@
     {
       "type": "field_card",
       "page": 491,
-      "name": "character Purchase Identification",
+      "name": "Purchase Identification",
       "positions": "51-70",
       "length": "20",
       "format": "alphanumeric",
@@ -55325,7 +55280,7 @@
       "description": "This field will contain a 7.",
       "note": "",
       "values": "",
-      "mapping": "F104 U2 DSID 65 T06=> MC DE 112 SE 33 SF1"
+      "mapping": ""
     },
     {
       "type": "field_card",
@@ -55333,8 +55288,20 @@
       "name": "Debt Repayment Recipient Last Name",
       "positions": "5-39",
       "length": "35",
-      "format": "alphanumeric special",
+      "format": "alphanumeric special character",
       "description": "This field will contain the Recipient Last Name.",
+      "note": "",
+      "values": "",
+      "mapping": "F104 U2 DSID 65 T06=> MC DE 112 SE 33 SF1"
+    },
+    {
+      "type": "field_card",
+      "page": 499,
+      "name": "Debt Repayment Recipient Postal Code",
+      "positions": "40-49",
+      "length": "10",
+      "format": "alphanumeric special character",
+      "description": "This field will contain the Recipient Postal Code.",
       "note": "",
       "values": "",
       "mapping": "F104 U2 DSID 65 T06=> MC DE 112 SE 33 SF2"
@@ -55342,26 +55309,14 @@
     {
       "type": "field_card",
       "page": 499,
-      "name": "character Debt Repayment Recipient Postal Code",
-      "positions": "40-49",
-      "length": "10",
-      "format": "alphanumeric special",
-      "description": "This field will contain the Recipient Postal Code.",
-      "note": "",
-      "values": "",
-      "mapping": "F104 U2 DSID 65 T06=> MC DE 112 SE 33 SF3"
-    },
-    {
-      "type": "field_card",
-      "page": 499,
-      "name": "character Debt Repayment Recipient Date of Birth",
+      "name": "Debt Repayment Recipient Date of Birth",
       "positions": "50-57",
       "length": "8",
       "format": "alphanumeric",
       "description": "This field will contain the Recipient Date of Birth.",
       "note": "",
       "values": "",
-      "mapping": "F104 U2 DSID 65 T06=> MC DE 112 SE 33 SF4"
+      "mapping": "F104 U2 DSID 65 T06=> MC DE 112 SE 33 SF3"
     },
     {
       "type": "field_card",
@@ -55373,7 +55328,7 @@
       "description": "This field will contain the Recipient Account Number.",
       "note": "",
       "values": "",
-      "mapping": ""
+      "mapping": "F104 U2 DSID 65 T06=> MC DE 112 SE 33 SF4"
     },
     {
       "type": "field_card",
@@ -55589,7 +55544,7 @@
       "name": "Japan Domestic POS Data",
       "positions": "5-94",
       "length": "90",
-      "format": "alphanumeric special",
+      "format": "alphanumeric special character",
       "description": "This field will contain the Japan Domestic POS Data.",
       "note": "",
       "values": "",
@@ -55598,10 +55553,10 @@
     {
       "type": "field_card",
       "page": 501,
-      "name": "character Acquirer Company Code",
+      "name": "Acquirer Company Code",
       "positions": "95-101",
       "length": "7",
-      "format": "alphanumeric special",
+      "format": "alphanumeric special character",
       "description": "This field will contain the Acquirer Company Code.",
       "note": "",
       "values": "",
@@ -55610,10 +55565,10 @@
     {
       "type": "field_card",
       "page": 501,
-      "name": "character Issuer Company Code",
+      "name": "Issuer Company Code",
       "positions": "102-108",
       "length": "7",
-      "format": "alphanumeric special",
+      "format": "alphanumeric special character",
       "description": "This field will contain the Issuer Company Code.",
       "note": "",
       "values": "",
@@ -55622,7 +55577,7 @@
     {
       "type": "field_card",
       "page": 501,
-      "name": "character Authorization Transmission Mode",
+      "name": "Authorization Transmission Mode",
       "positions": "109",
       "length": "1",
       "format": "alphanumeric",
@@ -55654,7 +55609,7 @@
       "name": "Approval Number For Post- Approval Authorizations",
       "positions": "111-116",
       "length": "6",
-      "format": "alphanumeric special",
+      "format": "alphanumeric special character",
       "description": "This field will contain the Approval Number For Post-Approval Authorizations.",
       "note": "",
       "values": "",
@@ -55663,7 +55618,7 @@
     {
       "type": "field_card",
       "page": 502,
-      "name": "character Tax Amount",
+      "name": "Tax Amount",
       "positions": "117-123",
       "length": "7",
       "format": "alphanumeric",
@@ -55951,7 +55906,7 @@
       "description": "This field contains the Transaction Risk Analysis Exemption Indicator.",
       "note": "",
       "values": "",
-      "mapping": "F34 DSID 56 T9F7D"
+      "mapping": " F34 DSID 56 T9F7D"
     },
     {
       "type": "field_card",
@@ -55960,10 +55915,10 @@
       "positions": "8",
       "length": "1",
       "format": "alphanumeric",
-      "description": "This field contains the Trusted Merchant Exemption Indicator. F34 DSID 56 T9F7E",
+      "description": "This field contains the Trusted Merchant Exemption Indicator.",
       "note": "",
       "values": "",
-      "mapping": ""
+      "mapping": " F34 DSID 56 T9F7E"
     },
     {
       "type": "field_card",
@@ -55972,10 +55927,10 @@
       "positions": "9",
       "length": "1",
       "format": "alphanumeric",
-      "description": "This field contains the Secure Corporate Payment Indicator. F34 DSID 56 T9F7F",
+      "description": "This field contains the Secure Corporate Payment Indicator.",
       "note": "",
       "values": "",
-      "mapping": ""
+      "mapping": " F34 DSID 56 T9F7F"
     },
     {
       "type": "field_card",
@@ -56385,16 +56340,11 @@
       "name": "Free Form Text",
       "positions": "5-168",
       "length": "164",
-      "format": "alphanumeric special",
+      "format": "alphanumeric special character",
       "description": "This field will contain the free form text data from Field 48, Usage 2 — Unformatted Text in Authorization Messages.",
       "note": "",
       "values": "",
       "mapping": ""
-    },
-    {
-      "type": "paragraph",
-      "page": 507,
-      "text": "character"
     },
     {
       "type": "section_heading",
@@ -56995,7 +56945,7 @@
       "name": "Money Transfer Recipient Name",
       "positions": "7-36",
       "length": "30",
-      "format": "alphanumeric special",
+      "format": "alphanumeric special character",
       "description": "This field contains the money transfer recipient name.",
       "note": "",
       "values": "",
@@ -57009,7 +56959,7 @@
     {
       "type": "field_card",
       "page": 512,
-      "name": "character Source of Funds",
+      "name": "Source of Funds",
       "positions": "37-38",
       "length": "2",
       "format": "alphanumeric",
@@ -57405,7 +57355,7 @@
       "name": "Sender Account Number",
       "positions": "21-54",
       "length": "34",
-      "format": "alphanumeric special",
+      "format": "alphanumeric special character",
       "description": "This field contains the sender's account number.",
       "note": "",
       "values": "",
@@ -57414,7 +57364,7 @@
     {
       "type": "field_card",
       "page": 517,
-      "name": "character Sender Name",
+      "name": "Sender Name",
       "positions": "55-84",
       "length": "30",
       "format": "alphanumeric",
@@ -61174,7 +61124,7 @@
       "name": "Exchange Rate Table ID",
       "positions": "19-23",
       "length": "5",
-      "format": "alphanumeric special",
+      "format": "alphanumeric special character",
       "description": "This field will contain the Exchange Rate Table ID used during authorization processing.",
       "note": "",
       "values": "",
@@ -61183,7 +61133,7 @@
     {
       "type": "field_card",
       "page": 545,
-      "name": "character Persistent FX Eligible Indicator",
+      "name": "Persistent FX Eligible Indicator",
       "positions": "24",
       "length": "1",
       "format": "alphanumeric",
@@ -63872,7 +63822,7 @@
       "name": "Card Acceptor ID",
       "positions": "19-33",
       "length": "15",
-      "format": "alphanumeric special",
+      "format": "alphanumeric special character",
       "description": "This field will contain a code that identifies the card acceptor operating the POS terminal.",
       "note": "",
       "values": "",
@@ -63881,10 +63831,10 @@
     {
       "type": "field_card",
       "page": 568,
-      "name": "character Terminal ID",
+      "name": "Terminal ID",
       "positions": "34-41",
       "length": "8",
-      "format": "alphanumeric special",
+      "format": "alphanumeric special character",
       "description": "This field will contain a code that identifies the card acceptor terminal.",
       "note": "",
       "values": "",
@@ -63898,7 +63848,7 @@
     {
       "type": "field_card",
       "page": 568,
-      "name": "character Mail/Phone/Electronic Commerce and Payment Indicator",
+      "name": "Mail/Phone/Electronic Commerce and Payment Indicator",
       "positions": "42",
       "length": "1",
       "format": "alphanumeric",
@@ -64446,11 +64396,6 @@
     },
     {
       "type": "paragraph",
-      "page": 573,
-      "text": "character"
-    },
-    {
-      "type": "paragraph",
       "page": 574,
       "text": "Billing and Shipping Edit Criteria"
     },
@@ -64460,7 +64405,7 @@
       "name": "Bill to Last Name",
       "positions": "7-66",
       "length": "60",
-      "format": "alphanumeric special",
+      "format": "alphanumeric special character",
       "description": "This field will contain the last name of the billing party.",
       "note": "",
       "values": "",
@@ -64472,7 +64417,7 @@
       "name": "Bill to First Name",
       "positions": "67-126",
       "length": "60",
-      "format": "alphanumeric special",
+      "format": "alphanumeric special character",
       "description": "This field will contain the first name of the billing party.",
       "note": "",
       "values": "",
@@ -64481,10 +64426,10 @@
     {
       "type": "field_card",
       "page": 574,
-      "name": "character Bill to Postal Code",
+      "name": "Bill to Postal Code",
       "positions": "127-137",
       "length": "11",
-      "format": "alphanumeric special",
+      "format": "alphanumeric special character",
       "description": "This field will contain the postal code of the billing party.",
       "note": "",
       "values": "",
@@ -64493,10 +64438,10 @@
     {
       "type": "field_card",
       "page": 574,
-      "name": "character Ship to Postal Code",
+      "name": "Ship to Postal Code",
       "positions": "138-157",
       "length": "20",
-      "format": "alphanumeric special",
+      "format": "alphanumeric special character",
       "description": "This field will contain the ship to postal code of the ship to location.",
       "note": "",
       "values": "",
@@ -64505,7 +64450,7 @@
     {
       "type": "field_card",
       "page": 574,
-      "name": "character Ship to State/Province Code",
+      "name": "Ship to State/Province Code",
       "positions": "158-160",
       "length": "3",
       "format": "alphanumeric",
@@ -64742,7 +64687,7 @@
       "name": "Address Line 1",
       "positions": "10-49",
       "length": "40",
-      "format": "alphanumeric special",
+      "format": "alphanumeric special character",
       "description": "This field will contain the address line 1 of the billing location.",
       "note": "",
       "values": "",
@@ -64751,10 +64696,10 @@
     {
       "type": "field_card",
       "page": 576,
-      "name": "character Address Line 2",
+      "name": "Address Line 2",
       "positions": "50-89",
       "length": "40",
-      "format": "alphanumeric special",
+      "format": "alphanumeric special character",
       "description": "This field will contain the address line 2 of the billing location.",
       "note": "",
       "values": "",
@@ -64763,10 +64708,10 @@
     {
       "type": "field_card",
       "page": 576,
-      "name": "character City",
+      "name": "City",
       "positions": "90-139",
       "length": "50",
-      "format": "alphanumeric special",
+      "format": "alphanumeric special character",
       "description": "This field will contain the city of the billing location.",
       "note": "",
       "values": "",
@@ -64775,10 +64720,10 @@
     {
       "type": "field_card",
       "page": 576,
-      "name": "character State",
+      "name": "State",
       "positions": "140-159",
       "length": "20",
-      "format": "alphanumeric special",
+      "format": "alphanumeric special character",
       "description": "This field will contain the state of the billing location.",
       "note": "",
       "values": "",
@@ -64787,7 +64732,7 @@
     {
       "type": "field_card",
       "page": 576,
-      "name": "character Billing Country Code",
+      "name": "Billing Country Code",
       "positions": "160-162",
       "length": "3",
       "format": "alphanumeric",
@@ -65057,7 +65002,7 @@
       "name": "Merchant Name",
       "positions": "7-31",
       "length": "25",
-      "format": "alphanumeric special",
+      "format": "alphanumeric special character",
       "description": "This field will contain the merchant's name.",
       "note": "",
       "values": "",
@@ -65066,10 +65011,10 @@
     {
       "type": "field_card",
       "page": 578,
-      "name": "character Merchant Street Address",
+      "name": "Merchant Street Address",
       "positions": "32-91",
       "length": "60",
-      "format": "alphanumeric special",
+      "format": "alphanumeric special character",
       "description": "This field will contain the merchant's street address.",
       "note": "",
       "values": "",
@@ -65078,10 +65023,10 @@
     {
       "type": "field_card",
       "page": 578,
-      "name": "character Merchant City",
+      "name": "Merchant City",
       "positions": "92-104",
       "length": "13",
-      "format": "alphanumeric special",
+      "format": "alphanumeric special character",
       "description": "This field will contain the merchant's city.",
       "note": "",
       "values": "",
@@ -65095,7 +65040,7 @@
     {
       "type": "field_card",
       "page": 578,
-      "name": "character Merchant State/Province Code",
+      "name": "Merchant State/Province Code",
       "positions": "105-107",
       "length": "3",
       "format": "alphanumeric",
@@ -65110,7 +65055,7 @@
       "name": "Merchant Postal Code",
       "positions": "108-121",
       "length": "14",
-      "format": "alphanumeric special",
+      "format": "alphanumeric special character",
       "description": "This field will contain the merchant's postal code.",
       "note": "",
       "values": "",
@@ -65119,7 +65064,7 @@
     {
       "type": "field_card",
       "page": 579,
-      "name": "character Merchant Country Code",
+      "name": "Merchant Country Code",
       "positions": "122-124",
       "length": "3",
       "format": "alphanumeric",
@@ -65134,7 +65079,7 @@
       "name": "Merchant Telephone Number",
       "positions": "125-138",
       "length": "14",
-      "format": "alphanumeric special",
+      "format": "alphanumeric special character",
       "description": "This field will contain the merchant's telephone number.",
       "note": "",
       "values": "",
@@ -65143,10 +65088,10 @@
     {
       "type": "field_card",
       "page": 579,
-      "name": "character Merchant URL/email",
+      "name": "Merchant URL/email",
       "positions": "139-151",
       "length": "13",
-      "format": "alphanumeric special",
+      "format": "alphanumeric special character",
       "description": "This field will contain the merchant's URL or e-mail address.",
       "note": "",
       "values": "",
@@ -65155,7 +65100,7 @@
     {
       "type": "field_card",
       "page": 579,
-      "name": "character Merchant Category Code",
+      "name": "Merchant Category Code",
       "positions": "152-155",
       "length": "4",
       "format": "unpacked numeric",
@@ -65690,7 +65635,7 @@
       "name": "Mastercard Croatia Domestic Card Acceptor Tax ID",
       "positions": "81-100",
       "length": "20",
-      "format": "alphanumeric special",
+      "format": "alphanumeric special character",
       "description": "This field will contain the Mastercard Global Installments Croatia - Domestic Card Acceptor Tax ID.",
       "note": "",
       "values": "",
@@ -65704,7 +65649,7 @@
     {
       "type": "field_card",
       "page": 583,
-      "name": "character Mastercard Greece Grace Period Details",
+      "name": "Mastercard Greece Grace Period Details",
       "positions": "101-103",
       "length": "3",
       "format": "alphanumeric",
@@ -66419,9 +66364,9 @@
       "positions": "134",
       "length": "1",
       "format": "alphanumeric",
-      "description": "This field will contain the Merchant on-behalf Results. C (Service completed successfully) F (Incorrect POS entry mode code (not equal to 81) for an authorization or reversal message) F (Incorrect POS entry mode (not equal to 01), for authorization request of token request and token requestor card on file transactions) F (Token Requestor ID required based on the token requestor ID validation bypass parameter, not present or not formatted incorrectly) I (Token requestor ID invalid) I (Token suspended or deactivated) I (Token invalid, not found on mapping table) T (Token requestor ID/Token combination invalid) U (Unable to process - token expired) W (PAN listed in the electronic warning bulletin)",
+      "description": "This field will contain the Merchant on-behalf Results.",
       "note": "",
-      "values": "",
+      "values": " C (Service completed successfully) F (Incorrect POS entry mode code (not equal to 81) for an authorization or reversal message) F (Incorrect POS entry mode (not equal to 01), for authorization request of token request and token requestor card on file transactions) F (Token Requestor ID required based on the token requestor ID validation bypass parameter, not present or not formatted incorrectly) I (Token requestor ID invalid) I (Token suspended or deactivated) I (Token invalid, not found on mapping table) T (Token requestor ID/Token combination invalid) U (Unable to process - token expired) W (PAN listed in the electronic warning bulletin)",
       "mapping": ""
     },
     {
@@ -69551,7 +69496,7 @@
       "name": "American Express Seller Name",
       "positions": "111-148",
       "length": "38",
-      "format": "alphanumeric special",
+      "format": "alphanumeric special character",
       "description": "This field will contain the seller name for the American Express card acceptor name and location data from Tag 12 in TLV Field 104, Usage 2- Transaction-Specific Data, Dataset ID 66-American Express Data.",
       "note": "Source: F104 DS66 T12 SF1",
       "values": "",
@@ -69560,7 +69505,7 @@
     {
       "type": "field_card",
       "page": 614,
-      "name": "character Reserved",
+      "name": "Reserved",
       "positions": "149-170",
       "length": "22",
       "format": "alphanumeric",
@@ -70900,7 +70845,7 @@
       "name": "Travel Agency Name",
       "positions": "88-112",
       "length": "25",
-      "format": "alphanumeric special",
+      "format": "alphanumeric special character",
       "description": "This field will contain the name of the travel agency.",
       "note": "",
       "values": "",
@@ -70909,7 +70854,7 @@
     {
       "type": "field_card",
       "page": 624,
-      "name": "character Room Service Charges",
+      "name": "Room Service Charges",
       "positions": "113-124",
       "length": "12",
       "format": "alphanumeric",
@@ -71208,7 +71153,7 @@
       "name": "Guest Name",
       "positions": "31-70",
       "length": "40",
-      "format": "alphanumeric special",
+      "format": "alphanumeric special character",
       "description": "This field will contain the name of the guest who is registered for the room.",
       "note": "",
       "values": "",
@@ -71217,7 +71162,7 @@
     {
       "type": "field_card",
       "page": 626,
-      "name": "character Reserved",
+      "name": "Reserved",
       "positions": "71-170",
       "length": "100",
       "format": "alphanumeric",
@@ -74189,7 +74134,7 @@
       "name": "Passenger Name",
       "positions": "38-57",
       "length": "20",
-      "format": "alphanumeric special",
+      "format": "alphanumeric special character",
       "description": "This field will contain the name of passenger.",
       "note": "",
       "values": "",
@@ -74198,7 +74143,7 @@
     {
       "type": "field_card",
       "page": 649,
-      "name": "character Departure Date",
+      "name": "Departure Date",
       "positions": "58-63",
       "length": "6",
       "format": "alphanumeric",
@@ -74237,7 +74182,7 @@
       "name": "Travel Agency Name",
       "positions": "75-99",
       "length": "25",
-      "format": "alphanumeric special",
+      "format": "alphanumeric special character",
       "description": "This field will contain the name of travel agency if the ticket was issued by a travel agency.",
       "note": "",
       "values": "",
@@ -74246,7 +74191,7 @@
     {
       "type": "field_card",
       "page": 649,
-      "name": "character Restricted Ticket Indicator",
+      "name": "Restricted Ticket Indicator",
       "positions": "100",
       "length": "1",
       "format": "alphanumeric",
@@ -75117,7 +75062,7 @@
       "name": "Endorsement/Restrictions Leg 1",
       "positions": "41-60",
       "length": "20",
-      "format": "alphanumeric special",
+      "format": "alphanumeric special character",
       "description": "This field will contain a value that indicates endorsements and restrictions for the first leg of trip.",
       "note": "",
       "values": "",
@@ -75126,7 +75071,7 @@
     {
       "type": "field_card",
       "page": 656,
-      "name": "character Conjunction Ticket Leg 1",
+      "name": "Conjunction Ticket Leg 1",
       "positions": "61-85",
       "length": "25",
       "format": "alphanumeric",
@@ -75710,7 +75655,7 @@
       "name": "Endorsement/Restrictions Leg 2",
       "positions": "41-60",
       "length": "20",
-      "format": "alphanumeric special",
+      "format": "alphanumeric special character",
       "description": "This field will contain a value that indicates endorsements and restrictions for the second leg of trip.",
       "note": "",
       "values": "",
@@ -75719,7 +75664,7 @@
     {
       "type": "field_card",
       "page": 660,
-      "name": "character Conjunction Ticket Leg 2",
+      "name": "Conjunction Ticket Leg 2",
       "positions": "61-85",
       "length": "25",
       "format": "alphanumeric",
@@ -76303,7 +76248,7 @@
       "name": "Endorsement/Restrictions Leg 3",
       "positions": "41-60",
       "length": "20",
-      "format": "alphanumeric special",
+      "format": "alphanumeric special character",
       "description": "This field will contain a value that indicates endorsements and restrictions for the third leg of trip.",
       "note": "",
       "values": "",
@@ -76317,7 +76262,7 @@
     {
       "type": "field_card",
       "page": 664,
-      "name": "character Conjunction Ticket Leg 3",
+      "name": "Conjunction Ticket Leg 3",
       "positions": "61-85",
       "length": "25",
       "format": "alphanumeric",
@@ -76881,7 +76826,7 @@
       "name": "Endorsement/Restrictions Leg 4",
       "positions": "41-60",
       "length": "20",
-      "format": "alphanumeric special",
+      "format": "alphanumeric special character",
       "description": "This field will contain a value that indicates endorsements and restrictions for the fourth leg of trip.",
       "note": "",
       "values": "",
@@ -76890,7 +76835,7 @@
     {
       "type": "field_card",
       "page": 669,
-      "name": "character Conjunction Ticket Leg 4",
+      "name": "Conjunction Ticket Leg 4",
       "positions": "61-85",
       "length": "25",
       "format": "alphanumeric",
@@ -77351,11 +77296,6 @@
     },
     {
       "type": "paragraph",
-      "page": 672,
-      "text": "character"
-    },
-    {
-      "type": "paragraph",
       "page": 673,
       "text": "Passenger Itinerary Data - Industry-Specific Data - Passenger Transport Edit Criteria"
     },
@@ -77365,7 +77305,7 @@
       "name": "Ancillary Passenger Name",
       "positions": "55-74",
       "length": "20",
-      "format": "alphanumeric special",
+      "format": "alphanumeric special character",
       "description": "This field will contain either the passenger's name, or the cardholder's name if the passenger's name is unavailable. If the name is not available, a description of the ancillary purchase should be used. This field is required in U.S. domestic originals and reversals in order to qualify for either a CPS or EIRF fee program.",
       "note": "",
       "values": "",
@@ -78226,11 +78166,6 @@
     },
     {
       "type": "paragraph",
-      "page": 678,
-      "text": "character"
-    },
-    {
-      "type": "paragraph",
       "page": 679,
       "text": "Enhanced Transaction - Purchasing Transaction Line Item Detail Edit Criteria"
     },
@@ -78240,7 +78175,7 @@
       "name": "Item Commodity Code",
       "positions": "41-52",
       "length": "12",
-      "format": "alphanumeric special",
+      "format": "alphanumeric special character",
       "description": "This field will contain the item commodity code.",
       "note": "",
       "values": "",
@@ -78252,7 +78187,7 @@
       "name": "Item Descriptor",
       "positions": "53-87",
       "length": "35",
-      "format": "alphanumeric special",
+      "format": "alphanumeric special character",
       "description": "This field will contain the item descriptor.",
       "note": "",
       "values": "",
@@ -78261,10 +78196,10 @@
     {
       "type": "field_card",
       "page": 679,
-      "name": "character Product Code",
+      "name": "Product Code",
       "positions": "88-102",
       "length": "15",
-      "format": "alphanumeric special",
+      "format": "alphanumeric special character",
       "description": "This field will contain the product code.",
       "note": "",
       "values": "",
@@ -78273,7 +78208,7 @@
     {
       "type": "field_card",
       "page": 679,
-      "name": "character Quantity",
+      "name": "Quantity",
       "positions": "103-114",
       "length": "12",
       "format": "alphanumeric",
@@ -78999,17 +78934,12 @@
       "mapping": ""
     },
     {
-      "type": "paragraph",
-      "page": 685,
-      "text": "character"
-    },
-    {
       "type": "field_card",
       "page": 685,
       "name": "Account Accessed",
       "positions": "46-49",
       "length": "4",
-      "format": "alphanumeric special",
+      "format": "alphanumeric special character",
       "description": "This field will contain the total amount funded.",
       "note": "",
       "values": " AGRO = Visa Agro AGRE = Visa Agro Electron AGRC = Visa Agro Custeio AGRI = Visa Agro Investimento VVA = Visa Vale Alimentacao VVR = Visa Vale Refeicao VVF = Visa Vale Flex",
@@ -80050,11 +79980,6 @@
     },
     {
       "type": "paragraph",
-      "page": 693,
-      "text": "character"
-    },
-    {
-      "type": "paragraph",
       "page": 694,
       "text": "Commercial Mastercard Installment Payments Edit Criteria"
     },
@@ -80064,7 +79989,7 @@
       "name": "Financing Type",
       "positions": "7-26",
       "length": "20",
-      "format": "alphanumeric special",
+      "format": "alphanumeric special character",
       "description": "This field will contain the financing type.",
       "note": "",
       "values": "",
@@ -80088,7 +80013,7 @@
       "name": "Buyer ID",
       "positions": "28-41",
       "length": "14",
-      "format": "alphanumeric special",
+      "format": "alphanumeric special character",
       "description": "This field will contain the buyer ID.",
       "note": "",
       "values": "",
@@ -80097,10 +80022,10 @@
     {
       "type": "field_card",
       "page": 694,
-      "name": "character Buyer Phone Number",
+      "name": "Buyer Phone Number",
       "positions": "42-52",
       "length": "11",
-      "format": "alphanumeric special",
+      "format": "alphanumeric special character",
       "description": "This field will contain the buyer phone number.",
       "note": "",
       "values": "",
@@ -80109,7 +80034,7 @@
     {
       "type": "field_card",
       "page": 694,
-      "name": "character Purchase Identification",
+      "name": "Purchase Identification",
       "positions": "53-72",
       "length": "20",
       "format": "alphanumeric",
@@ -81097,35 +81022,35 @@
       "name": "Debt Repayment Recipient Last Name",
       "positions": "7-41",
       "length": "35",
-      "format": "alphanumeric special",
-      "description": "This field will contain the Recipient Last Name. F104 U2 DSID 65 T06 => MC DE112 SE 33 SF1",
+      "format": "alphanumeric special character",
+      "description": "This field will contain the Recipient Last Name.",
       "note": "",
       "values": "",
-      "mapping": ""
+      "mapping": " F104 U2 DSID 65 T06 => MC DE112 SE 33 SF1"
     },
     {
       "type": "field_card",
       "page": 702,
-      "name": "character Debt Repayment Recipient Postal Code",
+      "name": "Debt Repayment Recipient Postal Code",
       "positions": "42-51",
       "length": "10",
-      "format": "alphanumeric special",
-      "description": "This field will contain the Recipient Postal Code. F104 U2 DSID 65 T06 => MC DE112 SE 33 SF2",
+      "format": "alphanumeric special character",
+      "description": "This field will contain the Recipient Postal Code.",
       "note": "",
       "values": "",
-      "mapping": ""
+      "mapping": " F104 U2 DSID 65 T06 => MC DE112 SE 33 SF2"
     },
     {
       "type": "field_card",
       "page": 702,
-      "name": "character Debt Repayment Recipient Date of Birth",
+      "name": "Debt Repayment Recipient Date of Birth",
       "positions": "52-59",
       "length": "8",
       "format": "alphanumeric",
-      "description": "This field will contain the Recipient Date of Birth. F104 U2 DSID 65 T06 => MC DE112 SE 33 SF3",
+      "description": "This field will contain the Recipient Date of Birth.",
       "note": "",
       "values": "",
-      "mapping": ""
+      "mapping": " F104 U2 DSID 65 T06 => MC DE112 SE 33 SF3"
     },
     {
       "type": "field_card",
@@ -81134,10 +81059,10 @@
       "positions": "60-79",
       "length": "20",
       "format": "alphanumeric",
-      "description": "This field will contain the Recipient Account Number. F104 U2 DSID 65 T06 => MC DE112 SE 33 SF4",
+      "description": "This field will contain the Recipient Account Number.",
       "note": "",
       "values": "",
-      "mapping": ""
+      "mapping": " F104 U2 DSID 65 T06 => MC DE112 SE 33 SF4"
     },
     {
       "type": "field_card",
@@ -81595,7 +81520,7 @@
       "name": "Money Transfer Recipient",
       "positions": "9-38",
       "length": "30",
-      "format": "alphanumeric special",
+      "format": "alphanumeric special character",
       "description": "This field contains the money transfer recipient name.",
       "note": "",
       "values": "",
@@ -81609,7 +81534,7 @@
     {
       "type": "field_card",
       "page": 706,
-      "name": "character Source of Funds",
+      "name": "Source of Funds",
       "positions": "39-40",
       "length": "2",
       "format": "alphanumeric",
@@ -81962,7 +81887,7 @@
       "name": "Sender Account Number",
       "positions": "23-56",
       "length": "34",
-      "format": "alphanumeric special",
+      "format": "alphanumeric special character",
       "description": "This field contains the sender's account number.",
       "note": "",
       "values": "",
@@ -81971,7 +81896,7 @@
     {
       "type": "field_card",
       "page": 710,
-      "name": "character Sender Name",
+      "name": "Sender Name",
       "positions": "57-86",
       "length": "30",
       "format": "alphanumeric",
@@ -82444,16 +82369,11 @@
       "name": "Terminal ID",
       "positions": "73-80",
       "length": "8",
-      "format": "alphanumeric special",
+      "format": "alphanumeric special character",
       "description": "When a record-level error is present or a transaction, this field will contain a value that identifies the merchant's terminal where the transaction was acquired.",
       "note": "",
       "values": "",
       "mapping": ""
-    },
-    {
-      "type": "paragraph",
-      "page": 713,
-      "text": "character"
     },
     {
       "type": "paragraph",
@@ -82463,10 +82383,10 @@
     {
       "type": "field_card",
       "page": 713,
-      "name": "character Card Acceptor ID",
+      "name": "Card Acceptor ID",
       "positions": "81-95",
       "length": "15",
-      "format": "alphanumeric special",
+      "format": "alphanumeric special character",
       "description": "When a record-level error for a transaction is present, this field will contain the card acceptor identifier for the transaction.",
       "note": "",
       "values": "",
@@ -82679,7 +82599,7 @@
       "name": "Miscellaneous Message",
       "positions": "33-132",
       "length": "100",
-      "format": "alphanumeric special",
+      "format": "alphanumeric special character",
       "description": "This field will contain an additional message or description for the transaction. Example: Cannot process message due to bad merchant address and missing acquiring identifier.",
       "note": "",
       "values": "",
@@ -82688,7 +82608,7 @@
     {
       "type": "field_card",
       "page": 715,
-      "name": "character Reserved",
+      "name": "Reserved",
       "positions": "133-170",
       "length": "38",
       "format": "alphanumeric",
@@ -99908,7 +99828,7 @@
       "name": "Application Interchange Profile",
       "positions": "45-48",
       "length": "4",
-      "format": "Format: displayable",
+      "format": "Format: displayable hexadecimal",
       "description": "This Field is carried in VSDC transactions and provides a series of indicators that reflect the specific functions supported by the chip card account, for example, whether cardholder verification is supported. This field maps to ISO Field 55, Tag 82-Application Interchange Profile. The ISO field is 138.",
       "note": "",
       "values": "",
@@ -99917,7 +99837,7 @@
     {
       "type": "field_card",
       "page": 864,
-      "name": "hexadecimal Cryptogram",
+      "name": "Cryptogram",
       "positions": "49-64",
       "length": "16",
       "format": "displayable hexadecimal",
@@ -100552,8 +100472,8 @@
       "name": "Issuer Application Data, Byte 2",
       "positions": "65-66",
       "length": "2",
-      "format": "Format: displayable",
-      "description": "This field will contain one of the following depending on type of Chip card: VIS: Derivation Key Index CCD: Common Core Identifier",
+      "format": "Format: displayable hexadecimal",
+      "description": "This field will contain one of the following depending on type of Chip card: VIS: Derivation Key Index CCD: Common Core Identifier Generic EMV Transport: Undefined Data",
       "note": "",
       "values": "",
       "mapping": ""
@@ -100561,11 +100481,11 @@
     {
       "type": "field_card",
       "page": 870,
-      "name": "hexadecimal Issuer Application Data, Byte 3",
+      "name": "Issuer Application Data, Byte 3",
       "positions": "67-68",
       "length": "2",
       "format": "displayable hexadecimal",
-      "description": "Generic EMV Transport: Undefined Data This field will contain one of the following depending on type of Chip card: VIS: Cryptogram Version CCD: Derivation Key Index Generic EMV Transport: Undefined Data",
+      "description": "This field will contain one of the following depending on type of Chip card: VIS: Cryptogram Version CCD: Derivation Key Index Generic EMV Transport: Undefined Data",
       "note": "",
       "values": "",
       "mapping": ""

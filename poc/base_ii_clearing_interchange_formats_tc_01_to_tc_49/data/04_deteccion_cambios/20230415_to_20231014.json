@@ -4,14 +4,13 @@
   "edition_b": "20231014",
   "summary": {
     "section_added": 3,
-    "card_content_changed": 104,
+    "card_content_changed": 54,
     "duplicate_position_warning": 8,
     "row_content_changed": 4,
-    "field_became_defined": 15,
-    "card_added": 3,
-    "card_removed": 4,
+    "field_became_defined": 16,
     "row_added": 6,
     "row_removed": 3,
+    "card_removed": 3,
     "section_renamed": 1
   },
   "changes": [
@@ -65,16 +64,16 @@
     {
       "change_type": "card_content_changed",
       "position": "25",
-      "field": "description",
+      "field": "contenido",
       "old": "Indicates that the account number on the card used in the transaction was listed in the Card Recovery Bulletin (for international transactions) or Exception File (for U.S. transactions) for the merchant’s region on the date of the transaction. CRS evaluates the following transaction elements to determine the account status on the Visa card pickup bulletin: Account number l Mail/telephone indicator l Merchant location l Transaction date l Authorization code l Floor limit indicator l The field applies to original sales drafts, cash disbursements. See BASE II Clearing Data Codes manual for a listing of valid codes. VIC Edit: The VIC returns original sales drafts if the Indicator has been set to Y.",
       "new": "Indicates that the account number on the card used in the transaction was listed in the Card Recovery Bulletin (for international transactions) or Account Screen Authorization File (ASAF) (for U.S. transactions) for the merchant’s region on the date of the transaction. CRS evaluates the following transaction elements to determine the account status on the Visa card pickup bulletin: Account number l Mail/telephone indicator l Merchant location l Transaction date l Authorization code l Floor limit indicator l The field applies to original sales drafts, cash disbursements. See BASE II Clearing Data Codes manual for a listing of valid codes. VIC Edit: The VIC returns original sales drafts if the Indicator has been set to Y.",
-      "similarity_ratio": 0.975,
+      "similarity_ratio": 0.974,
       "title": "TC 05 - TCR 0"
     },
     {
       "change_type": "card_content_changed",
       "position": "145",
-      "field": "description",
+      "field": "contenido",
       "old": "Codes for dual-message acquirers that define their choice of a specific custom payment service in the deferred clearing transaction. The requested payment service indicates that the acquirer complied with the selected CPS authorization and clearing rules. Originals and Reversals of Originals Original purchases and credit vouchers and their reversals from acquirers in CPS participating countries must contain a valid value. Refer to the BASE II Clearing Data Codes for a list of valid codes. Original ATM cash disbursements and their reversals should contain one of these values: Space = not a CPS transaction 9 = CPS/ATM VIC Edit: For purchase transactions occurring at merchants in non-CPS participating countries, BASE II will insert a space in this field. VIC Edit, ATM: If the Authorization Characteristics Indicator does not contain a value of E, BASE II will insert a space in this field and an N in the Authorization Characteristics Indicator field. VIC Edit: For manual cash transactions, BASE II will insert a space in this field. For valid combinations of the Requested Payment Service and Authorization Characteristics indicator fields please see BASE II Clearing Data Codes. Not all Requested Payment Service options are available in some CPS partici­ pating countries. Dispute Response Financials, Dispute Financials This field must be the same as in the original transaction. For valid combinations of the Requested Payment Service and Authorization Characteristics indicator fields, refer to BASE II Clearing Data Codes. Not all Requested Payment Service options are available in some CPS partici­ pating countries.",
       "new": "Codes for dual-message acquirers that define their choice of a specific custom payment service in the deferred clearing transaction. The requested payment service indicates that the acquirer complied with the selected CPS authorization and clearing rules. Originals and Reversals of Originals Original purchases and credit vouchers and their reversals from acquirers in CPS participating countries must contain a valid value. Refer to the BASE II Clearing Data Codes for a list of valid codes. Original ATM cash disbursements and their reversals should contain one of these values: Space = not a CPS transaction 9 = CPS/ATM VIC Edit: For purchase transactions occurring at merchants in non-CPS participating countries, BASE II will insert a space in this field. VIC Edit, ATM: If the Authorization Characteristics Indicator does not contain a value of E, BASE II will insert a space in this field and an N in the Authorization Characteristics Indicator field. VIC Edit: For manual cash transactions, BASE II will insert a space in this field. For valid combinations of the Requested Payment Service and Authori­ zation Characteristics indicator fields please see BASE II Clearing Data Codes. Not all Requested Payment Service options are available in some CPS participating countries. Dispute Response Financials, Dispute Financials This field must be the same as in the original transaction. For valid combinations of the Requested Payment Service and Authori­ zation Characteristics indicator fields, refer to BASE II Clearing Data Codes. Not all Requested Payment Service options are available in some CPS participating countries.",
       "similarity_ratio": 0.881,
@@ -83,38 +82,11 @@
     {
       "change_type": "card_content_changed",
       "position": "150",
-      "field": "note",
-      "old": "This edit will continue to be performed by the Edit Package when the Bypass Business Edits option is used during an outgoing edit run. 0 = International settlement service 3 = Clearing-only (valid only for countries with defined service) 8 = National Net settlement service (valid only for countries with defined service) 9 = BASE II selects the appropriate settlement service based on routing and country-defined default The card (ARDEF) range for this account must be designated as l clearing-only and reside in the same country as the source identifier. Entries for the Source and Destination identifiers and account l number fields will be edited the same as for non-clearing-only transactions. Source Currency code must be valid. l Merchant Country Code must be valid. l Source Amount must be numeric. l Account Number must be valid. l Account Number Extension must be numeric. l Acquirer Reference Number must be valid. l Usage Code must be valid. l Central Processing Date must be valid. l",
-      "new": "This edit will continue to be performed by the Edit Package when the Bypass Business Edits option is used during an outgoing edit run. 0 = International settlement service 3 = Clearing only international settlement 4 = Clearing only national net settlement 8 = National Net settlement service (valid only for countries with defined service) 9 = BASE II selects the appropriate settlement service based on routing and country-defined default The card (ARDEF) range for this account must be designated l as clearing-only and reside in the same country as the source identifier. Entries for the Source and Destination identifiers and account l number fields will be edited the same as for non-clearing-only transactions. Source Currency code must be valid. l Merchant Country Code must be valid. l Source Amount must be numeric. l Account Number must be valid. l Account Number Extension must be numeric. l Acquirer Reference Number must be valid. l Usage Code must be valid. l Central Processing Date must be valid. l",
-      "similarity_ratio": 0.945,
+      "field": "contenido",
+      "old": "Indicates the service used for settlement. The field must contain 0, 3, 8, or 9 per the permitted entries shown below. If the entry is 8, the Source Currency Code must be the currency of the national settlement service. National—U.S.: The field must contain a 0, 3, or 9. National—Japan: This field must contain a 0, 8, or 9. If this field contains an 8 on purchase and credit transactions, a TCR 2 must be present. National—Mexico: This field must contain a 0, 8, or 9. If this field contains an 8 on purchase and credit transactions, a TCR 2 must be present. National—Sweden: The field must contain a 3 or 8 and a TCR 2 must be present. This edit will continue to be performed by the Edit Package when the Bypass Business Edits option is used during an outgoing edit run. 0 = International settlement service 3 = Clearing-only (valid only for countries with defined service) 8 = National Net settlement service (valid only for countries with defined service) 9 = BASE II selects the appropriate settlement service based on routing and country-defined default The card (ARDEF) range for this account must be designated as l clearing-only and reside in the same country as the source identifier. Entries for the Source and Destination identifiers and account l number fields will be edited the same as for non-clearing-only transactions. Source Currency code must be valid. l Merchant Country Code must be valid. l Source Amount must be numeric. l Account Number must be valid. l Account Number Extension must be numeric. l Acquirer Reference Number must be valid. l Usage Code must be valid. l Central Processing Date must be valid. l",
+      "new": "Indicates the service used for settlement. The field must contain 0, 3, 8, or 9 per the permitted entries shown below. If the entry is 8, the Source Currency Code must be the currency of the national settlement service. National—U.S.: The field must contain a 0, 3, or 9. National—Japan: This field must contain a 0, 8, or 9. If this field contains an 8 on purchase and credit transactions, a TCR 2 must be present. National—Mexico: This field must contain a 0, 8, or 9. If this field contains an 8 on purchase and credit transactions, a TCR 2 must be present. National—Sweden: The field must contain a 3 or 8 and a TCR 2 must be present. This edit will continue to be performed by the Edit Package when the Bypass Business Edits option is used during an outgoing edit run. 0 = International settlement service 3 = Clearing only international settlement 4 = Clearing only national net settlement 8 = National Net settlement service (valid only for countries with defined service) 9 = BASE II selects the appropriate settlement service based on routing and country-defined default The card (ARDEF) range for this account must be designated l as clearing-only and reside in the same country as the source identifier. Entries for the Source and Destination identifiers and account l number fields will be edited the same as for non-clearing-only transactions. Source Currency code must be valid. l Merchant Country Code must be valid. l Source Amount must be numeric. l Account Number must be valid. l Account Number Extension must be numeric. l Acquirer Reference Number must be valid. l Usage Code must be valid. l Central Processing Date must be valid. l",
+      "similarity_ratio": 0.968,
       "title": "TC 05 - TCR 0"
-    },
-    {
-      "change_type": "card_content_changed",
-      "position": "160",
-      "field": "description",
-      "old": "Indicates method used to identify cardholder (e.g., signature, Personal Identification Number (PIN), etc.). The field must contain a space or 1 through 4. Refer to the BASE II Clearing Data Codes manual for a list of valid codes. National—Brazil: CPS/Retail and CPS/Restaurant originals and their reversals must contain l a 1. CPS/Direct Marketing originals and their reversals must contain a 4. l National—U.S.: EIRF originals and their reversals (except those reclassified CPS/Auto l Rental (Card Not Present), CPS/Hotel (Card Not Present), and CPS/ Passenger Transport) must contain 1 through 4. CPS/Retail, CPS/Hotel (Card Present), CPS/Car Rental (Card Present) l originals and their reversals must contain a 1 through 3. CPS/Card Not Present originals and their reversals must contain a 4. l CPS/Automated Fuel Dispenser originals and their reversals must contain l a 3. CPS/Hotel (Card Not Present), CPS/Car Rental (Card Not Present) originals l and their reversals must contain a space or a 1. CPS/Passenger Transport originals and their reversals must contain a l space or 1 through 4. Custom payment service and EIRF credit vouchers may contain a space. l VIC Edit, National—U.S.: EPS and Supermarket originals and reversals must contain 1 through 3. Dispute Response Financials, Dispute Financials The entry is not required, but if it is present it must be a space or one of the permitted values.",
-      "new": "Indicates method used to identify cardholder (e.g., signature, Personal Identification Number (PIN), etc.). The field must contain a space or 1 through 4. Refer to the BASE II Clearing Data Codes manual for a list of valid codes. National—Brazil: CPS/Retail and CPS/Restaurant originals and their reversals must l contain a 1. CPS/Direct Marketing originals and their reversals must contain a 4. l National—U.S.: EIRF originals and their reversals (except those reclassified CPS/Auto l Rental (Card Not Present), CPS/Hotel (Card Not Present), and CPS/ Passenger Transport) must contain 1 through 4. CPS/Retail, CPS/Hotel (Card Present), CPS/Car Rental (Card Present) l originals and their reversals must contain a 1 through 3. CPS/Card Not Present originals and their reversals must contain a 4. l CPS/Automated Fuel Dispenser originals and their reversals must l contain a 3. CPS/Hotel (Card Not Present), CPS/Car Rental (Card Not Present) l originals and their reversals must contain a space or a 1. CPS/Passenger Transport originals and their reversals must contain a l space or 1 through 4. Custom payment service and EIRF credit vouchers may contain a l space. VIC Edit, National—U.S.: EPS and Supermarket originals and reversals must contain 1 through 3. Dispute Response Financials, Dispute Financials The entry is not required, but if it is present it must be a space or one of the permitted values.",
-      "similarity_ratio": 0.974,
-      "title": "TC 05 - TCR 0"
-    },
-    {
-      "change_type": "card_content_changed",
-      "position": "17-19",
-      "field": "values",
-      "old": "",
-      "new": "are:",
-      "similarity_ratio": 0.0,
-      "title": "TC 05 - TCR 2 Argentina"
-    },
-    {
-      "change_type": "card_content_changed",
-      "position": "58-67",
-      "field": "values",
-      "old": "are:",
-      "new": "",
-      "similarity_ratio": 0.0,
-      "title": "TC 05 - TCR 2 Argentina"
     },
     {
       "change_type": "row_content_changed",
@@ -137,7 +109,7 @@
     {
       "change_type": "card_content_changed",
       "position": "126-137",
-      "field": "description",
+      "field": "contenido",
       "old": "This field will contain the Merchant's Tax ID of merchants that IMESI tax benefit law was applied. Default value is spaces. For Cash Disbursement, Account Funding and Original Credit, this field must be spaces.",
       "new": "This field contains the Merchant Tax ID number required for all purchase and ecommerce original transactions. Default value is spaces. For Cash Disbursement, Account Funding and Original Credit, this field must be spaces.",
       "similarity_ratio": 0.218,
@@ -146,25 +118,16 @@
     {
       "change_type": "card_content_changed",
       "position": "19",
-      "field": "description",
-      "old": "Type of purchase (gas, non-fuel item, etc.).",
+      "field": "contenido",
+      "old": "Type of purchase (gas, non-fuel item, etc.). 1 = Fuel Purchase 2 = Non-Fuel Purchase 3 = Fuel and Non-Fuel Purchase",
       "new": "Type of purchase (gas, non-fuel item, etc.). See BASE II Clearing Data Codes for a listing of valid codes.",
-      "similarity_ratio": 0.587,
-      "title": "TC 05 - TCR 3 EMV Fleet Service"
-    },
-    {
-      "change_type": "card_content_changed",
-      "position": "19",
-      "field": "values",
-      "old": "1 = Fuel Purchase 2 = Non-Fuel Purchase 3 = Fuel and Non-Fuel Purchase",
-      "new": "",
-      "similarity_ratio": 0.0,
+      "similarity_ratio": 0.561,
       "title": "TC 05 - TCR 3 EMV Fleet Service"
     },
     {
       "change_type": "card_content_changed",
       "position": "20-23",
-      "field": "description",
+      "field": "contenido",
       "old": "This field contains the Expanded Fuel Type. This field should be left-justified and space-filled.",
       "new": "This field contains the Expanded Fuel Type. This field should be left-justified and space-filled. Refer to the Visa Fleet Card 2.0 Implementation Guide for a list of valid codes.",
       "similarity_ratio": 0.705,
@@ -173,43 +136,25 @@
     {
       "change_type": "card_content_changed",
       "position": "24",
-      "field": "description",
-      "old": "Identifies type of service at the fuel station.",
+      "field": "contenido",
+      "old": "Identifies type of service at the fuel station. Space = Non-Fuel Transaction F = Full Service S = Self Service",
       "new": "Identifies type of service at the fuel station. See BASE II Clearing Data Codes for a listing of valid codes.",
-      "similarity_ratio": 0.603,
-      "title": "TC 05 - TCR 3 EMV Fleet Service"
-    },
-    {
-      "change_type": "card_content_changed",
-      "position": "24",
-      "field": "values",
-      "old": "Space = Non-Fuel Transaction F = Full Service S = Self Service",
-      "new": "",
-      "similarity_ratio": 0.0,
+      "similarity_ratio": 0.566,
       "title": "TC 05 - TCR 3 EMV Fleet Service"
     },
     {
       "change_type": "card_content_changed",
       "position": "25",
-      "field": "description",
-      "old": "Unit of measure used for fuel.",
+      "field": "contenido",
+      "old": "Unit of measure used for fuel. L = Liter G = U.S. Gallon I = Imperial Gallon K = Kilo P = Pound",
       "new": "Unit of measure used for fuel. See BASE II Clearing Data Codes for a listing of valid codes.",
-      "similarity_ratio": 0.492,
-      "title": "TC 05 - TCR 3 EMV Fleet Service"
-    },
-    {
-      "change_type": "card_content_changed",
-      "position": "25",
-      "field": "values",
-      "old": "L = Liter G = U.S. Gallon I = Imperial Gallon K = Kilo P = Pound",
-      "new": "",
-      "similarity_ratio": 0.0,
+      "similarity_ratio": 0.481,
       "title": "TC 05 - TCR 3 EMV Fleet Service"
     },
     {
       "change_type": "card_content_changed",
       "position": "23-26",
-      "field": "description",
+      "field": "contenido",
       "old": "This field contains the Expanded Fuel Type. This field should be left-justified and space-filled.",
       "new": "This field contains the Expanded Fuel Type. This field should be left-justified and space-filled. Refer to the Visa Fleet Card 2.0 Implementation Guide for a list of valid codes.",
       "similarity_ratio": 0.705,
@@ -218,25 +163,16 @@
     {
       "change_type": "card_content_changed",
       "position": "27",
-      "field": "description",
-      "old": "Type of purchase (gas, non-fuel item, etc.).",
+      "field": "contenido",
+      "old": "Type of purchase (gas, non-fuel item, etc.). 1 = Fuel Purchase 2 = Non-Fuel Purchase 3 = Fuel and Non-Fuel Purchase",
       "new": "Type of purchase (gas, non-fuel item, etc.). See BASE II Clearing Data Codes for a listing of valid codes.",
-      "similarity_ratio": 0.587,
-      "title": "TC 05 - TCR 3 Fleet Service"
-    },
-    {
-      "change_type": "card_content_changed",
-      "position": "27",
-      "field": "values",
-      "old": "1 = Fuel Purchase 2 = Non-Fuel Purchase 3 = Fuel and Non-Fuel Purchase",
-      "new": "",
-      "similarity_ratio": 0.0,
+      "similarity_ratio": 0.561,
       "title": "TC 05 - TCR 3 Fleet Service"
     },
     {
       "change_type": "card_content_changed",
       "position": "28-29",
-      "field": "description",
+      "field": "contenido",
       "old": "Type of fuel (unleaded regular, diesel, gasohol, etc.) See BASE II Clearing Data Codes for valid Fuel Type codes.",
       "new": "Type of fuel (unleaded regular, diesel, gasohol, etc.) Refer to the Visa Fleet Card 2.0 Implementation Guide for a list of valid codes.",
       "similarity_ratio": 0.685,
@@ -245,55 +181,19 @@
     {
       "change_type": "card_content_changed",
       "position": "30",
-      "field": "description",
-      "old": "Unit of measure used for fuel.",
+      "field": "contenido",
+      "old": "Unit of measure used for fuel. L = Liter G = U.S. Gallon I = Imperial Gallon K = Kilo P = Pound",
       "new": "Unit of measure used for fuel. See BASE II Clearing Data Codes for a listing of valid codes.",
-      "similarity_ratio": 0.492,
-      "title": "TC 05 - TCR 3 Fleet Service"
-    },
-    {
-      "change_type": "card_content_changed",
-      "position": "30",
-      "field": "values",
-      "old": "L = Liter G = U.S. Gallon I = Imperial Gallon K = Kilo P = Pound",
-      "new": "",
-      "similarity_ratio": 0.0,
+      "similarity_ratio": 0.481,
       "title": "TC 05 - TCR 3 Fleet Service"
     },
     {
       "change_type": "card_content_changed",
       "position": "150",
-      "field": "description",
-      "old": "Identifies type of service at the fuel station.",
+      "field": "contenido",
+      "old": "Identifies type of service at the fuel station. Space = Non-Fuel Transaction F = Full service S= Self Service",
       "new": "Identifies type of service at the fuel station. See BASE II Clearing Data Codes for a listing of valid codes.",
-      "similarity_ratio": 0.603,
-      "title": "TC 05 - TCR 3 Fleet Service"
-    },
-    {
-      "change_type": "card_content_changed",
-      "position": "150",
-      "field": "values",
-      "old": "Space = Non-Fuel Transaction F = Full service S= Self Service",
-      "new": "",
-      "similarity_ratio": 0.0,
-      "title": "TC 05 - TCR 3 Fleet Service"
-    },
-    {
-      "change_type": "card_content_changed",
-      "position": "151",
-      "field": "description",
-      "old": "Indicates whether the fuel purchase was exempt from fuel tax. Blank = Default 0 = Non-Exempt 1 = Exempt",
-      "new": "Indicates whether the fuel purchase was exempt from fuel tax.",
-      "similarity_ratio": 0.744,
-      "title": "TC 05 - TCR 3 Fleet Service"
-    },
-    {
-      "change_type": "card_content_changed",
-      "position": "151",
-      "field": "values",
-      "old": "",
-      "new": "Blank = Default 0 = Non-Exempt 1 = Exempt",
-      "similarity_ratio": 0.0,
+      "similarity_ratio": 0.569,
       "title": "TC 05 - TCR 3 Fleet Service"
     },
     {
@@ -317,9 +217,7 @@
             "UN",
             "Additional Transaction Fee 1 Amount"
           ]
-        }
-      ],
-      "remaining_reserved": [
+        },
         {
           "position": "85-92",
           "cells": [
@@ -337,7 +235,9 @@
             "UN",
             "Total Discount Amount"
           ]
-        },
+        }
+      ],
+      "remaining_reserved": [
         {
           "position": "101-103",
           "cells": [
@@ -382,9 +282,7 @@
             "values": "",
             "mapping": ""
           }
-        }
-      ],
-      "remaining_reserved": [
+        },
         {
           "position": "85-92",
           "card": {
@@ -414,7 +312,9 @@
             "values": "",
             "mapping": ""
           }
-        },
+        }
+      ],
+      "remaining_reserved": [
         {
           "position": "101-103",
           "card": {
@@ -453,25 +353,16 @@
     {
       "change_type": "card_content_changed",
       "position": "104-111",
-      "field": "description",
-      "old": "This field will contain the access fee amount in the cardholder billing currency.",
+      "field": "contenido",
+      "old": "This field will contain the access fee amount in the cardholder billing currency. Two decimal positions are implied.",
       "new": "This field contains the surcharge amount in cardholder billing currency.",
-      "similarity_ratio": 0.837,
-      "title": "TC 05 - TCR 4 Supplemental Financial Data"
-    },
-    {
-      "change_type": "card_content_changed",
-      "position": "104-111",
-      "field": "note",
-      "old": "Two decimal positions are implied.",
-      "new": "",
-      "similarity_ratio": 0.0,
+      "similarity_ratio": 0.681,
       "title": "TC 05 - TCR 4 Supplemental Financial Data"
     },
     {
       "change_type": "card_content_changed",
       "position": "112-119",
-      "field": "description",
+      "field": "contenido",
       "old": "This field contains the Senders Foreign Exchange fee on Money Transfer transactions. The entry is optional, but if the field is used, two decimal positions are implied. When present the amount is included in the source transaction amount by the sending institution.",
       "new": "This field contains the money transfer foreign exchange fee.",
       "similarity_ratio": 0.295,
@@ -480,7 +371,7 @@
     {
       "change_type": "card_content_changed",
       "position": "120-148",
-      "field": "description",
+      "field": "contenido",
       "old": "This field will contain Senders Payment Account Reference on original and exception transactions.",
       "new": "This field contains the payment account reference.",
       "similarity_ratio": 0.585,
@@ -489,7 +380,7 @@
     {
       "change_type": "card_content_changed",
       "position": "149-159",
-      "field": "description",
+      "field": "contenido",
       "old": "This field will contain Token Requestor ID for Purchase and Credit Voucher token transactions.",
       "new": "This field contains the token requestor ID.",
       "similarity_ratio": 0.526,
@@ -516,9 +407,7 @@
             "UN",
             "Additional Transaction Fee 1 Amount"
           ]
-        }
-      ],
-      "remaining_reserved": [
+        },
         {
           "position": "160-167",
           "cells": [
@@ -527,7 +416,9 @@
             "UN",
             "Total Discount Amount"
           ]
-        },
+        }
+      ],
+      "remaining_reserved": [
         {
           "position": "168",
           "cells": [
@@ -572,9 +463,7 @@
             "values": "",
             "mapping": ""
           }
-        }
-      ],
-      "remaining_reserved": [
+        },
         {
           "position": "160-167",
           "card": {
@@ -589,7 +478,9 @@
             "values": "",
             "mapping": ""
           }
-        },
+        }
+      ],
+      "remaining_reserved": [
         {
           "position": "168",
           "card": {
@@ -646,7 +537,7 @@
     {
       "change_type": "card_content_changed",
       "position": "15-16",
-      "field": "description",
+      "field": "contenido",
       "old": "Code indicating the type of business that is applicable to this transaction. This field must contain SP (for SMS Data).",
       "new": "Code indicating the type of business that is applicable to this transaction. This field must contain SP (SMS and Promotion Data).",
       "similarity_ratio": 0.927,
@@ -681,26 +572,17 @@
     },
     {
       "change_type": "card_content_changed",
-      "position": "32-34",
-      "field": "description",
-      "old": "Currency code of the authorized source amount. The entry must be spaces or a valid ISO numeric currency code. If the Authorized Amount is not zeros, then the Authorization Currency Code must not be spaces. The source currency and the authorization currency must be the same. CPS credit vouchers and their reversals must contain spaces in this field. VIC Edit: The Authorization Currency Code must be the same as in the Authorization Response (V.I.P. Field 49, converted to unpacked numeric) in the following transactions: Custom payment service original purchase transactions and their reversals l CPS/ATM original ATM cash disbursement transactions and their reversals l VIC Edit: If multiple authorizations and/or an authorization reversal were supplied, this field must contain the Transaction Currency Code from the first authorization response. Outgoing: For originals and reversals that do not participate in a payment service or chip card service, the Edit Package will not initialize this field to spaces. EP will retain the original contents, if the field is a valid currency code.",
-      "new": "Currency code of the authorized source amount. The entry must be spaces or a valid ISO numeric currency code. If the Authorized Amount is not zeros, then the Authorization Currency Code must not be spaces. The source currency and the authorization currency must be the same. CPS credit vouchers and their reversals must contain spaces in this field. VIC Edit: The Authorization Currency Code must be the same as in the Authorization Response (V.I.P. Field 49, converted to unpacked numeric) in the following transactions: Custom payment service original purchase transactions and their l reversals CPS/ATM original ATM cash disbursement transactions and their l reversals VIC Edit: If multiple authorizations and/or an authorization reversal were supplied, this field must contain the Transaction Currency Code from the first authorization response. Outgoing: For originals and reversals that do not participate in a payment service or chip card service, the Edit Package will not initialize this field to spaces. EP will retain the original contents, if the field is a valid currency code.",
-      "similarity_ratio": 0.98,
-      "title": "TC 05 - TCR 5 Payment Service Data"
-    },
-    {
-      "change_type": "card_content_changed",
       "position": "149",
-      "field": "description",
+      "field": "contenido",
       "old": "This field indicates whether the account is Spend Qualified or not. VIC Edit: Visa will include the appropriate value in this field. This field will contain; B (Base spend assessment threshold defined by Visa has been met.) l Q (Spend assessment threshold defined by Visa has been met.) l N (Spend assessment threshold defined by Visa has not been met.) l Space (Spend processing does not apply (Not applicable).) l Acquirers can choose to receive spend qualified indicator reclassifications by submitting non-space values in this field. Acquirers that choose not to receive spend qualified indicator reclassifi­ cations should submit space in this field.",
       "new": "This field indicates whether the account is Spend Qualified or not. VIC Edit: Visa will include the appropriate value in this field. This field will contain; B (Base spend assessment threshold defined by Visa has been met.) l Q (Spend assessment threshold defined by Visa has been met.) l N (Spend assessment threshold defined by Visa has not been met.) l Space (Spend processing does not apply (Not applicable).) l Acquirers can choose to receive spend qualified indicator reclassifi cations by submitting non-space values in this field. Acquirers that choose not to receive spend qualified indicator reclassifi cations should submit space in this field.",
-      "similarity_ratio": 0.933,
+      "similarity_ratio": 0.932,
       "title": "TC 05 - TCR 5 Payment Service Data"
     },
     {
       "change_type": "card_content_changed",
       "position": "128-129",
-      "field": "description",
+      "field": "contenido",
       "old": "Identifies product. See BASE II Clearing Data Codes for valid values. Space-fill if unused.",
       "new": "This field contains a code for the non-fuel product. Refer to the Visa Fleet Card 2.0 Implementation Guide for a list of valid codes.",
       "similarity_ratio": 0.375,
@@ -709,7 +591,7 @@
     {
       "change_type": "card_content_changed",
       "position": "130-131",
-      "field": "description",
+      "field": "contenido",
       "old": "Identifies product. See BASE II Clearing Data Codes for valid values. Space-fill if unused.",
       "new": "This field contains a code for the non-fuel product. Refer to the Visa Fleet Card 2.0 Implementation Guide for a list of valid codes.",
       "similarity_ratio": 0.375,
@@ -718,7 +600,7 @@
     {
       "change_type": "card_content_changed",
       "position": "132-133",
-      "field": "description",
+      "field": "contenido",
       "old": "Identifies product. See BASE II Clearing Data Codes for valid values. Space-fill if unused.",
       "new": "This field contains a code for the non-fuel product. Refer to the Visa Fleet Card 2.0 Implementation Guide for a list of valid codes.",
       "similarity_ratio": 0.375,
@@ -727,7 +609,7 @@
     {
       "change_type": "card_content_changed",
       "position": "134-135",
-      "field": "description",
+      "field": "contenido",
       "old": "Identifies product. See BASE II Clearing Data Codes for valid values. Space-fill if unused.",
       "new": "This field contains a code for the non-fuel product. Refer to the Visa Fleet Card 2.0 Implementation Guide for a list of valid codes.",
       "similarity_ratio": 0.375,
@@ -736,7 +618,7 @@
     {
       "change_type": "card_content_changed",
       "position": "136-137",
-      "field": "description",
+      "field": "contenido",
       "old": "Identifies product. See BASE II Clearing Data Codes for valid values. Space-fill if unused.",
       "new": "This field contains a code for the non-fuel product. Refer to the Visa Fleet Card 2.0 Implementation Guide for a list of valid codes.",
       "similarity_ratio": 0.375,
@@ -745,7 +627,7 @@
     {
       "change_type": "card_content_changed",
       "position": "138-139",
-      "field": "description",
+      "field": "contenido",
       "old": "Identifies product. See BASE II Clearing Data Codes for valid values. Space-fill if unused.",
       "new": "This field contains a code for the non-fuel product. Refer to the Visa Fleet Card 2.0 Implementation Guide for a list of valid codes.",
       "similarity_ratio": 0.375,
@@ -754,7 +636,7 @@
     {
       "change_type": "card_content_changed",
       "position": "140-141",
-      "field": "description",
+      "field": "contenido",
       "old": "Identifies product. See BASE II Clearing Data Codes for valid values. Space-fill if unused.",
       "new": "This field contains a code for the non-fuel product. Refer to the Visa Fleet Card 2.0 Implementation Guide for a list of valid codes.",
       "similarity_ratio": 0.375,
@@ -763,7 +645,7 @@
     {
       "change_type": "card_content_changed",
       "position": "142-143",
-      "field": "description",
+      "field": "contenido",
       "old": "Identifies product. See BASE II Clearing Data Codes for valid values. Space-fill if unused.",
       "new": "This field contains a code for the non-fuel product. Refer to the Visa Fleet Card 2.0 Implementation Guide for a list of valid codes.",
       "similarity_ratio": 0.375,
@@ -805,7 +687,7 @@
     {
       "change_type": "card_content_changed",
       "position": "161",
-      "field": "description",
+      "field": "contenido",
       "old": "In an update for the BASE I and SMS Exception Files, this field contains one or more CRB region codes that define the distribution of an account number in Card Recovery Bulletin Service files and bulletins. In an update for the SMS Exception File only, this field is space-filled.",
       "new": "In an update for the Exception Files, this field contains one or more CRB region codes that define the distribution of an account number in Card Recovery Bulletin Service files and bulletins.",
       "similarity_ratio": 0.811,
@@ -814,7 +696,7 @@
     {
       "change_type": "card_content_changed",
       "position": "46",
-      "field": "description",
+      "field": "contenido",
       "old": "Indicates if biller will accept an electronic change request as official notification. This field will contain one of these values: Y = Biller accepts an electronic change request as official notification N = Biller does not accept an electronic change request as official notifi­ cation",
       "new": "Indicates if biller will accept an electronic change request as official notification. This field will contain one of these values: Y = Biller accepts an electronic change request as official notification N = Biller does not accept an electronic change request as official notifi cation",
       "similarity_ratio": 0.974,
@@ -822,120 +704,12 @@
     },
     {
       "change_type": "card_content_changed",
-      "position": "26-41",
-      "field": "note",
-      "old": "If the original transaction was submitted with a token, the advice will be populated as following: Dispute response financial status advices and dispute response l financial reversal status advices sent to acquirers will contain the token. Dispute financial status advices and dispute financial reversal l status advices sent to issuers will contain the cardholder primary account number (PAN).",
-      "new": "If the original transaction was submitted with a token, the advice will be populated as following: Dispute response financial status advices and dispute l response financial reversal status advices sent to acquirers will contain the token. Dispute financial status advices and dispute financial reversal l status advices sent to issuers will contain the cardholder primary account number (PAN).",
-      "similarity_ratio": 0.975,
-      "title": "TC 33 - TCR 0 BASE II Dispute Financial Status Advice"
-    },
-    {
-      "change_type": "card_content_changed",
-      "position": "76",
-      "field": "values",
-      "old": "0 (International settlement service) l 3 (Clearing-only (valid only for countries with defined service)) l 8 (National net settlement service (valid only for countries with defined l service)) 9 (BASE II selects the appropriate settlement service based on routing and l country-defined default)",
-      "new": "0 (International settlement service) l 3 (Clearing-only (valid only for countries with defined service)) l 8 (National net settlement service (valid only for countries with l defined service)) 9 (BASE II selects the appropriate settlement service based on routing l and country-defined default)",
-      "similarity_ratio": 0.952,
-      "title": "TC 33 - TCR 1 BASE II Dispute Financial Advice (Cont'd)"
-    },
-    {
-      "change_type": "card_content_changed",
-      "position": "26-41",
-      "field": "note",
-      "old": "If the original transaction was submitted with a token, the advice will be populated as follows: Dispute response financial status advices and dispute response l financial reversal status advices sent to acquirers will contain the token. Dispute financial status advices and dispute financial reversal l status advices sent to issuers will contain the cardolder primary account number (PAN).",
-      "new": "If the original transaction was submitted with a token, the advice will be populated as follows: Dispute response financial status advices and dispute l response financial reversal status advices sent to acquirers will contain the token. Dispute financial status advices and dispute financial reversal l status advices sent to issuers will contain the cardolder primary account number (PAN).",
-      "similarity_ratio": 0.974,
-      "title": "TC 33 - TCR 0 V.I.P. Full Service Dispute Financial Status Advice"
-    },
-    {
-      "change_type": "card_content_changed",
-      "position": "76",
-      "field": "values",
-      "old": "0 (International settlement service) l 3 (Clearing-only (valid only for countries with defined service)) l 8 (National net settlement service (valid only for countries with defined l service)) 9 (BASE II selects the appropriate settlement service based on routing and l country-defined default)",
-      "new": "0 (International settlement service) l 3 (Clearing-only (valid only for countries with defined service)) l 8 (National net settlement service (valid only for countries with l defined service)) 9 (BASE II selects the appropriate settlement service based on routing l and country-defined default)",
-      "similarity_ratio": 0.952,
-      "title": "TC 33 - TCR 1 V.I.P. Full Service Dispute Financial Status Advice (Cont'd)"
-    },
-    {
-      "change_type": "card_content_changed",
-      "position": "123",
-      "field": "description",
-      "old": "This field will contain a value that indicates the service used for settlement. Values: 0 (International settlement service) l 8 (National net settlement service (valid only for countries with defined l service)) 9 (BASE II selects the appropriate settlement service based on routing and l country-defined default)",
-      "new": "This field will contain a value that indicates the service used for settlement. Values: 0 (International settlement service) l 8 (National net settlement service (valid only for countries with l defined service)) 9 (BASE II selects the appropriate settlement service based on routing l and country-defined default)",
-      "similarity_ratio": 0.955,
-      "title": "TC 33 - TCR 0 BASE II Clearing and Settlement Advice"
-    },
-    {
-      "change_type": "card_content_changed",
-      "position": "32-39",
-      "field": "name",
-      "old": "Terminal ID",
-      "new": "character Terminal ID",
-      "similarity_ratio": 0.688,
+      "position": "99",
+      "field": "contenido",
+      "old": "Card Verification Value 2 (CVV2) is the verification result for card-not-present transactions and also for card-present CVV2 verification- only requests. Space-filled for credits and cash disbursement transactions. Please see BASE II Clearing Data Codes for a list of valid codes.",
+      "new": "Card Verification Value 2 (CVV2) is the verification result for card-not-present transactions and also for card-present CVV2 verifi cation-only requests. Space-filled for credits and cash disbursement transactions. Please see BASE II Clearing Data Codes for a list of valid codes.",
+      "similarity_ratio": 0.971,
       "title": "TC 33.A - CP 01 TCR 1 Additional Data"
-    },
-    {
-      "change_type": "card_content_changed",
-      "position": "32-39",
-      "field": "note",
-      "old": "",
-      "new": "Please see BASE II Clearing Data Codes for a list of valid",
-      "similarity_ratio": 0.0,
-      "title": "TC 33.A - CP 01 TCR 1 Additional Data"
-    },
-    {
-      "change_type": "card_content_changed",
-      "position": "40",
-      "field": "description",
-      "old": "Indicates transaction performed by mail order, telephone, or electronic commerce.",
-      "new": "Indicates transaction performed by mail order, telephone, or electronic commerce. codes.",
-      "similarity_ratio": 0.959,
-      "title": "TC 33.A - CP 01 TCR 1 Additional Data"
-    },
-    {
-      "change_type": "card_content_changed",
-      "position": "40",
-      "field": "note",
-      "old": "Please see BASE II Clearing Data Codes for a list of valid codes. Populated based on Credit Authorization. Please see BASE II Clearing Data Codes for a list of valid",
-      "new": "Populated based on Credit Authorization. Please see BASE II Clearing Data Codes for a list of valid",
-      "similarity_ratio": 0.75,
-      "title": "TC 33.A - CP 01 TCR 1 Additional Data"
-    },
-    {
-      "change_type": "card_content_changed",
-      "position": "99-101",
-      "field": "name",
-      "old": "Mastercard Grace Period Details",
-      "new": "character Mastercard Grace Period Details",
-      "similarity_ratio": 0.861,
-      "title": "TC 33.A - CP 01 TCR 5 Installment Payment"
-    },
-    {
-      "change_type": "card_content_changed",
-      "position": "95-105",
-      "field": "note",
-      "old": "Mapping: Field 104 DS65 T21 SF1 => MC DE48 SE37 SF1",
-      "new": "Mapping: Field 104 DS65 T21 SF1 => MC DE48 SE37 SF1 Mapping: Field 104 DS65 T21 SF2 => MC DE48 SE37 SF2",
-      "similarity_ratio": 0.662,
-      "title": "TC 33.A - CP 01 TCR 6 Gateway Data"
-    },
-    {
-      "change_type": "card_content_changed",
-      "position": "106-116",
-      "field": "note",
-      "old": "Mapping: Field 104 DS65 T21 SF2 => MC DE48 SE37 SF2",
-      "new": "",
-      "similarity_ratio": 0.0,
-      "title": "TC 33.A - CP 01 TCR 6 Gateway Data"
-    },
-    {
-      "change_type": "card_content_changed",
-      "position": "133-134",
-      "field": "description",
-      "old": "This field will contain a fixed value of 53.",
-      "new": "This field will contain a fixed value of 53. 1",
-      "similarity_ratio": 0.978,
-      "title": "TC 33.A - CP 01 TCR 6 Gateway Data"
     },
     {
       "change_type": "field_became_defined",
@@ -955,24 +729,6 @@
         "AN",
         "Merchant Payment Gateway ID"
       ]
-    },
-    {
-      "change_type": "card_content_changed",
-      "position": "113",
-      "field": "description",
-      "old": "This field contains the MC AVV Verification - Program Protocol. F104 U2 DS65 T37 POS 1 => MC DE 48 SE 21 (pos 1)",
-      "new": "This field contains the MC AVV Verification - Program Protocol.",
-      "similarity_ratio": 0.72,
-      "title": "TC 33.A - CP 01 TCR 7 Gateway Data (Cont'd)"
-    },
-    {
-      "change_type": "card_content_changed",
-      "position": "113",
-      "field": "mapping",
-      "old": "",
-      "new": "F104 U2 DS65 T37 POS 1 => MC DE 48 SE 21 (pos 1)",
-      "similarity_ratio": 0.0,
-      "title": "TC 33.A - CP 01 TCR 7 Gateway Data (Cont'd)"
     },
     {
       "change_type": "field_became_defined",
@@ -1026,9 +782,7 @@
             "AN",
             "Mastercard Installment Customer ID"
           ]
-        }
-      ],
-      "remaining_reserved": [
+        },
         {
           "position": "142-160",
           "cells": [
@@ -1056,7 +810,8 @@
             "Mastercard Purchase - Acquirer Original Processing Code"
           ]
         }
-      ]
+      ],
+      "remaining_reserved": []
     },
     {
       "change_type": "field_became_defined",
@@ -1091,9 +846,7 @@
             "values": "",
             "mapping": " Value comes from Field 104 DSID 65 Tag 06 => DE112 SE011."
           }
-        }
-      ],
-      "remaining_reserved": [
+        },
         {
           "position": "142-160",
           "card": {
@@ -1139,93 +892,31 @@
             "mapping": " Value comes from Field 104 DSID 65 Tag 02 position 87-92 => DE54 SF6."
           }
         }
-      ]
-    },
-    {
-      "change_type": "card_content_changed",
-      "position": "65-84",
-      "field": "name",
-      "old": "character American Express Seller ID",
-      "new": "American Express Seller ID",
-      "similarity_ratio": 0.839,
-      "title": "TC 33.A - CP 01 TCR B Gateway Data (Cont'd)"
-    },
-    {
-      "change_type": "card_content_changed",
-      "position": "4",
-      "field": "note",
-      "old": "",
-      "new": "Leading length byte removed.",
-      "similarity_ratio": 0.0,
-      "title": "TC 33.A - CP 02 TCR 1 EMV Data (Cont'd)"
-    },
-    {
-      "change_type": "card_content_changed",
-      "position": "5-68",
-      "field": "note",
-      "old": "Leading length byte removed.",
-      "new": "",
-      "similarity_ratio": 0.0,
-      "title": "TC 33.A - CP 02 TCR 1 EMV Data (Cont'd)"
+      ],
+      "remaining_reserved": []
     },
     {
       "change_type": "card_content_changed",
       "position": "17",
-      "field": "description",
+      "field": "contenido",
       "old": "This field specifies if the discount amount is a credit or a debit. C = Credit l D = Debit l",
       "new": "This field specifies if the discount amount is a credit or a debit. Values: C = Credit l D = Debit l",
-      "similarity_ratio": 0.958,
+      "similarity_ratio": 0.957,
       "title": "TC 33.A - CP 04 TCR 2 Level III Data - Purchasing Transaction Summary"
     },
     {
       "change_type": "card_content_changed",
       "position": "56",
-      "field": "description",
+      "field": "contenido",
       "old": "This field specifies if the VAT/tax amount is a credit or a debit. C = Credit l D = Debit l",
       "new": "This field specifies if the VAT/tax amount is a credit or a debit. Values: C = Credit l D = Debit l",
-      "similarity_ratio": 0.958,
+      "similarity_ratio": 0.956,
       "title": "TC 33.A - CP 04 TCR 2 Level III Data - Purchasing Transaction Summary"
     },
     {
       "change_type": "card_content_changed",
-      "position": "5-11",
-      "field": "mapping",
-      "old": "F104 U2 DSID 65 T06=> DE 112 SE 16 (pos 35-41)",
-      "new": "F104 U2 DSID 65 T06=> DE 112 SE 16 (pos 35-41) F104 U2 DSID 65 T06=> DE 112 SE 16 (pos 42-45)",
-      "similarity_ratio": 0.662,
-      "title": "TC 33.A - CP 07 TCR 5 Consumer Mastercard Installment Payments"
-    },
-    {
-      "change_type": "card_content_changed",
-      "position": "12-15",
-      "field": "mapping",
-      "old": "F104 U2 DSID 65 T06=> DE 112 SE 16 (pos 42-45)",
-      "new": "",
-      "similarity_ratio": 0.0,
-      "title": "TC 33.A - CP 07 TCR 5 Consumer Mastercard Installment Payments"
-    },
-    {
-      "change_type": "card_content_changed",
-      "position": "8",
-      "field": "description",
-      "old": "This field contains the Trusted Merchant Exemption Indicator. F34 DSID 56 T9F7E",
-      "new": "This field contains the Trusted Merchant Exemption Indicator.",
-      "similarity_ratio": 0.871,
-      "title": "TC 33.A - CP07 TCR 9 EU Specific Processing"
-    },
-    {
-      "change_type": "card_content_changed",
-      "position": "8",
-      "field": "mapping",
-      "old": "",
-      "new": "F34 DSID 56 T9F7E",
-      "similarity_ratio": 0.0,
-      "title": "TC 33.A - CP07 TCR 9 EU Specific Processing"
-    },
-    {
-      "change_type": "card_content_changed",
       "position": "5-168",
-      "field": "description",
+      "field": "contenido",
       "old": "This field will contain the free form text data from Field 48, Usage 2 — Unformatted Text in Authorization Messages.",
       "new": "This field will contain the Acquirer Country Code (3AN) followed by Free Form Text (161ANS).",
       "similarity_ratio": 0.423,
@@ -1263,9 +954,7 @@
             "ANS",
             "Contact Information - Account Reference Number"
           ]
-        }
-      ],
-      "remaining_reserved": [
+        },
         {
           "position": "127-128",
           "cells": [
@@ -1274,7 +963,9 @@
             "ANS",
             "Contact Information - Entity Type"
           ]
-        },
+        }
+      ],
+      "remaining_reserved": [
         {
           "position": "129-168",
           "cells": [
@@ -1319,9 +1010,7 @@
             "values": "",
             "mapping": ""
           }
-        }
-      ],
-      "remaining_reserved": [
+        },
         {
           "position": "127-128",
           "card": {
@@ -1336,7 +1025,9 @@
             "values": "",
             "mapping": ""
           }
-        },
+        }
+      ],
+      "remaining_reserved": [
         {
           "position": "129-168",
           "card": {
@@ -1356,35 +1047,17 @@
     },
     {
       "change_type": "card_content_changed",
-      "position": "37-38",
-      "field": "name",
-      "old": "Source of Funds",
-      "new": "character Source of Funds",
-      "similarity_ratio": 0.75,
-      "title": "TC 33.A - CP 09 TCR 1 Push Payment - Original Credit Transactions"
-    },
-    {
-      "change_type": "card_content_changed",
       "position": "59-78",
-      "field": "description",
-      "old": "CUIT Codigo Unico Tag 05-Merchant Business tax de Identifi­ VAT Registration/ identification cacion Single Business Tributaria Reference Number CUIT Codigo Unico Tag 06-Customer Individual tax de Identifi­ VAT Registration identification cacion Number Tributaria Brazil CNPJ Cadastro Tag 05-Merchant Business tax Nacional de VAT Registration/ identification Pessoas Single Business Juridicas Reference Number CPF Cadastro de Tag 06-Customer Individual tax Pessoas VAT Registration identification Fisicas Number Chile RUT Rol Unico Tag 05-Merchant Business tax Tributario VAT Registration/ identification Single Business Reference Number RUT Rol Unico Tag 06-Customer Individual tax Tributario VAT Registration identification Number Colombia NIT Numero de Tag 05-Merchant Business tax Identificacion VAT Registration/ identification Tributaria Single Business Reference Number CC, CE, Cedula de Tag 06-Customer Individual tax or PASS Ciudadania VAT Registration identification Number This field will contain the Tax Document Type in OCT transactions in Latin America.",
-      "new": "This field will contain the Tax Document Type in OCT transactions in Latin America. Field Comments Identifier Peru RUC Registro Tag 05- Business tax Unico de Merchant VAT identification Contrib­ Registration/ uyentes Single Business Reference Number DNI Documento Tag 06- Individual tax Nacional de Customer VAT identification Identidad Registration Number",
-      "similarity_ratio": 0.136,
-      "title": "TC 33.A - CP 09 TCR 1 Push Payment - Original Credit Transactions"
-    },
-    {
-      "change_type": "card_content_changed",
-      "position": "59-78",
-      "field": "values",
-      "old": "Country Tax Description",
-      "new": "Country Tax",
-      "similarity_ratio": 0.647,
+      "field": "contenido",
+      "old": "CUIT Codigo Unico Tag 05-Merchant Business tax de Identifi­ VAT Registration/ identification cacion Single Business Tributaria Reference Number CUIT Codigo Unico Tag 06-Customer Individual tax de Identifi­ VAT Registration identification cacion Number Tributaria Brazil CNPJ Cadastro Tag 05-Merchant Business tax Nacional de VAT Registration/ identification Pessoas Single Business Juridicas Reference Number CPF Cadastro de Tag 06-Customer Individual tax Pessoas VAT Registration identification Fisicas Number Chile RUT Rol Unico Tag 05-Merchant Business tax Tributario VAT Registration/ identification Single Business Reference Number RUT Rol Unico Tag 06-Customer Individual tax Tributario VAT Registration identification Number Colombia NIT Numero de Tag 05-Merchant Business tax Identificacion VAT Registration/ identification Tributaria Single Business Reference Number CC, CE, Cedula de Tag 06-Customer Individual tax or PASS Ciudadania VAT Registration identification Number This field will contain the Tax Document Type in OCT transactions in Latin America. Country Tax Description",
+      "new": "This field will contain the Tax Document Type in OCT transactions in Latin America. Field Comments Identifier Peru RUC Registro Tag 05- Business tax Unico de Merchant VAT identification Contrib­ Registration/ uyentes Single Business Reference Number DNI Documento Tag 06- Individual tax Nacional de Customer VAT identification Identidad Registration Number Country Tax",
+      "similarity_ratio": 0.137,
       "title": "TC 33.A - CP 09 TCR 1 Push Payment - Original Credit Transactions"
     },
     {
       "change_type": "card_content_changed",
       "position": "79-80",
-      "field": "description",
+      "field": "contenido",
       "old": "RUC Registro Tag 05-Merchant Business tax Unico de VAT Registration/ identification Contrib­ Single Business uyentes Reference Number DNI Documento Tag 06-Customer Individual tax Nacional de VAT Registration identification Identidad Number This field contains a code that denotes whether the customer identification data belongs to the sender or the recipient. Valid values: 05 = (Payer (sender)) 06 = (Payee (recipient))",
       "new": "This field contains a code that denotes whether the customer identification data belongs to the sender or the recipient. Valid values: 05 = (Payer (sender)) 06 = (Payee (recipient))",
       "similarity_ratio": 0.601,
@@ -1587,9 +1260,7 @@
             "AN",
             "Electric Vehicle - Connector Type"
           ]
-        }
-      ],
-      "remaining_reserved": [
+        },
         {
           "position": "132-134",
           "cells": [
@@ -1598,7 +1269,9 @@
             "AN",
             "Electric Vehicle - Charging Reason Code"
           ]
-        },
+        }
+      ],
+      "remaining_reserved": [
         {
           "position": "135-168",
           "cells": [
@@ -1611,64 +1284,15 @@
       ]
     },
     {
-      "change_type": "card_added",
+      "change_type": "field_became_defined",
+      "kind": "card",
+      "subtype": "split",
       "title": "TC 33.A - CP 12 TCR 1 Merchant Data",
-      "position": "129-131",
-      "card": {
-        "type": "field_card",
-        "page": 567,
-        "name": "Electric Vehicle - Connector Type",
-        "positions": "129-131",
-        "length": "3",
-        "format": "alphanumeric",
-        "description": "This field will contain the Electric Vehicle - Connector Type.",
-        "note": "",
-        "values": "",
-        "mapping": ""
-      }
-    },
-    {
-      "change_type": "card_added",
-      "title": "TC 33.A - CP 12 TCR 1 Merchant Data",
-      "position": "132-134",
-      "card": {
-        "type": "field_card",
-        "page": 567,
-        "name": "Electric Vehicle - Charging Reason Code",
-        "positions": "132-134",
-        "length": "3",
-        "format": "alphanumeric",
-        "description": "This field will contain the Electric Vehicle - Charging Reason Code.",
-        "note": "",
-        "values": "",
-        "mapping": ""
-      }
-    },
-    {
-      "change_type": "card_added",
-      "title": "TC 33.A - CP 12 TCR 1 Merchant Data",
-      "position": "135-168",
-      "card": {
-        "type": "field_card",
-        "page": 567,
-        "name": "Reserved",
-        "positions": "135-168",
-        "length": "35",
-        "format": "alphanumeric",
-        "description": "This field is reserved for future use.",
-        "note": "",
-        "values": "",
-        "mapping": ""
-      }
-    },
-    {
-      "change_type": "card_removed",
-      "title": "TC 33.A - CP 12 TCR 1 Merchant Data",
-      "position": "129-168",
-      "card": {
+      "removed_position": "129-168",
+      "removed_card": {
         "type": "field_card",
         "page": 550,
-        "name": "character Reserved",
+        "name": "Reserved",
         "positions": "129-168",
         "length": "40",
         "format": "alphanumeric",
@@ -1676,133 +1300,65 @@
         "note": "",
         "values": "",
         "mapping": ""
-      }
-    },
-    {
-      "change_type": "card_content_changed",
-      "position": "92-107",
-      "field": "name",
-      "old": "character Mastercard - Acceptor Customer Service Phone Number",
-      "new": "Mastercard - Acceptor Customer Service Phone Number",
-      "similarity_ratio": 0.911,
-      "title": "TC 33.A - CP 12 TCR 2 Merchant Data"
-    },
-    {
-      "change_type": "card_content_changed",
-      "position": "108-157",
-      "field": "name",
-      "old": "Mastercard - Service Location City Name",
-      "new": "character Mastercard - Service Location City Name",
-      "similarity_ratio": 0.886,
-      "title": "TC 33.A - CP 12 TCR 2 Merchant Data"
+      },
+      "new_fields": [
+        {
+          "position": "129-131",
+          "card": {
+            "type": "field_card",
+            "page": 567,
+            "name": "Electric Vehicle - Connector Type",
+            "positions": "129-131",
+            "length": "3",
+            "format": "alphanumeric",
+            "description": "This field will contain the Electric Vehicle - Connector Type.",
+            "note": "",
+            "values": "",
+            "mapping": ""
+          }
+        },
+        {
+          "position": "132-134",
+          "card": {
+            "type": "field_card",
+            "page": 567,
+            "name": "Electric Vehicle - Charging Reason Code",
+            "positions": "132-134",
+            "length": "3",
+            "format": "alphanumeric",
+            "description": "This field will contain the Electric Vehicle - Charging Reason Code.",
+            "note": "",
+            "values": "",
+            "mapping": ""
+          }
+        }
+      ],
+      "remaining_reserved": [
+        {
+          "position": "135-168",
+          "card": {
+            "type": "field_card",
+            "page": 567,
+            "name": "Reserved",
+            "positions": "135-168",
+            "length": "35",
+            "format": "alphanumeric",
+            "description": "This field is reserved for future use.",
+            "note": "",
+            "values": "",
+            "mapping": ""
+          }
+        }
+      ]
     },
     {
       "change_type": "card_content_changed",
       "position": "17-18",
-      "field": "description",
+      "field": "contenido",
       "old": "This field will contain a code that indicates the BASE I and V.I.P. method by which a point-of-transaction terminal obtains and transmits the cardholder information necessary to complete a transaction. For valid values, see Full Service POS Online Messages Technical Specifications.",
       "new": "This field will contain a code that indicates the BASE I and V.I.P. method by which a point-of-transaction terminal obtains and transmits the cardholder information necessary to complete a transaction. For valid values, see Full Service POS Online Messages Technical Specifi cations.",
       "similarity_ratio": 0.97,
       "title": "TC 33.B - CP 51 TCR 1 Additional Data"
-    },
-    {
-      "change_type": "card_content_changed",
-      "position": "34-41",
-      "field": "name",
-      "old": "character Terminal ID",
-      "new": "Terminal ID",
-      "similarity_ratio": 0.688,
-      "title": "TC 33.B - CP 51 TCR 1 Additional Data"
-    },
-    {
-      "change_type": "card_content_changed",
-      "position": "67-126",
-      "field": "name",
-      "old": "Bill to First Name",
-      "new": "character Bill to First Name",
-      "similarity_ratio": 0.783,
-      "title": "TC 33.B - CP 51 TCR 2 Billing and Shipping"
-    },
-    {
-      "change_type": "card_content_changed",
-      "position": "158-160",
-      "field": "name",
-      "old": "character Ship to State/Province Code",
-      "new": "Ship to State/Province Code",
-      "similarity_ratio": 0.844,
-      "title": "TC 33.B - CP 51 TCR 2 Billing and Shipping"
-    },
-    {
-      "change_type": "card_content_changed",
-      "position": "140-159",
-      "field": "name",
-      "old": "character State",
-      "new": "State",
-      "similarity_ratio": 0.5,
-      "title": "TC 33.B - CP 51 TCR 3 Billing and Shipping (Cont'd)"
-    },
-    {
-      "change_type": "card_content_changed",
-      "position": "32-91",
-      "field": "name",
-      "old": "character Merchant Street Address",
-      "new": "Merchant Street Address",
-      "similarity_ratio": 0.821,
-      "title": "TC 33.B - CP 51 TCR 4 Merchant Data"
-    },
-    {
-      "change_type": "card_content_changed",
-      "position": "152-155",
-      "field": "name",
-      "old": "character Merchant Category Code",
-      "new": "Merchant Category Code",
-      "similarity_ratio": 0.815,
-      "title": "TC 33.B - CP 51 TCR 4 Merchant Data"
-    },
-    {
-      "change_type": "card_content_changed",
-      "position": "16",
-      "field": "description",
-      "old": "This field will contain a value that indicates whether dynamic currency conversion (DCC) has been applied.",
-      "new": "This field will contain a value that indicates whether dynamic currency conversion (DCC) has been applied. 1 (DCC performed) l Space (DCC not performed) l",
-      "similarity_ratio": 0.815,
-      "title": "TC 33.B - CP 51 TCR 8 Supplemental Data (Cont'd)"
-    },
-    {
-      "change_type": "card_content_changed",
-      "position": "16",
-      "field": "values",
-      "old": "1 (DCC performed) l Space (DCC not performed) l",
-      "new": "",
-      "similarity_ratio": 0.0,
-      "title": "TC 33.B - CP 51 TCR 8 Supplemental Data (Cont'd)"
-    },
-    {
-      "change_type": "card_content_changed",
-      "position": "53-87",
-      "field": "name",
-      "old": "Item Descriptor",
-      "new": "character Item Descriptor",
-      "similarity_ratio": 0.75,
-      "title": "TC 33.B - CP 56 TCR 0 Purchasing Transaction Line Item Detail"
-    },
-    {
-      "change_type": "card_content_changed",
-      "position": "14-17",
-      "field": "description",
-      "old": "This field contains the Percent Insurance of Total Amount.",
-      "new": "This field contains the Percent Insurance of Total Amount. F104 U2 DSID 65 T06 => DE 112 SE 16 (pos 42-45).",
-      "similarity_ratio": 0.703,
-      "title": "TC 33.B - CP 57 TCR 5 Consumer Mastercard Installment Payments"
-    },
-    {
-      "change_type": "card_content_changed",
-      "position": "14-17",
-      "field": "mapping",
-      "old": "F104 U2 DSID 65 T06 => DE 112 SE 16 (pos 42-45).",
-      "new": "",
-      "similarity_ratio": 0.0,
-      "title": "TC 33.B - CP 57 TCR 5 Consumer Mastercard Installment Payments"
     },
     {
       "change_type": "duplicate_position_warning",
@@ -1818,25 +1374,16 @@
     {
       "change_type": "card_content_changed",
       "position": "61-80",
-      "field": "description",
-      "old": "CUIT Codigo Unico Tag 05-Merchant Business tax de Identifi­ VAT Registration/ identification cacion Single Business Tributaria Reference Number CUIT Codigo Unico Tag 06-Customer Individual tax de Identifi­ VAT Registration identification cacion Number Tributaria Brazil CNPJ Cadastro Tag 05-Merchant Business tax Nacional de VAT Registration/ identification Pessoas Single Business Juridicas Reference Number CPF Cadastro de Tag 06-Customer Individual tax Pessoas VAT Registration identification Fisicas Number Chile RUT Rol Unico Tag 05-Merchant Business tax Tributario VAT Registration/ identification Single Business Reference Number RUT Rol Unico Tag 06-Customer Individual tax Tributario VAT Registration identification Number Colombia NIT Numero do Tag 05-Merchant Business tax Identificacion VAT Registration/ identification Tributaria Single Business Reference Number CC, CE, Cedula de Tag 06-Customer Individual tax or PASS Ciudadania VAT Registration identification Number This field will contain the Tax Document Type in OCT transactions in Latin America.",
-      "new": "This field will contain the Tax Document Type in OCT transactions in Latin America. Field Comments Identifier Peru RUC Registro Tag 05- Business tax Unico de Merchant VAT identification Contrib­ Registration/ uyentes Single Business Reference Number DNI Documento Tag 06- Individual tax Nacional de Customer VAT identification Identidad Registration Number",
-      "similarity_ratio": 0.136,
-      "title": "TC 33.B - CP 59 TCR 1 Push Payment - Original Credit Transaction"
-    },
-    {
-      "change_type": "card_content_changed",
-      "position": "61-80",
-      "field": "values",
-      "old": "Country Tax Description",
-      "new": "Country Tax",
-      "similarity_ratio": 0.647,
+      "field": "contenido",
+      "old": "CUIT Codigo Unico Tag 05-Merchant Business tax de Identifi­ VAT Registration/ identification cacion Single Business Tributaria Reference Number CUIT Codigo Unico Tag 06-Customer Individual tax de Identifi­ VAT Registration identification cacion Number Tributaria Brazil CNPJ Cadastro Tag 05-Merchant Business tax Nacional de VAT Registration/ identification Pessoas Single Business Juridicas Reference Number CPF Cadastro de Tag 06-Customer Individual tax Pessoas VAT Registration identification Fisicas Number Chile RUT Rol Unico Tag 05-Merchant Business tax Tributario VAT Registration/ identification Single Business Reference Number RUT Rol Unico Tag 06-Customer Individual tax Tributario VAT Registration identification Number Colombia NIT Numero do Tag 05-Merchant Business tax Identificacion VAT Registration/ identification Tributaria Single Business Reference Number CC, CE, Cedula de Tag 06-Customer Individual tax or PASS Ciudadania VAT Registration identification Number This field will contain the Tax Document Type in OCT transactions in Latin America. Country Tax Description",
+      "new": "This field will contain the Tax Document Type in OCT transactions in Latin America. Field Comments Identifier Peru RUC Registro Tag 05- Business tax Unico de Merchant VAT identification Contrib­ Registration/ uyentes Single Business Reference Number DNI Documento Tag 06- Individual tax Nacional de Customer VAT identification Identidad Registration Number Country Tax",
+      "similarity_ratio": 0.137,
       "title": "TC 33.B - CP 59 TCR 1 Push Payment - Original Credit Transaction"
     },
     {
       "change_type": "card_content_changed",
       "position": "81-170",
-      "field": "description",
+      "field": "contenido",
       "old": "RUC Registro Tag 05-Merchant Business tax Unico de VAT Registration/ identification Contrib­ Single Business uyentes Reference Number DNI Documento Tag 06-Customer Individual tax Nacional de VAT Registration identification Identidad Number This field is space-filled.",
       "new": "This field is space-filled.",
       "similarity_ratio": 0.184,
@@ -1844,8 +1391,17 @@
     },
     {
       "change_type": "card_content_changed",
+      "position": "19-30",
+      "field": "contenido",
+      "old": "The numerical amount of the transaction. VIC Edit: This field must contain a numeric entry and may be zeros. Two decimals are implied. If the request for copy or the VCRFS advice provides the Transaction Amount, it should be retained and returned in nonful­ fillments sent to the issuer.",
+      "new": "The numerical amount of the transaction. VIC Edit: This field must contain a numeric entry and may be zeros. Two decimals are implied. If the request for copy or the VCRFS advice provides the Transaction Amount, it should be retained and returned in nonfulfillments sent to the issuer.",
+      "similarity_ratio": 0.895,
+      "title": "TC 38 - TCR 1 Nonfulfillment"
+    },
+    {
+      "change_type": "card_content_changed",
       "position": "58",
-      "field": "description",
+      "field": "contenido",
       "old": "Indicates that the account number used in the transaction was listed in the Card Recovery Bulletin or the Exception File (U.S. transactions). This field must contain the CRB/Exception File Indicator from TCR-0 of the dispute or dispute response.",
       "new": "Indicates that the account number used in the transaction was listed in the Card Recovery Bulletin or the Account Screen Authori­ zation File (ASAF) (U.S. transactions). This field must contain the CRB/ Exception File Indicator from TCR-0 of the dispute or dispute response.",
       "similarity_ratio": 0.925,
@@ -1962,7 +1518,7 @@
     {
       "change_type": "card_content_changed",
       "position": "33-35",
-      "field": "description",
+      "field": "contenido",
       "old": "This is the settlement window when the batch was collected by the VIC. The entry must be numeric.",
       "new": "This is the settlement window when the batch is collected by the VIC. The entry must be numeric. The VIC will add zeros.",
       "similarity_ratio": 0.876,
@@ -2021,7 +1577,7 @@
     {
       "change_type": "card_content_changed",
       "position": "33-35",
-      "field": "description",
+      "field": "contenido",
       "old": "This is the settlement window when the batch was collected by the VIC. The entry must be numeric",
       "new": "This is the settlement window when the batch is collected by the VIC. The entry must be numeric. The VIC will add zeros.",
       "similarity_ratio": 0.87,
@@ -2080,7 +1636,7 @@
     {
       "change_type": "card_content_changed",
       "position": "33-35",
-      "field": "description",
+      "field": "contenido",
       "old": "This is the settlement window when the batch was collected by the VIC. The entry must be numeric.",
       "new": "This is the settlement window when the batch is collected by the VIC. The entry must be numeric. The VIC will add zeros.",
       "similarity_ratio": 0.876,
@@ -2089,20 +1645,11 @@
     {
       "change_type": "card_content_changed",
       "position": "28-33",
-      "field": "description",
+      "field": "contenido",
       "old": "A number assigned by the message initiator that uniquely identifies a cardholder transaction and all the message types (also known as system transactions) that it comprises, according to individual program rules. The trace number remains unchanged for all messages throughout the life of the transaction. For example, the same trace number is used in an authori­ zation request and response, and in a subsequent reversal request and response, and in any advices of authorization or reversal. The trace number can be used to match a response to its request or to match a message to a given cardholder transaction set. The ISO field is 11.",
       "new": "A number assigned by the message initiator that uniquely identifies a cardholder transaction and all the message types (also known as system transactions) that it comprises, according to individual program rules. The trace number remains unchanged for all messages throughout the life of the transaction. For example, the same trace number is used in an authorization request and response, and in a subsequent reversal request and response, and in any advices of author­ ization or reversal. The trace number can be used to match a response to its request or to match a message to a given cardholder transaction set. The ISO field is 11.",
       "similarity_ratio": 0.83,
       "title": "TC 48 - TCR 1 ISO-Enriched"
-    },
-    {
-      "change_type": "card_content_changed",
-      "position": "49-64",
-      "field": "name",
-      "old": "hexadecimal Cryptogram",
-      "new": "Cryptogram",
-      "similarity_ratio": 0.625,
-      "title": "TC 48 - TCR 7 ISO-Enriched"
     },
     {
       "change_type": "section_renamed",
@@ -2113,7 +1660,7 @@
     {
       "change_type": "card_content_changed",
       "position": "66-77",
-      "field": "description",
+      "field": "contenido",
       "old": "The total transaction amount between a cardholder and a merchant, or between a cardholder and a client. The transaction amount includes the actual amount of the purchase plus state (or other) taxes. The ISO field is 6 or 4, depending on the Issuer's V.I.P. multicurrency partici­ pation option.",
       "new": "The total transaction amount between a cardholder and a merchant, or between a cardholder and a client. The transaction amount includes the actual amount of the purchase plus state (or other) taxes. The ISO field is 6 or 4, depending on the Issuer's V.I.P. multicurrency participation option.",
       "similarity_ratio": 0.949,

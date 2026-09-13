@@ -62,6 +62,17 @@ def _transition_item(entry: dict) -> dict:
             reason=f"Confirmado en {confirmed_str}.",
         )
 
+    if entry.get("subtype") == "shifted":
+        removed = {"cells": entry["removed_cells"]} if entry["kind"] == "row" else {"card": entry["removed_card"]}
+        old_name = _field_display_name(removed)
+        reserved_str = ", ".join(f"`{r['position']}` Reserved" for r in entry["new_reserved"])
+        return _common.make_item(
+            location=f"Posición `{entry['removed_position']}` pasó a Reserved (límite corrido por campo vecino)",
+            before=f"`{entry['removed_position']}` {old_name}",
+            after=reserved_str,
+            reason=f"Confirmado en {confirmed_str}.",
+        )
+
     if entry["kind"] == "row":
         old_name, new_name = entry["cells_a"][3], entry["cells_b"][3]
     else:

@@ -6,7 +6,7 @@
     "section_added": 4,
     "section_removed": 3,
     "duplicate_position_warning": 8,
-    "card_content_changed": 100,
+    "card_content_changed": 102,
     "row_content_changed": 3,
     "field_became_defined": 6,
     "section_renamed": 1
@@ -68,7 +68,7 @@
     {
       "change_type": "card_content_changed",
       "position": "1-2",
-      "field": "description",
+      "field": "contenido",
       "old": "The field must contain the appropriate transaction code. 05 = Sales draft 06 = Credit voucher 07 = Cash disbursement 15 = Sales draft dispute financial 16 = Credit voucher dispute financial 17 = Cash disbursement dispute financial 25 = Sales draft reversal 26 = Credit voucher reversal 27 = Cash disbursement reversal 35 = Sales draft dispute financial reversal 36 = Credit voucher dispute financial reversal 37 = Cash disbursement dispute financial reversal Dispute response financial transactions must have the original transaction code.",
       "new": "The field must contain the appropriate transaction code. 05 = Sales draft or dispute response financial 06 = Credit voucher or dispute response financial 07 = Cash disbursement or dispute response financial 15 = Sales draft dispute financial 16 = Credit voucher dispute financial 17 = Cash disbursement dispute financial 25 = Sales draft reversal 26 = Credit voucher reversal 27 = Cash disbursement reversal 35 = Sales draft dispute financial reversal 36 = Credit voucher dispute financial reversal 37 = Cash disbursement dispute financial reversal Dispute response financial transactions must have the original transaction code.",
       "similarity_ratio": 0.923,
@@ -113,7 +113,7 @@
     {
       "change_type": "card_content_changed",
       "position": "5-6",
-      "field": "description",
+      "field": "contenido",
       "old": "This field will contain the deferred OCT request type. Following are the values: 00 (Not a deferred OCT) 01 (Originator hold) 02 (Visa deferred OCT hold, default interval)",
       "new": "This field will contain the Service Processing Type. Following are the values: 00 (Normal transaction) 01 (Originator hold) 02 (Visa deferred OCT hold, default interval) A0 (Alias Directory) P0 (Payment Tags)",
       "similarity_ratio": 0.227,
@@ -122,7 +122,7 @@
     {
       "change_type": "card_content_changed",
       "position": "47-50",
-      "field": "description",
+      "field": "contenido",
       "old": "Message reason code explaining the reason for sending a reversal, adjustment, dispute financials, dispute financials reversal, dispute response financials, or fee collection/funds disbursement (Visa only). This field is mapped to the SMS MIS/CAS Reason Code. The field must contain spaces if not used.",
       "new": "Message reason code explaining the reason for sending a reversal, adjustment, dispute financials, dispute financials reversal, dispute response financials, or fee collection/funds disbursement (Visa only). This field is mapped to the SMS MIS/CAS Reason Code. The field must contain spaces if not used. Please refer to Full Service ATM Online Messages Technical Specifications for their applicable MIS/CAS reason codes.",
       "similarity_ratio": 0.837,
@@ -131,7 +131,7 @@
     {
       "change_type": "card_content_changed",
       "position": "35-36",
-      "field": "description",
+      "field": "contenido",
       "old": "The authorization code provided by the issuer when a transaction is approved or a “no reason to decline” code is provided. The entry must be two alphanumeric characters: spaces, A through Z, or 0 through 9. For custom payment service credit vouchers and their reversals, this field must contain spaces. VIC Edit: For custom payment service original purchase transactions and their reversals, this field must contain the Response Code received in the Authorization Response (V.I.P. Field 39). If multiple authorizations and/or an authorization reversal were supplied, this field must contain the Authori­ zation Response Code from the first authorization response. The values for this code, and their meanings, are documented in the V.I.P. System SMS POS (Visa & Visa Electron) Technical Specifications (U.S.) manuals. For chip transactions that are processed offline, this field must contain one of these offline authorization codes: Y1 = Offline Approval Z1 = Offline Decline Y3 = Unable to go online, approval Z3 = Unable to go online, decline",
       "new": "The authorization code provided by the issuer when a transaction is approved or a “no reason to decline” code is provided. The entry must be two alphanumeric characters: spaces, A through Z, or 0 through 9. For custom payment service credit vouchers and their reversals, this field must contain spaces. VIC Edit: For custom payment service original purchase transactions and their reversals, this field must contain the Response Code received in the Authorization Response (V.I.P. Field 39). If multiple authorizations and/or an authorization reversal were supplied, this field must contain the Authori­ zation Response Code from the first authorization response. The values for this code, and their meanings, are documented in Full Service POS Online Messages Technical Specifications. For chip transactions that are processed offline, this field must contain one of these offline authorization codes: Y1 = Offline Approval Z1 = Offline Decline Y3 = Unable to go online, approval Z3 = Unable to go online, decline",
       "similarity_ratio": 0.961,
@@ -173,7 +173,7 @@
     {
       "change_type": "card_content_changed",
       "position": "1-2",
-      "field": "description",
+      "field": "contenido",
       "old": "The field must contain a 10.",
       "new": "The field must contain a 20.",
       "similarity_ratio": 0.964,
@@ -182,82 +182,82 @@
     {
       "change_type": "card_content_changed",
       "position": "160-163",
-      "field": "note",
-      "old": "Please refer to V.I.P. System SMS POS (Visa & Visa Electron) Technical Specifications, Volume 1.",
-      "new": "Please refer to Full Service POS Online Messages Technical Specifications.",
-      "similarity_ratio": 0.635,
+      "field": "contenido",
+      "old": "This field contains the Message Reason Code. Please refer to V.I.P. System SMS POS (Visa & Visa Electron) Technical Specifications, Volume 1.",
+      "new": "This field contains the Message Reason Code. Please refer to Full Service POS Online Messages Technical Specifications.",
+      "similarity_ratio": 0.762,
       "title": "TC 33.A - CP 01 TCR 0 Transaction Data"
     },
     {
       "change_type": "card_content_changed",
       "position": "15-16",
-      "field": "note",
-      "old": "Please see V.I.P. System SMS POS (Visa & Visa Electron) Technical Specifications, Volume 1 for a list of values. Populated based on Credit Authorization.",
-      "new": "Please see Full Service POS Online Messages Technical Specifi­ cations for a list of values. Populated based on Credit Authorization.",
-      "similarity_ratio": 0.776,
+      "field": "contenido",
+      "old": "A V.I.P. System field indicating the method by which a point-of- transaction terminal obtains and transmits the cardholder information necessary to complete a Transaction. Please see V.I.P. System SMS POS (Visa & Visa Electron) Technical Specifications, Volume 1 for a list of values. Populated based on Credit Authorization.",
+      "new": "A V.I.P. System field indicating the method by which a point-of- transaction terminal obtains and transmits the cardholder information necessary to complete a Transaction. Please see Full Service POS Online Messages Technical Specifi­ cations for a list of values. Populated based on Credit Authorization.",
+      "similarity_ratio": 0.86,
       "title": "TC 33.A - CP 01 TCR 1 Additional Data"
     },
     {
       "change_type": "card_content_changed",
       "position": "72-73",
-      "field": "note",
-      "old": "Please see V.I.P System SMS POS (Visa & Visa Electron) Technical Specifications, Volume 1. Populated based on Credit Authorization.",
-      "new": "Please see Full Service POS Online Messages Technical Specifi­ cations. Populated based on Credit Authorization.",
-      "similarity_ratio": 0.741,
+      "field": "contenido",
+      "old": "Code identifying transaction conditions at the point of sale or point of service. Can be used to identify a type of original, or subsequent, transaction. Please see V.I.P System SMS POS (Visa & Visa Electron) Technical Specifications, Volume 1. Populated based on Credit Authorization.",
+      "new": "Code identifying transaction conditions at the point of sale or point of service. Can be used to identify a type of original, or subsequent, transaction. Please see Full Service POS Online Messages Technical Specifi­ cations. Populated based on Credit Authorization.",
+      "similarity_ratio": 0.842,
       "title": "TC 33.A - CP 01 TCR 1 Additional Data"
     },
     {
       "change_type": "card_content_changed",
       "position": "74-79",
-      "field": "note",
-      "old": "Please see V.I.P System SMS POS (Visa & Visa Electron) Technical Specifications, Volume 1 for a list of values. Populated based on Credit Authorization.",
-      "new": "Please see Full Service POS Online Messages Technical Specifi­ cations for a list of values. Populated based on Credit Authorization.",
-      "similarity_ratio": 0.779,
+      "field": "contenido",
+      "old": "Code used to identify the type of transaction (positions 1 and 2). Please see V.I.P System SMS POS (Visa & Visa Electron) Technical Specifications, Volume 1 for a list of values. Populated based on Credit Authorization.",
+      "new": "Code used to identify the type of transaction (positions 1 and 2). Please see Full Service POS Online Messages Technical Specifi­ cations for a list of values. Populated based on Credit Authorization.",
+      "similarity_ratio": 0.792,
       "title": "TC 33.A - CP 01 TCR 1 Additional Data"
     },
     {
       "change_type": "card_content_changed",
       "position": "80-83",
-      "field": "note",
-      "old": "Please see V.I.P System SMS POS (Visa & Visa Electron) Technical Specifications, Volume 1.",
-      "new": "Please see Full Service POS Online Messages Technical Specifi­ cations.",
-      "similarity_ratio": 0.609,
+      "field": "contenido",
+      "old": "Contains a code that specifies the network used for transmission of the transaction. Please see V.I.P System SMS POS (Visa & Visa Electron) Technical Specifications, Volume 1.",
+      "new": "Contains a code that specifies the network used for transmission of the transaction. Please see Full Service POS Online Messages Technical Specifi­ cations.",
+      "similarity_ratio": 0.81,
       "title": "TC 33.A - CP 01 TCR 1 Additional Data"
     },
     {
       "change_type": "card_content_changed",
       "position": "84-85",
-      "field": "note",
-      "old": "Please see V.I.P System SMS POS (Visa & Visa Electron) Technical Specifications, Volume 1. Populated based on Credit Authorization.",
-      "new": "Please see Full Service POS Online Messages Technical Specifi­ cations. Populated based on Credit Authorization.",
-      "similarity_ratio": 0.741,
+      "field": "contenido",
+      "old": "The authorization code provided by the issuer when a transaction is approved or a no reason to decline code is provided. Please see V.I.P System SMS POS (Visa & Visa Electron) Technical Specifications, Volume 1. Populated based on Credit Authorization.",
+      "new": "The authorization code provided by the issuer when a transaction is approved or a no reason to decline code is provided. Please see Full Service POS Online Messages Technical Specifi­ cations. Populated based on Credit Authorization.",
+      "similarity_ratio": 0.821,
       "title": "TC 33.A - CP 01 TCR 1 Additional Data"
     },
     {
       "change_type": "card_content_changed",
       "position": "129-130",
-      "field": "note",
-      "old": "Please see V.I.P. System SMS POS (Visa & Visa Electron) Technical Specifications, Volume 1 for a list of valid values.",
-      "new": "Please see Full Service POS Online Messages Technical Specifi­ cations for a list of valid values.",
-      "similarity_ratio": 0.704,
+      "field": "contenido",
+      "old": "This field indicates the type of goods that were purchased on the Internet. This field is left-justified and space-filled. Please see V.I.P. System SMS POS (Visa & Visa Electron) Technical Specifications, Volume 1 for a list of valid values.",
+      "new": "This field indicates the type of goods that were purchased on the Internet. This field is left-justified and space-filled. Please see Full Service POS Online Messages Technical Specifi­ cations for a list of valid values.",
+      "similarity_ratio": 0.81,
       "title": "TC 33.A - CP 01 TCR 1 Additional Data"
     },
     {
       "change_type": "card_content_changed",
       "position": "135",
-      "field": "note",
-      "old": "Please see V.I.P. System SMS POS (Visa & Visa Electron) Technical Specifications, Volume 1 for a list of valid values.",
-      "new": "Please see Full Service POS Online Messages Technical Specifi­ cations for a list of valid values.",
-      "similarity_ratio": 0.704,
+      "field": "contenido",
+      "old": "Indicates type of account (savings, checking, etc.). Please see V.I.P. System SMS POS (Visa & Visa Electron) Technical Specifications, Volume 1 for a list of valid values.",
+      "new": "Indicates type of account (savings, checking, etc.). Please see Full Service POS Online Messages Technical Specifi­ cations for a list of valid values.",
+      "similarity_ratio": 0.801,
       "title": "TC 33.A - CP 01 TCR 1 Additional Data"
     },
     {
       "change_type": "card_content_changed",
       "position": "168",
-      "field": "note",
-      "old": "Please see V.I.P. System SMS POS (Visa & Visa Electron) Technical Specifications, Volume 1.",
-      "new": "Please see Full Service POS Online Messages Technical Specifi­ cations.",
-      "similarity_ratio": 0.605,
+      "field": "contenido",
+      "old": "This field will contain the CAVV results code from the response message. Please see V.I.P. System SMS POS (Visa & Visa Electron) Technical Specifications, Volume 1.",
+      "new": "This field will contain the CAVV results code from the response message. Please see Full Service POS Online Messages Technical Specifi­ cations.",
+      "similarity_ratio": 0.792,
       "title": "TC 33.A - CP 01 TCR 1 Additional Data"
     },
     {
@@ -281,9 +281,7 @@
             "AN",
             "Mastercard CIT and MIT Indicators"
           ]
-        }
-      ],
-      "remaining_reserved": [
+        },
         {
           "position": "154-156",
           "cells": [
@@ -292,7 +290,9 @@
             "AN",
             "Transaction Type Identifier"
           ]
-        },
+        }
+      ],
+      "remaining_reserved": [
         {
           "position": "157-168",
           "cells": [
@@ -337,9 +337,7 @@
             "values": "",
             "mapping": ""
           }
-        }
-      ],
-      "remaining_reserved": [
+        },
         {
           "position": "154-156",
           "card": {
@@ -354,7 +352,9 @@
             "values": "",
             "mapping": ""
           }
-        },
+        }
+      ],
+      "remaining_reserved": [
         {
           "position": "157-168",
           "card": {
@@ -371,6 +371,24 @@
           }
         }
       ]
+    },
+    {
+      "change_type": "card_content_changed",
+      "position": "5-7",
+      "field": "contenido",
+      "old": "This field will contain a value of 032 (Argentina’s Country Code). This field will contain the receipt number. For Merchandise Credit, this field contains the receipt number of the original purchase.",
+      "new": "This field will contain a value of 032 (Argentina’s Country Code).",
+      "similarity_ratio": 0.498,
+      "title": "TC 33.A - CP 01 TCR 9 Argentina Domestic Processing"
+    },
+    {
+      "change_type": "card_content_changed",
+      "position": "8-15",
+      "field": "contenido",
+      "old": "This field will contain the local date in format DDMMYY.",
+      "new": "This field will contain the receipt number. For Merchandise Credit, this field contains the receipt number of the original purchase. This field will contain the local date in format DDMMYY.",
+      "similarity_ratio": 0.457,
+      "title": "TC 33.A - CP 01 TCR 9 Argentina Domestic Processing"
     },
     {
       "change_type": "field_became_defined",
@@ -463,28 +481,28 @@
     {
       "change_type": "card_content_changed",
       "position": "63",
-      "field": "note",
-      "old": "Please see V.I.P. System SMS POS (Visa & Visa Electron) Technical Specifications, Volume 1.",
-      "new": "Please see Full Service POS Online Messages Technical Specifi­ cations.",
-      "similarity_ratio": 0.605,
+      "field": "contenido",
+      "old": "This field contains the Credit Reason Indicator. Please see V.I.P. System SMS POS (Visa & Visa Electron) Technical Specifications, Volume 1.",
+      "new": "This field contains the Credit Reason Indicator. Please see Full Service POS Online Messages Technical Specifi­ cations.",
+      "similarity_ratio": 0.754,
       "title": "TC 33.A - CP 05 TCR 1 Passenger Itinerary Data (Cont'd)"
     },
     {
       "change_type": "card_content_changed",
       "position": "64",
-      "field": "note",
-      "old": "Please see V.I.P. System SMS POS (Visa & Visa Electron) Technical Specifications, Volume 1.",
-      "new": "Please see Full Service POS Online Messages Technical Specifi­ cations.",
-      "similarity_ratio": 0.605,
+      "field": "contenido",
+      "old": "This field contains the Ticket Change Indicator. Please see V.I.P. System SMS POS (Visa & Visa Electron) Technical Specifications, Volume 1.",
+      "new": "This field contains the Ticket Change Indicator. Please see Full Service POS Online Messages Technical Specifi­ cations.",
+      "similarity_ratio": 0.754,
       "title": "TC 33.A - CP 05 TCR 1 Passenger Itinerary Data (Cont'd)"
     },
     {
       "change_type": "card_content_changed",
       "position": "20",
-      "field": "note",
-      "old": "Please see V.I.P. System SMS POS (Visa & Visa Electron) Technical Specifications, Volume 1.",
-      "new": "Please see Full Service POS Online Messages Technical Specifi­ cations.",
-      "similarity_ratio": 0.605,
+      "field": "contenido",
+      "old": "This field contains the Ancillary Credit Reason Indicator. Please see V.I.P. System SMS POS (Visa & Visa Electron) Technical Specifications, Volume 1.",
+      "new": "This field contains the Ancillary Credit Reason Indicator. Please see Full Service POS Online Messages Technical Specifi­ cations.",
+      "similarity_ratio": 0.771,
       "title": "TC 33.A - CP 05 TCR 6 Passenger Transport"
     },
     {
@@ -519,9 +537,7 @@
             "AN",
             "Indian Issued Card - Recurrent Payment Type"
           ]
-        }
-      ],
-      "remaining_reserved": [
+        },
         {
           "position": "72",
           "cells": [
@@ -575,7 +591,9 @@
             "AN",
             "Indian Issued Card - Recurrent Validation Indicator"
           ]
-        },
+        }
+      ],
+      "remaining_reserved": [
         {
           "position": "125-168",
           "cells": [
@@ -620,9 +638,7 @@
             "values": "",
             "mapping": ""
           }
-        }
-      ],
-      "remaining_reserved": [
+        },
         {
           "position": "72",
           "card": {
@@ -712,7 +728,9 @@
             "values": "",
             "mapping": ""
           }
-        },
+        }
+      ],
+      "remaining_reserved": [
         {
           "position": "125-168",
           "card": {
@@ -733,7 +751,7 @@
     {
       "change_type": "card_content_changed",
       "position": "17-18",
-      "field": "description",
+      "field": "contenido",
       "old": "This field will contain a code that indicates the BASE I and V.I.P. method by which a point-of-transaction terminal obtains and transmits the cardholder information necessary to complete a transaction. For valid values, see V.I.P. System SMS POS (Visa & Visa Electron) Technical Specifications, Volume 1.",
       "new": "This field will contain a code that indicates the BASE I and V.I.P. method by which a point-of-transaction terminal obtains and transmits the cardholder information necessary to complete a transaction. For valid values, see Full Service POS Online Messages Technical Specifications.",
       "similarity_ratio": 0.867,
@@ -742,7 +760,7 @@
     {
       "change_type": "card_content_changed",
       "position": "74-75",
-      "field": "description",
+      "field": "contenido",
       "old": "This field will contain a code that identifies transaction conditions at the point of sale or point of service. The value can be used to identify a type of original, or a subsequent transactions. For valid values, see V.I.P. System SMS POS (Visa & Visa Electron) Technical Specifications, Volume 1.",
       "new": "This field will contain a code that identifies transaction conditions at the point of sale or point of service. The value can be used to identify a type of original, or a subsequent transactions. For valid values, see Full Service POS Online Messages Technical Specifications.",
       "similarity_ratio": 0.875,
@@ -751,7 +769,7 @@
     {
       "change_type": "card_content_changed",
       "position": "76-81",
-      "field": "description",
+      "field": "contenido",
       "old": "This field will contain a code in positions 1 and 2 that is used to identify the type of transaction. For valid values, see V.I.P. System SMS POS (Visa & Visa Electron) Technical Specifications, Volume 1.",
       "new": "This field will contain a code in positions 1 and 2 that is used to identify the type of transaction. For valid values, see Full Service POS Online Messages Technical Specifications.",
       "similarity_ratio": 0.839,
@@ -760,7 +778,7 @@
     {
       "change_type": "card_content_changed",
       "position": "82-85",
-      "field": "description",
+      "field": "contenido",
       "old": "This field will contain a code that specifies the network used for transmission of the transaction. For valid values, see V.I.P. System SMS POS (Visa & Visa Electron) Technical Specifications, Volume 1.",
       "new": "This field will contain a code that specifies the network used for transmission of the transaction. For valid values, see Full Service POS Online Messages Technical Specifications.",
       "similarity_ratio": 0.838,
@@ -769,7 +787,7 @@
     {
       "change_type": "card_content_changed",
       "position": "86-87",
-      "field": "description",
+      "field": "contenido",
       "old": "This field will contain the authorization code provided by the issuer when a transaction is approved, or a no reason to decline code. For valid values, see V.I.P. System SMS POS (Visa & Visa Electron) Technical Specifications, Volume 1.",
       "new": "This field will contain the authorization code provided by the issuer when a transaction is approved, or a no reason to decline code. For valid values, see Full Service POS Online Messages Technical Specifications.",
       "similarity_ratio": 0.84,
@@ -778,7 +796,7 @@
     {
       "change_type": "card_content_changed",
       "position": "105-106",
-      "field": "description",
+      "field": "contenido",
       "old": "This field will contain a code that indicates the type of goods that were purchased on the Internet. This field is left-justified and space- filled. For valid values, see V.I.P. System SMS POS (Visa & Visa Electron) Technical Specifications, Volume 1.",
       "new": "This field will contain a code that indicates the type of goods that were purchased on the Internet. This field is left-justified and space- filled. For valid values, see Full Service POS Online Messages Technical Specifications.",
       "similarity_ratio": 0.85,
@@ -787,7 +805,7 @@
     {
       "change_type": "card_content_changed",
       "position": "111",
-      "field": "description",
+      "field": "contenido",
       "old": "This field will contain a code that indicates the type of an account, such as savings or checking. For valid values, see V.I.P. System SMS POS (Visa & Visa Electron) Technical Specifications, Volume 1.",
       "new": "This field will contain a code that indicates the type of an account, such as savings or checking. For valid values, see Full Service POS Online Messages Technical Specifications.",
       "similarity_ratio": 0.837,
@@ -825,7 +843,7 @@
     {
       "change_type": "card_content_changed",
       "position": "109-120",
-      "field": "description",
+      "field": "contenido",
       "old": "Amount the issuer originally authorized. The Authorized Amount from TCR 5 of the chargeback or representment. Two decimals are implied.",
       "new": "Amount the issuer originally authorized. The Authorized Amount from TCR 5 of the dispute or dispute response. Two decimals are implied.",
       "similarity_ratio": 0.874,
@@ -834,7 +852,7 @@
     {
       "change_type": "card_content_changed",
       "position": "121-123",
-      "field": "description",
+      "field": "contenido",
       "old": "Currency code of the authorized source amount. The Authori­ zation Currency Code from TCR 5 of the chargeback or representment.",
       "new": "Currency code of the authorized source amount. The Authori­ zation Currency Code from TCR 5 of the dispute or dispute response.",
       "similarity_ratio": 0.866,
@@ -843,7 +861,7 @@
     {
       "change_type": "card_content_changed",
       "position": "124-125",
-      "field": "description",
+      "field": "contenido",
       "old": "The authorization code provided by the issuer when a transaction is approved or a \"no reason to decline\" code is provided. The Authorization Response Code from TCR 5 of the chargeback or representment.",
       "new": "The authorization code provided by the issuer when a transaction is approved or a \"no reason to decline\" code is provided. The Authorization Response Code from TCR 5 of the dispute or dispute response.",
       "similarity_ratio": 0.866,
@@ -852,7 +870,7 @@
     {
       "change_type": "card_content_changed",
       "position": "126",
-      "field": "description",
+      "field": "contenido",
       "old": "Code indicating if the industry for which market-specific data has been provided. The Market-Specific Authorization Data Indicator from TCR 5 of the chargeback or representment.",
       "new": "Code indicating if the industry for which market-specific data has been provided. The Market-Specific Authorization Data Indicator from TCR 5 of the dispute or dispute response.",
       "similarity_ratio": 0.904,
@@ -861,7 +879,7 @@
     {
       "change_type": "card_content_changed",
       "position": "127-138",
-      "field": "description",
+      "field": "contenido",
       "old": "The total amount of the transaction including all taxes and miscellaneous fees. The Total Authorized Amount from TCR 5 of the chargeback or representment. Two decimals are implied.",
       "new": "The total amount of the transaction including all taxes and miscellaneous fees. The Total Authorized Amount from TCR 5 of the dispute or dispute response. Two decimals are implied.",
       "similarity_ratio": 0.906,
@@ -870,7 +888,7 @@
     {
       "change_type": "card_content_changed",
       "position": "30-31",
-      "field": "description",
+      "field": "contenido",
       "old": "Secondary address of the destination of the chargeback or representment. VIC Edit: This field must be zero-filled.",
       "new": "Secondary address of the destination of the dispute or dispute response. VIC Edit: This field must be zero-filled.",
       "similarity_ratio": 0.851,
@@ -879,16 +897,16 @@
     {
       "change_type": "card_content_changed",
       "position": "19-29",
-      "field": "description",
-      "old": "The identifier of the workstation located at the destination of the chargeback or representment. VIC Edit: This field will be a valid workstation identifier.",
-      "new": "The identifier of the workstation located at the destination of the dispute or dispute response. VIC Edit: This field will be a valid workstation identifier.",
-      "similarity_ratio": 0.892,
+      "field": "contenido",
+      "old": "The identifier of the workstation located at the destination of the chargeback or representment. VIC Edit: This field will be a valid workstation identifier. Chargebacks (Transaction type C) If the acquirer is a VDAS participant, this field will contain the Acquirer Workstation Identifier from the TCR-1 of the chargeback (position 11-16) if present, otherwise BASE II will insert the default Acquirer VDAS Identifier from the CONFIG. Representments (Transaction type R) If the issuer is a VDAS participant, this field will contain the Issuer Workstation Identifier from the TCR 1 of the representment (position 5-10) if present, otherwise BASE II will insert the default Issuer VDAS Identifier from the CONFIG.",
+      "new": "The identifier of the workstation located at the destination of the dispute or dispute response. VIC Edit: This field will be a valid workstation identifier. Chargebacks (Transaction type C) If the acquirer is a VDAS participant, this field will contain the Acquirer Workstation Identifier from the TCR-1 of the chargeback (position 11-16) if present, otherwise BASE II will insert the default Acquirer VDAS Identifier from the CONFIG. Representments (Transaction type R) If the issuer is a VDAS participant, this field will contain the Issuer Workstation Identifier from the TCR 1 of the representment (position 5-10) if present, otherwise BASE II will insert the default Issuer VDAS Identifier from the CONFIG.",
+      "similarity_ratio": 0.962,
       "title": "TC 38 - TCR 2 VDAS Advice"
     },
     {
       "change_type": "card_content_changed",
       "position": "30-31",
-      "field": "description",
+      "field": "contenido",
       "old": "Secondary address of the destination of the chargeback or representment. VIC Edit: This field must be zero-filled.",
       "new": "Secondary address of the destination of the dispute or dispute response. VIC Edit: This field must be zero-filled.",
       "similarity_ratio": 0.851,
@@ -897,7 +915,7 @@
     {
       "change_type": "card_content_changed",
       "position": "32-47",
-      "field": "description",
+      "field": "contenido",
       "old": "FAX number of the destination of the chargeback or representment. VIC Edit: This field must be space-filled.",
       "new": "FAX number of the destination of the dispute or dispute response. VIC Edit: This field must be space-filled.",
       "similarity_ratio": 0.843,
@@ -906,16 +924,16 @@
     {
       "change_type": "card_content_changed",
       "position": "49-54",
-      "field": "description",
-      "old": "The identifier of the workstation located at the source of the chargeback or representment VIC Edit: This field will be a valid workstation identifier.",
-      "new": "The identifier of the workstation located at the source of the dispute or dispute response VIC Edit: This field will be a valid workstation identifier.",
-      "similarity_ratio": 0.887,
+      "field": "contenido",
+      "old": "The identifier of the workstation located at the source of the chargeback or representment VIC Edit: This field will be a valid workstation identifier. Chargebacks (Transaction type C) If the Issuer is a VDAS participant, this field will contain the Issuer Workstation Identifier from the TCR 1 of the chargeback (position 5-10) if present; otherwise, BASE II will insert the default Issuer VDAS Identifier from the CONFIG. Representments (Transaction type R) If the acquirer is a VDAS participant, this field will contain the Acquirer Workstation Identifier from the TCR 1 of the representment (position 11-16) if present; otherwise, BASE II will insert the default Acquirer VDAS Identifier from the CONFIG.",
+      "new": "The identifier of the workstation located at the source of the dispute or dispute response VIC Edit: This field will be a valid workstation identifier. Chargebacks (Transaction type C) If the Issuer is a VDAS participant, this field will contain the Issuer Workstation Identifier from the TCR 1 of the chargeback (position 5-10) if present; otherwise, BASE II will insert the default Issuer VDAS Identifier from the CONFIG. Representments (Transaction type R) If the acquirer is a VDAS participant, this field will contain the Acquirer Workstation Identifier from the TCR 1 of the representment (position 11-16) if present; otherwise, BASE II will insert the default Acquirer VDAS Identifier from the CONFIG.",
+      "similarity_ratio": 0.962,
       "title": "TC 38 - TCR 2 VDAS Advice"
     },
     {
       "change_type": "card_content_changed",
       "position": "55-56",
-      "field": "description",
+      "field": "contenido",
       "old": "This field must contain the Draft Transaction Code from TCR-0 of the chargeback or representment.",
       "new": "This field must contain the Draft Transaction Code from TCR-0 of the dispute or dispute response.",
       "similarity_ratio": 0.825,
@@ -924,7 +942,7 @@
     {
       "change_type": "card_content_changed",
       "position": "57",
-      "field": "description",
+      "field": "contenido",
       "old": "Indicates that the transaction was above or below the merchant's floor limit for the date of purchase. This field must contain the Floor Limit Indicator from TCR 0 of the chargeback or representment.",
       "new": "Indicates that the transaction was above or below the merchant's floor limit for the date of purchase. This field must contain the Floor Limit Indicator from TCR 0 of the dispute or dispute response.",
       "similarity_ratio": 0.915,
@@ -933,7 +951,7 @@
     {
       "change_type": "card_content_changed",
       "position": "58",
-      "field": "description",
+      "field": "contenido",
       "old": "Indicates that the account number used in the transaction was listed in the Card Recovery Bulletin or the Exception File (U.S. transactions). This field must contain the CRB/Exception File Indicator from TCR-0 of the chargeback or representment.",
       "new": "Indicates that the account number used in the transaction was listed in the Card Recovery Bulletin or the Exception File (U.S. transactions). This field must contain the CRB/Exception File Indicator from TCR-0 of the dispute or dispute response.",
       "similarity_ratio": 0.886,
@@ -942,7 +960,7 @@
     {
       "change_type": "card_content_changed",
       "position": "60-67",
-      "field": "description",
+      "field": "contenido",
       "old": "A unique client identification number assigned by Visa. This field must contain the Acquirer's Business ID from TCR-0 of the chargeback or representment.",
       "new": "A unique client identification number assigned by Visa. This field must contain the Acquirer's Business ID from TCR-0 of the dispute or dispute response.",
       "similarity_ratio": 0.889,
@@ -951,7 +969,7 @@
     {
       "change_type": "card_content_changed",
       "position": "68-79",
-      "field": "description",
+      "field": "contenido",
       "old": "This field must contain the Destination Amount from TCR 0 of the chargeback or representment.",
       "new": "This field must contain the Destination Amount from TCR 0 of the dispute or dispute response.",
       "similarity_ratio": 0.817,
@@ -960,7 +978,7 @@
     {
       "change_type": "card_content_changed",
       "position": "80-82",
-      "field": "description",
+      "field": "contenido",
       "old": "This field must contain the Destination Currency Code from TCR 0 of the chargeback or representment.",
       "new": "This field must contain the Destination Currency Code from TCR 0 of the dispute or dispute response.",
       "similarity_ratio": 0.83,
@@ -969,7 +987,7 @@
     {
       "change_type": "card_content_changed",
       "position": "83",
-      "field": "description",
+      "field": "contenido",
       "old": "This field must contain the Requested Payment Service from TCR 0 of the chargeback or representment.",
       "new": "This field must contain the Requested Payment Service from TCR 0 of the dispute or dispute response.",
       "similarity_ratio": 0.83,
@@ -978,7 +996,7 @@
     {
       "change_type": "card_content_changed",
       "position": "84",
-      "field": "description",
+      "field": "contenido",
       "old": "Indicates whether this is the first presentment or the second. This field must contain the Usage Code from TCR 0 of the chargeback or representment.",
       "new": "Indicates whether this is the first presentment or the second. This field must contain the Usage Code from TCR 0 of the dispute or dispute response.",
       "similarity_ratio": 0.885,
@@ -987,7 +1005,7 @@
     {
       "change_type": "card_content_changed",
       "position": "85",
-      "field": "description",
+      "field": "contenido",
       "old": "A code used by the acquirer to request CPS qualification. This field must contain the Authorization Characteristics Indicator from TCR 0 of the chargeback or representment.",
       "new": "A code used by the acquirer to request CPS qualification. This field must contain the Authorization Characteristics Indicator from TCR 0 of the dispute or dispute response.",
       "similarity_ratio": 0.901,
@@ -996,7 +1014,7 @@
     {
       "change_type": "card_content_changed",
       "position": "86-91",
-      "field": "description",
+      "field": "contenido",
       "old": "Code that an issuer, its authorizing processor, or stand-in processor provides to indicate approval of a transaction. The code is returned in the authorization response. This field must contain the Authorization Code from TCR 0 of the chargeback or representment.",
       "new": "Code that an issuer, its authorizing processor, or stand-in processor provides to indicate approval of a transaction. The code is returned in the authorization response. This field must contain the Authorization Code from TCR 0 of the dispute or dispute response.",
       "similarity_ratio": 0.897,
@@ -1005,7 +1023,7 @@
     {
       "change_type": "card_content_changed",
       "position": "92",
-      "field": "description",
+      "field": "contenido",
       "old": "This field must contain the POS Terminal Capability from TCR 0 of the chargeback or representment.",
       "new": "This field must contain the POS Terminal Capability from TCR 0 of the dispute or dispute response.",
       "similarity_ratio": 0.827,
@@ -1014,7 +1032,7 @@
     {
       "change_type": "card_content_changed",
       "position": "94",
-      "field": "description",
+      "field": "contenido",
       "old": "Method used to identify cardholder (PIN, signature, etc.). This field must contain the Cardholder ID Method from TCR 0 of the chargeback or representment.",
       "new": "Method used to identify cardholder (PIN, signature, etc.). This field must contain the Cardholder ID Method from TCR 0 of the dispute or dispute response.",
       "similarity_ratio": 0.89,
@@ -1023,7 +1041,7 @@
     {
       "change_type": "card_content_changed",
       "position": "95-96",
-      "field": "description",
+      "field": "contenido",
       "old": "This field must contain the POS Entry Mode from TCR 0 of the chargeback or representment.",
       "new": "This field must contain the POS Entry Mode from TCR 0 of the dispute or dispute response.",
       "similarity_ratio": 0.809,
@@ -1032,7 +1050,7 @@
     {
       "change_type": "card_content_changed",
       "position": "97-100",
-      "field": "description",
+      "field": "contenido",
       "old": "The Central Processing Date from TCR 0 of the chargeback or representment.",
       "new": "The Central Processing Date from TCR 0 of the dispute or dispute response.",
       "similarity_ratio": 0.77,
@@ -1041,7 +1059,7 @@
     {
       "change_type": "card_content_changed",
       "position": "101",
-      "field": "description",
+      "field": "contenido",
       "old": "The Reimbursement Attribute from TCR 0 of the chargeback or representment.",
       "new": "The Reimbursement Attribute from TCR 0 of the dispute or dispute response.",
       "similarity_ratio": 0.77,
@@ -1050,7 +1068,7 @@
     {
       "change_type": "card_content_changed",
       "position": "102-105",
-      "field": "description",
+      "field": "contenido",
       "old": "Network value from the chargeback or representment.",
       "new": "Network value from the dispute or dispute response.",
       "similarity_ratio": 0.667,
@@ -1059,7 +1077,7 @@
     {
       "change_type": "card_content_changed",
       "position": "106-117",
-      "field": "description",
+      "field": "contenido",
       "old": "Retrieval Reference Number from the chargeback or representment.",
       "new": "Retrieval Reference Number from the dispute or dispute response.",
       "similarity_ratio": 0.734,
@@ -1068,7 +1086,7 @@
     {
       "change_type": "card_content_changed",
       "position": "118-123",
-      "field": "description",
+      "field": "contenido",
       "old": "Trace Number from the chargeback or representment.",
       "new": "Trace Number from the dispute or dispute response.",
       "similarity_ratio": 0.66,
@@ -1077,7 +1095,7 @@
     {
       "change_type": "card_content_changed",
       "position": "5-10",
-      "field": "description",
+      "field": "contenido",
       "old": "Unique identifier assigned by issuers to chargebacks. The Chargeback Reference Number from the TCR 1 of the chargeback or representment.",
       "new": "Unique identifier assigned by issuers to chargebacks. The Chargeback Reference Number from the TCR 1 of the dispute or dispute response.",
       "similarity_ratio": 0.875,
@@ -1086,7 +1104,7 @@
     {
       "change_type": "card_content_changed",
       "position": "11",
-      "field": "description",
+      "field": "contenido",
       "old": "The Documentation Indicator from the TCR 1 of the chargeback or representment. Indicates the status of supporting documentation.",
       "new": "The Documentation Indicator from the TCR 1 of the dispute or dispute response. Indicates the status of supporting documentation.",
       "similarity_ratio": 0.867,
@@ -1095,7 +1113,7 @@
     {
       "change_type": "card_content_changed",
       "position": "12-61",
-      "field": "description",
+      "field": "contenido",
       "old": "Contains member text message. The Member Message Text from the TCR 1 of the chargeback or representment.",
       "new": "Contains member text message. The Member Message Text from the TCR 1 of the dispute or dispute response.",
       "similarity_ratio": 0.837,
@@ -1104,7 +1122,7 @@
     {
       "change_type": "card_content_changed",
       "position": "62-63",
-      "field": "description",
+      "field": "contenido",
       "old": "This subfield supplies extra information regarding chargebacks (validation requests and advices). The Special Condition Indicators from the TCR 1 of the chargeback or representment.",
       "new": "This subfield supplies extra information regarding chargebacks (validation requests and advices). The Special Condition Indicators from the TCR 1 of the dispute or dispute response.",
       "similarity_ratio": 0.906,
@@ -1113,7 +1131,7 @@
     {
       "change_type": "card_content_changed",
       "position": "64-78",
-      "field": "description",
+      "field": "contenido",
       "old": "Code that identifies the card acceptor operating the POS terminal. The Card Acceptor ID from the TCR 1 of the chargeback or representment.",
       "new": "Code that identifies the card acceptor operating the POS terminal. The Card Acceptor ID from the TCR 1 of the dispute or dispute response.",
       "similarity_ratio": 0.877,
@@ -1122,7 +1140,7 @@
     {
       "change_type": "card_content_changed",
       "position": "79-86",
-      "field": "description",
+      "field": "contenido",
       "old": "Code that identifies the card acceptor terminal or ATM. The Terminal ID from the TCR 1 of the chargeback or representment.",
       "new": "Code that identifies the card acceptor terminal or ATM. The Terminal ID from the TCR 1 of the dispute or dispute response.",
       "similarity_ratio": 0.861,
@@ -1131,7 +1149,7 @@
     {
       "change_type": "card_content_changed",
       "position": "87",
-      "field": "description",
+      "field": "contenido",
       "old": "Indicates transaction performed by mail, telephone, or electronic commerce. The Mail/Telephone Indicator from the TCR 1 of the chargeback or representment.",
       "new": "Indicates transaction performed by mail, telephone, or electronic commerce. The Mail/Telephone Indicator from the TCR 1 of the dispute or dispute response.",
       "similarity_ratio": 0.89,
@@ -1140,7 +1158,7 @@
     {
       "change_type": "card_content_changed",
       "position": "88",
-      "field": "description",
+      "field": "contenido",
       "old": "This subfield supplies extra information regarding chargebacks (validation requests and advices). The Special Chargeback Indicator from the TCR 1 of the chargeback or representment.",
       "new": "This subfield supplies extra information regarding chargebacks (validation requests and advices). The Special Chargeback Indicator from the TCR 1 of the dispute or dispute response.",
       "similarity_ratio": 0.906,
@@ -1149,7 +1167,7 @@
     {
       "change_type": "card_content_changed",
       "position": "89",
-      "field": "description",
+      "field": "contenido",
       "old": "If the transaction occurred at an unattended terminal, the indicator identifies what type of terminal, such as a gas pump. The Cardholder-Activated Terminal Indicator from the TCR 1 of the chargeback or representment.",
       "new": "If the transaction occurred at an unattended terminal, the indicator identifies what type of terminal, such as a gas pump. The Cardholder-Activated Terminal Indicator from the TCR 1 of the dispute or dispute response.",
       "similarity_ratio": 0.876,
@@ -1158,7 +1176,7 @@
     {
       "change_type": "card_content_changed",
       "position": "90",
-      "field": "description",
+      "field": "contenido",
       "old": "Indicates the type of prepaid card. The Prepaid Card Indicator from the TCR 1 of the chargeback or representment.",
       "new": "Indicates the type of prepaid card. The Prepaid Card Indicator from the TCR 1 of the dispute or dispute response.",
       "similarity_ratio": 0.85,
@@ -1167,7 +1185,7 @@
     {
       "change_type": "card_content_changed",
       "position": "91",
-      "field": "description",
+      "field": "contenido",
       "old": "Contains the response to an address verification service request. The AVS Response Code from the TCR 1 of the chargeback or representment.",
       "new": "Contains the response to an address verification service request. The AVS Response Code from the TCR 1 of the dispute or dispute response.",
       "similarity_ratio": 0.877,
@@ -1176,7 +1194,7 @@
     {
       "change_type": "card_content_changed",
       "position": "92",
-      "field": "description",
+      "field": "contenido",
       "old": "Identifies the source of the authorization. The Authorization Source Code from the TCR 1 of the chargeback or representment.",
       "new": "Identifies the source of the authorization. The Authorization Source Code from the TCR 1 of the dispute or dispute response.",
       "similarity_ratio": 0.863,
@@ -1185,7 +1203,7 @@
     {
       "change_type": "card_content_changed",
       "position": "93",
-      "field": "description",
+      "field": "contenido",
       "old": "The Purchase Identifier Format from the TCR 1 of the chargeback or representment.",
       "new": "The Purchase Identifier Format from the TCR 1 of the dispute or dispute response.",
       "similarity_ratio": 0.79,
@@ -1194,7 +1212,7 @@
     {
       "change_type": "card_content_changed",
       "position": "94",
-      "field": "description",
+      "field": "contenido",
       "old": "The ATM Account Selection from the TCR 1 of the chargeback or representment.",
       "new": "The ATM Account Selection from the TCR 1 of the dispute or dispute response.",
       "similarity_ratio": 0.776,
@@ -1203,7 +1221,7 @@
     {
       "change_type": "card_content_changed",
       "position": "95-119",
-      "field": "description",
+      "field": "contenido",
       "old": "Indicates the type of identifying information (order number, invoice number, text description, etc.). The Purchase Identifier from the TCR 1 of the chargeback or representment.",
       "new": "Indicates the type of identifying information (order number, invoice number, text description, etc.). The Purchase Identifier from the TCR 1 of the dispute or dispute response.",
       "similarity_ratio": 0.903,
@@ -1212,7 +1230,7 @@
     {
       "change_type": "card_content_changed",
       "position": "120-128",
-      "field": "description",
+      "field": "contenido",
       "old": "The Cashback amount from the TCR 1 of the chargeback or representment.",
       "new": "The Cashback amount from the TCR 1 of the dispute or dispute response.",
       "similarity_ratio": 0.757,
@@ -1221,7 +1239,7 @@
     {
       "change_type": "card_content_changed",
       "position": "17-18",
-      "field": "description",
+      "field": "contenido",
       "old": "Code indicating the type of business that is applicable to this transaction. The Business Format Code from TCR 3 of the chargeback or representment.",
       "new": "Code indicating the type of business that is applicable to this transaction. The Business Format Code from TCR 3 of the dispute or dispute response.",
       "similarity_ratio": 0.885,
@@ -1230,7 +1248,7 @@
     {
       "change_type": "card_content_changed",
       "position": "27",
-      "field": "description",
+      "field": "contenido",
       "old": "Code indicating the cardholder is being billed for a reserved room that was not actually rented. The Lodging No-Show Indicator from TCR 3 of the chargeback or representment.",
       "new": "Code indicating the cardholder is being billed for a reserved room that was not actually rented. The Lodging No-Show Indicator from TCR 3 of the dispute or dispute response.",
       "similarity_ratio": 0.902,
@@ -1239,7 +1257,7 @@
     {
       "change_type": "card_content_changed",
       "position": "28-33",
-      "field": "description",
+      "field": "contenido",
       "old": "Used to indicate the type of additional charges added to a customer's bill after check out. The Lodging Extra Charges from TCR 3 of the chargeback or representment.",
       "new": "Used to indicate the type of additional charges added to a customer's bill after check out. The Lodging Extra Charges from TCR 3 of the dispute or dispute response.",
       "similarity_ratio": 0.896,
@@ -1248,7 +1266,7 @@
     {
       "change_type": "card_content_changed",
       "position": "38-43",
-      "field": "description",
+      "field": "contenido",
       "old": "The Lodging Check-In Date from TCR 3 of the chargeback or representment.",
       "new": "The Lodging Check-In Date from TCR 3 of the dispute or dispute response.",
       "similarity_ratio": 0.764,
@@ -1257,7 +1275,7 @@
     {
       "change_type": "card_content_changed",
       "position": "38",
-      "field": "description",
+      "field": "contenido",
       "old": "Indicates the settlement impact; also, the settlement service in which the transaction will settle: the International Settlement Service or a National Area Net Service. VIC Edit: If provided from the VCRFS/VDAS advice, this field should contain the Settlement Flag. This field must contain the Settlement Flag from the chargeback or representment.",
       "new": "Indicates the settlement impact; also, the settlement service in which the transaction will settle: the International Settlement Service or a National Area Net Service. VIC Edit: If provided from the VCRFS/VDAS advice, this field should contain the Settlement Flag. This field must contain the Settlement Flag from the dispute or dispute response.",
       "similarity_ratio": 0.922,
@@ -1266,7 +1284,7 @@
     {
       "change_type": "card_content_changed",
       "position": "62-84",
-      "field": "description",
+      "field": "contenido",
       "old": "A 23-digit identification number assigned by the acquirer and associated with every draft/voucher. It contains a format code, acquiring identifier, capture date, file locator, and check digit. This field must contain the Acquirer Reference Number from the chargeback or representment. This number is included in a Clearing Record. The ARN should be unique although duplicate ARNs will not be rejected. VIC Edit: The Format Code in Position 62 of the ARN must contain either a 2 or a 7.",
       "new": "A 23-digit identification number assigned by the acquirer and associated with every draft/voucher. It contains a format code, acquiring identifier, capture date, file locator, and check digit. This field must contain the Acquirer Reference Number from the dispute or dispute response. This number is included in a Clearing Record. The ARN should be unique although duplicate ARNs will not be rejected. VIC Edit: The Format Code in Position 62 of the ARN must contain either a 2 or a 7.",
       "similarity_ratio": 0.946,
@@ -1275,7 +1293,7 @@
     {
       "change_type": "card_content_changed",
       "position": "85-100",
-      "field": "description",
+      "field": "contenido",
       "old": "Contains the Account Number from the chargeback or representment. Account numbers are required on some transactions depending on the specified Funds Disbursement Reason Code. Refer to BASE II Clearing Data Codes to determine which reason code requires an account number. VIC Edit: If the Destination Routing Flag is I, the field must contain a valid account number. Fulfillments sent to issuers must contain the account number from the VCRFS/VDAS advice.",
       "new": "Contains the Account Number from the dispute or dispute response. Account numbers are required on some transactions depending on the specified Funds Disbursement Reason Code. Refer to BASE II Clearing Data Codes to determine which reason code requires an account number. VIC Edit: If the Destination Routing Flag is I, the field must contain a valid account number. Fulfillments sent to issuers must contain the account number from the VCRFS/VDAS advice.",
       "similarity_ratio": 0.943,
@@ -1284,7 +1302,7 @@
     {
       "change_type": "card_content_changed",
       "position": "104-118",
-      "field": "description",
+      "field": "contenido",
       "old": "A unique value that Visa assigns to each transaction and returns to the acquirer in the authorization response. Visa uses this value to maintain an audit trail throughout the lifecycle of the transaction and all related transactions, such as reversals, adjustments, confirmations, and chargebacks. VIC Edit: The field must contain a numeric entry. It must be either zeros or a valid Transaction Identifier. For fulfillment transactions destined for issuers, if the Acquirer Reference Number Format Code is a 2, this field may not be zeros. If the ARN format code is a 7, this field must be zeros. This field must contain the Transaction Identifier from the chargeback or representment.",
       "new": "A unique value that Visa assigns to each transaction and returns to the acquirer in the authorization response. Visa uses this value to maintain an audit trail throughout the lifecycle of the transaction and all related transactions, such as reversals, adjustments, confirmations, and chargebacks. VIC Edit: The field must contain a numeric entry. It must be either zeros or a valid Transaction Identifier. For fulfillment transactions destined for issuers, if the Acquirer Reference Number Format Code is a 2, this field may not be zeros. If the ARN format code is a 7, this field must be zeros. This field must contain the Transaction Identifier from the dispute or dispute response.",
       "similarity_ratio": 0.962,
@@ -1293,7 +1311,7 @@
     {
       "change_type": "card_content_changed",
       "position": "120-121",
-      "field": "description",
+      "field": "contenido",
       "old": "This field contains a sequence number that distinguishes a specific clearing message among multiple clearing messages being submitted for a single CPS authorization from a chargeback or representment. All BASE II clearing messages linked to a single authorization request must contain a unique clearing sequence number from at least 1 to the total number of clearing records (Field 62.12-Multiple Clearing Sequence Count) for the authorization. This entry must be numeric. Outgoing: For transactions from non-CPS participating merchants, the Edit Package zero-fills this field.",
       "new": "This field contains a sequence number that distinguishes a specific clearing message among multiple clearing messages being submitted for a single CPS authorization from a dispute or dispute response. All BASE II clearing messages linked to a single authorization request must contain a unique clearing sequence number from at least 1 to the total number of clearing records (Field 62.12-Multiple Clearing Sequence Count) for the authorization. This entry must be numeric. Outgoing: For transactions from non-CPS participating merchants, the Edit Package zero-fills this field.",
       "similarity_ratio": 0.953,
@@ -1302,7 +1320,7 @@
     {
       "change_type": "card_content_changed",
       "position": "142-147",
-      "field": "description",
+      "field": "contenido",
       "old": "Unique identifier assigned by issuers to chargebacks. Acquirers that submit Visa representments must include the number in the representment message. This field must contain the Chargeback Reference Number from the chargeback or representment.",
       "new": "Unique identifier assigned by issuers to chargebacks. Acquirers that submit Visa representments must include the number in the representment message. This field must contain the Chargeback Reference Number from the dispute or dispute response.",
       "similarity_ratio": 0.889,
@@ -1311,7 +1329,7 @@
     {
       "change_type": "card_content_changed",
       "position": "148-159",
-      "field": "description",
+      "field": "contenido",
       "old": "The total amount of the transaction -- between a cardholder and a merchant, or between a cardholder and a client. The transaction amount includes the actual amount of the purchase plus state (or other) taxes. This field must contain the Destination Amount from TCR 0 of the chargeback or representment. Two decimals are implied.",
       "new": "The total amount of the transaction -- between a cardholder and a merchant, or between a cardholder and a client. The transaction amount includes the actual amount of the purchase plus state (or other) taxes. This field must contain the Destination Amount from TCR 0 of the dispute or dispute response. Two decimals are implied.",
       "similarity_ratio": 0.918,
@@ -1320,7 +1338,7 @@
     {
       "change_type": "card_content_changed",
       "position": "160-163",
-      "field": "description",
+      "field": "contenido",
       "old": "The actual date a cardholder makes a purchase; this is the date of the transaction. This field must contain the Purchase Date from the chargeback or representment. The entry must be a four-digit numeric (which may be zeros) in the format MMDD (month and day).",
       "new": "The actual date a cardholder makes a purchase; this is the date of the transaction. This field must contain the Purchase Date from the dispute or dispute response. The entry must be a four-digit numeric (which may be zeros) in the format MMDD (month and day).",
       "similarity_ratio": 0.896,
@@ -1329,7 +1347,7 @@
     {
       "change_type": "card_content_changed",
       "position": "8-13",
-      "field": "description",
+      "field": "contenido",
       "old": "Unique identifier assigned by issuers. Acquirers that submit Visa representments must include the number in the representment message. For adjustments, this subfield is not applicable and must be zero- filled. This subfield must be numeric. For original sales drafts, the entry must be zeros. This field must contain the Chargeback Reference Number from the chargeback or representment.",
       "new": "Unique identifier assigned by issuers. Acquirers that submit Visa representments must include the number in the representment message. For adjustments, this subfield is not applicable and must be zero- filled. This subfield must be numeric. For original sales drafts, the entry must be zeros. This field must contain the Chargeback Reference Number from the dispute or dispute response.",
       "similarity_ratio": 0.927,
@@ -1338,7 +1356,7 @@
     {
       "change_type": "card_content_changed",
       "position": "14-25",
-      "field": "description",
+      "field": "contenido",
       "old": "The total amount of the transaction -- between a cardholder and a merchant, or between a cardholder and a client. The transaction amount includes the actual amount of the purchase plus state (or other) taxes. This field must contain the Destination Amount from TCR 0 of the chargeback or representment.",
       "new": "The total amount of the transaction -- between a cardholder and a merchant, or between a cardholder and a client. The transaction amount includes the actual amount of the purchase plus state (or other) taxes. This field must contain the Destination Amount from TCR 0 of the dispute or dispute response.",
       "similarity_ratio": 0.911,
@@ -1347,7 +1365,7 @@
     {
       "change_type": "card_content_changed",
       "position": "35",
-      "field": "description",
+      "field": "contenido",
       "old": "Indicates whether this is the first presentment or the second. A VisaNet code that identifies the specific processing cycle of a Chargeback or Representment. The entry will be 1 on original transactions. This field must contain 1 or 2.",
       "new": "Indicates whether this is the first presentment or the second. A VisaNet code that identifies the specific processing cycle of a Dispute or Dispute Response. The entry will be 1 on original transactions. This field must contain 1 or 2.",
       "similarity_ratio": 0.898,
@@ -1356,7 +1374,7 @@
     {
       "change_type": "card_content_changed",
       "position": "38",
-      "field": "description",
+      "field": "contenido",
       "old": "This is a 1-position code identifying the status of supporting documentation. Subfield is required. This field must contain the Documen­ tation Indicator from TCR 1 of the chargeback or representment. This field must contain a space or 0 through 4.",
       "new": "This is a 1-position code identifying the status of supporting documentation. Subfield is required. This field must contain the Documen­ tation Indicator from TCR 1 of the dispute or dispute response. This field must contain a space or 0 through 4.",
       "similarity_ratio": 0.714,
@@ -1365,7 +1383,7 @@
     {
       "change_type": "card_content_changed",
       "position": "153-154",
-      "field": "description",
+      "field": "contenido",
       "old": "This subfield supplies extra information regarding chargebacks (validation requests and advices). This field must contain the appropriate Risk Identification Service indicator and/or merchant indicator from TCR 1 of the chargeback or representment. This field contains the Special Condition Indicators.",
       "new": "This subfield supplies extra information regarding chargebacks (validation requests and advices). This field must contain the appropriate Risk Identification Service indicator and/or merchant indicator from TCR 1 of the dispute or dispute response. This field contains the Special Condition Indicators.",
       "similarity_ratio": 0.911,
@@ -1374,7 +1392,7 @@
     {
       "change_type": "card_content_changed",
       "position": "8-11",
-      "field": "description",
+      "field": "contenido",
       "old": "Date on which a transaction is processed by BASE II. This field must contain the Central Processing Date from the chargeback or representment.",
       "new": "Date on which a transaction is processed by BASE II. This field must contain the Central Processing Date from the dispute or dispute response.",
       "similarity_ratio": 0.88,
@@ -1383,7 +1401,7 @@
     {
       "change_type": "card_content_changed",
       "position": "32-34",
-      "field": "description",
+      "field": "contenido",
       "old": "Currency code of the authorized source amount. This field must contain the Authorization Currency Code from TCR 5 of the chargeback or representment. The entry must be spaces or a valid ISO numeric currency code. If the Authorized Amount is not zeros, then the Authorization Currency Code must not be spaces. The source currency and the authorization currency must be the same. CPS credit vouchers and their reversals must contain spaces in this field. Valid Currency Code.",
       "new": "Currency code of the authorized source amount. This field must contain the Authorization Currency Code from TCR 5 of the dispute or dispute response. The entry must be spaces or a valid ISO numeric currency code. If the Authorized Amount is not zeros, then the Authorization Currency Code must not be spaces. The source currency and the authorization currency must be the same. CPS credit vouchers and their reversals must contain spaces in this field. Valid Currency Code.",
       "similarity_ratio": 0.943,
@@ -1450,7 +1468,7 @@
     {
       "change_type": "card_content_changed",
       "position": "9-11",
-      "field": "description",
+      "field": "contenido",
       "old": "Indicates type of currency. Defaults to chargeback or representment Currency Code.",
       "new": "Indicates type of currency. Defaults to dispute or dispute response Currency Code.",
       "similarity_ratio": 0.793,
@@ -1459,7 +1477,7 @@
     {
       "change_type": "card_content_changed",
       "position": "57-68",
-      "field": "description",
+      "field": "contenido",
       "old": "The total amount of the transaction between a cardholder and a merchant, or between a cardholder and a client. The transaction amount includes the actual amount of the purchase plus state (or other) taxes. This field must contain the Destination Amount from TCR 0 of the chargeback or representment.",
       "new": "The total amount of the transaction between a cardholder and a merchant, or between a cardholder and a client. The transaction amount includes the actual amount of the purchase plus state (or other) taxes. This field must contain the Destination Amount from TCR 0 of the dispute or dispute response.",
       "similarity_ratio": 0.91,
@@ -1468,16 +1486,16 @@
     {
       "change_type": "card_content_changed",
       "position": "69",
-      "field": "description",
-      "old": "Indicates if the transaction was above or below the merchant's floor limit for the date of the purchase. This field must contain the Floor Limit Indicator from TCR 0 of the chargeback or Representment.",
-      "new": "Indicates if the transaction was above or below the merchant's floor limit for the date of the purchase. This field must contain the Floor Limit Indicator from TCR 0 of the dispute or dispute response.",
-      "similarity_ratio": 0.866,
+      "field": "contenido",
+      "old": "Indicates if the transaction was above or below the merchant's floor limit for the date of the purchase. This field must contain the Floor Limit Indicator from TCR 0 of the chargeback or Representment. 1 = Under Floor Limit 2 = Over Floor Limit",
+      "new": "Indicates if the transaction was above or below the merchant's floor limit for the date of the purchase. This field must contain the Floor Limit Indicator from TCR 0 of the dispute or dispute response. 1 = Under Floor Limit 2 = Over Floor Limit",
+      "similarity_ratio": 0.889,
       "title": "TC 39 - TCR 4 VDAS Forms Data, Exhibit Y or Exhibit 3C"
     },
     {
       "change_type": "card_content_changed",
       "position": "17-153",
-      "field": "description",
+      "field": "contenido",
       "old": "See Card Recovery Bulletin User's Guide for specific transaction data information.",
       "new": "",
       "similarity_ratio": 0.0,
@@ -1486,7 +1504,7 @@
     {
       "change_type": "card_content_changed",
       "position": "155-167",
-      "field": "description",
+      "field": "contenido",
       "old": "Additional transaction data and/or filler. See Card Recovery Bulletin User's Guide for specific transaction data information.",
       "new": "Additional transaction data and/or filler.",
       "similarity_ratio": 0.503,
@@ -1495,7 +1513,7 @@
     {
       "change_type": "card_content_changed",
       "position": "17-167",
-      "field": "description",
+      "field": "contenido",
       "old": "Specifies the action to be taken (add a merchant outlet, suspend bulletin delivery, reinstate bulletin delivery, etc.), and gives related Merchant Mailing File information, such as merchant outlet number, distri­ bution frequency, and distribution method. See Card Recovery Bulletin User's Guide for specific transaction data information.",
       "new": "Specifies the action to be taken (add a merchant outlet, suspend bulletin delivery, reinstate bulletin delivery, etc.), and gives related Merchant Mailing File information, such as merchant outlet number, distri­ bution frequency, and distribution method.",
       "similarity_ratio": 0.86,
@@ -1510,7 +1528,7 @@
     {
       "change_type": "card_content_changed",
       "position": "17-18",
-      "field": "description",
+      "field": "contenido",
       "old": "Code indicating the type of business that is applicable to this transaction. This field must contain the Business Format Code from TCR 3 of the chargeback or representment.",
       "new": "Code indicating the type of business that is applicable to this transaction. This field must contain the Business Format Code from TCR 3 of the dispute or dispute response.",
       "similarity_ratio": 0.901,
@@ -1519,7 +1537,7 @@
     {
       "change_type": "card_content_changed",
       "position": "27",
-      "field": "description",
+      "field": "contenido",
       "old": "Indicates that the cardholder was billed for a reserved vehicle that was not actually rented. This field must contain the Car Rental No-Show Indicator from TCR 3 of the chargeback or representment.",
       "new": "Indicates that the cardholder was billed for a reserved vehicle that was not actually rented. This field must contain the Car Rental No-Show Indicator from TCR 3 of the dispute or dispute response.",
       "similarity_ratio": 0.914,
@@ -1528,7 +1546,7 @@
     {
       "change_type": "card_content_changed",
       "position": "28-33",
-      "field": "description",
+      "field": "contenido",
       "old": "Indicates additional charges (gas, late fee, etc.) added to the customer's bill after checkout. This field must contain the Car Rental Extra Charges from TCR 3 of the chargeback or representment.",
       "new": "Indicates additional charges (gas, late fee, etc.) added to the customer's bill after checkout. This field must contain the Car Rental Extra Charges from TCR 3 of the dispute or dispute response.",
       "similarity_ratio": 0.913,
@@ -1537,7 +1555,7 @@
     {
       "change_type": "card_content_changed",
       "position": "38-43",
-      "field": "description",
+      "field": "contenido",
       "old": "Date the customer picked up the car or, in the case of a no- show or pre-pay, the scheduled pick-up date. This field must contain the Car Rental Check-Out Date from TCR 3 of the chargeback or representment.",
       "new": "Date the customer picked up the car or, in the case of a no- show or pre-pay, the scheduled pick-up date. This field must contain the Car Rental Check-Out Date from TCR 3 of the dispute or dispute response.",
       "similarity_ratio": 0.869,

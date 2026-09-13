@@ -5,7 +5,7 @@
   "summary": {
     "section_added": 1,
     "duplicate_position_warning": 8,
-    "card_content_changed": 36,
+    "card_content_changed": 31,
     "field_became_defined": 12,
     "row_content_changed": 10,
     "row_added": 1,
@@ -35,14 +35,14 @@
     {
       "change_type": "card_content_changed",
       "position": "151",
-      "field": "description",
+      "field": "contenido",
       "old": "Code used by the acquirer to request CPS qualification. Originals and Reversals of Originals Purchases and credit vouchers from CPS participating countries must contain a valid value. Refer to the BASE II Clearing Data Codes manual for a list of valid codes. Original ATM cash disbursements and their reversals should contain one of these values: T, N or space = Not a payment service transaction E = Card present with merchant name and location data X = Disqualified custom payment service transaction (inserted by BASE II) VIC Edit, ATM: If the Authorization Characteristics Indicator does not contain a value of E, BASE II will insert an N in this field and a space in the Requested Payment Service field. VIC Edits: For manual cash transactions, BASE II will insert an N in this field. l For purchase transactions and credit vouchers occurring at non-CPS l participating countries, BASE II will insert N in this field. The Authorization Characteristics Indicator must be the same as in l the Authorization Response (V.I.P. Field 62.1) in custom payment service original purchase transactions and their reversals and CPS/ATM original ATM cash disbursement transactions and their reversals. All non-CPS original and reversal transactions submitted with the ACI = T requires the Transaction Identifier (V.I.P. field 62.2) and Validation Code (V.I.P. field 62.3) from the Authorization. If multiple authorizations and/or an authorization reversal were l submitted, this field must contain the Authorization Characteristics Indicator from the first authorization response. Dispute Financials and Dispute Response Financials Must be a valid value or a space. For valid combinations of the Requested Payment Service and Authorization Characteristics Indicator, refer to the BASE II Clearing Data Codes manual.",
       "new": "Code used by the acquirer to request CPS qualification or to identify an Electronic Data Quality Program transaction. Originals and Reversals of Originals Purchases and credit vouchers from CPS participating countries must contain a valid value. Electronic Data Quality Program transactions will contain a value of D. Refer to the BASE II Clearing Data Codes manual for a list of valid codes. Original ATM cash disbursements and their reversals should contain one of these values: T, N or space = Not a payment service transaction E = Card present with merchant name and location data X = Disqualified custom payment service transaction (inserted by BASE II) VIC Edit, ATM: If the Authorization Characteristics Indicator does not contain a value of E, BASE II will insert an N in this field and a space in the Requested Payment Service field. VIC Edits: The Authorization Characteristics Indicator must be the same as in l the Authorization Response (V.I.P. Field 62.1) in custom payment service original purchase transactions and their reversals and CPS/ATM original ATM cash disbursement transactions and their reversals. The Authorization Characteristics Indicator must be the same as in l the V.I.P. Authorization Response in Electronic Data Quality Program transactions. All non-CPS original and reversal transactions submitted with the ACI l = T requires the Transaction Identifier (V.I.P. field 62.2) and Validation Code (V.I.P. field 62.3) from the Authorization. If multiple authorizations and/or an authorization reversal were l submitted, this field must contain the Authorization Characteristics Indicator from the first authorization response. Dispute Financials and Dispute Response Financials Must be a valid value or a space. For valid combinations of the Requested Payment Service and Authorization Characteristics Indicator, refer to the BASE II Clearing Data Codes manual.",
-      "similarity_ratio": 0.867,
+      "similarity_ratio": 0.869,
       "title": "TC 05 - TCR 0",
       "field_name": "Authorization Characteristics Indicator",
       "ai_category": "business_rule_change",
-      "ai_reason": "La nueva edición añade que las transacciones de Electronic Data Quality Program usan el valor D en el Authorization Characteristics Indicator, modificando la definición de valores válidos para este campo.",
+      "ai_reason": "La edición nueva incluye una nueva definición de la función del campo (identificar transacciones de Electronic Data Quality Program) y especifica que las transacciones de este tipo contienen el valor D, lo que modifica el significado del campo.",
       "disappeared_content": [
         "For manual cash transactions, BASE II will insert an N in this field. l For purchase transactions and credit vouchers occurring at non-CPS l participating countries, BASE II will insert N in this field."
       ],
@@ -51,36 +51,35 @@
     {
       "change_type": "card_content_changed",
       "position": "81-95",
-      "field": "description",
+      "field": "contenido",
       "old": "Code that identifies the card acceptor operating the POS terminal. This field must contain an acquirer-assigned alphanumeric code that identifies the Card Acceptor. This field must not be all zeros or spaces. Merchant Integrity Control: Acquirers must assign a unique card acceptor ID (CAID) in this field for merchants categorized under high-risk designated merchant category codes (MCCs), or to card not present (CNP) sub-merchants operating under a payment facilitator that generates a payment volume of $1M or more annually for any MCCs. Dispute Financial This field must be retained and returned when it was provided in the original transaction. Dispute Response Financials This field must be retained and returned when it was provided in the dispute financial transaction.",
       "new": "Code that identifies the card acceptor operating the POS terminal. This field must contain an acquirer-assigned alphanumeric code that identifies the Card Acceptor. This field must not be all zeros or spaces. Dispute Financial This field must be retained and returned when it was provided in the original transaction. Dispute Response Financials This field must be retained and returned when it was provided in the dispute financial transaction.",
       "similarity_ratio": 0.35,
       "title": "TC 05 - TCR 1 Additional Data",
       "field_name": "Card Acceptor ID",
       "ai_category": "business_rule_change",
-      "ai_reason": "El texto nuevo elimina la parte sobre Merchant Integrity Control que estaba en la edición vieja, pero mantiene el mismo significado y requisitos del campo.",
+      "ai_reason": "Se eliminó la descripción de Merchant Integrity Control que especificaba que los acquirers deben asignar un CAID único para mercados de alto riesgo o sub-merchants CNP, lo que cambia la condición de validación del campo.",
       "disappeared_content": [
         "Merchant Integrity Control: Acquirers must assign a unique card acceptor ID (CAID) in this field for merchants categorized under high-risk designated merchant category codes (MCCs), or to card not present (CNP) sub-merchants operating under a payment facilitator that generates a payment volume of $1M or more annually for any MCCs."
       ],
-      "safety_net_override": true,
-      "ai_original_category": "editorial_reword"
+      "safety_net_override": false
     },
     {
       "change_type": "card_content_changed",
       "position": "126",
-      "field": "note",
-      "old": "Effective 14 April 2007, Canadian Acquirers participating in the Address Verification Service populated the Address Verifi cation Service results code received in the V.I.P. Authorization Response message in a Transaction's corresponding BASE II Clearing Record.",
-      "new": "",
-      "similarity_ratio": 0.0,
+      "field": "contenido",
+      "old": "Indicates type of commerce. This field should be numeric. Effective 14 April 2007, Canadian Acquirers participating in the Address Verification Service populated the Address Verifi cation Service results code received in the V.I.P. Authorization Response message in a Transaction's corresponding BASE II Clearing Record. 0 = Not used 1 = Electronic Commerce 2 = In-Flight Commerce 5 = Transponder-Initiated 6 = Relationship Participant 7 = Deferred Billing Indicator",
+      "new": "Indicates type of commerce. This field should be numeric. 0 = Not used 1 = Electronic Commerce 2 = In-Flight Commerce 5 = Transponder-Initiated 6 = Relationship Participant 7 = Deferred Billing Indicator",
+      "similarity_ratio": 0.607,
       "title": "TC 05 - TCR 1 Additional Data",
       "field_name": "Service Development Field",
       "ai_category": "business_rule_change",
-      "ai_reason": "El texto nuevo está vacío, lo que indica un artefacto de extracción de PDF en lugar de un cambio real de contenido.",
+      "ai_reason": "El texto se simplificó eliminando la frase 'Effective 14 April 2007, Canadian Acquirers participating in the Address Verification Service populated the Address Verifi cation Service results code received in the V.I.P. Authorization Response message in a Transaction's corresponding BASE II Clearing Record.' sin alterar el significado del campo.",
       "disappeared_content": [
         "Effective 14 April 2007, Canadian Acquirers participating in the Address Verification Service populated the Address Verifi cation Service results code received in the V.I.P. Authorization Response message in a Transaction's corresponding BASE II Clearing Record."
       ],
       "safety_net_override": true,
-      "ai_original_category": "extraction_noise"
+      "ai_original_category": "editorial_reword"
     },
     {
       "change_type": "field_became_defined",
@@ -103,9 +102,7 @@
             "UN",
             "Cashback Interchange Reimbursement Fee (IRF)"
           ]
-        }
-      ],
-      "remaining_reserved": [
+        },
         {
           "position": "154-163",
           "cells": [
@@ -114,7 +111,9 @@
             "UN",
             "VAT Cashback National Reimbursement Fee"
           ]
-        },
+        }
+      ],
+      "remaining_reserved": [
         {
           "position": "164-168",
           "cells": [
@@ -159,9 +158,7 @@
             "values": "",
             "mapping": ""
           }
-        }
-      ],
-      "remaining_reserved": [
+        },
         {
           "position": "154-163",
           "card": {
@@ -176,7 +173,9 @@
             "values": "",
             "mapping": ""
           }
-        },
+        }
+      ],
+      "remaining_reserved": [
         {
           "position": "164-168",
           "card": {
@@ -197,14 +196,14 @@
     {
       "change_type": "card_content_changed",
       "position": "5-6",
-      "field": "description",
+      "field": "contenido",
       "old": "This field will contain the Service Processing Type. Following are the values: 00 (Normal transaction) 01 (Originator hold) 02 (Visa deferred OCT hold, default interval) A0 (Alias Directory) P0 (Payment Tags)",
       "new": "This field will contain the Service Processing Type. Following are the values: 00 (Normal transaction) 01 Visa deferred OCT Originator hold 02 Visa deferred OCT hold, default interval 03 Visa deferred OCT hold, user-defined interval 0B Back-to-Back A0 (Alias Directory) P0 (Payment Tags) Value 0B identifies back-to-back funding transactions containing existing business application identifier of AA (Account-to-account) in Europe domestic and intra-EEA AFTs. 0B is number 0 (zero) and letter B.",
       "similarity_ratio": 0.526,
       "title": "TC 05 - TCR 3 Business Application Data",
       "field_name": "Service Processing Type",
       "ai_category": "business_rule_change",
-      "ai_reason": "Se agregaron nuevos valores y descripciones para el campo Service Processing Type, incluyendo 0B (Back-to-Back) con una explicación detallada, lo que modifica los valores válidos y su significado comercial.",
+      "ai_reason": "Se agregaron nuevos valores de negocio (03, 0B) y se redefinieron los valores existentes para especificar intervalos y condiciones de transacciones.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -239,14 +238,14 @@
     {
       "change_type": "card_content_changed",
       "position": "5-9",
-      "field": "description",
+      "field": "contenido",
       "old": "This field will contain the agent unique ID value or spaces.",
       "new": "This field will contain A-Z, 0-9, or all characters as spaces. Non-alphanumeric values are not allowed.",
       "similarity_ratio": 0.442,
       "title": "TC 05 - TCR 4 Supplemental Financial Data",
       "field_name": "Enabler Verification Value",
       "ai_category": "business_rule_change",
-      "ai_reason": "El nuevo texto especifica que solo se permiten caracteres alfanuméricos (A-Z, 0-9) y espacios, excluyendo valores no alfanuméricos, mientras que el antiguo permitía valores únicos de agente o espacios, lo que cambia las reglas de validación.",
+      "ai_reason": "El nuevo texto especifica que solo se permiten caracteres alfanuméricos (A-Z, 0-9) y espacios, excluyendo valores no alfanuméricos, mientras que el antiguo permitía cualquier valor o espacios.",
       "disappeared_content": [
         "the agent unique ID value"
       ],
@@ -283,14 +282,14 @@
     {
       "change_type": "card_content_changed",
       "position": "5-9",
-      "field": "description",
+      "field": "contenido",
       "old": "This field will contain the agent unique ID value or spaces.",
       "new": "This field will contain A-Z, 0-9, or all characters as spaces. Non-alphanumeric values are not allowed.",
       "similarity_ratio": 0.442,
       "title": "TC 05 - TCR 4 Supplemental Financial and Promotion Data",
       "field_name": "Enabler Verification Value",
       "ai_category": "business_rule_change",
-      "ai_reason": "El nuevo texto especifica que solo se permiten caracteres alfanuméricos (A-Z, 0-9) y espacios, excluyendo valores no alfanuméricos, mientras que el antiguo permitía valores únicos de agente o espacios, lo que cambia las reglas de validación.",
+      "ai_reason": "El nuevo texto especifica que solo se permiten caracteres alfanuméricos (A-Z, 0-9) y espacios, excluyendo valores no alfanuméricos, mientras que el antiguo permitía cualquier valor o espacios.",
       "disappeared_content": [
         "the agent unique ID value"
       ],
@@ -327,14 +326,14 @@
     {
       "change_type": "card_content_changed",
       "position": "5-9",
-      "field": "description",
+      "field": "contenido",
       "old": "This field will contain the agent unique ID value or spaces.",
       "new": "This field will contain A-Z, 0-9, or all characters as spaces. Non-alphanumeric values are not allowed.",
       "similarity_ratio": 0.442,
       "title": "TC 05 - TCR 4 Supplemental Visa Resolve Online (VROL) Financial Data Record",
       "field_name": "Enabler Verification Value",
       "ai_category": "business_rule_change",
-      "ai_reason": "El nuevo texto especifica que solo se permiten caracteres alfanuméricos (A-Z, 0-9) y espacios, excluyendo valores no alfanuméricos, lo que redefine los valores válidos del campo.",
+      "ai_reason": "El nuevo texto especifica que solo se permiten caracteres alfanuméricos (A-Z, 0-9) y espacios, excluyendo valores no alfanuméricos, mientras que el antiguo permitía cualquier valor o espacios.",
       "disappeared_content": [
         "the agent unique ID value"
       ],
@@ -343,77 +342,49 @@
     {
       "change_type": "card_content_changed",
       "position": "5-19",
-      "field": "description",
-      "old": "A unique value that Visa assigns to each transaction and returns to the acquirer in the authorization response. Visa uses this value to maintain an audit trail throughout the life cycle of the transaction and all related transactions, such as reversals, adjustments, confirmations, and disputes. The entry must be numeric. It must be either zeros or a valid Transaction Identifier. All Transaction Types For all transaction types and all payment services, this field must contain the Transaction Identifier. Originals and Original Reversals For Custom Payment Service purchase transactions and their reversals, and CPS/ATM original ATM cash disbursements and their reversals, this field must not be zeros. VIC Edit: The Transaction Identifier must be the same as in the Authori­ zation Response (V.I.P. Field 62.2, converted to unpacked numeric) in the following transactions: CPS original purchase transactions and their reversals l CPS/ATM original ATM cash disbursement transactions and their l reversals If multiple authorizations and/or an authorization reversal were submitted, this field must contain the Transaction Identifier from the first authorization response. Incoming, CPS Participating Countries: A Transaction Identifier is assigned to every original purchase transaction that does not already contain one. This field must be retained and returned in subsequent exception transactions. Incoming: A Transaction Identifier is assigned to every ATM original cash disbursement transaction that does not already contain one. This field must be retained and returned in subsequent exception transactions. Dispute Financials, Dispute Response Financials, and their Reversals CPS Participating Countries: The Transaction Identifier must be included for a domestic transaction with an Acquirer Reference Number Format Code of 2. If the Acquirer Reference Number Format Code is a 2, this field may not contain zeros. If the original transaction contained a Transaction Identifier, it must be included on the TCR 5. Credit Voucher Reversals and Credit Voucher Dispute Financials This field may contain a Transaction Identifier.",
-      "new": "A unique value that Visa assigns to each transaction and returns to the acquirer in the authorization response. Visa uses this value to maintain an audit trail throughout the life cycle of the transaction and all related transactions, such as reversals, adjustments, confirmations, and disputes. If the Transaction Identifier is not present or the format is invalid in original clearing draft transactions received from acquirers, BASE II will assign a new Transaction Identifier value. This new value must be retained and returned in all subsequent transactions that carry the Transaction Identifier. The entry must be numeric. It must be either zeros or a valid Transaction Identifier. All Transaction Types For all transaction types and all payment services, and Electronic Data Quality Program transactions, this field must contain the Transaction Identifier. Originals and Original Reversals For Custom Payment Service purchase transactions and their reversals, and CPS/ATM original ATM cash disbursements and their reversals, and Electronic Data Quality Program transactions, this field must not be zeros. VIC Edit: The Transaction Identifier must be the same as in the Authori­ zation Response (V.I.P. Field 62.2, converted to unpacked numeric) in the following transactions: CPS original purchase transactions and their reversals l CPS/ATM original ATM cash disbursement transactions and their l reversals Electronic Data Quality Program transactions l If multiple authorizations and/or an authorization reversal were submitted, this field must contain the Transaction Identifier from the first authorization response. Incoming, CPS Participating Countries: A Transaction Identifier is assigned to every original purchase transaction that does not already contain one. This field must be retained and returned in subsequent exception transactions. Incoming: A Transaction Identifier is assigned to every ATM original cash disbursement transaction that does not already contain one. This field must be retained and returned in subsequent exception transactions. Dispute Financials, Dispute Response Financials, and their Reversals CPS Participating Countries: The Transaction Identifier must be included for a domestic transaction with an Acquirer Reference Number Format Code of 2. If the Acquirer Reference Number Format Code is a 2, this field may not contain zeros. If the original transaction contained a Transaction Identifier, it must be included on the TCR 5. Credit Voucher Reversals and Credit Voucher Dispute Financials This field may contain a Transaction Identifier.",
-      "similarity_ratio": 0.904,
+      "field": "contenido",
+      "old": "A unique value that Visa assigns to each transaction and returns to the acquirer in the authorization response. Visa uses this value to maintain an audit trail throughout the life cycle of the transaction and all related transactions, such as reversals, adjustments, confirmations, and disputes. The entry must be numeric. It must be either zeros or a valid Transaction Identifier. All Transaction Types For all transaction types and all payment services, this field must contain the Transaction Identifier. Originals and Original Reversals For Custom Payment Service purchase transactions and their reversals, and CPS/ATM original ATM cash disbursements and their reversals, this field must not be zeros. VIC Edit: The Transaction Identifier must be the same as in the Authori­ zation Response (V.I.P. Field 62.2, converted to unpacked numeric) in the following transactions: CPS original purchase transactions and their reversals l CPS/ATM original ATM cash disbursement transactions and their l reversals If multiple authorizations and/or an authorization reversal were submitted, this field must contain the Transaction Identifier from the first authorization response. Incoming, CPS Participating Countries: A Transaction Identifier is assigned to every original purchase transaction that does not already contain one. This field must be retained and returned in subsequent exception transactions. Incoming: A Transaction Identifier is assigned to every ATM original cash disbursement transaction that does not already contain one. This field must be retained and returned in subsequent exception transactions. Dispute Financials, Dispute Response Financials, and their Reversals CPS Participating Countries: The Transaction Identifier must be included for a domestic transaction with an Acquirer Reference Number Format Code of 2. If the Acquirer Reference Number Format Code is a 2, this field may not contain zeros. If the original transaction contained a Transaction Identifier, it must be included on the TCR 5. Credit Voucher Reversals and Credit Voucher Dispute Financials This field may contain a Transaction Identifier. Positions 1 and 2 contain proprietary information used by Visa; position 3 contains the last digit of the current year; positions 4 through 6 contain the Greenwich mean time (GMT) date (Julian date in the format DDD); positions 7 through 11 contain the GMT in relative seconds since start of day; positions 12 through 15 contain a sequence number.",
+      "new": "A unique value that Visa assigns to each transaction and returns to the acquirer in the authorization response. Visa uses this value to maintain an audit trail throughout the life cycle of the transaction and all related transactions, such as reversals, adjustments, confirmations, and disputes. If the Transaction Identifier is not present or the format is invalid in original clearing draft transactions received from acquirers, BASE II will assign a new Transaction Identifier value. This new value must be retained and returned in all subsequent transactions that carry the Transaction Identifier. The entry must be numeric. It must be either zeros or a valid Transaction Identifier. All Transaction Types For all transaction types and all payment services, and Electronic Data Quality Program transactions, this field must contain the Transaction Identifier. Originals and Original Reversals For Custom Payment Service purchase transactions and their reversals, and CPS/ATM original ATM cash disbursements and their reversals, and Electronic Data Quality Program transactions, this field must not be zeros. VIC Edit: The Transaction Identifier must be the same as in the Authori­ zation Response (V.I.P. Field 62.2, converted to unpacked numeric) in the following transactions: CPS original purchase transactions and their reversals l CPS/ATM original ATM cash disbursement transactions and their l reversals Electronic Data Quality Program transactions l If multiple authorizations and/or an authorization reversal were submitted, this field must contain the Transaction Identifier from the first authorization response. Incoming, CPS Participating Countries: A Transaction Identifier is assigned to every original purchase transaction that does not already contain one. This field must be retained and returned in subsequent exception transactions. Incoming: A Transaction Identifier is assigned to every ATM original cash disbursement transaction that does not already contain one. This field must be retained and returned in subsequent exception transactions. Dispute Financials, Dispute Response Financials, and their Reversals CPS Participating Countries: The Transaction Identifier must be included for a domestic transaction with an Acquirer Reference Number Format Code of 2. If the Acquirer Reference Number Format Code is a 2, this field may not contain zeros. If the original transaction contained a Transaction Identifier, it must be included on the TCR 5. Credit Voucher Reversals and Credit Voucher Dispute Financials This field may contain a Transaction Identifier. Positions 1 and 2 contain proprietary information used by Visa; position 3 contains the last digit of the current year; positions 4 through 6 contain the Greenwich mean time (GMT) date (Julian date in the format DDD); positions 7 through 11 contain the GMT in relative seconds since start of day; positions 12 through 15 contain a sequence number.",
+      "similarity_ratio": 0.917,
       "title": "TC 05 - TCR 5 Payment Service Data",
       "field_name": "Transaction Identifier",
       "ai_category": "business_rule_change",
-      "ai_reason": "La nueva edición añade que si el Transaction Identifier no está presente o tiene formato inválido en transacciones originales recibidas del acquirer, BASE II asigna un nuevo valor que debe ser retornado en transacciones posteriores, modificando la regla de negocio sobre la gestión del Transaction Identifier.",
+      "ai_reason": "La nueva edición añade que si el Transaction Identifier no está presente o es inválido en transacciones originales en el draft de clearing, BASE II asigna un nuevo valor que debe mantenerse en transacciones posteriores, modificando la regla de negocio sobre la gestión del Transaction Identifier.",
       "disappeared_content": [],
       "safety_net_override": false
     },
     {
       "change_type": "card_content_changed",
       "position": "20-31",
-      "field": "description",
-      "old": "Amount the issuer originally authorized. The entry must be numeric. For CPS original draft transactions and their reversals, this entry may not be zeros. CPS credit vouchers and their reversals must contain zeros in this field. VIC Edit: For Custom Payment Service original draft transactions and their reversals, this field must contain the same amount as in the Authorization Response (V.I.P. Field 4, converted to unpacked numeric). If multiple authorizations and/or an authorization reversal were supplied, this field must contain the Authorized Amount from the first authorization response. Outgoing: For originals and reversals that do not participate in a payment service or chip card service, the Edit Package will not initialize this field to zeros. EP will retain the original contents, if the field is numeric. Incoming: This field does not contain a fixed implied decimal location. The decimal location is determined by the Authorization Currency Code, as specified in the V.I.P. System Technical Reference manuals.",
-      "new": "Amount the issuer originally authorized. The entry must be numeric. For CPS original draft transactions and their reversals, and Electronic Data Quality Program transactions, this entry may not be zeros. U.S. CPS credit vouchers and their reversals must contain zeros in this field. VIC Edit: For Custom Payment Service original draft transactions and their reversals, and Electronic Data Quality Program transactions, this field must contain the same amount as in the Authorization Response (V.I.P. Field 4, converted to unpacked numeric). If multiple authorizations and/or an authorization reversal were supplied, this field must contain the Authorized Amount from the first authorization response. Outgoing: For originals and reversals that do not participate in a payment service or chip card service, the Edit Package will not initialize this field to zeros. EP will retain the original contents, if the field is numeric. Incoming: This field does not contain a fixed implied decimal location. The decimal location is determined by the Authorization Currency Code, as specified in the V.I.P. System Technical Reference manuals.",
-      "similarity_ratio": 0.941,
+      "field": "contenido",
+      "old": "Amount the issuer originally authorized. The entry must be numeric. For CPS original draft transactions and their reversals, this entry may not be zeros. CPS credit vouchers and their reversals must contain zeros in this field. VIC Edit: For Custom Payment Service original draft transactions and their reversals, this field must contain the same amount as in the Authorization Response (V.I.P. Field 4, converted to unpacked numeric). If multiple authorizations and/or an authorization reversal were supplied, this field must contain the Authorized Amount from the first authorization response. Outgoing: For originals and reversals that do not participate in a payment service or chip card service, the Edit Package will not initialize this field to zeros. EP will retain the original contents, if the field is numeric. Incoming: This field does not contain a fixed implied decimal location. The decimal location is determined by the Authorization Currency Code, as specified in the V.I.P. System Technical Reference manuals. Non-CPS transactions may contain this field.",
+      "new": "Amount the issuer originally authorized. The entry must be numeric. For CPS original draft transactions and their reversals, and Electronic Data Quality Program transactions, this entry may not be zeros. U.S. CPS credit vouchers and their reversals must contain zeros in this field. VIC Edit: For Custom Payment Service original draft transactions and their reversals, and Electronic Data Quality Program transactions, this field must contain the same amount as in the Authorization Response (V.I.P. Field 4, converted to unpacked numeric). If multiple authorizations and/or an authorization reversal were supplied, this field must contain the Authorized Amount from the first authorization response. Outgoing: For originals and reversals that do not participate in a payment service or chip card service, the Edit Package will not initialize this field to zeros. EP will retain the original contents, if the field is numeric. Incoming: This field does not contain a fixed implied decimal location. The decimal location is determined by the Authorization Currency Code, as specified in the V.I.P. System Technical Reference manuals. Non-CPS transactions, including Electronic Data Quality Program transactions may contain this field.",
+      "similarity_ratio": 0.902,
       "title": "TC 05 - TCR 5 Payment Service Data",
       "field_name": "Authorized Amount",
       "ai_category": "business_rule_change",
-      "ai_reason": "Se agregó la condición de que las transacciones de Electronic Data Quality Program deben tener este campo distinto de cero, modificando la regla de validación.",
-      "disappeared_content": [],
-      "safety_net_override": false
-    },
-    {
-      "change_type": "card_content_changed",
-      "position": "20-31",
-      "field": "note",
-      "old": "Non-CPS transactions may contain this field.",
-      "new": "Non-CPS transactions, including Electronic Data Quality Program transactions may contain this field.",
-      "similarity_ratio": 0.611,
-      "title": "TC 05 - TCR 5 Payment Service Data",
-      "field_name": "Authorized Amount",
-      "ai_category": "editorial_reword",
-      "ai_reason": "El texto describe lo mismo que antes, solo se agregó la parte 'including Electronic Data Quality Program transactions' para aclarar el tipo de transacciones no CPS.",
+      "ai_reason": "La nueva edición especifica que para transacciones de Electronic Data Quality Program también no pueden contener ceros en el campo, mientras que la vieja edición solo mencionaba CPS original draft transactions y sus reversales.",
       "disappeared_content": [],
       "safety_net_override": false
     },
     {
       "change_type": "card_content_changed",
       "position": "32-34",
-      "field": "description",
-      "old": "Currency code of the authorized source amount. The entry must be spaces or a valid ISO numeric currency code. If the Authorized Amount is not zeros, then the Authorization Currency Code must not be spaces. The source currency and the authorization currency must be the same. CPS credit vouchers and their reversals must contain spaces in this field. VIC Edit: The Authorization Currency Code must be the same as in the Authorization Response (V.I.P. Field 49, converted to unpacked numeric) in the following transactions: Custom Payment Service original purchase transactions and their l reversals CPS/ATM original ATM cash disbursement transactions and their l reversals VIC Edit: If multiple authorizations and/or an authorization reversal were supplied, this field must contain the Transaction Currency Code from the first authorization response. Outgoing: For originals and reversals that do not participate in a payment service or chip card service, the Edit Package will not initialize this field to spaces. EP will retain the original contents, if the field is a valid currency code.",
-      "new": "Currency code of the authorized source amount. The entry must be spaces or a valid ISO numeric currency code. If the Authorized Amount is not zeros, then the Authorization Currency Code must not be spaces. The source currency and the authorization currency must be the same. CPS credit vouchers and their reversals must contain spaces in this field. VIC Edit: The Authorization Currency Code must be the same as in the Authorization Response (V.I.P. Field 49, converted to unpacked numeric) in the following transactions: Custom Payment Service original purchase transactions and their l reversals CPS/ATM original ATM cash disbursement transactions and their l reversals Electronic Data Quality Program transactions l VIC Edit: If multiple authorizations and/or an authorization reversal were supplied, this field must contain the Transaction Currency Code from the first authorization response. Outgoing: For originals and reversals that do not participate in a payment service or chip card service, the Edit Package will not initialize this field to spaces. EP will retain the original contents, if the field is a valid currency code.",
-      "similarity_ratio": 0.979,
+      "field": "contenido",
+      "old": "Currency code of the authorized source amount. The entry must be spaces or a valid ISO numeric currency code. If the Authorized Amount is not zeros, then the Authorization Currency Code must not be spaces. The source currency and the authorization currency must be the same. CPS credit vouchers and their reversals must contain spaces in this field. VIC Edit: The Authorization Currency Code must be the same as in the Authorization Response (V.I.P. Field 49, converted to unpacked numeric) in the following transactions: Custom Payment Service original purchase transactions and their l reversals CPS/ATM original ATM cash disbursement transactions and their l reversals VIC Edit: If multiple authorizations and/or an authorization reversal were supplied, this field must contain the Transaction Currency Code from the first authorization response. Outgoing: For originals and reversals that do not participate in a payment service or chip card service, the Edit Package will not initialize this field to spaces. EP will retain the original contents, if the field is a valid currency code. Non-CPS transactions may contain this field.",
+      "new": "Currency code of the authorized source amount. The entry must be spaces or a valid ISO numeric currency code. If the Authorized Amount is not zeros, then the Authorization Currency Code must not be spaces. The source currency and the authorization currency must be the same. CPS credit vouchers and their reversals must contain spaces in this field. VIC Edit: The Authorization Currency Code must be the same as in the Authorization Response (V.I.P. Field 49, converted to unpacked numeric) in the following transactions: Custom Payment Service original purchase transactions and their l reversals CPS/ATM original ATM cash disbursement transactions and their l reversals Electronic Data Quality Program transactions l VIC Edit: If multiple authorizations and/or an authorization reversal were supplied, this field must contain the Transaction Currency Code from the first authorization response. Outgoing: For originals and reversals that do not participate in a payment service or chip card service, the Edit Package will not initialize this field to spaces. EP will retain the original contents, if the field is a valid currency code. Non-CPS transactions and Electronic Data Quality Program transactions may contain this field.",
+      "similarity_ratio": 0.96,
       "title": "TC 05 - TCR 5 Payment Service Data",
       "field_name": "Authorization Currency Code",
       "ai_category": "business_rule_change",
-      "ai_reason": "La edición nueva añade una nueva condición para transacciones de Electronic Data Quality Program, lo que modifica el comportamiento requerido para este campo.",
-      "disappeared_content": [],
-      "safety_net_override": false
-    },
-    {
-      "change_type": "card_content_changed",
-      "position": "32-34",
-      "field": "note",
-      "old": "Non-CPS transactions may contain this field.",
-      "new": "Non-CPS transactions and Electronic Data Quality Program transactions may contain this field.",
-      "similarity_ratio": 0.642,
-      "title": "TC 05 - TCR 5 Payment Service Data",
-      "field_name": "Authorization Currency Code",
-      "ai_category": "business_rule_change",
-      "ai_reason": "El texto nuevo incluye una condición adicional (Electronic Data Quality Program transactions) que modifica el alcance de las transacciones que pueden contener el campo, cambiando la regla de negocio.",
+      "ai_reason": "La edición nueva incluye que las transacciones de Electronic Data Quality Program también pueden contener el campo, mientras que la edición vieja solo mencionaba transacciones no CPS.",
       "disappeared_content": [],
       "safety_net_override": false
     },
     {
       "change_type": "card_content_changed",
       "position": "35-36",
-      "field": "description",
+      "field": "contenido",
       "old": "The authorization code provided by the issuer when a transaction is approved or a “no reason to decline” code is provided. The entry must be two alphanumeric characters: spaces, A through Z, or 0 through 9. For Custom Payment Service credit vouchers and their reversals, this field must contain spaces. VIC Edit: For Custom Payment Service original purchase transactions and their reversals, this field must contain the Response Code received in the Authorization Response (V.I.P. Field 39). If multiple authorizations and/or an authorization reversal were supplied, this field must contain the Authorization Response Code from the first authorization response. The values for this code, and their meanings, are documented in Full Service POS Online Messages Technical Specifications. For chip transactions that are processed offline, this field must contain one of these offline authorization codes: Y1 = Offline Approval Z1 = Offline Decline Y3 = Unable to go online, approval Z3 = Unable to go online, decline",
       "new": "The authorization code provided by the issuer when a transaction is approved or a “no reason to decline” code is provided. The entry must be two alphanumeric characters: spaces, A through Z, or 0 through 9. For Custom Payment Service credit vouchers and their reversals, this field must contain spaces. VIC Edit: For Custom Payment Service original purchase transactions and their reversals, and Electronic Data Quality Program transactions, this field must contain the Response Code received in the Authorization Response (V.I.P. Field 39). If multiple authorizations and/or an authori­ zation reversal were supplied, this field must contain the Authorization Response Code from the first authorization response. The values for this code, and their meanings, are documented in Full Service POS Online Messages Technical Specifications. For chip transactions that are processed offline, this field must contain one of these offline authorization codes: Y1 = Offline Approval Z1 = Offline Decline Y3 = Unable to go online, approval Z3 = Unable to go online, decline",
       "similarity_ratio": 0.975,
@@ -427,42 +398,42 @@
     {
       "change_type": "card_content_changed",
       "position": "49",
-      "field": "note",
-      "old": "Non-CPS transactions may contain this field.",
-      "new": "Non-CPS transactions and Electronic Data Quality Program transactions may contain this field.",
-      "similarity_ratio": 0.642,
+      "field": "contenido",
+      "old": "Code indicating the industry for which market-specific authorization data was included in the transaction. Non-CPS transactions may contain this field. Space = No market-specific authorization data supplied. A = Valid Auto Rental market-specific authorization data received. B = Valid Bill Payment market-specific authorization data received. E =Valid Electronic Commerce Transaction Aggregation data received. H = Valid Hotel market-specific authorization data received. J = Valid B2B Invoice Payment received. M = Valid Healthcare market-specific authorization data received. N = Invalid or not applicable market-specific data received. T = Valid Transit market-specific authorization data received. VIC Edit: For Custom Payment Service original purchase transactions and their reversals, this field must have the same contents as that in the Authorization Response (V.I.P. Field 62.4). If multiple authorizations were submitted, this field must contain the Market-Specific Authorization Data Indicator from the first authorization response. For CPS/Hotel (Card Not Present) or CPS/Hotel (Card Present) PSIRF, this entry must contain an H. For CPS/Car Rental (Card Not Present) or CPS/Car Rental (Card Present) PSIRF, this entry must contain an A. Outgoing: For draft transactions that do not participate in a Custom Payment Service (Authorization Characteristics Indicator = N), the Edit Package will initialize this field to spaces, if it is not alphanumeric.",
+      "new": "Code indicating the industry for which market-specific authorization data was included in the transaction. Non-CPS transactions and Electronic Data Quality Program transactions may contain this field. Space = No market-specific authorization data supplied. A = Valid Auto Rental market-specific authorization data received. B = Valid Bill Payment market-specific authorization data received. E =Valid Electronic Commerce Transaction Aggregation data received. H = Valid Hotel market-specific authorization data received. J = Valid B2B Invoice Payment received. M = Valid Healthcare market-specific authorization data received. N = Invalid or not applicable market-specific data received. T = Valid Transit market-specific authorization data received. VIC Edit: For Custom Payment Service original purchase transactions and their reversals, and Electronic Data Quality Program transactions, this field must have the same contents as that in the Authorization Response (V.I.P. Field 62.4). If multiple authorizations were submitted, this field must contain the Market-Specific Authorization Data Indicator from the first authorization response. For CPS/Hotel (Card Not Present) or CPS/Hotel (Card Present) PSIRF, this entry must contain an H. For CPS/Car Rental (Card Not Present) or CPS/Car Rental (Card Present) PSIRF, this entry must contain an A. Outgoing: For draft transactions that do not participate in a Custom Payment Service (Authorization Characteristics Indicator = N), the Edit Package will initialize this field to spaces, if it is not alphanumeric.",
+      "similarity_ratio": 0.967,
       "title": "TC 05 - TCR 5 Payment Service Data",
       "field_name": "Market-Specific Authorization Data Indicator",
       "ai_category": "business_rule_change",
-      "ai_reason": "El texto nuevo incluye una condición adicional (Electronic Data Quality Program transactions) que modifica el alcance de las transacciones que pueden contener el campo, cambiando la regla de negocio.",
+      "ai_reason": "La edición nueva incluye que las transacciones de Electronic Data Quality Program también pueden contener el campo, mientras que la edición vieja solo mencionaba transacciones no CPS.",
       "disappeared_content": [],
       "safety_net_override": false
     },
     {
       "change_type": "card_content_changed",
       "position": "136-137",
-      "field": "note",
-      "old": "All U.S.-acquired purchase, credit voucher, and cash disbursement transactions should contain the Card-Level Results received in the authorization response (V.I.P. Field 62.23). If this field is not received in the V.I.P. response message, the Product ID field should contain spaces. All non-U.S. acquired purchase, credit voucher, and cash disbursement transactions from acquirers that choose to receive the Card-Level Results should contain the Card-Level Results received in the authorization response (V.I.P. Field 62.23). If this field is not received in the V.I.P. response message, the Product ID field should contain spaces. VIC Edit: For Custom Payment Service original purchase transactions and their reversals, this field must contain Card- Level Results received in the Authorization Response (V.I.P. Field 62.23). If multiple authorizations and/or an authorization reversal were supplied, this field must contain the Authorization Response Code from the first authorization response.",
-      "new": "All U.S.-acquired purchase, credit voucher, and cash disbursement transactions should contain the Card-Level Results received in the authorization response (V.I.P. Field 62.23). If this field is not received in the V.I.P. response message, the Product ID field should contain spaces. All non-U.S. acquired purchase, credit voucher, and cash disbursement transactions from acquirers that choose to receive the Card-Level Results should contain the Card-Level Results received in the authorization response (V.I.P. Field 62.23). If this field is not received in the V.I.P. response message, the Product ID field should contain spaces. VIC Edit: For Custom Payment Service original purchase transactions and their reversals, and Electronic Data Quality Data Program transactions, this field must contain Card-Level Results received in the Authorization Response (V.I.P. Field 62.23). If multiple authorizations and/or an authorization reversal were supplied, this field must contain the Authorization Response Code from the first authorization response.",
+      "field": "contenido",
+      "old": "Product identifier code. All U.S.-acquired purchase, credit voucher, and cash disbursement transactions should contain the Card-Level Results received in the authorization response (V.I.P. Field 62.23). If this field is not received in the V.I.P. response message, the Product ID field should contain spaces. All non-U.S. acquired purchase, credit voucher, and cash disbursement transactions from acquirers that choose to receive the Card-Level Results should contain the Card-Level Results received in the authorization response (V.I.P. Field 62.23). If this field is not received in the V.I.P. response message, the Product ID field should contain spaces. VIC Edit: For Custom Payment Service original purchase transactions and their reversals, this field must contain Card- Level Results received in the Authorization Response (V.I.P. Field 62.23). If multiple authorizations and/or an authorization reversal were supplied, this field must contain the Authorization Response Code from the first authorization response.",
+      "new": "Product identifier code. All U.S.-acquired purchase, credit voucher, and cash disbursement transactions should contain the Card-Level Results received in the authorization response (V.I.P. Field 62.23). If this field is not received in the V.I.P. response message, the Product ID field should contain spaces. All non-U.S. acquired purchase, credit voucher, and cash disbursement transactions from acquirers that choose to receive the Card-Level Results should contain the Card-Level Results received in the authorization response (V.I.P. Field 62.23). If this field is not received in the V.I.P. response message, the Product ID field should contain spaces. VIC Edit: For Custom Payment Service original purchase transactions and their reversals, and Electronic Data Quality Data Program transactions, this field must contain Card-Level Results received in the Authorization Response (V.I.P. Field 62.23). If multiple authorizations and/or an authorization reversal were supplied, this field must contain the Authorization Response Code from the first authorization response.",
       "similarity_ratio": 0.973,
       "title": "TC 05 - TCR 5 Payment Service Data",
       "field_name": "Product ID",
       "ai_category": "business_rule_change",
-      "ai_reason": "La nueva edición añade que para transacciones de Electronic Data Quality Data Program también debe contener los Card-Level Results, ampliando el alcance de las transacciones que requieren el campo.",
+      "ai_reason": "La nueva edición agrega que para transacciones del Electronic Data Quality Data Program también debe contener los Card-Level Results, ampliando el alcance de las transacciones que requieren este campo.",
       "disappeared_content": [],
       "safety_net_override": false
     },
     {
       "change_type": "card_content_changed",
       "position": "167",
-      "field": "values",
-      "old": "Space C = Credit D = Debit H = Charge P = Prepaid R = Deferred Debit VIC Edit: If not submitted by the acquirer, BASE II will populate this field.",
-      "new": "Space C = Credit D = Debit H = Charge P = Prepaid R = Deferred Debit VIC Edit: If not submitted by the acquirer, BASE II will populate this field. Electronic Data Quality Program transactions must contain the account funding source that was used in the original authorization.",
-      "similarity_ratio": 0.692,
+      "field": "contenido",
+      "old": "This field will contain the Account Funding Source that was used in a transaction. Space C = Credit D = Debit H = Charge P = Prepaid R = Deferred Debit VIC Edit: If not submitted by the acquirer, BASE II will populate this field.",
+      "new": "This field will contain the Account Funding Source that was used in a transaction. Space C = Credit D = Debit H = Charge P = Prepaid R = Deferred Debit VIC Edit: If not submitted by the acquirer, BASE II will populate this field. Electronic Data Quality Program transactions must contain the account funding source that was used in the original authorization.",
+      "similarity_ratio": 0.779,
       "title": "TC 05 - TCR 5 Payment Service Data",
       "field_name": "Account Funding Source",
       "ai_category": "business_rule_change",
-      "ai_reason": "La nueva edición añade una regla de negocio que las transacciones del Electronic Data Quality Program deben incluir la fuente de fondos del cuenta original, lo que modifica el requisito para el campo.",
+      "ai_reason": "La nueva edición añade una regla de negocio que las transacciones del Electronic Data Quality Program deben incluir el source de fondos en la autorización original, lo que modifica el requisito de contenido.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -502,7 +473,7 @@
     {
       "change_type": "card_content_changed",
       "position": "46",
-      "field": "description",
+      "field": "contenido",
       "old": "Indicates if biller will accept an electronic change request as official notification. This field will contain one of these values: Y = Biller accepts an electronic change request as official notification N = Biller does not accept an electronic change request as official notifi cation",
       "new": "Indicates if biller will accept an electronic change request as official notification. This field will contain one of these values: Y = Biller accepts an electronic change request as official notification N = Biller does not accept an electronic change request as official notifi­ cation",
       "similarity_ratio": 0.974,
@@ -534,9 +505,7 @@
             "AN",
             "Enabler Verification Value"
           ]
-        }
-      ],
-      "remaining_reserved": [
+        },
         {
           "position": "106-113",
           "cells": [
@@ -545,7 +514,9 @@
             "AN",
             "Visa Merchant Identifier"
           ]
-        },
+        }
+      ],
+      "remaining_reserved": [
         {
           "position": "114-168",
           "cells": [
@@ -590,9 +561,7 @@
             "values": "",
             "mapping": ""
           }
-        }
-      ],
-      "remaining_reserved": [
+        },
         {
           "position": "106-113",
           "card": {
@@ -607,7 +576,9 @@
             "values": "",
             "mapping": ""
           }
-        },
+        }
+      ],
+      "remaining_reserved": [
         {
           "position": "114-168",
           "card": {
@@ -628,14 +599,14 @@
     {
       "change_type": "card_content_changed",
       "position": "97-100",
-      "field": "description",
+      "field": "contenido",
       "old": "This field will contain the agreement ID associated with the agreed fee rate.",
       "new": "This field will contain the agreement ID associated with the agreed fee rate. This field must contain a D.",
       "similarity_ratio": 0.842,
       "title": "TC 33 - TCR 1 BASE II Clearing and Settlement Advice",
       "field_name": "Agreement ID",
       "ai_category": "business_rule_change",
-      "ai_reason": "La nueva edición añade una regla de que el campo debe contener una 'D', lo que modifica el valor válido del campo.",
+      "ai_reason": "La nueva edición añade una condición específica que el campo debe contener una 'D', lo que modifica el valor válido del campo.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -726,34 +697,6 @@
           }
         }
       ]
-    },
-    {
-      "change_type": "card_content_changed",
-      "position": "158-159",
-      "field": "name",
-      "old": "Multiple Clearing Sequence Number",
-      "new": "character Multiple Clearing Sequence Number",
-      "similarity_ratio": 0.868,
-      "title": "TC 33.A - CP 01 TCR 8 Supplemental Data",
-      "field_name": "Multiple Clearing Sequence Number",
-      "ai_category": "editorial_reword",
-      "ai_reason": "El texto describe el mismo concepto, solo se añadió la palabra 'character' al inicio para especificar el tipo de dato.",
-      "disappeared_content": [],
-      "safety_net_override": false
-    },
-    {
-      "change_type": "card_content_changed",
-      "position": "65-84",
-      "field": "name",
-      "old": "American Express Seller ID",
-      "new": "character American Express Seller ID",
-      "similarity_ratio": 0.839,
-      "title": "TC 33.A - CP 01 TCR B Gateway Data (Cont'd)",
-      "field_name": "American Express Seller ID",
-      "ai_category": "editorial_reword",
-      "ai_reason": "El texto describe el mismo concepto pero añade 'character' al inicio para especificar el tipo de dato, sin alterar el significado o valor de negocio.",
-      "disappeared_content": [],
-      "safety_net_override": false
     },
     {
       "change_type": "field_became_defined",
@@ -857,28 +800,14 @@
     {
       "change_type": "card_content_changed",
       "position": "59-78",
-      "field": "description",
-      "old": "This field will contain the Tax Document Type in OCT transactions in Latin America. Field Comments Identifier Peru RUC Registro Tag 05- Business tax Unico de Merchant VAT identification Contrib­ Registration/ uyentes Single Business Reference Number DNI Documento Tag 06- Individual tax Nacional de Customer VAT identification Identidad Registration Number",
+      "field": "contenido",
+      "old": "This field will contain the Tax Document Type in OCT transactions in Latin America. Field Comments Identifier Peru RUC Registro Tag 05- Business tax Unico de Merchant VAT identification Contrib­ Registration/ uyentes Single Business Reference Number DNI Documento Tag 06- Individual tax Nacional de Customer VAT identification Identidad Registration Number Country Tax",
       "new": "This field will contain the Tax Document Type in OCT transactions in Latin America. Values: Country Tax Field Comments Identifier Peru RUC Registro Tag 05- Business tax Unico de Merchant VAT identification Contrib­ Registration/ uyentes Single Business Reference Number DNI Documento Tag 06- Individual tax Nacional de Customer VAT identification Identidad Registration Number",
-      "similarity_ratio": 0.973,
+      "similarity_ratio": 0.957,
       "title": "TC 33.A - CP 09 TCR 1 Push Payment - Original Credit Transactions",
       "field_name": "Tax Document Type",
-      "ai_category": "editorial_reword",
-      "ai_reason": "El texto describe lo mismo pero con un orden de palabras y ajustes menores en la redacción, sin cambios en el significado o valores válidos.",
-      "disappeared_content": [],
-      "safety_net_override": false
-    },
-    {
-      "change_type": "card_content_changed",
-      "position": "59-78",
-      "field": "values",
-      "old": "Country Tax",
-      "new": "",
-      "similarity_ratio": 0.0,
-      "title": "TC 33.A - CP 09 TCR 1 Push Payment - Original Credit Transactions",
-      "field_name": "Tax Document Type",
-      "ai_category": "extraction_noise",
-      "ai_reason": "El campo 'Tax Document Type' en la edición nueva está vacío, lo que sugiere un artefacto de extracción de PDF en lugar de un cambio real de contenido.",
+      "ai_category": "business_rule_change",
+      "ai_reason": "El texto nuevo incluye 'Values: Country Tax' y reorganiza los comentarios para especificar valores válidos, cambiando la definición del campo.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -980,7 +909,7 @@
       "title": "TC 33.A - CP 12 TCR 1 Merchant Data",
       "field_name": "Agent Unique ID and Enabler Verification Value",
       "ai_category": "extraction_noise",
-      "ai_reason": "El texto cortado en la edición vieja ('ANS') y la edición nueva ('AN') sugiere un artefacto de extracción de PDF, ya que el campo debería tener una longitud fija de 10 bytes pero se muestra con 3 y 2 caracteres respectivamente.",
+      "ai_reason": "El texto cortado en la edición vieja ('ANS') y la edición nueva ('AN') sugiere un artefacto de extracción de PDF, ya que el campo debería ser de 10 caracteres pero se muestra como 3 en ambas ediciones.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1015,36 +944,19 @@
     {
       "change_type": "card_content_changed",
       "position": "138-148",
-      "field": "description",
-      "old": "This field will contain the VIP Field's 126.18 data, which includes the Enabler Verification. This is the field's layout: Position 1-5 - Agent Unique ID",
+      "field": "contenido",
+      "old": "This field will contain the VIP Field's 126.18 data, which includes the Enabler Verification. This is the field's layout: Position 1-5 - Agent Unique ID Position 6-10 - Enabler Verification Value Position 11 - Reserved",
       "new": "This field will contain Agent Unique ID and Enabler Verifi­ cation Value. Layout: Position 1-5 - Agent Unique ID Position 6-10 - EVV Position 11 - Open",
-      "similarity_ratio": 0.594,
+      "similarity_ratio": 0.683,
       "title": "TC 33.A - CP 12 TCR 1 Merchant Data",
       "field_name": "Agent Unique ID and Enabler Verification Value",
       "ai_category": "business_rule_change",
-      "ai_reason": "El campo ahora incluye información adicional sobre la estructura (posiciones 6-10 para EVV y 11 para Open) y redefine el contenido del campo, no solo el Agent Unique ID.",
+      "ai_reason": "El campo se redefine desde 'Agent Unique ID and Enabler Verification' a 'Agent Unique ID and Enabler Verification Value' con una nueva estructura de campos y un campo reservado en lugar de 'Reserved'.",
       "disappeared_content": [
         "the VIP Field's 126.18 data, which includes the",
         "Verification. This is the field's layout:"
       ],
       "safety_net_override": false
-    },
-    {
-      "change_type": "card_content_changed",
-      "position": "149-168",
-      "field": "description",
-      "old": "Position 6-10 - Enabler Verification Value Position 11 - Reserved This field is reserved for future use.",
-      "new": "This field is reserved for future use.",
-      "similarity_ratio": 0.535,
-      "title": "TC 33.A - CP 12 TCR 1 Merchant Data",
-      "field_name": "Reserved",
-      "ai_category": "business_rule_change",
-      "ai_reason": "El texto describe el mismo concepto pero elimina la parte redundante 'Position 6-10 - Enabler Verification Value Position 11 - ' para ser más conciso.",
-      "disappeared_content": [
-        "Position 6-10 - Enabler Verification Value Position 11 - Reserved"
-      ],
-      "safety_net_override": true,
-      "ai_original_category": "editorial_reword"
     },
     {
       "change_type": "row_added",
@@ -1152,7 +1064,7 @@
       "card": {
         "type": "field_card",
         "page": 575,
-        "name": "character Reserved",
+        "name": "Reserved",
         "positions": "109-168",
         "length": "60",
         "format": "alphanumeric",
@@ -1180,6 +1092,21 @@
     {
       "change_type": "card_content_changed",
       "position": "64-73",
+      "field": "name",
+      "old": "Mastercard - Service Location Postal Code",
+      "new": "Mastercard Service Location Postal Code",
+      "similarity_ratio": 0.975,
+      "title": "TC 33.A - CP 12 TCR 4 Gateway Data, continuation",
+      "matched_by": "position_shift",
+      "field_name": "Mastercard - Service Location Postal Code",
+      "ai_category": "editorial_reword",
+      "ai_reason": "El texto cambia de 'Mastercard - Service Location Postal Code' a 'Mastercard Service Location Postal Code', eliminando el guion y el espacio antes de 'Service', pero mantiene el mismo significado sin alterar el contenido o reglas de negocio.",
+      "disappeared_content": [],
+      "safety_net_override": false
+    },
+    {
+      "change_type": "card_content_changed",
+      "position": "64-73",
       "field": "length",
       "old": "9",
       "new": "10",
@@ -1195,7 +1122,7 @@
     {
       "change_type": "card_content_changed",
       "position": "64-73",
-      "field": "description",
+      "field": "contenido",
       "old": "This field contains the Server Location Postal Code.",
       "new": "This field will contain the service location postal code.",
       "similarity_ratio": 0.844,
@@ -1226,28 +1153,28 @@
       "change_type": "card_content_changed",
       "position": "74-109",
       "field": "format",
-      "old": "alphanumeric special",
+      "old": "alphanumeric special character",
       "new": "alphanumeric",
-      "similarity_ratio": 0.75,
+      "similarity_ratio": 0.571,
       "title": "TC 33.A - CP 12 TCR 4 Gateway Data, continuation",
       "matched_by": "position_shift",
       "field_name": "Mastercard Transaction Link Identifier/Gateway Life Cycle Trace\nIdentifier",
       "ai_category": "business_rule_change",
-      "ai_reason": "El campo de identificador cambia de 'alphanumeric special' a 'alphanumeric', lo que redefine el conjunto de caracteres permitidos para el identificador.",
+      "ai_reason": "El campo de identificación cambió de permitir caracteres especiales a solo alfanuméricos, lo que modifica el rango de valores válidos.",
       "disappeared_content": [],
       "safety_net_override": false
     },
     {
       "change_type": "card_content_changed",
       "position": "17-18",
-      "field": "description",
+      "field": "contenido",
       "old": "This field will contain a code that indicates the V.I.P. method by which a point-of-transaction terminal obtains and transmits the cardholder information necessary to complete a transaction. For valid values, see Full Service POS Online Messages Technical Specifi cations.",
       "new": "This field will contain a code that indicates the V.I.P. method by which a point-of-transaction terminal obtains and transmits the cardholder information necessary to complete a transaction. For valid values, see Full Service POS Online Messages Technical Specifi­ cations.",
       "similarity_ratio": 0.965,
       "title": "TC 33.B - CP 51 TCR 1 Additional Data",
       "field_name": "POS Entry Mode",
       "ai_category": "editorial_reword",
-      "ai_reason": "El texto solo cambia el formato de la palabra 'Specifi cations' con un guion en lugar de espacio, pero el significado y contenido permanecen iguales.",
+      "ai_reason": "El texto solo tiene una diferencia de un acento en 'Specifi­ cations' que no cambia el significado.",
       "disappeared_content": [],
       "safety_net_override": false
     },
@@ -1293,14 +1220,14 @@
     {
       "change_type": "card_content_changed",
       "position": "129-133",
-      "field": "description",
+      "field": "contenido",
       "old": "This field must contain a valid Agent Unique ID.",
       "new": "This field will contain A-Z, 0-9, or all characters as spaces. Non-alphanumeric values are not allowed.",
       "similarity_ratio": 0.424,
       "title": "TC 38 - TCR 2 VDAS Advice",
       "field_name": "Enabler Verification Value",
       "ai_category": "business_rule_change",
-      "ai_reason": "La descripción cambia de requerir un ID válido a permitir solo caracteres alfanuméricos o espacios, excluyendo valores no alfanuméricos, lo que redefine los valores permitidos.",
+      "ai_reason": "El texto nuevo define un rango de valores permitidos (A-Z, 0-9, espacios) y excluye valores no alfanuméricos, mientras que el texto viejo solo indicaba que debe contener un ID único válido, lo que implica un cambio en las reglas de validación.",
       "disappeared_content": [
         "a valid Agent Unique ID."
       ],
@@ -1391,9 +1318,7 @@
             "AN",
             "Benefit Program Product"
           ]
-        }
-      ],
-      "remaining_reserved": [
+        },
         {
           "position": "143-151",
           "cells": [
@@ -1402,7 +1327,9 @@
             "AN",
             "Benefit Administrator ID"
           ]
-        },
+        }
+      ],
+      "remaining_reserved": [
         {
           "position": "152-168",
           "cells": [
@@ -1447,9 +1374,7 @@
             "values": "",
             "mapping": ""
           }
-        }
-      ],
-      "remaining_reserved": [
+        },
         {
           "position": "143-151",
           "card": {
@@ -1464,7 +1389,9 @@
             "values": "",
             "mapping": ""
           }
-        },
+        }
+      ],
+      "remaining_reserved": [
         {
           "position": "152-168",
           "card": {
@@ -1484,8 +1411,8 @@
     }
   ],
   "ai_summary": {
-    "business_rule_change": 36,
-    "editorial_reword": 7,
-    "extraction_noise": 3
+    "business_rule_change": 35,
+    "editorial_reword": 4,
+    "extraction_noise": 2
   }
 }

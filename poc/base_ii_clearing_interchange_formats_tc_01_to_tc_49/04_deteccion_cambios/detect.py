@@ -91,14 +91,27 @@ CONTENT_SIMILARITY_THRESHOLD = 0.98
 WHITESPACE = re.compile(r"\s+")
 
 GRID_COLUMNS = ["Position", "Field Length", "Format", "Contents"]
-CARD_FIELDS = ["name", "length", "format", "description", "note", "values", "mapping"]
+CARD_STRUCTURAL_FIELDS = ["name", "length", "format"]
+CARD_TEXT_FIELDS = ["description", "note", "values", "mapping"]
+CARD_FIELDS = CARD_STRUCTURAL_FIELDS + CARD_TEXT_FIELDS
 
 RESERVED_PATTERN = re.compile(r"^reserved$", re.IGNORECASE)
 POSITION_RANGE = re.compile(r"^(\d+)(?:-(\d+))?$")
+# Confirmado con datos reales: la edicion vieja extrae el glifo de vineta de las listas
+# "Edit Criteria" como la letra "l" suelta, a veces DESPUES del item en vez de antes
+# (artefacto de orden de extraccion de Modulo 1 -bullet en fuente simbolo, se lee distinto
+# segun el renderer del PDF de origen), mientras que la nueva usa "●" en la posicion
+# correcta. Mismo contenido de negocio, glifo/orden de bullet distinto -sin neutralizarlo
+# antes de medir similitud, cae lo suficiente como para disparar un diff que no es real.
+BULLET_TOKEN_PATTERN = re.compile(r"(?<!\S)[l●](?!\S)")
 
 
 def _normalize_text(text: str) -> str:
     return WHITESPACE.sub(" ", text).strip()
+
+
+def _similarity_text(text: str) -> str:
+    return _normalize_text(BULLET_TOKEN_PATTERN.sub(" ", text))
 
 
 def _parse_range(position: str):
@@ -133,20 +146,72 @@ def _detect_reserved_splits(removed_items: list, added_items: list, contents_key
             if start_r <= start_a and end_a <= end_r:
                 contained.append(added)
 
-        new_fields = [
-            a
-            for a in contained
-            if _parse_range(a["position"])[0] == start_r
+        # El disparador sigue siendo "algun campo nuevo arranca justo al inicio del rango
+        # Reserved" (patron real de Visa, ver docstring del modulo). Pero una vez confirmado
+        # que es un split real, TODOS los campos no-Reserved contenidos son campos nuevos, no
+        # solo el que arranca al inicio -Visa puede tallar varios campos de una sola vez en el
+        # mismo rango (ver NOTES.md, caso Recipient Name: se agregaron 3 campos, no 1, y los
+        # otros 2 quedaban mal etiquetados como "Reserved restante").
+        starts_at_front = any(
+            _parse_range(a["position"])[0] == start_r
             and not RESERVED_PATTERN.match(_normalize_text(contents_key(a)))
-        ]
-        if not new_fields:
+            for a in contained
+        )
+        if not starts_at_front:
             continue
+
+        new_fields = [
+            a for a in contained if not RESERVED_PATTERN.match(_normalize_text(contents_key(a)))
+        ]
 
         splits.append({"removed": removed, "new_fields": new_fields, "contained": contained})
         for a in contained:
             consumed_added_ids.add(id(a))
 
     return splits, consumed_added_ids
+
+
+def _detect_reserved_merges(removed_items: list, added_items: list, contents_key) -> tuple:
+    """Inverso de `_detect_reserved_splits`, para el caso donde un campo definido se retira a
+    Reserved pero SIN conservar su rango exacto -el limite se corrio porque un campo vecino
+    tambien cambio de posicion en la misma edicion (confirmado con datos reales, ver
+    NOTES.md: TC 33.A - CP 12 TCR 5, "Mastercard - Service Location Postal Code" 64-73 se
+    retira a Reserved a la vez que el campo vecino "Mastercard Transaction Link
+    Identifier/..." se corre de 74-109 a 73-108, dejando el Reserved nuevo en 64-72, 1 byte
+    mas chico que el original). Sin esto, el removido queda como `row_removed`/`card_removed`
+    suelto y el agregado como `row_added`/`card_added` suelto, sin conectar la señal real: un
+    campo definido paso a Reserved. A diferencia de `_reserved_transition` (que exige el
+    MISMO rango de posiciones, ya emparejado por Modulo 3), aca el rango cambia, por lo que
+    Modulo 3 nunca los empareja -se buscan por superposicion de rango entre removed/added."""
+    merges = []
+    consumed_added_ids = set()
+
+    for removed in removed_items:
+        contents = _normalize_text(contents_key(removed))
+        if RESERVED_PATTERN.match(contents):
+            continue
+        start_r, end_r = _parse_range(removed["position"])
+        if start_r is None:
+            continue
+
+        overlapping = []
+        for added in added_items:
+            if not RESERVED_PATTERN.match(_normalize_text(contents_key(added))):
+                continue
+            start_a, end_a = _parse_range(added["position"])
+            if start_a is None:
+                continue
+            if start_a <= end_r and start_r <= end_a:
+                overlapping.append(added)
+
+        if not overlapping:
+            continue
+
+        merges.append({"removed": removed, "new_reserved": overlapping})
+        for a in overlapping:
+            consumed_added_ids.add(id(a))
+
+    return merges, consumed_added_ids
 
 
 def _reserved_transition(contents_a: str, contents_b: str) -> str:
@@ -191,14 +256,13 @@ def _diff_row_cells(position: str, cells_a: list, cells_b: list, start_index: in
     return changes
 
 
-def _diff_card_fields(position: str, card_a: dict, card_b: dict, include_positions: bool = False) -> list:
+def _diff_fields(position: str, card_a: dict, card_b: dict, fields: list) -> list:
     changes = []
-    fields = ["positions"] + CARD_FIELDS if include_positions else CARD_FIELDS
     for field in fields:
         norm_a, norm_b = _normalize_text(card_a.get(field, "")), _normalize_text(card_b.get(field, ""))
         if norm_a == norm_b:
             continue
-        ratio = difflib.SequenceMatcher(None, norm_a, norm_b).ratio()
+        ratio = difflib.SequenceMatcher(None, _similarity_text(norm_a), _similarity_text(norm_b)).ratio()
         if ratio >= CONTENT_SIMILARITY_THRESHOLD:
             continue
         changes.append(
@@ -211,6 +275,52 @@ def _diff_card_fields(position: str, card_a: dict, card_b: dict, include_positio
                 "similarity_ratio": round(ratio, 3),
             }
         )
+    return changes
+
+
+def _diff_card_fields(position: str, card_a: dict, card_b: dict, include_positions: bool = False) -> list:
+    """`description`/`note`/`values`/`mapping` (`CARD_TEXT_FIELDS`) son columnas de texto
+    libre cuyo limite entre si depende de que la edicion del PDF haya usado un rotulo
+    explicito ("Note:", "Values:", etc.) -confirmado con datos reales (Modulo 1/2, ver
+    NOTES.md) que Visa a veces elimina ese rotulo entre ediciones sin cambiar el contenido: el
+    texto que antes caia en `note` pasa a acumularse en `description` (Modulo 2 no tiene forma
+    de saber que el rotulo "deberia" estar ahi). Diffear esas 4 columnas por separado, incluso
+    solo como gate previo, sigue fallando cuando ADEMAS del corrimiento de limite hay una
+    edicion real minuscula en el texto migrado (ej. se le saco la palabra "Please" a "Please
+    see BASE II Clearing Data Codes..."): el combinado ya no es identico (dispara el diff),
+    pero diffear cada columna por separado contra su MISMO nombre de la otra edicion sigue
+    mostrando `note` "vaciandose" y `description` "creciendo" -exactamente el mismo falso
+    relato, solo que ahora con una excusa real para no filtrarlo del todo. Por eso, si el
+    combinado de las 4 difiere, se reporta UN solo cambio de "contenido" con el combinado
+    completo de cada lado (mismo orden en el que aparecen en la ficha real, concatenacion
+    estable entre ediciones) en vez de intentar atribuirlo a una columna especifica -se
+    pierde la etiqueta fina (¿era description o note?), pero se gana no mentir sobre que
+    columna "perdio"/"gano" contenido cuando en realidad solo se re-segmento."""
+    changes = []
+
+    if include_positions:
+        changes.extend(_diff_fields(position, card_a, card_b, ["positions"]))
+
+    changes.extend(_diff_fields(position, card_a, card_b, CARD_STRUCTURAL_FIELDS))
+
+    combined_a = _normalize_text(" ".join(card_a.get(f, "") for f in CARD_TEXT_FIELDS))
+    combined_b = _normalize_text(" ".join(card_b.get(f, "") for f in CARD_TEXT_FIELDS))
+    if combined_a == combined_b:
+        return changes
+    ratio = difflib.SequenceMatcher(None, _similarity_text(combined_a), _similarity_text(combined_b)).ratio()
+    if ratio >= CONTENT_SIMILARITY_THRESHOLD:
+        return changes
+
+    changes.append(
+        {
+            "change_type": "card_content_changed",
+            "position": position,
+            "field": "contenido",
+            "old": combined_a,
+            "new": combined_b,
+            "similarity_ratio": round(ratio, 3),
+        }
+    )
     return changes
 
 
@@ -314,12 +424,52 @@ def detect_changes(match_result: dict) -> dict:
                 }
             )
 
+        row_merges, row_merge_consumed = _detect_reserved_merges(
+            section["rows_removed"], section["rows_added"], lambda r: r["cells"][3]
+        )
+        for merge in row_merges:
+            changes.append(
+                {
+                    "change_type": "field_became_reserved",
+                    "kind": "row",
+                    "subtype": "shifted",
+                    "title": title,
+                    "removed_position": merge["removed"]["position"],
+                    "removed_cells": merge["removed"]["cells"],
+                    "new_reserved": [
+                        {"position": r["position"], "cells": r["cells"]} for r in merge["new_reserved"]
+                    ],
+                }
+            )
+        row_consumed = row_consumed | row_merge_consumed
+
+        card_merges, card_merge_consumed = _detect_reserved_merges(
+            section["cards_removed"], section["cards_added"], lambda c: c["card"]["name"]
+        )
+        for merge in card_merges:
+            changes.append(
+                {
+                    "change_type": "field_became_reserved",
+                    "kind": "card",
+                    "subtype": "shifted",
+                    "title": title,
+                    "removed_position": merge["removed"]["position"],
+                    "removed_card": merge["removed"]["card"],
+                    "new_reserved": [
+                        {"position": c["position"], "card": c["card"]} for c in merge["new_reserved"]
+                    ],
+                }
+            )
+        card_consumed = card_consumed | card_merge_consumed
+
         for row in section["rows_added"]:
             if id(row) in row_consumed:
                 continue
             changes.append({"change_type": "row_added", "title": title, "position": row["position"], "cells": row["cells"]})
         for row in section["rows_removed"]:
-            if any(row is split["removed"] for split in row_splits):
+            if any(row is split["removed"] for split in row_splits) or any(
+                row is merge["removed"] for merge in row_merges
+            ):
                 continue
             changes.append({"change_type": "row_removed", "title": title, "position": row["position"], "cells": row["cells"]})
         for row in section["rows_matched"]:
@@ -354,7 +504,9 @@ def detect_changes(match_result: dict) -> dict:
                 {"change_type": "card_added", "title": title, "position": card["position"], "card": card["card"]}
             )
         for card in section["cards_removed"]:
-            if any(card is split["removed"] for split in card_splits):
+            if any(card is split["removed"] for split in card_splits) or any(
+                card is merge["removed"] for merge in card_merges
+            ):
                 continue
             changes.append(
                 {"change_type": "card_removed", "title": title, "position": card["position"], "card": card["card"]}

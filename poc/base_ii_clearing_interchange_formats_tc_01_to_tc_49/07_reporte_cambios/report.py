@@ -116,6 +116,14 @@ def _render_field_transitions(lines: list, heading: str, items: list) -> None:
                     f"- Posición `{e['removed_position']}` (Reserved) se partió en: {new_names}. "
                     f"Reserved restante: {remaining_str}. _(confirmado en {confirmed_str})_"
                 )
+            elif e.get("subtype") == "shifted":
+                removed = {"cells": e["removed_cells"]} if e["kind"] == "row" else {"card": e["removed_card"]}
+                old_name = _field_display_name(removed)
+                reserved_str = ", ".join(f"{r['position']} Reserved" for r in e["new_reserved"])
+                lines.append(
+                    f"- Posición `{e['removed_position']}` **{old_name}** → Reserved "
+                    f"(límite corrido por campo vecino): {reserved_str}. _(confirmado en {confirmed_str})_"
+                )
             else:
                 if e["kind"] == "row":
                     old_name, new_name = e["cells_a"][3], e["cells_b"][3]

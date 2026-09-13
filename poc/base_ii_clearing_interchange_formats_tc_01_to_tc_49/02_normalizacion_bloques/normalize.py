@@ -230,6 +230,20 @@ def build_blocks(lines: list) -> tuple:
     active_heading = None
     active_card = None
     active_card_right_label = None  # ultima etiqueta de columna derecha activa (Description/Note/Values/Mapping)
+    active_card_left_label = None  # ultima etiqueta de columna izquierda activa (Length/Format)
+    active_card_left_block = None  # source_block de esa etiqueta, para reconocer sus lineas de wrap
+    # "Length:"/"Format:" pueden envolver en 2+ lineas (ej. "Format: alphanumeric special" +
+    # "character" -confirmado con datos reales, ver NOTES.md: el valor real es "alphanumeric
+    # special character", partido en 2 lineas por ancho de columna). La linea de wrap no
+    # tiene ninguna etiqueta que la identifique como tal (mismo problema que las
+    # continuaciones de columna derecha sin "Note:"/etc., ver `active_card_right_label`), asi
+    # que sin este chequeo caía en el catch-all de parrafo generico y se pegaba como prefijo
+    # del NOMBRE del PROXIMO campo ("character Sender Name" en vez de "Sender Name"). Se
+    # distingue una linea de wrap real de "es el nombre del proximo campo, tambien columna
+    # izquierda sin etiqueta" por `source_block`: Modulo 1 ya agrupa el wrap dentro del MISMO
+    # bloque fisico que su "Length:"/"Format:", mientras que el nombre del proximo campo es
+    # necesariamente un bloque nuevo -señal exacta, no una heuristica de hueco en Y que puede
+    # fallar por unos pocos puntos entre ediciones.
     # La 1ra linea de `Description:` de una ficha comparte banda Y con el nombre del campo
     # (misma "fila" visual) y por eso aparece en el stream ANTES de "Positions:" -a
     # diferencia de Note/Values/Mapping, que siempre llegan DESPUES (comparten banda Y con
@@ -279,7 +293,7 @@ def build_blocks(lines: list) -> tuple:
         active_heading = None
 
     def flush_card():
-        nonlocal active_card, active_card_right_label
+        nonlocal active_card, active_card_right_label, active_card_left_label, active_card_left_block
         if active_card:
             blocks.append(
                 {
@@ -297,6 +311,8 @@ def build_blocks(lines: list) -> tuple:
             )
         active_card = None
         active_card_right_label = None
+        active_card_left_label = None
+        active_card_left_block = None
 
     def flush_paragraph():
         nonlocal active_paragraph
@@ -328,6 +344,7 @@ def build_blocks(lines: list) -> tuple:
         page = line["page"]
         size = line["max_font_size"]
         x0, y0, y1 = line["bbox"][0], line["bbox"][1], line["bbox"][3]
+        source_block = line.get("source_block")
 
         # --- Encabezado de seccion (TC/CP/TCR) ---
         if size in SECTION_HEADING_FONT_SIZES and SECTION_HEADING_PATTERN.match(text):
@@ -412,6 +429,19 @@ def build_blocks(lines: list) -> tuple:
             and page == active_paragraph["page"]
             and abs(y0 - active_paragraph["last_y0"]) < 3.0
         )
+        # Mismo problema que arriba pero para Note/Values/Mapping (etiquetados), sin el
+        # limite estrecho de banda Y: confirmado con datos reales (TC 33.A - CP 01 TCR 1,
+        # "Mail/Phone/Electronic Commerce and Payment Indicator", nombre envuelto en 3
+        # lineas) que cuando el nombre del PROXIMO campo se envuelve en varias lineas,
+        # "Positions:" se corre varios puntos hacia abajo, pero el "Note:" de columna
+        # derecha del proximo campo mantiene su posicion Y fija -terminando, tras el
+        # ordenamiento por Y de este modulo, ANTES que el propio "Positions:" del campo al
+        # que pertenece. Sin este chequeo generico, ese "Note:" se pegaba a la ficha
+        # anterior (todavia "activa" porque no se cierra hasta ver su propio "Positions:"),
+        # dejando la ficha correcta sin su nota y la anterior con una nota ajena.
+        next_name_pending = (
+            x0 >= CARD_X_SPLIT and active_paragraph is not None and page == active_paragraph["page"]
+        )
 
         if left_label:
             label, rest = left_label.group(1), left_label.group(2)
@@ -451,14 +481,17 @@ def build_blocks(lines: list) -> tuple:
             elif active_card is not None:
                 if label == "Length":
                     active_card["length"] = rest
+                    active_card_left_label = "length"
                 elif label == "Format":
                     active_card["format"] = rest
+                    active_card_left_label = "format"
+                active_card_left_block = source_block
             continue
 
         if right_label:
             label, rest = right_label.group(1), right_label.group(2)
             key = label.lower()
-            if active_card is not None and not same_row_as_next_name:
+            if active_card is not None and not next_name_pending:
                 active_card[key] = (active_card[key] + " " + rest).strip()
                 active_card_right_label = key
             else:
@@ -490,6 +523,20 @@ def build_blocks(lines: list) -> tuple:
 
         if x0 >= CARD_X_SPLIT and active_card is not None and active_card_right_label:
             active_card[active_card_right_label] += " " + text
+            continue
+
+        # Wrap de "Length:"/"Format:" (ver `active_card_left_label` mas arriba): misma
+        # `source_block` que la linea que puso la etiqueta -asi se distingue de el nombre del
+        # PROXIMO campo, que es necesariamente un bloque nuevo aunque tambien sea columna
+        # izquierda sin etiqueta.
+        if (
+            x0 < CARD_X_SPLIT
+            and active_card is not None
+            and active_card_left_label
+            and source_block is not None
+            and source_block == active_card_left_block
+        ):
+            active_card[active_card_left_label] = (active_card[active_card_left_label] + " " + text).strip()
             continue
 
         # --- Catch-all: parrafo narrativo (titulos de tabla/ficha, subtitulos, intro,
