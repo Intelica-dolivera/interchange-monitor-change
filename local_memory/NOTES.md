@@ -4165,14 +4165,26 @@ resumen completa de los 8 manuales.
 **Cierra la iniciativa de revisión manual** iniciada 2026-09-12 (ver sección de esa fecha,
 arriba). Total de bugs reales encontrados y arreglados en las 2 sesiones: 6 en
 `tc_01_to_tc_49` (2026-09-12, commit `d7eb95f`), 2 en `base_ii_clearing_data_codes` y 1 en
-`international_full_service_pos_online_messages_processing_specifications` (2026-09-13, sin
-commitear todavía). Los otros 5 manuales (incluyendo los 2 VSS) no tuvieron ningún hallazgo de
+`international_full_service_pos_online_messages_processing_specifications` (2026-09-13,
+commit `5cc44d4`). Los otros 5 manuales (incluyendo los 2 VSS) no tuvieron ningún hallazgo de
 pipeline -reportes ya validados como confiables contra el PDF real.
 
-**Próximo paso**: el usuario decide cuándo confirmar el commit de los cambios de código de esta
-sesión (`base_ii_clearing_data_codes/02_normalizacion_bloques/normalize.py`,
-`base_ii_clearing_data_codes/04_deteccion_cambios/detect.py`,
-`international_full_service_pos_online_messages_processing_specifications/
-03_emparejamiento_bloques/match.py`, más todos los `data/*` regenerados). Después de esto, no
-hay una "próxima ronda" de revisión manual pendiente -los 8 manuales ya están cubiertos; futuras
-rondas dependerían de nuevas ediciones de los PDFs fuente.
+**Commit confirmado**: el usuario pidió explícitamente "commitea todo, pero no hagas push
+aun" -commit `5cc44d4` (2026-09-13), working tree limpio salvo `.claude/settings.local.json`
+(config local, deliberadamente sin trackear). Sin push todavía, a la espera de que el usuario
+lo pida.
+
+**Extra de esta sesión, no relacionado a bugs**: se agregó una pestaña "Leyenda de términos"
+al reporte web consolidado (`08_reporte_web_consolidado/template.html`), con la definición de
+cada pill (agregados/eliminados) por manual -a pedido del usuario, que se confundía con tantos
+términos distintos entre los 8 adaptadores. También quedó documentado (solo como respuesta,
+sin implementar) que extender el detalle de los "*_agregados"/"*_eliminados" al reporte web
+(mostrar el `groups` completo, no solo el conteo en el pill) es un cambio acotado y de bajo
+riesgo -los datos ya existen completos en `04_deteccion_cambios/*.json` (Módulo 4,
+determinístico, sin IA), solo falta que los adaptadores de Módulo 8 los expongan. Si se pide en
+el futuro, no requiere re-correr Ollama, solo tocar los 8 adaptadores + `template.html` y
+volver a correr `build.py`.
+
+**Próximo paso**: no hay una "próxima ronda" de revisión manual pendiente -los 8 manuales ya
+están cubiertos; futuras rondas dependerían de nuevas ediciones de los PDFs fuente. El usuario
+decide cuándo hacer push del commit `5cc44d4`.

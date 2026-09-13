@@ -1727,6 +1727,6 @@ Con esto, **los 8 manuales del proyecto quedan con revisión manual completa** (
 | `visanet_settlement_service_vss_user_guide_volume_1_specifications` | limpio (0 cambios en el par vigente) |
 | `visanet_settlement_service_vss_user_guide_volume_2_reports` | limpio (item 31) |
 
-**Pendiente**: confirmar el commit de los cambios de código de esta sesión (items 27/28/30, sin
-commitear todavía -el usuario valida antes de guardar, ver [[feedback-manual-review-workflow]]).
+**Cerrado**: el usuario validó y confirmó el commit de los cambios de código de esta sesión
+(items 27/28/30) — commit `5cc44d4` (2026-09-13, sin push todavía).
 - Ref: `revison_manual_2026-09-13.md` de `vss_volume_2` en el repo.
