@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T16:06:10+00:00",
+  "generated_at": "2026-09-24T14:21:29+00:00",
   "manuals": [
     {
       "edition_a": "20251018",
@@ -11,19 +11,227 @@
       "secondary": [
         {
           "label": "Altas",
-          "value": 24
+          "value": 24,
+          "details": [
+            {
+              "group": "Tablas completas",
+              "text": "Member Settlement Data-Record Type Codes — REPORT GROUP=SPACE (9 filas)"
+            },
+            {
+              "group": "Tablas completas",
+              "text": "Member Settlement Data-Record Type Codes — REPORT GROUP = SPACES (BASE II-5A an… (5 filas)"
+            },
+            {
+              "group": "Tablas completas",
+              "text": "Member Settlement Data-Record Type Codes — REPORT GROUP = I (Fee Change Summary) (4 filas)"
+            },
+            {
+              "group": "Tablas completas",
+              "text": "Member Settlement Data-Report-Level Indicator Codes — REPORT GROUP = SPACE (2 filas)"
+            },
+            {
+              "group": "Tablas completas",
+              "text": "Member Settlement Data-Report-Level Indicator Codes — REPORT GROUP = I (Fee Cha… (3 filas)"
+            },
+            {
+              "group": "Tablas completas",
+              "text": "Member Settlement Data-Summary-Level Codes — ALL REPORT GROUPS (2 filas)"
+            },
+            {
+              "group": "Tablas completas",
+              "text": "Member Settlement Data-Summary-Level Codes — REPORT GROUP =SPACE (3 filas)"
+            },
+            {
+              "group": "Tablas completas",
+              "text": "Member Settlement Data-Summary-Level Codes — REPORT GROUP =SPACES (BASE II-5A a… (2 filas)"
+            },
+            {
+              "group": "Tablas completas",
+              "text": "Member Settlement Data-Summary-Level Codes — REPORT GROUP =I (Fee Change Summary (3 filas)"
+            },
+            {
+              "group": "Country and Currency Codes",
+              "text": "`BOLIVIA (PLURINA- TIONAL STATE OF)` — BO | 068 | Boliviano | BOB | 068"
+            },
+            {
+              "group": "Country and Currency Codes",
+              "text": "`UNITED NATIONS INTERIM ADMINIS- TRATION MISSION IN KOSOVO (UNMIK)` — QZ | 900 | Euro S | EUR | 978"
+            },
+            {
+              "group": "Glossary",
+              "text": "`COLLECTION-ONLY TRANSACTIONS` — An intraprocessor transaction submitted to BASE II for collection only (not\nsettlement or delivery). Normal BASE II processing charges and interchange\nreimbursement fees do not apply to collection-only transactions."
+            },
+            {
+              "group": "Glossary",
+              "text": "`EA SERVER` — See Visa Extended Access Server."
+            },
+            {
+              "group": "ISO Numeric",
+              "text": "`188` — Costa Rica"
+            },
+            {
+              "group": "ISO Numeric",
+              "text": "`690` — Seychelles"
+            },
+            {
+              "group": "Maximum Credit and Debit, Prepaid, and Account Funding POS Transaction Amounts",
+              "text": "`I3` — Visa Infinite Plus\nCredit | USD$1,999,999.99 | USD$99,999.99 | USD$499,999.99"
+            },
+            {
+              "group": "Product ID Values",
+              "text": "`I3` — Visa Infinite Plus (Canada only)"
+            },
+            {
+              "group": "Product ID Values",
+              "text": "`V` — V PAY"
+            },
+            {
+              "group": "Product ID Values",
+              "text": "`W` — Visa Direct Payouts to Wallets"
+            },
+            {
+              "group": "Product ID Values",
+              "text": "`X1 F2 AND F3 IS UNAVAILABLE FOR ATM AND INTERLINK. THESE CREDIT CONSUMER PRODUCTS DO NOT ● APPLY TO AFTS, ATM CASH DISBURSEMENTS, CASHBACK, MANUAL CASH DISBURSEMENTS, AND` — Visa Commercial Choice Omni"
+            },
+            {
+              "group": "Return/Reclassification Reason Codes",
+              "text": "`HZ1` — The validation code is valid but not honored due to VFC Processing rules."
+            },
+            {
+              "group": "Return/Reclassification Reason Codes",
+              "text": "`P7` — Transaction is from unverified CEDP merchant."
+            },
+            {
+              "group": "Settlement Currencies",
+              "text": "`QATARI RIAL` — 634 | QAR"
+            },
+            {
+              "group": "The Market-Specific Authorization Data Indicator identifies the industry for wh…",
+              "text": "`● TC 57, DATA CAPTURE ADVICE: TCR 3 - TRANSACTION DETAIL, PAYMENT SERVICE DATA, POSITION` — 42"
+            }
+          ]
         },
         {
           "label": "Bajas",
-          "value": 14
+          "value": 14,
+          "details": [
+            {
+              "group": "Tablas completas",
+              "text": "Member Settlement Data-Record Type Codes (18 filas)"
+            },
+            {
+              "group": "Tablas completas",
+              "text": "Member Settlement Data-Report-Level Indicator Codes (5 filas)"
+            },
+            {
+              "group": "Tablas completas",
+              "text": "Member Settlement Data-Summary-Level Codes (10 filas)"
+            },
+            {
+              "group": "Country and Currency Codes",
+              "text": "`BOLIVIA (PLURINA­ TIONAL STATE OF)` — BO | 068 | Boliviano | BOB | 068"
+            },
+            {
+              "group": "Country and Currency Codes",
+              "text": "`UNITED NATIONS INTERIM ADMINIS­ TRATION MISSION IN KOSOVO (UNMIK)` — QZ | 900 | Euro S | EUR | 978"
+            },
+            {
+              "group": "Glossary",
+              "text": "`COLLECTION-ONLY TRANSACTION` — An intraprocessor transaction submitted to BASE II for collection only (not\nsettlement or delivery). Normal BASE II processing charges and interchange\nreimbursement fees do not apply to collection-only transactions."
+            },
+            {
+              "group": "Glossary",
+              "text": "`EAS` — See Visa Extended Access Server."
+            },
+            {
+              "group": "ISO Numeric",
+              "text": "`188 191/978` — Costa Rica\nCroatia"
+            },
+            {
+              "group": "ISO Numeric",
+              "text": "`690 694/925` — Seychelles\nSierra Leone"
+            },
+            {
+              "group": "ISO Numeric",
+              "text": "`975` — Bulgaria"
+            },
+            {
+              "group": "Product ID Values",
+              "text": "`L1` — Visa Value"
+            },
+            {
+              "group": "Product ID Values",
+              "text": "`V W^` — V PAY\nVisa Direct Payouts W"
+            },
+            {
+              "group": "Product ID Values",
+              "text": "`X1` — Visa Commercial Choice Omni"
+            },
+            {
+              "group": "The Market-Specific Authorization Data Indicator identifies the industry for wh…",
+              "text": "`L TC 57, DATA CAPTURE ADVICE: TCR 3 - TRANSACTION DETAIL, PAYMENT SERVICE DATA, POSITION` — 42"
+            }
+          ]
         },
         {
           "label": "Tablas agregadas",
-          "value": 9
+          "value": 9,
+          "details": [
+            {
+              "group": "Tablas completas",
+              "text": "Member Settlement Data-Record Type Codes — REPORT GROUP=SPACE (9 filas)"
+            },
+            {
+              "group": "Tablas completas",
+              "text": "Member Settlement Data-Record Type Codes — REPORT GROUP = SPACES (BASE II-5A an… (5 filas)"
+            },
+            {
+              "group": "Tablas completas",
+              "text": "Member Settlement Data-Record Type Codes — REPORT GROUP = I (Fee Change Summary) (4 filas)"
+            },
+            {
+              "group": "Tablas completas",
+              "text": "Member Settlement Data-Report-Level Indicator Codes — REPORT GROUP = SPACE (2 filas)"
+            },
+            {
+              "group": "Tablas completas",
+              "text": "Member Settlement Data-Report-Level Indicator Codes — REPORT GROUP = I (Fee Cha… (3 filas)"
+            },
+            {
+              "group": "Tablas completas",
+              "text": "Member Settlement Data-Summary-Level Codes — ALL REPORT GROUPS (2 filas)"
+            },
+            {
+              "group": "Tablas completas",
+              "text": "Member Settlement Data-Summary-Level Codes — REPORT GROUP =SPACE (3 filas)"
+            },
+            {
+              "group": "Tablas completas",
+              "text": "Member Settlement Data-Summary-Level Codes — REPORT GROUP =SPACES (BASE II-5A a… (2 filas)"
+            },
+            {
+              "group": "Tablas completas",
+              "text": "Member Settlement Data-Summary-Level Codes — REPORT GROUP =I (Fee Change Summary (3 filas)"
+            }
+          ]
         },
         {
           "label": "Tablas eliminadas",
-          "value": 3
+          "value": 3,
+          "details": [
+            {
+              "group": "Tablas completas",
+              "text": "Member Settlement Data-Record Type Codes (18 filas)"
+            },
+            {
+              "group": "Tablas completas",
+              "text": "Member Settlement Data-Report-Level Indicator Codes (5 filas)"
+            },
+            {
+              "group": "Tablas completas",
+              "text": "Member Settlement Data-Summary-Level Codes (10 filas)"
+            }
+          ]
         }
       ],
       "groups": [
@@ -211,11 +419,43 @@
       "secondary": [
         {
           "label": "Fichas agregadas",
-          "value": 4
+          "value": 4,
+          "details": [
+            {
+              "group": "",
+              "text": "`Settlement` — Settlement"
+            },
+            {
+              "group": "",
+              "text": "`V0042` — TIP AMOUNT MUST BE NUMERIC FOR COLOMBIA DOMESTIC TRANSACTIONS."
+            },
+            {
+              "group": "",
+              "text": "`V0043` — AIRPORT CHARGE AMOUNT MUST BE NUMERIC FOR COLOMBIA DOMESTIC TRANSACTIONS."
+            },
+            {
+              "group": "",
+              "text": "`V0044` — NUMBER OF QUOTAS MUST BE NUMERIC FOR COLOMBIA DOMESTIC TRANSACTIONS."
+            }
+          ]
         },
         {
           "label": "Fichas eliminadas",
-          "value": 3
+          "value": 3,
+          "details": [
+            {
+              "group": "",
+              "text": "`V0183` — CASHBACK AMOUNT IS ONLY VALID FOR CANADIAN DOMESTIC PURCHASE TRANSACTIONS"
+            },
+            {
+              "group": "",
+              "text": "`V1099` — CASHBACK IS VALID ONLY FOR DOMESTIC PURCHASE AND CREDIT VOUCHER TRANSACTIONS"
+            },
+            {
+              "group": "",
+              "text": "`settlement` — settlement"
+            }
+          ]
         }
       ],
       "groups": [
@@ -340,15 +580,89 @@
       "secondary": [
         {
           "label": "Transiciones Reserved↔definido",
-          "value": 12
+          "value": 12,
+          "details": [
+            {
+              "group": "Reserved → definido — TC 04 - TCR 9",
+              "text": "Posición `151-168` (Reserved) se partió: `151-168` Reserved → `151-153` VFC Reclassification Reason. Reserved restante: 154-168 Reserved"
+            },
+            {
+              "group": "Reserved → definido — TC 05 - TCR 2 Colombia",
+              "text": "Posición `5-16`: Reserved → Tip Amount"
+            },
+            {
+              "group": "Reserved → definido — TC 33 - TCR 1 BASE II Clearing and Settlement Advice",
+              "text": "Posición `161-168`: Reserved → Payment Facilitator ID"
+            },
+            {
+              "group": "Reserved → definido — TC 33.A - CP 04 TCR 0 Level II Data",
+              "text": "Posición `99-168` (Reserved) se partió: `99-168` Reserved → `99` Merchant CEDP Verified Indicator. Reserved restante: 100-168 Reserved"
+            },
+            {
+              "group": "Reserved → definido — TC 33.A - CP 09 TCR 4 - Recipient Name (Split)",
+              "text": "Posición `110-168` (Reserved) se partió: `110-168` Reserved → `110-117` Payee Date of Birth, `118-137` Payee Phone Number, `138-139` Recipient State. Reserved restante: 140-168 Reserved"
+            },
+            {
+              "group": "Reserved → definido — TC 33.A - CP 12 TCR 1 Merchant Data",
+              "text": "Posición `149-168` (Reserved) se partió: `149-168` Reserved → `149-160` Foreign Retailer Transaction Amount. Reserved restante: 161-168 Reserved"
+            },
+            {
+              "group": "Reserved → definido — TC 33.A - CP 12 TCR 5 Transaction Data",
+              "text": "Posición `148-168` (Reserved) se partió: `148-168` Reserved → `148-157` Mastercard - Service Location Postal Code. Reserved restante: 158-168 Reserved"
+            },
+            {
+              "group": "Definido → Reserved — TC 05 - TCR 2 Colombia",
+              "text": "Posición `76-84` pasó a Reserved (límite corrido por campo vecino): `76-84` National Net Miscellaneous Amount → `70-113` Reserved"
+            },
+            {
+              "group": "Definido → Reserved — TC 33.A - CP 09 TCR 0 Push Payment - Default",
+              "text": "Posición `65-89` pasó a Reserved (límite corrido por campo vecino): `65-89` OCT Acceptor Legal Business Name → `65-168` Reserved"
+            },
+            {
+              "group": "Definido → Reserved — TC 33.A - CP 09 TCR 0 Push Payment - Default",
+              "text": "Posición `90-114` pasó a Reserved (límite corrido por campo vecino): `90-114` OCT Payment Facilitator Name → `65-168` Reserved"
+            },
+            {
+              "group": "Definido → Reserved — TC 33.A - CP 12 TCR 2 Merchant Data",
+              "text": "Posición `5-34`: Mastercard - Account Level Management Service Data → Reserved"
+            },
+            {
+              "group": "Definido → Reserved — TC 33.A - CP 12 TCR 4 Gateway Data, continuation",
+              "text": "Posición `64-73` pasó a Reserved (límite corrido por campo vecino): `64-73` Mastercard - Service Location Postal Code → `64-72` Reserved"
+            }
+          ]
         },
         {
           "label": "Secciones agregadas",
-          "value": 4
+          "value": 4,
+          "details": [
+            {
+              "group": "",
+              "text": "TC 05 - TCR D Original Credit and Account Funding Additional Data (16 filas de grilla, 16 fichas)"
+            },
+            {
+              "group": "",
+              "text": "TC 33.A - CP 12 TCR 6 Gateway Data, continuation (7 filas de grilla, 7 fichas)"
+            },
+            {
+              "group": "",
+              "text": "TC 33.A - CP 12 TCR 7 Gateway Data, continuation (5 filas de grilla, 5 fichas)"
+            },
+            {
+              "group": "",
+              "text": "TC 33.A - CP 12 TCR 8 Gateway Data, continuation (5 filas de grilla, 5 fichas)"
+            }
+          ]
         },
         {
           "label": "Secciones eliminadas",
-          "value": 1
+          "value": 1,
+          "details": [
+            {
+              "group": "",
+              "text": "TC 05 - TCR D Original Credit Additional Data (16 filas de grilla, 16 fichas)"
+            }
+          ]
         }
       ],
       "groups": [
@@ -773,15 +1087,18 @@
       "secondary": [
         {
           "label": "Transiciones Reserved↔definido",
-          "value": 0
+          "value": 0,
+          "details": []
         },
         {
           "label": "Secciones agregadas",
-          "value": 0
+          "value": 0,
+          "details": []
         },
         {
           "label": "Secciones eliminadas",
-          "value": 0
+          "value": 0,
+          "details": []
         }
       ],
       "groups": [
@@ -883,15 +1200,79 @@
       "secondary": [
         {
           "label": "TC agregados",
-          "value": 0
+          "value": 0,
+          "details": []
         },
         {
           "label": "TC eliminados",
-          "value": 0
+          "value": 0,
+          "details": []
         },
         {
           "label": "TC afectados",
-          "value": 15
+          "value": 15,
+          "details": [
+            {
+              "group": "",
+              "text": "05 Sales Draft: +28 / -28 TCR"
+            },
+            {
+              "group": "",
+              "text": "06 Credit Voucher: +30 / -17 TCR"
+            },
+            {
+              "group": "",
+              "text": "07 Cash Disbursement: +12 / -17 TCR"
+            },
+            {
+              "group": "",
+              "text": "10 Fee Collection: +5 / -5 TCR"
+            },
+            {
+              "group": "",
+              "text": "15 Sales Draft Dispute: +25 / -16 TCR"
+            },
+            {
+              "group": "",
+              "text": "16 Credit Voucher Dispute: +25 / -17 TCR"
+            },
+            {
+              "group": "",
+              "text": "17 Cash Disbursement Dispute: +11 / -17 TCR"
+            },
+            {
+              "group": "",
+              "text": "20 Funds Disbursement: +5 / -5 TCR"
+            },
+            {
+              "group": "",
+              "text": "25 Sales Draft Reversal: +29 / -16 TCR"
+            },
+            {
+              "group": "",
+              "text": "26 Credit Voucher Reversal: +29 / -17 TCR"
+            },
+            {
+              "group": "",
+              "text": "27 Cash Disbursement Reversal: +12 / -17 TCR"
+            },
+            {
+              "group": "",
+              "text": "35 Sales Draft Dispute Reversal: +25 / -16 TCR"
+            },
+            {
+              "group": "",
+              "text": "36 Credit Voucher Dispute Reversal: +25 / -17 TCR"
+            },
+            {
+              "group": "",
+              "text": "37 Cash Disbursement Dispute Reversal: +11 / -22 TCR"
+            },
+            {
+              "group": "",
+              "text": "54 Table Update Record: +2 / -1 TCR"
+            }
+          ]
         }
       ],
       "groups": [
@@ -1113,19 +1494,2885 @@
       "secondary": [
         {
           "label": "Secciones agregadas",
-          "value": 0
+          "value": 0,
+          "details": []
         },
         {
           "label": "Secciones eliminadas",
-          "value": 0
+          "value": 0,
+          "details": []
         },
         {
           "label": "Párrafos agregados",
-          "value": 387
+          "value": 387,
+          "details": [
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Acquirer Options",
+              "text": "Yes"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Acquirer Options",
+              "text": "Yes"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Acquirer Options",
+              "text": "Yes"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Acquirer Options",
+              "text": "Yes"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Acquirer Options",
+              "text": "Yes"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Acquirer Options",
+              "text": "Yes"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Acquirer Options",
+              "text": "Yes"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Acquirer Options",
+              "text": "Yes"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Acquirer Options",
+              "text": "Yes"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Acquirer Options",
+              "text": "Yes"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Acquirer Options",
+              "text": "Yes"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Acquirer Options",
+              "text": "See information on Multicurrency. V.I.P. System Overview and Services"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Acquirer Options",
+              "text": "See information on CVV and STIP. V.I.P. System Overview and Services"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Acquirer Options",
+              "text": "See information on CVV and STIP."
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Acquirer Options",
+              "text": "See information on Routing."
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Acquirer Options",
+              "text": "See information on Routing. V.I.P. System Overview and Services"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Acquirer Options",
+              "text": "See information on Client to Visa Connection Options."
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Acquirer Options",
+              "text": "See information on Client to Visa Connection Options."
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Acquirer Options",
+              "text": "See information on Client to Visa Connection Options."
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Acquirer System Requirements",
+              "text": "Yes"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Acquirer System Requirements",
+              "text": "Yes"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Acquirer System Requirements",
+              "text": "Yes"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Acquirer System Requirements",
+              "text": "Yes"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Acquirer System Requirements",
+              "text": "Yes"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Acquirer System Requirements",
+              "text": "Yes"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Acquirer System Requirements",
+              "text": "Yes"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Acquirer System Requirements",
+              "text": "Yes"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Acquirer System Requirements",
+              "text": "Yes"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Acquirer System Requirements",
+              "text": "Yes"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Acquirer System Requirements",
+              "text": "Yes"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Acquirer System Requirements",
+              "text": "Yes"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Acquirer System Requirements",
+              "text": "Yes"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Acquirer System Requirements",
+              "text": "Yes"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Acquirer System Requirements",
+              "text": "Yes"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Acquirer System Requirements",
+              "text": "Yes"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer Options",
+              "text": "See information on STIP. V.I.P. System Overview and Services"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer Options",
+              "text": "See information on STIP. V.I.P. System Overview and Services"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer Options",
+              "text": "Cardholder Authentication Verification Value (CAVV)"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer Options",
+              "text": "See information on STIP."
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer Options",
+              "text": "Verification Service"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer Options",
+              "text": "See information on Message Types and Flows."
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer Options",
+              "text": "Automatic Cardholder Database Update (Auto-CDB)"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer Options",
+              "text": "See information on STIP."
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer Options",
+              "text": "Service"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer Options",
+              "text": "Positive Authorization Capacity Management (PACM)"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer Options",
+              "text": "See information on STIP."
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer Options",
+              "text": "Service"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer Options",
+              "text": "See information on Settlement and Reconcilliation."
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer Options",
+              "text": "See information on Settlement and Reconcilliation."
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer Options",
+              "text": "See information on Client to Visa Connection Options."
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer Options",
+              "text": "See information on Client to Visa Connection Options."
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer Options",
+              "text": "See information on Client to Visa Connection Options."
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer Options",
+              "text": "See information on Considerations for Visa POS and ATM Issuers."
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer Options",
+              "text": "(VCRFS)"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer Options",
+              "text": "Issuer Options"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer Options",
+              "text": "Options"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer Options",
+              "text": "References"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer Options",
+              "text": "Visa Smart Debit/Smart Credit (VSDC) Service and"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer System Requirements",
+              "text": "Visa Issuer Cardholder Transactions"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer System Requirements",
+              "text": "Yes"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer System Requirements",
+              "text": "Yes"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer System Requirements",
+              "text": "Yes"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer System Requirements",
+              "text": "Yes"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer System Requirements",
+              "text": "Yes"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer System Requirements",
+              "text": "Yes"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer System Requirements",
+              "text": "Yes"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer System Requirements",
+              "text": "Yes"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer System Requirements",
+              "text": "Yes"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer System Requirements",
+              "text": "Visa Issuer System-Generated Transactions"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer System Requirements",
+              "text": "Transaction Type"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer System Requirements",
+              "text": "Visa"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer System Requirements",
+              "text": "Yes"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer System Requirements",
+              "text": "Yes"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer System Requirements",
+              "text": "Visa Issuer Exception Transactions"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer System Requirements",
+              "text": "Transaction Type"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer System Requirements",
+              "text": "Visa"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer System Requirements",
+              "text": "Yes"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer System Requirements",
+              "text": "Yes"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer System Requirements",
+              "text": "Yes"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer System Requirements",
+              "text": "Yes"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer System Requirements",
+              "text": "Visa Issuer Fee-Related Transactions"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer System Requirements",
+              "text": "Transaction Type"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer System Requirements",
+              "text": "Visa"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer System Requirements",
+              "text": "Yes"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer System Requirements",
+              "text": "Yes"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer System Requirements",
+              "text": "Visa Issuer Online File Maintenance Transactions"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer System Requirements",
+              "text": "Yes"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer System Requirements",
+              "text": "Visa Issuer Administrative Transactions"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer System Requirements",
+              "text": "Transaction Type"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer System Requirements",
+              "text": "Visa"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer System Requirements",
+              "text": "Yes"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer System Requirements",
+              "text": "Yes"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer System Requirements",
+              "text": "Yes"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer System Requirements",
+              "text": "Visa Issuer Network Management Transactions"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer System Requirements",
+              "text": "Transaction Type"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer System Requirements",
+              "text": "Visa"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer System Requirements",
+              "text": "Yes"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer System Requirements",
+              "text": "Transaction Type"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer System Requirements",
+              "text": "Visa"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer System Requirements",
+              "text": "Yes"
+            },
+            {
+              "group": "Full Service Processing Summary > V.I.P. System Functions > End-of-Day Processing",
+              "text": "The POSA File provides a single daily file with debit and credit transaction data, contributing to increased operational efficiency. The file includes all of the data elements contained in the TC 33, SMS raw data records, and the POS reporting raw data and report files, besides providing additional data, such as card results-level data. For information on POSA File delivery and POSA file layouts, refer to the Point of Sale Authorization Files Client Implementation guide available on Visa Access."
+            },
+            {
+              "group": "Full Service Processing Summary > V.I.P. System Functions > Message Routing",
+              "text": "The account number contained in field 2— Primary Account Number."
+            },
+            {
+              "group": "Full Service Processing Summary > V.I.P. System Functions > Message Routing",
+              "text": "The ABA number in field 125—Supporting Information, and the issuer ID contained in field 100—Receiving Institution Identification Code."
+            },
+            {
+              "group": "Full Service Processing Summary > V.I.P. System Functions > Message Routing",
+              "text": "The ABA number in field 125—Supporting Information, and the issuer ID contained in field 100—Receiving Institution Identification Code."
+            },
+            {
+              "group": "Full Service Processing Summary > V.I.P. System Functions > Message Routing",
+              "text": "The ABA number in field 125—Supporting Information, and the issuer ID contained in field 100—Receiving Institution Identification Code."
+            },
+            {
+              "group": "Full Service Processing Summary > V.I.P. System Functions > Message Routing",
+              "text": "The acquirer ID contained in field 32—Acquiring"
+            },
+            {
+              "group": "Full Service Processing Summary > V.I.P. System Functions > Message Routing",
+              "text": "Institution Identification Code."
+            },
+            {
+              "group": "Report and File Delivery Options",
+              "text": "For more information on Visa TC 33 and TC 45 reporting, refer to the Electronic Reporting section in the VisaNet Authorization-Only Online Messages - Technical Specifications."
+            },
+            {
+              "group": "Stand-In Processing (STIP) > Assigning a Response Code > Converting Over-Limit Codes in Acquirer Responses",
+              "text": "Converting Approval, Forward-or-Approve, Decline, or Incorrect CVV or iCVV Response Codes 11 and A - A9"
+            },
+            {
+              "group": "Stand-In Processing (STIP) > Assigning a Response Code > Converting Over-Limit Codes in Acquirer Responses",
+              "text": "VIP (Very Important Person) approval (authorization request)"
+            },
+            {
+              "group": "Stand-In Processing (STIP) > Assigning a Response Code > Converting Over-Limit Codes in Acquirer Responses",
+              "text": "VIP approval (account number verification—Visa U.S.A. only)"
+            },
+            {
+              "group": "Stand-In Processing (STIP) > Assigning a Response Code > Converting Over-Limit Codes in Acquirer Responses",
+              "text": "Condition"
+            },
+            {
+              "group": "Stand-In Processing (STIP) > Assigning a Response Code > Converting Over-Limit Codes in Acquirer Responses",
+              "text": "Converted to..."
+            },
+            {
+              "group": "Stand-In Processing (STIP) > Assigning a Response Code > Converting Over-Limit Codes in Acquirer Responses",
+              "text": "Forward or approve (authorization request)"
+            },
+            {
+              "group": "Stand-In Processing (STIP) > Assigning a Response Code > Converting Over-Limit Codes in Acquirer Responses",
+              "text": "Forward or approve (account number verification—Visa U.S.A. only)"
+            },
+            {
+              "group": "Stand-In Processing (STIP) > Assigning a Response Code > Converting Over-Limit Codes in Acquirer Responses",
+              "text": "Converting Approval, Forward-or-Approve, Decline, or Incorrect CVV or iCVV Response Code XD"
+            },
+            {
+              "group": "Stand-In Processing (STIP) > Assigning a Response Code > Converting Over-Limit Codes in Acquirer Responses",
+              "text": "Condition"
+            },
+            {
+              "group": "Stand-In Processing (STIP) > Assigning a Response Code > Converting Over-Limit Codes in Acquirer Responses",
+              "text": "Converted to..."
+            },
+            {
+              "group": "Stand-In Processing (STIP) > Assigning a Response Code > Converting Over-Limit Codes in Acquirer Responses",
+              "text": "Converting Approval, Forward-or-Approve, Decline, or Incorrect CVV or iCVV Response Code 82"
+            },
+            {
+              "group": "Stand-In Processing (STIP) > Assigning a Response Code > Converting Over-Limit Codes in Acquirer Responses",
+              "text": "Condition"
+            },
+            {
+              "group": "Stand-In Processing (STIP) > Assigning a Response Code > Converting Over-Limit Codes in Acquirer Responses",
+              "text": "Converted to..."
+            },
+            {
+              "group": "Stand-In Processing (STIP) > Assigning a Response Code > Converting Over-Limit Codes in Acquirer Responses",
+              "text": "Negative online CAM, dCVV, iCVV,CVV, dCVV2, TAVV,DTVV, or CAVV results Or Offline PIN"
+            },
+            {
+              "group": "Stand-In Processing (STIP) > Assigning a Response Code > Converting Over-Limit Codes in Acquirer Responses",
+              "text": "authentication interrupted"
+            },
+            {
+              "group": "Stand-In Processing (STIP) > Assigning a Response Code > Converting Over-Limit Codes in Acquirer Responses",
+              "text": "Approval code 00 Pickup code 04 Decline code 05"
+            },
+            {
+              "group": "Stand-In Processing (STIP) > Reversal Processing > Stand-In Processing Advices",
+              "text": "Account transfer Product eligibility inquiry Balance inquiry ATM mini statement POS card activation ATM PIN change ATM PIN unblock Mastercard or American Express transactions"
+            },
+            {
+              "group": "Stand-In Processing (STIP) > Reversal Processing > Stand-In Processing Advices",
+              "text": "This table lists the transactions receiving response codes."
+            },
+            {
+              "group": "Stand-In Processing (STIP) > Reversal Processing > Stand-In Processing Advices",
+              "text": "No-Advice STIP Decline Response Codes"
+            },
+            {
+              "group": "Stand-In Processing (STIP) > Reversal Processing > Stand-In Processing Advices",
+              "text": "93"
+            },
+            {
+              "group": "Stand-In Processing (STIP) > Reversal Processing > Stand-In Processing Advices",
+              "text": "Transaction cannot be completed—violation of law V.I.P. creates advice for India issued recurring payments, declined with reason code 93 and STIP Switch Reason Code 9229 (Declined due to Domestic Regulations)."
+            },
+            {
+              "group": "Standard Processing > Cardholder Transactions > Merchandise Return and Merchandise Credit",
+              "text": "A Visa Point of Service (POS) merchandise return authorization message is used to notify an issuer in real time that a merchant return or credit voucher transaction is being processed to a specific account. The return amount is debited to the acquirer and is credited to the issuer. Code 20 in the first two positions of Field 3—Processing Code distinguishes returns from other 0100 request messages. A return is initiated at the POS. Use of the same terminal or merchant outlet used for the original purchase is not required. The return amount must be equal to or less than the amount of the original purchase. Returns for less than the amount of the original purchase occur when the cardholder returns only a portion of the goods originally purchased. Merchandise return authorization messages must not be used for reversing Account Funding Transactions (AFTs) or quasi cash transactions. Chip cards are valid for 0100 merchandise return authorization transactions. If the issuer is unavailable, STIP responds to the 0100 Merchant Return Authorization request and creates a 0120 advice for the issuer. Merchandise return reversals are forwarded to the issuer online. If an issuer is unavailable, 0400 Merchandise Return reversals are processed in STIP and a 0420 Merchandise Return reversal advice is sent to the issuer. The return amount must be equal to or less than the amount of the original purchase. Returns for less than the amount of the original purchase occur when the cardholder returns only a portion of the goods originally purchased. Chip cards are valid for 0200 merchandise returns. A return is initiated at the point of sale. Use of the same terminal or merchant outlet used for the original purchase is not required. Full service issuers that choose to process POS transactions as 0100 authorizations can opt to receive 0200/0220 merchandise returns as downgraded 0100 merchandise returns. If the issuer has opted to receive 0100 merchandise returns and the issuer is unavailable, 0100 merchandise returns are processed in STIP, and an 0120 merchandise return advice is sent to the issuer. If the issuer has opted to receive 0100 merchandise returns, merchandise return reversals are forwarded to issuers online. When an issuer is unavailable, 0400 merchandise return reversals are processed in STIP, and an 0420 merchandise return reversal advice is sent to the issuer. Code 20 in the first two positions of Field 3—Processing Code distinguishes returns from other 0200 request messages. Acquirers must ensure that the correct field 48 usage is included whenever a transaction requires it. V.I.P. rejects transactions with Reject Code 0313—Field Missing when field 48 is missing in transactions that requires it."
+            },
+            {
+              "group": "Standard Processing > Cardholder Transactions > Purchase and Cash Disbursement",
+              "text": "Yes"
+            },
+            {
+              "group": "Standard Processing > Cardholder Transactions > Purchase and Cash Disbursement",
+              "text": "Yes"
+            },
+            {
+              "group": "Standard Processing > Cardholder Transactions > Purchase and Cash Disbursement",
+              "text": "Yes"
+            },
+            {
+              "group": "Standard Processing > Cardholder Transactions > Purchase and Cash Disbursement",
+              "text": "Yes"
+            },
+            {
+              "group": "Standard Processing > Cardholder Transactions > Purchase and Cash Disbursement",
+              "text": "Yes"
+            },
+            {
+              "group": "Standard Processing > Cardholder Transactions > Purchase and Cash Disbursement",
+              "text": "For Visa, purchase with cashback is allowed for domestic transactions only; it is not supported for international transactions. Participating regions may offer a cashback service through VisaNet. Clients can contact their Visa represen­ tatives for information about availa­ bility."
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "Visa POS transaction sets include:"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "No"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "No"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "No"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "No"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "Purchase"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "No"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "Authorization"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "No"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "No"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "No"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "Includes authorization with address verifi­ cation (Visa POS only). Deferred Clearing"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "No"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "No"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "No"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "No"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "No"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Cardholder (or Customer) Transactions"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "No"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "No"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "No"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "No"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "No"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "No"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "No"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "No"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "No"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "No"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Balance Inquiry"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "No"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Partial Approval"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Activation"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Load"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "0100"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Load"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "0200"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Cardholder (or Customer) Transactions"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Partial Approval Load"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Activation and Load"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Activation and Partial Approval Load"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Reversal or Preauthorization Reversal"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "0400/0420"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Deferred Clearing Reversal"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "0420"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Partial Approval Reversal"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "0400/0420"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Activation Reversal"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "0400/0420"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Load Reversal"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "0400/0420"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Partial Approval Load Reversal"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "0400/0420"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Activation and Load Reversal"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "0400/0420"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Activation and Partial Approval Load Reversal"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "0400/0420"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Exception Transactions"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Transaction Type"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Message Type"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Visa"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Interlink"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Adjustment"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "0220"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Dispute Financial"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "0422"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Dispute Financial Reversal"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "0422"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Dispute Response Financial"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "0220"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Fee-Related Transactions"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Transaction Type"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Message Type"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Visa"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Interlink"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Acquirer-Generated Fee Collection/Funds"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "0220"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Disbursement Issuer-Generated Fee Collection/Funds"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "0422"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Disbursement"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Reconciliation Transactions"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Transaction Type"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Message Type"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Visa"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Interlink"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Reconciliation Transaction"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "0520"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Transaction Type"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Message Type"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Visa"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Interlink"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "No"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Transaction Type"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Message Type"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Visa"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Interlink"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Yes Free-Text Messages in"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "No"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "No"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "No"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Transaction Type"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Message Type"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Visa"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Interlink"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Yes"
+            },
+            {
+              "group": "Transaction Types > Portfolio File > File Content",
+              "text": "Stop Instruction Types and Coded Stop Instruction Type"
+            },
+            {
+              "group": "Transaction Types > Portfolio File > File Content",
+              "text": "Description"
+            },
+            {
+              "group": "Transaction Types > Portfolio File > File Content",
+              "text": "Response Code"
+            },
+            {
+              "group": "Transaction Types > System-Generated Transactions",
+              "text": "These transactions are supported for Visa POS."
+            },
+            {
+              "group": "VisaNet Settlement Service (VSS) > Settlement Schedule",
+              "text": "Apr – Oct Key Time"
+            },
+            {
+              "group": "VisaNet Settlement Service (VSS) > Settlement Schedule",
+              "text": "Oct – Apr Key Time"
+            }
+          ]
         },
         {
           "label": "Párrafos eliminados",
-          "value": 328
+          "value": 328,
+          "details": [
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Acquirer Options",
+              "text": "X"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Acquirer Options",
+              "text": "X"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Acquirer Options",
+              "text": "X"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Acquirer Options",
+              "text": "X"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Acquirer Options",
+              "text": "X"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Acquirer Options",
+              "text": "X"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Acquirer Options",
+              "text": "X"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Acquirer Options",
+              "text": "X"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Acquirer Options",
+              "text": "X"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Acquirer Options",
+              "text": "X"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Acquirer Options",
+              "text": "X"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Acquirer Options",
+              "text": "See the chapter on Multicurrency. V.I.P. System Overview and Services"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Acquirer Options",
+              "text": "See the chapter on CVV and STIP. V.I.P. System Overview and Services"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Acquirer Options",
+              "text": "See the chapter on CVV and STIP."
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Acquirer Options",
+              "text": "See the Routing chapter."
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Acquirer Options",
+              "text": "See the Routing chapter. V.I.P. System Overview and Services"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Acquirer Options",
+              "text": "See the chapter on Client to Visa Connection Options."
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Acquirer Options",
+              "text": "See the chapter on Client to Visa Connection Options."
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Acquirer Options",
+              "text": "See the chapter on Client to Visa Connection Options."
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Acquirer System Requirements",
+              "text": "X"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Acquirer System Requirements",
+              "text": "X"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Acquirer System Requirements",
+              "text": "X"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Acquirer System Requirements",
+              "text": "X"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Acquirer System Requirements",
+              "text": "X"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Acquirer System Requirements",
+              "text": "X"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Acquirer System Requirements",
+              "text": "X"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Acquirer System Requirements",
+              "text": "X"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Acquirer System Requirements",
+              "text": "X"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Acquirer System Requirements",
+              "text": "X"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Acquirer System Requirements",
+              "text": "X"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Acquirer System Requirements",
+              "text": "X"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Acquirer System Requirements",
+              "text": "X"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Acquirer System Requirements",
+              "text": "X"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Acquirer System Requirements",
+              "text": "X"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Acquirer System Requirements",
+              "text": "X"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer Options",
+              "text": "See the chapter on STIP. V.I.P. System Overview and Services"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer Options",
+              "text": "See the chapter on STIP. V.I.P. System Overview and Services"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer Options",
+              "text": "Cardholder Authentication Verification Value"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer Options",
+              "text": "See the chapter on STIP."
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer Options",
+              "text": "(CAVV) Verification Service"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer Options",
+              "text": "Issuer Options"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer Options",
+              "text": "Options"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer Options",
+              "text": "References"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer Options",
+              "text": "See the chapter on Message Types and Flows."
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer Options",
+              "text": "Automatic Cardholder Database Update (Auto-"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer Options",
+              "text": "See the chapter on STIP."
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer Options",
+              "text": "CDB) Service"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer Options",
+              "text": "Positive Authorization Capacity Management"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer Options",
+              "text": "See the chapter on STIP."
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer Options",
+              "text": "(PACM) Service"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer Options",
+              "text": "See the chapter on Settlement and Reconcilliation."
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer Options",
+              "text": "See the chapter on Settlement and Reconcilliation."
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer Options",
+              "text": "See the chapter on Client to Visa Connection Options."
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer Options",
+              "text": "See the chapter on Client to Visa Connection Options."
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer Options",
+              "text": "See the chapter on Client to Visa Connection Options."
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer Options",
+              "text": "See the chapter on Considerations for Visa POS and ATM Issuers."
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer Options",
+              "text": "(VCRFS) Visa Smart Debit/Smart Credit (VSDC) Service and"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer System Requirements",
+              "text": "Required Visa Issuer Transactions"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer System Requirements",
+              "text": "Cardholder Transactions"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer System Requirements",
+              "text": "X"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer System Requirements",
+              "text": "X"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer System Requirements",
+              "text": "X"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer System Requirements",
+              "text": "X"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer System Requirements",
+              "text": "X"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer System Requirements",
+              "text": "X"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer System Requirements",
+              "text": "X"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer System Requirements",
+              "text": "X"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer System Requirements",
+              "text": "X"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer System Requirements",
+              "text": "System-Generated Transactions"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer System Requirements",
+              "text": "X"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer System Requirements",
+              "text": "X"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer System Requirements",
+              "text": "Exception Transactions"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer System Requirements",
+              "text": "Can be submitted by using Visa Resolve Online (VROL)"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer System Requirements",
+              "text": "X"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer System Requirements",
+              "text": "X"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer System Requirements",
+              "text": "X"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer System Requirements",
+              "text": "X"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer System Requirements",
+              "text": "Fee-Related Transactions"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer System Requirements",
+              "text": "X"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer System Requirements",
+              "text": "X"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer System Requirements",
+              "text": "Required Visa Issuer Transactions"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer System Requirements",
+              "text": "Online File Maintenance"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer System Requirements",
+              "text": "X"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer System Requirements",
+              "text": "Administrative Transactions"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer System Requirements",
+              "text": "Can be submitted by using Visa Resolve Online (VROL)"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer System Requirements",
+              "text": "X"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer System Requirements",
+              "text": "X"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer System Requirements",
+              "text": "X"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer System Requirements",
+              "text": "Network Management Transactions"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer System Requirements",
+              "text": "X"
+            },
+            {
+              "group": "Full Service Processing Summary > Full Service Participation Requirements > Issuer System Requirements",
+              "text": "X"
+            },
+            {
+              "group": "Full Service Processing Summary > V.I.P. System Functions > End-of-Day Processing",
+              "text": "The POSA File provides a single daily file with debit and credit transaction data, contributing to increased operational efficiency. The file includes all of the data elements contained in the TC 33, SMS raw data records, and the POS reporting raw data and report files, besides providing additional data, such as card results-level data."
+            },
+            {
+              "group": "Full Service Processing Summary > V.I.P. System Functions > Message Routing",
+              "text": "The ABA number in Field 125—Supporting Information, and the issuer ID contained in"
+            },
+            {
+              "group": "Full Service Processing Summary > V.I.P. System Functions > Message Routing",
+              "text": "Field 100—Receiving Institution Identification Code."
+            },
+            {
+              "group": "Full Service Processing Summary > V.I.P. System Functions > Message Routing",
+              "text": "The acquirer ID contained in Field 32—"
+            },
+            {
+              "group": "Full Service Processing Summary > V.I.P. System Functions > Message Routing",
+              "text": "Acquiring Institution Identification Code."
+            },
+            {
+              "group": "Stand-In Processing (STIP) > Acquirer Stand-In Processing",
+              "text": "Acquirer Advices"
+            },
+            {
+              "group": "Stand-In Processing (STIP) > Acquirer Stand-In Processing",
+              "text": "Issuer-Generated Request"
+            },
+            {
+              "group": "Stand-In Processing (STIP) > Acquirer Stand-In Processing",
+              "text": "STIP Advice to Acquirer"
+            },
+            {
+              "group": "Stand-In Processing (STIP) > Assigning a Response Code > Converting Over-Limit Codes in Acquirer Responses",
+              "text": "Response Code"
+            },
+            {
+              "group": "Stand-In Processing (STIP) > Assigning a Response Code > Converting Over-Limit Codes in Acquirer Responses",
+              "text": "11"
+            },
+            {
+              "group": "Stand-In Processing (STIP) > Assigning a Response Code > Converting Over-Limit Codes in Acquirer Responses",
+              "text": "VIP (Very Important Person)"
+            },
+            {
+              "group": "Stand-In Processing (STIP) > Assigning a Response Code > Converting Over-Limit Codes in Acquirer Responses",
+              "text": "approval (authorization"
+            },
+            {
+              "group": "Stand-In Processing (STIP) > Assigning a Response Code > Converting Over-Limit Codes in Acquirer Responses",
+              "text": "A - A9"
+            },
+            {
+              "group": "Stand-In Processing (STIP) > Assigning a Response Code > Converting Over-Limit Codes in Acquirer Responses",
+              "text": "request) VIP approval (account"
+            },
+            {
+              "group": "Stand-In Processing (STIP) > Assigning a Response Code > Converting Over-Limit Codes in Acquirer Responses",
+              "text": "number verification—Visa U.S.A. only)"
+            },
+            {
+              "group": "Stand-In Processing (STIP) > Assigning a Response Code > Converting Over-Limit Codes in Acquirer Responses",
+              "text": "XA"
+            },
+            {
+              "group": "Stand-In Processing (STIP) > Assigning a Response Code > Converting Over-Limit Codes in Acquirer Responses",
+              "text": "Forward or approve (author­"
+            },
+            {
+              "group": "Stand-In Processing (STIP) > Assigning a Response Code > Converting Over-Limit Codes in Acquirer Responses",
+              "text": "ization request) Forward or approve"
+            },
+            {
+              "group": "Stand-In Processing (STIP) > Assigning a Response Code > Converting Over-Limit Codes in Acquirer Responses",
+              "text": "(account number verification —Visa U.S.A. only)"
+            },
+            {
+              "group": "Stand-In Processing (STIP) > Assigning a Response Code > Converting Over-Limit Codes in Acquirer Responses",
+              "text": "XD"
+            },
+            {
+              "group": "Stand-In Processing (STIP) > Assigning a Response Code > Converting Over-Limit Codes in Acquirer Responses",
+              "text": "82"
+            },
+            {
+              "group": "Stand-In Processing (STIP) > Assigning a Response Code > Converting Over-Limit Codes in Acquirer Responses",
+              "text": "Negative online CAM, dCVV,"
+            },
+            {
+              "group": "Stand-In Processing (STIP) > Assigning a Response Code > Converting Over-Limit Codes in Acquirer Responses",
+              "text": "iCVV,CVV, dCVV2,"
+            },
+            {
+              "group": "Stand-In Processing (STIP) > Assigning a Response Code > Converting Over-Limit Codes in Acquirer Responses",
+              "text": "Approval code 00"
+            },
+            {
+              "group": "Stand-In Processing (STIP) > Assigning a Response Code > Converting Over-Limit Codes in Acquirer Responses",
+              "text": "TAVV,DTVV, or CAVV results"
+            },
+            {
+              "group": "Stand-In Processing (STIP) > Assigning a Response Code > Converting Over-Limit Codes in Acquirer Responses",
+              "text": "Pickup code 04"
+            },
+            {
+              "group": "Stand-In Processing (STIP) > Assigning a Response Code > Converting Over-Limit Codes in Acquirer Responses",
+              "text": "Or Offline PIN authenti­ cation interrupted"
+            },
+            {
+              "group": "Stand-In Processing (STIP) > Assigning a Response Code > Converting Over-Limit Codes in Acquirer Responses",
+              "text": "Decline code 05"
+            },
+            {
+              "group": "Stand-In Processing (STIP) > Reversal Processing > Stand-In Processing Advices",
+              "text": "Account transfer Product eligibility inquiry Balance inquiry"
+            },
+            {
+              "group": "Stand-In Processing (STIP) > Reversal Processing > Stand-In Processing Advices",
+              "text": "ATM mini statement POS card activation ATM PIN change ATM PIN unblock Mastercard or American Express transactions"
+            },
+            {
+              "group": "Stand-In Processing (STIP) > Reversal Processing > Stand-In Processing Advices",
+              "text": "Transactions receiving response codes in the table below."
+            },
+            {
+              "group": "Stand-In Processing (STIP) > Reversal Processing > Stand-In Processing Advices",
+              "text": "931"
+            },
+            {
+              "group": "Stand-In Processing (STIP) > Reversal Processing > Stand-In Processing Advices",
+              "text": "Transaction cannot be completed—violation of law"
+            },
+            {
+              "group": "Stand-In Processing (STIP) > Reversal Processing > Stand-In Processing Advices",
+              "text": "No-Advice STIP Decline Response Codes"
+            },
+            {
+              "group": "Stand-In Processing (STIP) > Reversal Processing > Stand-In Processing Advices",
+              "text": "1 V.I.P. creates advice for India issued recurring payments, declined with reason code 93 and STIP Switch Reason Code 9229 (Declined due to Domestic Regulations)."
+            },
+            {
+              "group": "Standard Processing > Cardholder Transactions > Merchandise Return and Merchandise Credit",
+              "text": "The return amount must be equal to or less than the amount of the original purchase. Returns for less than the amount of the original purchase occur when the cardholder returns only a portion of the goods originally purchased. Chip cards are valid for 0200 merchandise returns. A return is initiated at the point of sale. Use of the same terminal or merchant outlet used for the original purchase is not required. Full service issuers that choose to process POS transactions as 0100 authorizations can opt to receive 0200/0220 merchandise returns as downgraded 0100 merchandise returns. If the issuer has opted to receive 0100 merchandise returns and the issuer is unavailable, 0100 merchandise returns are processed in STIP, and an 0120 merchandise return advice is sent to the issuer. If the issuer has opted to receive 0100 merchandise returns, merchandise return reversals are forwarded to issuers online. When an issuer is unavailable, 0400 merchandise return reversals are processed in STIP, and an 0420 merchandise return reversal advice is sent to the issuer. Code 20 in the first two positions of Field 3—Processing Code distinguishes returns from other 0200 request messages. Acquirers must ensure that the correct field 48 usage is included whenever a transaction requires it. V.I.P. rejects transactions with Reject Code 0313—Field Missing when field 48 is missing in transactions that requires it."
+            },
+            {
+              "group": "Standard Processing > Cardholder Transactions > Purchase and Cash Disbursement",
+              "text": "X1"
+            },
+            {
+              "group": "Standard Processing > Cardholder Transactions > Purchase and Cash Disbursement",
+              "text": "X"
+            },
+            {
+              "group": "Standard Processing > Cardholder Transactions > Purchase and Cash Disbursement",
+              "text": "X"
+            },
+            {
+              "group": "Standard Processing > Cardholder Transactions > Purchase and Cash Disbursement",
+              "text": "X"
+            },
+            {
+              "group": "Standard Processing > Cardholder Transactions > Purchase and Cash Disbursement",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "Visa POS transaction sets consist of the following:"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "Purchase1"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "Adjustment"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "Authorization1"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "Deferred Clearing"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "1Includes authorization with address verification (Visa POS only)."
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Sets > Visa POS Transaction Sets",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Full Service Transaction Types"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Cardholder (or Customer) Transactions"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Full Service Transaction Types"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Load"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "0100"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "0200"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Reversal or Preauthorization Reversal"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "0400/0420"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Deferred Clearing Reversal"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "0420"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Partial Approval Reversal"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "0400/0420"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Activation Reversal"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "0400/0420"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Load Reversal"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "0400/0420"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Partial Approval Load Reversal"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "0400/0420"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Activation and Load Reversal"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "0400/0420"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Activation and Partial Approval Load Reversal"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "0400/0420"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Exception Transactions"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "(Can be submitted using Visa Resolve Online [VROL])"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Adjustment"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "0220"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Dispute Financial"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "0422"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Dispute Financial Reversal"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "0422"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Dispute Response Financial"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "0220"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Fee-Related Transactions"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Acquirer-Generated Fee Collection/Funds"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "0220"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Disbursement Issuer-Generated Fee Collection/Funds"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "0422"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Disbursement"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Reconciliation Transactions"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Reconciliation Transaction"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "0520"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "Full Service Transaction Types"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "(Can be submitted using Visa Resolve Online [VROL])"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "X1"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Types",
+              "text": "X"
+            },
+            {
+              "group": "Transaction Types > System-Generated Transactions",
+              "text": "The following transactions are supported for Visa POS."
+            },
+            {
+              "group": "VisaNet Settlement Service (VSS) > Settlement Schedule",
+              "text": "Key Time"
+            },
+            {
+              "group": "VisaNet Settlement Service (VSS) > Settlement Schedule",
+              "text": "Apr – Oct"
+            },
+            {
+              "group": "VisaNet Settlement Service (VSS) > Settlement Schedule",
+              "text": "Oct – Apr"
+            }
+          ]
         }
       ],
       "groups": [
@@ -1210,19 +4457,40 @@
       "secondary": [
         {
           "label": "Secciones agregadas",
-          "value": 0
+          "value": 0,
+          "details": []
         },
         {
           "label": "Secciones eliminadas",
-          "value": 4
+          "value": 4,
+          "details": [
+            {
+              "group": "",
+              "text": "VSS Report Delivery > VSS Reports on Visa Access (1 párrafos, 0 pares)"
+            },
+            {
+              "group": "",
+              "text": "VSS Report Delivery > VSS Reports on Visa Access > Available Reports (2 párrafos, 0 pares)"
+            },
+            {
+              "group": "",
+              "text": "VSS Report Delivery > VSS Reports on Visa Access > Accessing Visa Access and VisaNet Settlement Service (3 párrafos, 0 pares)"
+            },
+            {
+              "group": "",
+              "text": "VSS Report Delivery > VSS Reports on Visa Access > Reports Access (7 párrafos, 0 pares)"
+            }
+          ]
         },
         {
           "label": "Pares agregados",
-          "value": 0
+          "value": 0,
+          "details": []
         },
         {
           "label": "Pares eliminados",
-          "value": 0
+          "value": 0,
+          "details": []
         }
       ],
       "groups": [],
@@ -1241,19 +4509,218 @@
       "secondary": [
         {
           "label": "Tablas agregadas",
-          "value": 0
+          "value": 0,
+          "details": []
         },
         {
           "label": "Tablas eliminadas",
-          "value": 1
+          "value": 1,
+          "details": [
+            {
+              "group": "Apéndice C: VSS Codes",
+              "text": "Fee Collection/Funds Disbursement Business Transaction Cycle Codes (21 filas)"
+            }
+          ]
         },
         {
           "label": "Filas agregadas",
-          "value": 41
+          "value": 41,
+          "details": [
+            {
+              "group": "Apéndice C: VSS Codes — Business Transaction Cycle Codes",
+              "text": "Code: 1 | Cycle: Originals"
+            },
+            {
+              "group": "Apéndice C: VSS Codes — Business Transaction Cycle Codes",
+              "text": "Code: 2 | Cycle: Chargebacks"
+            },
+            {
+              "group": "Apéndice C: VSS Codes — Business Transaction Types Fee Collection/Funds Disbursement",
+              "text": "Reason Code: 875 | Business Transaction TypeFee Collection: FEE INQUIRY"
+            },
+            {
+              "group": "Apéndice C: VSS Codes — Charge Types",
+              "text": "Code: 061 | Charge Type: NETWORK POS ASSESSMENT CHARGE"
+            },
+            {
+              "group": "Apéndice C: VSS Codes — Charge Types",
+              "text": "Code: 181 | Charge Type: ENHANCED DATA PROGRAM"
+            },
+            {
+              "group": "Apéndice C: VSS Codes — Charge Types",
+              "text": "Code: 182 | Charge Type: ALLOC ENHANCED DATA PROGRAM"
+            },
+            {
+              "group": "Apéndice C: VSS Codes — Charge Types",
+              "text": "Code: 183 | Charge Type: LAGGING INTERCHANGE"
+            },
+            {
+              "group": "Apéndice C: VSS Codes — Charge Types",
+              "text": "Code: 185 | Charge Type: ISA TIER 01"
+            },
+            {
+              "group": "Apéndice C: VSS Codes — Charge Types",
+              "text": "Code: 187 | Charge Type: ISA TIER 02"
+            },
+            {
+              "group": "Apéndice C: VSS Codes — Charge Types",
+              "text": "Code: 189 | Charge Type: ISA TIER 03"
+            },
+            {
+              "group": "Apéndice C: VSS Codes — Charge Types",
+              "text": "Code: 191 | Charge Type: ISA TIER 04"
+            },
+            {
+              "group": "Apéndice C: VSS Codes — Charge Types",
+              "text": "Code: 193 | Charge Type: ISA TIER 05"
+            },
+            {
+              "group": "Apéndice C: VSS Codes — Fee Collection/Funds Disbursement",
+              "text": "Fee Collection: 580 | Funds Disbursement: 680 | Reason Code: 5220"
+            },
+            {
+              "group": "Apéndice C: VSS Codes — Fee Collection/Funds Disbursement",
+              "text": "Fee Collection: 581 | Funds Disbursement: 681 | Reason Code: 5230"
+            },
+            {
+              "group": "Apéndice C: VSS Codes — Fee Collection/Funds Disbursement",
+              "text": "Fee Collection: 552 | Funds Disbursement: 652 | Reason Code: 5300"
+            },
+            {
+              "group": "Apéndice C: VSS Codes — Fee Collection/Funds Disbursement",
+              "text": "Fee Collection: 559 | Funds Disbursement: 659 | Reason Code: 5310"
+            },
+            {
+              "group": "Apéndice C: VSS Codes — Fee Collection/Funds Disbursement",
+              "text": "Fee Collection: 558 | Funds Disbursement: 658 | Reason Code: 5320"
+            },
+            {
+              "group": "Apéndice C: VSS Codes — Fee Collection/Funds Disbursement",
+              "text": "Fee Collection: 560 | Funds Disbursement: 660 | Reason Code: 5330"
+            },
+            {
+              "group": "Apéndice C: VSS Codes — Fee Collection/Funds Disbursement",
+              "text": "Fee Collection: 561 | Funds Disbursement: 661 | Reason Code: 5340"
+            },
+            {
+              "group": "Apéndice C: VSS Codes — Fee Collection/Funds Disbursement",
+              "text": "Fee Collection: 562 | Funds Disbursement: 662 | Reason Code: 5350"
+            },
+            {
+              "group": "Apéndice C: VSS Codes — Fee Collection/Funds Disbursement",
+              "text": "Fee Collection: 563 | Funds Disbursement: 663 | Reason Code: 5360"
+            },
+            {
+              "group": "Apéndice C: VSS Codes — Fee Collection/Funds Disbursement",
+              "text": "Fee Collection: 584 | Funds Disbursement: 684 | Reason Code: 6140"
+            },
+            {
+              "group": "Apéndice C: VSS Codes — Fee Collection/Funds Disbursement",
+              "text": "Fee Collection: 585 | Funds Disbursement: 685 | Reason Code: 6150"
+            },
+            {
+              "group": "Apéndice C: VSS Codes — Fee Collection/Funds Disbursement",
+              "text": "Fee Collection: 586 | Funds Disbursement: 686 | Reason Code: 6160"
+            },
+            {
+              "group": "Apéndice C: VSS Codes — Fee Collection/Funds Disbursement",
+              "text": "Fee Collection: 587 | Funds Disbursement: 687 | Reason Code: 6170"
+            },
+            {
+              "group": "Apéndice C: VSS Codes — Fee Collection/Funds Disbursement",
+              "text": "Fee Collection: 591 | Funds Disbursement: 691 | Reason Code: 6181"
+            },
+            {
+              "group": "Apéndice C: VSS Codes — Fee Collection/Funds Disbursement",
+              "text": "Fee Collection: 592 | Funds Disbursement: 692 | Reason Code: 6182"
+            },
+            {
+              "group": "Apéndice C: VSS Codes — Fee Collection/Funds Disbursement",
+              "text": "Fee Collection: 593 | Funds Disbursement: 693 | Reason Code: 6183"
+            },
+            {
+              "group": "Apéndice C: VSS Codes — Fee Collection/Funds Disbursement",
+              "text": "Fee Collection: 594 | Funds Disbursement: 694 | Reason Code: 6184"
+            },
+            {
+              "group": "Apéndice C: VSS Codes — Fee Collection/Funds Disbursement",
+              "text": "Fee Collection: 595 | Funds Disbursement: 695 | Reason Code: 6185"
+            },
+            {
+              "group": "Apéndice C: VSS Codes — Fee Collection/Funds Disbursement",
+              "text": "Fee Collection: 596 | Funds Disbursement: 696 | Reason Code: 6186"
+            },
+            {
+              "group": "Apéndice C: VSS Codes — Fee Collection/Funds Disbursement",
+              "text": "Fee Collection: 597 | Funds Disbursement: 697 | Reason Code: 6187"
+            },
+            {
+              "group": "Apéndice C: VSS Codes — Fee Collection/Funds Disbursement",
+              "text": "Fee Collection: 599 | Funds Disbursement: 699 | Reason Code: Other"
+            },
+            {
+              "group": "Apéndice D: SMS Reports and Raw Data — Financial Transaction Fee Record – V22261",
+              "text": "Comments: Values : 1 = VDCAP Space = Default | Field Sources: F111.56.89 | Attribute: 1 AN | Position: 62 | Field Name: Applied Special Service"
+            },
+            {
+              "group": "Apéndice D: SMS Reports and Raw Data — Financial Transaction Fee Record – V22261",
+              "text": "Comments: This field contains the B2B program identifier. 5-alphanumeric character (A-Z, 0-9) – no special characters allowed. | Field Sources: Not applicable Not applicable | Attribute: 2 AN 5 AN | Position: 55–56 57–61 | Field Name: B2B Program ID Enabler Verification Value (EVV)"
+            },
+            {
+              "group": "Apéndice D: SMS Reports and Raw Data — Financial Transaction Fee Record – V22261",
+              "text": "Comments: C for Credit, D for Debit, Space when Fee is zero This field will contain the selected program ID associated with the agreed fee rate. | Field Sources: Not applicable TLV Field 111, Dataset ID 02, Tag C0 | Attribute: 1 AN 4 AN | Position: 49 50–53 | Field Name: Transaction Integrity Fee Debit/Credit Indicator Selected Program ID"
+            },
+            {
+              "group": "Apéndice D: SMS Reports and Raw Data — Financial Transaction Fee Record – V23210",
+              "text": "Comments: Values : 1 = VDCAP Space = Default | Field Sources: F111.56.89 | Attribute: 1 AN | Position: 43 | Field Name: Applied Special Service"
+            },
+            {
+              "group": "Apéndice D: SMS Reports and Raw Data — Financial Transaction Record 1.1 – V22201",
+              "text": "Comments: Populated only in Issuer record. Acquirer record will have spaces. | Attribute: 19 AN | Position: 79–97 | Field Name: Secondary Credential"
+            },
+            {
+              "group": "Apéndice D: SMS Reports and Raw Data — Financial Transaction Record 4 – V23203",
+              "text": "Comments: Populate only Issuer record.  Acquirer record will have spaces. Space filled. | Attribute: 19 AN | Position: 39–57 | Field Name: Secondary Credential"
+            },
+            {
+              "group": "Apéndice D: SMS Reports and Raw Data — Financial Transaction Record 5 – V22226",
+              "text": "Comments: 01: Visa 02: Other Space: Default | Field Sources: F104, DSI 57, Tag 84 | Attribute: 2 AN | Position: 125-126 | Field Name: Scheme Identifier"
+            },
+            {
+              "group": "Apéndice D: SMS Reports and Raw Data — Financial Transaction Record/Visa Payment Service-Specific – V22230",
+              "text": "Comments: Not applicable Not applicable | Field Sources: Field 62.7, Position 1 Field 62.7, Position 2–17 | Attribute: 1 AN 16 AN | Position: 8 9–24 | Field Name: Purchase Identifier Format Purchase ID Number"
+            }
+          ]
         },
         {
           "label": "Filas eliminadas",
-          "value": 6
+          "value": 6,
+          "details": [
+            {
+              "group": "Apéndice C: VSS Codes — Business Transaction Types Fee Collection/Funds Disbursement",
+              "text": "Reason Code: 867 | Business Transaction TypeFee Collection: Visa ePay Transfer"
+            },
+            {
+              "group": "Apéndice D: SMS Reports and Raw Data — Financial Transaction Fee Record – V22261",
+              "text": "Comments: This field contains the B2B program identifier. | Field Sources: Not applicable | Attribute: 2 AN | Position: 55–56 | Field Name: B2B Program ID"
+            },
+            {
+              "group": "Apéndice D: SMS Reports and Raw Data — Financial Transaction Fee Record – V22261",
+              "text": "Comments: 5-alphanumeric character (A-Z, 0-9) – no special characters allowed. | Field Sources: Not applicable | Attribute: 5 AN | Position: 57–61 | Field Name: Enabler Verification Value (EVV)"
+            },
+            {
+              "group": "Apéndice D: SMS Reports and Raw Data — Financial Transaction Fee Record – V22261",
+              "text": "Comments: C for Credit, D for Debit, Space when Fee is zero This field will contain the agreement ID associated with the agreed fee rate. | Field Sources: Not applicable TLV Field 111, Dataset ID 02, Tag C0 | Attribute: 1 AN 4 AN | Position: 49 50–53 | Field Name: Transaction Integrity Fee Debit/Credit Indicator Agreement ID"
+            },
+            {
+              "group": "Apéndice D: SMS Reports and Raw Data — Financial Transaction Record/Visa Payment Service-Specific – V22230",
+              "text": "Comments: Not applicable | Field Sources: Field 62.7, Position 2–17 | Attribute: 16 AN | Position: 9–24 | Field Name: Purchase ID Number"
+            },
+            {
+              "group": "Apéndice D: SMS Reports and Raw Data — Financial Transaction Record/Visa Payment Service-Specific – V22230",
+              "text": "Comments: Not applicable | Field Sources: Field 62.7, Position 1 | Attribute: 1 AN | Position: 8 | Field Name: Purchase Identifier Format"
+            }
+          ]
         }
       ],
       "groups": [

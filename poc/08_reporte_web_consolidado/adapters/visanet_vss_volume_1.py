@@ -13,6 +13,22 @@ def _path_str(path) -> str:
     return " > ".join(path)
 
 
+def _section_details(changes: list) -> list:
+    return [
+        _common.make_detail(
+            "", f"{_path_str(c['path'])} ({c['num_paragraphs']} párrafos, {c['num_pairs']} pares)"
+        )
+        for c in changes
+    ]
+
+
+def _pair_details(changes: list) -> list:
+    return [
+        _common.make_detail(_path_str(c["path"]), f"{c['name']} ({c['example_title']}): {c['description']}")
+        for c in sorted(changes, key=lambda c: _path_str(c["path"]))
+    ]
+
+
 def summarize(data: dict, manual_dir, pair_filename: str) -> dict:
     changes = data["changes"]
     by_type: dict = {}
@@ -50,10 +66,10 @@ def summarize(data: dict, manual_dir, pair_filename: str) -> dict:
         "edition_b": data["edition_b"],
         "headline": {"label": "Cambios de negocio a revisar", "value": len(business)},
         "secondary": [
-            {"label": "Secciones agregadas", "value": len(by_type.get("section_added", []))},
-            {"label": "Secciones eliminadas", "value": len(by_type.get("section_removed", []))},
-            {"label": "Pares agregados", "value": len(by_type.get("pair_added", []))},
-            {"label": "Pares eliminados", "value": len(by_type.get("pair_removed", []))},
+            _common.make_pill("Secciones agregadas", _section_details(by_type.get("section_added", []))),
+            _common.make_pill("Secciones eliminadas", _section_details(by_type.get("section_removed", []))),
+            _common.make_pill("Pares agregados", _pair_details(by_type.get("pair_added", []))),
+            _common.make_pill("Pares eliminados", _pair_details(by_type.get("pair_removed", []))),
         ],
         "groups": groups,
         "top_items": _common.top_items(groups),

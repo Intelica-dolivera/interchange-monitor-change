@@ -33,7 +33,8 @@ Encima de los 8 pipelines hay 2 capas:
 - **`poc/08_reporte_web_consolidado/`** — junta el último par comparado de cada uno de los 8
   manuales en una sola página HTML autocontenida (`build.py`), con una pestaña "Cambios
   recientes" que resalta qué manuales tuvieron una edición nueva desde la última vez que se
-  generó el reporte.
+  generó el reporte. Los pills de conteo (altas, bajas, secciones, transiciones...) son
+  clicables y despliegan el contenido de lo agregado/eliminado.
 
 ## 2. Los 8 manuales soportados
 

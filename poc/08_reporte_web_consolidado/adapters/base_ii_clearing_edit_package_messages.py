@@ -55,16 +55,19 @@ def summarize(data: dict, manual_dir, pair_filename: str) -> dict:
         ]
         groups.append(_common.make_group(f"`{code}` — {title}", items))
 
-    added = len(by_type.get("ficha_added", []))
-    removed = len(by_type.get("ficha_removed", []))
+    def ficha_details(change_type: str) -> list:
+        return [
+            _common.make_detail("", f"`{c['code']}` — {c['title']}")
+            for c in sorted(by_type.get(change_type, []), key=lambda c: c["code"])
+        ]
 
     return {
         "edition_a": data["edition_a"],
         "edition_b": data["edition_b"],
         "headline": {"label": "Cambios de negocio a revisar", "value": len(business)},
         "secondary": [
-            {"label": "Fichas agregadas", "value": added},
-            {"label": "Fichas eliminadas", "value": removed},
+            _common.make_pill("Fichas agregadas", ficha_details("ficha_added")),
+            _common.make_pill("Fichas eliminadas", ficha_details("ficha_removed")),
         ],
         "groups": groups,
         "top_items": _common.top_items(groups),

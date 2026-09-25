@@ -32,6 +32,18 @@ def make_group(group_title: str, items: list) -> dict:
     return {"group_title": group_title, "items": items}
 
 
+def make_pill(label: str, details: list) -> dict:
+    """Pill secundario (altas/bajas/etc.) cuyo valor es la cantidad de `details` -asi el
+    conteo y el detalle desplegable no pueden divergir. `details` = lista de make_detail()."""
+    return {"label": label, "value": len(details), "details": details}
+
+
+def make_detail(group: str, text: str) -> dict:
+    """Una entrada del detalle de un pill: `group` es el contexto (tabla, seccion, TC...),
+    "" si no aplica; `text` es el contenido de lo agregado/eliminado."""
+    return {"group": group, "text": text}
+
+
 def top_items(groups: list, n: int = 3) -> list:
     """Primeros N items en orden de aparicion (ver decision de diseno en el plan: no se
     inventa un score de "importancia" sin datos que lo justifiquen). El `location` se

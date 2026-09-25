@@ -31,6 +31,10 @@ def _row_line(cells: list) -> str:
     return f"`{cells[0]}` — (sin descripción)"
 
 
+def _tc_details(changes: list) -> list:
+    return [_common.make_detail("", f"{c['title']} ({c['num_rows']} TCR)") for c in changes]
+
+
 def summarize(data: dict, manual_dir, pair_filename: str) -> dict:
     row_counts = _row_counts_by_title(manual_dir, pair_filename)
 
@@ -85,9 +89,19 @@ def summarize(data: dict, manual_dir, pair_filename: str) -> dict:
         "edition_b": data["edition_b"],
         "headline": {"label": "Cambios de TCR", "value": len(row_added) + len(row_removed)},
         "secondary": [
-            {"label": "TC agregados", "value": len(by_type.get("section_added", []))},
-            {"label": "TC eliminados", "value": len(by_type.get("section_removed", []))},
-            {"label": "TC afectados", "value": len(changed_titles)},
+            _common.make_pill("TC agregados", _tc_details(by_type.get("section_added", []))),
+            _common.make_pill("TC eliminados", _tc_details(by_type.get("section_removed", []))),
+            _common.make_pill(
+                "TC afectados",
+                [
+                    _common.make_detail(
+                        "",
+                        f"{title}: +{len(added_by_title.get(title, []))} / "
+                        f"-{len(removed_by_title.get(title, []))} TCR",
+                    )
+                    for title in changed_titles
+                ],
+            ),
         ],
         "groups": groups,
         "top_items": _common.top_items(groups),

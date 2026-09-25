@@ -8,6 +8,23 @@ para que headline/secondary coincidan con lo que ya muestra el index.md de ese m
 
 from . import _common
 
+TABLES_GROUP = "Tablas completas"
+
+
+def _table_details(changes: list) -> list:
+    return [
+        _common.make_detail(TABLES_GROUP, f"{_common.short_name(c['table'])} ({c['num_rows']} filas)")
+        for c in changes
+    ]
+
+
+def _code_details(changes: list) -> list:
+    """Codigos sueltos dentro de una tabla que sigue existiendo, agrupados por tabla."""
+    return [
+        _common.make_detail(_common.short_name(c["table"]), f"`{c['code']}` — {' | '.join(c['cells'][1:])}")
+        for c in sorted(changes, key=lambda c: _common.short_name(c["table"]))
+    ]
+
 
 def summarize(data: dict, manual_dir, pair_filename: str) -> dict:
     changes = data["changes"]
@@ -36,18 +53,18 @@ def summarize(data: dict, manual_dir, pair_filename: str) -> dict:
         ]
         groups.append(_common.make_group(_common.short_name(table), items))
 
-    added = len(by_type.get("table_added", [])) + len(by_type.get("code_added", []))
-    removed = len(by_type.get("table_removed", [])) + len(by_type.get("code_removed", []))
+    tables_added = _table_details(by_type.get("table_added", []))
+    tables_removed = _table_details(by_type.get("table_removed", []))
 
     return {
         "edition_a": data["edition_a"],
         "edition_b": data["edition_b"],
         "headline": {"label": "Cambios de negocio a revisar", "value": len(business)},
         "secondary": [
-            {"label": "Altas", "value": added},
-            {"label": "Bajas", "value": removed},
-            {"label": "Tablas agregadas", "value": len(by_type.get("table_added", []))},
-            {"label": "Tablas eliminadas", "value": len(by_type.get("table_removed", []))},
+            _common.make_pill("Altas", tables_added + _code_details(by_type.get("code_added", []))),
+            _common.make_pill("Bajas", tables_removed + _code_details(by_type.get("code_removed", []))),
+            _common.make_pill("Tablas agregadas", tables_added),
+            _common.make_pill("Tablas eliminadas", tables_removed),
         ],
         "groups": groups,
         "top_items": _common.top_items(groups),

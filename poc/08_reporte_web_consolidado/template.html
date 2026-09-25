@@ -94,6 +94,43 @@
     color: var(--accent);
     font-weight: 600;
   }
+  button.chip {
+    border: 1px solid var(--border);
+    color: var(--text);
+    font-family: inherit;
+    cursor: pointer;
+  }
+  button.chip::after { content: " ▾"; color: var(--muted); }
+  button.chip:hover { border-color: var(--accent); }
+  button.chip.open {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: #fff;
+  }
+  button.chip.open::after { content: " ▴"; color: #fff; }
+  .chip-hint { font-size: 12px; margin: 2px 0 0; }
+  .pill-detail {
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 8px 12px;
+    margin: 8px 0 4px;
+    max-height: 420px;
+    overflow-y: auto;
+    font-size: 13px;
+  }
+  .pill-detail h4 {
+    font-size: 13px;
+    margin: 10px 0 4px;
+    color: var(--muted);
+  }
+  .pill-detail h4:first-child { margin-top: 2px; }
+  .pill-detail ul { margin: 0; padding-left: 18px; }
+  .pill-detail li {
+    margin-bottom: 3px;
+    line-height: 1.4;
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+  }
   .top-list, .group-items { list-style: none; margin: 10px 0 0; padding: 0; }
   .top-list li { margin-bottom: 8px; }
   h3 {
@@ -192,6 +229,55 @@ function chip(label, value, isHeadline) {
   return el("span", { class: "chip" + (isHeadline ? " headline" : ""), text: `${label}: ${value}` });
 }
 
+// Contenido de lo agregado/eliminado detras de un pill secundario, agrupado por contexto
+// (tabla, seccion, TC...) -las entradas ya vienen ordenadas por grupo desde el adaptador.
+function renderPillDetail(pill) {
+  const panel = el("div", { class: "pill-detail" });
+  let list = null;
+  let currentGroup = null;
+  for (const d of pill.details) {
+    if (list === null || d.group !== currentGroup) {
+      currentGroup = d.group;
+      if (d.group) panel.appendChild(el("h4", { text: d.group }));
+      list = el("ul");
+      panel.appendChild(list);
+    }
+    list.appendChild(el("li", { text: d.text }));
+  }
+  return panel;
+}
+
+// Pills secundarios con detalle: un clic abre su panel debajo de la fila de pills (uno a la
+// vez por tarjeta), otro clic lo cierra. Los que valen 0 quedan como chip plano.
+function renderSecondaryChips(chips, secondary) {
+  let openBtn = null;
+  let openPanel = null;
+  let anyClickable = false;
+  for (const s of secondary) {
+    if (!s.details || !s.details.length) {
+      chips.appendChild(chip(s.label, s.value, false));
+      continue;
+    }
+    anyClickable = true;
+    const btn = el("button", { class: "chip", text: `${s.label}: ${s.value}` });
+    btn.addEventListener("click", () => {
+      const wasOpen = openBtn === btn;
+      if (openPanel) openPanel.remove();
+      if (openBtn) openBtn.classList.remove("open");
+      openBtn = openPanel = null;
+      if (wasOpen) return;
+      openPanel = renderPillDetail(s);
+      const hint = chips.nextElementSibling;
+      const anchor = hint && hint.classList.contains("chip-hint") ? hint : chips;
+      anchor.insertAdjacentElement("afterend", openPanel);
+      btn.classList.add("open");
+      openBtn = btn;
+    });
+    chips.appendChild(btn);
+  }
+  return anyClickable;
+}
+
 function renderItem(item) {
   const wrap = el("div", { class: "item" + (item.flagged ? " flagged" : "") });
   wrap.appendChild(el("div", { class: "item-loc", text: (item.flagged ? "⚠️ " : "") + item.location }));
@@ -229,8 +315,10 @@ function renderManualCard(m, opts) {
 
   const chips = el("div", { class: "chips" });
   chips.appendChild(chip(m.headline.label, m.headline.value, true));
-  for (const s of m.secondary) chips.appendChild(chip(s.label, s.value, false));
   card.appendChild(chips);
+  if (renderSecondaryChips(chips, m.secondary)) {
+    card.appendChild(el("div", { class: "muted chip-hint", text: "Clic en un pill para ver su detalle." }));
+  }
 
   if (opts && opts.compact) {
     if (m.top_items.length) {

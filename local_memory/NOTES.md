@@ -4188,3 +4188,24 @@ volver a correr `build.py`.
 **Próximo paso**: no hay una "próxima ronda" de revisión manual pendiente -los 8 manuales ya
 están cubiertos; futuras rondas dependerían de nuevas ediciones de los PDFs fuente. El usuario
 decide cuándo hacer push del commit `5cc44d4`.
+
+## 2026-09-24 — Reporte web: pills de altas/bajas ahora muestran su detalle
+
+Implementado lo que la entrada del 2026-09-13 dejó documentado como pendiente: los pills
+secundarios del Módulo 8 (altas, bajas, secciones/tablas/fichas/párrafos/pares/filas
+agregados o eliminados, transiciones Reserved↔definido, TC afectados) ahora son clicables y
+despliegan el contenido de cada elemento, agrupado por su contexto (tabla, sección, apéndice,
+TC). Los que valen 0 siguen siendo un chip plano.
+
+- **Adaptadores**: cada pill secundario se arma con `_common.make_pill(label, details)`, cuyo
+  `value` es `len(details)` -conteo y detalle no pueden divergir. Los datos salen del mismo JSON
+  de Módulo 5 que ya se leía (no hizo falta leer Módulo 4 ni re-correr Ollama).
+- **Plantilla**: `renderSecondaryChips` + `renderPillDetail` en `template.html`; un panel
+  abierto a la vez por tarjeta, con scroll propio (POS tiene 387/328 párrafos agregados/eliminados).
+- **Verificado**: `reporte_consolidado.json` antes vs. después -todos los conteos de pills
+  idénticos, headline/groups/top_items idénticos, `estado_publicacion/` idéntico (0/8 nuevos).
+  No se pudo probar el clic en un navegador desde la sesión (sin navegador headless disponible);
+  el JS se revisó a mano.
+- **Fuera de alcance**: en los 2 manuales de grillas existen `row_added/removed` y
+  `card_added/removed` sueltos (dentro de secciones que siguen existiendo) que no tienen pill
+  propio -no se agregaron pills nuevos, solo detalle a los existentes.

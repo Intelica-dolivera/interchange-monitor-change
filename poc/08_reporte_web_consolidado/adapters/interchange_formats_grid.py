@@ -144,6 +144,16 @@ def _business_groups(content_changes: list) -> list:
     return groups
 
 
+def _section_details(changes: list) -> list:
+    details = []
+    for c in sorted(changes, key=lambda c: (c["title"], c.get("signature", ""))):
+        variant = f" — variante con campo «{c['signature']}»" if c.get("signature") else ""
+        details.append(
+            _common.make_detail("", f"{c['title']}{variant} ({c['num_rows']} filas de grilla, {c['num_cards']} fichas)")
+        )
+    return details
+
+
 def summarize(data: dict, manual_dir, pair_filename: str, title: str) -> dict:
     changes = data["changes"]
     by_type: dict = {}
@@ -156,7 +166,11 @@ def summarize(data: dict, manual_dir, pair_filename: str, title: str) -> dict:
     transition_groups = _transition_groups(
         by_type, "Reserved → definido", "field_became_defined"
     ) + _transition_groups(by_type, "Definido → Reserved", "field_became_reserved")
-    num_transitions = sum(len(g["items"]) for g in transition_groups)
+    transition_details = [
+        _common.make_detail(g["group_title"], f"{i['location']}: {i['before']} → {i['after']}")
+        for g in transition_groups
+        for i in g["items"]
+    ]
 
     groups = transition_groups + _business_groups(content_changes)
 
@@ -165,9 +179,9 @@ def summarize(data: dict, manual_dir, pair_filename: str, title: str) -> dict:
         "edition_b": data["edition_b"],
         "headline": {"label": "Cambios de negocio a revisar", "value": len(business)},
         "secondary": [
-            {"label": "Transiciones Reserved↔definido", "value": num_transitions},
-            {"label": "Secciones agregadas", "value": len(by_type.get("section_added", []))},
-            {"label": "Secciones eliminadas", "value": len(by_type.get("section_removed", []))},
+            _common.make_pill("Transiciones Reserved↔definido", transition_details),
+            _common.make_pill("Secciones agregadas", _section_details(by_type.get("section_added", []))),
+            _common.make_pill("Secciones eliminadas", _section_details(by_type.get("section_removed", []))),
         ],
         "groups": groups,
         "top_items": _common.top_items(groups),

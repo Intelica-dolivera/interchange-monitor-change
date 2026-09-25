@@ -33,6 +33,28 @@ def _group_label(appendix: str, table_title: str) -> str:
     return f"{label} — {table_title}" if table_title else label
 
 
+def _table_details(changes: list, change_type: str) -> list:
+    return [
+        _common.make_detail(APPENDIX_LABELS[c["_appendix"]], f"{c['table_title']} ({c['num_rows']} filas)")
+        for c in changes
+        if c["change_type"] == change_type
+    ]
+
+
+def _row_details(changes: list, change_type: str) -> list:
+    """La fila completa (columna: valor, sin las vacias), agrupada por (apendice, tabla)
+    en el mismo orden que los grupos de cambios de negocio."""
+    rows = [c for c in changes if c["change_type"] == change_type]
+    rows.sort(key=lambda c: (c["_appendix"], c.get("table_title", "")))
+    return [
+        _common.make_detail(
+            _group_label(c["_appendix"], c.get("table_title", "")),
+            " | ".join(f"{col}: {val}" for col, val in c["row"]["columns"].items() if val) or f"Fila {c['key']}",
+        )
+        for c in rows
+    ]
+
+
 def summarize(data: dict, manual_dir, pair_filename: str) -> dict:
     changes = _flatten(data)
 
@@ -65,10 +87,10 @@ def summarize(data: dict, manual_dir, pair_filename: str) -> dict:
         "edition_b": data["edition_b"],
         "headline": {"label": "Cambios de negocio a revisar", "value": len(business)},
         "secondary": [
-            {"label": "Tablas agregadas", "value": sum(1 for c in changes if c["change_type"] == "table_added")},
-            {"label": "Tablas eliminadas", "value": sum(1 for c in changes if c["change_type"] == "table_removed")},
-            {"label": "Filas agregadas", "value": sum(1 for c in changes if c["change_type"] == "row_added")},
-            {"label": "Filas eliminadas", "value": sum(1 for c in changes if c["change_type"] == "row_removed")},
+            _common.make_pill("Tablas agregadas", _table_details(changes, "table_added")),
+            _common.make_pill("Tablas eliminadas", _table_details(changes, "table_removed")),
+            _common.make_pill("Filas agregadas", _row_details(changes, "row_added")),
+            _common.make_pill("Filas eliminadas", _row_details(changes, "row_removed")),
         ],
         "groups": groups,
         "top_items": _common.top_items(groups),
