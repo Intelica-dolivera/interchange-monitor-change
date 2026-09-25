@@ -1,5 +1,6 @@
-# PDFs de los manuales (no se suben por tamaño/confidencialidad de origen)
+# PDFs de los manuales (no se suben por tamaño/confidencialidad de origen; se distribuyen en visa/src.zip)
 *.pdf
+visa/src.zip
 
 # Python
 __pycache__/
